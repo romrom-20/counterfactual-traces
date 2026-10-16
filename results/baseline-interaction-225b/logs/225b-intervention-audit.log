@@ -1,0 +1,78 @@
+{
+  "qualified": true,
+  "contexts": 32,
+  "gates": [
+    {
+      "account": "K_account",
+      "count": 16,
+      "strata": [
+        {
+          "schema": "generic",
+          "order": 0,
+          "passed": 8
+        },
+        {
+          "schema": "generic",
+          "order": 1,
+          "passed": 8
+        },
+        {
+          "schema": "descriptive",
+          "order": 0,
+          "passed": 0
+        },
+        {
+          "schema": "descriptive",
+          "order": 1,
+          "passed": 0
+        }
+      ],
+      "passed": false
+    },
+    {
+      "account": "B_account",
+      "count": 0,
+      "strata": [
+        {
+          "schema": "generic",
+          "order": 0,
+          "passed": 0
+        },
+        {
+          "schema": "generic",
+          "order": 1,
+          "passed": 0
+        },
+        {
+          "schema": "descriptive",
+          "order": 0,
+          "passed": 0
+        },
+        {
+          "schema": "descriptive",
+          "order": 1,
+          "passed": 0
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "controls": 3488,
+  "counts": {
+    "ordinary_models": 0,
+    "local_mlps": 0,
+    "continuations": 448,
+    "remaining_blocks": 2464,
+    "finite_heads": 448,
+    "primitive_checks": 0
+  },
+  "maxima": {
+    "down": 6.553948120746611e-05,
+    "head": 8.095484197667702e-06
+  },
+  "retrospective": true,
+  "prospective": false,
+  "learned_circuit_identified": false,
+  "full_question_B_solved": false,
+  "source_sha256": "d71f3fff0345259f6032eed42015fde80cee840bcdc2144932878a2b496c56e7"
+}

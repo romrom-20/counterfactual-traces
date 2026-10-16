@@ -1,28 +1,21 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[project]
-name = "latent-decisions"
-version = "0.1.0"
-description = "Small query-conditioned activation probes with calibration and causal checks"
-readme = "README.md"
-requires-python = ">=3.11"
-license = "MIT"
-dependencies = ["numpy>=1.26,<3", "torch>=2.6,<3", "transformers>=4.51,<5", "scikit-learn>=1.5,<2", "matplotlib>=3.9,<4"]
-
-[project.optional-dependencies]
-dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
-decision-engine = ["laya==0.3.20"]
-
-[project.scripts]
-latent-decisions = "latent_decisions.cli:main"
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-
 [tool.ruff]
 line-length = 100
 
 [tool.ruff.lint]
 select = ["E4", "E7", "E9", "F", "I"]
+
+# These published files are sealed by the 225b release manifest and/or the
+# original pre-execution source hashes. Preserve their exact bytes. Only their
+# existing style deviations are exempt; undefined names, invalid syntax and all
+# other selected correctness checks remain enabled. New code gets the full rules.
+[tool.ruff.lint.per-file-ignores]
+"research/boolean_coupling/audit.py" = ["E731"]
+"research/boolean_coupling/audit225b.py" = ["E731"]
+"research/boolean_coupling/core.py" = ["E731", "I001"]
+"research/boolean_coupling/core225b.py" = ["E731", "I001"]
+"research/boolean_coupling/run.py" = ["E731", "I001"]
+"research/boolean_coupling/run225b.py" = ["E731", "I001"]
+"research/boolean_coupling/package.py" = ["I001"]
+"research/boolean_coupling/present.py" = ["E702", "I001"]
+"research/boolean_coupling/reproduce.py" = ["I001"]
+"results/baseline-interaction-225b/frozen-*/research/boolean_coupling/*.py" = ["E731", "I001"]

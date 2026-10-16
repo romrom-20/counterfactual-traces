@@ -1,13 +1,18 @@
-name: checks
+name: Question B checks
 on: [push, pull_request]
+
 jobs:
-  scientific-tests:
+  release-integrity:
+    name: Evidence, syntax and lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
         with:
           version: "0.12.17"
-      - run: uv sync --frozen --extra dev --python 3.12
-      - run: uv run ruff check .
-      - run: uv run pytest -q
+      - name: Lint active code and sealed sources
+        run: uvx --python 3.12 ruff==0.16.8 check .
+      - name: Verify published study and historical evidence
+        run: uv run --no-project --python 3.12 python research/boolean_coupling/reproduce.py --verify-only --history --plan
+      - name: Compile published Python sources without model imports
+        run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

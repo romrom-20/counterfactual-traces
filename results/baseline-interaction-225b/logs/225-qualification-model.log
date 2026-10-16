@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/run.py", line 217, in <module>
+    main()
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/run.py", line 213, in main
+    qualify(args) if args.phase == "qualify" else intervene(args)
+    ^^^^^^^^^^^^^
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/run.py", line 66, in qualify
+    model = load_model(args.offline)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/core.py", line 53, in load_model
+    assert tokenizer.encode("false", add_special_tokens=False) == [895]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
