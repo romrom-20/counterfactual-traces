@@ -1,0 +1,637 @@
+{
+  "aggregate": [
+    {
+      "site": 22,
+      "schema": "generic",
+      "count": 16,
+      "medians": {
+        "E00": 0.6344928741455078,
+        "E10": 0.7065410614013672,
+        "E01": 0.16007423400878906,
+        "E11": 0.20113754272460938
+      },
+      "signs": {
+        "E00": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E10": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E01": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E11": {
+          "positive": 16,
+          "negative": 0
+        }
+      },
+      "K_only_reverses": 0,
+      "B_only_reverses": 0
+    },
+    {
+      "site": 22,
+      "schema": "descriptive",
+      "count": 16,
+      "medians": {
+        "E00": 1.9918651580810547,
+        "E10": 1.9562492370605469,
+        "E01": 0.8519973754882812,
+        "E11": 0.8306865692138672
+      },
+      "signs": {
+        "E00": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E10": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E01": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E11": {
+          "positive": 16,
+          "negative": 0
+        }
+      },
+      "K_only_reverses": 0,
+      "B_only_reverses": 0
+    },
+    {
+      "site": 23,
+      "schema": "generic",
+      "count": 16,
+      "medians": {
+        "E00": 0.2601470947265625,
+        "E10": 0.25319862365722656,
+        "E01": -0.17658042907714844,
+        "E11": -0.16644859313964844
+      },
+      "signs": {
+        "E00": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E10": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E01": {
+          "positive": 0,
+          "negative": 16
+        },
+        "E11": {
+          "positive": 0,
+          "negative": 16
+        }
+      },
+      "K_only_reverses": 16,
+      "B_only_reverses": 0
+    },
+    {
+      "site": 23,
+      "schema": "descriptive",
+      "count": 16,
+      "medians": {
+        "E00": 0.33210182189941406,
+        "E10": 0.2387704849243164,
+        "E01": -1.8014945983886719,
+        "E11": -1.5566940307617188
+      },
+      "signs": {
+        "E00": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E10": {
+          "positive": 16,
+          "negative": 0
+        },
+        "E01": {
+          "positive": 0,
+          "negative": 16
+        },
+        "E11": {
+          "positive": 0,
+          "negative": 16
+        }
+      },
+      "K_only_reverses": 16,
+      "B_only_reverses": 0
+    }
+  ],
+  "behavior": [
+    {
+      "context": "0cf392cdefc11ca5baaa059d6e8fa593034fa5b214f23bbf922dd5b0533a3eab",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 0.5523109436035156,
+      "true_margin": 8.226016998291016,
+      "shift": 7.6737060546875,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "2f28ad7126c45e5dbdc84f675849aa474d6cbd8829f918350b647f1406b42970",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 0.7505874633789062,
+      "true_margin": 5.441017150878906,
+      "shift": 4.6904296875,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "34cf8df83eb8c6bd14646f2ed04c2e89c2ebf216f4bc676a2aab25640e9b9594",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 0.13242721557617188,
+      "true_margin": 8.319538116455078,
+      "shift": 8.187110900878906,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "3b3712ce2ee1cdd18263e70b0f55187a36a3d3aa8e6fd9bc23a0e4b15f99d24b",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.5829391479492188,
+      "true_margin": 7.970348358154297,
+      "shift": 7.387409210205078,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "3fdc125b29c78a6d7aa2b4777151448fc69526d0636dcba8f1bd4ed7ef4c91de",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -4.037849426269531,
+      "true_margin": 9.007232666015625,
+      "shift": 13.045082092285156,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "4b07bfc3d434abd8e0217cc6bd542864f26488bf91a6bb352ac6945bac45b11c",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.11211776733398438,
+      "true_margin": 7.9832763671875,
+      "shift": 7.871158599853516,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "4b19240097b550b994f4adea7a310ea432d5b5d4e0285856a6876d87c0fdb2fa",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -4.213016510009766,
+      "true_margin": 9.991226196289062,
+      "shift": 14.204242706298828,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "5305919145d535c43c0f43bf2a347ec6ee45de765406ea7b33764ce572d0a7f8",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 1.3687553405761719,
+      "true_margin": 7.4539031982421875,
+      "shift": 6.085147857666016,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "5b53a14afd19b158f77c49829cff9613742a2679c706d9340b393a990dc8fcc4",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 1.197235107421875,
+      "true_margin": 7.694530487060547,
+      "shift": 6.497295379638672,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "610e2ac589d2f314061f729fb51b63367819557e189629415371ca41adaf0877",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 0.19762039184570312,
+      "true_margin": 5.7054290771484375,
+      "shift": 5.507808685302734,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "6aa3e396f5748b39fdf2ecbaca989b2d69e54367192258b8f2e9d50b74cfb019",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -4.105121612548828,
+      "true_margin": 9.496612548828125,
+      "shift": 13.601734161376953,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "780392c6777c8fc4aec5d3daaa98e0e8581ccb6cff9692cc618c87f8f227d254",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -4.5590057373046875,
+      "true_margin": 7.761997222900391,
+      "shift": 12.321002960205078,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "8700a7316b5b5f42fceeaf3f05853735d1d3f3f986d4852032a5c7d5c45dcda4",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 1.1203460693359375,
+      "true_margin": 8.27834701538086,
+      "shift": 7.158000946044922,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "8a5490542bba1c590fdc44c12d80637139281534d195e6e6f31e94020fc6ec31",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -4.468090057373047,
+      "true_margin": 9.510856628417969,
+      "shift": 13.978946685791016,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "913c2a0c4d8a8a75aa916a4f8c84b1d5e97b49e73dd58f647a84bb004f0c50f7",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -3.74517822265625,
+      "true_margin": 10.018177032470703,
+      "shift": 13.763355255126953,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "91afeaf7c7f04350e0a0b7e094f3384bbeca1c609aeee30f6843ba0c9c04625e",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.19588088989257812,
+      "true_margin": 6.034416198730469,
+      "shift": 5.838535308837891,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "97dcbb1eeb2b768ac51c0d7473035dfed1585caa3ac873a1f481ef34419fafd9",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.7810745239257812,
+      "true_margin": 7.843597412109375,
+      "shift": 7.062522888183594,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "9921fc73a23f864ad46efe3a4b7a0508f1e7076324a040ae52542cc7bb087e1e",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -3.577861785888672,
+      "true_margin": 9.83932876586914,
+      "shift": 13.417190551757812,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "9b46deb390129b39d2141a20f6180ba82513d018aebeed0d3f58486bc68f226b",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -4.573383331298828,
+      "true_margin": 8.026161193847656,
+      "shift": 12.599544525146484,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "a0685ba108f01e49ba86192b213795bf1338996703426a87cae393e0e96a2af9",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 0.8089218139648438,
+      "true_margin": 7.3975982666015625,
+      "shift": 6.588676452636719,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "a7d5c49b8894da6f4174a2e06f12c571f3c276251422d8cbc6eb6edff591b612",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -3.970691680908203,
+      "true_margin": 9.132587432861328,
+      "shift": 13.103279113769531,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "a868b0aa7b4eeab912244fa40e50d6beba92768833206e79c4e3f1337eaba74c",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.8029975891113281,
+      "true_margin": 7.989387512207031,
+      "shift": 7.186389923095703,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "b2f34bb653e32a0a4e4daa6a5ed0ec2cb5ed40562229749e7c6f89d397619a51",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -4.107784271240234,
+      "true_margin": 9.325077056884766,
+      "shift": 13.432861328125,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "beb0e330eb7deadb51f66bbc2d3158663b6d8e50d66483f13de5993bfb61cff7",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.6294479370117188,
+      "true_margin": 5.6915130615234375,
+      "shift": 5.062065124511719,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "c16fcff3e793787e401a7680a1a10f5e49a694c1385aff77570153a84e4350a1",
+      "group": {
+        "assignment": 0,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "false_margin": 0.29383087158203125,
+      "true_margin": 7.901771545410156,
+      "shift": 7.607940673828125,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "e66d10f26fb22004c01cab608b845d9195e37ca22f191c432593cc6d5fc9239c",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "false_margin": 0.6155014038085938,
+      "true_margin": 8.018524169921875,
+      "shift": 7.403022766113281,
+      "same_boolean_choice": true
+    },
+    {
+      "context": "e8482ef1ffa2ec72a4901002d0ed72ff3f5a0f974054c3968f09febc572787ff",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -4.422660827636719,
+      "true_margin": 8.957775115966797,
+      "shift": 13.380435943603516,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "e9bf2f7ad0d95b59d772a1ee3bbe44acce2600a5d16cd0124b23856d3b779dea",
+      "group": {
+        "assignment": 1,
+        "block": "larch",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -4.530170440673828,
+      "true_margin": 9.269088745117188,
+      "shift": 13.799259185791016,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "efe1dae03fb3e339d4ecbf227ed0febd0df76a862e75931cc74d5dcaefeb4965",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -4.307529449462891,
+      "true_margin": 8.929908752441406,
+      "shift": 13.237438201904297,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "f2968609823f678e9727ffb6ffde18b2dd1f522967a714e8da3041378a6c3961",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -4.072208404541016,
+      "true_margin": 9.809978485107422,
+      "shift": 13.882186889648438,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "f53c598ea1569458c3b9a396517519c3c1739c5461ad3f0d71df5c9d62a96740",
+      "group": {
+        "assignment": 1,
+        "block": "marzipan",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "false_margin": -3.8991661071777344,
+      "true_margin": 9.999309539794922,
+      "shift": 13.898475646972656,
+      "same_boolean_choice": false
+    },
+    {
+      "context": "fa1901455c9d5a68a77e1b844b2782811079864f0487d1ce76cea0853463a2ab",
+      "group": {
+        "assignment": 0,
+        "block": "marzipan",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "false_margin": -3.7989273071289062,
+      "true_margin": 9.744083404541016,
+      "shift": 13.543010711669922,
+      "same_boolean_choice": false
+    }
+  ],
+  "gates": [
+    {
+      "account": "K_account",
+      "count": 16,
+      "strata": [
+        {
+          "schema": "generic",
+          "order": 0,
+          "passed": 8
+        },
+        {
+          "schema": "generic",
+          "order": 1,
+          "passed": 8
+        },
+        {
+          "schema": "descriptive",
+          "order": 0,
+          "passed": 0
+        },
+        {
+          "schema": "descriptive",
+          "order": 1,
+          "passed": 0
+        }
+      ],
+      "passed": false
+    },
+    {
+      "account": "B_account",
+      "count": 0,
+      "strata": [
+        {
+          "schema": "generic",
+          "order": 0,
+          "passed": 0
+        },
+        {
+          "schema": "generic",
+          "order": 1,
+          "passed": 0
+        },
+        {
+          "schema": "descriptive",
+          "order": 0,
+          "passed": 0
+        },
+        {
+          "schema": "descriptive",
+          "order": 1,
+          "passed": 0
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "same_boolean_choice": 16,
+  "source_audit_sha256": "f81c9543b266ec4a8656dfe0c24622416c937b1323ff89fb332fa0b90e8bca17",
+  "scope": "Descriptive summaries of the audited retrospective experiment; no added fitted rule or fresh confirmation."
+}

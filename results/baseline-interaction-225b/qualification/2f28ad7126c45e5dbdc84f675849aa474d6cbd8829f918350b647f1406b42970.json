@@ -1,0 +1,887 @@
+{
+  "key": "2f28ad7126c45e5dbdc84f675849aa474d6cbd8829f918350b647f1406b42970",
+  "group": {
+    "assignment": 0,
+    "block": "larch",
+    "reverse": 1,
+    "schema": "generic",
+    "target": 0
+  },
+  "position": 166,
+  "arrays_sha256": "10ee0d478f3a7d699b8509697478fe3cae40908acadcce30e38df218b5ae1a84",
+  "checks": [
+    {
+      "name": "same_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "same_rope",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "same_rope",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 5.023773091972217e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 2.223585844340903e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 3.562768711162789e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 3.77894160408232e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 5.023773091972217e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 2.223585844340903e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 2.840208086496432e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 2.623314898642093e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 5.023773091972217e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 2.223585844340903e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 3.562768711162789e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 3.77894160408232e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 5.023773091972217e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 2.223585844340903e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 2.840208086496432e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 2.623314898642093e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_trajectory",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 2.0512202592026796e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 1.3390157138637448e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 1.669294533712673e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 9.725908967084251e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 2.0512202592026796e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 1.3390157138637448e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 1.902355393212929e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 1.433306806575274e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 2.0512202592026796e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 1.3390157138637448e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 1.669294533712673e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 9.725908967084251e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "silu_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "product_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "silu_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_ad",
+      "error": 2.0512202592026796e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "silu_fd",
+      "error": 1.3390157138637448e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_primal",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_ad",
+      "error": 1.902355393212929e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_fd",
+      "error": 1.433306806575274e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "prefix_state",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "isolated_down_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_trajectory",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_scores",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "legacy_product",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_write",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "legacy_scores",
+      "error": 0.0,
+      "bound": 0.005
+    }
+  ],
+  "jobs": [
+    {
+      "site": 22,
+      "name": "b0",
+      "prefix": "s22_b0_",
+      "silu": false,
+      "product": false
+    },
+    {
+      "site": 22,
+      "name": "s00",
+      "prefix": "s22_s00_",
+      "silu": true,
+      "product": false
+    },
+    {
+      "site": 22,
+      "name": "b1",
+      "prefix": "s22_b1_",
+      "silu": false,
+      "product": true
+    },
+    {
+      "site": 22,
+      "name": "s11",
+      "prefix": "s22_s11_",
+      "silu": true,
+      "product": true
+    },
+    {
+      "site": 23,
+      "name": "b0",
+      "prefix": "s23_b0_",
+      "silu": false,
+      "product": false
+    },
+    {
+      "site": 23,
+      "name": "s00",
+      "prefix": "s23_s00_",
+      "silu": true,
+      "product": false
+    },
+    {
+      "site": 23,
+      "name": "b1",
+      "prefix": "s23_b1_",
+      "silu": false,
+      "product": true
+    },
+    {
+      "site": 23,
+      "name": "s11",
+      "prefix": "s23_s11_",
+      "silu": true,
+      "product": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "commands": [
+    [
+      "boolean_coupling.run225b",
+      "--phase",
+      "qualify"
+    ],
+    [
+      "boolean_coupling.audit225b",
+      "--phase",
+      "qualify"
+    ],
+    [
+      "boolean_coupling.run225b",
+      "--phase",
+      "intervene"
+    ],
+    [
+      "boolean_coupling.audit225b",
+      "--phase",
+      "interventions"
+    ],
+    [
+      "boolean_coupling.present"
+    ]
+  ],
+  "ordinary_models": 64,
+  "suffix_continuations": 704,
+  "remaining_blocks": 3872,
+  "finite_heads": 704,
+  "qualification_primitive_comparisons": 512,
+  "note": "Retrospective native-input study. Verification is not model replication."
+}
