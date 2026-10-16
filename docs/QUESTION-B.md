@@ -31,4 +31,4 @@ These questions can overlap. A successful local intervention does not answer the
 - Fresh forecasts must be sealed before native True-state measurement. Old-context diagnosis is explicitly retrospective.
 - Grounding controls failed; competent-verifier shutdown, generality and novelty priority have not been demonstrated.
 
-Read the [first-person investigation](drafts/lesswrong-context-dependent-corrections.md), [standalone code](../research/boolean_coupling/README.md), and [preserved evidence](../evidence/HISTORY.md).
+Read the [latest result](analysis/225b-baseline-interaction-result.md), [standalone code](../research/boolean_coupling/README.md), and [preserved evidence](../evidence/HISTORY.md).

@@ -47,7 +47,7 @@ The intervention audit passes **3,488 recorded controls**. Independent down repl
 
 Work:64 ordinary models,256 local corner MLPs,704 public down/suffix continuations,3,872 remaining public blocks,704 finite heads and 512 primitive-direction AD/FD comparisons. These are different compute units. Random proposed norms match in product coordinates within 1e −9 before installation casts; residual/readout norms are not also matched. The separate auditors are code paths in this investigation, not an independent team or second full model replication.
 
-The immutable scientific sources, public prompt fixture, recorded runtime, protocol, actual logs and failed preflight are included in the release. Raw model weights and activation arrays remain local with sizes/hashes inventoried; the standalone runner regenerates them from public inputs. The historical2868-file snapshot is preserved as a compressed evidence bundle. Public file verification is not a model reproduction.
+The immutable scientific sources, public prompt fixture, recorded runtime, protocol, actual logs and failed preflight are included in the release. Raw model weights and activation arrays remain local with sizes/hashes inventoried; the standalone runner regenerates them from public inputs. The original 2,868-file historical snapshot remains local; the repository bundle retains 2,867 files and withholds one unpublished article. Public file verification is not a model reproduction.
 
 ## What this answers
 
@@ -55,4 +55,4 @@ For the old native-input MLP23 conditions, the extra local product interaction i
 
 Question B still asks why the Boolean edit endogenously creates the required receiving state and whether it can be forecast from False alone on fresh examples. That is not established. Nothing here identifies a learned semantic circuit, training origin, a competent-verifier deployment failure or novelty priority. This completed local diagnostic supports a concrete, bounded research post and a reproducible release; it does not warrant claiming the larger prediction problem solved.
 
-See the [protocol](../experiments/225b-baseline-interaction-separation.md), [standalone code/reproduction guide](../../research/boolean_coupling/README.md), and [post draft](../drafts/lesswrong-context-dependent-corrections.md).
+See the [protocol](../experiments/225b-baseline-interaction-separation.md), [standalone code/reproduction guide](../../research/boolean_coupling/README.md).

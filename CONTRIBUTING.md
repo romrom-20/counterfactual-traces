@@ -28,3 +28,7 @@ State what is observed, what is supplied by an oracle, and what is predicted. Re
 Fresh-context predictions must be sealed before observing the native True trajectories. Explain the computation budget: executing the full counterfactual network is a reference computation rather than the compact account sought here. A local sign regime or product identity does not identify a learned feature or circuit.
 
 Large activation arrays, model weights and private data stay out of Git. Preserve their sizes and hashes, and provide a way to regenerate public-input experiments. The project license does not relicense upstream checkpoints or datasets.
+
+## Keep unpublished writing local
+
+Do not commit article drafts or package them inside evidence archives. Keep them under the ignored `.context/` directory or `docs/drafts/`. Scientific code, reports, figures and audits can be shared independently of the article.

@@ -8,7 +8,7 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There is a qualified local causal result, but no successful general False-only forecast of the native response.
 
-[Read the investigation](docs/drafts/lesswrong-context-dependent-corrections.md) · [Latest experiment](docs/analysis/225b-baseline-interaction-result.md) · [Run it](research/boolean_coupling/README.md) · [The open question](docs/QUESTION-B.md)
+[Latest experiment](docs/analysis/225b-baseline-interaction-result.md) · [Run it](research/boolean_coupling/README.md) · [The open question](docs/QUESTION-B.md)
 
 ## What the latest test establishes
 
@@ -18,7 +18,7 @@ At MLP23 in a pinned Qwen2.5-1.5B-Instruct checkpoint, the effect of the same Si
 - **The stricter quantitative K-only account fails overall:** 16/32 cases pass, all generic. Every descriptive-schema case fails; the baseline still matters for the magnitude.
 - **The native origin is unresolved.** These are retrospective interventions on old, dependent templates, not fresh-context prediction, a learned-circuit identification, or evidence that a competent verifier can be disabled.
 
-The [report](docs/analysis/225b-baseline-interaction-result.md) retains the numerical qualifications, matched controls and failed criteria. The [post draft](docs/drafts/lesswrong-context-dependent-corrections.md) explains the hunches and failed explanations that led here.
+The [report](docs/analysis/225b-baseline-interaction-result.md) retains the numerical qualifications, matched controls and failed criteria.
 
 ## Reproduce or inspect
 
@@ -41,10 +41,10 @@ GitHub checks validate file integrity, Python syntax and lint. They do **not** r
 ## Find your way around
 
 - **[research/boolean_coupling](research/boolean_coupling/README.md)** — the standalone experiment, exact prompts, pinned settings and reproduction entry point.
-- **[docs](docs/QUESTION-B.md)** — the research question, post draft, registered protocols, result report and figures.
+- **[docs](docs/QUESTION-B.md)** — the research question, registered protocols, result report and figures.
 - **[results/baseline-interaction-225b](results/baseline-interaction-225b/README.md)** — every case, numerical audit, original log, failed preflight and release manifest.
 - **[evidence](evidence/HISTORY.md)** — the earlier research record, including superseded claims and the preserved tree before this cleanup.
 
 Unrelated probe, sentiment and benchmark pipelines have been retired from the active tree. Their code and results remain in the [historical snapshot](evidence/HISTORY.md). New work should help answer Question B; see [contributing](CONTRIBUTING.md).
 
-Developed with substantial AI assistance, disclosed in the post. The separate auditors are code paths within this investigation, not an independent research team. The LessWrong text remains a draft.
+Developed with substantial AI assistance. The separate auditors are code paths within this investigation, not an independent research team. Article drafts are kept locally and are excluded from this repository.

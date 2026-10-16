@@ -1,9 +1,22 @@
 {
   "experiment": "225b",
-  "scope": "Publication-filtered historical release. Unpublished article files are withheld; scientific sources and artifacts retain their original bytes. Full original release remains local.",
+  "scope": "Scientific code, protocols, inputs, numerical audits, reports and figures. Unpublished articles are withheld; a separately declared publication revision replaces the complete original release.",
   "scientific_status": "Qualified retrospective sign-separation result. Both frozen whole quantitative accounts fail; Question B remains open.",
+  "publication_revision": "unpublished-articles-withheld-v1",
+  "original_manifest_sha256": "3780be7531590f3e414fa0bfb895d2aca5cf3a89498020f54df5b3e7de8907ed",
+  "withheld_files": {
+    "docs/drafts/lesswrong-context-dependent-corrections.md": "4e194b0770d77e3b9b3ba55f866a4f2b4c3822bcaf34cde6d6858a1cdb17e2a8",
+    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/README.md": "0c0e047f60ca1cdd99193ed5ea2047a75a324ad9934ba7b3d5117b87f211c93a",
+    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/lesswrong-shared-curvature-normalization.md": "98012e69e672e5966d538d32e44004878e46541c0be01bf241cdc4341d3fc99b",
+    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/lesswrong-verifier-evaluation.html": "1bf074ccece81a5cb2fd2f431e568d977b2d8ef5a935b6adfac58f4f1bc6f136",
+    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/lesswrong-verifier-evaluation.md": "9b7dd5a19e92b875a95d897b7f8bf8c3b5c9d36e25de2e24cf753d78d021dfb3",
+    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/sha256.json": "7c6826d23a306480ef94b06a1eeebb260424629e59db9075ba815c232683133f"
+  },
+  "withheld_historical_files": {
+    "docs/drafts/lesswrong-shared-curvature-normalization.md": "98012e69e672e5966d538d32e44004878e46541c0be01bf241cdc4341d3fc99b"
+  },
   "files": {
-    "docs/analysis/225b-baseline-interaction-result.md": "9fd16dd90d746808ff1077bd95ab27b613c58e2d13e5f720dd4b96be5c3fd3a9",
+    "docs/analysis/225b-baseline-interaction-result.md": "75e3a263a8c7e4ccecfa8e96486a9df9c4313b23582b28ca60ddcd9e168c7637",
     "docs/experiments/225-baseline-interaction-separation.md": "f431a583ad01377c33f3ccdc4fd3ed9ec25fbbf81d1ce4960824c05ad3e6d22d",
     "docs/experiments/225b-baseline-interaction-separation.md": "b71c37ed8c000c4cb62d1b31b6c956ec70ba84df2d4c39903b20c443a14375bc",
     "docs/figures/224b-primitive-factorial-gates.png": "f0f8841e2a32399035e22b35f9a93ab30a23087f44226340a17180dec9611e06",
@@ -18,10 +31,11 @@
     "docs/figures/225b-baseline-versus-interaction.svg": "3e506af0c1722488af99f083a8594c0419e10e180bef75c0acb2b451c6463ffb",
     "docs/figures/225b-native-boolean-coupling.png": "8bca93fef945c5552092b0c7f4c1b60c4499d3029e28302115805afcdd30c90d",
     "docs/figures/225b-native-boolean-coupling.svg": "3d959b7088f76de5f7cc27c0248307d49786ff642a06d5e622988b7d12a6d702",
-    "evidence/README.md": "01b48704c74d0615f58daa8015671e372ac6bad28366e6350a4db58661015f0c",
+    "evidence/README.md": "029b192fe2fb0b3cca19ffdc2247596d0467f177232f529e6b8ac9c86ab17864",
+    "evidence/publication-withdrawal.json": "6c0c1dd198b53d5a44c00c74a7bb4f46a4c487a273585fe82936a064c6930711",
     "evidence/through-224b.sha256": "eb8f30ca1abc2524cda6808e4dac1d58db2edc4d3a4c6eae7fdbbc5d0e49df34",
     "evidence/through-224b.tar.gz": "1d423172ec79e3ebccb2195747487f1f704e62235833cf47755cfebfdab26082",
-    "research/boolean_coupling/README.md": "120f222fac6e674f0c3c30fc3feb1dd820ce00c3f53d18d6147f7a1d220ced26",
+    "research/boolean_coupling/README.md": "86c42fd320878145c7c809ebd8f0de0660a35f471bf48bd95c8f413f4d4755a3",
     "research/boolean_coupling/__init__.py": "54a0768256f760b25652c17ea48be7229bce32902100988d5614cb7ac8447122",
     "research/boolean_coupling/audit.py": "5e7bccc47b04c84b18567100e622149a83789e5f129a3748a3b4c81801ad978c",
     "research/boolean_coupling/audit225b.py": "d71f3fff0345259f6032eed42015fde80cee840bcdc2144932878a2b496c56e7",
@@ -30,12 +44,12 @@
     "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
     "research/boolean_coupling/package.py": "ad5f69209e450239b6cf85b695ab3e688632b00a597461891af667eb00c3808d",
     "research/boolean_coupling/present.py": "01239169e49d8746ec90af20a9fd350756a7e2ecf13d3c4edf79a9dffbd11fe2",
-    "research/boolean_coupling/reproduce.py": "33b2a95484c467b709013091ec7ac7ab6a2f4a5f4eba9b9c8fc90c8435f7f1fb",
+    "research/boolean_coupling/reproduce.py": "92eb55726466a60de2c6b0b9d70306d2911452d59363f946957ea782bab1c486",
     "research/boolean_coupling/requirements-recorded.txt": "269047499add7a2267028562af9f5db1a2c9930fa688dfe75c87b71061c4f229",
     "research/boolean_coupling/run.py": "3eea6c984a2572d125d5aa05fb3b1441026ab772adad8900fc63733f81615a41",
     "research/boolean_coupling/run225b.py": "f9983509eebeff641b6b989fb3d39b676df7a42099a6bb9e803a7e6bd9d1065f",
     "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
-    "results/baseline-interaction-225b/README.md": "440a1c390c5d494cd048e0856d57743b2bc73d7a7c95c3cae811c31a8bd811a1",
+    "results/baseline-interaction-225b/README.md": "a7e65ca7347d4b5ca5cfa8d7c2e6917a235d4d2b8bea97aa1a4d49b1d481a013",
     "results/baseline-interaction-225b/audit.json": "f81c9543b266ec4a8656dfe0c24622416c937b1323ff89fb332fa0b90e8bca17",
     "results/baseline-interaction-225b/behavior.csv": "d57240c55358bbd4a0f8453cbba405210f0a14771ffff1f8e7e713ffde56b363",
     "results/baseline-interaction-225b/cases.csv": "6164c77f214bfd19a8507ea1e7aab235656fce1706684d70609bfcb9e7d19402",
@@ -95,6 +109,9 @@
     "results/baseline-interaction-225b/logs/225b-public-plan.log": "2545a1eeb39fa8800b2b2b5a5bcaa85f2888ce281796305b100e6083f86c9cc5",
     "results/baseline-interaction-225b/logs/225b-qualification-audit.log": "432ea4397aa751dddc7b3ce19fb49cfb4fa7666085355b847b280302dc8e635e",
     "results/baseline-interaction-225b/logs/225b-qualification-model.log": "31938e880065585b93b0fd4f7e70f1e2acbf2676ffa1548e7fe44754a3a80af6",
+    "results/baseline-interaction-225b/qualification-audit.json": "432ea4397aa751dddc7b3ce19fb49cfb4fa7666085355b847b280302dc8e635e",
+    "results/baseline-interaction-225b/qualification-seal.json": "30473052de20a902d303dbf41e70f263dd925319c40b5707cde70b7bc621f0f1",
+    "results/baseline-interaction-225b/qualification-status.json": "d48059c90821bb20fe39b28197410af2c15fd1f4fd3035e9c195506c157b6f9a",
     "results/baseline-interaction-225b/qualification/0cf392cdefc11ca5baaa059d6e8fa593034fa5b214f23bbf922dd5b0533a3eab.json": "ffb04d5013f7a686ae08594d5267cc9459191704d434e98ff8641dfed6a6fa2b",
     "results/baseline-interaction-225b/qualification/2f28ad7126c45e5dbdc84f675849aa474d6cbd8829f918350b647f1406b42970.json": "c88dafe61869ccfe41faf16b93fa8aade4846e9e4841f91a4b5cf51607eb8ab6",
     "results/baseline-interaction-225b/qualification/34cf8df83eb8c6bd14646f2ed04c2e89c2ebf216f4bc676a2aab25640e9b9594.json": "adcc08413d67d0f0922044094a5f2b4bbd38c9f54399290f5d500b413ec6375e",
@@ -127,22 +144,8 @@
     "results/baseline-interaction-225b/qualification/f2968609823f678e9727ffb6ffde18b2dd1f522967a714e8da3041378a6c3961.json": "23d24eba10e2222e15a26511462860ae82c3583f4b06b632c52001dc347e6821",
     "results/baseline-interaction-225b/qualification/f53c598ea1569458c3b9a396517519c3c1739c5461ad3f0d71df5c9d62a96740.json": "3147f2b377eaaadc7c5921b08a5e0c7b7838d15991acc4321a0e4e8f074878b2",
     "results/baseline-interaction-225b/qualification/fa1901455c9d5a68a77e1b844b2782811079864f0487d1ce76cea0853463a2ab.json": "0fcf8305c6eb045946f6bb84b7369bb97a49bacf55576c3b351bbd325a149810",
-    "results/baseline-interaction-225b/qualification-audit.json": "432ea4397aa751dddc7b3ce19fb49cfb4fa7666085355b847b280302dc8e635e",
-    "results/baseline-interaction-225b/qualification-seal.json": "30473052de20a902d303dbf41e70f263dd925319c40b5707cde70b7bc621f0f1",
-    "results/baseline-interaction-225b/qualification-status.json": "d48059c90821bb20fe39b28197410af2c15fd1f4fd3035e9c195506c157b6f9a",
     "results/baseline-interaction-225b/runtime.json": "87696a525c91ce36a7e08c9f2c58694fb249120192961b68089c59be2d0dc458",
     "results/baseline-interaction-225b/status.json": "cb2e4e944230b268d91f720c1371fcd3b1bdda339cf87b6005d5a9f233e63603",
     "results/baseline-interaction-225b/summary.json": "44b7c69d90e1e3fcf2221fb1583f9baf73c931e5a2dce56b7d40b260a01d852d"
-  },
-  "withheld_files": {
-    "docs/drafts/lesswrong-context-dependent-corrections.md": "4e194b0770d77e3b9b3ba55f866a4f2b4c3822bcaf34cde6d6858a1cdb17e2a8",
-    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/README.md": "0c0e047f60ca1cdd99193ed5ea2047a75a324ad9934ba7b3d5117b87f211c93a",
-    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/lesswrong-shared-curvature-normalization.md": "98012e69e672e5966d538d32e44004878e46541c0be01bf241cdc4341d3fc99b",
-    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/lesswrong-verifier-evaluation.html": "1bf074ccece81a5cb2fd2f431e568d977b2d8ef5a935b6adfac58f4f1bc6f136",
-    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/lesswrong-verifier-evaluation.md": "9b7dd5a19e92b875a95d897b7f8bf8c3b5c9d36e25de2e24cf753d78d021dfb3",
-    "docs/drafts/versions/2026-10-16-before-baseline-interaction-225/sha256.json": "7c6826d23a306480ef94b06a1eeebb260424629e59db9075ba815c232683133f"
-  },
-  "withheld_historical_files": {
-    "docs/drafts/lesswrong-shared-curvature-normalization.md": "98012e69e672e5966d538d32e44004878e46541c0be01bf241cdc4341d3fc99b"
   }
 }

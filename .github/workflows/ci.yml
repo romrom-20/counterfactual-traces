@@ -10,6 +10,8 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           version: "0.12.17"
+      - name: Keep unpublished article drafts out of Git
+        run: test -z "$(git ls-files docs/drafts/)"
       - name: Lint active code and sealed sources
         run: uvx --python 3.12 ruff==0.16.8 check .
       - name: Verify published study and historical evidence

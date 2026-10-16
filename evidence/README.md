@@ -1,22 +1,17 @@
 # Historical evidence through 224b
 
-`through-224b.tar.gz` contains the exact 2,868-file preservation closure plus its manifest. It includes scientific code, protocols, reports, numerical audit outputs, original failure logs, presentation sources and recorded run metadata. Its SHA256 is in `through-224b.sha256`.
+`through-224b.tar.gz` is a publication-filtered copy of the earlier scientific preservation archive. It retains **2,867 of the original 2,868 files**, plus the original manifest. One unpublished article draft is withheld. Every retained file remains byte-identical to its original recorded hash; this is no longer described as the complete original closure. The original full copy remains local.
 
-The archive deliberately contains superseded drafts, failed numerical checks and explicitly invalid replacement-agent attempts. Their presence is preservation, not endorsement. In particular,204 is a qualified retrospective diagnostic; old whole-block derivative disagreements remain unresolved;224 failed its final-coordinate bridge;224b uses a separately registered actual-node background. Read the current result/post for the supported claims.
+The exact omissions and original hashes are recorded in [publication-withdrawal.json](publication-withdrawal.json). The current archive checksum is in `through-224b.sha256`.
 
-Large raw activation arrays and checkpoint weights are excluded. Original raw files remain hash-inventoried; the archive does not make those arrays publicly downloadable. The new225b implementation regenerates its native states from exact published prompts and the pinned public checkpoint, so it does not require those historical arrays.
+The archive includes superseded scientific hypotheses, failed numerical checks and invalid replacement-agent attempts. Preservation is not endorsement. Experiment 204 remains a qualified retrospective diagnostic, old whole-block derivative disagreements remain unresolved, 224 failed its final-coordinate bridge, and 224b tests a separately registered actual-node background.
 
-Verify all preserved file hashes without extracting or loading a model:
+Large raw activation arrays and checkpoint weights are excluded. The standalone 225b implementation regenerates its states from exact public inputs and the pinned public checkpoint, without this historical archive.
+
+Verify the retained files and declared omission without extracting or loading a model:
 
 ```sh
 python research/boolean_coupling/reproduce.py --verify-only --history
 ```
 
-To inspect the history manually:
-
-```sh
-mkdir -p .context/history
-tar -xzf evidence/through-224b.tar.gz -C .context/history
-```
-
-The extracted root is `.context/history/through-224b/`. Its original README and `.context/` records remain byte-identical inside that root. The main repository's new landing page is presentation for this release; it does not alter the historical snapshot. Verification is a preservation check, not an independently executed model replication.
+This is a preservation check, not model replication. Article drafts are kept locally and excluded from the repository and bundled archive.

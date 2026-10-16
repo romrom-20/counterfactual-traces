@@ -32,8 +32,16 @@ def verify(history=False):
                 if name == "results/mlp-primitive-factorial-224b/manifest.json":
                     old = json.loads(data)
         assert old and len(old["files"]) == 2868
-        assert all(hashes[name] == expected for name, expected in old["files"].items())
-        print("Verified all2,868 historical preservation files inside the archive; no activation arrays or model replication.", flush=True)
+        withheld = manifest.get("withheld_historical_files", {})
+        assert all(old["files"][name] == expected for name, expected in withheld.items())
+        assert set(old["files"]) - set(hashes) == set(withheld)
+        assert not any(name.startswith("docs/drafts/") for name in hashes)
+        retained = {name: expected for name, expected in old["files"].items()
+                    if name not in withheld}
+        assert all(hashes[name] == expected for name, expected in retained.items())
+        print(f"Verified {len(retained):,} retained historical files; "
+              f"{len(withheld)} unpublished draft withheld. "
+              "No activation arrays or model replication.", flush=True)
 
 
 def main():

@@ -4,7 +4,7 @@ This is the standalone entry point for experiment 225b. It regenerates the False
 
 The question is specific: when changing the product computation reverses the verdict effect of finite SiLU, does that reversal come from the extra local interaction K, the product-induced baseline shift B, or their combination? The original four conditions are reproduced and audited before the two missing causal conditions and matched random controls execute. All later public blocks and the final head remain finite. This is a retrospective native-input diagnostic, not a False-only forecast or a learned-circuit claim.
 
-Read the [LessWrong draft](../../docs/drafts/lesswrong-context-dependent-corrections.md), [result and numerical boundaries](../../docs/analysis/225b-baseline-interaction-result.md), and [registered protocol](../../docs/experiments/225b-baseline-interaction-separation.md).
+Read the [result and numerical boundaries](../../docs/analysis/225b-baseline-interaction-result.md), and [registered protocol](../../docs/experiments/225b-baseline-interaction-separation.md).
 
 ## Read the code
 
@@ -25,7 +25,7 @@ From the repository root:
 python research/boolean_coupling/reproduce.py --verify-only --history --plan
 ```
 
-This checks published file hashes and all 2,868 historical preservation files inside the compressed evidence bundle. It does not load a checkpoint, check omitted raw activations, or count as model replication. The complete historical archive includes disqualified attempts and their corrections; see [evidence notes](../../evidence/README.md) before interpreting them.
+This checks published file hashes and all 2,867 retained historical preservation files (one unpublished draft is withheld) inside the compressed evidence bundle. It does not load a checkpoint, check omitted raw activations, or count as model replication. The complete historical archive includes disqualified attempts and their corrections; see [evidence notes](../../evidence/README.md) before interpreting them.
 
 ## Run the experiment from scratch
 
