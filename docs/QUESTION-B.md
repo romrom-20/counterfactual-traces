@@ -16,7 +16,7 @@ The latest controlled test isolates a local product interaction K from a baselin
 
 ## What remains unresolved
 
-1. **Generation:** which upstream operations create the particular gate/up displacement and alignment that make K negative here?
+1. **Generation:** which upstream operations create the particular gate/up displacement and alignment that make K's verdict effect negative here?
 2. **Propagation:** which later operations produce the schema-dependent magnitude modulation?
 3. **Prediction:** can a frozen, explicit False-only update forecast both native residual displacement and verdict on fresh examples?
 4. **Scope:** does the account survive new templates and checkpoints? The current 32 synthetic contexts are dependent and previously observed.
