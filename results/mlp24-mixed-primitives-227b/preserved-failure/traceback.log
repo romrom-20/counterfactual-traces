@@ -1,0 +1,12 @@
+1 {'assignment': 0, 'block': 'marzipan', 'reverse': 0, 'schema': 'generic', 'target': 0}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/tail227.py", line 181, in <module>
+    main()
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/tail227.py", line 165, in main
+    check(checks, "226b_bridge", np.max(abs(trajectory[-1]-previous["b24_mlp_remove_trajectory"][-1])))
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/research/boolean_coupling/core225b.py", line 36, in check
+    assert np.isfinite(item["error"]) and item["error"] <= bound, item
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': '226b_bridge', 'error': 0.0001373291015625, 'bound': 0.0001}

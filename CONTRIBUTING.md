@@ -2,11 +2,11 @@
 
 The active question is whether an identified nonlinear computation can predict the native residual and verdict response to a known input edit, using one observed False-state computation. Useful contributions test a specific part of that claim: a qualified primitive intervention, a falsifying control, or a frozen forecast evaluated on fresh contexts.
 
-Start with [Question B](docs/QUESTION-B.md), the [latest result](docs/analysis/225b-baseline-interaction-result.md), and the [experiment guide](research/boolean_coupling/README.md).
+Start with [Question B](docs/QUESTION-B.md), the [latest result](docs/analysis/227b-mlp24-mixed-primitives-result.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
 
 ## Preserve the record
 
-The published 225/225b sources, protocols and evidence are byte-sealed. Do not reformat them, overwrite failed attempts, or update their manifest to accommodate a changed computation. Put a scientific correction in a separately named experiment, freeze it before execution, retain the original failure, and keep the numerical bounds unchanged unless a new protocol explicitly justifies different bounds.
+The published 225/225b and 226/227 scientific sources, protocols and numerical evidence are byte-sealed. Do not reformat them, overwrite failed attempts, or update their manifest to accommodate a changed computation. Put a scientific correction in a separately named experiment, freeze it before execution, retain the original failure, and keep the numerical bounds unchanged unless a new protocol explicitly justifies different bounds. Publication-only presentation revisions must list the original and current hashes separately.
 
 Narrow lint exceptions preserve existing style in these sealed files. Syntax and undefined-name checks still apply. New code receives the full lint rules.
 
@@ -15,11 +15,21 @@ Narrow lint exceptions preserve existing style in these sealed files. Syntax and
 ```sh
 python -m pip install ruff==0.16.8
 python -m ruff check .
-python research/boolean_coupling/reproduce.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_tail.py --verify-only --history --plan
 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
 ```
 
 These are repository checks, not a model replication. Follow the experiment guide for an actual MPS model run and choose a fresh output directory.
+
+## Publish each completed finding
+
+Keep the repository current as research progresses. A completed study should include its code, protocol, exact inputs or regeneration path, runtime, source seals, every case, numerical audits, failures, and a result report. State which question it answers and which claims remain unsupported.
+
+Update the [experiment index](docs/EXPERIMENTS.md), [research notes](docs/RESEARCH-NOTES.md), [results index](results/README.md), and relevant reproduction instructions. Update the homepage when the current scientific conclusion changes. Include figures generated from the recorded data; preserve the plotting code and raw-array inventory.
+
+Verify the release and inspect the staged files before committing. Keep article drafts, checkpoint weights and activation arrays excluded. Push the reviewed update and check GitHub CI. Successful CI establishes repository integrity and syntax/lint checks, not a successful scientific hypothesis or independent model replication.
+
+The repository currently remains private at the owner's request. Updating research evidence does not authorize changing its visibility or publishing article drafts.
 
 ## Make a scientific claim reviewable
 
