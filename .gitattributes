@@ -1,0 +1,6 @@
+# Preserve sealed scientific exports exactly, including the plotting tool's SVG
+# whitespace and Python csv.writer's CRLF records. Keep source code reviewable.
+docs/figures/*.svg -text linguist-generated=true -whitespace
+results/**/*.csv -text linguist-generated=true whitespace=cr-at-eol
+results/**/*.json linguist-generated=true
+results/**/*.log linguist-generated=true

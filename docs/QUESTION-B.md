@@ -12,12 +12,12 @@ The starting observation is a conditional preference dependency: changing an exp
 
 A source-only hypothesis failed all 16 fresh cases on its frozen criteria. Receiving state carried from earlier blocks matters. Earlier MLP writes and their nonlinear remainders affect the native receiving displacement and verdict, but restoring one selected final-neuron projection did not restore the behavior. Improvements in that diagnostic did not always improve the verdict.
 
-The latest controlled test isolates a local product interaction K from a baseline shift B at MLP23. K controls the observed conditional sign reversal under the defined interventions. B still modulates magnitude enough that the strict K-only quantitative account fails overall. MLP22 does not show the same reversal. See the [full result and qualification boundaries](analysis/225b-baseline-interaction-result.md).
+Experiment 225b separates a local product interaction K from a baseline shift B at MLP23. K controls the tested sign reversal; the strict quantitative K-only account fails overall. The finite follow-up 226b localizes a consequential part of the remaining baseline-dependent mixing to MLP24. In 227b, a gate/up cross-product explains much of its margin effect but fails the combined vector/margin account; only the combined mixed term passes. Some later mixed responses partly counteract the discrepancy. See the [latest result and numerical boundaries](analysis/227b-mlp24-mixed-primitives-result.md) and [research notes](RESEARCH-NOTES.md).
 
 ## What remains unresolved
 
 1. **Generation:** which upstream operations create the particular gate/up displacement and alignment that make K's verdict effect negative here?
-2. **Propagation:** which later operations produce the schema-dependent magnitude modulation?
+2. **Propagation:** can we extend the conditional MLP24 account to a complete vector prediction, including SiLU mixing and later compensation? The current primitive allocation is order-dependent.
 3. **Prediction:** can a frozen, explicit False-only update forecast both native residual displacement and verdict on fresh examples?
 4. **Scope:** does the account survive new templates and checkpoints? The current 32 synthetic contexts are dependent and previously observed.
 
@@ -31,4 +31,4 @@ These questions can overlap. A successful local intervention does not answer the
 - Fresh forecasts must be sealed before native True-state measurement. Old-context diagnosis is explicitly retrospective.
 - Grounding controls failed; competent-verifier shutdown, generality and novelty priority have not been demonstrated.
 
-Read the [latest result](analysis/225b-baseline-interaction-result.md), [standalone code](../research/boolean_coupling/README.md), and [preserved evidence](../evidence/HISTORY.md).
+Read the [latest result](analysis/227b-mlp24-mixed-primitives-result.md), [reproduction guide](../research/README.md), and [preserved evidence](../evidence/HISTORY.md).
