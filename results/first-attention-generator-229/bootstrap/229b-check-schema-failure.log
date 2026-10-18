@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/generator229b.py", line 232, in <module>
+    main(parser.parse_args())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/generator229b.py", line 47, in main
+    assert all(c["error"] <= c["bound"] for c in old_audit["checks"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/generator229b.py", line 47, in <genexpr>
+    assert all(c["error"] <= c["bound"] for c in old_audit["checks"])
+               ~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'

@@ -42,7 +42,15 @@ The finite MLP22/23 forecast improves parent, residual and margin errors in all 
 
 The trace shows direction error before MLP22. A post-observation identity check also finds an exact first-block receiving state and a 14.3% median discrepancy at the next attention update. This gives a first local boundary with a correct incoming state. It does not show which attention primitive causes the discrepancy or whether subsequent growth is new error or amplification.
 
-A useful next split is receiver-only finite remainder versus source–receiver interaction in attention2. That split has not been executed. A future test must preserve the distinction between an algebraic decomposition, a direct causal intervention and a prospective forecast. The [full negative result](analysis/228-false-only-alignment-result.md) retains the source budget, numerical qualification, metadata correction and every case.
+A useful next split was receiver-only finite remainder versus source–receiver interaction in attention2. Experiment 229 now executes it, preserving the distinction between an algebraic decomposition, a direct causal intervention and a prospective forecast. The [full negative result](analysis/228-false-only-alignment-result.md) retains the source budget, numerical qualification, metadata correction and every case.
+
+## 229: distinguish the first error from a behavioral bottleneck
+
+The preceding emphasis on missing cross-source interaction was insufficient at the verdict position. With exact native incoming states, receiver-only curvature accounts for its first attention discrepancy in all 32 cases; source–receiver interaction does so in none. This localizes a remainder class, not its primitive generator. Receiver RMSNorm, QK, softmax and weight–value curvature inside that remainder are still unseparated.
+
+Across all receiving rows, cross-source interaction is substantial, concentrated near the source. A qualified fixed-order decomposition and direct attention primitive edits account for that interaction. The position-resolved result prevents either the verdict-only or pooled-sequence explanation from being generalized to the other measurement.
+
+Running the remaining network finitely gives only .0073 nats median margin error from this isolated early discrepancy. All cases fall below the frozen .10-nat guard, so the downstream success rule is ineligible. This is a useful boundary on the tested conditional effect; it is not evidence about the same error under 228's remaining linear transport. A diagnosis of where an approximation first becomes wrong need not identify the source of its eventual behavioral failure. The [full report](analysis/229-first-attention-generator-result.md) preserves the controls, counts, numerical qualification and bootstrap failures.
 
 ## The next unresolved question
 
