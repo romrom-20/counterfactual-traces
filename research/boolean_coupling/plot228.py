@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 COLORS={"L":"#777777","F":"#2166ac","R":"#d47a1f"}
-LABELS={"L":"Linear","F":"Finite22/23","R":"Random orientation"}
+LABELS={"L":"Linear","F":"Finite 22/23","R":"Random orientation"}
 
 
 def main(run,destination):
@@ -46,7 +46,7 @@ def main(run,destination):
     fig,axes=plt.subplots(1,2,figsize=(12,4.5),layout="constrained")
     for ax,field,title in zip(axes,("relative","cosine"),("Post-attention residual relative error","Post-attention residual direction cosine")):
         for arm in ("L","F","R"):
-            medians=[float(np.median([float(r[field]) for r in layers if r["arm"]==arm and int(r["block"])==block])) for block in range(1,25)]
+            medians=[float(np.median([float(r[field]) for r in layers if r["arm"]==arm and int(r["layer"])==block])) for block in range(1,25)]
             ax.plot(range(1,25),medians,color=COLORS[arm],label=LABELS[arm],lw=2)
         for block in (22,23):
             ax.axvline(block,color="#bbbbbb",ls=":",lw=1)
@@ -54,7 +54,7 @@ def main(run,destination):
         ax.spines[["top","right"]].set_visible(False)
         ax.grid(alpha=.15)
     axes[0].legend(frameon=False,fontsize=8)
-    fig.suptitle("Registered diagnostic after observation; no target states entered the forecasts")
+    fig.suptitle("Registered diagnostic after observation; no observed target states entered the forecasts")
     fig.supxlabel("Medians across 32 dependent contexts. Finite MLP22/23 updates affect the following block's midpoint.",fontsize=9)
     for suffix in (".png",".svg"):
         fig.savefig(destination/("228-layerwise-alignment"+suffix),dpi=150)

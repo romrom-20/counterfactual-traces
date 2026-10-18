@@ -1,6 +1,6 @@
 # Experiment index
 
-The active repository focuses on Question B. All three completed studies below use the same 32 old, dependent synthetic contexts and pinned Qwen checkpoint. The pipeline is retrospective; no fresh False-only native-response predictor is established.
+The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
 ## 225b — What reverses the local effect's sign?
 
@@ -25,6 +25,14 @@ Use a declared finite decomposition of normalization, SiLU mixing and the gate/u
 [Protocol](experiments/227b-mlp24-mixed-primitives.md) · [Report](analysis/227b-mlp24-mixed-primitives-result.md) · [All cases and audit](../results/mlp24-mixed-primitives-227b/README.md) · [Code](../research/boolean_coupling/tail227b.py)
 
 Original 227 stopped at a failed final-coordinate comparison to a differently placed intervention. The [source](../research/boolean_coupling/tail227.py), [protocol](experiments/227-mlp24-mixed-primitives.md) and [failure](../results/mlp24-mixed-primitives-227b/preserved-failure/failure.json) remain. In 227b, 31/32 raw coordinate bridges still fail; the .005 two-score bridge passes. Two raw ideal-write comparisons also fail. Arithmetic-accounted closure does not turn those failures into passes.
+
+## 228 — Can selected late nonlinear writes forecast native alignment?
+
+All 96 forecasts were sealed, qualified and pushed before the 32 new native True observations. Finite MLP22/23 updates improve every case against linear and norm-matched orientation controls, but meet both the primary alignment and stronger native-response criteria in **0/32** cases. The first-block receiving displacement is exact; the first forecast discrepancy appears at attention block2. The responsible primitive remains unresolved.
+
+[Protocol](experiments/228-false-only-alignment.md) · [Prior interpretations](analysis/228-prior-predictions.md) · [Report](analysis/228-false-only-alignment-result.md) · [Cases, seals and reproduction](../results/false-only-alignment-228/README.md)
+
+The original final scorer stopped on a metadata key collision. [228b](experiments/228b-reporting-correction.md) corrects only the layer field/docstring with no model calls or numerical changes. The original source and traceback are preserved. The new smooth CPU64 transport maps do not recertify the original Float32 Jacobian.
 
 ## Earlier research and preserved boundaries
 

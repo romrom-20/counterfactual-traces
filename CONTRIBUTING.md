@@ -2,11 +2,11 @@
 
 The active question is whether an identified nonlinear computation can predict the native residual and verdict response to a known input edit, using one observed False-state computation. Useful contributions test a specific part of that claim: a qualified primitive intervention, a falsifying control, or a frozen forecast evaluated on fresh contexts.
 
-Start with [Question B](docs/QUESTION-B.md), the [latest result](docs/analysis/227b-mlp24-mixed-primitives-result.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
+Start with [Question B](docs/QUESTION-B.md), the [latest result](docs/analysis/228-false-only-alignment-result.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
 
 ## Preserve the record
 
-The published 225/225b and 226/227 scientific sources, protocols and numerical evidence are byte-sealed. Do not reformat them, overwrite failed attempts, or update their manifest to accommodate a changed computation. Put a scientific correction in a separately named experiment, freeze it before execution, retain the original failure, and keep the numerical bounds unchanged unless a new protocol explicitly justifies different bounds. Publication-only presentation revisions must list the original and current hashes separately.
+The published 225/225b and 226/227/228 scientific sources, protocols and numerical evidence are byte-sealed. Do not reformat them, overwrite failed attempts, or update their manifest to accommodate a changed computation. Put a scientific correction in a separately named experiment, freeze it before execution, retain the original failure, and keep the numerical bounds unchanged unless a new protocol explicitly justifies different bounds. Publication-only presentation revisions must list the original and current hashes separately.
 
 Narrow lint exceptions preserve existing style in these sealed files. Syntax and undefined-name checks still apply. New code receives the full lint rules.
 
@@ -15,7 +15,7 @@ Narrow lint exceptions preserve existing style in these sealed files. Syntax and
 ```sh
 python -m pip install ruff==0.16.8
 python -m ruff check .
-python -S research/boolean_coupling/reproduce_tail.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_alignment.py --verify-only --history --plan
 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
 ```
 
