@@ -1,18 +1,35 @@
 # Reproduce the current research
 
-The latest test is **228**, a prospective alignment forecast that achieves 0/32 passes on its frozen criteria. The earlier causal sequence is **225b → 226b → 227b**. It starts from exact public prompt pairs and one pinned checkpoint, then isolates a local sign reversal, downstream mixing, and its primitive contributions. It remains retrospective. There is no successful general False-only predictor of the native Boolean response.
+The latest diagnostic is **229**, which separates receiver curvature from source–receiver interaction at attention 2. It is retrospective on 228's contexts. The latest prospective test is **228**, an alignment forecast that achieves 0/32 passes on its frozen criteria. The earlier causal sequence is **225b → 226b → 227b**. There is no successful general False-only predictor of the native Boolean response.
 
 ## Inspect without a model
 
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_alignment.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_generator.py --verify-only --history --plan
 ```
 
-This uses only the standard library. It checks all three releases, the unchanged pre-execution scientific source hashes, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
+This uses only the standard library. It checks all active releases, their scientific source seals, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
 
 The [experiment index](../docs/EXPERIMENTS.md) links every active protocol, report, audit, failed attempt and data summary. The [research notes](../docs/RESEARCH-NOTES.md) explain which hypotheses changed and why.
+
+## Run the latest diagnostic
+
+After the environment setup below:
+
+```sh
+python research/boolean_coupling/reproduce_generator.py --run --out runs/my-generator-reproduction
+```
+
+The wrapper regenerates the preceding 228 run from its public fixed inputs, then executes 229 and its separate NumPy audit. Add `--offline` for a cached checkpoint. To reuse existing local 228 arrays:
+
+```sh
+python research/boolean_coupling/reproduce_generator.py --run --offline \
+  --input-228 runs/my-existing-228 --out runs/my-new-generator
+```
+
+Every output directory must be new. This is a retrospective diagnosis with observed native parents; replication does not become a fresh forecast test. [229's release guide](../results/first-attention-generator-229/README.md) explains the signed vectors, direct primitive interventions, all-ineligible downstream rule, bootstrap corrections and budget. The model run makes 32 ordinary False calls and uses saved True states; zero *new* ordinary True calls does not make it False-only.
 
 ## Run the latest prospective test
 
@@ -58,7 +75,9 @@ The checkpoint-based validator adds 608 finite-forward comparisons, without a fu
 
 ## Code map
 
-The latest study uses [alignment228.py](boolean_coupling/alignment228.py), [smooth228.py](boolean_coupling/smooth228.py), original [audit228.py](boolean_coupling/audit228.py), corrected final [audit228b.py](boolean_coupling/audit228b.py), and [reproduce_alignment.py](boolean_coupling/reproduce_alignment.py). Its [diagnostic](boolean_coupling/diagnose228.py) and [plotter](boolean_coupling/plot228.py) use saved arrays/CSVs and make no model calls.
+229 uses [generator229b.py](boolean_coupling/generator229b.py), [attention229.py](boolean_coupling/attention229.py), separate [audit229.py](boolean_coupling/audit229.py), position-resolved [describe229.py](boolean_coupling/describe229.py), [plot229.py](boolean_coupling/plot229.py) and [reproduce_generator.py](boolean_coupling/reproduce_generator.py). Original generator229.py and the intermediate bootstrap source remain as failure evidence; use generator229b.py.
+
+228 uses [alignment228.py](boolean_coupling/alignment228.py), [smooth228.py](boolean_coupling/smooth228.py), original [audit228.py](boolean_coupling/audit228.py), corrected final [audit228b.py](boolean_coupling/audit228b.py), and [reproduce_alignment.py](boolean_coupling/reproduce_alignment.py). Its [diagnostic](boolean_coupling/diagnose228.py) and [plotter](boolean_coupling/plot228.py) use saved arrays/CSVs and make no model calls.
 
 - [core225b.py](boolean_coupling/core225b.py), [run225b.py](boolean_coupling/run225b.py), [audit225b.py](boolean_coupling/audit225b.py): unchanged parent computation and audit.
 - [tail226b.py](boolean_coupling/tail226b.py), [audit226b.py](boolean_coupling/audit226b.py): finite sublayer mixing, transport and causal removals.

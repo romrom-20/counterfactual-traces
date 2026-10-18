@@ -31,4 +31,6 @@ These questions can overlap. A successful local intervention does not answer the
 - Fresh forecasts must be sealed before native True-state measurement. Old-context diagnosis is explicitly retrospective.
 - Grounding controls failed; competent-verifier shutdown, generality and novelty priority have not been demonstrated.
 
-Read the [latest result](analysis/228-false-only-alignment-result.md), [reproduction guide](../research/README.md), and [preserved evidence](../evidence/HISTORY.md).
+Study 229 now separates the first attention discrepancy at an exact native input. Receiver-only curvature accounts for the verdict-position error in 32/32 old contexts, while source–receiver interaction is substantial elsewhere in the sequence. The primitive source of the receiver remainder remains open. Its isolated finite-suffix margin effect is below the frozen materiality guard in every case. This is not a repair or causal explanation of the full 228 forecast failure.
+
+Read the [latest diagnostic](analysis/229-first-attention-generator-result.md), [failed prospective forecast](analysis/228-false-only-alignment-result.md), [reproduction guide](../research/README.md), and [preserved evidence](../evidence/HISTORY.md).

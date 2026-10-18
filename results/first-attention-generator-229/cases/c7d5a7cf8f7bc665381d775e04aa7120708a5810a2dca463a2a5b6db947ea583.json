@@ -1,0 +1,2106 @@
+{
+  "key": "c7d5a7cf8f7bc665381d775e04aa7120708a5810a2dca463a2a5b6db947ea583",
+  "group": {
+    "assignment": 0,
+    "block": "cobalt",
+    "reverse": 0,
+    "schema": "descriptive",
+    "target": 1
+  },
+  "start": 170,
+  "checks": [
+    {
+      "name": "false_boundary",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_mid",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_final",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "exact_first_delta",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "public_graph_zero",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "smooth_graph_zero",
+      "error": 6.072075679597333e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_graph_source",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "smooth_graph_source",
+      "error": 6.072075679597333e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_graph_receiver",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "smooth_graph_receiver",
+      "error": 6.072075679597333e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_graph_both",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "smooth_graph_both",
+      "error": 6.072075679597333e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_mid_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_mid_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "jvp_fd_used",
+      "error": 5.115172452274663e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "derivative_primal",
+      "error": 2.973027956931773e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "jvp_fd_sine",
+      "error": 5.785340938951888e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "derivative_primal",
+      "error": 2.973027956931773e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "jvp_fd_cosine",
+      "error": 6.788145102444576e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "derivative_primal",
+      "error": 2.973027956931773e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "original_Jd",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "RC_identity",
+      "error": 3.7470027081099033e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "public_primitive_ledger",
+      "error": 3.9612059481441975e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_logit_identity",
+      "error": 3.552017733454704e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_norm_disjoint",
+      "error": 2.9802322387695312e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_probability_sum",
+      "error": 2.9113311938999686e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "smooth_primitive_ledger",
+      "error": 8.232184465356562e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "smooth_logit_identity",
+      "error": 6.493069970581189e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "smooth_norm_disjoint",
+      "error": 5.551115123125783e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "smooth_probability_sum",
+      "error": 4.531965080989409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "smooth_public_C",
+      "error": 3.956392552186612e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "primitive_effect_QK",
+      "error": 2.6184033008790422e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "primitive_effect_SM",
+      "error": 2.3895983138035514e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "primitive_effect_AVs",
+      "error": 2.857745478888462e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "primitive_effect_AVd",
+      "error": 2.7263902004039033e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "native_final_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_score_replay",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "repair_both_final_replay",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "repair_both_score_replay",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "installed_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "continuation_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    }
+  ],
+  "arrays_sha256": "59b8e62767ff862df2b632acc8447b2ffde713c6ac15a412e2dc596d0c6793ba",
+  "recorded_utc": "2026-10-18T16:37:57.828875+00:00",
+  "elapsed_seconds": 3.867438375
+}

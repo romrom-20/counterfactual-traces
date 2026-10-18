@@ -8,9 +8,17 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local causal results. A general False-only forecast of the native response has not been demonstrated.
 
-[Latest findings](docs/analysis/228-false-only-alignment-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
+[Latest findings](docs/analysis/229-first-attention-generator-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
 
-## Latest test: a useful hypothesis fails
+## Latest diagnostic: the first error has different sources at different positions
+
+Experiment 229 starts at an exact incoming state before attention 2. Receiver-only curvature accounts for the first **verdict-position** discrepancy in **32/32** old contexts; source–receiver interaction does so in **0/32**. Across the full receiving sequence, that interaction is substantial and concentrated near the source. Direct attention-primitive interventions and separate numerical reconstruction qualify this distinction.
+
+With the remaining network run finitely, the isolated early error produces only **0.0073 nats** median margin error. Every case is below the frozen behavioral materiality guard. This does not explain 228's much larger full-forecast failure, identify the primitive source of receiver curvature, or solve Question B. Read the [complete retrospective result](docs/analysis/229-first-attention-generator-result.md).
+
+![Position-dependent sources of the first attention discrepancy](docs/figures/229-position-effects.png)
+
+## Latest prospective test: a useful hypothesis fails
 
 Experiment 228 sealed 96 forecasts before measuring 32 new native True targets. Finite receiving MLP22/23 updates improve every case against both controls, but achieve **0/32** passes on the signed gate/up alignment criterion and **0/32** on the stronger final-response criterion. Median parent relative error remains **0.750**, against a **0.25** bound.
 
@@ -33,16 +41,16 @@ The figure shows every descriptive case; bars are medians. These are previously 
 Verify every current release and the retained historical evidence without a model:
 
 ```sh
-python research/boolean_coupling/reproduce_alignment.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_generator.py --verify-only --history --plan
 ```
 
 For an actual run, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_alignment.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_generator.py --run --out runs/my-reproduction
 ```
 
-This runs the 228 preflight, forecasts and qualification seal before native True measurement, then scores the unchanged criteria. The [earlier causal sequence](research/README.md#run-the-earlier-causal-sequence-from-public-inputs) remains separately reproducible. It requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
+This regenerates 228's inputs through its sealed forecast/observation sequence, then runs the 229 diagnostic and separate audit. It reuses the original fixed contexts, so it is not fresh confirmation. An existing 228 output can be supplied to avoid repeating that study. The [earlier causal sequence](research/README.md#run-the-earlier-causal-sequence-from-public-inputs) remains separately reproducible. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
 
 GitHub checks cover evidence integrity, Python syntax and lint. They do **not** execute the model experiments or independently replicate the scientific findings.
 

@@ -44,7 +44,11 @@ def main(args):
     old_audit = json.loads((previous/"audit.json").read_text())
     assert old_audit["status"] == "complete"
     assert old_audit["global_forecast_order_passed"]
-    assert all(c["error"] <= c["bound"] for c in old_audit["checks"])
+    assert set(old_audit["maximum_errors"]) == {"runner_native_prefix_hash", "runner_known_source",
+        "native_head", "native_gate", "native_up"}
+    for name, error in old_audit["maximum_errors"].items():
+        bound = .005 if name == "native_head" else (0. if name.startswith("runner_") else 1e-4)
+        assert np.isfinite(error) and error <= bound
     out.mkdir(parents=True)
     (out/"sources").mkdir()
     (out/"cases").mkdir()

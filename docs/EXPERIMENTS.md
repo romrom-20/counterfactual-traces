@@ -1,6 +1,6 @@
 # Experiment index
 
-The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
+The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
 ## 225b — What reverses the local effect's sign?
 
@@ -33,6 +33,14 @@ All 96 forecasts were sealed, qualified and pushed before the 32 new native True
 [Protocol](experiments/228-false-only-alignment.md) · [Prior interpretations](analysis/228-prior-predictions.md) · [Report](analysis/228-false-only-alignment-result.md) · [Cases, seals and reproduction](../results/false-only-alignment-228/README.md)
 
 The original final scorer stopped on a metadata key collision. [228b](experiments/228b-reporting-correction.md) corrects only the layer field/docstring with no model calls or numerical changes. The original source and traceback are preserved. The new smooth CPU64 transport maps do not recertify the original Float32 Jacobian.
+
+## 229 — What generates the first attention discrepancy?
+
+At the exact incoming native state before attention 2, receiver-only curvature meets the local verdict-position account in **32/32** contexts; the source–receiver cross term does so in **0/32**. Across all receiving rows the interaction is substantial. Direct QK, softmax and weight–value edits qualify its operation-defined signed accounting. The main verdict remainder still lacks a primitive explanation. Its isolated finite-suffix margin consequence is below the frozen materiality guard in **all 32** cases; the registered downstream rule is ineligible, not failed.
+
+[Protocol](experiments/229-first-attention-generator.md) · [Report](analysis/229-first-attention-generator-result.md) · [All cases and audit](../results/first-attention-generator-229/README.md) · [Runner](../research/boolean_coupling/generator229b.py)
+
+Two bootstrap metadata checks stopped before model loading. Original 229, the first 229b source and both failure logs are preserved; the [corrected bootstrap](experiments/229b-bootstrap-correction.md) changes no scientific comparison or threshold. The 96 smooth derivative checks do not recertify old Float32 Jacobians.
 
 ## Earlier research and preserved boundaries
 
