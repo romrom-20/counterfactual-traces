@@ -36,10 +36,18 @@ The distinction matters for Question B: improving one scalar score is weaker tha
 
 The original 227 stopped because product edits and post-addition residual edits failed the frozen coordinate-equivalence comparison. The narrower 227b measures its own product interventions and still records 31/32 failed raw final-coordinate bridges. Its score bridge passes, but that does not establish coordinate equivalence. The separate local arithmetic ledger also does not certify that final bridge.
 
+## 228: causal influence is not predictive sufficiency
+
+The finite MLP22/23 forecast improves parent, residual and margin errors in all 32 new cases, yet fails every frozen accuracy test. This is the distinction the earlier interventions could not establish: those native writes matter, but simply evaluating them finitely at this rule's predicted incoming state does not recover the native alignment.
+
+The trace shows direction error before MLP22. A post-observation identity check also finds an exact first-block receiving state and a 14.3% median discrepancy at the next attention update. This gives a first local boundary with a correct incoming state. It does not show which attention primitive causes the discrepancy or whether subsequent growth is new error or amplification.
+
+A useful next split is receiver-only finite remainder versus source–receiver interaction in attention2. That split has not been executed. A future test must preserve the distinction between an algebraic decomposition, a direct causal intervention and a prospective forecast. The [full negative result](analysis/228-false-only-alignment-result.md) retains the source budget, numerical qualification, metadata correction and every case.
+
 ## The next unresolved question
 
 The studies now constrain one conditional propagation chain: MLP23's intervention supplies interacting displacements; MLP24 generates a consequential mixed response; multiplication explains much of its margin effect, while a complete vector account needs more. The experiments still supply previously observed parents.
 
-We have not explained how the native Boolean edit builds the required upstream gate/up alignments, nor predicted that native response from False alone. A next hypothesis needs an explicit update and computation budget, followed by forecasts sealed before fresh True measurements. No individual component in 227b passes the combined account, so the current evidence does not justify another broad correction sweep or a learned-circuit claim.
+We have not explained how the native Boolean edit builds the required upstream gate/up alignments, nor predicted that native response from False alone. A next hypothesis needs an explicit update and computation budget, followed by forecasts sealed before fresh True measurements. No individual component in 227b passes the combined account, and the selected late-update forecast in 228 fails on new inputs. The current evidence does not justify another broad correction sweep or a learned-circuit claim.
 
 No priority or novelty claim is established here. Known algebra and normalization geometry can explain a local relation while leaving the endogenous computation unresolved.

@@ -8,9 +8,15 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local causal results. A general False-only forecast of the native response has not been demonstrated.
 
-[Latest findings](docs/analysis/227b-mlp24-mixed-primitives-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
+[Latest findings](docs/analysis/228-false-only-alignment-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
 
-## What we have learned
+## Latest test: a useful hypothesis fails
+
+Experiment 228 sealed 96 forecasts before measuring 32 new native True targets. Finite receiving MLP22/23 updates improve every case against both controls, but achieve **0/32** passes on the signed gate/up alignment criterion and **0/32** on the stronger final-response criterion. Median parent relative error remains **0.750**, against a **0.25** bound.
+
+The first-block receiving displacement is exact in all 32 cases. The next attention update already has **14.3%** median relative error. This narrows the first forecast discrepancy without identifying its responsible primitive or solving the full native response. Read the [qualified negative result](docs/analysis/228-false-only-alignment-result.md).
+
+## What the earlier causal tests established
 
 1. **The local interaction controls the tested sign reversal.** At MLP23, experiment 225b separates a gate–up interaction K from a baseline shift B. K reverses the sign in 32/32 old contexts; B alone does so in 0/32. The stricter quantitative K-only account still fails overall.
 2. **The next MLP generates a consequential magnitude interaction.** In 226b, removing newly generated mixing at MLP24 lowers the descriptive median margin gap from **0.246 to 0.065 nats** and passes both margin and vector criteria in **16/16** descriptive contexts. Final normalization alone is insufficient.
@@ -27,16 +33,16 @@ The figure shows every descriptive case; bars are medians. These are previously 
 Verify every current release and the retained historical evidence without a model:
 
 ```sh
-python research/boolean_coupling/reproduce_tail.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_alignment.py --verify-only --history --plan
 ```
 
 For an actual run, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_tail.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_alignment.py --run --out runs/my-reproduction
 ```
 
-This regenerates the 225b parent from public prompt pairs, then executes 226b, 227b and their separate audits. It requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
+This runs the 228 preflight, forecasts and qualification seal before native True measurement, then scores the unchanged criteria. The [earlier causal sequence](research/README.md#run-the-earlier-causal-sequence-from-public-inputs) remains separately reproducible. It requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
 
 GitHub checks cover evidence integrity, Python syntax and lint. They do **not** execute the model experiments or independently replicate the scientific findings.
 

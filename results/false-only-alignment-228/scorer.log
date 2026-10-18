@@ -1,0 +1,157 @@
+{
+  "experiment": 228,
+  "status": "complete",
+  "counts": {
+    "ordinary_false": 32,
+    "ordinary_true": 32,
+    "source_blocks": 768,
+    "smooth_jvps": 4320,
+    "fd_comparisons": 4320,
+    "zero_skips": 192,
+    "selected_mlps": 128,
+    "target_mlps": 96,
+    "suffix_blocks": 384,
+    "forecast_heads": 96
+  },
+  "source_hashes": {
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/audit228.py": "669bae2e6847729a06f57eee4c98990ec3d582e814ad12787db27b371acdee48",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/fixtures228.py": "e4d317042db3a1e10b8ba753508b783eeaa0f16497d476f1ce50a4e02e0015bb",
+    "research/boolean_coupling/cases228.json": "0f89e830629cb8abaf100e20f755b90cdb5375e219f57befed8002956b259d88",
+    "research/boolean_coupling/historical-input-hashes-228.json": "62030d73597c66352ae9dd00ef163699149b5c7b1594fe17f5ec941fa83363c7",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "research/boolean_coupling/cases.json": "1c7981cd53fd6aa5f30f32e0e5a0607cc7a19b9047f418b196a07f921369de21",
+    "docs/experiments/228-false-only-alignment.md": "22ab62cf3087933d3bc352098f40f528ad5f94a7f3d113678572eda22919f8ce"
+  },
+  "checks": {
+    "runner_native_prefix_hash": 32,
+    "runner_known_source": 32,
+    "native_head": 32,
+    "native_gate": 32,
+    "native_up": 32
+  },
+  "maximum_errors": {
+    "runner_native_prefix_hash": 0.0,
+    "runner_known_source": 0.0,
+    "native_head": 5.871743965712994e-06,
+    "native_gate": 1.409065271040788e-05,
+    "native_up": 1.282431897298153e-05
+  },
+  "global_forecast_order_passed": true,
+  "original_whole_block_jacobian_recertified": false,
+  "primary": {
+    "passes": 0,
+    "n": 32,
+    "strata": {
+      "generic_0": 0,
+      "generic_1": 0,
+      "descriptive_0": 0,
+      "descriptive_1": 0
+    },
+    "whole_pass": false
+  },
+  "arms": [
+    {
+      "arm": "L",
+      "parent_bounds": {
+        "passes": 0,
+        "n": 32,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "whole_pass": false
+      },
+      "native_bounds": {
+        "passes": 0,
+        "n": 32,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "whole_pass": false
+      },
+      "parent_relative": 0.7911512447917168,
+      "parent_cosine": 0.654522616920788,
+      "parent_norm_ratio": 0.7991816928755051,
+      "parent_amplitude_squared": 0.04906111690005602,
+      "parent_orientation_squared": 0.5627696769949508,
+      "residual_relative": 1.6236052511512487,
+      "residual_cosine": 0.01513971362929542,
+      "margin_error": 6.886748313903809
+    },
+    {
+      "arm": "F",
+      "parent_bounds": {
+        "passes": 0,
+        "n": 32,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "whole_pass": false
+      },
+      "native_bounds": {
+        "passes": 0,
+        "n": 32,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "whole_pass": false
+      },
+      "parent_relative": 0.7496753560608105,
+      "parent_cosine": 0.6883083706395687,
+      "parent_norm_ratio": 0.8043017185625162,
+      "parent_amplitude_squared": 0.04206548251828298,
+      "parent_orientation_squared": 0.5025719047235763,
+      "residual_relative": 1.3634653696988621,
+      "residual_cosine": 0.12382596740994445,
+      "margin_error": 6.588461875915527
+    },
+    {
+      "arm": "R",
+      "parent_bounds": {
+        "passes": 0,
+        "n": 32,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "whole_pass": false
+      },
+      "native_bounds": {
+        "passes": 0,
+        "n": 32,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "whole_pass": false
+      },
+      "parent_relative": 0.8075987237115618,
+      "parent_cosine": 0.6452353542476315,
+      "parent_norm_ratio": 0.8183170980684206,
+      "parent_amplitude_squared": 0.04367162915061101,
+      "parent_orientation_squared": 0.6007943864963513,
+      "residual_relative": 1.5466870062183689,
+      "residual_cosine": 0.04587630882790486,
+      "margin_error": 6.964552879333496
+    }
+  ]
+}

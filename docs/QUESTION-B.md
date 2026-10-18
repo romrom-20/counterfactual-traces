@@ -12,7 +12,7 @@ The starting observation is a conditional preference dependency: changing an exp
 
 A source-only hypothesis failed all 16 fresh cases on its frozen criteria. Receiving state carried from earlier blocks matters. Earlier MLP writes and their nonlinear remainders affect the native receiving displacement and verdict, but restoring one selected final-neuron projection did not restore the behavior. Improvements in that diagnostic did not always improve the verdict.
 
-Experiment 225b separates a local product interaction K from a baseline shift B at MLP23. K controls the tested sign reversal; the strict quantitative K-only account fails overall. The finite follow-up 226b localizes a consequential part of the remaining baseline-dependent mixing to MLP24. In 227b, a gate/up cross-product explains much of its margin effect but fails the combined vector/margin account; only the combined mixed term passes. Some later mixed responses partly counteract the discrepancy. See the [latest result and numerical boundaries](analysis/227b-mlp24-mixed-primitives-result.md) and [research notes](RESEARCH-NOTES.md).
+Experiment 225b separates a local product interaction K from a baseline shift B at MLP23. K controls the tested sign reversal; the strict quantitative K-only account fails overall. The finite follow-up 226b localizes a consequential part of the remaining baseline-dependent mixing to MLP24. In 227b, a gate/up cross-product explains much of its margin effect but fails the combined vector/margin account; only the combined mixed term passes. Some later mixed responses partly counteract the discrepancy. The prospective follow-up 228 tests finite MLP22/23 updates against native alignment on 32 new pairs. Every case improves against controls, but no case meets either accuracy criterion. An exact first-block receiving state followed by a discrepancy at attention2 supplies an earlier local boundary. See the [latest result and numerical boundaries](analysis/228-false-only-alignment-result.md) and [research notes](RESEARCH-NOTES.md).
 
 ## What remains unresolved
 
@@ -31,4 +31,4 @@ These questions can overlap. A successful local intervention does not answer the
 - Fresh forecasts must be sealed before native True-state measurement. Old-context diagnosis is explicitly retrospective.
 - Grounding controls failed; competent-verifier shutdown, generality and novelty priority have not been demonstrated.
 
-Read the [latest result](analysis/227b-mlp24-mixed-primitives-result.md), [reproduction guide](../research/README.md), and [preserved evidence](../evidence/HISTORY.md).
+Read the [latest result](analysis/228-false-only-alignment-result.md), [reproduction guide](../research/README.md), and [preserved evidence](../evidence/HISTORY.md).

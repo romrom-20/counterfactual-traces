@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit228.py", line 268, in <module>
+    {"preflight":preflight,"forecasts":qualification,"score":score}[args.phase](args.out.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit228.py", line 234, in score
+    layers.append(dict(key=case["key"],**case["group"],arm=arm,block=index+1,**gg))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'block'

@@ -1,20 +1,30 @@
 # Reproduce the current research
 
-The active sequence is **225b → 226b → 227b**. It starts from exact public prompt pairs and one pinned checkpoint, then isolates a local sign reversal, downstream mixing, and its primitive contributions. It remains retrospective. There is no successful general False-only predictor of the native Boolean response.
+The latest test is **228**, a prospective alignment forecast that achieves 0/32 passes on its frozen criteria. The earlier causal sequence is **225b → 226b → 227b**. It starts from exact public prompt pairs and one pinned checkpoint, then isolates a local sign reversal, downstream mixing, and its primitive contributions. It remains retrospective. There is no successful general False-only predictor of the native Boolean response.
 
 ## Inspect without a model
 
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_tail.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_alignment.py --verify-only --history --plan
 ```
 
-This uses only the standard library. It checks both releases, the unchanged pre-execution scientific source hashes, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
+This uses only the standard library. It checks all three releases, the unchanged pre-execution scientific source hashes, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
 
 The [experiment index](../docs/EXPERIMENTS.md) links every active protocol, report, audit, failed attempt and data summary. The [research notes](../docs/RESEARCH-NOTES.md) explain which hypotheses changed and why.
 
-## Run from public inputs
+## Run the latest prospective test
+
+Follow the environment setup below, then run:
+
+```sh
+python research/boolean_coupling/reproduce_alignment.py --run --out runs/my-alignment-reproduction
+```
+
+This runs the unchanged 228 preflight and forecast machinery, seals and audits all forecasts, and only then measures the native True targets. Final scoring uses the separately named 228b metadata correction. See the [228 guide](../results/false-only-alignment-228/README.md) for ordering, budget, failed criteria, original failure record and fixed inputs. Replication is not a second fresh-context demonstration. The wrapper can cache the public pinned checkpoint; add `--offline` when it is already available.
+
+## Run the earlier causal sequence from public inputs
 
 The validated environment is Python 3.12.14 on Apple Silicon/MPS, with Float32/eager execution. Runtime versions are pinned in [requirements-recorded.txt](boolean_coupling/requirements-recorded.txt). The original machine had 24 GB of RAM. Allow several GB for checkpoint weights and generated activations. Other backends and versions have not been validated.
 
@@ -47,6 +57,8 @@ python research/boolean_coupling/reproduce_tail.py --run --offline \
 The checkpoint-based validator adds 608 finite-forward comparisons, without a full model call. All 32 cases in each follow-up are previously observed and dependent. Numerical validation does not make them fresh examples.
 
 ## Code map
+
+The latest study uses [alignment228.py](boolean_coupling/alignment228.py), [smooth228.py](boolean_coupling/smooth228.py), original [audit228.py](boolean_coupling/audit228.py), corrected final [audit228b.py](boolean_coupling/audit228b.py), and [reproduce_alignment.py](boolean_coupling/reproduce_alignment.py). Its [diagnostic](boolean_coupling/diagnose228.py) and [plotter](boolean_coupling/plot228.py) use saved arrays/CSVs and make no model calls.
 
 - [core225b.py](boolean_coupling/core225b.py), [run225b.py](boolean_coupling/run225b.py), [audit225b.py](boolean_coupling/audit225b.py): unchanged parent computation and audit.
 - [tail226b.py](boolean_coupling/tail226b.py), [audit226b.py](boolean_coupling/audit226b.py): finite sublayer mixing, transport and causal removals.

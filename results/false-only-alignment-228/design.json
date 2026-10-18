@@ -1,0 +1,44 @@
+{
+  "experiment": 228,
+  "phase": "forecast",
+  "source_hashes": {
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/audit228.py": "669bae2e6847729a06f57eee4c98990ec3d582e814ad12787db27b371acdee48",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/fixtures228.py": "e4d317042db3a1e10b8ba753508b783eeaa0f16497d476f1ce50a4e02e0015bb",
+    "research/boolean_coupling/cases228.json": "0f89e830629cb8abaf100e20f755b90cdb5375e219f57befed8002956b259d88",
+    "research/boolean_coupling/historical-input-hashes-228.json": "62030d73597c66352ae9dd00ef163699149b5c7b1594fe17f5ec941fa83363c7",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "research/boolean_coupling/cases.json": "1c7981cd53fd6aa5f30f32e0e5a0607cc7a19b9047f418b196a07f921369de21",
+    "docs/experiments/228-false-only-alignment.md": "22ab62cf3087933d3bc352098f40f528ad5f94a7f3d113678572eda22919f8ce"
+  },
+  "expected": {
+    "ordinary_false": 32,
+    "ordinary_true": 32,
+    "source_blocks": 768,
+    "smooth_jvps": 4320,
+    "fd_comparisons": 4320,
+    "zero_skips": 192,
+    "selected_mlps": 128,
+    "target_mlps": 96,
+    "suffix_blocks": 384,
+    "forecast_heads": 96
+  },
+  "created_utc": "2026-10-18T13:21:31.146433+00:00",
+  "preflight": "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/runs/alignment-228-preflight",
+  "preflight_audit_sha256": "9ad5b44cba051872fc611feaf37f5952076a85103ae2673bded75b9deb5f7f24",
+  "thresholds": {
+    "parent_relative": 0.25,
+    "parent_cosine": 0.95,
+    "residual_relative": 0.05,
+    "residual_cosine": 0.99,
+    "margin": 0.1,
+    "norm_guard": 0.001,
+    "total_passes": 24,
+    "stratum_passes": 6
+  },
+  "transport": "Reanchored smoothCPU64 receiving derivatives; public MPS finite source, selected MLPs and tail.",
+  "original_whole_block_jacobian_recertified": false
+}
