@@ -1,0 +1,130 @@
+/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+primitive audit 3bcb6375
+primitive audit 8945b4c1
+primitive audit 68144f88
+primitive audit d1471325
+primitive audit c7d5a7cf
+primitive audit c0c83943
+primitive audit 82afbfef
+primitive audit 6b9178ad
+primitive audit d384fab3
+primitive audit 0e40a9eb
+primitive audit a555c3af
+primitive audit 02c9201c
+primitive audit d9ef16d7
+primitive audit 009829b3
+primitive audit 70ecafae
+primitive audit de137884
+primitive audit 3059dc00
+primitive audit bbe2c269
+primitive audit 07cd4562
+primitive audit 2fb37179
+primitive audit 176e0c2c
+primitive audit aec3f439
+primitive audit d20d51b6
+primitive audit 0123d73e
+primitive audit caa702e4
+primitive audit 367e10c3
+primitive audit 6cc17a37
+primitive audit 1c156b4d
+primitive audit 7fdc8758
+primitive audit 024f3d90
+primitive audit d3bd2bf7
+primitive audit 16629c1e
+{
+  "status": "passed",
+  "retrospective": true,
+  "local": {
+    "all": {
+      "passes": 32,
+      "strata": {
+        "generic_0": 8,
+        "generic_1": 8,
+        "descriptive_0": 8,
+        "descriptive_1": 8
+      },
+      "meets_rule": true
+    },
+    "verdict": {
+      "passes": 16,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 8,
+        "descriptive_1": 8
+      },
+      "meets_rule": false
+    }
+  },
+  "final": {
+    "native": {
+      "passes": 3,
+      "strata": {
+        "generic_0": 2,
+        "generic_1": 1,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "meets_rule": false,
+      "eligible": 3
+    },
+    "own": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "meets_rule": false,
+      "eligible": 0
+    }
+  },
+  "local_medians": {
+    "all": {
+      "relative_error": 0.06875409452524021,
+      "cosine": 0.9975580480312445
+    },
+    "verdict": {
+      "relative_error": 0.35219151629958534,
+      "cosine": 0.9031051612422649
+    }
+  },
+  "final_medians": {
+    "native": {
+      "quadratic_whole": 5.751965754309522,
+      "quadratic_vector": 1.4175051625682968,
+      "quadratic_margin": 0.08086585998535156,
+      "mask_whole": 0.4494754574030999,
+      "mask_vector": 0.10041870211302048,
+      "mask_margin": 0.0039348602294921875,
+      "random0_whole": 5.225930806354056,
+      "random0_vector": 1.2194073481005454,
+      "random0_margin": 0.08415603637695312,
+      "random1_whole": 5.332648454986753,
+      "random1_vector": 1.2377957719463097,
+      "random1_margin": 0.07873916625976562,
+      "random2_whole": 5.271651619333836,
+      "random2_vector": 1.254048574018969,
+      "random2_margin": 0.07739830017089844
+    },
+    "own": {
+      "quadratic_whole": 1.9112405095735325,
+      "quadratic_vector": 0.5509198319321872,
+      "quadratic_margin": 0.059967041015625,
+      "mask_whole": 0.11712152058916302,
+      "mask_vector": 0.05585562113427815,
+      "mask_margin": 0.001369476318359375,
+      "random0_whole": 1.7892168539005033,
+      "random0_vector": 0.5481235137588426,
+      "random0_margin": 0.04522514343261719,
+      "random1_whole": 1.7697824394287676,
+      "random1_vector": 0.5504098336346106,
+      "random1_margin": 0.045825958251953125,
+      "random2_whole": 1.7632185314437185,
+      "random2_vector": 0.5336699225629078,
+      "random2_margin": 0.04504966735839844
+    }
+  }
+}

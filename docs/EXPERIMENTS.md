@@ -111,3 +111,9 @@ Separate local native-input remainders from inherited error through all37 affine
 The full quadratic control fails all sites. The primary finite-normalization/quadratic-SiLU rule passes32/32 at MLP17 and18,0/32 at16,21/32 at19; the four-site account fails. A posthoc exact SiLU-tail identity localizes MLP16's remaining error to the first receiver and a target-dependent concentrated neuron projection. No sparse causal or global predictor claim follows. All Hessian/FD, primitive-allocation and primal checks pass.
 
 [Protocol](experiments/239-curvature-generator-contrast.md) · [Report](analysis/239-generator-curvature-result.md) · [All evidence/reproduction](../results/generator-curvature-239/README.md).
+
+## 240 — Can a forecast-derived activation mask recover the omitted SiLU term?
+
+A fixed bound-based 1% mask is sealed before native receiving inputs are opened. Direct SiLU restoration passes the whole missing-contrast recovery criterion in 32/32 old contexts, but verdict-only recovery passes 16/32. Conditional final discrepancies shrink; the behavioral guard admits only 3/32 native-input cases and 0/32 forecast-input cases. Full finite continuation from the forecast input still leaves 25.2% native displacement error and 1.09 nats margin error. All numerical checks pass; this is not a native-state generator or a learned circuit.
+
+[Protocol](experiments/240-target-blind-silu-tail.md) · [Report](analysis/240-target-blind-silu-result.md) · [Cases, masks and audit](../results/target-blind-silu-240/README.md) · [Runner](../research/boolean_coupling/run240.py)

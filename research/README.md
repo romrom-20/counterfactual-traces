@@ -2,6 +2,18 @@
 
 The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+## Latest: target-blind SiLU selection and finite primitive intervention
+
+240's forecast-derived 1% activation mask recovers the whole missing MLP16 contrast in32/32 old cases. Conditional final gaps shrink, but the materiality guard admits only3/32 native-input and0/32 forecast-input cases. Full finite continuation from the forecast input still misses the native response by25.2% and1.09nats. [Report](../docs/analysis/240-target-blind-silu-result.md).
+
+```sh
+python -S research/boolean_coupling/reproduce_silu.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_silu.py --run --offline \
+  --input-239 runs/existing-239 --out runs/my-silu-test
+```
+
+Omit `--input-239` to regenerate the fixed prerequisite chain. 240 needs the MPS environment below. It seals all masks before intervention outcomes, runs384 direct activation edits with finite continuation, and independently audits all cases. Recorded work adds32 False forwards,32 source-only blocks,32 mask MLPs,384 intervention MLPs,4,608 suffix blocks and384 heads; no new ordinary True forward. The post-run prerequisite-hash recheck binds the archived original inputs; regenerated arrays are evaluated numerically rather than required to match archived compressed-file bytes.
+
 ## Latest: upstream generators and their input-dependent curvature
 
 238 traces every local remainder through the original affine prefix. The selected MLP16–19 repair improves margin5.15→1.34nats and whole error72.3%→31.6%, but has0/32 full-response passes.239's finite-normalization/quadratic-SiLU formula explains the local generator contrast at MLP17/18 and fails the complete four-site account. [238 report](../docs/analysis/238-upstream-generators-result.md) · [239 report](../docs/analysis/239-generator-curvature-result.md).
