@@ -2,6 +2,23 @@
 
 The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+## Latest: upstream generators and their input-dependent curvature
+
+238 traces every local remainder through the original affine prefix. The selected MLP16–19 repair improves margin5.15→1.34nats and whole error72.3%→31.6%, but has0/32 full-response passes.239's finite-normalization/quadratic-SiLU formula explains the local generator contrast at MLP17/18 and fails the complete four-site account. [238 report](../docs/analysis/238-upstream-generators-result.md) · [239 report](../docs/analysis/239-generator-curvature-result.md).
+
+```sh
+python research/boolean_coupling/reproduce_curvature.py --run --out runs/my-curvature-test
+```
+
+Reuse a local238 prerequisite with `--offline --input-238 runs/existing-238`. To run238 using an existing237b prerequisite:
+
+```sh
+python research/boolean_coupling/reproduce_upstream.py --run --offline \
+  --input-237 runs/existing-237b --out runs/my-upstream-test
+```
+
+238 seals its audited selection before intervention outcomes and separately reconstructs all finite-difference endpoints.239 alone needs CPU calculations and the cached checkpoint; rebuilding earlier studies requires the MPS setup below. All outputs must be new. Old native input directions are supplied only as retrospective diagnostics. Source-only states have pre-observation computational provenance, clarified [here](../docs/analysis/238-information-budget.md).
+
 ## Latest: late-attention omissions and numerical diagnosis
 
 237b crosses QK and softmax while keeping normalization/value products and remaining MLPs finite. Neither selective policy passes the joint final-response bound; QK restoration leaves10.8% median whole error under a native reset. Even complete late computation from the ordinary wrong incoming state leaves72.3%. [Full report](../docs/analysis/237-late-attention-result.md).
@@ -19,7 +36,7 @@ Add`--offline --input-236 runs/existing-236` to reuse a qualified cached prerequ
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_late.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_curvature.py --verify-only --history --plan
 ```
 
 This uses only the standard library. It checks all active releases, their scientific source seals, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.

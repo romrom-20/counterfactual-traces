@@ -1,0 +1,304 @@
+/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+remainder ledger 1/32
+remainder ledger 2/32
+remainder ledger 3/32
+remainder ledger 4/32
+remainder ledger 5/32
+remainder ledger 6/32
+remainder ledger 7/32
+remainder ledger 8/32
+remainder ledger 9/32
+remainder ledger 10/32
+remainder ledger 11/32
+remainder ledger 12/32
+remainder ledger 13/32
+remainder ledger 14/32
+remainder ledger 15/32
+remainder ledger 16/32
+remainder ledger 17/32
+remainder ledger 18/32
+remainder ledger 19/32
+remainder ledger 20/32
+remainder ledger 21/32
+remainder ledger 22/32
+remainder ledger 23/32
+remainder ledger 24/32
+remainder ledger 25/32
+remainder ledger 26/32
+remainder ledger 27/32
+remainder ledger 28/32
+remainder ledger 29/32
+remainder ledger 30/32
+remainder ledger 31/32
+remainder ledger 32/32
+{
+  "rule": "Median absolute per-case signed terminal projection; chronological tie-break; before intervention outcomes.",
+  "selected": [
+    35,
+    31,
+    37,
+    33
+  ],
+  "ranking": [
+    {
+      "node": 35,
+      "layer": 18,
+      "kind": "mlp",
+      "median_absolute_share": 0.16997782998626756,
+      "median_signed_share": 0.16997782998626756
+    },
+    {
+      "node": 31,
+      "layer": 16,
+      "kind": "mlp",
+      "median_absolute_share": 0.15531735990089623,
+      "median_signed_share": 0.15531735990089623
+    },
+    {
+      "node": 37,
+      "layer": 19,
+      "kind": "mlp",
+      "median_absolute_share": 0.12496423454028027,
+      "median_signed_share": 0.12496423454028027
+    },
+    {
+      "node": 33,
+      "layer": 17,
+      "kind": "mlp",
+      "median_absolute_share": 0.09311644873637853,
+      "median_signed_share": 0.09311644873637853
+    },
+    {
+      "node": 32,
+      "layer": 17,
+      "kind": "attention",
+      "median_absolute_share": 0.08375517730319615,
+      "median_signed_share": 0.08375517730319615
+    },
+    {
+      "node": 34,
+      "layer": 18,
+      "kind": "attention",
+      "median_absolute_share": 0.061985902867646187,
+      "median_signed_share": 0.061985902867646187
+    },
+    {
+      "node": 29,
+      "layer": 15,
+      "kind": "mlp",
+      "median_absolute_share": 0.05842281895762891,
+      "median_signed_share": 0.05842281895762891
+    },
+    {
+      "node": 36,
+      "layer": 19,
+      "kind": "attention",
+      "median_absolute_share": 0.04412551627598559,
+      "median_signed_share": 0.04412551627598559
+    },
+    {
+      "node": 27,
+      "layer": 14,
+      "kind": "mlp",
+      "median_absolute_share": 0.04079435204751304,
+      "median_signed_share": 0.04079435204751304
+    },
+    {
+      "node": 38,
+      "layer": 20,
+      "kind": "attention",
+      "median_absolute_share": 0.028586987762784156,
+      "median_signed_share": 0.028586987762784156
+    },
+    {
+      "node": 21,
+      "layer": 11,
+      "kind": "mlp",
+      "median_absolute_share": 0.027625428148637603,
+      "median_signed_share": 0.019795363215784935
+    },
+    {
+      "node": 28,
+      "layer": 15,
+      "kind": "attention",
+      "median_absolute_share": 0.02670468712071346,
+      "median_signed_share": 0.026701326965330875
+    },
+    {
+      "node": 30,
+      "layer": 16,
+      "kind": "attention",
+      "median_absolute_share": 0.024172529938823642,
+      "median_signed_share": 0.024172529938823642
+    },
+    {
+      "node": 23,
+      "layer": 12,
+      "kind": "mlp",
+      "median_absolute_share": 0.01888539234654618,
+      "median_signed_share": 0.018510837302190452
+    },
+    {
+      "node": 20,
+      "layer": 11,
+      "kind": "attention",
+      "median_absolute_share": 0.015513815218222381,
+      "median_signed_share": 0.015513815218222381
+    },
+    {
+      "node": 25,
+      "layer": 13,
+      "kind": "mlp",
+      "median_absolute_share": 0.010775064059539853,
+      "median_signed_share": 0.007355848534792156
+    },
+    {
+      "node": 26,
+      "layer": 14,
+      "kind": "attention",
+      "median_absolute_share": 0.006850248867586609,
+      "median_signed_share": 0.006075638851962111
+    },
+    {
+      "node": 24,
+      "layer": 13,
+      "kind": "attention",
+      "median_absolute_share": 0.006697301179436314,
+      "median_signed_share": 0.006697301179436314
+    },
+    {
+      "node": 17,
+      "layer": 9,
+      "kind": "mlp",
+      "median_absolute_share": 0.003969602276679322,
+      "median_signed_share": 0.001770122728541453
+    },
+    {
+      "node": 22,
+      "layer": 12,
+      "kind": "attention",
+      "median_absolute_share": 0.0029322136759266054,
+      "median_signed_share": 0.0029322136759266054
+    },
+    {
+      "node": 3,
+      "layer": 2,
+      "kind": "mlp",
+      "median_absolute_share": 0.002530953185117954,
+      "median_signed_share": 0.002530953185117954
+    },
+    {
+      "node": 19,
+      "layer": 10,
+      "kind": "mlp",
+      "median_absolute_share": 0.002418727620117264,
+      "median_signed_share": -0.0005722337184052831
+    },
+    {
+      "node": 15,
+      "layer": 8,
+      "kind": "mlp",
+      "median_absolute_share": 0.0020907482513536245,
+      "median_signed_share": -0.0020907482513536245
+    },
+    {
+      "node": 18,
+      "layer": 10,
+      "kind": "attention",
+      "median_absolute_share": 0.0018656124257834068,
+      "median_signed_share": -0.0018656124257834068
+    },
+    {
+      "node": 5,
+      "layer": 3,
+      "kind": "mlp",
+      "median_absolute_share": 0.0016620496236293444,
+      "median_signed_share": -0.00025642513939482046
+    },
+    {
+      "node": 14,
+      "layer": 8,
+      "kind": "attention",
+      "median_absolute_share": 0.0014702354960239477,
+      "median_signed_share": -0.0014702354960239477
+    },
+    {
+      "node": 2,
+      "layer": 2,
+      "kind": "attention",
+      "median_absolute_share": 0.0008850480781869457,
+      "median_signed_share": 0.0002294185585332719
+    },
+    {
+      "node": 16,
+      "layer": 9,
+      "kind": "attention",
+      "median_absolute_share": 0.000829545654265248,
+      "median_signed_share": 0.000829545654265248
+    },
+    {
+      "node": 13,
+      "layer": 7,
+      "kind": "mlp",
+      "median_absolute_share": 0.0007816932951010156,
+      "median_signed_share": -3.077764360974271e-05
+    },
+    {
+      "node": 8,
+      "layer": 5,
+      "kind": "attention",
+      "median_absolute_share": 0.0007770839276753907,
+      "median_signed_share": -0.0007770839276753907
+    },
+    {
+      "node": 4,
+      "layer": 3,
+      "kind": "attention",
+      "median_absolute_share": 0.0006294875633501935,
+      "median_signed_share": 0.0006294875633501935
+    },
+    {
+      "node": 10,
+      "layer": 6,
+      "kind": "attention",
+      "median_absolute_share": 0.00039543540468782944,
+      "median_signed_share": 5.5273241605275334e-05
+    },
+    {
+      "node": 12,
+      "layer": 7,
+      "kind": "attention",
+      "median_absolute_share": 0.00036687390608748936,
+      "median_signed_share": -0.0002840355666639136
+    },
+    {
+      "node": 6,
+      "layer": 4,
+      "kind": "attention",
+      "median_absolute_share": 0.000347435995566918,
+      "median_signed_share": -0.000347435995566918
+    },
+    {
+      "node": 7,
+      "layer": 4,
+      "kind": "mlp",
+      "median_absolute_share": 0.0002145808251032368,
+      "median_signed_share": -3.3960607441457445e-05
+    },
+    {
+      "node": 9,
+      "layer": 5,
+      "kind": "mlp",
+      "median_absolute_share": 0.00017554453584408132,
+      "median_signed_share": 0.00017554453584408132
+    },
+    {
+      "node": 11,
+      "layer": 6,
+      "kind": "mlp",
+      "median_absolute_share": 8.295596080580179e-05,
+      "median_signed_share": 6.797650550749437e-05
+    }
+  ]
+}

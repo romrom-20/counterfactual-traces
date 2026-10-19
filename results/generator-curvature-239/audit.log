@@ -1,0 +1,246 @@
+/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+curvature audit 3bcb6375
+curvature audit 8945b4c1
+curvature audit 68144f88
+curvature audit d1471325
+curvature audit c7d5a7cf
+curvature audit c0c83943
+curvature audit 82afbfef
+curvature audit 6b9178ad
+curvature audit d384fab3
+curvature audit 0e40a9eb
+curvature audit a555c3af
+curvature audit 02c9201c
+curvature audit d9ef16d7
+curvature audit 009829b3
+curvature audit 70ecafae
+curvature audit de137884
+curvature audit 3059dc00
+curvature audit bbe2c269
+curvature audit 07cd4562
+curvature audit 2fb37179
+curvature audit 176e0c2c
+curvature audit aec3f439
+curvature audit d20d51b6
+curvature audit 0123d73e
+curvature audit caa702e4
+curvature audit 367e10c3
+curvature audit 6cc17a37
+curvature audit 1c156b4d
+curvature audit 7fdc8758
+curvature audit 024f3d90
+curvature audit d3bd2bf7
+curvature audit 16629c1e
+{
+  "status": "passed",
+  "experiment": 239,
+  "retrospective": true,
+  "ordinary_models": 0,
+  "decisions": {
+    "quadratic": {
+      "35": {
+        "passes": 0,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "meets_rule": false
+      },
+      "31": {
+        "passes": 0,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "meets_rule": false
+      },
+      "37": {
+        "passes": 0,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "meets_rule": false
+      },
+      "33": {
+        "passes": 0,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "meets_rule": false
+      },
+      "all_four_passes": 0
+    },
+    "finite": {
+      "35": {
+        "passes": 32,
+        "strata": {
+          "generic_0": 8,
+          "generic_1": 8,
+          "descriptive_0": 8,
+          "descriptive_1": 8
+        },
+        "meets_rule": true
+      },
+      "31": {
+        "passes": 0,
+        "strata": {
+          "generic_0": 0,
+          "generic_1": 0,
+          "descriptive_0": 0,
+          "descriptive_1": 0
+        },
+        "meets_rule": false
+      },
+      "37": {
+        "passes": 21,
+        "strata": {
+          "generic_0": 2,
+          "generic_1": 3,
+          "descriptive_0": 8,
+          "descriptive_1": 8
+        },
+        "meets_rule": false
+      },
+      "33": {
+        "passes": 32,
+        "strata": {
+          "generic_0": 8,
+          "generic_1": 8,
+          "descriptive_0": 8,
+          "descriptive_1": 8
+        },
+        "meets_rule": true
+      },
+      "all_four_passes": 0
+    }
+  },
+  "medians": {
+    "quadratic": {
+      "35": {
+        "all": {
+          "relative_error": 0.440952411047683,
+          "cosine": 0.9117283536651932,
+          "native_relative": 0.3962014317067412,
+          "own_relative": 0.4223722805016589
+        },
+        "verdict": {
+          "relative_error": 0.608715512584199,
+          "cosine": 0.8413952313784077,
+          "native_relative": 0.4761626329168255,
+          "own_relative": 0.4607830018493296
+        }
+      },
+      "31": {
+        "all": {
+          "relative_error": 0.3992825490582472,
+          "cosine": 0.9291477003455717,
+          "native_relative": 0.28417612550186355,
+          "own_relative": 0.2754195203682731
+        },
+        "verdict": {
+          "relative_error": 0.37313639441810315,
+          "cosine": 0.9285430253482854,
+          "native_relative": 0.2583948775849422,
+          "own_relative": 0.25837428569360227
+        }
+      },
+      "37": {
+        "all": {
+          "relative_error": 0.47133205399298544,
+          "cosine": 0.9107882540070555,
+          "native_relative": 0.45890802117231144,
+          "own_relative": 0.3898691026852613
+        },
+        "verdict": {
+          "relative_error": 0.5285318725738768,
+          "cosine": 0.8993586988995845,
+          "native_relative": 0.4662395739941352,
+          "own_relative": 0.40891912338507447
+        }
+      },
+      "33": {
+        "all": {
+          "relative_error": 0.522945278275394,
+          "cosine": 0.862532242025557,
+          "native_relative": 0.437426933519163,
+          "own_relative": 0.4476648774149402
+        },
+        "verdict": {
+          "relative_error": 0.7459333621980571,
+          "cosine": 0.7981948235779244,
+          "native_relative": 0.5216863481122906,
+          "own_relative": 0.4916879333500671
+        }
+      }
+    },
+    "finite": {
+      "35": {
+        "all": {
+          "relative_error": 0.1369656068236447,
+          "cosine": 0.9905998584202278,
+          "native_relative": 0.13978544584125083,
+          "own_relative": 0.12901701790474118
+        },
+        "verdict": {
+          "relative_error": 0.19789499899432705,
+          "cosine": 0.980745800655851,
+          "native_relative": 0.18550012456808174,
+          "own_relative": 0.14899841442218784
+        }
+      },
+      "31": {
+        "all": {
+          "relative_error": 0.45186410124328386,
+          "cosine": 0.9588221556848959,
+          "native_relative": 0.3180165531297308,
+          "own_relative": 0.09544437546448238
+        },
+        "verdict": {
+          "relative_error": 0.11362374815058637,
+          "cosine": 0.9928429019893326,
+          "native_relative": 0.06378779161750307,
+          "own_relative": 0.06223966090245722
+        }
+      },
+      "37": {
+        "all": {
+          "relative_error": 0.16729729472509766,
+          "cosine": 0.9877403464813013,
+          "native_relative": 0.17019266670841024,
+          "own_relative": 0.1134124634123018
+        },
+        "verdict": {
+          "relative_error": 0.176208349522648,
+          "cosine": 0.9869244492390077,
+          "native_relative": 0.17672856406710086,
+          "own_relative": 0.10149811904904436
+        }
+      },
+      "33": {
+        "all": {
+          "relative_error": 0.15928497771756522,
+          "cosine": 0.9870266085958656,
+          "native_relative": 0.12766904245112787,
+          "own_relative": 0.08089512384176425
+        },
+        "verdict": {
+          "relative_error": 0.13904451916521207,
+          "cosine": 0.9923179051370121,
+          "native_relative": 0.13156642563231447,
+          "own_relative": 0.10438735715580014
+        }
+      }
+    }
+  }
+}
