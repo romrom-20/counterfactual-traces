@@ -89,3 +89,13 @@ A two-switch factorial recomputes later states and finite MLP writes. Joint repa
 The [historical evidence](../evidence/HISTORY.md) preserves the earlier Question B path, including the qualified 204 retrospective diagnostic, invalid replacement-agent conclusions, the original whole-block derivative disagreements, source-only forecast failures, and the failed 224 coordinate bridge. Its publication-filtered archive retains 2,867 original files with exact hashes; one unpublished article is withheld. Preservation is not endorsement of a superseded claim.
 
 Start with [research notes](RESEARCH-NOTES.md) for the reasoning across studies, or [reproduction](../research/README.md) to verify and execute the current sequence.
+
+## 237 /237b — Which late attention primitive is missing?
+
+237 stops at its original smooth/public final-coordinate bridge before a completed case.237b changes to explicit primitive omissions anchored to public finite attention. Under the native reset, restoring QK helps but leaves10.8% whole error; QK-only and softmax-only both have0/32 joint passes. Full attention is an exact replay control. From the wrong incoming state even all finite late computation leaves72.3%. Fixed-input signed effects change with depth.
+
+**Qualification is partial:** the original237b audit stops at one Float64 MLP bridge. No237b audit pass is claimed. [Frozen237](experiments/237-late-attention-primitives.md) · [Preserved failure](../results/late-attention-237-failed/README.md) · [Frozen237b](experiments/237b-late-attention-removals.md) · [Report](analysis/237-late-attention-result.md).
+
+## 237c — Inspect every remaining numerical check without hiding the failure
+
+Posthoc numerical diagnostic, no new scientific intervention:25,119/25,120 comparisons pass; the original Float64 MLP bridge remains failed. All1536Float32MLP reconstructions and1920same-backend public replays pass. Attention derivatives/graphs qualify separately. Outcome counts remain conditional diagnostic measurements, not a fully qualified predictor or circuit account. [Protocol](experiments/237c-complete-numerical-diagnostic.md) · [Every check/case and reproduction](../results/late-attention-237b/README.md).

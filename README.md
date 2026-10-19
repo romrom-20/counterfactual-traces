@@ -8,9 +8,19 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local causal results. A general False-only forecast of the native response has not been demonstrated.
 
-[Latest findings](docs/analysis/236-upstream-factorial-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
+[Latest findings](docs/analysis/237-late-attention-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
 
-## New: the local accounts do not yet compose into a final prediction
+## Latest: the missing attention response changes with depth
+
+The late-attention primitive diagnostic restores query–key interaction and softmax singly and together. With an exact native reset before MLP20, QK restoration helps but leaves **10.8%** median final whole-displacement error; neither selective policy passes the full-response criterion in any of the 32 old cases. Fixed-input vectors shift from a larger QK contribution at attention21 to a larger softmax contribution at23. These are operation-defined effects, not learned features. [Complete result and signed effects](docs/analysis/237-late-attention-result.md).
+
+Even evaluating **all** late operations finitely from the ordinary inaccurate input leaves **72.3%** error and **5.15 nats** margin error. A late correction alone cannot repair the earlier carry. The native-reset fully finite result is exact, as a replay control.
+
+**Numerical qualification is partial:** 237 failed its original final bridge; 237b's independent audit also stopped on one Float64 MLP bridge. The complete diagnostic retains that failure among 25,120 checks. All attention graph/derivative checks and 1,536 Float32 MLP reconstructions pass; 1,920 same-backend MLP replays are exact. Neither later check converts a failed original bound into a pass. This is retrospective diagnosis, not a successful new predictor.
+
+![Every late-attention policy and incoming regime](docs/figures/237b-late-attention.png)
+
+## Earlier: the local accounts do not yet compose into a final prediction
 
 Experiment 235 accounts for every write error in the failed whole-response forecast. The largest discrepancies occur at MLPs 20–23, but MLP22/23 were already finite: their roughly 25-unit write errors come almost entirely from inaccurate incoming states. [Complete error budget and finite conditional split](docs/analysis/235-global-error-result.md).
 
@@ -51,16 +61,16 @@ The figure shows every descriptive case; bars are medians. These are previously 
 Verify every current release and the retained historical evidence without a model:
 
 ```sh
-python research/boolean_coupling/reproduce_failure.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_late.py --verify-only --history --plan
 ```
 
 For an actual run, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_failure.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_late.py --run --out runs/my-reproduction
 ```
 
-This regenerates the fixed 228 reference, then runs 235/236 and their separate numerical auditors. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
+This regenerates the fixed 228 reference, then 235/236 and the late-attention diagnostic. It preserves the original failed numerical audit before completing all unchanged-bound checks and the separate public replay; pipeline completion does not mean every check passed. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
 
 GitHub checks cover evidence integrity, Python syntax and lint. They do **not** execute the model experiments or independently replicate the scientific findings.
 

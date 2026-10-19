@@ -14,6 +14,8 @@ All active studies concern Question B. Each retains its protocol, source hashes,
 - **[234: fresh source K/V forecast](source-key-value-234/README.md)** — joint rule passes 32/32 at 1.52% error; mixed-product removal leaves 16/32 accurate. Includes all pre-target seals, direct product controls and row-matched controls.
 - **[235: complete failed-forecast error budget](global-error-budget-235/README.md)** — ledger closes exactly; largest late discrepancies mostly reflect wrong incoming states. Four-write terminal repair passes only 2/32.
 - **[236: upstream MLP factorial](upstream-factorial-236/README.md)** — actual MLP20/21 continuation improves but has 0/32 accuracy passes; native reset still has 0/32 because later attention approximations remain insufficient.
+- **[237: failed final numerical bridge](late-attention-237-failed/README.md)** — original smooth/public final residual exceeds its frozen bound; no completed case or mechanism claim.
+- **[237b/237c: late attention omissions](late-attention-237b/README.md)** — neither selective QK/softmax rule passes; complete late computation still cannot fix an earlier inaccurate input. Qualification is partial: one raw Float64 MLP comparison remains failed; all attention checks, Float32 MLP reconstructions and public replays pass separately.
 - **[Joint continuation release](tail-interactions-226-227/README.md)** — file manifest, original local snapshot and explicit publication-only presentation changes.
 
 Large raw arrays remain local and are inventoried by size and SHA256. Regenerate them with the [reproduction pipeline](../research/README.md). The earlier [historical archive](../evidence/HISTORY.md) is publication-filtered and hash-verified; one unpublished article is withheld.

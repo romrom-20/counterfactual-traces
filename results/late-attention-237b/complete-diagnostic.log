@@ -1,0 +1,249 @@
+{
+  "status": "complete_with_failed_checks",
+  "experiment": "237c",
+  "retrospective": true,
+  "posthoc_numerical_diagnostic": true,
+  "model_calls": 0,
+  "failed_checks": [
+    {
+      "case": "d384fab3060d58a8237bd362d566ccb1bf4598735c062f0eb0a442a7f276aad9",
+      "name": "numpy_finite_mlp",
+      "error": 0.00011064888120415617,
+      "bound": 0.0001,
+      "passed": false
+    }
+  ],
+  "diagnostic_source_sha256": "023cc56299ffff2b56585c77138b27b9d425c63159cef22496963c128b5f5f4a",
+  "protocol_sha256": "4f0f7395bcec92bca0b7bf839d03c5f6d09ed943518367ff9ee4bc47c904c629",
+  "original_audit_failure_sha256": "616b10ea79d3e3666632c159235fd62893fabd997847b3501bc0c69700f8f922",
+  "counts": {
+    "ordinary_false": 32,
+    "ordinary_true": 0,
+    "source_attention": 160,
+    "false_graphs": 128,
+    "source_corners": 512,
+    "receiving_corners": 1792,
+    "legacy_jvps": 256,
+    "legacy_fd_endpoints": 512,
+    "public_attention": 2048,
+    "comparison_corners": 1280,
+    "finite_mlps": 1920,
+    "suffix_blocks": 1536,
+    "heads": 384
+  },
+  "decisions": {
+    "forecast_1001": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 0
+    },
+    "forecast_1101": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 0
+    },
+    "forecast_1011": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 0
+    },
+    "forecast_1111": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 0
+    },
+    "oracle_1001": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 0
+    },
+    "oracle_1101": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 16
+    },
+    "oracle_1011": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false,
+      "eligible": 32,
+      "halves": 0
+    },
+    "oracle_1111": {
+      "passes": 32,
+      "strata": {
+        "generic_0": 8,
+        "generic_1": 8,
+        "descriptive_0": 8,
+        "descriptive_1": 8
+      },
+      "whole": true,
+      "eligible": 32,
+      "halves": 32
+    }
+  },
+  "primitive_derivatives": 1536,
+  "primitive_fd_endpoints": 3072,
+  "legacy_derivatives": 256,
+  "finite_mlp_reconstructions": 1536,
+  "numpy_corner_reconstructions": 2304,
+  "raw_accuracy": {
+    "forecast_legacy": 0,
+    "forecast_1001": 0,
+    "forecast_1101": 0,
+    "forecast_1011": 0,
+    "forecast_1111": 0,
+    "forecast_public": 0,
+    "oracle_legacy": 0,
+    "oracle_1001": 0,
+    "oracle_1101": 0,
+    "oracle_1011": 0,
+    "oracle_1111": 32,
+    "oracle_public": 32
+  },
+  "medians": {
+    "forecast_legacy": {
+      "vector_error": 59.545570900314814,
+      "margin_error": 4.84855842590332,
+      "all_relative": 0.7397748189826306,
+      "all_cosine": 0.6916330961542568,
+      "verdict_relative": 0.8124336551312554,
+      "verdict_cosine": 0.6064118832325608
+    },
+    "forecast_1001": {
+      "vector_error": 66.96765096439935,
+      "margin_error": 5.948904037475586,
+      "all_relative": 0.8016904844224796,
+      "all_cosine": 0.6222567952323392,
+      "verdict_relative": 0.8950776309627582,
+      "verdict_cosine": 0.501724468755497
+    },
+    "forecast_1101": {
+      "vector_error": 53.30283867612345,
+      "margin_error": 4.861316680908203,
+      "all_relative": 0.6801866725621067,
+      "all_cosine": 0.7402587028806706,
+      "verdict_relative": 0.7318420417975482,
+      "verdict_cosine": 0.6874804889682022
+    },
+    "forecast_1011": {
+      "vector_error": 74.03340272066376,
+      "margin_error": 6.135337829589844,
+      "all_relative": 0.8620378720931978,
+      "all_cosine": 0.5641063944609324,
+      "verdict_relative": 0.9776511589970067,
+      "verdict_cosine": 0.413779333279243
+    },
+    "forecast_1111": {
+      "vector_error": 58.44985297441805,
+      "margin_error": 5.145561218261719,
+      "all_relative": 0.7228320978268458,
+      "all_cosine": 0.701822961354067,
+      "verdict_relative": 0.7886648143959404,
+      "verdict_cosine": 0.629900881773903
+    },
+    "forecast_public": {
+      "vector_error": 58.44985297441805,
+      "margin_error": 5.145561218261719,
+      "all_relative": 0.7228320978268458,
+      "all_cosine": 0.701822961354067,
+      "verdict_relative": 0.7886648143959404,
+      "verdict_cosine": 0.629900881773903
+    },
+    "oracle_legacy": {
+      "vector_error": 18.869227247145876,
+      "margin_error": 0.3435993194580078,
+      "all_relative": 0.24371648242422722,
+      "all_cosine": 0.9705286428246228,
+      "verdict_relative": 0.2410661518746845,
+      "verdict_cosine": 0.9707864525581048
+    },
+    "oracle_1001": {
+      "vector_error": 20.048955997558284,
+      "margin_error": 2.4388656616210938,
+      "all_relative": 0.22587455974157353,
+      "all_cosine": 0.9716647696282887,
+      "verdict_relative": 0.2363254048505487,
+      "verdict_cosine": 0.9699815761456075
+    },
+    "oracle_1101": {
+      "vector_error": 10.059788139540895,
+      "margin_error": 0.16008567810058594,
+      "all_relative": 0.10844708770375136,
+      "all_cosine": 0.9942307060762765,
+      "verdict_relative": 0.11736779490434063,
+      "verdict_cosine": 0.993169511649717
+    },
+    "oracle_1011": {
+      "vector_error": 17.24067722144015,
+      "margin_error": 2.2058353424072266,
+      "all_relative": 0.195824834126865,
+      "all_cosine": 0.9791102769373641,
+      "verdict_relative": 0.2059414864207555,
+      "verdict_cosine": 0.9784117365257785
+    },
+    "oracle_1111": {
+      "vector_error": 0.0,
+      "margin_error": 0.0,
+      "all_relative": 0.0,
+      "all_cosine": 1.0,
+      "verdict_relative": 0.0,
+      "verdict_cosine": 1.0
+    },
+    "oracle_public": {
+      "vector_error": 0.0,
+      "margin_error": 0.0,
+      "all_relative": 0.0,
+      "all_cosine": 1.0,
+      "verdict_relative": 0.0,
+      "verdict_cosine": 1.0
+    }
+  }
+}

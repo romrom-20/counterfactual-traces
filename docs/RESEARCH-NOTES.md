@@ -91,3 +91,13 @@ The studies now constrain one conditional propagation chain: MLP23's interventio
 We have not explained how the native Boolean edit builds the required upstream gate/up alignments, nor predicted that native response from False alone. A next hypothesis needs an explicit update and computation budget, followed by forecasts sealed before fresh True measurements. No individual component in 227b passes the combined account, and the selected late-update forecast in 228 fails on new inputs. 234 now supplies a more explicit, prospectively tested key/value account of the complete local attention-2 displacement, but its exact first-block input and untested later propagation leave the general question open. A next mechanistic test should explain a specific remaining generator or transport dependency; the evidence does not justify another broad correction sweep or a learned-circuit claim.
 
 No priority or novelty claim is established here. Known algebra and normalization geometry can explain a local relation while leaving the endogenous computation unresolved.
+
+## 237b/237c: different late operations matter at different depths
+
+The normalization/value-product rule that helped attention2 is insufficient at late attention21–24. With exact incoming native state and finite remaining MLPs, QK restoration reduces whole error to10.8% but still fails every full-response criterion. Softmax-only also fails. The fixed-input vectors show a depth-dependent split: QK projects more strongly onto the missing response near21, softmax near23. A uniform single-primitive repair obscures that distinction.
+
+There is a second bottleneck: even the complete late finite computation cannot repair the earlier wrong incoming state. That branch has72.3% median whole error and5.15nats margin error. A successful late oracle intervention would still not solve the upstream generator or make a predictor.
+
+This does not identify a circuit. The operation factorial is conditional on normalization/value products, source-only subtraction and each branch's evolving state. A small set of layers selected after seeing projections would be another correction search until tested causally and then prospectively.
+
+The numerical failures are part of what changed. Original237 fails its full CPU64/public final bridge. Original237b stops on one Float64MLP reconstruction. The complete237c diagnostic keeps that failure among25,120 comparisons; independent Float32 reconstructions and exact public replay pass separately. The attention operation arithmetic has strong numerical support, but no all-checks-passed237b result is claimed. [Full report and limits](analysis/237-late-attention-result.md).
