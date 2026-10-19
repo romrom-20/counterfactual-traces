@@ -1,0 +1,8964 @@
+{
+  "status": "passed",
+  "experiment": 235,
+  "retrospective": true,
+  "checks": [
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.7446375284512214e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 4.582533026109559e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1742911028900238e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2822448438143397e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.7141143464248785e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.5460570926606465e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.5564085103392244e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.2374284476711637e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.3877787807814457e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.6894830916244246e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.63213340395896e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.949509640222004e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.6219549954807917e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.0444497437210885e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2949383264858625e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.796924770289479e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.6894830916244246e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9034717979593552e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4100500368717803e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.027376448803352e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.497791740083358e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2074879925403366e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7379321068110585e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.1005053095611856e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.0085165391824376e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.5602844902318225e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.604881140204739e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.554959484868391e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.6083176248571363e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.0802346078596656e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2255389806981043e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.7059446000853313e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.8609618826512815e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.311377916759284e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.266250236639735e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0101230166224013e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4219229217692373e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.222838621752544e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.7059446000853313e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.85482077042343e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.4985945092103066e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5799772512536947e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.873989235600675e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3831515463257347e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.077759659855019e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 5.267647092921379e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 4.010532012443946e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3435019023066985e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.5781463250874594e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.7348027649077835e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.563245481608135e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.738147023961801e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4884611850618512e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7544708558480124e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.87149668674192e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.8874503499309867e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.554680023081346e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.928986013728263e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.179754775179845e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.238987661002284e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7544708558480124e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7585173469901747e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.711228207554541e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.572355614598564e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3869079751316349e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.344298228569187e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.7546758377970946e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 5.659863732176973e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 4.313405234768197e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.4889922542504763e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1369681915507357e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1079008753966946e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.574973460589547e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3866067720691433e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.4640622953597813e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.194285058962578e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.886410134157359e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0319467804720261e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.745028022526185e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.161128253102106e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.9006315571677987e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.696155064541017e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.194285058962578e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.031636616412925e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0889660180832834e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.1938987231351348e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3369973927979117e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.3898313464296734e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.946110399193458e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.4051695233804367e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.501335457656296e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.0555290526070849e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.611479114460579e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.443475658355567e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.0438612082275256e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.929224818653097e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.0756654877042138e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.471949279936325e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.839490939265943e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0998712503560455e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.851067842537304e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2890267956654498e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3448585437790825e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.832777745709336e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.471949279936325e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.597099565577082e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0428407293261444e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.813279789241733e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6002066622888833e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.0748749441377186e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.594686402484058e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.269993783623249e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.60103740320028e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.4106400392233098e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.5983923390194832e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.2162656575730466e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 5.6132361315519574e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2789490093201294e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3908787828142977e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9449766810453184e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1320072346165944e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.684394476342277e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.846067175710232e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.9298697913636715e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.107337515155905e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.368196862003515e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9449766810453184e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.161776166076379e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.06301609956472e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8615861065995887e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3171386115118366e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6092374153231503e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1712265859387117e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.7891569189364418e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.291966454099793e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.0548716653957513e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.734193238078774e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.8074392034227458e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.0905208462096425e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3562682795509318e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.596307682762756e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2240986058695853e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.715778402910928e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2290060474338134e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9035139686707225e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.704982435375314e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.034646595296181e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4666870242763252e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2240986058695853e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.63199298800032e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7173971222916862e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.1711812898672633e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.3286993854630964e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3651203616404928e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.6704239541052175e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.4477488007667034e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 5.012549452487747e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2505910198523651e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.7675611410084002e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.45170422466623e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.0343040960213443e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.156651362066441e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.476203838635115e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.1630782970637483e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6564356286608017e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5482857662618699e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8235599767990607e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.136016103639122e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.969783354624724e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.8280032964289603e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.1630782970637483e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1959564929497901e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.623418820097868e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.502936243014119e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4921851888848323e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.955537372732579e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2253761972356187e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.667723709810389e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 5.564844131100699e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.6252966709373595e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3896243004296593e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.114427187611568e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.039702552814049e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3877250154337162e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2640576144917759e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.918159208637917e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6771275070937008e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3457676974203423e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4397643113284175e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6202832284761826e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.141929073218307e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.534055106195865e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.918159208637917e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.172883663500215e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.1908928502512026e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.150596398882044e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0522191067916538e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.636219268798868e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4616996892868883e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.469799254673944e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.8056795969177983e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1994662761249941e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.0979117665010918e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.8726300591964673e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4477934366041723e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1802522397630355e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1201693625562115e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7246740995346954e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4306991715784534e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4975867702892174e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4941159420800432e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.9927044380428924e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.141650779056818e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.811712214167983e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7246740995346954e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8005172286450488e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.184013074530867e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.77070135629765e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 7.50672924709761e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.241003894454252e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.122665506476551e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.052197567399162e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.663399431985681e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.0557697881719008e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.2129046797658702e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.8233708200199317e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.2464722427173456e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1396474572267223e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.755240739242936e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3889996967341176e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.51521874822447e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.97633939996922e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5143149099117181e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.139594734273942e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.733838819324319e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.189102161764822e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3889996967341176e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.363969670213464e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2379872578758295e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1024506108014975e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.745376772229974e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3029582675017082e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.8182096230011666e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.47747034613144e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.600785706263764e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1618602147933643e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.5242187183073241e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.6184558571552543e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.3643307688558934e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.110150820693434e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 8.68579840584971e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8088919517822433e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.963510524978119e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.554913315577778e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2346840111708843e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.713532396114715e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3586292482159479e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.462335818937845e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8088919517822433e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.0128854479348774e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9314786783297677e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9579914791734154e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4436673982108914e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4065189947464205e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.920541564004452e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.025754114105439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 5.442110908404629e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.270196132807655e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.6288667150643477e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2666135416061763e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.0554129854133407e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.3970130602180006e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1888578132612793e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.455448417038042e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0643217720485154e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2311046851418723e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8160865167260454e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.263562930073022e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.467288523661409e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.532278431668146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.455448417038042e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.346428444293224e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1056987148094777e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7621213689599244e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.191425149879251e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.512523542857025e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.217061237847929e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.9121738940318664e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.029759004784637e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.275306091264028e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3321144430200604e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.0051460353442963e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2465800274918948e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2063853667143576e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.8493795916517684e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.282943036391316e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9815886673768546e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.16166734393164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.026390103855192e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.05097109990038e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.550253412891834e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.50487338810035e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.282943036391316e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.191102125465477e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.5500348925788785e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0594623865454196e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1221899178792683e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.512905012963529e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.049552502915503e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.2938768434576104e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.9379813426544388e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3692415592458929e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2955250570545473e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.4344175700120587e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.1828557798642123e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.7337429589758813e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.2591673516814126e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.1699402427420864e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.19904297643825e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.8174999420780296e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.6104706637729578e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1386392912982046e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0709408755360528e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8574897211465213e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.1699402427420864e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.950719714879597e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8545737141550944e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0218908741421728e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.556650704756748e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.382533916214015e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9119498659847523e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.781146452297435e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.898001828872566e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.8457763425683282e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2867442794828321e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.0409126056654117e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3561959745445051e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2594505182761395e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.137911149446836e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.3877787807814457e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.2490783447560716e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.846580708786405e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.741581286296423e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.676627310904678e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.622939409808623e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4365630970635266e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.994886066673644e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.2490783447560716e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.965639218175056e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.700230587431406e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7910599271763203e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.769069773009505e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.222585950699795e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.6109214736891317e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.4729576640302184e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 4.571887836135602e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1733514639455933e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4094619704252409e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.143640350382725e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.281719426378004e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2973768637181138e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.632492058258663e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.1616378020894444e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1522330893853905e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.746131964353026e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8678578044273308e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.665647286434705e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.283044482633613e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.779753133732356e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.1616378020894444e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.6588266755520635e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.982044399388542e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9040579530837931e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8357289448545089e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.458285533497474e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.053729172502017e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.2831165629309e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.8631032623470674e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.8547058900253433e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.5151954968928294e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.414499184055785e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.798511705430883e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3305603169921909e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3737462314367122e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4037550499779172e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5756180076209603e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.083548170299764e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.706016971387726e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.851015331373219e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8545173432471529e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2677870035181513e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4037550499779172e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3585774613366084e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0425663766209254e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.545445617840869e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8428440142770341e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.251268407529096e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.1815724881312235e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.7755575615628914e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 5.584142540726589e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.2419320731946755e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.159971972697349e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.2382018347144594e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.416771196678269e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.4252918233713672e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.225046689398937e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2856280066309012e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.1150102251540375e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.552554881660399e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.613624303648976e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.118263435908375e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.052392606648027e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.926362199673349e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3025557734636095e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.1150102251540375e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 7.650500926104087e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.854848119682174e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.499367641599747e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.681894751470736e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.130455550921397e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.863244676769682e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.696257880392295e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.5889563022806215e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.4414534340811969e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2845275644934873e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.553265885296696e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.2140179297025497e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.5459412253449045e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4147826096433391e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7014276423310548e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.444672837498274e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.513122616207511e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.444288897786919e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3187512877266272e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.9139587596205274e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.715076968864196e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7014276423310548e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.228262952210571e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.499667585060706e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.6169795148689445e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0508505496886755e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.466267076783879e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.136693962346726e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.806266333190479e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.334055865167329e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.0309948734743557e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4210751061227711e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.5145260178049966e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.171238861674695e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.2917436098547341e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1577223657521785e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.310108425580438e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.6259396648242728e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.456828231662712e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4028061815783985e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.759185818021706e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.184048670197171e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.2645023090840368e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.310108425580438e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.377271727027619e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.7798593720262943e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.5780867076719005e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.705775513817571e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.183846750218436e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7528210136674716e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.3053715412734164e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.7633074651589595e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1479055225027679e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.181343404077495e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.2546593564598538e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.980651277795232e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.299543338679655e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3149299573633755e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.063261345914725e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7662044271560262e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.727424853636421e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2987451064059314e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3671752273912716e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2808916543558553e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.087351527459759e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.063261345914725e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.762848379551542e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.204582789351207e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.24319446779009e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.3877608771604173e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.197383288191304e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.390759448189783e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.93341206685227e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.6765497253222748e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.379309572380194e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2996523257591264e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.1249984326999751e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.7466888042605433e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.1944467543686415e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 8.816021662028106e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.269086464451902e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2440463425255075e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.287887452074756e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.877191332435359e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.799705036224623e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.172550914281146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.513625055655666e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.269086464451902e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8917036896937134e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.0152272313112007e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.054803182716114e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.0873793619434764e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6804238782697212e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.447465210612791e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.6139398897839783e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.1859540897016814e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.5227715499221972e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.9209770883321653e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.8515122730988764e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.3104074619695325e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.2284257063631685e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1793363965395542e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2947381995995784e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.467098641683151e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9399952648768704e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4972814784973707e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.1448117492091114e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.9959212852759265e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.013071131543256e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.2947381995995784e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.226644444964677e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.081578239834016e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9876249055528206e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6168984302566969e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.915949046197966e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.318091960442416e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.578516900011209e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.0958409820082124e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3734735093251516e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.626056314218971e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.659103658724348e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.9197731305098387e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.8765413733135006e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.2138426400909452e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.6018098324698258e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.8138395552778093e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.431098603177361e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.2735865695390203e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.888736088697442e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.887497046799581e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.101689003415231e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.6018098324698258e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.331982801389131e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.75918183945123e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.60488459705266e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.08045191039264e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.254928417741667e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.19452533861886e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.255121452700905e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 4.6243257926903425e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3500360050322513e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3954489498146927e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.113020979521707e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.678306951014008e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 5.551115123125783e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.6012705106381873e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.0356158202995402e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5567634505941896e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.353884458576431e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2441035483211635e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.569856812963735e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.407208600312515e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.127079142155708e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1981470322552923e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5567634505941896e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.5691087337520457e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.778397390239661e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.5409960677791332e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.0713600399346888e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.07865613077729e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.252399387003834e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 1.6653345369377348e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 4.9363594115447995e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 3.427302789305031e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.7108478619576317e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.6743491456416848e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.152436557523174e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.385403198701397e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.129748276047394e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4186538502158896e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7471882856057164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.1910473598250064e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.655112526563698e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.4338461816219024e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.337610654658874e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.3905000194067725e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.6234860374406708e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7471882856057164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.536458583473177e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.761027156519049e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.2478363582176826e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.6234571589279767e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.4037106786399818e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.981060028162119e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.7356681268363445e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 5.09122818144192e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3228080288030242e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1492017097936014e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.212651808879528e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.7003469355690868e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3683932626573636e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1118259590769952e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4122757647783146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.871743965712994e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.88110751714521e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.427007214426794e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.476612254691645e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.1521866955254154e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4398182816298686e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4122757647783146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.3521284927264787e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4358922371116023e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.5532251573802114e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.0000357991989404e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.206679567024366e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.1760022568837485e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.358168257643456e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.746182796897756e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.224674580813101e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3809069355552595e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.762637451285798e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3635517821519727e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.4169056136381641e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.4396501335056655e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.2494588261802164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.122442069207864e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.653593611512406e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.068272962205356e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.6416824709940556e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.3981723487054296e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.4257465344467164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.2494588261802164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.4224188095445243e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.72736687129327e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1063457137083788e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.210297888576406e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.0280746884916425e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.4261416652061598e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.088031824205473e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.1192130361669115e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3422746108826544e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.0957210573314669e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.184469295585245e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.5010132702997225e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3162883291784055e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 8.487660620115633e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.024804056257381e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.456610374679258e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.392172973486595e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.143435577612763e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.176948529277524e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.562039566418207e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.693889896931978e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.024804056257381e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.548502303691748e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.708160788955638e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.081248692637928e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.725039902264143e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.027135624553921e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.420578269379803e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.7184623068544624e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.8111315322144605e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.572152818418715e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3422210101143861e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.705572343193353e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.8834389187816214e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3192871005429652e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.670016254173845e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.406885937337847e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.212942270318763e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.7833042725310406e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.095133939088555e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.9595927653881517e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 7.527080825298071e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.024009894327719e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 6.406885937337847e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 8.929262094170554e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.1900429797151446e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.75462393012549e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.7207924578599432e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.5348504451017106e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 7.147027005771633e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "independent_write_error_recurrence",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "complete_error_closure",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 3.3874248529741635e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.8903633435106713e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.0222559602812709e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.1707660203974513e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 1.3761919230859121e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 1.3694790695684134e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_mlp_native",
+      "error": 2.5755674080585322e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_mlp_forecast",
+      "error": 2.3674879862767284e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_conditional_split",
+      "error": 2.7755575615628914e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "seeded_row_matched_control",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8923275639792791e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.591083436229383e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.2658070690795284e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 3.856854419836964e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 7.072400791230393e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.276477630402951e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 4.438752689850389e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.8923275639792791e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.527147234587801e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 1.460391999330568e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.537591267871903e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 5.2001776325028e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 9.258082371843557e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "installed_parent",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "numpy_finite_head",
+      "error": 2.497431591308441e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_base",
+      "error": 0.0,
+      "bound": 0.005
+    },
+    {
+      "name": "final_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "score_reconstruction_full",
+      "error": 0.0,
+      "bound": 0.005
+    }
+  ],
+  "counts": {
+    "ordinary_false": 32,
+    "ordinary_true": 0,
+    "source_attention": 160,
+    "selected_finite": 256,
+    "intervention_mlps": 448,
+    "suffix_blocks": 1792,
+    "heads": 448
+  },
+  "source_hashes": {
+    "research/boolean_coupling/ledger235.py": "349070acbc104e54840b2556024a85fffb9c0996f04d957c6d9629f390afe799",
+    "research/boolean_coupling/finite235.py": "40bcf5dda683ba3b27f0620cc58a31de0009c41b5d2c40dcae248782861ed004",
+    "research/boolean_coupling/audit235.py": "0a49252a1a54333f3766faef2002f1ebdb0044d029c9e10ac5e9b22650aab390",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/audit229.py": "cf028bcc5ca56f2ce1605152728da95e80c1c0c4ac6303825c8ad544292c4c3e",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "research/boolean_coupling/cases228.json": "0f89e830629cb8abaf100e20f755b90cdb5375e219f57befed8002956b259d88",
+    "docs/experiments/235-global-forecast-error-budget.md": "244ab805bef8223609a2a8436babb168b3d6fd840fd721ae588a12c7bf85ad57"
+  },
+  "decisions": {
+    "top1": {
+      "passes": 0,
+      "eligible": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false
+    },
+    "top2": {
+      "passes": 0,
+      "eligible": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false
+    },
+    "top4": {
+      "passes": 2,
+      "eligible": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 2
+      },
+      "whole": false
+    },
+    "gen4": {
+      "passes": 0,
+      "eligible": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false
+    },
+    "state4": {
+      "passes": 0,
+      "eligible": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "whole": false
+    }
+  },
+  "selection": {
+    "retrospective": true,
+    "rule": "Median signed whole-parent projection; chronological tie-break; before finite outcomes.",
+    "ranking": [
+      {
+        "node": 45,
+        "layer": 23,
+        "kind": "mlp",
+        "median_share": 0.2891631833021219
+      },
+      {
+        "node": 43,
+        "layer": 22,
+        "kind": "mlp",
+        "median_share": 0.20558934506435578
+      },
+      {
+        "node": 41,
+        "layer": 21,
+        "kind": "mlp",
+        "median_share": 0.16894673242820918
+      },
+      {
+        "node": 39,
+        "layer": 20,
+        "kind": "mlp",
+        "median_share": 0.09892941682065343
+      },
+      {
+        "node": 44,
+        "layer": 23,
+        "kind": "attention",
+        "median_share": 0.035390331349479734
+      },
+      {
+        "node": 37,
+        "layer": 19,
+        "kind": "mlp",
+        "median_share": 0.03245182468495017
+      },
+      {
+        "node": 46,
+        "layer": 24,
+        "kind": "attention",
+        "median_share": 0.030218176807996926
+      },
+      {
+        "node": 40,
+        "layer": 21,
+        "kind": "attention",
+        "median_share": 0.026481249509346508
+      },
+      {
+        "node": 35,
+        "layer": 18,
+        "kind": "mlp",
+        "median_share": 0.022987049503700226
+      },
+      {
+        "node": 42,
+        "layer": 22,
+        "kind": "attention",
+        "median_share": 0.0207303407856474
+      },
+      {
+        "node": 33,
+        "layer": 17,
+        "kind": "mlp",
+        "median_share": 0.011103703487462039
+      },
+      {
+        "node": 36,
+        "layer": 19,
+        "kind": "attention",
+        "median_share": 0.007116027028865696
+      },
+      {
+        "node": 38,
+        "layer": 20,
+        "kind": "attention",
+        "median_share": 0.005743599479281276
+      },
+      {
+        "node": 29,
+        "layer": 15,
+        "kind": "mlp",
+        "median_share": 0.005712392545843684
+      },
+      {
+        "node": 34,
+        "layer": 18,
+        "kind": "attention",
+        "median_share": 0.005657854782232172
+      },
+      {
+        "node": 31,
+        "layer": 16,
+        "kind": "mlp",
+        "median_share": 0.004511787537029745
+      },
+      {
+        "node": 23,
+        "layer": 12,
+        "kind": "mlp",
+        "median_share": 0.004491052146881626
+      },
+      {
+        "node": 25,
+        "layer": 13,
+        "kind": "mlp",
+        "median_share": 0.004266013252536045
+      },
+      {
+        "node": 27,
+        "layer": 14,
+        "kind": "mlp",
+        "median_share": 0.003997753888594357
+      },
+      {
+        "node": 32,
+        "layer": 17,
+        "kind": "attention",
+        "median_share": 0.002763329905258663
+      },
+      {
+        "node": 26,
+        "layer": 14,
+        "kind": "attention",
+        "median_share": 0.0027148738371748703
+      },
+      {
+        "node": 21,
+        "layer": 11,
+        "kind": "mlp",
+        "median_share": 0.0019925216222078978
+      },
+      {
+        "node": 28,
+        "layer": 15,
+        "kind": "attention",
+        "median_share": 0.0017131908928452347
+      },
+      {
+        "node": 24,
+        "layer": 13,
+        "kind": "attention",
+        "median_share": 0.001625685711396477
+      },
+      {
+        "node": 18,
+        "layer": 10,
+        "kind": "attention",
+        "median_share": 0.0013297361835002504
+      },
+      {
+        "node": 19,
+        "layer": 10,
+        "kind": "mlp",
+        "median_share": 0.0009528157934591059
+      },
+      {
+        "node": 22,
+        "layer": 12,
+        "kind": "attention",
+        "median_share": 0.0009521418339893513
+      },
+      {
+        "node": 30,
+        "layer": 16,
+        "kind": "attention",
+        "median_share": 0.0006288166400394558
+      },
+      {
+        "node": 7,
+        "layer": 4,
+        "kind": "mlp",
+        "median_share": 0.0004949139922966038
+      },
+      {
+        "node": 16,
+        "layer": 9,
+        "kind": "attention",
+        "median_share": 0.0003239092979818378
+      },
+      {
+        "node": 9,
+        "layer": 5,
+        "kind": "mlp",
+        "median_share": 0.00022682470812971324
+      },
+      {
+        "node": 12,
+        "layer": 7,
+        "kind": "attention",
+        "median_share": 0.0002227505327230001
+      },
+      {
+        "node": 8,
+        "layer": 5,
+        "kind": "attention",
+        "median_share": 0.00013321438386990634
+      },
+      {
+        "node": 2,
+        "layer": 2,
+        "kind": "attention",
+        "median_share": 0.0001256894431916861
+      },
+      {
+        "node": 3,
+        "layer": 2,
+        "kind": "mlp",
+        "median_share": 0.00010480348070702919
+      },
+      {
+        "node": 20,
+        "layer": 11,
+        "kind": "attention",
+        "median_share": 9.01929862050605e-05
+      },
+      {
+        "node": 6,
+        "layer": 4,
+        "kind": "attention",
+        "median_share": 6.444618233873836e-05
+      },
+      {
+        "node": 14,
+        "layer": 8,
+        "kind": "attention",
+        "median_share": 4.5195820804283553e-05
+      },
+      {
+        "node": 5,
+        "layer": 3,
+        "kind": "mlp",
+        "median_share": 2.4120361910234003e-05
+      },
+      {
+        "node": 0,
+        "layer": 1,
+        "kind": "attention",
+        "median_share": 0.0
+      },
+      {
+        "node": 1,
+        "layer": 1,
+        "kind": "mlp",
+        "median_share": 0.0
+      },
+      {
+        "node": 10,
+        "layer": 6,
+        "kind": "attention",
+        "median_share": -1.2429339340206284e-05
+      },
+      {
+        "node": 15,
+        "layer": 8,
+        "kind": "mlp",
+        "median_share": -0.00010708412281352331
+      },
+      {
+        "node": 11,
+        "layer": 6,
+        "kind": "mlp",
+        "median_share": -0.0001661188234403711
+      },
+      {
+        "node": 4,
+        "layer": 3,
+        "kind": "attention",
+        "median_share": -0.000236233627038195
+      },
+      {
+        "node": 17,
+        "layer": 9,
+        "kind": "mlp",
+        "median_share": -0.0004288530857561694
+      },
+      {
+        "node": 13,
+        "layer": 7,
+        "kind": "mlp",
+        "median_share": -0.0007439326291280911
+      }
+    ],
+    "selected": [
+      45,
+      43,
+      41,
+      39
+    ]
+  },
+  "outcome_medians": {
+    "base": {
+      "parent_error": 44.126430761352836,
+      "vector_error": 104.47972030325862,
+      "margin_error": 6.588461875915527,
+      "signed_margin_error": -6.588461875915527
+    },
+    "full": {
+      "parent_error": 0.0,
+      "vector_error": 0.0,
+      "margin_error": 0.0,
+      "signed_margin_error": 0.0
+    },
+    "top1": {
+      "parent_error": 37.90746013265224,
+      "vector_error": 61.72021041812234,
+      "margin_error": 5.111148834228516,
+      "signed_margin_error": -5.111148834228516
+    },
+    "top2": {
+      "parent_error": 35.387372299847215,
+      "vector_error": 56.568269441394705,
+      "margin_error": 4.526521682739258,
+      "signed_margin_error": -4.526521682739258
+    },
+    "top4": {
+      "parent_error": 26.35727874489163,
+      "vector_error": 29.778134655563797,
+      "margin_error": 1.667593002319336,
+      "signed_margin_error": -1.667593002319336
+    },
+    "gen4": {
+      "parent_error": 43.08038157025897,
+      "vector_error": 91.94604416217737,
+      "margin_error": 6.36619758605957,
+      "signed_margin_error": -6.36619758605957
+    },
+    "state4": {
+      "parent_error": 31.656142197699182,
+      "vector_error": 40.60199026097722,
+      "margin_error": 2.7471389770507812,
+      "signed_margin_error": -2.7471389770507812
+    },
+    "replay4": {
+      "parent_error": 44.126430761352836,
+      "vector_error": 104.47972030325862,
+      "margin_error": 6.588461875915527,
+      "signed_margin_error": -6.588461875915527
+    },
+    "random2_0": {
+      "parent_error": 56.81864401053083,
+      "vector_error": 101.0389182741547,
+      "margin_error": 6.480227470397949,
+      "signed_margin_error": -6.480227470397949
+    },
+    "random2_1": {
+      "parent_error": 56.15420560826045,
+      "vector_error": 100.62227745517859,
+      "margin_error": 6.735666275024414,
+      "signed_margin_error": -6.735666275024414
+    },
+    "random2_2": {
+      "parent_error": 56.64579453929059,
+      "vector_error": 108.42964053960317,
+      "margin_error": 6.660964012145996,
+      "signed_margin_error": -6.660964012145996
+    },
+    "random4_0": {
+      "parent_error": 61.149871346889654,
+      "vector_error": 114.50383927513391,
+      "margin_error": 6.453691482543945,
+      "signed_margin_error": -6.453691482543945
+    },
+    "random4_1": {
+      "parent_error": 60.916225262892006,
+      "vector_error": 109.24638456416173,
+      "margin_error": 6.584604263305664,
+      "signed_margin_error": -6.584604263305664
+    },
+    "random4_2": {
+      "parent_error": 61.46332222034611,
+      "vector_error": 113.92746387646076,
+      "margin_error": 6.246518135070801,
+      "signed_margin_error": -6.246518135070801
+    }
+  },
+  "local_medians": {
+    "45": {
+      "generation": {
+        "all": {
+          "norm": 5.210876271752971e-06,
+          "write_norm": 25.499979914261804,
+          "signed_write_share": 1.246388654563607e-10,
+          "signed_terminal_share": -4.791339371374792e-10
+        },
+        "verdict": {
+          "norm": 2.441612713530792e-06,
+          "write_norm": 19.6858583963136,
+          "signed_write_share": 5.3526241053525594e-11,
+          "signed_terminal_share": -9.524482616560924e-10
+        }
+      },
+      "state": {
+        "all": {
+          "norm": 25.499979929866797,
+          "write_norm": 25.499979914261804,
+          "signed_write_share": 0.9999999998753613,
+          "signed_terminal_share": 0.28916318084443926
+        },
+        "verdict": {
+          "norm": 19.68585829589469,
+          "write_norm": 19.6858583963136,
+          "signed_write_share": 0.9999999999464737,
+          "signed_terminal_share": 0.3327899402281208
+        }
+      },
+      "replay": {
+        "all": {
+          "norm": 0.0,
+          "write_norm": 25.499979914261804,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        },
+        "verdict": {
+          "norm": 0.0,
+          "write_norm": 19.6858583963136,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        }
+      }
+    },
+    "43": {
+      "generation": {
+        "all": {
+          "norm": 4.6354786538586384e-06,
+          "write_norm": 25.722496313046925,
+          "signed_write_share": 5.083720035275632e-10,
+          "signed_terminal_share": 2.8089936104638055e-10
+        },
+        "verdict": {
+          "norm": 2.0345668869587823e-06,
+          "write_norm": 18.787525287618855,
+          "signed_write_share": -3.651388499492842e-10,
+          "signed_terminal_share": 1.879292941238421e-11
+        }
+      },
+      "state": {
+        "all": {
+          "norm": 25.722496320179783,
+          "write_norm": 25.722496313046925,
+          "signed_write_share": 0.999999999491628,
+          "signed_terminal_share": 0.20558934416922345
+        },
+        "verdict": {
+          "norm": 18.787525308291993,
+          "write_norm": 18.787525287618855,
+          "signed_write_share": 1.0000000003651386,
+          "signed_terminal_share": 0.22965976993872722
+        }
+      },
+      "replay": {
+        "all": {
+          "norm": 0.0,
+          "write_norm": 25.722496313046925,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        },
+        "verdict": {
+          "norm": 0.0,
+          "write_norm": 18.787525287618855,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        }
+      }
+    },
+    "41": {
+      "generation": {
+        "all": {
+          "norm": 13.324020770774334,
+          "write_norm": 24.19936553803356,
+          "signed_write_share": 0.30233980126316506,
+          "signed_terminal_share": 0.06412659569433003
+        },
+        "verdict": {
+          "norm": 10.747455822161072,
+          "write_norm": 16.754993363244814,
+          "signed_write_share": 0.40344443119523277,
+          "signed_terminal_share": 0.07392137855444893
+        }
+      },
+      "state": {
+        "all": {
+          "norm": 19.34304293254822,
+          "write_norm": 24.19936553803356,
+          "signed_write_share": 0.6976601987368349,
+          "signed_terminal_share": 0.09719372085425429
+        },
+        "verdict": {
+          "norm": 12.2896704548079,
+          "write_norm": 16.754993363244814,
+          "signed_write_share": 0.5965555688047672,
+          "signed_terminal_share": 0.08101058462499719
+        }
+      },
+      "replay": {
+        "all": {
+          "norm": 0.0,
+          "write_norm": 24.19936553803356,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        },
+        "verdict": {
+          "norm": 0.0,
+          "write_norm": 16.754993363244814,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        }
+      }
+    },
+    "39": {
+      "generation": {
+        "all": {
+          "norm": 7.4583679358980675,
+          "write_norm": 18.143605988966925,
+          "signed_write_share": 0.13618645181730918,
+          "signed_terminal_share": 0.016554993292339486
+        },
+        "verdict": {
+          "norm": 4.918138989360467,
+          "write_norm": 10.897420111948783,
+          "signed_write_share": 0.1247970224720682,
+          "signed_terminal_share": 0.010579631071330062
+        }
+      },
+      "state": {
+        "all": {
+          "norm": 17.107111545548843,
+          "write_norm": 18.143605988966925,
+          "signed_write_share": 0.8638135481826908,
+          "signed_terminal_share": 0.08104085945275787
+        },
+        "verdict": {
+          "norm": 10.531408128501463,
+          "write_norm": 10.897420111948783,
+          "signed_write_share": 0.8752029775279317,
+          "signed_terminal_share": 0.06425617764953998
+        }
+      },
+      "replay": {
+        "all": {
+          "norm": 0.0,
+          "write_norm": 18.143605988966925,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        },
+        "verdict": {
+          "norm": 0.0,
+          "write_norm": 10.897420111948783,
+          "signed_write_share": 0.0,
+          "signed_terminal_share": 0.0
+        }
+      }
+    }
+  }
+}

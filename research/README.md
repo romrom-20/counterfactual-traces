@@ -1,32 +1,34 @@
 # Reproduce the current research
 
-The latest study is **234**: an explicit source key/value mixed correction forecasts the complete attention-2 receiving displacement in **32/32 fresh pairs**, at **1.52%** median relative error versus **5.81%** for the old rule. Mixed-product removal leaves 16/32 accurate. **233** diagnoses the changed tangent retrospectively; **232** first establishes the source-conditioned local forecast. All still compute the edited first block exactly and use a finite source-only attention call. Final-response prediction remains open; **228** retains its failed whole-response criteria.
+The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
 ## Inspect without a model
 
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_transport.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_failure.py --verify-only --history --plan
 ```
 
 This uses only the standard library. It checks all active releases, their scientific source seals, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
 
 The [experiment index](../docs/EXPERIMENTS.md) links every active protocol, report, audit, failed attempt and data summary. The [research notes](../docs/RESEARCH-NOTES.md) explain which hypotheses changed and why.
 
-## Run the prospective local forecast
+## Run the global failure diagnostic
 
 After the environment setup below:
 
 ```sh
-python research/boolean_coupling/reproduce_transport.py --run --out runs/my-234
+python research/boolean_coupling/reproduce_failure.py --run --out runs/my-global-diagnostic
 ```
 
-This independently runs forecast → NumPy qualification/global seal → native True observation → unchanged scoring. Add `--offline` for a cached checkpoint. It reuses fixed original inputs, not a new confirmation. The [234 release guide](../results/source-key-value-234/README.md) records the partial known-edit computation, all cases, both criteria and exact phase commands. No private activation archive is needed.
+This regenerates fixed 228 inputs, executes 235's ledger/finite interventions and audit, then 236's actual-continuation factorial and audit. Add `--offline` for a cached checkpoint. Reuse an existing 228 run with `--input-228 runs/existing-228`, or a qualified 235 prerequisite with `--study 236 --input-235 runs/existing-235`. Use `--study 235` for the ledger study alone. Every output must be new; failures stop and preserve logs. These old-context diagnostics are not new prospective confirmations.
 
-To reproduce the retrospective 233 diagnosis, use `--study 233`; add `--input-232 runs/existing-232` to reuse local prerequisite arrays, or let the wrapper regenerate the fixed 232 inputs. `--study both` runs that sequence and 234. The [233 guide](../results/source-transport-primitives-233/README.md) explains which comparisons were registered diagnostics and which were explicitly post-observation. Regenerating prerequisites has its own model-computation budget.
+[235's guide](../results/global-error-budget-235/README.md) explains the oracle terminal vectors and conditional split. [236's guide](../results/upstream-factorial-236/README.md) distinguishes normal and native-reset input regimes, all branches, actual FD directions and finite final readout. The prerequisite's ordinary-model work is separate from each diagnostic's recorded component budget. No private activation archive is required.
 
-The unchanged [232 wrapper](boolean_coupling/reproduce_source_context.py) remains available for its earlier forecast. The [230 guide](../results/receiver-curvature-230/README.md) separately regenerates its 229 prerequisite from public inputs and runs the factorial/qualification. It retains registered failures separately from the post-observation composite analysis.
+## Earlier prospective local forecasts
+
+The unchanged [transport wrapper](boolean_coupling/reproduce_transport.py) reproduces 233/234; [source-context wrapper](boolean_coupling/reproduce_source_context.py) reproduces 232; [local wrapper](boolean_coupling/reproduce_local.py) reproduces 231 and verifies 230. Each retains its original inputs, seals, criteria and scope. See the [experiment index](../docs/EXPERIMENTS.md). These local successes did not predict the final native response.
 
 ## Run the 229 diagnostic
 
@@ -88,6 +90,8 @@ python research/boolean_coupling/reproduce_tail.py --run --offline \
 The checkpoint-based validator adds 608 finite-forward comparisons, without a full model call. All 32 cases in each follow-up are previously observed and dependent. Numerical validation does not make them fresh examples.
 
 ## Code map
+
+235 uses [ledger235.py](boolean_coupling/ledger235.py), [finite235.py](boolean_coupling/finite235.py) and separate [audit235.py](boolean_coupling/audit235.py). 236 uses [continue236.py](boolean_coupling/continue236.py) and [audit236.py](boolean_coupling/audit236.py). [reproduce_failure.py](boolean_coupling/reproduce_failure.py) orchestrates public-input regeneration; [plot_failure.py](boolean_coupling/plot_failure.py) renders saved CSVs without model calls. Earlier scientific sources are unchanged.
 
 233 uses explicit NumPy [transport233.py](boolean_coupling/transport233.py) and separate Torch CPU64 [audit233.py](boolean_coupling/audit233.py) with every intervened derivative qualified by AD/FD. [describe233.py](boolean_coupling/describe233.py) is explicitly post-observation. 234 uses [local234.py](boolean_coupling/local234.py), separate [audit234.py](boolean_coupling/audit234.py), fixed [cases234.json](boolean_coupling/cases234.json), [reproduce_transport.py](boolean_coupling/reproduce_transport.py), and model-free [plot_transport.py](boolean_coupling/plot_transport.py). All earlier source files and seals remain unchanged.
 
