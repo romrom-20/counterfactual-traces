@@ -1,0 +1,1531 @@
+/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+qualified 1 /32; all operator graphs and original anchors
+qualified 2 /32; all operator graphs and original anchors
+qualified 3 /32; all operator graphs and original anchors
+qualified 4 /32; all operator graphs and original anchors
+qualified 5 /32; all operator graphs and original anchors
+qualified 6 /32; all operator graphs and original anchors
+qualified 7 /32; all operator graphs and original anchors
+qualified 8 /32; all operator graphs and original anchors
+qualified 9 /32; all operator graphs and original anchors
+qualified 10 /32; all operator graphs and original anchors
+qualified 11 /32; all operator graphs and original anchors
+qualified 12 /32; all operator graphs and original anchors
+qualified 13 /32; all operator graphs and original anchors
+qualified 14 /32; all operator graphs and original anchors
+qualified 15 /32; all operator graphs and original anchors
+qualified 16 /32; all operator graphs and original anchors
+qualified 17 /32; all operator graphs and original anchors
+qualified 18 /32; all operator graphs and original anchors
+qualified 19 /32; all operator graphs and original anchors
+qualified 20 /32; all operator graphs and original anchors
+qualified 21 /32; all operator graphs and original anchors
+qualified 22 /32; all operator graphs and original anchors
+qualified 23 /32; all operator graphs and original anchors
+qualified 24 /32; all operator graphs and original anchors
+qualified 25 /32; all operator graphs and original anchors
+qualified 26 /32; all operator graphs and original anchors
+qualified 27 /32; all operator graphs and original anchors
+qualified 28 /32; all operator graphs and original anchors
+qualified 29 /32; all operator graphs and original anchors
+qualified 30 /32; all operator graphs and original anchors
+qualified 31 /32; all operator graphs and original anchors
+qualified 32 /32; all operator graphs and original anchors
+{
+  "status": "passed",
+  "experiment": 233,
+  "retrospective": true,
+  "ordinary_models": 0,
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "device": "cpu",
+    "dtype": "float64"
+  },
+  "summaries": {
+    "all": {
+      "0000": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.059014649849899306,
+          "cosine": 0.9984277974752533,
+          "transport_relative": 1.0,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0001": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.05899142619568431,
+          "cosine": 0.9984274228739611,
+          "transport_relative": 0.9989671940258077,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0010": {
+        "counts": {
+          "accuracy": 16,
+          "controlled_pass": 16,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.025868188345535538,
+          "cosine": 0.999680374004164,
+          "transport_relative": 0.4635228440171,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0011": {
+        "counts": {
+          "accuracy": 16,
+          "controlled_pass": 16,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.025635924326390905,
+          "cosine": 0.9996857104325774,
+          "transport_relative": 0.45757412585973123,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0100": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.059190290412290215,
+          "cosine": 0.9984195641149679,
+          "transport_relative": 1.0002453312157207,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0101": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.05918176711757872,
+          "cosine": 0.9984182877284609,
+          "transport_relative": 0.9994986438534146,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0110": {
+        "counts": {
+          "accuracy": 16,
+          "controlled_pass": 16,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.024154411429622463,
+          "cosine": 0.9997187948171882,
+          "transport_relative": 0.43525643439544337,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "0111": {
+        "counts": {
+          "accuracy": 16,
+          "controlled_pass": 16,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.02391906486842311,
+          "cosine": 0.9997236909179013,
+          "transport_relative": 0.43061159330990667,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1000": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.0635756386005357,
+          "cosine": 0.9981532722881798,
+          "transport_relative": 1.0398059861812567,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1001": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.06361944360411732,
+          "cosine": 0.9981485870248668,
+          "transport_relative": 1.0401393474886238,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1010": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.015126621971534724,
+          "cosine": 0.9998855974538468,
+          "transport_relative": 0.08582137831412012,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1011": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.014885083990705074,
+          "cosine": 0.999889216380975,
+          "transport_relative": 0.06999412044377788,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1100": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.06471850222505374,
+          "cosine": 0.9980804030735718,
+          "transport_relative": 1.055439153562277,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1101": {
+        "counts": {
+          "accuracy": 0,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 0,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": false,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.06477648527164134,
+          "cosine": 0.9980746701536598,
+          "transport_relative": 1.0556738287227627,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1110": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.015313919014312151,
+          "cosine": 0.9998829475036124,
+          "transport_relative": 0.046702629337518474,
+          "transport_norm": 0.25960856768515594
+        }
+      },
+      "1111": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.015118060054762416,
+          "cosine": 0.9998860228358075,
+          "transport_relative": 0.0,
+          "transport_norm": 0.25960856768515594
+        }
+      }
+    },
+    "verdict": {
+      "0000": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 0,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.010158077810981629,
+          "cosine": 0.9999563944789861,
+          "transport_relative": 1.0,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0001": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.009384786840983367,
+          "cosine": 0.9999605628752213,
+          "transport_relative": 0.8782609763043657,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0010": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.008748391456913831,
+          "cosine": 0.9999661209318821,
+          "transport_relative": 0.5086372082328803,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0011": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 24
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 4
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 4
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.008044456762129521,
+          "cosine": 0.9999700871289867,
+          "transport_relative": 0.2211543580402706,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0100": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 17,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 1,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 0,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.01002945827984323,
+          "cosine": 0.9999570146209589,
+          "transport_relative": 0.9801974729505304,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0101": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.009259312043948344,
+          "cosine": 0.9999612652060883,
+          "transport_relative": 0.8578299792317657,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0110": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.008746576205381766,
+          "cosine": 0.9999660476818368,
+          "transport_relative": 0.4757394684632327,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "0111": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.007989750451773199,
+          "cosine": 0.9999703291476456,
+          "transport_relative": 0.1271586173583288,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1000": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.010102992163037283,
+          "cosine": 0.9999568296969721,
+          "transport_relative": 0.9953847319190638,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1001": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.009330620950971171,
+          "cosine": 0.9999609828678961,
+          "transport_relative": 0.8757428175384843,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1010": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.008686456221828245,
+          "cosine": 0.9999668201738023,
+          "transport_relative": 0.4784612171371472,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1011": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.007975405775502197,
+          "cosine": 0.9999706969849851,
+          "transport_relative": 0.15542712438990602,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1100": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 26,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 6,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 4,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": false,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.01000874661874629,
+          "cosine": 0.9999571233344702,
+          "transport_relative": 0.9814792139366466,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1101": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.009250683092206932,
+          "cosine": 0.9999613386582427,
+          "transport_relative": 0.8602372593363938,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1110": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 0
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 0
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": false
+        },
+        "medians": {
+          "relative": 0.008731834867433055,
+          "cosine": 0.9999663302632131,
+          "transport_relative": 0.45238474103608384,
+          "transport_norm": 0.0036339657181338426
+        }
+      },
+      "1111": {
+        "counts": {
+          "accuracy": 32,
+          "controlled_pass": 32,
+          "transport_sufficient": 32
+        },
+        "strata": {
+          "generic_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "generic_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_0": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          },
+          "descriptive_1": {
+            "accuracy": 8,
+            "controlled_pass": 8,
+            "transport_sufficient": 8
+          }
+        },
+        "whole": {
+          "accuracy": true,
+          "controlled_pass": true,
+          "transport_sufficient": true
+        },
+        "medians": {
+          "relative": 0.007992524683176978,
+          "cosine": 0.9999704904438047,
+          "transport_relative": 0.0,
+          "transport_norm": 0.0036339657181338426
+        }
+      }
+    }
+  },
+  "counts": {
+    "numpy_anchors": 64,
+    "operators": 512,
+    "factorial_terms": 480,
+    "hybrid_ad_fd": 512,
+    "native_ad_fd": 64,
+    "fd_endpoints": 1152,
+    "ordinary_models": 0
+  },
+  "design_sha256": "02597779771a2886a3e16c97c8aa402b67ff5a56fd8ad941c9aa641fab837066",
+  "component_medians": {
+    "all": {
+      "0001": {
+        "norm": 0.01230014438243337,
+        "signed_share": 0.002235315687516089
+      },
+      "0010": {
+        "norm": 0.19935557900939016,
+        "signed_share": 0.6867508922161685
+      },
+      "0011": {
+        "norm": 2.5107046369790523e-15,
+        "signed_share": 5.26470985777489e-18
+      },
+      "0100": {
+        "norm": 0.016166004526683132,
+        "signed_share": 0.002270790426704824
+      },
+      "0101": {
+        "norm": 2.5036208456612083e-15,
+        "signed_share": 1.5665036226565784e-17
+      },
+      "0110": {
+        "norm": 0.011245625577818465,
+        "signed_share": 0.027713608343329726
+      },
+      "0111": {
+        "norm": 3.523606527505297e-15,
+        "signed_share": -2.5665311958517304e-17
+      },
+      "1000": {
+        "norm": 0.10858093318257012,
+        "signed_share": 0.044301344999957776
+      },
+      "1001": {
+        "norm": 2.498355057361729e-15,
+        "signed_share": 2.3938847450825374e-17
+      },
+      "1010": {
+        "norm": 0.08076909822835313,
+        "signed_share": 0.2283224560426726
+      },
+      "1011": {
+        "norm": 3.5387820786650153e-15,
+        "signed_share": -5.1290182275459244e-17
+      },
+      "1100": {
+        "norm": 0.004284954136774787,
+        "signed_share": 0.0017038490834440827
+      },
+      "1101": {
+        "norm": 3.559296206677237e-15,
+        "signed_share": -3.304629426607018e-17
+      },
+      "1110": {
+        "norm": 0.003160530120028095,
+        "signed_share": 0.00814129606603172
+      },
+      "1111": {
+        "norm": 5.048175336299569e-15,
+        "signed_share": 3.4307034483353214e-17
+      }
+    },
+    "first": {
+      "0001": {
+        "norm": 0.008288636846539632,
+        "signed_share": 0.0008691569396063546
+      },
+      "0010": {
+        "norm": 0.19440287084938365,
+        "signed_share": 0.6794696509021709
+      },
+      "0011": {
+        "norm": 9.746740267791265e-16,
+        "signed_share": -4.995369565112598e-18
+      },
+      "0100": {
+        "norm": 0.014705667535634393,
+        "signed_share": 0.0014027713203851508
+      },
+      "0101": {
+        "norm": 9.825997105929665e-16,
+        "signed_share": -4.770732068673957e-18
+      },
+      "0110": {
+        "norm": 0.010755330264311398,
+        "signed_share": 0.029198418136449307
+      },
+      "0111": {
+        "norm": 1.3932627308942494e-15,
+        "signed_share": 9.278678632076634e-19
+      },
+      "1000": {
+        "norm": 0.10811626819699367,
+        "signed_share": 0.04469866601093601
+      },
+      "1001": {
+        "norm": 9.855137967363087e-16,
+        "signed_share": 2.687807646845202e-17
+      },
+      "1010": {
+        "norm": 0.08056212782644451,
+        "signed_share": 0.2361678583168001
+      },
+      "1011": {
+        "norm": 1.397445196541567e-15,
+        "signed_share": -4.5508937611633524e-17
+      },
+      "1100": {
+        "norm": 0.00398658552787978,
+        "signed_share": 0.0016295257470337588
+      },
+      "1101": {
+        "norm": 1.4014943977056566e-15,
+        "signed_share": -2.034194867094947e-17
+      },
+      "1110": {
+        "norm": 0.0029615607604915606,
+        "signed_share": 0.00846696428197654
+      },
+      "1111": {
+        "norm": 1.981669750937692e-15,
+        "signed_share": 1.946605699853024e-17
+      }
+    },
+    "verdict": {
+      "0001": {
+        "norm": 0.0016538478194549323,
+        "signed_share": 0.2167198461677816
+      },
+      "0010": {
+        "norm": 0.00302391313173551,
+        "signed_share": 0.7200264984083243
+      },
+      "0011": {
+        "norm": 8.184459452317993e-16,
+        "signed_share": 2.6041520895081168e-15
+      },
+      "0100": {
+        "norm": 0.000552342289087464,
+        "signed_share": 0.029858508326724976
+      },
+      "0101": {
+        "norm": 8.103241867608239e-16,
+        "signed_share": 1.4262117144948538e-15
+      },
+      "0110": {
+        "norm": 0.0002559437645661666,
+        "signed_share": -0.005437801192561789
+      },
+      "0111": {
+        "norm": 1.1516145374362168e-15,
+        "signed_share": -1.3546303870840599e-15
+      },
+      "1000": {
+        "norm": 0.00046698890152803,
+        "signed_share": 0.014412360754637943
+      },
+      "1001": {
+        "norm": 7.895859096636495e-16,
+        "signed_share": 4.489387931916405e-15
+      },
+      "1010": {
+        "norm": 0.00026880745121262746,
+        "signed_share": 0.014898418504669697
+      },
+      "1011": {
+        "norm": 1.1357614229274698e-15,
+        "signed_share": -4.747969302831635e-15
+      },
+      "1100": {
+        "norm": 9.05589402814845e-05,
+        "signed_share": -0.0009038919232596127
+      },
+      "1101": {
+        "norm": 1.1489301402758866e-15,
+        "signed_share": -3.164899213133752e-15
+      },
+      "1110": {
+        "norm": 6.1167258572243e-05,
+        "signed_share": 0.00024467091759792093
+      },
+      "1111": {
+        "norm": 1.6200244589339557e-15,
+        "signed_share": 4.036008371658992e-15
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "key": "d476db6ba1b5e6ff6fe50b3b0d47a80c0258f329a4e75a7f54c69961170c8974",
+  "group": {
+    "assignment": 1,
+    "block": "quartz",
+    "reverse": 1,
+    "schema": "generic",
+    "target": 1
+  },
+  "start": 167,
+  "arrays_sha256": "7250bf06cfd2a991b1730ee726fd0ae615ad14efb6d33c54f2182f723f65dbff",
+  "input_forecast_sha256": "4433203cd52f05b6201dfa99654517689fb00e95fe45724744c1261420f6b589",
+  "input_observation_sha256": "cb88e3ad1085af5d39ef6c7f29c8cd644a54e18a76bb18009b4b1f57d5d686e8",
+  "checks": [
+    {
+      "name": "public_false_anchor",
+      "error": 3.983066218626874e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "public_source_anchor",
+      "error": 3.043719766893105e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "protected_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "direction_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "receiving_state_unchanged",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "receiving_direction_unchanged",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "F_full_derivative",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_saved_derivative",
+      "error": 1.1796119636642288e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_full_derivative",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_saved_derivative",
+      "error": 9.211381657436846e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "factorial_closure",
+      "error": 5.551115123125783e-17,
+      "bound": 1e-09
+    }
+  ]
+}

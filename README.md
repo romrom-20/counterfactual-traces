@@ -8,19 +8,17 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local causal results. A general False-only forecast of the native response has not been demonstrated.
 
-[Latest findings](docs/analysis/232-source-context-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
+[Latest findings](docs/analysis/234-source-key-value-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
 
-## New: changing the source context fixes the complete local forecast
+## New: a source key/value product predicts the missing local displacement
 
-Experiment 232 seals forecasts before 32 new native True runs. Moving the receiver expansion point from False to the constructed source-only context predicts the **attention-2 displacement across all receiving rows** within the frozen criterion in **32/32** cases. Median relative error falls from **5.90% to 1.33%**; verdict-position accuracy is preserved. Source-conditioned linear transport alone fails all 32, so the finite normalization/product correction still matters.
+Experiment 234 seals 256 forecasts before measuring 32 fresh native True computations. An explicit source key/value correction predicts the **attention-2 displacement across all receiving rows** within the frozen criterion in **32/32**, reducing median relative error from **5.81% to 1.52%**. It retains the False softmax background for receiving transport. Removing its mixed product raises error to **2.47%**, leaving **16/32** accurate; key-only and value-only accounts fail overall.
 
-The declared budget includes one exact edited first block and one source-only attention-2 call, in addition to the False computation and substantial local arithmetic. This predicts one attention update. It does not explain block 1, predict the final residual or verdict margin, establish a compact circuit, or demonstrate a speedup. [Read the result and boundaries](docs/analysis/232-source-context-result.md).
+The budget includes one exact edited first block and one finite source-only attention call, in addition to the False computation and substantial local arithmetic. The source-only primal still contains finite source-dependent probabilities. This predicts one attention update, not the final residual or verdict margin, and establishes neither a compact circuit nor a speedup. [Result, controls and numerical qualification](docs/analysis/234-source-key-value-result.md).
 
-![Source-context forecasting across the whole receiving sequence](docs/figures/232-source-context.png)
+![Fresh source-key/value forecasts and mixed-product removal](docs/figures/234-source-key-value.png)
 
-A post-observation recombination narrows the interpretation: source-conditioned linear transport plus the old False-context nonlinear correction also meets the accuracy bounds in 32/32. Reanchoring only that correction fails. This hybrid was not a registered forecast arm; it suggests the main context change is in transport, without establishing a unique learned mechanism.
-
-The preceding [230 factorial](docs/analysis/230-receiver-curvature-result.md) rejects every single-primitive account. Normalization's correction is relayed from an earlier receiving row through attention keys and values; the product response in that changed background matters. [231](docs/analysis/231-local-forecast-result.md) predicts the verdict-position change in 16/16 fresh pairs but fails across all receivers, motivating the source-context test.
+The preceding [233 operator diagnosis](docs/analysis/233-source-transport-result.md) explains most of [232's changed tangent](docs/analysis/232-source-context-result.md) through source key/value mixing. Its local product term benefits the full receiving vector without uniformly benefiting the verdict row. These are operation-defined accounts, not recovered learned features. [230](docs/analysis/230-receiver-curvature-result.md) and [231](docs/analysis/231-local-forecast-result.md) supply the earlier normalization/product rule and its first prospective local test.
 
 ## Earlier diagnostic: the first error has different sources at different positions
 
@@ -53,16 +51,16 @@ The figure shows every descriptive case; bars are medians. These are previously 
 Verify every current release and the retained historical evidence without a model:
 
 ```sh
-python research/boolean_coupling/reproduce_source_context.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_transport.py --verify-only --history --plan
 ```
 
 For an actual run, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_source_context.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_transport.py --run --out runs/my-reproduction
 ```
 
-This runs 232's forecast, separate qualification/seal, native observation and unchanged scoring. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
+This runs 234's forecast, separate qualification/seal, native observation and unchanged scoring. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
 
 GitHub checks cover evidence integrity, Python syntax and lint. They do **not** execute the model experiments or independently replicate the scientific findings.
 

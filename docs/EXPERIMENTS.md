@@ -60,6 +60,18 @@ All 128 forecasts are qualified, sealed, pushed and remotely verified before 32 
 
 [Protocol](experiments/232-source-conditioned-local-forecast.md) · [Report](analysis/232-source-context-result.md) · [Cases, seals and reproduction](../results/source-conditioned-local-232/README.md)
 
+## 233 — Which primitive change accounts for the changed tangent?
+
+On the 32 already-observed 232 contexts, cross source keys, the softmax Jacobian background, source values and receiver-value probability weights. Updating K/V together accounts for the whole tangent change in 32/32, leaving 8.58% median transport error and 1.513% native local error; every single-slot transport account fails. All 576 hybrid/native derivative comparisons qualify. The operator graphs are not native learned-circuit interventions. An explicitly posthoc additive-removal comparison motivates 234.
+
+[Protocol](experiments/233-source-transport-primitives.md) · [Report](analysis/233-source-transport-result.md) · [Cases, witnesses and reproduction](../results/source-transport-primitives-233/README.md)
+
+## 234 — Does the explicit source K/V product forecast fresh displacements?
+
+All 256 forecasts are qualified, sealed, pushed and remotely verified before 32 fresh native True runs. The joint rule passes the whole-receiving attention-2 criterion in 32/32, 8/8 per stratum, at 1.52% median error. Removing the mixed product raises error to 2.47%, leaving 16/32 accurate; row-matched random controls fail all 32. Verdict accuracy is preserved, but the mixed term does not benefit every verdict row. Exact block 1 and a finite source-only attention call remain supplied computations. Final behavior remains unpredicted.
+
+[Protocol](experiments/234-source-key-value-forecast.md) · [Report](analysis/234-source-key-value-result.md) · [Cases, seals and reproduction](../results/source-key-value-234/README.md)
+
 ## Earlier research and preserved boundaries
 
 The [historical evidence](../evidence/HISTORY.md) preserves the earlier Question B path, including the qualified 204 retrospective diagnostic, invalid replacement-agent conclusions, the original whole-block derivative disagreements, source-only forecast failures, and the failed 224 coordinate bridge. Its publication-filtered archive retains 2,867 original files with exact hashes; one unpublished article is withheld. Preservation is not endorsement of a superseded claim.
