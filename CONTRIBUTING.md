@@ -15,7 +15,7 @@ Narrow lint exceptions preserve existing style in these sealed files. Syntax and
 ```sh
 python -m pip install ruff==0.16.8
 python -m ruff check .
-python -S research/boolean_coupling/reproduce_late.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_curvature.py --verify-only --history --plan
 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
 ```
 

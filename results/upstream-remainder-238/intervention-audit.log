@@ -1,0 +1,157 @@
+audited upstream intervention 3bcb6375
+audited upstream intervention 8945b4c1
+audited upstream intervention 68144f88
+audited upstream intervention d1471325
+audited upstream intervention c7d5a7cf
+audited upstream intervention c0c83943
+audited upstream intervention 82afbfef
+audited upstream intervention 6b9178ad
+audited upstream intervention d384fab3
+audited upstream intervention 0e40a9eb
+audited upstream intervention a555c3af
+audited upstream intervention 02c9201c
+audited upstream intervention d9ef16d7
+audited upstream intervention 009829b3
+audited upstream intervention 70ecafae
+audited upstream intervention de137884
+audited upstream intervention 3059dc00
+audited upstream intervention bbe2c269
+audited upstream intervention 07cd4562
+audited upstream intervention 2fb37179
+audited upstream intervention 176e0c2c
+audited upstream intervention aec3f439
+audited upstream intervention d20d51b6
+audited upstream intervention 0123d73e
+audited upstream intervention caa702e4
+audited upstream intervention 367e10c3
+audited upstream intervention 6cc17a37
+audited upstream intervention 1c156b4d
+audited upstream intervention 7fdc8758
+audited upstream intervention 024f3d90
+audited upstream intervention d3bd2bf7
+audited upstream intervention 16629c1e
+{
+  "status": "passed",
+  "experiment": 238,
+  "retrospective": true,
+  "model_calls": 0,
+  "counts": {
+    "ordinary_false": 32,
+    "source_blocks": 608,
+    "jvps": 3552,
+    "fd_endpoints": 7104,
+    "selected_finite": 256,
+    "suffix_mlp20": 160,
+    "suffix_blocks": 1280,
+    "heads": 160
+  },
+  "selected": [
+    35,
+    31,
+    37,
+    33
+  ],
+  "independent_derivative_FDs": 3552,
+  "finite_reconstructions": 256,
+  "raw_accuracy": {
+    "base": 0,
+    "oracle4": 0,
+    "own4": 0,
+    "random4": 0,
+    "native": 32
+  },
+  "medians": {
+    "base": {
+      "parent_error": 19.961097649312798,
+      "vector_error": 58.44985297441805,
+      "margin_error": 5.145561218261719,
+      "all_relative": 0.7228320978268458,
+      "verdict_relative": 0.7886648143959404
+    },
+    "oracle4": {
+      "parent_error": 14.180394020220316,
+      "vector_error": 18.55409718413526,
+      "margin_error": 0.8612194061279297,
+      "all_relative": 0.31249104364794916,
+      "verdict_relative": 0.23802493856292123
+    },
+    "own4": {
+      "parent_error": 14.490142639471106,
+      "vector_error": 20.70468981470912,
+      "margin_error": 1.3399600982666016,
+      "all_relative": 0.3158692968238392,
+      "verdict_relative": 0.24120323790590945
+    },
+    "random4": {
+      "parent_error": 23.476741569077284,
+      "vector_error": 58.786745734062315,
+      "margin_error": 5.054233551025391,
+      "all_relative": 0.7386732946133674,
+      "verdict_relative": 0.7687445476247105
+    },
+    "native": {
+      "parent_error": 0.0,
+      "vector_error": 0.0,
+      "margin_error": 0.0,
+      "all_relative": 0.0,
+      "verdict_relative": 0.0
+    }
+  },
+  "improvements": {
+    "oracle4_halves": 0,
+    "own4_halves": 0,
+    "own4_controlled": 0
+  },
+  "whole": {
+    "base": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "passes_rule": false
+    },
+    "oracle4": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "passes_rule": false
+    },
+    "own4": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "passes_rule": false
+    },
+    "random4": {
+      "passes": 0,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "passes_rule": false
+    },
+    "native": {
+      "passes": 32,
+      "strata": {
+        "generic_0": 8,
+        "generic_1": 8,
+        "descriptive_0": 8,
+        "descriptive_1": 8
+      },
+      "passes_rule": true
+    }
+  }
+}

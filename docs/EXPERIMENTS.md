@@ -99,3 +99,15 @@ Start with [research notes](RESEARCH-NOTES.md) for the reasoning across studies,
 ## 237c — Inspect every remaining numerical check without hiding the failure
 
 Posthoc numerical diagnostic, no new scientific intervention:25,119/25,120 comparisons pass; the original Float64 MLP bridge remains failed. All1536Float32MLP reconstructions and1920same-backend public replays pass. Attention derivatives/graphs qualify separately. Outcome counts remain conditional diagnostic measurements, not a fully qualified predictor or circuit account. [Protocol](experiments/237c-complete-numerical-diagnostic.md) · [Every check/case and reproduction](../results/late-attention-237b/README.md).
+
+## 238 — Which upstream local generators create the wrong reset input?
+
+Separate local native-input remainders from inherited error through all37 affine-prefix operations. The complete adjoint projection ledger closes, and a frozen pre-outcome rule selects MLPs16–19. Their own-input finite repair reduces final errors substantially but passes0/32; even four oracle remainders fail0/32. All numerical checks and independent finite endpoints pass. Original238/238b metadata bootstraps stop before models and remain preserved;238c changes only schema validation.
+
+[Protocol](experiments/238-upstream-remainder-transport.md) · [Report](analysis/238-upstream-generators-result.md) · [Evidence/reproduction](../results/upstream-remainder-238/README.md) · [Information-budget clarification](analysis/238-information-budget.md).
+
+## 239 — Can False curvature explain native-versus-own generator differences?
+
+The full quadratic control fails all sites. The primary finite-normalization/quadratic-SiLU rule passes32/32 at MLP17 and18,0/32 at16,21/32 at19; the four-site account fails. A posthoc exact SiLU-tail identity localizes MLP16's remaining error to the first receiver and a target-dependent concentrated neuron projection. No sparse causal or global predictor claim follows. All Hessian/FD, primitive-allocation and primal checks pass.
+
+[Protocol](experiments/239-curvature-generator-contrast.md) · [Report](analysis/239-generator-curvature-result.md) · [All evidence/reproduction](../results/generator-curvature-239/README.md).

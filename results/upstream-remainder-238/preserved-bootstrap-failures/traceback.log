@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/transport238.py", line 280, in <module>
+    ledger(args.input_237.resolve(), args.out.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/transport238.py", line 80, in ledger
+    assert json.loads((old/"audit.json").read_text())["status"] == "passed"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
