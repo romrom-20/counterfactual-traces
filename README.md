@@ -8,17 +8,17 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local causal results. A general False-only forecast of the native response has not been demonstrated.
 
-[Latest findings](docs/analysis/234-source-key-value-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
+[Latest findings](docs/analysis/236-upstream-factorial-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
 
-## New: a source key/value product predicts the missing local displacement
+## New: the local accounts do not yet compose into a final prediction
 
-Experiment 234 seals 256 forecasts before measuring 32 fresh native True computations. An explicit source key/value correction predicts the **attention-2 displacement across all receiving rows** within the frozen criterion in **32/32**, reducing median relative error from **5.81% to 1.52%**. It retains the False softmax background for receiving transport. Removing its mixed product raises error to **2.47%**, leaving **16/32** accurate; key-only and value-only accounts fail overall.
+Experiment 235 accounts for every write error in the failed whole-response forecast. The largest discrepancies occur at MLPs 20–23, but MLP22/23 were already finite: their roughly 25-unit write errors come almost entirely from inaccurate incoming states. [Complete error budget and finite conditional split](docs/analysis/235-global-error-result.md).
 
-The budget includes one exact edited first block and one finite source-only attention call, in addition to the False computation and substantial local arithmetic. The source-only primal still contains finite source-dependent probabilities. This predicts one attention update, not the final residual or verdict margin, and establishes neither a compact circuit nor a speedup. [Result, controls and numerical qualification](docs/analysis/234-source-key-value-result.md).
+Experiment 236 then repairs MLP20/21 inside the actual forecast, letting later states change. Median final margin error improves from **6.59 to 4.85 nats**, yet the full-response criterion passes **0/32**. Even an exact native reset before MLP20 leaves **0.344 nats** and **24.4%** final whole-receiving displacement error when only attention 21–24 remains approximate. The fully finite control recovers the native result exactly. Earlier carry errors matter, and the later attention approximations are still insufficient. [All branches, controls and qualification](docs/analysis/236-upstream-factorial-result.md).
 
-![Fresh source-key/value forecasts and mixed-product removal](docs/figures/234-source-key-value.png)
+![Global continuation failure despite upstream MLP repairs](docs/figures/236-upstream-factorial.png)
 
-The preceding [233 operator diagnosis](docs/analysis/233-source-transport-result.md) explains most of [232's changed tangent](docs/analysis/232-source-context-result.md) through source key/value mixing. Its local product term benefits the full receiving vector without uniformly benefiting the verdict row. These are operation-defined accounts, not recovered learned features. [230](docs/analysis/230-receiver-curvature-result.md) and [231](docs/analysis/231-local-forecast-result.md) supply the earlier normalization/product rule and its first prospective local test.
+These are retrospective tests on 32 previously observed, dependent contexts. They identify two remaining dependencies without supplying a successful predictor or learned circuit. The [earlier 234 rule](docs/analysis/234-source-key-value-result.md) still predicts one attention-2 displacement in 32/32 fresh pairs at 1.52% median error, under its declared exact-first-block budget. That local success does not establish final-response prediction.
 
 ## Earlier diagnostic: the first error has different sources at different positions
 
@@ -51,16 +51,16 @@ The figure shows every descriptive case; bars are medians. These are previously 
 Verify every current release and the retained historical evidence without a model:
 
 ```sh
-python research/boolean_coupling/reproduce_transport.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_failure.py --verify-only --history --plan
 ```
 
 For an actual run, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_transport.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_failure.py --run --out runs/my-reproduction
 ```
 
-This runs 234's forecast, separate qualification/seal, native observation and unchanged scoring. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
+This regenerates the fixed 228 reference, then runs 235/236 and their separate numerical auditors. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
 
 GitHub checks cover evidence integrity, Python syntax and lint. They do **not** execute the model experiments or independently replicate the scientific findings.
 

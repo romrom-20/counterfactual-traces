@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "transformers": "4.57.6",
+  "device": "mps",
+  "dtype": "float32",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "expected": {
+    "ordinary_false": 32,
+    "ordinary_true": 0,
+    "source_attention": 160,
+    "selected_finite": 256,
+    "intervention_mlps": 448,
+    "suffix_blocks": 1792,
+    "heads": 448
+  }
+}

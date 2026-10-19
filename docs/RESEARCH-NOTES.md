@@ -76,6 +76,14 @@ The joint account includes a key/value mixed product. In the fresh frozen 234 te
 
 The mixed term helps the whole vector while slightly hurting the verdict row in half the fresh cases. All row-matched random controls also preserve verdict accuracy while failing the whole-vector criterion. This reinforces the need to distinguish local vector sufficiency from an already-easy position accuracy test. None of these runs forecasts the final residual or margin. The source-only primal still uses finite probabilities; the new approximation avoids changing their derivative background, not all source softmax computation. [233 report](analysis/233-source-transport-result.md) · [234 report](analysis/234-source-key-value-result.md).
 
+## 235–236: local accuracy is not compositional closure
+
+The investigation returned to the failed full forecast rather than refining its first small error. All 47 write discrepancies plus the input cast exactly account for its parent error. A fixed signed-projection ranking selects MLP20–23. Yet the largest two discrepancies, at already-finite MLP22/23, come almost entirely from wrong incoming states. Identifying a large write error does not identify a missing local nonlinear operation.
+
+Oracle terminal repair of the four terms improves the finite margin but fails the joint account overall. Recomputing MLP20/21 at their own changing forecast inputs then tests real upstream consequences: later states and finite writes respond. It improves median margin error 6.59→4.85 nats but has 0/32 full-response passes. An exact native reset before MLP20 still has 0/32, at 0.344 nats and 24.4% final whole-vector relative error. Only attention 21–24 remains approximate in that branch, while the fully finite control replays exactly.
+
+These controls constrain two failure modes: the arriving state is already inaccurate, and the later attention approximations are insufficient even with native input. They do not establish unique fractions of responsibility. The earlier successful attention-2 rule is still valid, but its isolated finite-suffix behavioral effect was small; focusing only on its first detectable error did not explain the large final failure. The next mechanism test should address the late receiving attention response in this qualified reset, preserving both final vector and finite margin requirements. [235](analysis/235-global-error-result.md) · [236](analysis/236-upstream-factorial-result.md).
+
 ## The next unresolved question
 
 The studies now constrain one conditional propagation chain: MLP23's intervention supplies interacting displacements; MLP24 generates a consequential mixed response; multiplication explains much of its margin effect, while a complete vector account needs more. The experiments still supply previously observed parents.

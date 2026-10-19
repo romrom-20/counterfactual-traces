@@ -72,6 +72,18 @@ All 256 forecasts are qualified, sealed, pushed and remotely verified before 32 
 
 [Protocol](experiments/234-source-key-value-forecast.md) · [Report](analysis/234-source-key-value-result.md) · [Cases, seals and reproduction](../results/source-key-value-234/README.md)
 
+## 235 — Where does the complete failed forecast's error come from?
+
+The 47 write errors and final cast exactly sum to the original F parent discrepancy. A fixed ranking selects MLP23/22/21/20; finite recomputation shows that 22/23's errors are almost entirely responses to inaccurate inputs. A four-write terminal oracle repair reduces median margin error 6.588→1.668 nats but passes the joint criterion only 2/32. It is an oracle accounting intervention, not a prospective repair.
+
+[Protocol](experiments/235-global-forecast-error-budget.md) · [Report](analysis/235-global-error-result.md) · [Every ledger, split and outcome](../results/global-error-budget-235/README.md)
+
+## 236 — Does repairing MLP20/21 inside the forecast close the failure?
+
+A two-switch factorial recomputes later states and finite MLP writes. Joint repair improves margin error 6.588→4.849 nats but has 0/32 passes on full-response cases. With an exact native reset before MLP20 it still has 0/32 passes on, at 0.344 nats and 24.4% whole-displacement error; only attention 21–24 remains approximate there. The fully finite oracle control replays exactly. All 11 arms, 32 old contexts and 1664 actual derivative directions remain qualified and retained.
+
+[Protocol](experiments/236-upstream-mlp-factorial.md) · [Report](analysis/236-upstream-factorial-result.md) · [All branches and reproduction](../results/upstream-factorial-236/README.md)
+
 ## Earlier research and preserved boundaries
 
 The [historical evidence](../evidence/HISTORY.md) preserves the earlier Question B path, including the qualified 204 retrospective diagnostic, invalid replacement-agent conclusions, the original whole-block derivative disagreements, source-only forecast failures, and the failed 224 coordinate bridge. Its publication-filtered archive retains 2,867 original files with exact hashes; one unpublished article is withheld. Preservation is not endorsement of a superseded claim.
