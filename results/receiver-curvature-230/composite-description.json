@@ -1,0 +1,659 @@
+{
+  "explicitly_post_observation": true,
+  "model_calls": 0,
+  "note": "Composite bounds are descriptive reuse of old bounds, not registered single-primitive successes. The three-term product split is an algebraic identity, not three independently established mechanisms.",
+  "composites": {
+    "0000": {
+      "count": 0,
+      "median_relative": 1.0,
+      "maximum_relative": 1.0,
+      "median_cosine": 0.0
+    },
+    "0001": {
+      "count": 0,
+      "median_relative": 0.9920562116322883,
+      "maximum_relative": 1.0083200558060046,
+      "median_cosine": 0.24999382587326222
+    },
+    "0010": {
+      "count": 0,
+      "median_relative": 1.0555072910592795,
+      "maximum_relative": 1.0684910172968207,
+      "median_cosine": -0.6807654544253048
+    },
+    "0011": {
+      "count": 0,
+      "median_relative": 1.0523897100160582,
+      "maximum_relative": 1.0592493576194109,
+      "median_cosine": 0.13792519789800622
+    },
+    "0100": {
+      "count": 0,
+      "median_relative": 1.0051287747736661,
+      "maximum_relative": 1.0069728614629148,
+      "median_cosine": -0.44114386681886475
+    },
+    "0101": {
+      "count": 0,
+      "median_relative": 0.9976949866719966,
+      "maximum_relative": 1.0126629595076777,
+      "median_cosine": 0.23832341007176744
+    },
+    "0110": {
+      "count": 0,
+      "median_relative": 1.0615110614682504,
+      "maximum_relative": 1.0754188316837172,
+      "median_cosine": -0.696072829170844
+    },
+    "0111": {
+      "count": 0,
+      "median_relative": 1.0584670214469365,
+      "maximum_relative": 1.0639863747543448,
+      "median_cosine": 0.12629464577674074
+    },
+    "1000": {
+      "count": 0,
+      "median_relative": 0.31139078826856625,
+      "maximum_relative": 0.346537801636279,
+      "median_cosine": 0.9508194433677908
+    },
+    "1001": {
+      "count": 32,
+      "median_relative": 0.05447041261624292,
+      "maximum_relative": 0.05637306584508811,
+      "median_cosine": 0.9988517520357514
+    },
+    "1010": {
+      "count": 0,
+      "median_relative": 0.30774208060698116,
+      "maximum_relative": 0.3438655684759147,
+      "median_cosine": 0.9515098395159458
+    },
+    "1011": {
+      "count": 32,
+      "median_relative": 0.01230217933817393,
+      "maximum_relative": 0.013991336234038372,
+      "median_cosine": 0.9999403138870793
+    },
+    "1100": {
+      "count": 0,
+      "median_relative": 0.31070324164364305,
+      "maximum_relative": 0.3462107827470796,
+      "median_cosine": 0.9508436128660757
+    },
+    "1101": {
+      "count": 32,
+      "median_relative": 0.051091751126387294,
+      "maximum_relative": 0.05284191417147107,
+      "median_cosine": 0.9989146427826818
+    },
+    "1110": {
+      "count": 0,
+      "median_relative": 0.30745990774341503,
+      "maximum_relative": 0.34411181955765013,
+      "median_cosine": 0.9515400116002554
+    },
+    "1111": {
+      "count": 32,
+      "median_relative": 0.00013910164340412008,
+      "maximum_relative": 0.00016724468050551084,
+      "median_cosine": 0.9999999903296741
+    }
+  },
+  "mixed_identity_maximum": 1.350731592547616e-14,
+  "cases": [
+    {
+      "key": "3bcb637501122fd309902c4a2f7bebd9ef4815fb72b723fac524d77516902e03",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 1.0733411772226309e-14,
+      "mixed_term_norm": 0.013744683085737706,
+      "mixed_signed_share_of_norm_only_error": -0.4851310509490825,
+      "mixed_remaining_error_ratio": 1.5443196902194378,
+      "linear_weight_curved_value_signed_share_of_M": 0.044740192758624724,
+      "curved_weight_linear_value_signed_share_of_M": 0.9695893965534201,
+      "curved_weight_curved_value_signed_share_of_M": -0.01432958931236815
+    },
+    {
+      "key": "8945b4c1da3bceced66b1e764101acaecc9e55515ae1cbb9c07b7f3e2eebc92e",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 1.1344715450259737e-14,
+      "mixed_term_norm": 0.013742706769960592,
+      "mixed_signed_share_of_norm_only_error": -0.48502178521398803,
+      "mixed_remaining_error_ratio": 1.5444987541914046,
+      "linear_weight_curved_value_signed_share_of_M": 0.044710190301481774,
+      "curved_weight_linear_value_signed_share_of_M": 0.969619210585507,
+      "curved_weight_curved_value_signed_share_of_M": -0.01432940088703096
+    },
+    {
+      "key": "68144f888d04eb32219b5769640d1150ced441d6b8691fadbef6fc2fb6ff305c",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 1.2088962643430623e-14,
+      "mixed_term_norm": 0.013475398513298487,
+      "mixed_signed_share_of_norm_only_error": -0.4811378706109047,
+      "mixed_remaining_error_ratio": 1.5471129005536584,
+      "linear_weight_curved_value_signed_share_of_M": 0.04278171007984752,
+      "curved_weight_linear_value_signed_share_of_M": 0.97087764319706,
+      "curved_weight_curved_value_signed_share_of_M": -0.013659353277096492
+    },
+    {
+      "key": "d1471325fbc984ef989723b96979b7a5422c2b3cf935b45ba97a740a3d1c9d04",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 1.0573898527599379e-14,
+      "mixed_term_norm": 0.013474444242745439,
+      "mixed_signed_share_of_norm_only_error": -0.48111780566906975,
+      "mixed_remaining_error_ratio": 1.5473690456123816,
+      "linear_weight_curved_value_signed_share_of_M": 0.04275661073235882,
+      "curved_weight_linear_value_signed_share_of_M": 0.9709034673119379,
+      "curved_weight_curved_value_signed_share_of_M": -0.013660078044214543
+    },
+    {
+      "key": "c7d5a7cf8f7bc665381d775e04aa7120708a5810a2dca463a2a5b6db947ea583",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 8.764256681503824e-15,
+      "mixed_term_norm": 0.014447831133067997,
+      "mixed_signed_share_of_norm_only_error": -0.483956299482715,
+      "mixed_remaining_error_ratio": 1.50679466929423,
+      "linear_weight_curved_value_signed_share_of_M": 0.04669514930229789,
+      "curved_weight_linear_value_signed_share_of_M": 0.9675039063916094,
+      "curved_weight_curved_value_signed_share_of_M": -0.014199055693926372
+    },
+    {
+      "key": "c0c8394363d355419e641c5bfae38fbd9d37e760930d2c2a49bc57821f417927",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 1.2722841443574273e-14,
+      "mixed_term_norm": 0.013629188080033149,
+      "mixed_signed_share_of_norm_only_error": -0.4830054632629127,
+      "mixed_remaining_error_ratio": 1.5462625277253237,
+      "linear_weight_curved_value_signed_share_of_M": 0.04387011327708285,
+      "curved_weight_linear_value_signed_share_of_M": 0.9702803351866912,
+      "curved_weight_curved_value_signed_share_of_M": -0.014150448463673134
+    },
+    {
+      "key": "82afbfef76788a9ec6d43ca3eb4169c47a906e2e517e9ea9789735c78998b275",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 8.562269816769774e-15,
+      "mixed_term_norm": 0.014612606906620137,
+      "mixed_signed_share_of_norm_only_error": -0.4827556248364011,
+      "mixed_remaining_error_ratio": 1.504809729726855,
+      "linear_weight_curved_value_signed_share_of_M": 0.04790867881473063,
+      "curved_weight_linear_value_signed_share_of_M": 0.9666889184333043,
+      "curved_weight_curved_value_signed_share_of_M": -0.014597597248151215
+    },
+    {
+      "key": "6b9178add2f221421d1217ff72f31af84e5cf2bc363fd6acda639b1fb8f03827",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 1.2068904903239641e-14,
+      "mixed_term_norm": 0.013594411975480242,
+      "mixed_signed_share_of_norm_only_error": -0.4828924904004975,
+      "mixed_remaining_error_ratio": 1.544989947136993,
+      "linear_weight_curved_value_signed_share_of_M": 0.04363049341641195,
+      "curved_weight_linear_value_signed_share_of_M": 0.9702268277473948,
+      "curved_weight_curved_value_signed_share_of_M": -0.01385732116366778
+    },
+    {
+      "key": "d384fab3060d58a8237bd362d566ccb1bf4598735c062f0eb0a442a7f276aad9",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 8.31799906730879e-15,
+      "mixed_term_norm": 0.013596065805822267,
+      "mixed_signed_share_of_norm_only_error": -0.48296691482229276,
+      "mixed_remaining_error_ratio": 1.5447940596247989,
+      "linear_weight_curved_value_signed_share_of_M": 0.04365827997798692,
+      "curved_weight_linear_value_signed_share_of_M": 0.9702000595373309,
+      "curved_weight_curved_value_signed_share_of_M": -0.01385833951536144
+    },
+    {
+      "key": "0e40a9eb6365b14d122726f9285129d9f2e71b9caaf815a9dfc976a2dfa2168e",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 1.350731592547616e-14,
+      "mixed_term_norm": 0.014468390729800272,
+      "mixed_signed_share_of_norm_only_error": -0.48592331148242696,
+      "mixed_remaining_error_ratio": 1.5090793004294807,
+      "linear_weight_curved_value_signed_share_of_M": 0.04653750059148407,
+      "curved_weight_linear_value_signed_share_of_M": 0.9676560810775023,
+      "curved_weight_curved_value_signed_share_of_M": -0.014193581669010462
+    },
+    {
+      "key": "a555c3af7e44c72c1e9d90db88bd5daa0cc438ff9920461c108336735ea711ee",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 8.821810876203859e-15,
+      "mixed_term_norm": 0.013630506858774849,
+      "mixed_signed_share_of_norm_only_error": -0.48313218113969375,
+      "mixed_remaining_error_ratio": 1.5461212464962768,
+      "linear_weight_curved_value_signed_share_of_M": 0.04389616042251539,
+      "curved_weight_linear_value_signed_share_of_M": 0.9702525933715122,
+      "curved_weight_curved_value_signed_share_of_M": -0.014148753794065305
+    },
+    {
+      "key": "02c9201c44f15975aead057a6472057a3388c326eca1bd09b9add4ec616c93df",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 1.0637324354689781e-14,
+      "mixed_term_norm": 0.014449995701635226,
+      "mixed_signed_share_of_norm_only_error": -0.4841975818728338,
+      "mixed_remaining_error_ratio": 1.5072121375596421,
+      "linear_weight_curved_value_signed_share_of_M": 0.046650581290611386,
+      "curved_weight_linear_value_signed_share_of_M": 0.9675373345988028,
+      "curved_weight_curved_value_signed_share_of_M": -0.01418791588935716
+    },
+    {
+      "key": "d9ef16d7dce92ba0bac251188550b58853f4fd1789e4c5dda8efa894d7d83b5a",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 8.075571461541031e-15,
+      "mixed_term_norm": 0.014644738564492938,
+      "mixed_signed_share_of_norm_only_error": -0.4847320066045667,
+      "mixed_remaining_error_ratio": 1.507232191179765,
+      "linear_weight_curved_value_signed_share_of_M": 0.04773216811174791,
+      "curved_weight_linear_value_signed_share_of_M": 0.9668613196924474,
+      "curved_weight_curved_value_signed_share_of_M": -0.01459348780402334
+    },
+    {
+      "key": "009829b392be22a8f89adfecd09cda10a3b7781b3e2b5bd458fe28b75733c1f7",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 8.660444323488337e-15,
+      "mixed_term_norm": 0.014641725828250692,
+      "mixed_signed_share_of_norm_only_error": -0.48429451523423833,
+      "mixed_remaining_error_ratio": 1.506636179601388,
+      "linear_weight_curved_value_signed_share_of_M": 0.04777914180551405,
+      "curved_weight_linear_value_signed_share_of_M": 0.9668242394430256,
+      "curved_weight_curved_value_signed_share_of_M": -0.014603381248440902
+    },
+    {
+      "key": "70ecafae39ed0b950e4aa0808eed99d200ef82105cf2d2b12128130426ffc7dd",
+      "group": {
+        "assignment": 1,
+        "block": "cobalt",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 7.702931174857763e-15,
+      "mixed_term_norm": 0.014614716632369316,
+      "mixed_signed_share_of_norm_only_error": -0.48303548202412744,
+      "mixed_remaining_error_ratio": 1.5052612556422555,
+      "linear_weight_curved_value_signed_share_of_M": 0.04786262835265569,
+      "curved_weight_linear_value_signed_share_of_M": 0.9667244477344171,
+      "curved_weight_curved_value_signed_share_of_M": -0.014587076086978599
+    },
+    {
+      "key": "de1378845e3677e85a8ff201287445cdca1a155b95bc1e1f657bc2526115cef6",
+      "group": {
+        "assignment": 0,
+        "block": "cobalt",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 1.096431972991141e-14,
+      "mixed_term_norm": 0.01447156865766258,
+      "mixed_signed_share_of_norm_only_error": -0.4862100258250299,
+      "mixed_remaining_error_ratio": 1.5095416829880686,
+      "linear_weight_curved_value_signed_share_of_M": 0.04649296350483985,
+      "curved_weight_linear_value_signed_share_of_M": 0.9676906887174226,
+      "curved_weight_curved_value_signed_share_of_M": -0.014183652222365114
+    },
+    {
+      "key": "3059dc00e9af8bdfdf5d7dda345d4309254dd3717c2c82843779e6ca97cee801",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 1.1484194671618209e-14,
+      "mixed_term_norm": 0.014196945950754337,
+      "mixed_signed_share_of_norm_only_error": -0.4980969972458001,
+      "mixed_remaining_error_ratio": 1.5673684076619943,
+      "linear_weight_curved_value_signed_share_of_M": 0.044919995881088234,
+      "curved_weight_linear_value_signed_share_of_M": 0.9699114080485322,
+      "curved_weight_curved_value_signed_share_of_M": -0.0148314039299834
+    },
+    {
+      "key": "bbe2c2696ed76f6eef37184fd9c033a248e2c3849589c711822399ff54e3dfab",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 1.0114413646900022e-14,
+      "mixed_term_norm": 0.014197211771772208,
+      "mixed_signed_share_of_norm_only_error": -0.4974907912901498,
+      "mixed_remaining_error_ratio": 1.5665034111686202,
+      "linear_weight_curved_value_signed_share_of_M": 0.044966852445877004,
+      "curved_weight_linear_value_signed_share_of_M": 0.9698617772447232,
+      "curved_weight_curved_value_signed_share_of_M": -0.014828629690470716
+    },
+    {
+      "key": "07cd456253e27f7af0edd4521296949e7763ece07a6da72c1fccd0f585b313e8",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 1.1236373160042334e-14,
+      "mixed_term_norm": 0.014203606353233202,
+      "mixed_signed_share_of_norm_only_error": -0.49461465650622966,
+      "mixed_remaining_error_ratio": 1.5674276750969622,
+      "linear_weight_curved_value_signed_share_of_M": 0.04469171789880064,
+      "curved_weight_linear_value_signed_share_of_M": 0.9700530802775404,
+      "curved_weight_curved_value_signed_share_of_M": -0.014744798176104112
+    },
+    {
+      "key": "2fb37179d22643ecc116362a1953bc1ed8bb300bd0488c1dd19b312fe03490a5",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 1.1050354560429923e-14,
+      "mixed_term_norm": 0.014209454867309684,
+      "mixed_signed_share_of_norm_only_error": -0.4941657448380679,
+      "mixed_remaining_error_ratio": 1.5669762232593192,
+      "linear_weight_curved_value_signed_share_of_M": 0.0446883844614024,
+      "curved_weight_linear_value_signed_share_of_M": 0.9700401240369555,
+      "curved_weight_curved_value_signed_share_of_M": -0.014728508498442615
+    },
+    {
+      "key": "176e0c2cb78a6e660f22accef86f3a3ce3c69a6d053ab5e5dc8707d976def1c5",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 1.1753835751915354e-14,
+      "mixed_term_norm": 0.015425681659343009,
+      "mixed_signed_share_of_norm_only_error": -0.5119541946668517,
+      "mixed_remaining_error_ratio": 1.543242798164904,
+      "linear_weight_curved_value_signed_share_of_M": 0.04694822254405835,
+      "curved_weight_linear_value_signed_share_of_M": 0.9680324785735687,
+      "curved_weight_curved_value_signed_share_of_M": -0.014980701117481525
+    },
+    {
+      "key": "aec3f4394f156a8a22b3b80740124d9bb4813778079dcbcd00210bdabe47c8f4",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 1.0840801997410998e-14,
+      "mixed_term_norm": 0.01419876006178715,
+      "mixed_signed_share_of_norm_only_error": -0.4987230932520979,
+      "mixed_remaining_error_ratio": 1.5687703623450198,
+      "linear_weight_curved_value_signed_share_of_M": 0.044538758566906145,
+      "curved_weight_linear_value_signed_share_of_M": 0.9701625428324393,
+      "curved_weight_curved_value_signed_share_of_M": -0.01470130139918913
+    },
+    {
+      "key": "d20d51b6920d4b9a76d3cd10442228d88cd9d2c5ac6430734eb53eeb2357ff1c",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 7.54084295007118e-15,
+      "mixed_term_norm": 0.015390307226384833,
+      "mixed_signed_share_of_norm_only_error": -0.513715353750795,
+      "mixed_remaining_error_ratio": 1.5424832384881924,
+      "linear_weight_curved_value_signed_share_of_M": 0.047067202404417405,
+      "curved_weight_linear_value_signed_share_of_M": 0.9679606141546657,
+      "curved_weight_curved_value_signed_share_of_M": -0.015027816558940131
+    },
+    {
+      "key": "0123d73e8cbfe161e59683eed5ffa6b4001e69e3e30627660390d7261a244060",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 1.3004937296327845e-14,
+      "mixed_term_norm": 0.014230524295674231,
+      "mixed_signed_share_of_norm_only_error": -0.49202538458853445,
+      "mixed_remaining_error_ratio": 1.5639347632632878,
+      "linear_weight_curved_value_signed_share_of_M": 0.04512229887677073,
+      "curved_weight_linear_value_signed_share_of_M": 0.9697282560661659,
+      "curved_weight_curved_value_signed_share_of_M": -0.014850554942917421
+    },
+    {
+      "key": "caa702e4314f501be297e6054bc435db83bf2da06771262a405232c8827f9d18",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "generic",
+        "target": 1
+      },
+      "identity_error": 9.300831724798689e-15,
+      "mixed_term_norm": 0.01422556775059519,
+      "mixed_signed_share_of_norm_only_error": -0.4923683301674464,
+      "mixed_remaining_error_ratio": 1.5642893156355437,
+      "linear_weight_curved_value_signed_share_of_M": 0.045151157673346536,
+      "curved_weight_linear_value_signed_share_of_M": 0.9697236347402957,
+      "curved_weight_curved_value_signed_share_of_M": -0.014874792413839618
+    },
+    {
+      "key": "367e10c3dbc5c70eedb894b856ade1669b195a7fce84f93c1773f3aca51841ed",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 8.134958635538925e-15,
+      "mixed_term_norm": 0.015405583950617724,
+      "mixed_signed_share_of_norm_only_error": -0.5138851070282046,
+      "mixed_remaining_error_ratio": 1.545598019668556,
+      "linear_weight_curved_value_signed_share_of_M": 0.04651454782707709,
+      "curved_weight_linear_value_signed_share_of_M": 0.9683552053620674,
+      "curved_weight_curved_value_signed_share_of_M": -0.014869753189334554
+    },
+    {
+      "key": "6cc17a3717e6ef7917451df969adbc2970d61e53bbb4e3330f599d752934c8ff",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "generic",
+        "target": 0
+      },
+      "identity_error": 9.449797715166408e-15,
+      "mixed_term_norm": 0.014197032415131313,
+      "mixed_signed_share_of_norm_only_error": -0.4996057622218497,
+      "mixed_remaining_error_ratio": 1.569847722326561,
+      "linear_weight_curved_value_signed_share_of_M": 0.04447709444037678,
+      "curved_weight_linear_value_signed_share_of_M": 0.9702206156507434,
+      "curved_weight_curved_value_signed_share_of_M": -0.014697710091149714
+    },
+    {
+      "key": "1c156b4ddabfecb8225fc71f537f22814b9057156146d1a3ef741a1c31f65d51",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 1.251890301492975e-14,
+      "mixed_term_norm": 0.01543047635946404,
+      "mixed_signed_share_of_norm_only_error": -0.5120756812619348,
+      "mixed_remaining_error_ratio": 1.5434470640630709,
+      "linear_weight_curved_value_signed_share_of_M": 0.0468557930368203,
+      "curved_weight_linear_value_signed_share_of_M": 0.9680887653213135,
+      "curved_weight_curved_value_signed_share_of_M": -0.014944558358099888
+    },
+    {
+      "key": "7fdc8758ff292d22c60c43c029f36ce0a01836517a3ff4d059d2d2570a727b00",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 8.609595241598766e-15,
+      "mixed_term_norm": 0.01537071954873797,
+      "mixed_signed_share_of_norm_only_error": -0.5143569461097905,
+      "mixed_remaining_error_ratio": 1.5432263270731592,
+      "linear_weight_curved_value_signed_share_of_M": 0.04674718902496653,
+      "curved_weight_linear_value_signed_share_of_M": 0.9681703711276539,
+      "curved_weight_curved_value_signed_share_of_M": -0.014917560152842471
+    },
+    {
+      "key": "024f3d9033a400e5958c2a6f5293845863a7cd55fdc2cde58a9ca326b6b1ce5a",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 8.797650108416377e-15,
+      "mixed_term_norm": 0.015369532433125268,
+      "mixed_signed_share_of_norm_only_error": -0.5150219997254366,
+      "mixed_remaining_error_ratio": 1.543943245087772,
+      "linear_weight_curved_value_signed_share_of_M": 0.046709249133689235,
+      "curved_weight_linear_value_signed_share_of_M": 0.9682112270052108,
+      "curved_weight_curved_value_signed_share_of_M": -0.014920476138799616
+    },
+    {
+      "key": "d3bd2bf79bb8ea4b6d255c405b32dedca964245a89d6f33de9c73cb04280822a",
+      "group": {
+        "assignment": 1,
+        "block": "willow",
+        "reverse": 0,
+        "schema": "descriptive",
+        "target": 0
+      },
+      "identity_error": 1.0909892780852637e-14,
+      "mixed_term_norm": 0.015390340044745014,
+      "mixed_signed_share_of_norm_only_error": -0.512954918446781,
+      "mixed_remaining_error_ratio": 1.5416531920585752,
+      "linear_weight_curved_value_signed_share_of_M": 0.047092470332228006,
+      "curved_weight_linear_value_signed_share_of_M": 0.967927359227384,
+      "curved_weight_curved_value_signed_share_of_M": -0.015019829559629145
+    },
+    {
+      "key": "16629c1e872d07dbd739f1c1cfd379baa8e4399457db0569f52293163cf8fe7b",
+      "group": {
+        "assignment": 0,
+        "block": "willow",
+        "reverse": 1,
+        "schema": "descriptive",
+        "target": 1
+      },
+      "identity_error": 9.57231256065727e-15,
+      "mixed_term_norm": 0.01541265890021739,
+      "mixed_signed_share_of_norm_only_error": -0.5138011394391786,
+      "mixed_remaining_error_ratio": 1.5455937631687657,
+      "linear_weight_curved_value_signed_share_of_M": 0.04645178201265264,
+      "curved_weight_linear_value_signed_share_of_M": 0.9683893767306387,
+      "curved_weight_curved_value_signed_share_of_M": -0.014841158743071592
+    }
+  ],
+  "mixed_medians": {
+    "identity_error": 1.060561144114458e-14,
+    "mixed_term_norm": 0.014339177714371114,
+    "mixed_signed_share_of_norm_only_error": -0.4891177052067822,
+    "mixed_remaining_error_ratio": 1.5446464069081016,
+    "linear_weight_curved_value_signed_share_of_M": 0.045801469842999584,
+    "curved_weight_linear_value_signed_share_of_M": 0.9689893866420294,
+    "curved_weight_curved_value_signed_share_of_M": -0.014650545669795307
+  }
+}

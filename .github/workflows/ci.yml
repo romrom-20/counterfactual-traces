@@ -15,6 +15,6 @@ jobs:
       - name: Lint active code and sealed sources
         run: uvx --python 3.12 ruff==0.16.8 check .
       - name: Verify all releases, source seals and historical evidence
-        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/reproduce_generator.py --verify-only --history --plan
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/reproduce_local.py --verify-only --history --plan
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

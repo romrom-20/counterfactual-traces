@@ -1,0 +1,1530 @@
+{
+  "status": "passed",
+  "model_calls": 0,
+  "targets_observed": 0,
+  "checks": [
+    {
+      "name": "false_primal",
+      "error": 2.543122890941163e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.9948926387746155e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 2.4077961846558082e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 1.078623407604895e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.199040866595169e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 1.6349768761081407e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 2.220446049250313e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.199040866595169e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.8362869264906294e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.083609228018204e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.1397313225570277e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.5200837236075543e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.956819927264377e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3211499510492816e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.0056494401328511e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 3.0350900780684587e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.395398275429784e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.6167622796103842e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 1.3750264720238659e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 2.2648549702353193e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 1.1882855810441129e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.6237011735142914e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 2.19824158875781e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 2.1094237467877974e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 2.19824158875781e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.708584299712882e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.416306153582795e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3537498899651723e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.114780757475805e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.6860831603989794e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.5352575460925166e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.6614014629106819e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 3.2370727299779745e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.7718524104880515e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 8.187894806610529e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 8.516234904776265e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.3100631690576847e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.4876988529977098e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 7.849623728795052e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.3100631690576847e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.3100631690576847e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.9082238273712164e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.86777404495875e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.835117523571331e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.031942844855366e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.557411115158061e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.5928802791749866e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.399154315085034e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 4.597368210623731e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.5212329962397426e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.8283985436795547e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 5.609239288328904e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 3.686287386450715e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.8318679906315083e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.0086826859878606e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.490417204738861e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.408307220840399e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.986442160812929e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.784045479211407e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.688231531567913e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.927480891383858e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.1685210461058757e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.8228576152145024e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.1518563880486e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 4.999224437196581e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.0658141036401503e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 9.769962616701378e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 2.688821387764051e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.0658141036401503e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.10029249337174e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.389975411494106e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.769688711856126e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.087547736206457e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.821215344146367e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.974282865974569e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.6610673397280986e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 4.103796336085708e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.567721715169725e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.5543122344752192e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 1.1762627122324787e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 2.216109240560371e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.5543122344752192e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 6.328271240363392e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 6.328271240363392e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.953503827762276e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.4025318390872314e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.500161696255109e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.2803948618586927e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.784125540169271e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.034345980719352e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.656846710147157e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.747653573331732e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.7854276529737376e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.7694179454963432e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 9.705286366235022e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 8.715250743307479e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 7.882583474838611e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 1.1882855810441129e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 9.2148511043888e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 8.382183835919932e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 9.2148511043888e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.179112000375241e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.461319120212636e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.1430131147127653e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.5638087970826914e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.121707419812992e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.0029518535126236e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.0422948967673054e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 3.3328520094300096e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.3517605249611115e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.1379786002407855e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 9.748028590925162e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.4210854715202004e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 2.6020852139652106e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.4210854715202004e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.880100482387075e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.999544209183249e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.4760378198017989e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.499238060647203e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.269810893742232e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.255640038558964e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.88993620044033e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 3.212464696811246e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.4186871246389963e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.2975731600306517e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 7.468032503163413e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.7763568394002505e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 2.237793284010081e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.7763568394002505e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.916717281730712e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.341326631518427e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3041114022005473e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 8.505497648965236e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.317885674010036e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.259065677237936e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3275415153019693e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.8839326929319675e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.836434725013049e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.4710455076283324e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 7.41413435853544e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 9.547918011776346e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 9.103828801926284e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 6.201636426617085e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.4710455076283324e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.021405182655144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 9.769962616701378e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.021405182655144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.514636135574904e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.074091730643659e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3107223119368516e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.275932319337973e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.342103288035304e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.323387770896245e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.204652097012778e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 4.61083166580778e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.086096347888368e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.4779844015322396e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 6.772173672536796e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 7.494005416219807e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.5543122344752192e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 7.605027718682322e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.310263422903972e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.980148363142867e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.723482659502753e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.700019921402708e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.335282965950427e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.0704767225368141e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 8.824755753618699e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 3.9541930694220184e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.3041007074796624e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 6.816509716704375e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 1.5487611193520934e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.5765166949677223e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 1.4094628242311558e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.5376588891058418e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.5654144647214707e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.5432100042289676e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 8.331357825852592e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.824965899568156e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.1358400331396012e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.752914358682278e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.708403473190458e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3714659616304026e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.1594048773344925e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.4398788704971253e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.707802820745009e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.797173521111972e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 1.3489009683537168e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 9.547918011776346e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 9.992007221626409e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 2.246466901389965e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.9984014443252818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 8.881784197001252e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 5.246358035504439e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.8950138669946455e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.1439654779010766e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.610490617695684e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.79582454357319e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.1086426069707722e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.904384460334646e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.8788047881089796e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.2236872435920105e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 1.1796119636642288e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 4.989623896348161e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 2.0095036745715333e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 1.9984014443252818e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 1.5178830414797062e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 1.1796119636642288e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 1.942890293094024e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 1.9317880628477724e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.942890293094024e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.930414823777767e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.89691845459339e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.524942203762203e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3706107125990852e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.0716676979736235e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.345859568014869e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.405668791963041e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.8142309678180766e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.8338598048183172e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 8.049116928532385e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 8.467048867580174e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 6.994405055138486e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 7.216449660063518e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 7.762887554996212e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 7.216449660063518e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.9612119967790136e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.838649398346661e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.357023673539194e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 6.270812536769699e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.5451146462861516e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.7451111736233038e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.7042714819687915e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "false_primal",
+      "error": 2.752802694239165e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.6336534881821194e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_Jd",
+      "error": 8.257283745649602e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "used_FD",
+      "error": 7.191453196830899e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "N_correction",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "NV_correction",
+      "error": 7.771561172376096e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "random_control",
+      "error": 7.502679033599691e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_L",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_N",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_NV",
+      "error": 7.771561172376096e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.336897756005101e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 4.304085088335796e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.6993198515002916e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 9.034544081821042e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 3.413101579141653e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 7.197856199958608e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "affine_node_FD",
+      "error": 1.3703186610598828e-10,
+      "bound": 0.0001
+    }
+  ],
+  "local_affine_derivatives": 112,
+  "fresh_hashes": 32,
+  "design_sha256": "7f68a27cd8a774d87f6c33850a335a1e1e5a557ff562291d742313f2b5ef3144"
+}

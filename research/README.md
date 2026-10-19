@@ -1,20 +1,32 @@
 # Reproduce the current research
 
-The latest diagnostic is **229**, which separates receiver curvature from source–receiver interaction at attention 2. It is retrospective on 228's contexts. The latest prospective test is **228**, an alignment forecast that achieves 0/32 passes on its frozen criteria. The earlier causal sequence is **225b → 226b → 227b**. There is no successful general False-only predictor of the native Boolean response.
+The latest study is **231**, a prospective local attention-2 forecast that passes at the verdict position in 16/16 new pairs and fails the stronger whole-receiving criterion in all 16. Its budget includes an exact edited first block and a source-only attention call. It follows **230**, where every single-primitive account fails but a posthoc normalization/product composite motivates the new rule. The full native-response prediction problem remains open; **228** still fails its whole-response criteria.
 
 ## Inspect without a model
 
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_generator.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_local.py --verify-only --history --plan
 ```
 
 This uses only the standard library. It checks all active releases, their scientific source seals, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
 
 The [experiment index](../docs/EXPERIMENTS.md) links every active protocol, report, audit, failed attempt and data summary. The [research notes](../docs/RESEARCH-NOTES.md) explain which hypotheses changed and why.
 
-## Run the latest diagnostic
+## Run the prospective local forecast
+
+After the environment setup below:
+
+```sh
+python research/boolean_coupling/reproduce_local.py --run --out runs/my-local-reproduction
+```
+
+This independently runs forecast → NumPy qualification/global seal → native True observation → unchanged scoring. Add `--offline` for a cached checkpoint. It reuses fixed original inputs, not a new confirmation. The [231 release guide](../results/local-normalization-product-231/README.md) records the partial known-edit computation, all cases, both criteria and exact phase commands. No private activation archive is needed.
+
+The [230 guide](../results/receiver-curvature-230/README.md) separately regenerates its 229 prerequisite from public inputs and runs the factorial/qualification. It retains registered failures separately from the post-observation composite analysis.
+
+## Run the 229 diagnostic
 
 After the environment setup below:
 
@@ -31,7 +43,7 @@ python research/boolean_coupling/reproduce_generator.py --run --offline \
 
 Every output directory must be new. This is a retrospective diagnosis with observed native parents; replication does not become a fresh forecast test. [229's release guide](../results/first-attention-generator-229/README.md) explains the signed vectors, direct primitive interventions, all-ineligible downstream rule, bootstrap corrections and budget. The model run makes 32 ordinary False calls and uses saved True states; zero *new* ordinary True calls does not make it False-only.
 
-## Run the latest prospective test
+## Run the earlier whole-response test (228)
 
 Follow the environment setup below, then run:
 
@@ -74,6 +86,8 @@ python research/boolean_coupling/reproduce_tail.py --run --offline \
 The checkpoint-based validator adds 608 finite-forward comparisons, without a full model call. All 32 cases in each follow-up are previously observed and dependent. Numerical validation does not make them fresh examples.
 
 ## Code map
+
+230 uses [run230.py](boolean_coupling/run230.py), [curvature230.py](boolean_coupling/curvature230.py) and separate [audit230.py](boolean_coupling/audit230.py). [describe230.py](boolean_coupling/describe230.py) is explicitly post-observation. 231 uses [local231.py](boolean_coupling/local231.py), [audit231.py](boolean_coupling/audit231.py), fixed [cases231.json](boolean_coupling/cases231.json) and [reproduce_local.py](boolean_coupling/reproduce_local.py). [plot_local.py](boolean_coupling/plot_local.py) renders both studies from saved records without model calls.
 
 229 uses [generator229b.py](boolean_coupling/generator229b.py), [attention229.py](boolean_coupling/attention229.py), separate [audit229.py](boolean_coupling/audit229.py), position-resolved [describe229.py](boolean_coupling/describe229.py), [plot229.py](boolean_coupling/plot229.py) and [reproduce_generator.py](boolean_coupling/reproduce_generator.py). Original generator229.py and the intermediate bootstrap source remain as failure evidence; use generator229b.py.
 

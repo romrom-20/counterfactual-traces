@@ -52,6 +52,14 @@ Across all receiving rows, cross-source interaction is substantial, concentrated
 
 Running the remaining network finitely gives only .0073 nats median margin error from this isolated early discrepancy. All cases fall below the frozen .10-nat guard, so the downstream success rule is ineligible. This is a useful boundary on the tested conditional effect; it is not evidence about the same error under 228's remaining linear transport. A diagnosis of where an approximation first becomes wrong need not identify the source of its eventual behavioral failure. The [full report](analysis/229-first-attention-generator-result.md) preserves the controls, counts, numerical qualification and bootstrap failures.
 
+## 230–231: turn a joint local account into a forecast
+
+The primitive factorial prevents a tempting normalization-only conclusion: it fails every case at the frozen accuracy bound, despite a large signed projection onto R. The first receiving row supplies its main normalized-input correction, carried by attention key/value paths to the verdict. The operation's product background remains consequential.
+
+The posthoc finite normalization/product combination has much lower old-case error. Its mixed term alone worsens the normalization-only discrepancy, so that term cannot be named as a standalone explanation. The full product response in the finite-normalization background is the hypothesis frozen for 231.
+
+On new literal pairs, all 16 forecasts meet the local native attention-2 criterion after a global pre-observation seal. This advances from retrospective decomposition to a limited prospective prediction. It still uses exact known-edit block 1 and a source-only attention call, fails the whole-receiving criterion in all 16, and never forecasts final behavior. These limits are part of the result, not deferred qualification. See [230](analysis/230-receiver-curvature-result.md) and [231](analysis/231-local-forecast-result.md).
+
 ## The next unresolved question
 
 The studies now constrain one conditional propagation chain: MLP23's intervention supplies interacting displacements; MLP24 generates a consequential mixed response; multiplication explains much of its margin effect, while a complete vector account needs more. The experiments still supply previously observed parents.
