@@ -1,0 +1,4810 @@
+{
+  "status": "passed",
+  "model_calls": 0,
+  "targets_observed": 0,
+  "checks": [
+    {
+      "name": "false_primal",
+      "error": 3.187314094432736e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.0955924437137128e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.2975731600306517e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.52892624580992e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.27675647831893e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.7985612998927536e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.454392162258955e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.469907248840556e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.462059277621222e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.482070851135421e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.967286559569826e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.8650146416685516e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.576322840178925e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.0130785099704553e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 9.144714742392868e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.3211653993039363e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.9761969838327786e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.5987211554602254e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.469907248840556e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.462059277621222e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.723816749066298e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1100675023287265e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.8650146416685516e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.585114039284415e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 5.377642775528102e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 9.992007221626409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 8.604228440844963e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 5.502256036238329e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 5.2015027475205144e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.5334955527634975e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.817850528931246e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.2870594307278225e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.5868196473766147e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.277938581656818e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.775616763679324e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.571159279067924e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.681123104240442e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.41114506727347e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5464542396214503e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.429412144204889e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.523933073794176e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.1538326677728037e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.1871393585115584e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.6367796834847468e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.277938581656818e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.775616763679324e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.3301242399177404e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.845619076282673e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.41114506727347e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.5553103133191838e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 3.3306690738754696e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.1879386363489175e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.3877787807814457e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 9.992007221626409e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1879386363489175e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.4063421217034318e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.4986019117333456e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 2.2620794126737565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.566471677324717e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.731148640577885e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.4424906541753444e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.5868196473766147e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.563913727471784e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.193429062326892e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.885105845513053e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5979988794885547e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.51002830914593e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4082349522603899e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.2784912017949068e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 8.470845067054533e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.6764367671839864e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.7541523789077473e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.4313884239290928e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.563913727471784e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.193429062326892e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2577589664219957e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1543391332320858e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.51002830914593e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.049956968375627e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 7.45931094670027e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.27675647831893e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.7763568394002505e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1268763699945339e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.060982902842625e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.5483180117479307e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.4363510381087963e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.448285034931333e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.9976021664879227e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.708944180085382e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.731148640577885e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.740973400477413e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.794903800398043e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1754279152656824e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0669233918114522e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.1376075343713126e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4849153113713487e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.304512053934559e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 5.557870465938697e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.9753977059954195e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.7977620220553945e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.631228568361621e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.740973400477413e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.794903800398043e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.229446718178451e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.747703895746034e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.1376075343713126e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.3867829191309237e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.4224732503009818e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.8866231502888695e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.1865630081284735e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.4363510381087963e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.405522666787846e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.2323475573339238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.554312234475219e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.154637910427141e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.3858980336430875e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.324770903346158e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5560271769536095e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.4552201100268576e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.835553725634494e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.2490009027033011e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.195147290472992e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.1532441668293814e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.3766765505351941e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.2656542480726785e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.154637910427141e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.3858980336430875e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2058651993607228e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.509717128006578e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.4552201100268576e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.6413845369683822e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.5785983631388945e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 6.8833827526759706e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.27675647831893e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.325150620321239e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.006413670820663e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 6.29704621779581e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.54849712650174e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.8762769116165146e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.709743457922741e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.0095036745715333e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1721634947392534e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.3101773122833364e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1239136704643826e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.6361584927004373e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.564693734110392e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.8355023403970883e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 9.228728892196614e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 6.119505405882686e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.887379141862766e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.6764367671839864e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.042810365310288e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1721634947392534e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.3101773122833364e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0200239166768127e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.063565905145522e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.564693734110392e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.5693530207457583e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.1796119636642288e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.2434497875801753e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 2.2315482794965646e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.2434497875801753e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.833669603852229e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.0105266564661726e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.8596235662471372e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.210454788982799e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.432187701766452e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.587618925213974e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.995326457508554e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.1285303236927575e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6951459680392134e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.280453995889025e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.588044972246962e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.7854107775550077e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.8318679906315083e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 4.892083608869224e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.2989609388114332e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.3322676295501878e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.509903313490213e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.995326457508554e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.1285303236927575e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.5628851077892358e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.842907397062697e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.588044972246962e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0260754485652557e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 2.723515857283587e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 7.757683384568281e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.8318679906315083e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 8.104628079763643e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 7.73686670285656e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.7434724902963836e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.844224996190192e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 9.71445146547012e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.658984870611342e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.453592884421596e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.2093438190040615e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.5868196473766147e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.058767293952826e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.607323467187285e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.188082633576254e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.937044763968318e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.8641499999769735e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.419019976916404e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.0824674490095276e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 1.1060437782664523e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.0872192862952943e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.4980018054066022e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.4424906541753444e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.058767293952826e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.607323467187285e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0995892759692316e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1263086090954749e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.8641499999769735e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.732464748254973e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 4.5102810375396984e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.1102230246251565e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.0824674490095276e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 8.326672684688674e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1102230246251565e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.1690928761207715e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.850059690806539e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.5126788710517758e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.0957101805736391e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.609823385706477e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.4646951146678475e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.4710455076283324e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1050149684166399e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.563585398464909e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.710906494874643e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.258013066766989e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.782139879060509e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.7674246311286113e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.9984014443252818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 1.0974534232766064e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.6930901125533637e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.481348460037225e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.609823385706477e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1050149684166399e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.563585398464909e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.7061204451171777e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.512010524459093e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.782139879060509e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.655930572785208e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 3.0010716134398763e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.8976820942716586e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.9984014443252818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.63202784619898e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 2.9004576518332215e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.2344261753358694e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.7347318239945295e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.2212453270876722e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.309879277745846e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.454392162258955e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.6431300764452317e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.582067810090848e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.1596771006609e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.7369112249052705e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2924190363750032e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.360646845959646e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.8598213514262625e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1014900970496289e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.096345236817342e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.407367731346315e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.7541523789077473e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.9761969838327786e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.659783421814609e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.1596771006609e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.7369112249052705e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2878081500494742e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2168381081402446e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.8598213514262625e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.455938281055244e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 3.677613769070831e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.174060848541103e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.3100631690576847e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1934897514720433e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.912936031635894e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.013290861859531e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.609823385706477e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.876700502436717e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.0872192862952943e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.554312234475219e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.99786919919643e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.062985184405399e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.129122108312064e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.250082614480938e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.640808959344156e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4791629816064862e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.096345236817342e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.403648007164865e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.532107773982716e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.4085954624931674e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.687538997430238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.99786919919643e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.062985184405399e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.819499283988473e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.409908738030893e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.640808959344156e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.4789540935238737e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.474514954580286e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.124100812432971e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.6542323066914832e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1268763699945339e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.8538511247511167e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.103212647515008e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3877787807814457e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.345865833339403e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.63202784619898e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.6431300764452317e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.6542323066914832e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.2162415092296115e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.14229084366724e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1995567083047942e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.596290556213109e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.812551163662192e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.002151025143789e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.8665624601510444e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 4.967580166659324e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.709743457922741e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.2162415092296115e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.14229084366724e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2392856660044076e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.705394781774456e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.812551163662192e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.22920739559218e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.3704315460216776e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 9.159339953157541e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.887379141862766e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 9.103828801926284e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.005616864726335e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.0729999629386384e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.790234627208065e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.05584824942096e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 3.108624468950438e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 3.019806626980426e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.375877272697835e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.167866383246292e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.180744306303552e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1737081966056717e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.829183818180291e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.376818324962727e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.128990796468782e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.5334955527634975e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.255937847089333e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.4175106361212784e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.2870594307278225e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.2870594307278225e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.167866383246292e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.180744306303552e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.855090106672179e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1051207214965442e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.376818324962727e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.451273968840267e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.9081958235744878e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.0144662887512368e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.5543122344752192e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 9.769962616701378e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.0082212842377203e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.9552024106704877e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.839370987579471e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 9.922618282587337e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.6613700706587e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.9984014443252818e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.762479051592436e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.4876988529977098e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.820525402460252e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.18028389681524e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.377106083465313e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.247478206363818e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.077706394767233e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0541366390892648e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.061650767297806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 5.57526932606911e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.1538326677728037e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.6653345369377348e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.6209256159527285e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.820525402460252e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.18028389681524e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1902623765075449e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.4699973898725516e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.077706394767233e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0755613066848468e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 7.632783294297951e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.021405182655144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.061650767297806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.2878587085651816e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.021405182655144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.523625397683361e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.5312223178873836e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.700191894359886e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.3322676295501878e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 9.547918011776346e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.78422256409095e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.3716011094142573e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.268800411957649e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.884046720936817e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.980684004645241e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.68034906506454e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.1310397063368782e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 5.747963147118007e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.5210055437364645e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.149080830487037e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.2878587085651816e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.78422256409095e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.3716011094142573e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.17509670669836e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.267529517235917e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.980684004645241e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1275676919941802e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.97758476261356e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 7.771561172376096e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.1823875212257917e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.2560527451486188e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.000423311805278e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.4155343563970746e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.682182103311506e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.7430501486614958e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4210854715202004e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.769826283419377e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.970902273664478e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1548980337599407e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.336207867320726e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.4423210948375527e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1106059127907741e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.3600232051658168e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 5.955894822468055e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.4210854715202004e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.3322676295501878e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.769826283419377e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.970902273664478e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2100822663232806e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.789415914181199e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.4423210948375527e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.6386188933514845e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.3600232051658168e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 8.599894487981707e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 7.4255365268283136e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.4155343563970746e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.03572324761797e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.4202861936828413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.4202861936828413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.353672812205332e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.304094820972164e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.56165399898012e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.280171348701925e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.290412674595959e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.947630777823008e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0001992756161066e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.429412144204889e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 1.0349990213834315e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.4202861936828413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.3203661214665772e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.4313884239290928e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.304094820972164e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.56165399898012e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.312645693096054e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2973588121769491e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.947630777823008e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.921257875014959e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 8.500145032286355e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.4432899320127035e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 9.658940314238862e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.2380919066099523e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.596400593330884e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.5404344466674047e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.023062457451768e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.3869795029440866e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.6201263381153694e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.842170943040401e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.092126018404254e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.357379013164575e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.246035067660467e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0839580101562607e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.73168669523627e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6760173110474952e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.304512053934559e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.932828040291273e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.4980018054066022e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.7977620220553945e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.9753977059954195e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.092126018404254e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.357379013164575e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.249310513438788e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1490540509644272e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.73168669523627e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2181501754570181e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.5612511283791264e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.2545520178264269e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.27675647831893e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.6542323066914832e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.2545520178264269e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.983066218626874e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.043719766893105e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.1796119636642288e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.996880171945442e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.554312234475219e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.5987211554602254e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.865174681370263e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.293453333281132e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.625450494317619e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0547664271946117e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.504697124155468e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.182848734046729e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1721678201638205e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 9.211381657436846e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 7.714516438855901e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.554312234475219e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.293453333281132e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.625450494317619e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.690637040085985e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0950089299925983e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.182848734046729e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1885437111499447e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 2.185751579730777e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.55351295663786e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 9.43689570931383e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 2.070565940925917e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 2.5479618415147343e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.6247292662106023e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.999883376737401e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3600232051658168e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.045333194137077e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.0261570199409107e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.2426505097428162e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.554312234475219e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.167868024509744e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.714237222813722e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.9470462395143606e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.7538187728896004e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.956693084283813e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.632965039248036e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.4432899320127035e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 9.936265534318811e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.3148150063434514e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.687538997430238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.167868024509744e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.714237222813722e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 2.0765834191083243e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0582397244195303e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.956693084283813e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0124264152185612e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.0755285551056204e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.4202861936828413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.4432899320127035e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 2.4646951146678475e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 2.4216739724636227e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.248896213392527e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.5237604203430806e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.519617764955683e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.756432479465557e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.8041124150158794e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.1879386363489175e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.454392162258955e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.435570223089048e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.3457275555880415e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.39283760619637e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.584917091249277e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.935120340692322e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3183947225495034e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 6.319451524572361e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.9040324872321435e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.1879386363489175e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.4765966227514582e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.435570223089048e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.3457275555880415e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 2.0135115796904302e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.165492967112525e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.935120340692322e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.379165427695117e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 5.204170427930421e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.4155343563970746e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.5725425438236655e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.9935096849259546e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.004020731449234e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.6423307986078726e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.5979218776228663e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.930988785010413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.455097606953731e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.093002380940348e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6163240589158433e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.699841126907741e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.723699140174453e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2243042948260723e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.734723475976807e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 6.886659645322091e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.7755575615628914e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.886579864025407e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 3.219646771412954e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.455097606953731e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.093002380940348e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.6783699695885682e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.038874156190284e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.723699140174453e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2350933633036715e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.249000902703301e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.0672018824209317e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.7208456881689926e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.3322676295501878e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.074140776324839e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.453301653881912e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.3316813463902797e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 8.777700788442644e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.223110442417744e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.454392162258955e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.042810365310288e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.038043494695835e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.7615537351598505e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.8978385529777597e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0165284537516292e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.2016731488226924e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.155830221248661e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 9.645062526431047e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 6.924572308782129e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.3378187446733136e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.2684298056342413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.020605904817785e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.038043494695835e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.7615537351598505e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.4400066555841917e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.458038706046369e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.2016731488226924e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.9890990958148e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.3357370765021415e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 9.769962616701378e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 9.992007221626409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 8.215650382226158e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 9.769962616701378e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.9252592245176956e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.734507550452349e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.6930901125533637e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.4555352539566413e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.7478019859472624e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.2648549702353193e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.3203661214665772e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.001332764071776e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.103244091198e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.251706208519533e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.90207208478319e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.888115634482659e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6774126835802927e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.4988010832439613e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 1.4980874865275218e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.8033131371785203e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.2010171463193728e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 2.3925306180672123e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.001332764071776e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.103244091198e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.057871119821925e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.613118299497733e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.888115634482659e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.7005665257051328e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 2.6020852139652106e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.1038726316646716e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.4432899320127035e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.4876988529977098e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 2.1094237467877974e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.563941385564817e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 5.141816393106069e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3530843112619095e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.538088612173532e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 3.569367024169878e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 3.3084646133829665e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 3.4361402612148595e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.252269700914638e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.495817385041789e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.015998217631861e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.091228114691067e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.237030781784057e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4998180128400485e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.0130785099704553e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 6.474785291255003e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 3.4638958368304884e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 3.241851231905457e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 3.375077994860476e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.252269700914638e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.495817385041789e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0277880423906899e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.370358754252936e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.237030781784057e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.606200557232825e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.5092094240998222e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 9.992007221626409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.1324274851176597e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.6383432788490424e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.957092110178472e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.2906342661267445e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.266826854481547e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.1316282072803006e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.7208456881689926e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.2456756860209666e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.943744302821074e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.639904846592273e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.691262688926074e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.3482234762516327e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4108056736739094e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.0408340855860843e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 1.0176477004825157e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.142730437526552e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.6986412276764895e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.2456756860209666e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.943744302821074e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.129309413531805e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2191792497437404e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.3482234762516327e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.5121612295665443e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 4.163336342344337e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.9984014443252818e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 9.992007221626409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 9.2148511043888e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.9984014443252818e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.9254921822263746e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.7251272250172764e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.6445178552260131e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.3577733859113095e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.964295475749168e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.653433028854124e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.9753977059954195e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.6746864152135146e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.529827957178156e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5245028923602764e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1949658634564236e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.007946530215634e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0404855735411233e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.734723475976807e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 1.3745951382357346e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 2.7533531010703882e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 2.8754776337791554e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 3.086420008457935e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.6746864152135146e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.529827957178156e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.5445453168403192e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.176246610167246e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.007946530215634e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0661065198778585e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.3357370765021415e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.584843367652411e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.582067810090848e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.3143108459920967e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.2177238090680405e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 2.4216739724636227e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.209480048202654e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.2545520178264269e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.954738422468523e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.747078092253275e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.477694661188605e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.473064050296416e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.356936062459681e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.895287521637526e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 2.546574062733953e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 3.8736607671507883e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.2878587085651816e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.2989609388114332e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.2545520178264269e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.954738422468523e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.747078092253275e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.620220589637622e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.946010129918467e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.356936062459681e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1353462267549297e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 0.0,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 2.4424906541753444e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.1934897514720433e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.0651047560059652e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.306913280403222e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.2490009027033011e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.149808130651575e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.0130785099704553e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.021405182655144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.326716514427062e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.155029264043321e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.4091952594295094e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.442786826102534e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6647613073229178e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.5942618881179556e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.701769257073554e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.3253287356462806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 9.905864115089535e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 7.438494264988549e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 9.547918011776346e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.2906342661267445e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.155029264043321e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.4091952594295094e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.645884184911752e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.417050028225765e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.5942618881179556e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.812394091019637e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.5612511283791264e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 8.548717289613705e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.4072076837123859e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 8.520961713998076e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.726762281663909e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.976824954232683e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.592476150946709e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.3481901412789625e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.2101430968414206e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.1268763699945339e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.509903313490213e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.658831736532477e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.3939478727429417e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.8847059850279901e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.46126207950047e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.781344015685306e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3580991192752023e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 2.546574062733953e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 5.166042194720832e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.509903313490213e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.2656542480726785e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.7763568394002505e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 5.658831736532477e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.3939478727429417e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.654398154929404e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 8.743273986755451e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.781344015685306e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.2563326767800476e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.5612511283791264e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.687538997430238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 2.6645352591003757e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.149080830487037e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.687538997430238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.2490142617701565e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.2745927798227825e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.1379786002407855e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.672819476474025e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.2434497875801753e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.2656542480726785e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.2878587085651816e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.984253552080652e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.510786466571659e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.9718451003958304e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.731722849445901e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.3564835072729124e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.17832632812976e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.0894063429134349e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 9.372100144566797e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.3211653993039363e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 9.950373858202965e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.984253552080652e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.510786466571659e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.4208766455081623e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.1574482583313894e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.3564835072729124e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 9.167659117742186e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.491862189340054e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 6.38378239159465e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.1102230246251565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 9.43689570931383e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 6.356026815979021e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.0227975529317774e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.0397632976585385e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.1969591984239969e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.975029764518583e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 9.658940314238862e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.7541523789077473e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.797748995646113e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.3514502700837667e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.713896271217436e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.888390457678641e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.452625768092133e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1989995454819713e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_numpy_Jd",
+      "error": 1.0928757898653885e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_used_FD",
+      "error": 9.768629464362855e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_0000",
+      "error": 1.1546319456101628e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_corner_1001",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.797748995646113e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 3.3514502700837667e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 1.0023581053716923e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 6.5684098785046e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 4.452625768092133e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_affine_node_FD",
+      "error": 7.999388781584904e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "anchor_random_control",
+      "error": 1.9081958235744878e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.3655743202889425e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SL",
+      "error": 1.0928757898653885e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_SNV",
+      "error": 1.2989609388114332e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R",
+      "error": 1.3655743202889425e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    }
+  ],
+  "local_affine_derivatives": 384,
+  "fresh_hashes": 64,
+  "design_sha256": "675d3f5574c49903e5e41c63f4ac96e6e13df0dca621250c4305266c2938ca4a"
+}
