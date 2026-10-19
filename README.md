@@ -8,9 +8,17 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local results and useful causal repairs. An accurate general False-only forecast of the full native response has not been demonstrated.
 
-[Latest error-transport result](docs/analysis/241-before-mlp16-vectors-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest fresh forecast test](docs/analysis/242b-uniform-primitive-families-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: a four-operation account fails; transport also changes cancellation
+## Latest: a uniform primitive rule fails on fresh inputs
+
+Experiment 242b freezes the same operation rule across all 28 blocks, generating every counterfactual state from one False computation and the known edit. All 256 forecasts were sealed and pushed before the 32 native True runs. The primary rule keeps RMS normalization and products finite, with a positive quadratic attention tilt and quadratic SiLU. It passes **0/32** full-response cases, at **50.3%** median residual error and **1.44 nats** margin error.
+
+Keeping SiLU finite lowers residual error to **17.4%**, but still passes **0/32**. All affine-normalization arms hit frozen instability limits. Stability, local numerical qualification and final accuracy are different requirements. Source-token errors also grow, so this does not isolate receiving-state normalization or a learned circuit. [All arms, checks and limits](docs/analysis/242b-uniform-primitive-families-result.md).
+
+![Uniform primitive rules and remaining native-response errors](docs/figures/242b-uniform-primitive-families.png)
+
+## Earlier: a four-operation account fails; transport also changes cancellation
 
 Experiment 241 transports every earlier local error vector to the input before MLP16. Four sites selected by the predeclared greedy rule pass **0/32** input-error reconstruction cases; the first sufficient prefix of that ordering uses **16 of 29 operations**. This rejects that four-site account, not every possible compact mechanism. New local errors partly oppose inherited error in all 32 cases.
 
@@ -48,16 +56,18 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_early.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_uniform.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_early.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_uniform.py --run --out runs/my-reproduction
 ```
 
-This regenerates the fixed public-input prerequisites and studies through 241. To reuse241 prerequisites, supply both `--input-238` and `--input-240`; older wrappers retain their documented reuse options. The complete prerequisite chain requires the recorded Apple Silicon/MPS environment;239 alone uses CPU calculations and the cached checkpoint. 241 additionally requires archived input-array hashes; different regenerated arrays stop for review. Every output directory must be new. Unexpected failures stop and retain logs. Repeating old examples is retrospective replication, not fresh confirmation.
+This regenerates 242b directly, without earlier experiment prerequisites. It records replication mode and a local seal before native measurements. Repeating these already observed literals is numerical replication, not fresh confirmation; the original investigation used a private remote seal. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
+
+The earlier `reproduce_early.py` wrapper remains available for studies through 241. See the [research guide](research/README.md) for its prerequisite reuse options and stricter archived-array checks.
 
 GitHub checks verify evidence integrity, syntax and lint. They do **not** execute the model experiments or establish independent scientific replication.
 

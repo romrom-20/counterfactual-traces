@@ -123,3 +123,9 @@ A fixed bound-based 1% mask is sealed before native receiving inputs are opened.
 Transport all29 native-input remainders before MLP16, retaining complete vectors and an exact squared-error budget. The predeclared greedy four-site account passes0/32; the first sufficient prefix uses16 sites and passes32/32. Posthoc metric checks show transport reduces individual-vector energy while weakening cancellation; small net transport does not mean unimportant transport. These are old-context oracle-vector diagnostics, not primitive causal attribution or a fresh predictor.
 
 [Protocol](experiments/241-before-mlp16-vectors.md) · [Report](analysis/241-before-mlp16-vectors-result.md) · [All vectors, checks and reconstruction prefixes](../results/before-mlp16-vectors-241/README.md) · [Runner](../research/boolean_coupling/vector241.py)
+
+## 242b — Does a uniform primitive-family rule predict the entire response?
+
+One False computation, known weights and the one-token edit generate all source/receiver states. All 256 forecasts are sealed and pushed before 32 fresh native references. Primary and secondary rules each pass **0/32**. Finite normalization prevents the tested instability but does not establish accuracy; finite SiLU lowers median whole error from **50.3% to 17.4%**, still above the frozen 5% bound. Source/receiver responsibility remains unseparated. Original 242's unsupported nested AD failure is preserved; qualified 242b retains every tolerance.
+
+[Protocol](experiments/242b-uniform-primitive-families.md) · [Report](analysis/242b-uniform-primitive-families-result.md) · [All forecasts, seals and outcomes](../results/uniform-primitive-242b/README.md) · [Reproduce](../research/boolean_coupling/reproduce_uniform.py)
