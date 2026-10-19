@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit237b.py", line 216, in <module>
+    main(target)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit237b.py", line 147, in main
+    checked(checks, "numpy_finite_mlp", finite(mlpweights, {}, parent, "mlp"), data[label+"_output"])
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit229.py", line 28, in checked
+    assert np.isfinite(error) and error <= bound, checks[-1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': 'numpy_finite_mlp', 'error': 0.00011064888120415617, 'bound': 0.0001}

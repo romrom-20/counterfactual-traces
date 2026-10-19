@@ -1,0 +1,334 @@
+{
+  "posthoc": true,
+  "new_model_calls": 0,
+  "margin": {
+    "forecast": {
+      "opposite_QK_softmax": 32,
+      "medians": {
+        "QK": 0.9049263000488281,
+        "softmax": -0.22429847717285156,
+        "interaction": -0.021060943603515625,
+        "full_minus_base": 0.6904335021972656
+      }
+    },
+    "oracle": {
+      "opposite_QK_softmax": 15,
+      "medians": {
+        "QK": 2.3405017852783203,
+        "softmax": 0.22912216186523438,
+        "interaction": -0.07355117797851562,
+        "full_minus_base": 2.4388656616210938
+      }
+    }
+  },
+  "local": {
+    "forecast": {
+      "21": {
+        "QK": {
+          "all": {
+            "norm": 8.09777642410102,
+            "signed_share": 0.7016271503080895,
+            "remaining_relative": 0.6262734095661031
+          },
+          "verdict": {
+            "norm": 5.763889297169891,
+            "signed_share": 0.9144547473796734,
+            "remaining_relative": 0.7459986988697072
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 4.816772802489561,
+            "signed_share": 0.21635476519858832,
+            "remaining_relative": 0.9813937967757218
+          },
+          "verdict": {
+            "norm": 3.784390893399082,
+            "signed_share": 0.16608238564979155,
+            "remaining_relative": 1.0687291058934258
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 3.2419971129988947,
+            "signed_share": 0.06074878914084128,
+            "remaining_relative": 0.9987617929499799
+          },
+          "verdict": {
+            "norm": 2.5872395085196214,
+            "signed_share": -0.0696166771186092,
+            "remaining_relative": 1.1506249814778398
+          }
+        }
+      },
+      "22": {
+        "QK": {
+          "all": {
+            "norm": 2.030913608219631,
+            "signed_share": 0.35461820150936607,
+            "remaining_relative": 0.8362526422569068
+          },
+          "verdict": {
+            "norm": 1.5428012428164297,
+            "signed_share": 0.34445295192823455,
+            "remaining_relative": 0.7874715087056197
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 2.415965552398192,
+            "signed_share": 0.6637289526106016,
+            "remaining_relative": 0.5824083929960406
+          },
+          "verdict": {
+            "norm": 1.8487681386720043,
+            "signed_share": 0.6912138148477536,
+            "remaining_relative": 0.5547378454599257
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 1.027142140646371,
+            "signed_share": -0.007657488923808159,
+            "remaining_relative": 1.030947997510505
+          },
+          "verdict": {
+            "norm": 0.7725784418788605,
+            "signed_share": -0.01764218386806712,
+            "remaining_relative": 1.0378715503385174
+          }
+        }
+      },
+      "23": {
+        "QK": {
+          "all": {
+            "norm": 1.6408143081704494,
+            "signed_share": 0.2155377913389289,
+            "remaining_relative": 0.9139112550412547
+          },
+          "verdict": {
+            "norm": 1.3318709692086206,
+            "signed_share": 0.2191550973216208,
+            "remaining_relative": 0.9140242286276294
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 2.969578245841622,
+            "signed_share": 0.8400954783890708,
+            "remaining_relative": 0.535156769065299
+          },
+          "verdict": {
+            "norm": 2.5937842615612468,
+            "signed_share": 0.8519192562422843,
+            "remaining_relative": 0.5618168907718586
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 0.8267341500901462,
+            "signed_share": -0.06085163148958438,
+            "remaining_relative": 1.085733822320329
+          },
+          "verdict": {
+            "norm": 0.795548444532714,
+            "signed_share": -0.08247510632796795,
+            "remaining_relative": 1.1142506587259842
+          }
+        }
+      },
+      "24": {
+        "QK": {
+          "all": {
+            "norm": 1.0550303765555564,
+            "signed_share": 0.37535634640237614,
+            "remaining_relative": 0.7153429901958998
+          },
+          "verdict": {
+            "norm": 0.9694335019650036,
+            "signed_share": 0.3955684663872849,
+            "remaining_relative": 0.6807456717713383
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 1.530398294807185,
+            "signed_share": 0.7840741799534804,
+            "remaining_relative": 0.38947392935310177
+          },
+          "verdict": {
+            "norm": 1.320024470323691,
+            "signed_share": 0.7826960166840427,
+            "remaining_relative": 0.3752530692852704
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 0.4591636190229958,
+            "signed_share": -0.13500158241186538,
+            "remaining_relative": 1.1472590775858862
+          },
+          "verdict": {
+            "norm": 0.44409644057613223,
+            "signed_share": -0.159238033254535,
+            "remaining_relative": 1.1703507155763393
+          }
+        }
+      }
+    },
+    "oracle": {
+      "21": {
+        "QK": {
+          "all": {
+            "norm": 8.330465752261706,
+            "signed_share": 0.7635320214070935,
+            "remaining_relative": 0.427976676746897
+          },
+          "verdict": {
+            "norm": 6.1864022271631605,
+            "signed_share": 0.7973571839080196,
+            "remaining_relative": 0.4303539453871478
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 4.733894083780595,
+            "signed_share": 0.24172701611242997,
+            "remaining_relative": 0.9009440073696043
+          },
+          "verdict": {
+            "norm": 3.5419620903446143,
+            "signed_share": 0.2590716842531808,
+            "remaining_relative": 0.8776452083777764
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 3.4573842969218713,
+            "signed_share": -0.0035779474213749607,
+            "remaining_relative": 1.0548418711062557
+          },
+          "verdict": {
+            "norm": 2.8680134579319523,
+            "signed_share": -0.029529519674137757,
+            "remaining_relative": 1.089493355976849
+          }
+        }
+      },
+      "22": {
+        "QK": {
+          "all": {
+            "norm": 1.731686640694409,
+            "signed_share": 0.4247360127654126,
+            "remaining_relative": 0.7566710700055688
+          },
+          "verdict": {
+            "norm": 1.2757374185343853,
+            "signed_share": 0.45199637645816815,
+            "remaining_relative": 0.7215257691454566
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 2.0677065814198956,
+            "signed_share": 0.6105883175592511,
+            "remaining_relative": 0.6075849949916666
+          },
+          "verdict": {
+            "norm": 1.4613656879966237,
+            "signed_share": 0.577954753578644,
+            "remaining_relative": 0.6222871849431124
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 0.9850229082218138,
+            "signed_share": 0.009938061376166533,
+            "remaining_relative": 1.03254546850197
+          },
+          "verdict": {
+            "norm": 0.719988938117536,
+            "signed_share": -0.002522547144231467,
+            "remaining_relative": 1.0437209357035053
+          }
+        }
+      },
+      "23": {
+        "QK": {
+          "all": {
+            "norm": 1.6780162115230572,
+            "signed_share": 0.17633275038476523,
+            "remaining_relative": 0.9309000934740235
+          },
+          "verdict": {
+            "norm": 1.3305270830681732,
+            "signed_share": 0.14378799805811648,
+            "remaining_relative": 0.9409675622275615
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 3.096902049396764,
+            "signed_share": 0.8421089240802132,
+            "remaining_relative": 0.4874039074122486
+          },
+          "verdict": {
+            "norm": 2.7684081630503963,
+            "signed_share": 0.9004283732715697,
+            "remaining_relative": 0.43258013577308196
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 0.5489357174361884,
+            "signed_share": -0.03212982372105264,
+            "remaining_relative": 1.042942646004335
+          },
+          "verdict": {
+            "norm": 0.44369927685743343,
+            "signed_share": -0.02406662749291117,
+            "remaining_relative": 1.0333671606318755
+          }
+        }
+      },
+      "24": {
+        "QK": {
+          "all": {
+            "norm": 1.2968426765219112,
+            "signed_share": 0.37604549532351383,
+            "remaining_relative": 0.7623064131881472
+          },
+          "verdict": {
+            "norm": 1.2017298421382683,
+            "signed_share": 0.40009124797722206,
+            "remaining_relative": 0.7399465659431378
+          }
+        },
+        "S": {
+          "all": {
+            "norm": 1.837560032920912,
+            "signed_share": 0.6901314079056255,
+            "remaining_relative": 0.49496018993954255
+          },
+          "verdict": {
+            "norm": 1.6298366209601878,
+            "signed_share": 0.6817959801597003,
+            "remaining_relative": 0.4996872476170036
+          }
+        },
+        "interaction": {
+          "all": {
+            "norm": 0.5541843643741593,
+            "signed_share": -0.05843251147194514,
+            "remaining_relative": 1.081923653242117
+          },
+          "verdict": {
+            "norm": 0.5310889021692213,
+            "signed_share": -0.06624946441399052,
+            "remaining_relative": 1.0912603780144017
+          }
+        }
+      }
+    }
+  }
+}

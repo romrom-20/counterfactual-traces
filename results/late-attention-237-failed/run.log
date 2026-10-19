@@ -1,0 +1,13 @@
+/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/late237.py", line 220, in <module>
+    main(args.input_236.resolve(), args.out.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/late237.py", line 183, in main
+    check(checks, "full_graph_public_"+suffix, np.max(abs(data[regime+"_1111_"+suffix]-data[regime+"_public_"+suffix])), bound)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/core225b.py", line 36, in check
+    assert np.isfinite(item["error"]) and item["error"] <= bound, item
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': 'full_graph_public_final', 'error': 0.0001678466796875, 'bound': 0.0001}

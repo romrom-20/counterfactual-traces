@@ -2,12 +2,24 @@
 
 The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+## Latest: late-attention omissions and numerical diagnosis
+
+237b crosses QK and softmax while keeping normalization/value products and remaining MLPs finite. Neither selective policy passes the joint final-response bound; QK restoration leaves10.8% median whole error under a native reset. Even complete late computation from the ordinary wrong incoming state leaves72.3%. [Full report](../docs/analysis/237-late-attention-result.md).
+
+Qualification is partial. Original237 fails its final bridge; original237b fails one Float64 MLP bridge. The237c numerical diagnostic preserves every bound/failure and finishes25,120 checks,25,119passing. Independent Float32 MLPs and same-backend public replays pass. These are old-context finite-computation diagnostics, not a new False-only predictor.
+
+```sh
+python research/boolean_coupling/reproduce_late.py --run --out runs/my-late-diagnostic
+```
+
+Add`--offline --input-236 runs/existing-236` to reuse a qualified cached prerequisite. Add`--include-failed-237` to preserve a rerun of the original failed attempt separately. Original237b audit failure is retained before the complete diagnostic runs. Unexpected failures stop for review. [All cases, logs, exact commands and computation budget](../results/late-attention-237b/README.md).
+
 ## Inspect without a model
 
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_failure.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_late.py --verify-only --history --plan
 ```
 
 This uses only the standard library. It checks all active releases, their scientific source seals, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
