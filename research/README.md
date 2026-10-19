@@ -2,6 +2,17 @@
 
 The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+## Latest: fresh uniform primitive test
+
+242b applies one fixed primitive-family policy across all blocks, generating its own source and receiver states. All forecasts were pushed before native measurements. The primary passes **0/32**, at **50.3%** whole-displacement and **1.44 nats** margin error; finite SiLU reduces the former to **17.4%**, still **0/32**. [Report and numerical scope](../docs/analysis/242b-uniform-primitive-families-result.md).
+
+```sh
+python -S research/boolean_coupling/reproduce_uniform.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_uniform.py --run --offline --out runs/my-uniform-test
+```
+
+This test needs no earlier activation archive or prerequisite experiment. It needs the pinned MPS environment below. The wrapper records replication mode before forecasts and creates a local seal; it does not push or alter Git. Its already observed literals are not fresh confirmation. Original 242's implementation failure is preserved separately; 242b changes the unsupported nested SiLU AD expression, without changing tolerances or hypotheses.
+
 ## Latest: complete upstream vectors and transport geometry
 
 241 traces all29 native-input remainder vectors to the missing input before MLP16. Four greedy sites pass0/32; the first sufficient prefix uses16 sites. Explicitly posthoc metric checks distinguish reduced individual energy from weakened cancellation. [Report](../docs/analysis/241-before-mlp16-vectors-result.md).

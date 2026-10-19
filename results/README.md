@@ -20,6 +20,7 @@ All active studies concern Question B. Each retains its protocol, source hashes,
 - **[239: generator curvature contrast](generator-curvature-239/README.md)** — finite-normalization/quadratic-SiLU model passes two local sites and fails the four-site account; explicit posthoc SiLU-tail identity remains conditional.
 - **[240: target-blind SiLU restoration](target-blind-silu-240/README.md)** — 32/32 whole local recoveries; final behavioral guard admits 3 native and 0 forecast cases; the incoming-state native gap remains.
 - **[241: complete vectors before MLP16](before-mlp16-vectors-241/README.md)** — the four-site account fails; full transported vectors and posthoc geometry reveal damping together with weaker cancellation.
+- **[242b: fresh uniform primitive-family forecasts](uniform-primitive-242b/README.md)** — globally sealed before native references; every rule fails full accuracy, with stability and accuracy distinguished. Includes original242 implementation failure.
 - **[Joint continuation release](tail-interactions-226-227/README.md)** — file manifest, original local snapshot and explicit publication-only presentation changes.
 
 Large raw arrays remain local and are inventoried by size and SHA256. Regenerate them with the [reproduction pipeline](../research/README.md). The earlier [historical archive](../evidence/HISTORY.md) is publication-filtered and hash-verified; one unpublished article is withheld.
