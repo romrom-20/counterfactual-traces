@@ -1,0 +1,273 @@
+{
+  "status": "passed",
+  "experiment": 234,
+  "scope": "Primary: source K/V mixed update, all receiving rows after attention2; secondary: verdict accuracy preservation.",
+  "checks": [
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    }
+  ],
+  "cases": 32,
+  "ordinary_true": 32,
+  "passes": {
+    "verdict": 32,
+    "all": 32
+  },
+  "strata": {
+    "generic_0": {
+      "verdict": 8,
+      "all": 8
+    },
+    "generic_1": {
+      "verdict": 8,
+      "all": 8
+    },
+    "descriptive_0": {
+      "verdict": 8,
+      "all": 8
+    },
+    "descriptive_1": {
+      "verdict": 8,
+      "all": 8
+    }
+  },
+  "whole": {
+    "verdict": true,
+    "all": true
+  },
+  "medians": {
+    "verdict_native_norm": 0.5242694631841341,
+    "verdict_FNV_relative": 0.01026841284020975,
+    "verdict_FNV_cosine": 0.9999558108228145,
+    "verdict_K_relative": 0.010207681195457896,
+    "verdict_K_cosine": 0.999956272463875,
+    "verdict_V_relative": 0.009118562333210862,
+    "verdict_V_cosine": 0.9999641219351693,
+    "verdict_A_relative": 0.009033727226053223,
+    "verdict_A_cosine": 0.9999647172972773,
+    "verdict_C_relative": 0.009083150387548913,
+    "verdict_C_cosine": 0.9999646074566153,
+    "verdict_R0_relative": 0.01182587839410133,
+    "verdict_R0_cosine": 0.9999378385073214,
+    "verdict_R1_relative": 0.011927394334315607,
+    "verdict_R1_cosine": 0.9999368919246889,
+    "verdict_R2_relative": 0.011865163378356275,
+    "verdict_R2_cosine": 0.9999380552717032,
+    "verdict_FNV_accuracy": 1.0,
+    "verdict_K_accuracy": 1.0,
+    "verdict_V_accuracy": 1.0,
+    "verdict_A_accuracy": 1.0,
+    "verdict_C_accuracy": 1.0,
+    "verdict_R0_accuracy": 1.0,
+    "verdict_R1_accuracy": 1.0,
+    "verdict_R2_accuracy": 1.0,
+    "verdict_mixed_signed_projection": -0.0020598244301952614,
+    "verdict_mixed_removal_improves": 0.5,
+    "verdict_C_pass": 1.0,
+    "all_native_norm": 4.449874133040394,
+    "all_FNV_relative": 0.058070462316732546,
+    "all_FNV_cosine": 0.9984778115902115,
+    "all_K_relative": 0.06298782201977575,
+    "all_K_cosine": 0.9981880141853219,
+    "all_V_relative": 0.025695429444193285,
+    "all_V_cosine": 0.9996835435084261,
+    "all_A_relative": 0.02471878263345728,
+    "all_A_cosine": 0.9997148028060796,
+    "all_C_relative": 0.015196588285623081,
+    "all_C_cosine": 0.9998845126060016,
+    "all_R0_relative": 0.08089887774549448,
+    "all_R0_cosine": 0.9968351932362582,
+    "all_R1_relative": 0.08147891764300699,
+    "all_R1_cosine": 0.9967928618673734,
+    "all_R2_relative": 0.08149266837135459,
+    "all_R2_cosine": 0.996818396421965,
+    "all_FNV_accuracy": 0.0,
+    "all_K_accuracy": 0.0,
+    "all_V_accuracy": 0.5,
+    "all_A_accuracy": 0.5,
+    "all_C_accuracy": 1.0,
+    "all_R0_accuracy": 0.0,
+    "all_R1_accuracy": 0.0,
+    "all_R2_accuracy": 0.0,
+    "all_mixed_signed_projection": 0.23714906930987267,
+    "all_mixed_removal_improves": 0.0,
+    "all_C_pass": 1.0
+  },
+  "forecast_seal_sha256": "3296ab9858bb2bd018b4370264df7018f6a60bc7598e07efbab61a7ae88b7857",
+  "source_hashes": {
+    "research/boolean_coupling/local234.py": "f7ca426e32c1c4104fd0c62f6ee20fb55ec9fb7089911fa09240fe6125329e0a",
+    "research/boolean_coupling/audit234.py": "e0e79e1de4d46f2ec640d54da674847099c6457dd57ca67d96f69563777cf5fe",
+    "research/boolean_coupling/fixtures234.py": "1ed3e3fd9cfa3f9dab18eb854c5b71154e51019f891b3cd1fb5869089559b665",
+    "research/boolean_coupling/cases234.json": "316c8cff799f98fc54e2f710e1a5cce2fa56ad24e4239e26e494c521ac445998",
+    "research/boolean_coupling/historical-input-hashes-234.json": "62b2e15e5b5c81a1ba04c45fa178d81068df5606758b6c8a7ccc54ef7f4fc76f",
+    "research/boolean_coupling/curvature230.py": "e009c827807c6ed683b6ab5a736de7f369460ded97aa9eeff61b44cde5b6ebe8",
+    "research/boolean_coupling/attention229.py": "bee2e09e586d490ebb4017086c6ba35158735fd2aeaa51e06cda74827f50362b",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/audit233.py": "048547e4c182e147acfa426a9e2531ded5287f1ad3687067deea96c2ab6a0979",
+    "research/boolean_coupling/transport233.py": "7865eef53fceff5e70f6b189963f4d537d5d3c038953700121294ebab03fdeac",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/audit230.py": "b235900da0ba515da4db04df944e9068e576a68bcaa9334cbe7722a2bec02859",
+    "research/boolean_coupling/audit229.py": "cf028bcc5ca56f2ce1605152728da95e80c1c0c4ac6303825c8ad544292c4c3e",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "docs/experiments/234-source-key-value-forecast.md": "f3f464711aadcf44502e70c350bda21a00cab4ede56c0073175d54896bb1a2fd"
+  }
+}

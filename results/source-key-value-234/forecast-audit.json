@@ -1,0 +1,6093 @@
+{
+  "status": "passed",
+  "model_calls": 0,
+  "targets_observed": 0,
+  "checks": [
+    {
+      "name": "false_primal",
+      "error": 4.793155197191368e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.600533841214727e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.5890067039947553e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.795180051642145e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.9976021664879227e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 3.375077994860476e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.8754776337791554e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.620037933975254e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.147504339968577e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0398136171541061e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.645611494512845e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.314854418208114e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3213154875790778e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.825118832107786e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.3505503099485736e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.7311052724909857e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 3.1008182133085427e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 3.144186300207963e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.970713952610282e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 2.4868995751603507e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 2.5202062658991053e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6167622796103842e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.5512557785010177e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.5890067039947553e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.79518546397939e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.609823385706477e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.4823912984104375e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.582067810090848e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.52710197454409e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6237011735142914e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.456567111871257e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.1252333728405404e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.213697268744653e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.2906342661267445e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.180405057553402e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.886579864025407e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.787459069646502e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0462482486275904e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.816381655141754e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2936051990881936e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3425425978517828e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.075246071155725e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0312768380146137e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.9327668765732895e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 1.6238638038401643e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.9270748151677406e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.9439619065339e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.640385298237959e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 5.551115123125783e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.199040866595169e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.1879386363489175e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.1657341758564144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.199040866595169e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.199040866595169e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.199040866595169e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2836953722228372e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.116806371340151e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.2906342661267445e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 1.1804053559258398e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.1969591984239969e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1806912817227677e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3010426069826053e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.114988911962711e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.1761425167122752e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1829877329463945e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 5.53953115114969e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 5.60836900206918e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.2004286453759505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.0384818109610006e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.220446049250313e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.9761969838327786e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.3869795029440866e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.905209303659232e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.502177491401028e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 2.0452329448626162e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0138480473990269e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.779464379822684e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.487096648079833e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.96376118491437e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.7538735181131813e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.504507018441515e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.5265566588595902e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.3834419720915037e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.4051260155412137e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2628786905111156e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.669875230405856e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.2004286453759505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 1.0384817294289972e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2490009027033011e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.74218018756634e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.304512053934559e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.643941045051063e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.1796119636642288e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.767579627062428e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.566898764351123e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.723989791064696e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.790234627208065e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.157767346899989e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.325917236589703e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.220446049250313e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.4591439995447217e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.374958976846813e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.966670034105668e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3192692107483715e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.421351156967597e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.045792152684857e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0493818314305514e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.275740360047074e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.7296554733501353e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.230651423463682e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.6020852139652106e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.914335439641036e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.5673907444456745e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 7.993605777301127e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.790234627208065e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.19013141492275e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.790234627208065e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 5.157767763233623e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6375789613221059e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.453981519881745e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6375789613221059e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.299218772125691e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4224732503009818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.362219565943627e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.4567726780186945e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.8442925230631744e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.061650767297806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.973688592397774e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.784683512084939e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.6903145549918008e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.8041124150158794e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.111083447469241e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.382116475769692e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3439920357183333e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.816435075146816e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.099589778761015e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.696874206377437e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.6281060661048627e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.4813731758509547e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.625192272766308e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.734723475976807e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.9081958235744878e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.8388068845354155e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 8.659739592076221e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 8.659739592076221e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 8.43769498715119e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.0200174038743626e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.367412742902534e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.061650767297806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 5.973692027150257e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.818534874028728e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.931239180356762e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.71445146547012e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.318151592188403e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.061650767297806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.021663653821285e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.941034514287622e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.827030138237042e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.0894063429134349e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.715764173410466e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.2426505097428162e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.0233814623793478e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.2426505097428162e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.448269861460744e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.3873390476179e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.8404752439964145e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.537199640458847e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.016165872089417e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.519829550717283e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.6902782844333284e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.656295322589486e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.7693233990710997e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.255140518769849e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.942890293094024e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.8388068845354155e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 8.076872504148014e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 8.076872504148014e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 8.049116928532385e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 8.049116928532385e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 8.090750291955828e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 8.076872504148014e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 8.090750291955828e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 8.076872504148014e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.061650767297806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.477605804857458e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.0894063429134349e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 7.71576515352923e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.1379786002407855e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.678596790864801e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.304512053934559e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.508077584470919e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2351231148954867e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.696201952984595e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.4051625215903982e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.91472396898962e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 2.6124935548210715e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.472240355823942e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 3.241851231905457e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.917110997202599e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.5091040356528538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1821388312682757e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.912636103997613e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1627953461212925e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.036186689836599e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.685916460938188e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.697850263160383e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.4275286641950444e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.694961003830599e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.0066281495738645e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.0339632755828063e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.1163626406917047e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.1076890233118206e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.2323475573339238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.2323475573339238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.2212453270876722e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.6124935548210715e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.4439811552887676e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 2.6124935548210715e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.47223688637699e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.71657696337968e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.602038264356345e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.5396351688300456e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.509754167325575e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.5118795932144167e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.627603786278023e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.9786209749804726e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.440215324057583e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.97758476261356e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.1522805478877962e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 4.04121180963557e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 4.701794509287538e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 3.302913498259841e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.274325420856485e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.908708453599253e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0509935543384641e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.1922385959973436e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.279845644550306e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5467676098279703e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.3613923316734287e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.0791341698588326e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.989009864270975e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1405806854547507e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1319070680748666e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0408340855860843e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.426636586643326e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.419697692739419e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.4238610290817633e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.416922135177856e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.4252488078625447e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.426636586643326e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.426636586643326e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.426636586643326e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.9567680809018384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1247098599675986e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.97758476261356e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 1.1522808323824463e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6514567491299204e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1490474665504236e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.9290125052862095e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1110702115291193e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6653345369377348e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1453123397592302e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.281498860836397e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.505483866990012e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.85268467234323e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.173707063089842e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.9761969838327786e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.7922109069322687e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.930988785010413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.649097631332036e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.100726869182836e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6046454716736082e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2179059627123734e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.742518100453452e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3867541267869807e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.2939685090719864e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.231288070975168e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.567702773835113e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.214306433183765e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.2836953722228372e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.249000902703301e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.0594637106796654e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 2.0608514894604468e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 2.058075931898884e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 2.0594637106796654e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 2.0608514894604468e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 2.0594637106796654e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 2.0594637106796654e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 2.0594637106796654e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.8041124150158794e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.558995791095204e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.85268467234323e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 9.173703142614786e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6653345369377348e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.606648211299418e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7832957333041577e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.632474193277396e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.672273430841642e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.638019748611781e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.40842892354587e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.633776915812348e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 9.575673587391975e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.099655155966666e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.3433698597964394e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.554312234475219e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.831105697780669e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.369474810277495e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0535786999776864e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.824554895609521e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.5094773753741038e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.129065278770991e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.675810961694225e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.3418766925686896e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.0726289568239196e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.214306433183765e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.2836953722228372e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.5265566588595902e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 6.661338147750939e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.645062526431047e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.071611755031903e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 9.575673587391975e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 6.099653560021068e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.139340147370831e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.645062526431047e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.88184419572646e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 8.708311849403572e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.874748187917334e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 6.716116599359001e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 5.772776168033733e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3808398868775384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.688333927835522e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.509903313490213e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.3822276656583199e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.5757174171303632e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.4589553443709065e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.2409478567817516e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.924814347640233e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.727560587609094e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.996258740064263e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2261357033860332e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.3866000321837166e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.498001805406602e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.3993803865567385e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 8.673617379884035e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 9.020562075079397e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0755285551056204e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 2.3092638912203256e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3739009929736312e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.104383830698225e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.3808398868775384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 7.688330388999631e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.5265566588595902e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.798620638155285e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.429412144204889e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.025603306927032e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.5057399771478686e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.833652268529612e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.3379221571205875e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.1575059173949427e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.5126788710517758e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.825487540273011e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.2648549702353193e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.042810365310288e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.0650148258027912e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.823265035262651e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.605016063445987e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.175251736207361e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3857741050591482e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.1813420786619417e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.487430647401089e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.177077962350893e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.3375398838787476e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.4874308342248685e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.423544863740858e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 5.0306980803327406e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.683753385137379e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 5.329070518200751e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 4.884981308350689e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 5.773159728050814e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 5.329070518200751e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 4.884981308350689e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 5.329070518200751e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 5.329070518200751e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 5.329070518200751e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4085954624931674e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.782515091756757e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.5126788710517758e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 5.825487800481532e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4224732503009818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.803743995808075e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.366962099069724e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.77727707687381e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4155343563970746e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.818185724870695e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.459425295782026e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.17097908405961e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.4016565685892601e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.238148032329139e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.2101430968414206e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.1171619185290638e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.1324274851176597e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.832861971200032e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.319448049765583e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3352897260121566e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.077841862205379e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.838646511766797e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0996633660088906e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.680147770384167e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.454633718507182e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.734899980094685e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 6.591949208711867e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 9.194034422677078e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.28583859910259e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.071365218763276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.0602629885170245e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.0547118733938987e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.0658141036401503e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.071365218763276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.071365218763276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.071365218763276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3739009929736312e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.19863169907392e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.4016565685892601e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 7.238148934385347e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.554946195211353e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2073675392798577e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.187620706608887e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3183898417423734e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.533597812080627e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.3598791818190143e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.311865927641989e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3556863964758747e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.099325228226758e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.965094753586527e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.7541523789077473e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.220446049250313e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.244196826266091e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.372770034954954e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.071203898031259e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.527208858923391e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.1672010569749887e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3213478165905075e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.4096393283490336e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.4600547293696096e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 4.380176776841438e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.700029006457271e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.457167719820518e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.700029006457271e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.3933298959045715e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.3822276656583199e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.3877787807814457e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.3877787807814457e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.3933298959045715e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.3933298959045715e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.3933298959045715e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3591558434278284e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.5661209402126914e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.3556863964758747e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.099325340983784e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.728218262941894e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.252637673090142e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4177027607420456e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.3173669367059233e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6731407925796304e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.298014500385804e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.63198408823051e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.7133853209293513e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 2.095545958979983e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 3.907677649343799e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.27675647831893e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4876988529977098e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.2989609388114332e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.660414671704306e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.935928361009644e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.368898586283424e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.426236687223253e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.069003911588709e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.202013352352766e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.899183393015702e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.172741153660951e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.711454108114686e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 5.551115123125783e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 6.245004513516506e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 6.245004513516506e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.1324274851176597e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.123301534595612e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.138127045888451e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 2.095545958979983e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 3.9076820208469587e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.615963001773025e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.223380286987044e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.1441182163073336e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.159890704472091e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 2.5743296383495817e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.214449796091646e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.1710350190117254e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.7664084492062813e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.7208456881689926e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.838650899564479e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.2323475573339238e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4960255256823984e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.4516166046973922e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.32702311081823e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.506743118109057e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.621023265788707e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.298553727872915e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.852936636405957e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3660087644362662e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.710505431213761e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.452099717193846e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.790099744466202e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.28583859910259e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 8.673617379884035e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 8.326672684688674e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.0380585280245214e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.0380585280245214e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.0436096431476471e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7277845820728999e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.943467246138923e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.7208456881689926e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 5.838645001504661e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2698175844150228e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.457626330029886e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6861512186494565e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.973159900724001e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3114509478384662e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.472210445195413e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.78195217243249e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.802646515034148e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3253287356462806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.656979452210557e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.5590640717609858e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.853273173286652e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.78388423424758e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.536238382816919e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.584146881536633e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2871695229859162e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.727131936292793e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.271319520299244e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5264577102325205e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.454633718507182e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.6216008530699497e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.328818306885719e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.546047120499111e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.719519468096792e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.892991815694472e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.124100812432971e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.124100812432971e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.1268763699945339e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.1213252548714081e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2975731600306517e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.933023084607306e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.3253287356462806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 9.656982921657509e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2836953722228372e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.724964375457112e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2906342661267445e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.769097267242621e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.366962099069724e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.608888060230747e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.9478148255445156e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.049663549249294e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 6.800116025829084e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.46529144057817e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.220446049250313e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.0824674490095276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.658847853477592e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.780750087474139e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1963537129813968e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.088771919721432e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.492577518859896e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6367134036965325e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 3.2715800554750096e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.2543951297762654e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 4.111565688608154e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.632783294297951e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.632783294297951e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 9.020562075079397e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.4432899320127035e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 6.38378239159465e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.664912905769317e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 6.800116025829084e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 7.465289497687877e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 6.418476861114186e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.664907250570785e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 5.898059818321144e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.735908753858656e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 6.158268339717665e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.648557603240347e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.391104353100971e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.836166927936868e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.609823385706477e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.92858837075616e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.3148150063434514e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 3.197442310920451e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.8310687127941492e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.7643999856461505e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.206889170355055e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4767536011314059e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.527757276374781e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.897019567629002e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.255298141786715e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.7911019889460533e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.4909544912854464e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.4700835994651005e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0191500421363742e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0451708942760263e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0278236595162582e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 7.327471962526033e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.609823385706477e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.697058852975999e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.609823385706477e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.928589480979184e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6653345369377348e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.62816868163074e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4641066137244252e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.685061505416144e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4988010832439613e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.622376023610819e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.4284981816901094e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.460250851101577e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.337141081671273e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.2870594307278225e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.6201263381153694e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.9539925233402755e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 6.326690560332082e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.75976205724271e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.327628046832608e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.431957572143558e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.616776100834329e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1518200217393304e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.190901540050083e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.727852665973529e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.896242815887684e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.491862189340054e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.457167719820518e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.3010426069826053e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.0602629885170245e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.0658141036401503e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.0824674490095276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.0880185641326534e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.0935696792557792e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.0602629885170245e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.0602629885170245e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.0602629885170245e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.051468415593011e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.3322676295501878e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 8.337141055650421e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3739009929736312e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.08872756968837e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3808398868775384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.029859459648958e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4502288259166107e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.93971857010467e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.3663187153633025e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.095354790898618e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.1934897514720433e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 6.568970627868209e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.398081733190338e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.587618925213974e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.4099832412739488e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.948035731144884e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.6419892657235664e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.932389849823253e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.18839783079896e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.854085273147234e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3947652408030642e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.4730651554394356e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.800494211530058e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.266159044612582e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0755285551056204e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.0755285551056204e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1796119636642288e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.9095836023552692e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2004286453759505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.264606420419705e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.1934897514720433e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 6.568965215530964e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.214306433183765e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.408768828125577e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3253287356462806e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.178105145526747e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2524703496552547e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.296945360972916e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.191771184824944e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 5.3681054339449474e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3808398868775384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 8.030573914186157e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.7763568394002505e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.759703494030873e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0624608137721481e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.186589380728023e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.8373018731421276e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.7244231379203584e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.211788917629633e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4397599253221025e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.8847499515944888e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.957703526540456e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 4.4303211273188925e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1449174941446927e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1796119636642288e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.3530843112619095e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.600108934241007e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.6028844918025698e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.6028844918025698e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.6056600493641326e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.6042722705833512e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.600108934241007e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.600108934241007e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.6014967130217883e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3808398868775384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.913917368651546e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.3808398868775384e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 8.03058307352611e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2628786905111156e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.685918554905079e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4016565685892601e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.8314411766357e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.27675647831893e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.23717875958274e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.291435068941695e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.7672426052015595e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.304512053934559e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.505946254480421e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.3322676295501878e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.3988810110276972e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.2989609388114332e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.376917388919214e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.4150318128922663e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.3845393844543093e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.4808386345042703e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.893094957518883e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.5871045450088772e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.6328084717631697e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 4.0462425077159025e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.6018141634220893e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.457167719820518e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1796119636642288e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.1102230246251565e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 8.215650382226158e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 8.326672684688674e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 8.215650382226158e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 8.326672684688674e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 8.271161533457416e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 8.215650382226158e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 8.215650382226158e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 8.215650382226158e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3183898417423734e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.439214265963056e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.304512053934559e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 5.505946740202994e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4155343563970746e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.601419914181728e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.27675647831893e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.449073775005587e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3739009929736312e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.577762501347451e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.016603832728393e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.684573784605959e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.6792123247455493e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.810937461746105e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.484923295436147e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.5987211554602254e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.709743457922741e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.985051863832691e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.67568196660384e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.674847012940135e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1769575635270368e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.453498361756125e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0965297097512323e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.330492569757592e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.408731630294426e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.7336534688611756e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.249000902703301e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.249000902703301e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.3183898417423734e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 7.771561172376096e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 7.771561172376096e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 7.549516567451064e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7208456881689926e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.007717201351177e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.6792123247455493e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 9.81093602192562e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7486012637846216e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.007674421335536e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7208456881689926e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.0137785055874815e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6514567491299204e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.0083929351256682e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 4.709147326198426e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 4.533179697729928e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.8041124150158794e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.4742283227509034e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.55351295663786e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.4091839634365897e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.930988785010413e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.308494186422429e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.831223283068397e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2479862781210327e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.2430929823460426e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.944410104095297e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2603969520093468e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 1.8165807399994627e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 1.7553233172540317e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.637592835114111e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.336808689942018e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.163336342344337e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 3.9898639947466563e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.8318679906315083e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.8318679906315083e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.8207657603852567e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7486012637846216e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.4787331567567286e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.8041124150158794e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 1.4742281076451924e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.5404344466674047e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.5135808439925569e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7277845820728999e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.5067783687428005e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.5126788710517758e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.5278584439282206e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.068160588703961e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.4909357769775653e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.904726376622534e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.4202466166487486e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.8318679906315083e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.9984014443252818e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.942890293094024e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.579087093507631e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.6015914695042284e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.4844053276060615e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.546740520643271e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.589348818167082e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0425327962026998e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 3.0952616771745545e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.5214886562329184e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 4.624393316193798e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.1467203015212988e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.255140518769849e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 2.229119666630197e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.3600232051658168e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.3600232051658168e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.3516965324811281e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.354472090042691e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.925543058334256e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.1418106097590446e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.904726376622534e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.4202484381083984e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.887379141862766e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.360631231103973e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.2544487377504936e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.915134717478395e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.378399309779013e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.5599886593074004e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.6645818102254424e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 9.853229343548264e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 7.309611579214836e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.19824158875781e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.9539925233402755e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.042810365310288e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.2148058440892875e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.954763239111259e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.7954410473555033e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.7544789904754e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.8148757481047966e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2042074786335413e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.920840652675949e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 1.8713329497099807e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.1726466072357074e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.163336342344337e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 3.8163916471489756e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.163336342344337e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.4641066137244252e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.4641066137244252e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.4641066137244252e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.4641066137244252e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.4641066137244252e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.71445146547012e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.011874236280801e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 9.853229343548264e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 7.309611405742489e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 8.344019919448442e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.858732162605795e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.298117831235686e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 6.110659877406333e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 7.979727989493313e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.975513009751077e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 3.6098693003694393e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.2557766030394397e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 7.216449660063518e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 9.820485050160421e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.3655743202889425e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.63202784619898e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.6404424533806896e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.5739391446298896e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.7018755849029787e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.287302029515164e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.2210636380369806e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.219206648092282e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.248635305734936e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.5977484052752686e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.3968054063970854e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.3530843112619095e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.2836953722228372e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 1.4224732503009818e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.0824674490095276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.0824674490095276e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.0769163338864018e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 6.938893903907228e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 9.93950949323974e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 7.216449660063518e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 9.820489699219337e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.992007221626409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.724093600309679e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 6.938893903907228e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 8.252313832279867e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 9.992007221626409e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 7.17990743248631e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.8383022049882634e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.247175219378562e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.4224732503009818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.786020980571126e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.4654943925052066e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.637578961322106e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.634803403760543e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 7.823575641496827e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.758067246284469e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0606335644827714e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.900579021979855e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.5259664077358366e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.214251714059762e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.771762853959192e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.5561831257524545e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 4.2786683484424826e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.546047120499111e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.936359902593892e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 8.066464163292153e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.1712852909795402e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.1712852909795402e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.176836406102666e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.1657341758564144e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.1712852909795402e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.1712852909795402e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.1712852909795402e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4779844015322396e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.8458980444744384e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.4224732503009818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.786024953087886e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.339206523454095e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.5003829479060555e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3739009929736312e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.780657158863887e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4641066137244252e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.4866490120424865e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.6737337032178843e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.6469077076818337e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.8596235662471372e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 1.124965643209408e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.887379141862766e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 2.0872192862952943e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.9317880628477724e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.233780075997174e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.381067175707187e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.0051996474774727e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.635366348913373e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.926333702608531e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 9.002337070240785e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.1082311243980634e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.8731357570865868e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.085910433436867e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.5102810375396984e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 3.8163916471489756e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 4.163336342344337e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 9.325873406851315e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.8318679906315083e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1029381973698404e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.8596235662471372e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 1.1249653934092274e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.8388068845354155e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1211932406801628e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1031077249562538e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.6375789613221059e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 1.1185580187783595e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 1.9903541832455574e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 3.4615377839664063e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.106753577673203e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 4.841218224915789e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 1.2878587085651816e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.3530843112619095e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 1.4155343563970746e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.896084315226702e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.870231746194719e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.2014839470553262e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.3428909234632e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.7008240916236446e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.099481545523202e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.1131100341742481e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 2.0881733842070815e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 3.256265699788652e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 6.808789643208968e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 6.808789643208968e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.19910242530375e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 6.217248937900877e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.078998002057574e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.7373218755853976e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.106753577673203e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 4.841217773887685e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.2212453270876722e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.702432110896936e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.124100812432971e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.752071882356933e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.0408340855860843e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 3.7068711294940826e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "false_primal",
+      "error": 2.6302717830439803e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "source_only_primal",
+      "error": 2.8308302386093054e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_numpy_Jd",
+      "error": 1.3461454173580023e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_used_FD",
+      "error": 5.215150637727373e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 2.1760371282653068e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_0000",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_corner_1001",
+      "error": 2.5757174171303632e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.1965973177596734e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 3.554031513530731e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 1.6178433245861434e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 5.240360174876141e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 4.142373444260272e-09,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_affine_node_FD",
+      "error": 8.616256758639876e-11,
+      "bound": 0.0001
+    },
+    {
+      "name": "numpy_term_key",
+      "error": 2.1681332944278875e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_value",
+      "error": 3.2721221565612524e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "numpy_term_mixed",
+      "error": 2.460562949137962e-16,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.19910242530375e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 7.45931094670027e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "row_random_control",
+      "error": 6.418476861114186e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_FNV",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_K",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_V",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_A",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_C",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R0",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R1",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "prediction_R2",
+      "error": 1.84297022087776e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.339206523454095e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.938760268802245e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "native_analytic_ad",
+      "error": 1.3461454173580023e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "native_ad_fd",
+      "error": 5.215150672421842e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.3461454173580023e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.098122687896556e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.4224732503009818e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 4.967023181645658e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "hybrid_analytic_ad",
+      "error": 1.394717674685353e-15,
+      "bound": 1e-09
+    },
+    {
+      "name": "hybrid_ad_fd",
+      "error": 5.101509666094461e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    }
+  ],
+  "hybrid_ad_fd": 128,
+  "native_ad_fd": 32,
+  "torch_fd_endpoints": 320,
+  "local_affine_derivatives": 192,
+  "fresh_hashes": 64,
+  "design_sha256": "ee1e575faeff83928e7ee3c3c952136ac325e7dacc5b0be99c5219635ded552c"
+}
