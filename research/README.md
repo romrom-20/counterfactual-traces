@@ -2,6 +2,18 @@
 
 The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+## Latest: source versus receiver SiLU
+
+243 tests a frozen regional factorial on the existing 242b contexts. Source-only and receiver-only each fail the full contrast-recovery rule. Their interaction is substantial; native residual errors improve but every arm remains at **0/32** joint accuracy passes. [Report](../docs/analysis/243-source-receiver-silu-result.md).
+
+```sh
+python -S research/boolean_coupling/reproduce_regional.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_regional.py --run --offline \
+  --input-242 runs/existing-242b --out runs/my-regional-test
+```
+
+Omit the input option to regenerate 242b first. The regional test adds 32 zero-edit controls and 128 modified forwards, without new native True measurements. QQ/FF replay 242b100/101 exactly; receiver edits leave source states unchanged. The corrected 243b scorer preserves the original metadata-key failure and all numerical rules. Raw arrays are inventoried locally, and exact same-environment endpoint replay is required. These are retrospective diagnostics, not new predictive confirmation.
+
 ## Latest: fresh uniform primitive test
 
 242b applies one fixed primitive-family policy across all blocks, generating its own source and receiver states. All forecasts were pushed before native measurements. The primary passes **0/32**, at **50.3%** whole-displacement and **1.44 nats** margin error; finite SiLU reduces the former to **17.4%**, still **0/32**. [Report and numerical scope](../docs/analysis/242b-uniform-primitive-families-result.md).

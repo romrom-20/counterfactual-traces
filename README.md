@@ -8,9 +8,17 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local results and useful causal repairs. An accurate general False-only forecast of the full native response has not been demonstrated.
 
-[Latest fresh forecast test](docs/analysis/242b-uniform-primitive-families-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest source/receiver test](docs/analysis/243-source-receiver-silu-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: a uniform primitive rule fails on fresh inputs
+## Latest: source and receiver SiLU both matter
+
+Experiment 243 separates finite SiLU at the changed Boolean from finite SiLU at receiving tokens. Source-only reduces median native residual error **50.3% → 30.8%**; receiver-only reaches **41.8%**; both reach **17.4%**. Neither region alone reproduces their combined effect, and its interaction vector has a median norm of **35.8%** of that effect. Every arm still has **0/32** full native-response passes.
+
+The two old endpoints, zero-edit controls and regional causality checks replay exactly. These are retrospective primitive interventions on 32 existing contexts, not a fresh predictor or learned circuit. The numerical audit passes; the original scorer's missing zero-count metadata failure remains preserved. [All cases, signed vectors and limits](docs/analysis/243-source-receiver-silu-result.md).
+
+![Separate source and receiver SiLU interventions](docs/figures/243-regional-silu.png)
+
+## Earlier: a uniform primitive rule fails on fresh inputs
 
 Experiment 242b freezes the same operation rule across all 28 blocks, generating every counterfactual state from one False computation and the known edit. All 256 forecasts were sealed and pushed before the 32 native True runs. The primary rule keeps RMS normalization and products finite, with a positive quadratic attention tilt and quadratic SiLU. It passes **0/32** full-response cases, at **50.3%** median residual error and **1.44 nats** margin error.
 
@@ -56,16 +64,16 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_uniform.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_regional.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_uniform.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_regional.py --run --out runs/my-reproduction
 ```
 
-This regenerates 242b directly, without earlier experiment prerequisites. It records replication mode and a local seal before native measurements. Repeating these already observed literals is numerical replication, not fresh confirmation; the original investigation used a private remote seal. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
+This regenerates 242b and the regional 243 diagnostic. Add `--input-242 runs/existing-242b` to reuse an existing prerequisite. Repeating these already observed literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
 
 The earlier `reproduce_early.py` wrapper remains available for studies through 241. See the [research guide](research/README.md) for its prerequisite reuse options and stricter archived-array checks.
 
