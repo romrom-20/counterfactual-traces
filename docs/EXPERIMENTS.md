@@ -54,6 +54,12 @@ All 64 local forecasts are sealed, qualified and remotely verified before the 16
 
 [Protocol](experiments/231-local-normalization-product-forecast.md) · [Report](analysis/231-local-forecast-result.md) · [Cases, seals and reproduction](../results/local-normalization-product-231/README.md)
 
+## 232 — Does the source-only expansion context recover all receivers?
+
+All 128 forecasts are qualified, sealed, pushed and remotely verified before 32 new ordinary True runs. The unchanged finite normalization/product rule, anchored in the constructed source-only context, passes the all-receiving criterion in **32/32**, 8/8 per stratum. Median error is **1.33%**, versus **5.90%** for the old False-context rule; verdict accuracy is preserved. Source-conditioned linear transport alone fails all 32. A post-observation hybrid points mainly to the changed tangent, but is not a registered forecast arm. Exact block 1 and one finite source-only attention call remain declared work; final-response prediction is open.
+
+[Protocol](experiments/232-source-conditioned-local-forecast.md) · [Report](analysis/232-source-context-result.md) · [Cases, seals and reproduction](../results/source-conditioned-local-232/README.md)
+
 ## Earlier research and preserved boundaries
 
 The [historical evidence](../evidence/HISTORY.md) preserves the earlier Question B path, including the qualified 204 retrospective diagnostic, invalid replacement-agent conclusions, the original whole-block derivative disagreements, source-only forecast failures, and the failed 224 coordinate bridge. Its publication-filtered archive retains 2,867 original files with exact hashes; one unpublished article is withheld. Preservation is not endorsement of a superseded claim.
