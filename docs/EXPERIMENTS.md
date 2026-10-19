@@ -117,3 +117,9 @@ The full quadratic control fails all sites. The primary finite-normalization/qua
 A fixed bound-based 1% mask is sealed before native receiving inputs are opened. Direct SiLU restoration passes the whole missing-contrast recovery criterion in 32/32 old contexts, but verdict-only recovery passes 16/32. Conditional final discrepancies shrink; the behavioral guard admits only 3/32 native-input cases and 0/32 forecast-input cases. Full finite continuation from the forecast input still leaves 25.2% native displacement error and 1.09 nats margin error. All numerical checks pass; this is not a native-state generator or a learned circuit.
 
 [Protocol](experiments/240-target-blind-silu-tail.md) · [Report](analysis/240-target-blind-silu-result.md) · [Cases, masks and audit](../results/target-blind-silu-240/README.md) · [Runner](../research/boolean_coupling/run240.py)
+
+## 241 — Is the missing input a few amplified error vectors?
+
+Transport all29 native-input remainders before MLP16, retaining complete vectors and an exact squared-error budget. The predeclared greedy four-site account passes0/32; the first sufficient prefix uses16 sites and passes32/32. Posthoc metric checks show transport reduces individual-vector energy while weakening cancellation; small net transport does not mean unimportant transport. These are old-context oracle-vector diagnostics, not primitive causal attribution or a fresh predictor.
+
+[Protocol](experiments/241-before-mlp16-vectors.md) · [Report](analysis/241-before-mlp16-vectors-result.md) · [All vectors, checks and reconstruction prefixes](../results/before-mlp16-vectors-241/README.md) · [Runner](../research/boolean_coupling/vector241.py)
