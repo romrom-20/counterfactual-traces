@@ -1,0 +1,44 @@
+{
+  "experiment": 234,
+  "prospective_local_only": true,
+  "created_utc": "2026-10-19T02:35:19.046464+00:00",
+  "source_hashes": {
+    "research/boolean_coupling/local234.py": "f7ca426e32c1c4104fd0c62f6ee20fb55ec9fb7089911fa09240fe6125329e0a",
+    "research/boolean_coupling/audit234.py": "e0e79e1de4d46f2ec640d54da674847099c6457dd57ca67d96f69563777cf5fe",
+    "research/boolean_coupling/fixtures234.py": "1ed3e3fd9cfa3f9dab18eb854c5b71154e51019f891b3cd1fb5869089559b665",
+    "research/boolean_coupling/cases234.json": "316c8cff799f98fc54e2f710e1a5cce2fa56ad24e4239e26e494c521ac445998",
+    "research/boolean_coupling/historical-input-hashes-234.json": "62b2e15e5b5c81a1ba04c45fa178d81068df5606758b6c8a7ccc54ef7f4fc76f",
+    "research/boolean_coupling/curvature230.py": "e009c827807c6ed683b6ab5a736de7f369460ded97aa9eeff61b44cde5b6ebe8",
+    "research/boolean_coupling/attention229.py": "bee2e09e586d490ebb4017086c6ba35158735fd2aeaa51e06cda74827f50362b",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/audit233.py": "048547e4c182e147acfa426a9e2531ded5287f1ad3687067deea96c2ab6a0979",
+    "research/boolean_coupling/transport233.py": "7865eef53fceff5e70f6b189963f4d537d5d3c038953700121294ebab03fdeac",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/audit230.py": "b235900da0ba515da4db04df944e9068e576a68bcaa9334cbe7722a2bec02859",
+    "research/boolean_coupling/audit229.py": "cf028bcc5ca56f2ce1605152728da95e80c1c0c4ac6303825c8ad544292c4c3e",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "docs/experiments/234-source-key-value-forecast.md": "f3f464711aadcf44502e70c350bda21a00cab4ede56c0073175d54896bb1a2fd"
+  },
+  "expected_forecast": {
+    "ordinary_false": 32,
+    "ordinary_true": 0,
+    "edited_first_blocks": 32,
+    "source_only_attention": 32,
+    "smooth_anchor_graphs": 32,
+    "smooth_intervention_graphs": 64,
+    "receiving_jvps": 32,
+    "receiving_fd_endpoints": 64,
+    "source_row_kv": 32
+  },
+  "thresholds": {
+    "relative": 0.025,
+    "cosine": 0.995,
+    "guard": 0.001,
+    "total": 24,
+    "each_stratum": 6
+  },
+  "primary": "Source K/V correction, all receiving rows after attention 2",
+  "known_edit_budget": "One exact edited block 1 and one public source-only attention 2 per case; False control graphs and derivatives counted separately; all transport uses False H and P."
+}
