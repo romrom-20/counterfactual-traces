@@ -2,6 +2,18 @@
 
 The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+## Latest: complete upstream vectors and transport geometry
+
+241 traces all29 native-input remainder vectors to the missing input before MLP16. Four greedy sites pass0/32; the first sufficient prefix uses16 sites. Explicitly posthoc metric checks distinguish reduced individual energy from weakened cancellation. [Report](../docs/analysis/241-before-mlp16-vectors-result.md).
+
+```sh
+python -S research/boolean_coupling/reproduce_early.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_early.py --run --offline \
+  --input-238 runs/existing-238 --input-240 runs/existing-240 --out runs/my-early-test
+```
+
+Omit both input options to regenerate the fixed chain. 241 itself uses CPU64 checkpoint/component arithmetic, not new ordinary model forwards; rebuilding its prerequisites needs MPS. The241 protocol requires the original input-array hashes. Replication in a different numerical environment may stop on those hashes; this release does not silently substitute different regenerated inputs. All used tangents, finite-difference endpoint witnesses, terminal vectors and original numerical bounds are retained. The three descriptive follow-ups are explicitly posthoc and add no causal interventions.
+
 ## Latest: target-blind SiLU selection and finite primitive intervention
 
 240's forecast-derived 1% activation mask recovers the whole missing MLP16 contrast in32/32 old cases. Conditional final gaps shrink, but the materiality guard admits only3/32 native-input and0/32 forecast-input cases. Full finite continuation from the forecast input still misses the native response by25.2% and1.09nats. [Report](../docs/analysis/240-target-blind-silu-result.md).
