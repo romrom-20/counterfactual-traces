@@ -42,6 +42,18 @@ At the exact incoming native state before attention 2, receiver-only curvature m
 
 Two bootstrap metadata checks stopped before model loading. Original 229, the first 229b source and both failure logs are preserved; the [corrected bootstrap](experiments/229b-bootstrap-correction.md) changes no scientific comparison or threshold. The 96 smooth derivative checks do not recertify old Float32 Jacobians.
 
+## 230 — What generates receiver-only curvature?
+
+All 16 finite/False-affine attention graphs qualify. Every registered single-primitive account fails in all 32 old contexts. The first receiving row carries the normalization-only correction, but it does not suffice for complete R. A posthoc normalization-plus-probability/value-product combination achieves 5.45% median remainder error and motivates 231. The normalization/product mixed term alone worsens the normalization-only error.
+
+[Protocol](experiments/230-receiver-curvature-primitives.md) · [Report](analysis/230-receiver-curvature-result.md) · [Cases, edges and audit](../results/receiver-curvature-230/README.md)
+
+## 231 — Can that local rule forecast fresh native changes?
+
+All 64 local forecasts are sealed, qualified and remotely verified before the 16 ordinary True runs. The attention-2 verdict-position displacement criterion passes 16/16, with 1.00% median relative error. The stronger whole-receiving criterion passes 0/16, at 5.88% median error. The budget includes an exact known-edit first block and source-only attention call. This is local prediction, not a final-response forecast or compact circuit.
+
+[Protocol](experiments/231-local-normalization-product-forecast.md) · [Report](analysis/231-local-forecast-result.md) · [Cases, seals and reproduction](../results/local-normalization-product-231/README.md)
+
 ## Earlier research and preserved boundaries
 
 The [historical evidence](../evidence/HISTORY.md) preserves the earlier Question B path, including the qualified 204 retrospective diagnostic, invalid replacement-agent conclusions, the original whole-block derivative disagreements, source-only forecast failures, and the failed 224 coordinate bridge. Its publication-filtered archive retains 2,867 original files with exact hashes; one unpublished article is withheld. Preservation is not endorsement of a superseded claim.

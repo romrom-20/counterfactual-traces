@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "experiment": 231,
+  "scope": "Prospective local attention2 prediction only.",
+  "checks": [
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_first_native_replay",
+      "error": 0.0,
+      "bound": 0.0
+    }
+  ],
+  "cases": 16,
+  "ordinary_true": 16,
+  "passes": {
+    "verdict": 16,
+    "all": 0
+  },
+  "strata": {
+    "generic_0": {
+      "verdict": 4,
+      "all": 0
+    },
+    "generic_1": {
+      "verdict": 4,
+      "all": 0
+    },
+    "descriptive_0": {
+      "verdict": 4,
+      "all": 0
+    },
+    "descriptive_1": {
+      "verdict": 4,
+      "all": 0
+    }
+  },
+  "whole": {
+    "verdict": true,
+    "all": false
+  },
+  "medians": {
+    "verdict_native_norm": 0.5247649528614058,
+    "verdict_L_relative": 0.1463374145538229,
+    "verdict_L_cosine": 0.9893461614828196,
+    "verdict_N_relative": 0.04467072975269206,
+    "verdict_N_cosine": 0.9992060095444419,
+    "verdict_NV_relative": 0.009960496779757497,
+    "verdict_NV_cosine": 0.9999570966228106,
+    "verdict_R_relative": 0.06993520346757716,
+    "verdict_R_cosine": 0.9977022609270796,
+    "verdict_NV_pass": 1.0,
+    "all_native_norm": 4.455990924509399,
+    "all_L_relative": 0.07437594879529061,
+    "all_L_cosine": 0.9973589949172608,
+    "all_N_relative": 0.05981894634194281,
+    "all_N_cosine": 0.9983791835973803,
+    "all_NV_relative": 0.05884041577961793,
+    "all_NV_cosine": 0.9984362857605502,
+    "all_R_relative": 0.061413592706806006,
+    "all_R_cosine": 0.9982817235373861,
+    "all_NV_pass": 0.0
+  },
+  "forecast_seal_sha256": "309863db0b1015ae31e51d70526044db35b658ef696375c9624a99ea8d80b3ef",
+  "source_hashes": {
+    "research/boolean_coupling/local231.py": "34d70fda23e489c35bcf9ed50af4e6e24f638fc2f716ddb199498de88111c81c",
+    "research/boolean_coupling/audit231.py": "a3ee1909ab9dd56bbcb793004b7bc33febaf7a2085abfa9d9da35ea126b4c292",
+    "research/boolean_coupling/fixtures231.py": "904831ebf258e8ce6b6935e7e23934b1cea22f8c1e68718dc8ba456f0c210571",
+    "research/boolean_coupling/cases231.json": "603299e75d4409385caf561ec2e6ab7bf073781b2fd5ebc865fe2880de4521be",
+    "research/boolean_coupling/historical-input-hashes-231.json": "4d79fa333edf9085c37aab54042e0787b669fdacd8d14cd4a05501fe51b29a2d",
+    "research/boolean_coupling/curvature230.py": "e009c827807c6ed683b6ab5a736de7f369460ded97aa9eeff61b44cde5b6ebe8",
+    "research/boolean_coupling/attention229.py": "bee2e09e586d490ebb4017086c6ba35158735fd2aeaa51e06cda74827f50362b",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/audit230.py": "b235900da0ba515da4db04df944e9068e576a68bcaa9334cbe7722a2bec02859",
+    "research/boolean_coupling/audit229.py": "cf028bcc5ca56f2ce1605152728da95e80c1c0c4ac6303825c8ad544292c4c3e",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "docs/experiments/231-local-normalization-product-forecast.md": "9d497bc16b4792cf2d3a55dacc22e65692749b95e37eb18630a819b662b59ea0"
+  }
+}
