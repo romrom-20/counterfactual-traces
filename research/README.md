@@ -1,13 +1,13 @@
 # Reproduce the current research
 
-The latest study is **231**, a prospective local attention-2 forecast that passes at the verdict position in 16/16 new pairs and fails the stronger whole-receiving criterion in all 16. Its budget includes an exact edited first block and a source-only attention call. It follows **230**, where every single-primitive account fails but a posthoc normalization/product composite motivates the new rule. The full native-response prediction problem remains open; **228** still fails its whole-response criteria.
+The latest study is **232**: source-conditioned normalization/product forecasts pass the complete attention-2 receiving-displacement criterion in **32/32 fresh literal pairs**, with **1.33%** median relative error versus **5.90%** for the original False-context rule. Verdict-position accuracy is preserved. Its budget includes an exact edited first block and a source-only attention call; it does not forecast the final response or demonstrate a compact predictor. **231** passes only at the verdict, **230** rejects single-primitive accounts, and **228** still fails the whole-response criteria.
 
 ## Inspect without a model
 
 From the repository root, with Python 3.12:
 
 ```sh
-python research/boolean_coupling/reproduce_local.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_source_context.py --verify-only --history --plan
 ```
 
 This uses only the standard library. It checks all active releases, their scientific source seals, and the publication-filtered historical archive. It also prints the actual reproduction commands. It does not load weights, rerun numerical audits against omitted activations, or constitute model replication.
@@ -19,10 +19,10 @@ The [experiment index](../docs/EXPERIMENTS.md) links every active protocol, repo
 After the environment setup below:
 
 ```sh
-python research/boolean_coupling/reproduce_local.py --run --out runs/my-local-reproduction
+python research/boolean_coupling/reproduce_source_context.py --run --out runs/my-source-context
 ```
 
-This independently runs forecast → NumPy qualification/global seal → native True observation → unchanged scoring. Add `--offline` for a cached checkpoint. It reuses fixed original inputs, not a new confirmation. The [231 release guide](../results/local-normalization-product-231/README.md) records the partial known-edit computation, all cases, both criteria and exact phase commands. No private activation archive is needed.
+This independently runs forecast → NumPy qualification/global seal → native True observation → unchanged scoring. Add `--offline` for a cached checkpoint. It reuses fixed original inputs, not a new confirmation. The [232 release guide](../results/source-conditioned-local-232/README.md) records the partial known-edit computation, all cases, both criteria and exact phase commands. No private activation archive is needed.
 
 The [230 guide](../results/receiver-curvature-230/README.md) separately regenerates its 229 prerequisite from public inputs and runs the factorial/qualification. It retains registered failures separately from the post-observation composite analysis.
 
@@ -86,6 +86,8 @@ python research/boolean_coupling/reproduce_tail.py --run --offline \
 The checkpoint-based validator adds 608 finite-forward comparisons, without a full model call. All 32 cases in each follow-up are previously observed and dependent. Numerical validation does not make them fresh examples.
 
 ## Code map
+
+232 uses [local232.py](boolean_coupling/local232.py), separate [audit232.py](boolean_coupling/audit232.py), fixed [cases232.json](boolean_coupling/cases232.json), two-anchor derivative qualification, and [reproduce_source_context.py](boolean_coupling/reproduce_source_context.py). [describe232.py](boolean_coupling/describe232.py) explicitly recombines sealed components after observation; [plot232.py](boolean_coupling/plot232.py) renders the recorded results. These reporting steps make no model calls.
 
 230 uses [run230.py](boolean_coupling/run230.py), [curvature230.py](boolean_coupling/curvature230.py) and separate [audit230.py](boolean_coupling/audit230.py). [describe230.py](boolean_coupling/describe230.py) is explicitly post-observation. 231 uses [local231.py](boolean_coupling/local231.py), [audit231.py](boolean_coupling/audit231.py), fixed [cases231.json](boolean_coupling/cases231.json) and [reproduce_local.py](boolean_coupling/reproduce_local.py). [plot_local.py](boolean_coupling/plot_local.py) renders both studies from saved records without model calls.
 

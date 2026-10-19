@@ -1,0 +1,160 @@
+{
+  "key": "2497fdd745449e7f157a968dc2c01123533c326f73b62261fa1170415d977e85",
+  "group": {
+    "assignment": 0,
+    "block": "indigo",
+    "reverse": 0,
+    "schema": "generic",
+    "target": 0
+  },
+  "arrays_sha256": "9f5fed6fe7f15356db24a675a50983afe5c3204b603e11922d2ca09e1f6b7743",
+  "recorded_utc": "2026-10-19T02:04:43.148776+00:00",
+  "checks": [
+    {
+      "name": "known_first_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "source_known_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "F_direction_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "F_smooth_primal",
+      "error": 3.1873140953209145e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_receiving_fd",
+      "error": 8.52893134589694e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "F_all_affine_Jd",
+      "error": 1.1201976846120232e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "S_direction_prefix",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "S_smooth_primal",
+      "error": 3.0955924453790473e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_receiving_fd",
+      "error": 9.144719217979436e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "S_all_affine_Jd",
+      "error": 1.2352965872430843e-14,
+      "bound": 1e-09
+    },
+    {
+      "name": "anchor_random_norm",
+      "error": 0.0,
+      "bound": 1e-09
+    }
+  ],
+  "derivatives": {
+    "F": [
+      {
+        "name": "norm",
+        "witness_key": "1ee4d70bdc10c189035161792e91b6fd1f42331922dd091d6e2608cbf43fed5a",
+        "ad_error": 5.551115123125783e-17,
+        "fd_error": 6.469907248840556e-11,
+        "primal_error": 0.0
+      },
+      {
+        "name": "qk",
+        "witness_key": "02dbbf356ed57d9b03bfcb25362e6a05e0f4a2f2cd0d2addef8c1c98a42e0618",
+        "ad_error": 0.0,
+        "fd_error": 4.462059277621222e-09,
+        "primal_error": 0.0
+      },
+      {
+        "name": "softmax",
+        "witness_key": "4dd95b6fe3177ce28c2922cbc4b0e5af4d8922881d4ec5a0e3cbc8ee6e14e707",
+        "ad_error": 1.8908485888147197e-16,
+        "fd_error": 1.482070851135421e-10,
+        "primal_error": 0.0
+      },
+      {
+        "name": "av",
+        "witness_key": "8638c77441be8040d3193ff38341f5930f80173c5a9a611eba91cdc88ae171ec",
+        "ad_error": 0.0,
+        "fd_error": 8.967286559569826e-11,
+        "primal_error": 0.0
+      },
+      {
+        "name": "qk",
+        "witness_key": "a0c337809727aa62207608e637668b75559b4a27baed8aeb5ea454cf2a23c438",
+        "ad_error": 0.0,
+        "fd_error": 3.981263337234087e-09,
+        "primal_error": 0.0
+      },
+      {
+        "name": "softmax",
+        "witness_key": "657d4b435bba82fe41ffd65eadc8d885499cc9f7002bdfa742b95f25d4a33c2a",
+        "ad_error": 2.3765711620882257e-16,
+        "fd_error": 9.576322840178925e-11,
+        "primal_error": 0.0
+      }
+    ],
+    "S": [
+      {
+        "name": "norm",
+        "witness_key": "1ee4d70bdc10c189035161792e91b6fd1f42331922dd091d6e2608cbf43fed5a",
+        "ad_error": 5.551115123125783e-17,
+        "fd_error": 6.469907248840556e-11,
+        "primal_error": 0.0
+      },
+      {
+        "name": "qk",
+        "witness_key": "02dbbf356ed57d9b03bfcb25362e6a05e0f4a2f2cd0d2addef8c1c98a42e0618",
+        "ad_error": 0.0,
+        "fd_error": 4.462059277621222e-09,
+        "primal_error": 0.0
+      },
+      {
+        "name": "softmax",
+        "witness_key": "6cc981d1e5034432cef1b036b33d4ffe1b2ff511d9083ea07bc00ae18e9bea1a",
+        "ad_error": 2.3071822230491534e-16,
+        "fd_error": 1.723816749066298e-10,
+        "primal_error": 0.0
+      },
+      {
+        "name": "av",
+        "witness_key": "2caca63e16db88a347886233d4b8d1992b3796eb5b6d72d9b6023053e8667409",
+        "ad_error": 0.0,
+        "fd_error": 1.1100675023287265e-10,
+        "primal_error": 0.0
+      },
+      {
+        "name": "qk",
+        "witness_key": "a0c337809727aa62207608e637668b75559b4a27baed8aeb5ea454cf2a23c438",
+        "ad_error": 0.0,
+        "fd_error": 3.981263337234087e-09,
+        "primal_error": 0.0
+      },
+      {
+        "name": "softmax",
+        "witness_key": "46dea5f9c605563376986ccb8ab36a71ddab217f85b792a6a0e7ec1a0edf8f37",
+        "ad_error": 9.540979117872439e-17,
+        "fd_error": 9.585114039284415e-11,
+        "primal_error": 0.0
+      }
+    ]
+  },
+  "start": 169
+}

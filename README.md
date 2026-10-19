@@ -8,17 +8,19 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local causal results. A general False-only forecast of the native response has not been demonstrated.
 
-[Latest findings](docs/analysis/231-local-forecast-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
+[Latest findings](docs/analysis/232-source-context-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md) · [Open question](docs/QUESTION-B.md)
 
-## New: a local forecast passes, the whole sequence still fails
+## New: changing the source context fixes the complete local forecast
 
-Experiment 231 seals forecasts before 16 new native True runs. Finite normalization plus attention weight–value multiplication predicts the **attention-2 displacement at the verdict position** within the frozen bound in **16/16** cases. Median relative error is **1.00%**, versus **14.63%** for linear receiving transport. The stronger whole-receiving criterion passes in **0/16**; median error remains **5.88%**.
+Experiment 232 seals forecasts before 32 new native True runs. Moving the receiver expansion point from False to the constructed source-only context predicts the **attention-2 displacement across all receiving rows** within the frozen criterion in **32/32** cases. Median relative error falls from **5.90% to 1.33%**; verdict-position accuracy is preserved. Source-conditioned linear transport alone fails all 32, so the finite normalization/product correction still matters.
 
-The declared budget includes one exact edited first block and one source-only attention-2 call, in addition to the False computation. This tests a restricted local computation, with substantial counterfactual arithmetic. It does not predict the final residual or verdict margin, explain block 1, or establish a compact end-to-end predictor. [Read the result and boundaries](docs/analysis/231-local-forecast-result.md).
+The declared budget includes one exact edited first block and one source-only attention-2 call, in addition to the False computation and substantial local arithmetic. This predicts one attention update. It does not explain block 1, predict the final residual or verdict margin, establish a compact circuit, or demonstrate a speedup. [Read the result and boundaries](docs/analysis/232-source-context-result.md).
 
-![Prospective local success and whole-receiving failure](docs/figures/231-local-forecast.png)
+![Source-context forecasting across the whole receiving sequence](docs/figures/232-source-context.png)
 
-The preceding [230 factorial](docs/analysis/230-receiver-curvature-result.md) rejects every single-primitive account. Normalization's correction is relayed from an earlier receiving row through attention keys and values; the product response in that changed background matters. Its mixed term alone worsens the error, so the supported explanation retains the combined computation.
+A post-observation recombination narrows the interpretation: source-conditioned linear transport plus the old False-context nonlinear correction also meets the accuracy bounds in 32/32. Reanchoring only that correction fails. This hybrid was not a registered forecast arm; it suggests the main context change is in transport, without establishing a unique learned mechanism.
+
+The preceding [230 factorial](docs/analysis/230-receiver-curvature-result.md) rejects every single-primitive account. Normalization's correction is relayed from an earlier receiving row through attention keys and values; the product response in that changed background matters. [231](docs/analysis/231-local-forecast-result.md) predicts the verdict-position change in 16/16 fresh pairs but fails across all receivers, motivating the source-context test.
 
 ## Earlier diagnostic: the first error has different sources at different positions
 
@@ -51,16 +53,16 @@ The figure shows every descriptive case; bars are medians. These are previously 
 Verify every current release and the retained historical evidence without a model:
 
 ```sh
-python research/boolean_coupling/reproduce_local.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_source_context.py --verify-only --history --plan
 ```
 
 For an actual run, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_local.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_source_context.py --run --out runs/my-reproduction
 ```
 
-This runs 231's forecast, separate qualification/seal, native observation and unchanged scoring. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
+This runs 232's forecast, separate qualification/seal, native observation and unchanged scoring. It reuses the original fixed contexts, so it is not fresh confirmation. The [research guide](research/README.md) separately reproduces 230 and the earlier causal sequence from public inputs. Execution requires the recorded Apple Silicon/MPS environment and a pinned public checkpoint; no API key or private activation archive is needed. Every output directory must be new. Logs, source seals, controls and failed checks stay with the run.
 
 GitHub checks cover evidence integrity, Python syntax and lint. They do **not** execute the model experiments or independently replicate the scientific findings.
 

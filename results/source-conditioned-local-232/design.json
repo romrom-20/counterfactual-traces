@@ -1,0 +1,41 @@
+{
+  "experiment": 232,
+  "prospective_local_only": true,
+  "created_utc": "2026-10-19T02:04:33.601011+00:00",
+  "source_hashes": {
+    "research/boolean_coupling/local232.py": "4d1b58b6cf64f76cbf5d5ad36a075f0396b41a40ac4a73b2cc4be0ef25882462",
+    "research/boolean_coupling/audit232.py": "7d3441ddaf1d51b1a7221c222e78c5d959bd2b52ca6ef05f3a5aa10f36581e54",
+    "research/boolean_coupling/fixtures232.py": "251798a9640eb921bec8391089cdd5329d81d0a672ff65553d66d031b685164e",
+    "research/boolean_coupling/cases232.json": "32961b5a7e2f4afd33fc16cc9075295298243a2439688be922b654f9447fc799",
+    "research/boolean_coupling/historical-input-hashes-232.json": "1813bff06448c3319ca53435bf2d2ba5e9c0a0b9d9c9855e661577d4345fe496",
+    "research/boolean_coupling/curvature230.py": "e009c827807c6ed683b6ab5a736de7f369460ded97aa9eeff61b44cde5b6ebe8",
+    "research/boolean_coupling/attention229.py": "bee2e09e586d490ebb4017086c6ba35158735fd2aeaa51e06cda74827f50362b",
+    "research/boolean_coupling/smooth228.py": "8640715ab24ba69f97e2ea20832694061ed03b91953a738519c1add03095b189",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/alignment228.py": "084d77c8d089fb5e495d8dd6c76cb034ba67457d6f42b8f54d0cd23ec4ca3b27",
+    "research/boolean_coupling/tail226b.py": "a88f62c1e78d1b394a3e543d1dd98926b853cb39291ba5bb6300ec4708226af0",
+    "research/boolean_coupling/audit230.py": "b235900da0ba515da4db04df944e9068e576a68bcaa9334cbe7722a2bec02859",
+    "research/boolean_coupling/audit229.py": "cf028bcc5ca56f2ce1605152728da95e80c1c0c4ac6303825c8ad544292c4c3e",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "docs/experiments/232-source-conditioned-local-forecast.md": "5e487587586295ef8a852640104402fb9550d9aaf07f217e4d09484299833b67"
+  },
+  "expected_forecast": {
+    "ordinary_false": 32,
+    "ordinary_true": 0,
+    "edited_first_blocks": 32,
+    "source_only_attention": 32,
+    "smooth_anchor_graphs": 64,
+    "smooth_intervention_graphs": 128,
+    "receiving_jvps": 64,
+    "receiving_fd_endpoints": 128
+  },
+  "thresholds": {
+    "relative": 0.025,
+    "cosine": 0.995,
+    "guard": 0.001,
+    "total": 24,
+    "each_stratum": 6
+  },
+  "primary": "All receiving rows after attention 2",
+  "known_edit_budget": "One exact edited block 1 and one public source-only attention 2 per case; False/source control graphs and derivatives counted separately."
+}
