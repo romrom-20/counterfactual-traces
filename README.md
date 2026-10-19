@@ -89,4 +89,4 @@ GitHub checks verify evidence integrity, syntax and lint. They do **not** execut
 - [Historical evidence](evidence/HISTORY.md): earlier diagnostics and superseded claims.
 - [Contributing](CONTRIBUTING.md): numerical standards and how to publish a reviewable result.
 
-Developed with substantial AI assistance. Separate auditors are code paths in this investigation, not an independent research team. No learned circuit, novelty priority or general verifier-shutdown result is established. The repository remains private at its owner's request; article drafts and large arrays are excluded. Code has an [MIT license](LICENSE); upstream checkpoints retain their own terms.
+Developed with substantial AI assistance. Separate auditors are code paths in this investigation, not an independent research team. No learned circuit, novelty priority or general verifier-shutdown result is established. This public repository contains the verified Question B code and experiment history. Unpublished article drafts and large arrays are excluded; older PR discussions remain in a separate private archive. Code has an [MIT license](LICENSE); upstream checkpoints retain their own terms.
