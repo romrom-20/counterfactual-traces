@@ -129,3 +129,9 @@ Transport all29 native-input remainders before MLP16, retaining complete vectors
 One False computation, known weights and the one-token edit generate all source/receiver states. All 256 forecasts are sealed and pushed before 32 fresh native references. Primary and secondary rules each pass **0/32**. Finite normalization prevents the tested instability but does not establish accuracy; finite SiLU lowers median whole error from **50.3% to 17.4%**, still above the frozen 5% bound. Source/receiver responsibility remains unseparated. Original 242's unsupported nested AD failure is preserved; qualified 242b retains every tolerance.
 
 [Protocol](experiments/242b-uniform-primitive-families.md) · [Report](analysis/242b-uniform-primitive-families-result.md) · [All forecasts, seals and outcomes](../results/uniform-primitive-242b/README.md) · [Reproduce](../research/boolean_coupling/reproduce_uniform.py)
+
+## 243 — Is the finite-SiLU policy contrast generated at the source or receivers?
+
+Cross finite/quadratic SiLU by position while holding finite normalization/products and the attention approximation fixed. Every trajectory is internally generated. Source-only and receiver-only each pass 0/32 contrast-recovery cases; the negligible-interaction account also fails. Median native residual errors are 30.8% source-only, 41.8% receiver-only and 17.4% both, against 50.3% baseline. All native-response criteria still fail. Exact old-endpoint, zero-edit and causality controls pass. The original scorer's missing zero-count key is retained; separately frozen 243b corrects only that reporting lookup.
+
+[Protocol](experiments/243-source-receiver-silu.md) · [Reporting correction](experiments/243b-reporting-correction.md) · [Report](analysis/243-source-receiver-silu-result.md) · [All results](../results/regional-silu-243/README.md) · [Reproduce](../research/boolean_coupling/reproduce_regional.py)

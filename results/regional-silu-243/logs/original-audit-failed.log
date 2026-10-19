@@ -1,0 +1,41 @@
+independent regional audit 2497fdd7
+independent regional audit 4776e371
+independent regional audit 38a003cc
+independent regional audit 14b3d133
+independent regional audit 475d5c7e
+independent regional audit ecec483e
+independent regional audit 9d32a933
+independent regional audit 3501faf9
+independent regional audit 25f14399
+independent regional audit 481ce7b6
+independent regional audit 40f48bac
+independent regional audit aee021fe
+independent regional audit 6629f26e
+independent regional audit dc8bdb52
+independent regional audit a7b09025
+independent regional audit 346d04ca
+independent regional audit 50406db3
+independent regional audit e981e563
+independent regional audit 7ab2694b
+independent regional audit 1e5a3baa
+independent regional audit 132a99cd
+independent regional audit 670e0703
+independent regional audit 9c038dc0
+independent regional audit 76b8eaff
+independent regional audit 9ef65a3d
+independent regional audit 54e1c9fb
+independent regional audit b0354521
+independent regional audit 46a2b70e
+independent regional audit b5adc309
+independent regional audit c2b6a652
+independent regional audit 7c6d07e7
+independent regional audit eb8f207c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit243.py", line 165, in <module>
+    main(args.run.resolve(), args.input_242.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/publish-225/research/boolean_coupling/audit243.py", line 146, in main
+    assert status["counts"]["complete_forwards"] + status["counts"]["unstable_forwards"] == 160
+                                                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unstable_forwards'
