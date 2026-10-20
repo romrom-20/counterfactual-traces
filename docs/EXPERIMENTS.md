@@ -168,3 +168,34 @@ interaction. Original246's MPS Float64 failure remains preserved.
 [Correction](experiments/246b-cpu-additive.md) ·
 [Report](analysis/246b-block9-origin-result.md) ·
 [Evidence](../results/block9-origin-246b/README.md)
+
+## 247 — Does native attention10 coupling explain the verdict response?
+
+This targets actual native False/True inputs, with a finite earlier-context /
+receiver-state factorial and primitive removals. One read is locally large but
+its removal has a small final effect. Coupling-only primary passes0/32.
+
+[Protocol](experiments/247-native-verdict-context.md) ·
+[Report](analysis/247-native-verdict-context-result.md) ·
+[All cases](../results/native-verdict-context-247/README.md)
+
+## 248 — Is the native response carried in the verdict state or read from context?
+
+From the same boundary run every remaining block finitely. Context-only reaches
+4.9% verdict error but misses the margin bound in all cases; verdict-carry-only
+has101.8% error. Oracle incoming states are explicit. Both joint accounts fail.
+
+[Protocol](experiments/248-native-carry-read.md) ·
+[Report](analysis/248-native-carry-read-result.md) ·
+[All cases](../results/native-carry-read-248/README.md)
+
+## 249 — Can the computed source regenerate the native response?
+
+All32 source-only forecasts are sealed before oracle controls. The algorithm
+uses False plus the known edit and substantial dense source work. Native joint
+accuracy passes0/32 (7.0% verdict,20.6% whole, .194-nat margin error). Intermediate
+True receiving states without the True source do not recover the response.
+
+[Protocol](experiments/249-source-regeneration.md) ·
+[Report](analysis/249-source-regeneration-result.md) ·
+[Seals and every case](../results/source-regeneration-249/README.md)

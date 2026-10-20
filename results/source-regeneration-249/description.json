@@ -1,0 +1,39 @@
+{
+  "native": {
+    "S": {
+      "all_relative": 0.2063246946073131,
+      "all_cosine": 0.9784138981504449,
+      "verdict_relative": 0.07008713557251758,
+      "verdict_cosine": 0.9975957150205017,
+      "margin_error": 0.19425582885742188
+    },
+    "C": {
+      "all_relative": 0.9857187021196621,
+      "all_cosine": 0.1703973060029617,
+      "verdict_relative": 1.0108311031136923,
+      "verdict_cosine": -0.14764693685601454,
+      "margin_error": 11.017192840576172
+    }
+  },
+  "context": {
+    "S": {
+      "all_relative": 0.20240014557108854,
+      "verdict_relative": 0.04908222178664406,
+      "margin_error": 0.1454601287841797
+    },
+    "C": {
+      "all_relative": 0.9859444139353253,
+      "verdict_relative": 1.010994624950168,
+      "margin_error": 11.088603973388672
+    }
+  },
+  "posthoc": true,
+  "model_calls": 0,
+  "source_sha256": "c13706aed3fcf83bd61525805873decc231f10f0f264623a0279ff3a5d822f4c",
+  "audit_sha256": "b537bc83c87e07291a6c0faa2ccfb113defc84c7be84b73b4a19d62526cf0f29",
+  "csv_hashes": {
+    "native-outcomes": "a424c3ef6069b835f3aa1dc5d15409fd204830e1d50e644176d55d50d30b9991",
+    "context-recovery": "37c424e83bf6cc283e2197e98722b79e93c101428eb16b12cde2c2acb702ec70",
+    "signed-effects": "2ab9bb65b798117cc6b6710157d012d238e741ad2270fc95edbe519e3271a549"
+  }
+}

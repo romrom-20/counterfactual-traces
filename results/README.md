@@ -35,3 +35,9 @@ Repository verification checks these files and seals. It does not rerun the omit
 - [246b: selected-block origin](block9-origin-246b/README.md): whole local product
   account passes32/32, verdict account0/32; final interaction remains. Includes
   original246's pre-intervention MPS Float64 failure and corrected run.
+- [247: native verdict/context attention](native-verdict-context-247/README.md):
+  actual native False/True inputs; local context influence and finite primitive removals.
+- [248: native carry/read suffix](native-carry-read-248/README.md): context-only
+  nearly recovers the vector but misses the score bound; carried verdict state fails.
+- [249: sealed source regeneration](source-regeneration-249/README.md): a False-only
+  source algorithm recovers much of the verdict, with substantial remaining full error.

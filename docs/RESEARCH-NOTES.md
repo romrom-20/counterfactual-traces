@@ -170,3 +170,29 @@ arithmetic explanation, not the native Boolean-response mechanism. Position
 scope and the finite suffix remain necessary tests. The next useful target is
 substantial NEW generation at the verdict position under native attention,
 rather than another pooled norm peak or end-to-end correction sweep.
+
+## 247–249: distinguish native regeneration from approximation-policy mixing
+
+The earlier regional SiLU interaction is a defined approximation-policy contrast.
+247 returns to native False/True parents and shows a large attention10 context
+read but a small isolated final effect. 248 tests a different ambiguity: native
+verdict-state carry alone fails badly under False context; True context with a
+False verdict state regenerates much of the native response during the suffix.
+It still misses the strict score bound. Continued context influence matters,
+but this does not identify one necessary late read or establish that all reads
+are interchangeable.
+
+249 computes the edited source from False prefix states and the known edit,
+seals all forecasts, then tests oracle intermediate-state controls. Source alone
+regenerates much of the native verdict, while intermediate receiving history
+without the changed source does not. Whole native error remains20.6%, verdict7.0%,
+margin .194nats, with0/32 joint passes. The dense component budget is substantial.
+This is neither a speedup nor a solved compact native mechanism.
+
+A useful next primitive test would clamp source keys and values separately
+ONLY for receiving queries in blocks10–28, keep the source computation exact,
+and let all receivers evolve. Include zero-clamp replay, matched direction
+controls, and a jointly clamped versus False-source boundary identity. This can
+separate routing/values/mixed effects and direct communication from state-carry
+accounts. It has not been executed. Do not infer a learned circuit from the
+state factorization or switch to another end-to-end correction sweep.
