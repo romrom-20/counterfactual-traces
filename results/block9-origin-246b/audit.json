@@ -1,0 +1,8517 @@
+{
+  "status": "passed",
+  "retrospective": true,
+  "checks": [
+    {
+      "name": "finite_product_bridge",
+      "error": 1.8629847886586504e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.913256999752093e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 3.5287484934087843e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.852163987325355e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0907504588431038e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5561422271659353e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 3.0995234912012393e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1878439920565143e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.208807868646744e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.8311402289205034e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0908280501098488e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.136657695344212e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.896893806474509e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.265524795130318e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1207703209947795e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.48982872167403e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.8339578950209443e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.599436225800503e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.825219310892862e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.107561258377302e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.286903590942302e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.286027621702715e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 5.273000560634955e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.1399338702602901e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.149459490397021e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.48407465114542e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.101170235226164e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.200535227345426e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1279419496190712e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.710976140463117e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.289845788538969e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3161574585751623e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0558132902692705e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.123619016776047e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 2.050390719432471e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1141539746351015e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0884821222134633e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.231327506853404e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1681524370033003e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0002730014946337e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1368935954058088e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1917973097297363e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.888740517714155e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0960589042218203e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1469569471955765e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.7322938311359337e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3086634159952268e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 9.031622587585275e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0672792427612876e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.906557776189317e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3184210995452759e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.633954135499721e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.047935711540049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.134984778112141e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7380760564122966e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.078005844121435e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.695913963179919e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.5373189043886857e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3272877385238644e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.9738357102692135e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2191689648943793e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.6315753629546634e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.7103652391911055e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.572506509565756e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3736582548394836e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.9296254879795924e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.5449363739180626e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.471078854517145e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1007375633198535e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4993530115248177e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 2.822425244630722e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.994811422662451e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.44123775323169e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.373372294201431e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.558121616758058e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0643103109941876e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.104877635834896e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0000733025327122e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.055105656178057e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.743948275478857e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 3.4677255422721487e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 9.015167012904612e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1696236867919652e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5464346819094033e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.3048889813127573e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.704733689881891e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1437788316470687e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2571680088058201e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7641224614450834e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.168111061910508e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.645804606515867e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.4486175361550146e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3250054067270867e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.7473568162436095e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.4336633356037964e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.540774407895242e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2599458045770007e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6875785980328146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.566407339088528e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.9219273563494426e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.035502852024365e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.8149044080928434e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1177917258464731e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.6194176020611906e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 2.2357494344760198e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.993144166995592e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1343266237417993e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.190454849454909e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.627001718380484e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1666327282000566e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.096750198691936e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9252999550189998e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.819876029519946e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.289151381430827e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7748516389914926e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.675510926257289e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1677502698148601e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.009320822882188e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.415893565199667e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.792897243532934e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1692078771829983e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.809098517568941e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2644097352753079e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.429858678240862e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.5359156552440254e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.3186382707502942e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.487710091259032e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.665986947647525e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.444597022119524e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6979278640860684e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3352025334256723e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.1463309778368966e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.402444562539131e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.7199381804621225e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.7967659121941324e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.4747811195879876e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0326846222596942e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1268206839609718e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0184572829530225e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.644034928728672e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 6.826863341302669e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.839678919095093e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7799437168619647e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.744232112192549e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2264199508393858e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.550677888317864e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.832544378696184e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.727423437411176e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.903339326148057e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.205162096899585e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1504531016726105e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.200463892826804e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6091385246497225e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.652981345249941e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0112199788636644e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.744905297839665e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.732920971164731e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.361677710702395e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.6448566952931287e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.0750911632925741e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7489889572175343e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.826999386864372e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.318186574257197e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.083269466548245e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3161663307291747e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.1873554462436005e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.8091681681653426e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.666558824505955e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.9763487461309523e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.1741088548642438e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0956463825095852e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.130561813755264e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 3.085426101279154e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.97162601734658e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1156998880323954e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0291556492347809e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.8470713964168226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1333929705870105e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.924170677853226e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.889392047260685e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1493062856970937e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.675370106202223e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.4110746082707237e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.383150408708957e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1646994835246005e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4679853551413657e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.506192595674861e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.010759356911421e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0311288178854738e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2922389585057203e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3560287853996442e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.626806164864661e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.851306835083278e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.774846574352119e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.36804889858422e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.44010063205269e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0028937157690052e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.4910519869081327e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.1136661198825095e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.102994791641777e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.022862484489906e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.1941561928761075e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.0306365488286247e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.177225861212719e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.251061783288606e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.662846890634569e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.137612894643098e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.146481152325407e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.813606993702706e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.122111909258933e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.459364620259862e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0396070138085634e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.332529866843629e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.5967259114901822e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.648515859022154e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.838012219567702e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.3234867379807724e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.027250212843228e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.875381248188205e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.621731135692528e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.4019778893370471e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.4708244351099324e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1227166396565735e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0467188681140271e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.217814616400915e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.509986982232817e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.53263599145248e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.176858784758151e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.823146753565652e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.269870631101185e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.280691942109115e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.0188268712881836e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.054401640805281e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.3751658108371885e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.646261350491841e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6372551385757106e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 8.18931688684188e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.787133688286758e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0645777592799277e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3275379497912354e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 4.621331299858866e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.428195295591024e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0150826312838035e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.465457259352547e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.7959695447776767e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.058145642218733e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.387928532421313e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0605772599324723e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1238083175157954e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.243927555094615e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7988136891133877e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.1150790508481805e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0885395340665127e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.159509326117643e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1790954196632129e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 8.068905055225173e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1124706134069129e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.433571832000553e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.8715881583707414e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.800087763991769e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 1.0587911840678754e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 3.5025514577569083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.4539363980474738e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.523903363917725e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1384047056139934e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.010263440714425e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.6898154104060268e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7630012578706555e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0754337484163443e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.412843817329758e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.14237794802375e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.429097853948406e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.0166644131004432e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.6768535715527833e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1422582502085277e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1902073993041995e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.641102250628308e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1442737957167992e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.849839713496948e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3825243511410577e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.171454755422019e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.31576999896322e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3052070874385322e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0158257168768614e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.738455003774675e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0676050471735152e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.872815475096218e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1066498473155661e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2954646640750411e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.695524532470017e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.47069424988922e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.720004191469343e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.612976459903109e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.615371396646026e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.5177338020275783e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.6981234668710385e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.4186885901167354e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1836485640515093e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7846280186972763e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3012843115566284e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.878869821643093e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6272421916596613e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6892937182433343e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.295222933909827e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1290771340100036e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.4026909599683677e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.1495854127806524e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.018656803353224e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.9888635287124146e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.77693872528107e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.6334816579118865e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.565189884597203e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.610455909912162e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.952089778711752e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0827884011632705e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.180670626410034e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2003061861397555e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1034512681362685e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1309103904011408e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.1744148631365192e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.2811163325495727e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1723000170604791e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.9969946576381403e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9680283180889546e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.426961369181527e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.063614131970098e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.402168290480347e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7112012917763764e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.4561278106082227e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.941074856404157e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.5033609645671853e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1872012066760362e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.693634288812973e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3512629664091946e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.3439676911939387e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.8845258412957264e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.801564065180173e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.841079819404513e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.703545180475885e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.07563231668928e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7631576696430784e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.8068470808429993e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3788626174182639e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.3890206673750072e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.139044029573881e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0287951113241434e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0272760769147737e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7094718929300257e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0453459253767505e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.6016872094404278e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.5080059895543627e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1817817835435562e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4871390243698102e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.534443616613146e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 2.819052955516099e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0605617717374116e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.282328768174693e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3566267604024915e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.314332058858895e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.983443760575028e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3787163158696103e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8131741796878487e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.365968546693466e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 3.39098079393807e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.485534936930156e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.749726232158082e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.4087202799828447e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.0739934828716287e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.416913941123312e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.512947917589827e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7227468660507839e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7505825766761518e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.1537422796313876e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.151155268696584e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.8939148063168432e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1312542369523726e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.022589326803995e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.07899311894289e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2724865836588606e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0123397942152224e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.087337966003247e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6922145462672233e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1644397091004066e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0867676829562356e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.566506928618594e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0092662705574185e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.8460414768384226e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.221493011183128e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.566909750953641e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0720094678617897e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0962569943373524e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.004974923863756e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.860898226155541e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1380438991182018e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.8043139280443654e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6980446071457322e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.402266518572674e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.8417417752280016e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.166248241148661e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.39505094867809e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7635021478668023e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.831495216071289e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.0836856268479096e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0457717795352437e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2411635808007304e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.0326627842878224e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.5393289077064765e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.6848680292346216e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6292771596890816e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.495453585055657e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.801610508449073e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.929038593421865e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.277104519725185e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0517453574721003e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.396703932421417e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9900858649890552e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.483314672957931e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.266522515752655e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.3582834434977542e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.903251114134036e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2731280605748907e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3007129978935836e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.9960700704000374e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.997303441698023e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.349135810130747e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.5520879292907352e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.511283126009459e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0550314755164436e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.9420695428706836e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.485576664490452e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.7983822842591053e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.8790325384543394e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.697094856638326e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.788147597243551e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.973006720059402e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.91066824789732e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.897130802954507e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6678239660450345e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7440805422097583e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2689696546885898e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.97783494779469e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.756452637228904e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.5193541236822057e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1695863122440642e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.6174060974604174e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1880098327310407e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0174536077656171e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.73523593061509e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.754702838496769e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.479219109423724e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0394239779998315e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.05949921490145e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.3516752206399474e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.654470669469447e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1059166537208398e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1672158956320686e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.142164555214322e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1880098327310407e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.389816749496902e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8915813493336486e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.0146943474917975e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.70344933900924e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.9847370271719456e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6146357784130316e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.8353414621994375e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.153351488232147e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.1901169395986747e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1639512962346998e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.917544657701001e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.2155680287360155e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.894206213634789e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.575622652045695e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.720669655786878e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.883562447346776e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.039044317811658e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.5447246560238455e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.2639834088854514e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0446092346683145e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.045136125150009e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0317555165784142e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.920177440112752e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.45870999910403e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.75334662531202e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7269169871880763e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.490076990914531e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.014109106253443e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.5460636593189747e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.400967660942115e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.13246749189733e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2305954594514787e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.245156794979721e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.88232182963111e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.792712013257372e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.480269768983078e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.607404564538342e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.562516657344531e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5497931676655696e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0097762298831867e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.06466561742036e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.3993723513294754e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.237120902753853e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2147455592526057e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.4852800752105395e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.4063501768978313e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.486607776575056e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.2657264032186504e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.153156088979813e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.169870803925278e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1935313040112305e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.369796907293221e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6040967117401124e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.865783567875042e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3488551237728075e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1499957963678753e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.867719727716604e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1686063317029038e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.510837663955328e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9358732172847226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.842468908667797e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.404349278454902e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.1095344087941328e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.001607281788893e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.923433598616242e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1544767303538492e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.816702676713192e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.68445874605095e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4603688580194785e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8388991263051935e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.0479463159215356e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0058124644274358e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.820460907912661e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9688170249665404e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.262087917681015e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.0396987565618474e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.126346993273215e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.429081338410469e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.5916767896205783e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.0562295358340634e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.943041723961869e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.678454954249901e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.3627910127620453e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.2131645681943155e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3690405040733822e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.8680358781230098e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3485150890678597e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0808275874296669e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.860099419192522e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0444085773997358e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.749698147487607e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1885492767760297e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1633381873821236e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1214105094813362e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.3074867410978186e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4862524973402458e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.772443759013754e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1253405318711884e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.991837024880823e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.956122179791464e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 8.487420695146852e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.8245873434352688e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.232186888078246e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3595619769167797e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.591530867794404e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0095831726175675e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.2764808424754506e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.4706958673116333e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.222808925926415e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.119308959436239e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.0510021498464093e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.508114313570786e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.456668134229403e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.169282495387506e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.83927628888614e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7953788074009935e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.484729541649358e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.432832632985992e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.5472837660013283e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.5240337601958345e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3395618765343897e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.4469119946625142e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.216480674225977e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1274491384938301e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.465880675156967e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1624291573752998e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0457272509700744e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.5889945803593264e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.111771439354925e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5473573432345233e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1903386260291313e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0773965186672285e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.980111446619475e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0857052085432315e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.416539614027215e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1798601917689666e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0068668859108953e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1339618339055733e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.854297233653938e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1660733889584662e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5082135344179903e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1602607169768362e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.496376698805761e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.7271365965475525e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.721677276385336e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.5856172075909853e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 7.48784457016427e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1491980131950186e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6637917730786285e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7611258584793177e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.403308137388649e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.425161975518677e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.8470828041804452e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.926344859905839e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.317515289007588e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.207205286846147e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.851902123296895e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 3.205533971595287e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.0520199385294404e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0769545610855857e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.51574549098899e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.312968350182132e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1628719676082255e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.789057791780408e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.731501342305819e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1125420940061304e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2516779273497036e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.517804160717674e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.316146823337476e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.021426641045764e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3599237616901405e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9752239577286446e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.193681325010857e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1105055364168948e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.88893760567322e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.4059867120840295e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.508069040871533e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 4.416253869266029e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.2115937379791886e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.4665104184105076e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3180522035204376e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.8627637032864186e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.685818721204214e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.2971941809355485e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6408267618526224e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.5675524071289146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.349736344025132e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.1275575790014045e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.044112877465977e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1040094705094816e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.760091723594485e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.4905322132108267e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2564656389102424e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1808890576503472e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.0070016088169496e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3549758987329028e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1802825383711024e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4596368601793586e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9475448764794123e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1916563380509615e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.288447320657582e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.54424814269305e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.091641162024985e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.663423838901508e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.242720457905193e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.4637651829806373e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.7467387354060975e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0429312169435434e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.0975835406716925e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0670808664746687e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.503406024232049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.645380412502618e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.416268443004548e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.921980704366888e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.005145358287336e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7514238095373003e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.529959754672745e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0839098553437907e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 8.07873540509263e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.7877363325833358e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.4925201955738885e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.9506162511647744e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.33232404411865e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1351033890605322e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3693882909393551e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1087331586168148e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.524291938201586e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.149041111148108e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.637420298157167e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.470292163574527e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.158094999544119e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.062849759365548e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6067992847368373e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.701159342512256e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1650838473542535e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6153940896046493e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.166279253288053e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0288113116985187e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5578132822824386e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0873544226418517e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.2839746594580674e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1145272083012969e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.82282976647042e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.335873068304295e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.976599843331542e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 3.550690621523245e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.3769771202890024e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.0801993489149027e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.910920424094911e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.563123854632977e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.6128822838700216e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.5021795860548082e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0685258874664214e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.743990833195767e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.5250646658037113e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.698770693143615e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.5751157320664788e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1162401847286674e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1714666571016608e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 3.32229717514565e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.896602989415186e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.481105512852082e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2765628649269445e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.5584274049018632e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0542153461301496e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4973917068950016e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6419544790480245e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.43584836932132e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.480351609257525e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.306266573270932e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.927143075761364e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1392739907023497e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.212524892663552e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7538669006000873e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.631141052399926e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1477141015348025e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1644278893108151e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.5126134728381544e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 9.178701283474311e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 3.716288361488296e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.4051062279335502e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.08322731715316e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.5663976853375061e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.3557543588358385e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.73219764071564e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.315518014801455e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7056748120580778e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7546535104884242e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.338715934830816e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6207193880291015e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.086016916626249e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.221521679592115e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0044279219023622e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.827646524878219e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3446211462486701e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.333575690106954e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1417569170113495e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.17379645839344e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1613330741511163e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.7163566644384787e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7175038458105973e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.160640163623611e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.865634248396589e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2122663434487322e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.708174954932588e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1655720300041139e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.6095208978050835e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.4874432929801173e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.80270937405669e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1068532046465407e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.932905126712853e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7989058287426474e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.961756386341222e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.5102354211649072e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.1631321080010923e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 8.19338282553872e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.1144310952413434e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2294712945504216e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.96849202294925e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3591002741009106e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.973802050922131e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.8111249551775472e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6285903186030737e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.949637476490352e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.5828542032636506e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.6896979104785714e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2238091468663725e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.114606789087702e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0228285836966222e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0755567814157985e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3270299986878342e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1958919571574143e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1489098028505396e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.435428903473479e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.241270715686028e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1723943771357881e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1728019627454955e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2184897296995132e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.846245135719073e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1301176527922507e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.088935454506839e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3798759363202748e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.979730530152437e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1607565397753206e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.456819743012488e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.392237088422178e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.011694467147663e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.9744330731773516e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.4733303064669587e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.13141221144997e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.065125180195082e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.1643613266064676e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0550031436528116e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.4743834902428716e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0192274519104103e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.281112929049868e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.3896266720698804e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.991027647032297e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 8.42345734497485e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1847643577311828e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.4849082619127216e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1516185338678042e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0916114487002915e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0087978807860054e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.506945160302593e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.893456834129893e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1592535997806408e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.245432554914828e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2704699986775267e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0768204106170742e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2068360007333467e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8863806605651234e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.562591972070209e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1186187975908979e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.087929077722379e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.766190265151124e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.708358547489411e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1548183920240263e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.237698214230704e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2231654117632615e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.262601678879264e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.4457150971102237e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.7810669418749647e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.0904340181668886e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.236324467081886e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.268211455382698e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.74620189045072e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6115139820935838e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.2000597158798882e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 7.961322509686397e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3284889135434241e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.245207949007181e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.1855402653491183e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.9317201817066234e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.162651211560899e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1003228905792639e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.842152625807785e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.415167940256651e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5409245819775208e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.426528915577819e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.073256196894363e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.257640671693878e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.500248885122346e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.745197194708453e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.1827570274801644e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8952499836188963e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.286928518837385e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0786186521727359e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4279047085175023e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.3197358406102921e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.589130160326249e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0463179478392703e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.799076576336489e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6187681284307587e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.682618826024054e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.1935102267889306e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 3.3430920500268115e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.457296801594566e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.651903388719347e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.573885753700324e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.561354975227914e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.1038228343049923e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.2791179858927535e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 9.045521451866989e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.5542952570845046e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.4289391471229465e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7885606737877424e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.3525868780561723e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.705937457025414e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 2.710947342166037e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.7961806688227e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1471183825051412e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.6473842739167566e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.1472476818829023e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1220947726542363e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.9243417103353977e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8913119603780615e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0602273903259629e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.421188665240436e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7943617658389144e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.012975554663512e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.950099411071278e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.8131557013134625e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 3.126820318222201e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.103931567442601e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1835470559162786e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.5786982120680193e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.3042262853323336e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.538136831935049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 4.001390472296862e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.2492128104401043e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.132033126325041e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 7.58550072532671e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0054947853509475e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.975954178756183e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6413010917613065e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3487281879397415e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.3337256937215898e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 8.973785980970206e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.519554233832878e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.5666907390586857e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.130123774208187e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.50305173827337e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0121084415004589e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.333695387215286e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0586211374175036e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.511992481670006e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.283058086443134e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0692599516914925e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.010065389780664e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.6303274552598168e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.061586870804604e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.3037876164467832e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7407416885717453e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.544238801391543e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1179190551047213e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.445887825075488e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.626644388075249e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.775854198195816e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1059034932259237e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 9.344322384308157e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7666325158316454e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.977113473638497e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.1300274966051802e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.059108565575886e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.94984618626404e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7598482600078569e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1467946947618657e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 6.145292381631862e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.860314815222864e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.078652826284724e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.5810455451514827e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.2382027350099634e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.355334636661155e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.5758629596548417e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.082771157409297e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.295238537428304e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1315296433167532e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0055765426564278e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.817278285278007e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 2.026208283201214e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.0056977456661684e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.0388521799504815e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 8.443685056036543e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.608308313194584e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 5.7549044640836655e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1359887767348198e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.7731890977756848e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.289887810595474e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.168896233139094e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2458194761144625e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.2208616317899157e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.571158387951414e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0375995884714939e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.451703770033902e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8515844413258264e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.6770045081245826e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.108688477164833e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.9379659472472675e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 5.952491193284004e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.9091080122611856e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.6290413021333734e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.78729488453655e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.730138703554985e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.5106875745659636e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 8.516679869785548e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.7183134630727182e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.249077107942867e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.3189744783612696e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.089534730970627e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.711010908334032e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0364135505369632e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.735200561713839e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1350419981681625e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.402884179910416e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2949950961859145e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.839608429094369e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.9192472236362335e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.226025395124509e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.360873155448644e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.4905305914858502e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.977218122561908e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 7.51665441001137e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0629258895278326e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.70055599671926e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.548573396765619e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.590863274562707e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1664783983178495e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.603750432430331e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.4258568992175924e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 5.232343855965382e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 2.0702472625089285e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.8361344205043992e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.234528603319632e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.548424620054448e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.1290939002938103e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.4955632323676582e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.8847196702486144e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.8789597575619155e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.9072492629420594e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.254970046384642e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.627449690985941e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 4.891521150796052e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.876976037048735e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.059411850583118e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.801288231552462e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.157410228053607e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.450789661968884e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.1941224355105362e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.5657104707477174e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0282187190568948e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.0991370087748464e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.890869660847727e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.477180474779743e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.573525316826533e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.435852436948437e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.036546538659479e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.0712687981140334e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.642861797383603e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.379596150652418e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 9.144368737779018e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1592175042096642e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.226401042390805e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.043932978423868e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 4.879823878312095e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.9165315734426258e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 2.7156804390648243e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.1746449501970346e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.000226925564675e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.700334299277074e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.393112893628313e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.5193408390578043e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3644613616747847e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3266874461237421e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.061292768473777e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.2954855367629534e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.3542289920565054e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.029945774978842e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.0242116892378306e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.711197096999967e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.1043990360332145e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 8.939703377564001e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 4.365709860509881e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.2405108035528087e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1380271303096379e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 5.733983678979371e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.9936980777401914e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 9.298204872720817e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 7.966384564461748e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.5356220428586198e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 6.818816986609022e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 1.1816220535365574e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 1.2691694841748813e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 1.8133906243278375e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 3.8687946979365506e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_product_bridge",
+      "error": 7.655162903574819e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_down_bridge",
+      "error": 6.563064160358678e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_SiLU_primal",
+      "error": 2.5662943681226125e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_RMS_primal",
+      "error": 2.689503437736107e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "product_mixed_closure",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "component_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_primitive_reconstruction",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "D_rounding_reconstruction",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "D_rounding_bound",
+      "error": 1.9622009972408705e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "attention_split",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "whole_block_rounding",
+      "error": 1.3540060019711676e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.6099099724442567e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.472514708529161e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.3195245262286335e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.2768114976988727e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.569033656778629e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 1.28289131140491e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.9182454710507955e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.5650066649850487e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 2.0483762028788988e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_product_install",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "finite_head",
+      "error": 3.0580485912423683e-06,
+      "bound": 0.005
+    }
+  ],
+  "primary": {
+    "passes": 0,
+    "total": 32,
+    "strata": {
+      "generic_0": 0,
+      "generic_1": 0,
+      "descriptive_0": 0,
+      "descriptive_1": 0
+    },
+    "meets_rule": false
+  },
+  "local_D": {
+    "passes": 0,
+    "total": 32,
+    "strata": {
+      "generic_0": 0,
+      "generic_1": 0,
+      "descriptive_0": 0,
+      "descriptive_1": 0
+    },
+    "meets_rule": false
+  },
+  "scorer_sha256": "f411f2e2b4204fb7ee53d2894d6f67b0450ecfee4760b796a7e46639ef192c93",
+  "design_sha256": "adfe3b8d04b0e9cfb84089604f5118b4f8f05d61690702e9cbe1d14939f0ffd4",
+  "seal_sha256": "d4d3cb240b1e316c070c74db9f8fc29089df85b256bff527e78cb9cf69b19bb1",
+  "csv_hashes": {
+    "local-effects": "99e8d405a2e9233c44318faf77a31346a53fb6e882cbc1c078a0a82449c13cb8",
+    "causal-outcomes": "b323217869ccc31aca790c0b8e34a0ad5306abbae9389e4462409d53cde7405e",
+    "primary": "939c5778250cc3e9e61ef9c19ec8e91291d5ac328946bb2d746617dae0bf9fc7"
+  },
+  "interpretation": "Selected-block finite policy-interaction diagnosis; no native False-only prediction or learned circuit."
+}

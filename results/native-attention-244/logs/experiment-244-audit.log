@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-244/research/boolean_coupling/audit244.py", line 191, in <module>
+    main(args.run.resolve(), args.input_242.resolve(), args.input_243.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-244/research/boolean_coupling/audit244.py", line 79, in main
+    assert len(record["witnesses"]) == record["qualification_counts"]["distinct_directions"]
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'distinct_directions'

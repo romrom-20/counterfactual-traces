@@ -56,3 +56,16 @@ Read the [latest primitive diagnostic and numerical limits](analysis/237-late-at
 242b tests a uniform primitive-family rule on 32 fresh literal pairs, with all forecasts pushed before native True measurements. Every arm fails the full-response criterion. Finite normalization keeps forecasts bounded; finite SiLU lowers median whole error from 50.3% to 17.4%, but substantial source-token and receiving errors remain. The test generates its own source trajectory, a stronger approximation restriction than earlier exact-source component budgets. The next unresolved distinction is which part of the SiLU benefit originates at the edited source versus receiving rows. This does not yet identify a native mechanism. [Report](analysis/242b-uniform-primitive-families-result.md).
 
 243 addresses the source/receiver ambiguity directly. Neither region alone explains the full finite-SiLU policy contrast; their interaction has a median norm of 35.8% of that contrast and is non-negligible in every case. Every arm still fails native-response accuracy. What remains unresolved is where that interaction is newly generated versus how earlier differences are transmitted. Exact regional causality/replay controls and the corrected saved-array audit pass; original reporting and older derivative failures remain retained. [Regional result](analysis/243-source-receiver-silu-result.md).
+
+## Current boundary after244–246b
+
+The243 interaction is conditional on approximate attention: its quantitative
+transfer to native attention fails0/32. Native attention still shows a large
+regional interaction. Its first attention2 seed is below the frozen materiality
+guard and complete removal barely changes the final result. A large later
+block9 jump has a finite matched-input SiLU-discrepancy account for the whole
+receiving product32/32, but that account fails at the verdict row0/32 and does
+not explain the final interaction under direct removal. This is a local
+explanation of an approximation-policy contrast, not native Boolean-response
+prediction. The next target should distinguish new generation from inherited
+state specifically at the verdict position. [Full latest result](analysis/246b-block9-origin-result.md).
