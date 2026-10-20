@@ -1,0 +1,5957 @@
+{
+  "status": "passed",
+  "retrospective": true,
+  "checks": [
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.211373118006122e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.579793948053748e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.009376637943319e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.211373118006122e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.02888250433864e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.366613624602223e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.642377131996e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.85396442326558e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.975362550256989e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.642377131996e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.315854065938822e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.728450654414075e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.052218458107694e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 8.434363973908177e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.6565239857602165e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.248311163441599e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4212891628062607e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 4.953889782832732e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.40572768115544e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.695970176271658e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.295997698022802e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.3561647424230614e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.593550334026531e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.899510853637821e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.0120045948933694e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.970779657475504e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.0323338344164767e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.0120045948933694e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.396380157815742e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.992053915271356e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.260039628116829e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0021126306547501e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.39058989890151e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.260039628116829e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.924349548244948e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.651653272626845e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.051896236741505e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.0075413714449866e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.1993979302932223e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 1.182979433078657e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.292452890628738e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.713867133356644e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.084643649093778e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.079817088609161e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.0516855815676536e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.422106113897371e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.804290712622787e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.71767633473064e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.9391826245728225e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.628437704796596e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.849863297629042e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.9391826245728225e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.63300436243297e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.556732571385339e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.6688464462031334e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.2053904742166424e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.861902406754325e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.6688464462031334e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0158527286030505e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.5052363084607805e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.0512153916053553e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.2181616604323153e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.3786516460251308e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 4.4915636365772116e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.844593105066906e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.637274578835672e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.376456639614389e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.8361022426915952e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.8903030013793796e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.8263565735310294e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.246418467663716e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.262323962223036e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1783383292349754e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.348198622330159e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.419680838616216e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1783383292349754e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.112746303050699e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.718097111362397e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.277517990341039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0055076893333847e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.515124198498313e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.277517990341039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.908925169277438e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.501772677440897e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.05172360013626e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.144512107309481e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.1740417468000808e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.864185279591538e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.82200461407956e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.389004520990227e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.0153548899438647e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.810785996933191e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.115131389894941e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.514919519418072e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.240749509496709e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.325091251975664e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5255508916188774e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.3557363431893066e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.236449620582562e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5255508916188774e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.4987879304317886e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.0412457469577419e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.516060486357219e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1344747008479317e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.047062073299969e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.516060486357219e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1307847225250356e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.635508097372565e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.053424065189867e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.3564077294692112e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 9.954782475563029e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 9.468282380353799e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.60151908548778e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 3.82488187344876e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 7.3846311963166045e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.801070775466542e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.7584906234778828e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.6998580295867214e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.5099307521259107e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.3690574809952523e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.294403416020941e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.435174509407005e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.148096547420323e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.294403416020941e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.509494969250909e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.993845283493783e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.3450150382918764e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.950924085786681e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.56433946918844e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.3450150382918764e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.822568759419113e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.736401685358828e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.288836331630174e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 7.822568759419113e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.0809427914895003e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 6.736401685358828e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.160270139332624e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 5.466426249434164e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.0119252585336653e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.4490812979015573e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.943394433913454e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.519246570884206e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.223029688750103e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.633868188998804e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4311415415922966e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.130790391496333e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.1455008133154365e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4311415415922966e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.176077621018351e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.76380134287291e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8105602766004267e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.525681200437617e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.799966708546322e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8105602766004267e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.7864116942418775e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.64386743725953e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.05918051044863e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.4656456104322757e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.8975207866644972e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.434218754984954e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.095341286207258e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 4.5028123540902243e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.440257745206509e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.1720663073997457e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.859666169920729e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.8026219947842037e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.66916125832995e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.256325951246254e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.054568017546444e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.90009894671806e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.4437665711852787e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.054568017546444e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.04866724882325e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.909952367488813e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.26646209032333e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.59330960834015e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.26730124078756e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.26646209032333e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.741878232410016e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.064451565952368e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.2703891495102365e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 7.010023850284597e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 7.499690421828437e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 4.0747135754415353e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.0722218490855084e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 7.51771165319326e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.7212470311278594e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.272768871909193e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.948895006544717e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.674291732153506e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.247997836628656e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.804078858138382e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.5142952270916794e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.375389276914163e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.318915282716887e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.5142952270916794e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1599309013288206e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.652402252451452e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.2795700661836236e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.858259343240803e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.003154590062394e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.2795700661836236e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1574843972184112e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.412675969182715e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 1.881444262280574e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 6.582235545504744e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 9.614209485614422e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 8.397333037812871e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6520336103553745e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 8.343588602244267e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.9840776341625315e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.7717565979942265e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.0282507432179955e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.0644580257235248e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.0442881449866945e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.2185675899445414e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.146087667005304e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.97070676233713e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.1093929304095695e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.146087667005304e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.2087411817634e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.829070474725143e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5781560353266286e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.895187813580009e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.837850496348551e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5781560353266286e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.932343847385283e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.585468641986722e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.0004335474153045e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.932201361362303e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 8.755641018320937e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 3.605841341070004e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6674283287443359e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 5.092844208576253e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.8338611695867257e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.5083397972025523e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.724162842720034e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.0068696926500706e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.3599119910168156e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.3278784055946744e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.803768219905578e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1654351883549907e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.0741983942352817e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.803768219905578e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1876037508962156e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.626490439640918e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.295598688168866e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1184225834348638e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.29157058007479e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.295598688168866e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1014826239996722e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.7347177556389397e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.058111470169693e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 8.85867538213958e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 2.2509717846480592e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.231184219134377e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.7463336017017355e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 4.681492589142522e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.855915283817012e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.199761377776667e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.3093217126634045e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.8592893056279536e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.720109363480333e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.7540052300878415e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.066793084371966e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.314674827478939e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.045832672019742e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.066793084371966e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.927119615227298e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.418329957571302e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6609568990920707e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.268508339652868e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.498321802299699e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6609568990920707e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2858625819678338e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.3472995869819897e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.281087506989914e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.1517131270899483e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.6593276967805104e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 3.914684088002218e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.973361420468336e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 7.310573812979726e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4025269905459936e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.430506933772449e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.5404001295091803e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.3690350537417544e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.976486416310763e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.310904027387096e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5617921536991162e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.439482002131626e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.695733878459009e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5617921536991162e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.395281692052947e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.875422500802642e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.7845230818002165e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.808552888148967e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.316013665992216e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.7845230818002165e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.338451080141084e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.865730218270528e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.05253319458468e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.696633252779023e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.212639714494269e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.062337531391847e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.2051626419615786e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 7.513785975632459e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4107509826999376e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.26375468517881e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.7022885501205565e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.560533449828654e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4221314899032222e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.678539220037692e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.165977665275932e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.006004527048248e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.257003510867776e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.165977665275932e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2651367176097494e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.537508904282731e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.5592327449762706e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.765648573660911e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.2857696369580367e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.5592327449762706e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.119035726534719e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.800552033084159e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.2890760120660912e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.5554461429978517e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.0519198926917106e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.849563247117828e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.3242215309314815e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 5.44860299989125e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.783420000213482e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.6010912200245e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.5664675672155681e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.8390807571554433e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.9646329977595087e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.1342910042344556e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.25923062689526e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.821115410866497e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.398529552280706e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.25923062689526e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.916260829661127e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.304319906114131e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4255021955355005e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.743451818116199e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.437453610175226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4255021955355005e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.698543862983854e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.682700238793473e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 1.5252394288043859e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 8.698612030677566e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 8.940037438606718e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 7.83562144945904e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.831711550437376e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.905930147738104e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.758077569837042e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.5276815048537173e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.7974550178555546e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 7.588441093275833e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.0663173927459866e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.1946148436313706e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1010472042680703e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 4.9212257824393646e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.270510410326779e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1010472042680703e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.909459559003352e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.4230860041238884e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.354527925125694e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.974776378676495e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.4170241747233376e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.354527925125694e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.777034865043888e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.452671468260007e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.0496903479936783e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.577413262462642e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.3076132851647104e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 1.1036072247172513e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.8616162356674977e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.760941158034939e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.569168337629435e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.434877745509766e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.857535718220788e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.652586499924837e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.6763472362745233e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.890536930370672e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.268428233127452e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2939543758694327e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.622745800655139e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.268428233127452e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.467864559547067e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.230932104780209e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.251559888894917e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.199841128320173e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.1317885277861706e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.251559888894917e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1453531523208937e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.693472522911748e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.3004175587106854e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.2235466395615902e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.3427938823189212e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 6.693472522911748e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.3359531411415446e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.676491266510709e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 7.886798485401414e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.683017115145958e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.1300320582895438e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.345869854205375e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.9050071813353497e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.8017412461167623e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.9967373023964683e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.256038386632241e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.994576944308051e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.9967373023964683e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0408673156714343e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.062940589768857e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.4557718436190044e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1119185905350548e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.317058230896009e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.4557718436190044e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.3754423766609847e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 9.4545221607234e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.414975557880421e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.730352157344413e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.6490527018631074e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 1.1821918555199318e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.8549869216808474e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 9.110591827621306e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4058844897135714e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.990373237172662e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.139952498709135e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.2962799829097094e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.31914384837728e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.286682664973341e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8994440015139844e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.5894756910661556e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.451952735351483e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8994440015139844e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.574769372680862e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.561727795035722e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.19393486449826e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.7291771625682628e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.00900983194208e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.19393486449826e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2297207219180706e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.1224457585612413e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.0523193207467785e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 5.442616490825003e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.1952046147442608e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 1.326597648176886e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.2029101316434208e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 1.1538988555770402e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.851053821473215e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.059997225804636e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.6679680402708073e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.184117680163581e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.5102424342217091e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6284978201497324e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.541766213288611e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.276331342482734e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.729709558975003e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.541766213288611e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1173390479513046e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.911042150254843e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1085344403436466e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1629490348497029e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.547716773219747e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1085344403436466e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.448183555297078e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.360963974965216e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.8148593658416935e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.454358729232837e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.1182527555018973e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 7.12511305955843e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.5373073054547604e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 5.067552328874569e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.7730873171094572e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.5583074122769176e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.0081503890878594e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.358077110884096e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.1055884573684125e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.202595228264272e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1014755251135284e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.654248107031748e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.883335873451244e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.1014755251135284e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.613639357335501e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.187147026994523e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.7076827038285955e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.279910907958097e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.739465113701158e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.7076827038285955e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1944570987854064e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.715977750066827e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.2915257867110836e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.676310952499989e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.270072124762156e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 7.894529887586543e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.82949674815336e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 7.5977292457452e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.1195859193644537e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.608095438143664e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.5369785018037874e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.494958753933133e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.550633176667816e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.1920682538857363e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.145506758528427e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.769980841538683e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.930182765430004e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.145506758528427e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.9403555118202576e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.185649804533398e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.0346378707690747e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.66594274725918e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 9.618116596499249e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.0346378707690747e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2544324190510991e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.10933789452406e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.8149601793637475e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.327013172910625e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.7919174823619044e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 6.801600243022676e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.090463567583356e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 8.19789846229213e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.5486521977313714e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.212432114376497e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.718631336051658e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.998290748403633e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6871770824877785e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.0887199738695017e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4596887797656564e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.238649040759327e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.835745777143075e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4596887797656564e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0150631013505773e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.628746464481083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.294865481962006e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.126310291699184e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.346502534031572e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.294865481962006e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1308814773514086e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.462695295641254e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.051826066142355e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.1308814773514086e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 9.532654839661259e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 8.462695295641254e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.3865970934243705e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 4.970550415706043e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.10578118039939e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 8.491578071812e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4367644141088931e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.3857110161552555e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.9600881699943784e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.9266426909989605e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.703786336473058e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0396404348522736e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.5020249462886e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.703786336473058e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1100362917737527e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 9.214752552111349e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.382037675692118e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1085253004416984e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.0111722210411926e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.382037675692118e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.352209055838216e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.4724256254013994e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.3027639928015815e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 8.010139773695357e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 9.131157460706696e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 6.913406722652837e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.4677392903859072e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 5.234823570177127e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.818930747774175e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.740419472819667e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.2432645323533507e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.285075337089438e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.756096347728999e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.0980429649976031e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.272777820484407e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1866543736527291e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.071435051791525e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.272777820484407e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.973749916954318e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.041686007625003e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.064477255065867e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.832706922477172e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.56568174658878e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.064477255065867e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.280525668834187e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 9.762858144135578e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.863168727882658e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.137739864772954e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.3644147674740648e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 9.455773528621592e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.9301298215832503e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 1.0269416765851247e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.033955171678372e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.030999567168237e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.028493997523583e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.440605152922217e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.5487302437454673e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.780407036581892e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5852169983409112e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.775609689453233e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.973503977076746e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.5852169983409112e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.709099375003859e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.247016310327979e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8889305895063444e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.318596994045691e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.249995389064679e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8889305895063444e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.943939717147686e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.528392703624263e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 1.9061314370425036e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 6.255245676989318e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.1728160500060203e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 4.951701151334476e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.7276514796549236e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 4.770532990860943e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.2516349841007468e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.1617012418696504e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6892956438141482e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.581348621168218e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.0346692199145764e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.534482513918192e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.496679039471928e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1472387828614927e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.1511307618228273e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.496679039471928e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1612079664491404e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.19015438136006e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.26848980023442e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2087080381029125e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.1744855585860137e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.26848980023442e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.2582549502315743e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.275334144019041e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 1.5262989034185405e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.6905620159324286e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 8.470329472543003e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 2.1794453187243268e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 8.995945059986354e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.0084824018672407e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 7.548927456468846e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.274441055140414e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.2182514694814017e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.1869747232349255e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.70567159741131e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.28089815329713e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.992898633953246e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.7393038976697426e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.1562968826872577e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 3.041085676613875e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.7393038976697426e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.14152347130414e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 1.0262494152257773e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.561549995367841e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.5572801059793306e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.7543910897118735e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 3.561549995367841e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.5613451920248878e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.839796540842769e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.550763507639647e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 6.068120117497244e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 9.335841903990172e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 1.0548796347542577e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.5098072481123381e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 8.174755161682867e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6012731620662635e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.3738412739126034e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4722910677278378e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.7213180640851533e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.366410858049676e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.136727741548384e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6063723396418936e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.918866896603703e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.814440959817091e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6063723396418936e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.128584795206393e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.383077500477953e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6902852752641593e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.3410999366580967e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.886428047219283e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6902852752641593e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.368155501113577e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.409417780377623e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.049560960137439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.936001585711722e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.276206975087818e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.409417780377623e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.1562827211264448e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 5.33512022116156e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.497826251612878e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.734915978270692e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 5.447274844527783e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.264518475987188e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.031510817346316e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.6781594780468367e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.883407739773247e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.332002455700092e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.610615109816422e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.883407739773247e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.890132215302657e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.891110769733586e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.725128993574799e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 1.0578592313237323e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.769365497622971e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.725128993574799e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.880162832320849e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.886757635271579e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 2.6089136038939642e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 9.91188597865289e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 1.164565726255451e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 5.216830634147129e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.4341520255811702e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.859370871303838e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.080375772095522e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.806882622190642e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.5302143598082694e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.754770818569341e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.192942085978757e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.4047059216391062e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8565706386984857e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 9.912330889427778e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.144749049001973e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.8565706386984857e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.470563612166359e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.426613580247988e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6767865151100523e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.020984388843686e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 6.822222951008428e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.6767865151100523e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 6.067148894395302e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 8.175568781965126e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 1.5247398111326223e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 7.398093759825031e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 2.342645467494353e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 8.175568781965126e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.814916522846488e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 6.989780740873641e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.004895984621726e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.1247405495851126e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.8063431969371777e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 3.8104993791421293e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.073657812853071e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 7.272247373180107e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.9210667193524387e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.102916144141602e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 5.461700753883747e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.9210667193524387e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 7.061119733364762e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 7.387575555739545e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4943626030449195e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 8.05062300157644e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.64813426859223e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_QK_bridge",
+      "error": 2.4943626030449195e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_softmax_bridge",
+      "error": 5.792907609158959e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_PV_bridge",
+      "error": 4.1523610772031816e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "zero_QKV_mixed",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "analytic_mixed_QK_bridge",
+      "error": 3.0550877405896457e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_star_softmax",
+      "error": 1.049059141777775e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "IY_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "saved_term_QK",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_SM",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_term_PV",
+      "error": 0.0,
+      "bound": 1e-12
+    },
+    {
+      "name": "saved_rounding_remainder",
+      "error": 4.235164736271502e-22,
+      "bound": 1e-12
+    },
+    {
+      "name": "rounding_bound",
+      "error": 9.883295681058224e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "direct_primitive_installation_QK",
+      "error": 1.0971266517501022e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 4.187475028061272e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_SM",
+      "error": 4.36024140348934e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 9.82274634964142e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_PV",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.1149566887524998e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_ALL",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 2.3168810798779305e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random0",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 1.856577974024276e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random1",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 6.983362489165756e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "direct_primitive_installation_random2",
+      "error": 0.0,
+      "bound": 0.0001
+    },
+    {
+      "name": "finite_final_head",
+      "error": 7.049568040429222e-07,
+      "bound": 0.005
+    }
+  ],
+  "primary": {
+    "passes": 0,
+    "total": 32,
+    "strata": {
+      "generic_0": 0,
+      "generic_1": 0,
+      "descriptive_0": 0,
+      "descriptive_1": 0
+    },
+    "meets_rule": false
+  },
+  "local_PV": {
+    "passes": 0,
+    "total": 32,
+    "strata": {
+      "generic_0": 0,
+      "generic_1": 0,
+      "descriptive_0": 0,
+      "descriptive_1": 0
+    },
+    "meets_rule": false
+  },
+  "scorer_sha256": "ad6fe2f420f8395f54994d21660d801863e6f0e202d7d482bbcf86859cf2cb76",
+  "design_sha256": "8a2c73e5393217ad999f8431a8461930a68c2004be21b4f70647e0ffc602310c",
+  "seal_sha256": "54c4e06bf53e84ccddb7248f8d8815d6166edf1f987c7c573cc5f3ef9c68c108",
+  "csv_hashes": {
+    "local-effects": "1e1157e7cbd4ccd18367ecafb28bc927a4d2ca15e06768ba88aab752c977c31c",
+    "causal-outcomes": "9780f4d793cad90f346ea6de849e19efcc489923d7e0c442236f82f3671f83c9",
+    "primary": "939c5778250cc3e9e61ef9c19ec8e91291d5ac328946bb2d746617dae0bf9fc7"
+  },
+  "interpretation": "Finite first regional interaction and oracle primitive removals, not a prospective native-response predictor or learned circuit."
+}

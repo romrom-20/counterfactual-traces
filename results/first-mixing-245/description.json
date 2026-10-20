@@ -1,0 +1,119 @@
+{
+  "posthoc": true,
+  "model_calls": 0,
+  "source_sha256": "d7177ac8a660e4b7f609b0d0747e04b2911eae48dfdc56d61b752d5273d7a6c1",
+  "audit_sha256": "ef7b006972149af967b33ba6b626826abb961dfe112906863f9bc85877125565",
+  "local": {
+    "all": {
+      "QK": {
+        "relative_norm": 0.6776706483916206,
+        "signed_share": 0.4808647207969061,
+        "relative_error": 0.712642478740268,
+        "cosine": 0.7024240929955861,
+        "target_norm": 3.9165744682606055e-05
+      },
+      "SM": {
+        "relative_norm": 0.21261402889714737,
+        "signed_share": 0.05747317232356065,
+        "relative_error": 0.9652093942167332,
+        "cosine": 0.2670519307782777,
+        "target_norm": 3.9165744682606055e-05
+      },
+      "PV": {
+        "relative_norm": 0.6704358372848234,
+        "signed_share": 0.4539821503818589,
+        "relative_error": 0.7328536173879763,
+        "cosine": 0.6805885675399364,
+        "target_norm": 3.9165744682606055e-05
+      },
+      "E": {
+        "relative_norm": 0.07208367338784244,
+        "signed_share": 0.005174193716946148,
+        "relative_error": 0.9974250925268431,
+        "cosine": 0.07176319752193269,
+        "target_norm": 3.9165744682606055e-05
+      }
+    },
+    "verdict": {
+      "QK": {
+        "relative_norm": 0.4457204881596647,
+        "signed_share": 0.16033462225965328,
+        "relative_error": 0.9557762797016343,
+        "cosine": 0.3318369178174113,
+        "target_norm": 4.455705201752808e-06
+      },
+      "SM": {
+        "relative_norm": 0.2751936293146564,
+        "signed_share": 0.06338876189552525,
+        "relative_error": 0.9737640519199436,
+        "cosine": 0.23979488650565603,
+        "target_norm": 4.455705201752808e-06
+      },
+      "PV": {
+        "relative_norm": 0.7954170990661771,
+        "signed_share": 0.6392584604437791,
+        "relative_error": 0.6002285548036477,
+        "cosine": 0.8006381365728841,
+        "target_norm": 4.455705201752808e-06
+      },
+      "E": {
+        "relative_norm": 0.2620641272880787,
+        "signed_share": 0.06782583815018439,
+        "relative_error": 0.9681620883465119,
+        "cosine": 0.25187958470682303,
+        "target_norm": 4.455705201752808e-06
+      }
+    }
+  },
+  "final": {
+    "QK": {
+      "all_remaining_ratio": 0.9999996776280781,
+      "verdict_remaining_ratio": 0.9999990654221425,
+      "margin_interaction_reduction": -1.9073486328125e-06,
+      "all_native_relative": 1.0364827026578722e-05,
+      "native_margin_error": 9.5367431640625e-06
+    },
+    "SM": {
+      "all_remaining_ratio": 0.9999997465540899,
+      "verdict_remaining_ratio": 0.9999994513974841,
+      "margin_interaction_reduction": -3.814697265625e-06,
+      "all_native_relative": 1.0603064786336503e-05,
+      "native_margin_error": 7.62939453125e-06
+    },
+    "PV": {
+      "all_remaining_ratio": 1.0000004766362762,
+      "verdict_remaining_ratio": 1.0000002657185947,
+      "margin_interaction_reduction": -5.7220458984375e-06,
+      "all_native_relative": 1.050602676049081e-05,
+      "native_margin_error": 1.52587890625e-05
+    },
+    "ALL": {
+      "all_remaining_ratio": 0.9999993510272964,
+      "verdict_remaining_ratio": 0.9999982820076448,
+      "margin_interaction_reduction": 0.0,
+      "all_native_relative": 1.0583369647024161e-05,
+      "native_margin_error": 7.62939453125e-06
+    },
+    "random0": {
+      "all_remaining_ratio": 1.0000004121408221,
+      "verdict_remaining_ratio": 0.999999836749115,
+      "margin_interaction_reduction": -7.62939453125e-06,
+      "all_native_relative": 1.0529994655949561e-05,
+      "native_margin_error": 1.33514404296875e-05
+    },
+    "random1": {
+      "all_remaining_ratio": 1.0000001055955348,
+      "verdict_remaining_ratio": 0.9999995233752801,
+      "margin_interaction_reduction": -7.62939453125e-06,
+      "all_native_relative": 1.0859623016348125e-05,
+      "native_margin_error": 1.1444091796875e-05
+    },
+    "random2": {
+      "all_remaining_ratio": 0.9999997625368264,
+      "verdict_remaining_ratio": 1.0000001559970202,
+      "margin_interaction_reduction": -3.814697265625e-06,
+      "all_native_relative": 1.0638057105152593e-05,
+      "native_margin_error": 1.33514404296875e-05
+    }
+  }
+}

@@ -8,9 +8,19 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local results and useful causal repairs. An accurate general False-only forecast of the full native response has not been demonstrated.
 
-[Latest source/receiver test](docs/analysis/243-source-receiver-silu-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest generation/propagation test](docs/analysis/246b-block9-origin-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: source and receiver SiLU both matter
+## Latest: a large local jump is not the final mechanism
+
+With native attention, experiment244 finds that243's specific interaction does not transfer quantitatively (0/32). The regional interaction remains substantial. Experiment245 removes the first tiny attention interaction and finds almost no final effect.
+
+The observed block9 jump has a more specific local account: a state-sensitive SiLU approximation discrepancy predicts the whole receiving-product interaction in **32/32** cases at **2.44% median error**, but the verdict-row account passes **0/32**. Directly removing it leaves the final interaction largely intact. Explaining a large pooled local vector did not identify the behavioral bottleneck. [Matched-input decomposition, direct primitive interventions and limits](docs/analysis/246b-block9-origin-result.md).
+
+These are retrospective policy-interaction diagnostics, not a native False-only predictor or learned circuit. All numerical audits pass within their stated scope; original implementation/scoring failures remain preserved. **Question B remains open.**
+
+![Local origin and downstream effects](docs/figures/246b/246b-block9-origin.png)
+
+## Earlier: source and receiver SiLU both matter
 
 Experiment 243 separates finite SiLU at the changed Boolean from finite SiLU at receiving tokens. Source-only reduces median native residual error **50.3% → 30.8%**; receiver-only reaches **41.8%**; both reach **17.4%**. Neither region alone reproduces their combined effect, and its interaction vector has a median norm of **35.8%** of that effect. Every arm still has **0/32** full native-response passes.
 
@@ -64,16 +74,16 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_regional.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_mixing.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_regional.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_mixing.py --run --out runs/my-reproduction
 ```
 
-This regenerates 242b and the regional 243 diagnostic. Add `--input-242 runs/existing-242b` to reuse an existing prerequisite. Repeating these already observed literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
+This regenerates 242b/243 prerequisites, native-attention244, first-mixing245 and selected-block246b. Add `--input-242 runs/existing-242b` to reuse an existing prerequisite; `--input-244` can reuse the native-attention factorial with its matching242b input. Repeating these already observed literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
 
 The earlier `reproduce_early.py` wrapper remains available for studies through 241. See the [research guide](research/README.md) for its prerequisite reuse options and stricter archived-array checks.
 

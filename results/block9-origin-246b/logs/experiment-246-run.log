@@ -1,0 +1,11 @@
+/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-244/research/boolean_coupling/origin246.py", line 147, in <module>
+    main(args.input_242.resolve(),args.input_244.resolve(),args.out.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-244/research/boolean_coupling/origin246.py", line 80, in main
+    source=inputs["FQ"].double()+inputs["QF"].double()-inputs["QQ"].double()
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: Cannot convert a MPS Tensor to float64 dtype as the MPS framework doesn't support float64. Please use float32 instead.

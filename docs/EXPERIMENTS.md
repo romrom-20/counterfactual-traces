@@ -135,3 +135,36 @@ One False computation, known weights and the one-token edit generate all source/
 Cross finite/quadratic SiLU by position while holding finite normalization/products and the attention approximation fixed. Every trajectory is internally generated. Source-only and receiver-only each pass 0/32 contrast-recovery cases; the negligible-interaction account also fails. Median native residual errors are 30.8% source-only, 41.8% receiver-only and 17.4% both, against 50.3% baseline. All native-response criteria still fail. Exact old-endpoint, zero-edit and causality controls pass. The original scorer's missing zero-count key is retained; separately frozen 243b corrects only that reporting lookup.
 
 [Protocol](experiments/243-source-receiver-silu.md) · [Reporting correction](experiments/243b-reporting-correction.md) · [Report](analysis/243-source-receiver-silu-result.md) · [All results](../results/regional-silu-243/README.md) · [Reproduce](../research/boolean_coupling/reproduce_regional.py)
+
+## 244 — Does the regional interaction transfer to native attention?
+
+The frozen quantitative portability claim fails0/32. Native attention still
+has a large interaction, but its vector differs substantially from243's.
+FF exactly replays native True and is not a forecast. Includes original
+omitted-zero scorer failure and separately frozen metadata correction244b.
+
+[Protocol](experiments/244-native-attention-regions.md) ·
+[Report](analysis/244-native-attention-regions-result.md) ·
+[Evidence](../results/native-attention-244/README.md)
+
+## 245 — Is the first tiny mixed attention seed consequential?
+
+Incoming interaction at attention2 is exactly zero. The generated signal is
+below the materiality guard in all32 cases; rounding limits fine attribution.
+Removing the entire local mixed value output barely changes final interaction.
+
+[Protocol](experiments/245-first-mixing.md) ·
+[Report](analysis/245-first-mixing-result.md) ·
+[Evidence](../results/first-mixing-245/README.md)
+
+## 246b — What generates the large block9 interaction?
+
+A posthoc selected site, tested with finite matched-input decompositions and
+320 direct product removals. The state-sensitive SiLU discrepancy fits the whole
+local product32/32 but the verdict row0/32; removing it does not explain final
+interaction. Original246's MPS Float64 failure remains preserved.
+
+[Protocol](experiments/246-block9-origin.md) ·
+[Correction](experiments/246b-cpu-additive.md) ·
+[Report](analysis/246b-block9-origin-result.md) ·
+[Evidence](../results/block9-origin-246b/README.md)

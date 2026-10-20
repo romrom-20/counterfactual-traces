@@ -1,0 +1,49 @@
+{
+  "posthoc": true,
+  "model_calls": 0,
+  "source_sha256": "d7177ac8a660e4b7f609b0d0747e04b2911eae48dfdc56d61b752d5273d7a6c1",
+  "audit_sha256": "b8a38f1833e0e69ff634471b33b3e5c4562199941cf3fe6d2d1e77c6b90a1f1b",
+  "portability": {
+    "all_relative": 0.6089809578562265,
+    "all_cosine": 0.7924755898011069,
+    "verdict_relative": 0.67561659465859,
+    "verdict_cosine": 0.8007063131529211,
+    "margin_error": 0.5401086807250977
+  },
+  "native_medians": {
+    "QQ": {
+      "all_relative": 0.5471605299833993,
+      "verdict_relative": 0.48574865056176764,
+      "margin_error": 3.092532157897949
+    },
+    "FQ": {
+      "all_relative": 0.37085510931610854,
+      "verdict_relative": 0.31462188645743866,
+      "margin_error": 2.4825658798217773
+    },
+    "QF": {
+      "all_relative": 0.444963329999298,
+      "verdict_relative": 0.3966816647572593,
+      "margin_error": 2.2186927795410156
+    },
+    "FF": {
+      "all_relative": 0.0,
+      "verdict_relative": 0.0,
+      "margin_error": 0.0
+    }
+  },
+  "signed_medians": {
+    "source_only": {
+      "relative_norm": 0.9462625435035108,
+      "signed_share": 0.7328494976799462
+    },
+    "receiver_only": {
+      "relative_norm": 0.6557563678604199,
+      "signed_share": 0.37156685196869665
+    },
+    "interaction": {
+      "relative_norm": 0.5014443996926455,
+      "signed_share": -0.06359063268944681
+    }
+  }
+}

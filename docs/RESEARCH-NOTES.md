@@ -135,3 +135,38 @@ Posthoc profiles reveal substantial source-token error too. Unlike earlier compo
 The regional causal test separates the improvement left ambiguous by 242b. Source-only SiLU matters more in median projection onto the complete SiLU contrast, but still misses that whole vector by 62.7%. Receiver-only also fails. The interaction norm is 35.8% of the full contrast, although its median signed projection is near zero. Those are different geometric quantities; the interaction is not negligible.
 
 Both regional changes improve native whole-vector accuracy in every case, but not every final margin. The remaining question is whether the interaction is generated anew when receiving SiLU sees a source-changed input, or inherited and reshaped by later attention/norm/product maps. This test does not partition those computations. A same-input primitive intervention is needed before selecting a new full-response rule. [All numerical qualifications and outcomes](analysis/243-source-receiver-silu-result.md).
+
+## 244–245: native attention and the first mixed seed
+
+243's specific interaction does not transfer quantitatively after restoring
+native attention (0/32). The general regional interaction remains substantial.
+This prevents carrying an approximation-policy explanation straight into the
+native model.
+
+Attention2 has exactly zero incoming regional mixed state. Its tiny generated
+weighted-value interaction can be decomposed into query-key, softmax and
+probability/value terms, but no case meets the predeclared materiality guard.
+Relative rounding is substantial. Removing the entire mixed output barely
+changes the final interaction. A first occurrence is not necessarily a causal
+bottleneck; a local identity is not a predictive explanation.
+
+The observed block9 jump motivates a new matched-input generation/propagation
+split. That site selection is retrospective and must not be reported as a
+frozen fresh-context discovery. Neither study solves the native False-only
+prediction question or identifies a learned circuit.
+
+## 246b: a macroscopic local origin still misses the verdict
+
+The block9 mixed-state jump is mainly a state-sensitive finite-minus-quadratic
+SiLU discrepancy in the declared finite allocation. It fits the pooled
+receiving-product vector32/32 at2.44% median error. But its verdict-row account
+fails0/32, and direct removal leaves the large final interaction largely intact.
+A posthoc full-vector check confirms a terminal change of4.09% of that interaction
+in median; unchanged norm alone would not establish a small vector change.
+
+The input change to SiLU's discrepancy and the accompanying up-branch change
+can be separated into explicit product terms. That gives a qualified local
+arithmetic explanation, not the native Boolean-response mechanism. Position
+scope and the finite suffix remain necessary tests. The next useful target is
+substantial NEW generation at the verdict position under native attention,
+rather than another pooled norm peak or end-to-end correction sweep.

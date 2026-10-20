@@ -27,3 +27,11 @@ All active studies concern Question B. Each retains its protocol, source hashes,
 Large raw arrays remain local and are inventoried by size and SHA256. Regenerate them with the [reproduction pipeline](../research/README.md). The earlier [historical archive](../evidence/HISTORY.md) is publication-filtered and hash-verified; one unpublished article is withheld.
 
 Repository verification checks these files and seals. It does not rerun the omitted activation arrays or count as independent model replication.
+
+- [244: native-attention regional factorial](native-attention-244/README.md):
+  quantitative interaction portability fails; native FF is a replay control.
+- [245: first attention mixing](first-mixing-245/README.md): tiny signal, limited
+  relative precision, and negligible final effect of complete local removal.
+- [246b: selected-block origin](block9-origin-246b/README.md): whole local product
+  account passes32/32, verdict account0/32; final interaction remains. Includes
+  original246's pre-intervention MPS Float64 failure and corrected run.

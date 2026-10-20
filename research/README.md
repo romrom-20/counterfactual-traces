@@ -188,3 +188,19 @@ The checkpoint-based validator adds 608 finite-forward comparisons, without a fu
 - [plot226_227.py](boolean_coupling/plot226_227.py): redraws the published figure from the recorded CSVs.
 
 The unsuffixed 225, 226 and 227 entry points preserve failed attempts. Use the `b` versions above for reproduction. The [225b guide](boolean_coupling/README.md) and both follow-up result guides retain individual phase commands and qualification details.
+
+## Native attention and first-mixing diagnostics (244–246b)
+
+```sh
+python -S research/boolean_coupling/reproduce_mixing.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_mixing.py --run --offline --out runs/my-mixing-study
+```
+
+The wrapper regenerates public242b/243 prerequisites, native-attention244,
+first attention mixing245, and the selected-block origin test246b, with separate
+auditors. Add --input-242, --input-243, or --input-244 to reuse appropriate
+qualified local outputs; --input-244 requires its --input-242. Output must be
+new. All are known-context retrospective diagnostics. FF uses an ordinary
+native True replay and is never counted as a successful forecast. Primitive
+removals use observed factorial components. Fixed numerical bounds and earlier
+failures remain. Article drafts are not part of any release.

@@ -29,7 +29,7 @@ Update the [experiment index](docs/EXPERIMENTS.md), [research notes](docs/RESEAR
 
 Verify the release and inspect the staged files before committing. Keep article drafts, checkpoint weights and activation arrays excluded. Push the reviewed update and check GitHub CI. Successful CI establishes repository integrity and syntax/lint checks, not a successful scientific hypothesis or independent model replication.
 
-The repository currently remains private at the owner's request. Updating research evidence does not authorize changing its visibility or publishing article drafts.
+The clean code repository is public. Older PR records remain in a separate private archive. Updating research evidence does not authorize publishing article drafts or pushing legacy unpublished history.
 
 ## Make a scientific claim reviewable
 
