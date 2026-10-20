@@ -204,3 +204,22 @@ new. All are known-context retrospective diagnostics. FF uses an ordinary
 native True replay and is never counted as a successful forecast. Primitive
 removals use observed factorial components. Fixed numerical bounds and earlier
 failures remain. Article drafts are not part of any release.
+
+## Native context, carry and source tests (247–249)
+
+```sh
+python -S research/boolean_coupling/reproduce_native.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_native.py --run --offline --out runs/my-native-study
+```
+
+This regenerates242b prerequisites, native attention247, finite-suffix248, and
+source249 forecasts/controls/audit. Reuse --input-242; matching --input-247 and
+--input-248 can also be supplied (later inputs require their matching earlier
+prerequisites). Every output directory must be new. Unexpected failures stop.
+
+247/248 use observed native incoming states. 249's source-only algorithm computes
+its source from False plus the known edit, and seals every forecast before
+oracle-control reads. These are known-context tests, not fresh confirmation.
+Dense source and suffix computation is substantial; no speedup or learned
+circuit is claimed. Full native accuracy still fails. Code/source seals and all
+controls are retained; omitted arrays are regenerated from public pinned inputs.

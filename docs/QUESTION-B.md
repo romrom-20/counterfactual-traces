@@ -69,3 +69,16 @@ not explain the final interaction under direct removal. This is a local
 explanation of an approximation-policy contrast, not native Boolean-response
 prediction. The next target should distinguish new generation from inherited
 state specifically at the verdict position. [Full latest result](analysis/246b-block9-origin-result.md).
+
+## Native state/source boundary after247–249
+
+The new247–249 targets are the actual native Boolean response, not the earlier
+quadratic-policy interaction. At the tested pre-block10 boundary, True context
+with a False verdict state nearly recovers the native verdict vector; keeping
+only the True verdict state does not. A sealed source-only algorithm using
+False plus the known edit reaches7.0% verdict error,20.6% whole error and.194-nat
+margin error, failing all joint accuracy cases. Oracle intermediate history
+without the True source fails badly. This supports later source/context influence
+and constrains a simple carried-verdict account. Direct source reads versus
+relays, precise primitive transmission and full False-only accuracy remain open.
+[Native source result and explicit budget](analysis/249-source-regeneration-result.md).
