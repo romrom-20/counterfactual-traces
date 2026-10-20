@@ -199,3 +199,9 @@ True receiving states without the True source do not recover the response.
 [Protocol](experiments/249-source-regeneration.md) ·
 [Report](analysis/249-source-regeneration-result.md) ·
 [Seals and every case](../results/source-regeneration-249/README.md)
+
+## 250 / qualified250b — continued source communication
+
+Native K/V and query-group clamps in blocks10–28. Removing both source K/V passes the frozen signed projection/margin necessity rule32/32. Source-value replacement dominates source-key replacement; direct reads matter more than relay reads, with nonlinear overlap. The original completed-data witness-count failure is retained; a frozen accounting-only correction expands the audit to all32 contexts. No prospective predictor or learned circuit.
+
+[Original protocol](experiments/250-native-source-communication.md) · [Correction](experiments/250b-witness-completion-correction.md) · [Report](analysis/250b-native-source-communication-result.md) · [Complete receipts](../results/native-source-communication-250b/README.md)

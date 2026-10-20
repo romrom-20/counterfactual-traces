@@ -82,3 +82,9 @@ without the True source fails badly. This supports later source/context influenc
 and constrains a simple carried-verdict account. Direct source reads versus
 relays, precise primitive transmission and full False-only accuracy remain open.
 [Native source result and explicit budget](analysis/249-source-regeneration-result.md).
+
+## New native communication constraint:250b
+
+In all32 old contexts, preventing source K/V changes from reaching later queries in blocks10–28 removes at least90% of the signed native verdict projection and margin response. The source's own computation stays True. Values matter much more than changed source keys under these clamps; direct verdict reads have larger effects than intermediate reads, but both contribute and interact. This is a qualified retrospective necessity result, not an accurate False-only forecast.
+
+The source-value difference can be computed from the known edit and unchanged causal prefix. What remains unexplained prospectively is the receiver-dependent weighting and transformation of those values and the relay contribution. No learned circuit is identified. The original witness-count failure and bounded250b accounting correction are retained. [Evidence and limits](analysis/250b-native-source-communication-result.md).

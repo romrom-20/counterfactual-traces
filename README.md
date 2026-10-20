@@ -8,15 +8,23 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local results and useful causal repairs. An accurate general False-only forecast of the full native response has not been demonstrated.
 
-[Latest native source test](docs/analysis/249-source-regeneration-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest native communication test](docs/analysis/250b-native-source-communication-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: native context reads matter more than a carried verdict state
+## Latest: continued source values sustain most of the native response
+
+A finite primitive intervention removes source keys and/or values only during later receiving attention reads, preserving the source's own computation. Removing both removes at least90% of the signed native verdict projection **and** margin response in **32/32 old contexts**. Removing keys alone leaves96.3% of the verdict projection; removing values leaves−4.4%, although a sizeable orthogonal displacement remains. Direct verdict reads matter more than intermediate reads; both contribute and their effects interact.
+
+Native/zero-clamp replays and a separate source-boundary identity are exact. The CPU64 witness/head audit passes. The original250 witness-selection/count failure is retained; the separately frozen250b correction qualifies all32 completed cases without changing outputs or criteria. This is retrospective necessity under defined clamps, not a False-only predictor or learned circuit. **Question B remains open.** [All cases, methods, budget and limits](docs/analysis/250b-native-source-communication-result.md).
+
+![Source communication and query-group interventions](docs/figures/250b/250-source-communication.png)
+
+## Earlier: native context reads matter more than a carried verdict state
 
 The new tests target the **actual native Boolean response**, rather than the earlier approximation-policy interaction. Before block10, True earlier context with a False verdict state reaches **4.9% verdict-vector error**; a True verdict state with False context has **101.8% error**. The context-only arm still misses the score bound. [Native carry/read test](docs/analysis/248-native-carry-read-result.md).
 
 A source-only algorithm computes the edited Boolean's state from one False computation and the known edit, then lets the finite suffix regenerate receiving states. It reaches **7.0% verdict error**, **20.6% whole receiving error** and **.194-nat margin error**. It passes **0/32** under the unchanged joint criterion. Earlier receiving states alone, with the source kept False, do not recover the response. [Source regeneration, budget, controls and limits](docs/analysis/249-source-regeneration-result.md).
 
-This narrows the native causal question to later source/context communication and the residual dependence on earlier receiving history. Direct source reads versus relays through other rows remain unresolved. There is no speedup, learned circuit or full answer to Question B. The source computation uses substantial dense model work; these are old contexts, not fresh confirmation.
+This narrows the native causal question to later source/context communication and the residual dependence on earlier receiving history. The250b interventions now separate direct source reads from reads into intermediate rows; precise prospective prediction remains unresolved. There is no speedup, learned circuit or full answer to Question B. The source computation uses substantial dense model work; these are old contexts, not fresh confirmation.
 
 ![Native state and source controls](docs/figures/247-249/248-249-native-states.png)
 
@@ -84,16 +92,16 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_native.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_communication.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_native.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_communication.py --run --out runs/my-reproduction
 ```
 
-This regenerates the242b prerequisite and the native247/248/249 sequence. Add `--input-242 runs/existing-242b` to reuse a prerequisite; matching `--input-247` and `--input-248` can also be reused. The unchanged `reproduce_mixing.py` reproduces the earlier244–246b diagnostics. Repeating these already observed literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
+This regenerates the242b prerequisite and the qualified250b communication test, explicitly retaining the original count-only failure. Add `--input-242 runs/existing-242b` to reuse a prerequisite. The unchanged `reproduce_native.py` reproduces247–249, with matching prerequisite reuse options. The unchanged `reproduce_mixing.py` reproduces the earlier244–246b diagnostics. Repeating these already observed literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
 
 The earlier `reproduce_early.py` wrapper remains available for studies through 241. See the [research guide](research/README.md) for its prerequisite reuse options and stricter archived-array checks.
 
