@@ -41,3 +41,7 @@ Repository verification checks these files and seals. It does not rerun the omit
   nearly recovers the vector but misses the score bound; carried verdict state fails.
 - [249: sealed source regeneration](source-regeneration-249/README.md): a False-only
   source algorithm recovers much of the verdict, with substantial remaining full error.
+
+## Native source communication250b
+
+[All32 cases, retained failure, corrected completion, finite primitive audits and signed effects](native-source-communication-250b/README.md). Removing continued source K/V communication passes the signed projection/margin necessity rule32/32. Value changes matter more than source-key changes under the defined late clamps; direct reads and relays interact. No learned circuit, fresh confirmation or prospective native-response forecast.

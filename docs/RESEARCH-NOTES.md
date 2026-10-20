@@ -196,3 +196,11 @@ controls, and a jointly clamped versus False-source boundary identity. This can
 separate routing/values/mixed effects and direct communication from state-carry
 accounts. It has not been executed. Do not infer a learned circuit from the
 state factorization or switch to another end-to-end correction sweep.
+
+## 250b: discriminate continued source values from source keys and carried state
+
+249 suggested much of the native verdict dependence can regenerate from the computed source.250b adds a direct primitive constraint: replacing source values during late receiving reads nearly erases the signed native verdict projection and margin response, whereas replacing source keys alone leaves most of both. Both-key/value clamps pass the necessity rule32/32 and match an independently constructed False-source boundary control exactly.
+
+Direct verdict reads have the larger effect, but relays also contribute. Their finite effects overlap; no additive learned path or semantic feature follows. Small remaining signed projection can coexist with a substantial vector norm, especially under value-only replacement. Receiver attention weights still adapt. The next prediction hypothesis must specify how source-value information is transformed by unknown receiver states, then face fresh native data.
+
+The complete original model work ended on an accounting assertion: the selector saved32 witness contexts rather than four.250b freezes a count-only completion, preserves the failure and all arrays, and audits all1,056 witnesses. It changes no primary criterion, numerical tolerance or model output. [Full report](analysis/250b-native-source-communication-result.md).

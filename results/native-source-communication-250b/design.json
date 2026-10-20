@@ -1,0 +1,83 @@
+{
+  "experiment": 250,
+  "retrospective": true,
+  "primary": "continued_source_communication",
+  "checkpoint": {
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+    "checkpoint_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "qwen_source_sha256": "a59fa06524227361fb401baf4d177124a27aec146bc01ec931235a9abbab17cb",
+  "source_freeze_commit": "3b16835ec890fb4918d1a9170d7f6be4b64c7608",
+  "source_hashes": {
+    "research/boolean_coupling/communication250.py": "961a67fcecaff0d7d88de6e78f9edb77c120a9ac27dc797f100f19437be5ca50",
+    "research/boolean_coupling/audit250.py": "b3b0d15f548409d40cffa19fe0e3593315550a9f59835887d56bebc74f078e24",
+    "research/boolean_coupling/audit229.py": "cf028bcc5ca56f2ce1605152728da95e80c1c0c4ac6303825c8ad544292c4c3e",
+    "research/boolean_coupling/audit242b.py": "b9d97c3c43c2d1fd05593d9e2d44529fe3e4307012630107b1fd94c36ec65207",
+    "research/boolean_coupling/checkpoint238.py": "8020a0bbafc9646ad05fc6174f199a5f199994230951c8240e01580f0f6fc8a1",
+    "research/boolean_coupling/core225b.py": "bde3360d3f26dd00a6e3f0349dfc07dbebdb088f96c8569e2cbc150b3a1c0da5",
+    "research/boolean_coupling/reference242b.py": "a7762da6ac79ab3b2c76172ef7f0e602cbfd599060feba709f72c97516333f17",
+    "research/boolean_coupling/settings.json": "59e10e1263ef3cd35fe81a68ed9c4a01a5cb245fbb95397afbb6879063ccc7a9",
+    "research/boolean_coupling/cases242.json": "29923fe89ddb5ce529f16679817f7d715ceac210172f2fa8b2fb7c6f61a4563e",
+    "docs/experiments/250-native-source-communication.md": "a87f67477da1fdc6312d8b1cdc321f7b7694e3adbf4a8e7d10849cd53db98be4"
+  },
+  "inputs": {
+    "design.json": "8f0724df41be639db001791424e16897b721dd346e750c30b6f2417e1ed75324",
+    "audit.json": "52374e6c2da4feed613ee62f30eebb23322b708e4e484371456c63f69f61e84e",
+    "forecast-status.json": "99098dd46e4743b6c4a55f4418d31c18926b55bec5389f1c5d37f5e7c247d7a9",
+    "status.json": "83bed9518d5ed530049daa6e9d65584df02e4482ca1135fb04846489b4220033",
+    "weights.npz": "497ae2b45175e97866865b2432b655cb7cd56cecf940efb31edb09971648f79a"
+  },
+  "arms": [
+    "F",
+    "T",
+    "Z",
+    "K",
+    "V",
+    "B",
+    "D",
+    "L",
+    "random0",
+    "random1",
+    "random2"
+  ],
+  "witness_cases": [
+    "2497fdd745449e7f157a968dc2c01123533c326f73b62261fa1170415d977e85",
+    "4776e371a432971c679e34da5fbe20577f55605c3ef62374dc59d7a4e7001095",
+    "38a003cc51bfba2b2be344ce122335c5bd4b0443c2b42bb7f3fd9607d156b235",
+    "14b3d13308feda18051d75f9ce6b3f0260b9a2251665912ea920334845036f67",
+    "475d5c7e23cf9d2d75f763b1b0e97ede97c48efd5159d61b4b95729d29d2ea58",
+    "ecec483efa8abbc87a0a5f5a743a302efb906b0f5a39c623a2ab806d11344ee1",
+    "9d32a933ec1e5db379c05b1c81b837c3facc70835b857025e610d4faa673825f",
+    "3501faf96324169385aa09f361920fe50950cb03d4f589b76684619e30e32141",
+    "25f143994f93c921540aa7fbaec88c5008444de83254b434bbe4e5398f209500",
+    "481ce7b6ae99733c3d5fb9687fe632823ebda11e49ff104665e318d308399be7",
+    "40f48bac0b7abe2ea9dc8906f9fa360547dc125d7e5e9ae522421d138c639318",
+    "aee021fe132798378dd3ddac17710b427e187a0358a4d4f96d3c6b01464a75cd",
+    "6629f26e73f9ec1c1a69fcef7e31346d18e37a55d87bad7ab9d890d610ab3863",
+    "dc8bdb527d796bd3acc3595a1d8d8acaa0c7f6b1560313c84965b1445e88fef3",
+    "a7b090257bcf9446c56687a29c9c21772f5b81666c84d20182b67b4b357e3f33",
+    "346d04cad41817edfa672cbceca931b54f356d1fa0b7179d000216492ce2aeb9",
+    "50406db3df5ae19993374ae012101212c5dea24f05935e74bb62e619ae73b487",
+    "e981e5631cd31c60149e491e65ad3a02ca7a5a2186993fd6568bbea9d5e1f1fe",
+    "7ab2694ba9dc76c0c76c73a9121a60e6e8e1a106ec4b605c222c50d79e5728f8",
+    "1e5a3baa2c26fe463433300010d8e6603377d8f68ac646de3366f3fab4814c39",
+    "132a99cdafe42cf9db9bc8e23cdba45d5c1c79373a6266271bf47fc0f956a48b",
+    "670e070348c3cb994ccc7951c56381db5c5d007f8502b6a81865d398a4b676ac",
+    "9c038dc0af475535e9cb3d0e0ee184fa18591f6be56635466cdd817eaa67f07e",
+    "76b8eaff4097229bbf94e6b811a85f680f587b68c4c3055d5a2466c6f9a88a7b",
+    "9ef65a3dea46cfe7665d22efe246da35120ef5607a1fc7067afe3181fa692324",
+    "54e1c9fb9dc9e591350b3239a0f60167aba12b5a488da93d679b30eadd055c66",
+    "b03545214d2379729c513ba9737496ae94ec3f76d920b3ecd0ab87782249b1c2",
+    "46a2b70e2584632f4a7f62e445b8cf37add51fd51e26f1b9ab042ba7c52ce11c",
+    "b5adc309612b78e276cb5f404ad9ec384983fa9ebad5a09f7bb308ffffe24a36",
+    "c2b6a652f1eb453e9f23c5356cfaf858702546205abf92caf798b024d36ebd07",
+    "7c6d07e7585e4eb06815a77ab23425e014b28a16b970542dc547e7a931aff312",
+    "eb8f207c9ce61d665e54b209f6096c15abb023b15af196a3423ae2b876eed189"
+  ],
+  "witness_blocks": [
+    10,
+    19,
+    28
+  ]
+}

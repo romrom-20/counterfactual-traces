@@ -223,3 +223,19 @@ oracle-control reads. These are known-context tests, not fresh confirmation.
 Dense source and suffix computation is substantial; no speedup or learned
 circuit is claimed. Full native accuracy still fails. Code/source seals and all
 controls are retained; omitted arrays are regenerated from public pinned inputs.
+
+## Native communication250b
+
+Verify complete evidence and history without model imports:
+
+```sh
+python -S research/boolean_coupling/reproduce_communication.py --verify-only --history --plan
+```
+
+Run the finite factorial and separate audit in the pinned environment:
+
+```sh
+python research/boolean_coupling/reproduce_communication.py --run --offline --input-242 runs/existing-242b --out runs/new-communication-reproduction
+```
+
+Omit `--input-242` to regenerate the prerequisite via the existing242b pipeline. Each output must be new. The250b producer wrapper explicitly retains the original250 complete-data witness-count failure, checks its narrow preconditions, then seals corrected accounting; any earlier/different failure stops. All32 witnesses at blocks10/19/28 are independently audited. This requires352 full forwards,608 additional suffix blocks,32 additional full heads and the documented primitive recomputations; no speedup. [Frozen correction](../docs/experiments/250b-witness-completion-correction.md) · [Result](../docs/analysis/250b-native-source-communication-result.md).
