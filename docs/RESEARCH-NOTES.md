@@ -218,3 +218,20 @@ The next question concerned how the important query update is generated. 253's e
 254 then freezes a defect-correction scheme: estimate the nonlinear query remainder at the completed tangent forecast's own inputs; add that frozen term to the next pass's tangent; repeat exactly once. All 32 two-correction forecasts meet full receiving/verdict/margin criteria, with .03488% whole error and .0002174-nat margin error. One correction also passes; norm-matched random directions fail. Public receipts precede native measurements.
 
 This is a successful bounded forecast under a rich model-component budget, not a cheaper native inference method, new normalization principle or identified learned circuit. Predictability of the query remainder does not explain every finite MLP/source/key/value computation retained by the predictor. [Result](analysis/254-predicted-query-curvature-result.md).
+
+## 255–256: local query geometry replaces complete correction trajectories
+
+The 254 iteration is not the only way to estimate its omitted query term. An
+exact two-scalar RMSNorm identity supplies local quadratic/cubic coefficients.
+On old 254 states, quadratic leaves 25.49% local-remainder error and cubic 5.37%.
+That motivates the frozen cubic primary on 32 new literal pairs; all forecasts
+and a separate pre-audit are publicly committed before native measurements.
+
+Cubic passes 32/32 with .9667% whole error and .02047-nat margin error in one
+forecast pass. Quadratic passes only 16/32 and worsens the pooled median margin
+despite a much better vector. This answers whether complete prior correction
+trajectories are necessary in this query budget: they are not. It does not
+explain the finite source/K/V/MLP states retained by the predictor. The next
+mechanistic work must address that learned generation, not simply increase
+Taylor order at the already qualified normalization primitive.
+[Full result](analysis/256-local-query-curvature-result.md).

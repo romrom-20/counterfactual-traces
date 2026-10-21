@@ -217,3 +217,14 @@ Two globally sealed new-literal forecast tests.251b: fixed receiving probabiliti
 253's numerically qualified query tangent still fails0/32 native-response cases. 254 predicts its omitted RMSNorm remainder from a previous approximate trajectory, with exactly two correction passes frozen before data. P2 primary and P1 secondary pass 32/32; tangent seed and matched random control pass 0/32. Whole error 12.30%→.5988%→.03488%. These are new-literal sealed forecasts under substantial finite component work, not a cheap predictor or learned circuit.
 
 [253 protocol](experiments/253-query-generation.md) · [253 report](analysis/253-query-generation-result.md) · [254 protocol](experiments/254-predicted-query-curvature.md) · [254 report](analysis/254-predicted-query-curvature-result.md)
+
+## 255–256 — local geometry and a single-pass query forecast
+
+255 is a zero-model-call retrospective identity/jet/finite-difference diagnostic.
+256 freezes a cubic query rule motivated by that old-state analysis. It passes
+32/32 full native-response cases on new literals, with .9667% median whole error
+and .02047-nat margin error. Quadratic passes 16/32; tangent/random 0/32. Complete
+correction trajectories are unnecessary in this declared query-path budget;
+finite learned source/K/V/MLP computation remains.
+
+[255 algebra](analysis/255-local-query-curvature-result.md) · [256 protocol](experiments/256-local-query-curvature.md) · [256 report](analysis/256-local-query-curvature-result.md)

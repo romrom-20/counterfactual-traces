@@ -100,3 +100,16 @@ The remaining question is quantitative: what generates the necessary query displ
 A smooth False-state query-normalization tangent is numerically qualified yet fails full-response accuracy in253.254 predicts the missing RMSNorm remainder from each preceding forecast, then runs exactly two frozen correction iterations. P2 passes the unchanged receiving-vector/verdict-vector/margin rule 32/32; median whole error .03488%, verdict error .02921%, margin error .0002174 nats. Matched random correction fails0/32. All predictions were publicly sealed before native True measurement.
 
 This establishes predictability of the declared query correction from False and internally generated approximate states. It does not establish a useful smaller computation budget: source computation, keys, values and MLPs remain finite, and multiple passes cost more than a native edited forward. The learned upstream generator and task/checkpoint generalization remain open. [Full scope](analysis/254-predicted-query-curvature-result.md).
+
+## Query-path simplification after 255–256
+
+A cubic local query-normalization formula at each forecast's own incoming state
+passes the full-response criterion 32/32 on new literals, without 254's prior
+seed/correction trajectories. Median whole error .9667%, verdict .8875%, margin
+.02047 nats. Quadratic's 16/32 failure shows that vector improvement alone does
+not establish behavioral accuracy. The two-scalar RMS identity is ordinary
+geometry, not a learned feature. The forecast still computes finite source,
+K/V and MLP states; their particular learned displacement generation and a
+useful smaller budget remain the unresolved Question B. Further Taylor orders
+at the same primitive would refine accuracy rather than answer that question.
+[Report and numerical scope](analysis/256-local-query-curvature-result.md).

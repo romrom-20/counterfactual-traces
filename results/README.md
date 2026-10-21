@@ -55,3 +55,12 @@ Repository verification checks these files and seals. It does not rerun the omit
 ## Query generation 253 and predicted curvature 254
 
 [253 complete evidence](query-generation-253/README.md): correct smooth query tangent, 0/32 full native successes. [254 complete evidence](predicted-query-curvature-254/README.md): frozen two-step forecast-derived correction, 32/32 primary successes; one-step 32/32, matched-random 0/32. All input/output/source seals, numerical boundaries, original raw-coordinate failures and full outcomes are retained. The component budget is substantial; no general compact mechanism or independent replication is claimed.
+
+## Local geometry 255 and single-pass forecasting 256
+
+[255 algebra and local errors](local-query-curvature-255/README.md) retains
+all retrospective case/layer outcomes and 14,384 checks, no model calls.
+[256 full forecast evidence](local-query-curvature-256/README.md) retains every
+sealed forecast, native outcome, numerical qualification and computation budget.
+Cubic 32/32, quadratic 16/32, tangent/random 0/32; substantial finite source/K/V/MLP
+work remains. The original raw coordinate failures stay failed.

@@ -1,0 +1,73 @@
+{
+  "posthoc": true,
+  "model_calls": 0,
+  "source_sha256": "d5236ffc4c8e47c598e2c6f8319d81b0652c03417573284fe2d1882d17a63a50",
+  "audit_sha256": "9c680393c165e84f552bba2c85e0250c8c4df2aa264e5568cb42708c51b4df2d",
+  "csv_hashes": {
+    "outcomes": "76a12dce43afbf131720f361a46cb94639d93025eb1ddbb7c3ec6d570a5c450a",
+    "layer-errors": "12852c3020c73230c95c3b4447650aa6de609ec09b4ee40efda893cef4fc4733",
+    "polynomial-increments": "7a23084ad5273268df408d60ba39365e9f551dd03a00acf2d51cde163c27ba8f"
+  },
+  "pooled": {
+    "L": {
+      "passes": 0,
+      "medians": {
+        "all_relative": 0.12400531798404675,
+        "verdict_relative": 0.11408070713872166,
+        "margin_error": 0.09467697143554688
+      },
+      "maxima": {
+        "all_relative": 0.1438189734931679,
+        "verdict_relative": 0.15709530410178144,
+        "margin_error": 0.19897079467773438
+      }
+    },
+    "Q": {
+      "passes": 16,
+      "medians": {
+        "all_relative": 0.03681337592226304,
+        "verdict_relative": 0.03810365125536359,
+        "margin_error": 0.1649913787841797
+      },
+      "maxima": {
+        "all_relative": 0.04872276358207594,
+        "verdict_relative": 0.05757085783636725,
+        "margin_error": 0.296112060546875
+      }
+    },
+    "C": {
+      "passes": 32,
+      "medians": {
+        "all_relative": 0.009667192626553217,
+        "verdict_relative": 0.00887532131851194,
+        "margin_error": 0.020465850830078125
+      },
+      "maxima": {
+        "all_relative": 0.012861718034448836,
+        "verdict_relative": 0.014957236388767167,
+        "margin_error": 0.04958343505859375
+      }
+    },
+    "R": {
+      "passes": 0,
+      "medians": {
+        "all_relative": 0.13972876238051676,
+        "verdict_relative": 0.13160283808421383,
+        "margin_error": 0.08679580688476562
+      },
+      "maxima": {
+        "all_relative": 0.19668843281580856,
+        "verdict_relative": 0.22055028899074028,
+        "margin_error": 0.46611785888671875
+      }
+    }
+  },
+  "figure_sha256": {
+    "256-local-query-curvature.png": "2da93ebba58b3980f107b1cb7932e9f0d8bfba0c17e4a8c8d0ae048ba8821227",
+    "256-local-query-curvature.svg": "a52ac43b8292707ae4ebe2f43f9113f2a93bb545da40645bea83164499114557"
+  },
+  "plot_floor": 1e-06,
+  "values_below_plot_floor": 0,
+  "all_cases": true,
+  "interpretation": "Single-pass query-path component test; substantial finite learned computation retained; no compact/general QB solution."
+}

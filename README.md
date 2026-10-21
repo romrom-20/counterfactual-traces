@@ -6,11 +6,33 @@ This project investigates **Question B**: why changing an input Boolean generate
 
 The starting puzzle is small: an explicitly irrelevant Boolean in a supplied completion prefix changes a later verdict's conditional preference. The preferred answer can stay the same while its score margin moves substantially. We trace that dependency, retaining failed explanations and numerical checks alongside supported results.
 
-**Status: open, with a bounded forecasting success.** A declared two-correction surrogate now passes full-response criteria on 32 new literal pairs. A compact learned mechanism, useful computational savings and broader generalization remain unestablished.
+**Status: open, with a bounded forecasting success.** A local cubic query rule now passes full-response criteria on 32 new literal pairs in one forecast pass. A compact learned mechanism, useful computational savings and broader generalization remain unestablished.
 
-[Latest forecast closure](docs/analysis/254-predicted-query-curvature-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest single-pass forecast](docs/analysis/256-local-query-curvature-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: predicted query curvature closes the declared forecast
+## Latest: local cubic queries remove the extra correction trajectories
+
+A fixed cubic query-normalization rule passes **32/32 new literal pairs**, with
+**0.9667% median whole-displacement error**, **0.8875% verdict error** and
+**0.02047-nat margin error**. It needs one False pass and one forecast pass,
+using local scalar geometry at its own evolving states. The preceding complete
+seed/correction trajectories are gone. [Full report](docs/analysis/256-local-query-curvature-result.md).
+
+Quadratic alone improves the vector but worsens median margin error; it passes
+only 16/32. Cubic passes 8/8 in every schema/order stratum. The tangent baseline
+and a directional control both pass 0/32. All predictions were publicly sealed
+before native measurements. These are new literals in dependent templates on
+one checkpoint, with substantial finite source/K/V/MLP work retained. No useful
+speedup or compact learned generator has been established.
+
+![Single-pass local polynomial query forecasts](docs/figures/256/256-local-query-curvature.png)
+
+The [retrospective algebra diagnostic](docs/analysis/255-local-query-curvature-result.md)
+shows the exact RMSNorm remainder depends on two scalar contractions of the
+incoming displacement. That is ordinary normalization geometry; the native
+learned computations that generate the displacement remain the central question.
+
+## Earlier: predicted query curvature closes the declared forecast
 
 A False-state tangent predicts query updates but still misses the full native response. A new fixed rule estimates the omitted query-normalization curvature from its own approximate trajectory, then uses that frozen estimate in the next pass. After two corrections it passes the unchanged whole-vector, verdict-vector and margin criteria in **32/32 new literal pairs**.
 
@@ -112,13 +134,13 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_query.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_local_query.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_query.py --run --offline --out runs/my-reproduction
+python research/boolean_coupling/reproduce_local_query.py --run --offline --out runs/my-reproduction
 ```
 
 This runs253 and 254 directly from the checkpoint and published input fixtures, using explicit local seals. Use `--experiment 253` or `--experiment 254` for one study. Repeating published literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new; unexpected failures stop with logs preserved.
