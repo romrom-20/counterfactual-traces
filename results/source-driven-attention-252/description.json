@@ -1,0 +1,160 @@
+{
+  "posthoc": true,
+  "model_calls": 0,
+  "checks": [],
+  "source_sha256": "784f7f09b01f1081543c7f4facbcfb694f42b945f85dcf03cffbe0587b602652",
+  "audit_sha256": "367a4a87f5fb08d26b3264e10b4fe8fa219e6c310e18ec1037008e1ea2af6e23",
+  "csv_hashes": {
+    "outcomes": "ae9d0e06c44f6c87e60848ff4d9016f9af1b45365706396e276900116b9da4ba",
+    "layer-errors": "8d7dc47820184a99b5c709267fff5bc6780b9212399cf4c9453d6a5eb2b92e28",
+    "interactions": "ba823e6f814abe73714b8e3c4fb771d5196796fc36e011baeb3f51f4af944247"
+  },
+  "pooled": {
+    "A": {
+      "all_relative": 0.5307099851642261,
+      "verdict_relative": 0.4833500269366222,
+      "all_cosine": 0.8496482872676765,
+      "verdict_cosine": 0.8779423301197129,
+      "margin_error": 4.627128601074219,
+      "source_final_error": 0.0,
+      "verdict_signed_share": 0.7331317945863801
+    },
+    "Q": {
+      "all_relative": 0.12403198508572513,
+      "verdict_relative": 0.10432656263036819,
+      "all_cosine": 0.9924352602647781,
+      "verdict_cosine": 0.9946924683280444,
+      "margin_error": 0.3718585968017578,
+      "source_final_error": 0.0,
+      "verdict_signed_share": 0.9814577367303501
+    },
+    "K": {
+      "all_relative": 0.5182450067623288,
+      "verdict_relative": 0.4730397643294657,
+      "all_cosine": 0.8565330071580066,
+      "verdict_cosine": 0.8827326044678181,
+      "margin_error": 4.280818939208984,
+      "source_final_error": 0.0,
+      "verdict_signed_share": 0.7481513425769566
+    }
+  },
+  "strata": {
+    "generic_0": {
+      "A": {
+        "all_relative": 0.545424348271085,
+        "verdict_relative": 0.44854121505930766,
+        "all_cosine": 0.8381570398576711,
+        "verdict_cosine": 0.8941734717420355,
+        "margin_error": 2.7054386138916016,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7727062030660259
+      },
+      "Q": {
+        "all_relative": 0.14795684791792316,
+        "verdict_relative": 0.12221185637506095,
+        "all_cosine": 0.9891658010139434,
+        "verdict_cosine": 0.9926651593332215,
+        "margin_error": 0.637176513671875,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.9676580559729245
+      },
+      "K": {
+        "all_relative": 0.5368382592144059,
+        "verdict_relative": 0.4405759052913591,
+        "all_cosine": 0.8435894317182139,
+        "verdict_cosine": 0.8978649693459366,
+        "margin_error": 2.5245513916015625,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7874278644064145
+      }
+    },
+    "generic_1": {
+      "A": {
+        "all_relative": 0.5367946443626997,
+        "verdict_relative": 0.44078731381595826,
+        "all_cosine": 0.8438720753893842,
+        "verdict_cosine": 0.8984487858128396,
+        "margin_error": 2.8729724884033203,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7631657828416554
+      },
+      "Q": {
+        "all_relative": 0.14482516915076962,
+        "verdict_relative": 0.11758216005859475,
+        "all_cosine": 0.9896570278125263,
+        "verdict_cosine": 0.9932937225947369,
+        "margin_error": 0.6445102691650391,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.9701444745398742
+      },
+      "K": {
+        "all_relative": 0.5274270007558624,
+        "verdict_relative": 0.4315072594564975,
+        "all_cosine": 0.849532891379885,
+        "verdict_cosine": 0.9021767442576701,
+        "margin_error": 2.7015762329101562,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7810998635789808
+      }
+    },
+    "descriptive_0": {
+      "A": {
+        "all_relative": 0.5260508152407917,
+        "verdict_relative": 0.4880783700963066,
+        "all_cosine": 0.8527428046276241,
+        "verdict_cosine": 0.8758984123161657,
+        "margin_error": 6.329462051391602,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7026605822841542
+      },
+      "Q": {
+        "all_relative": 0.11240971996462747,
+        "verdict_relative": 0.09965277870732316,
+        "all_cosine": 0.9936671254697997,
+        "verdict_cosine": 0.9950366880208259,
+        "margin_error": 0.23276519775390625,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.9855454421602649
+      },
+      "K": {
+        "all_relative": 0.5139600719937187,
+        "verdict_relative": 0.4768600301828455,
+        "all_cosine": 0.8591750863745602,
+        "verdict_cosine": 0.8807502111979528,
+        "margin_error": 5.841314315795898,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7264971876918065
+      }
+    },
+    "descriptive_1": {
+      "A": {
+        "all_relative": 0.5309163862142621,
+        "verdict_relative": 0.4948594234270773,
+        "all_cosine": 0.8496482872676765,
+        "verdict_cosine": 0.8720196459416881,
+        "margin_error": 6.3894500732421875,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.6951047209510186
+      },
+      "Q": {
+        "all_relative": 0.11195385111519074,
+        "verdict_relative": 0.0990257279913727,
+        "all_cosine": 0.9937278368570694,
+        "verdict_cosine": 0.9950973846329978,
+        "margin_error": 0.21642112731933594,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.9866192701980022
+      },
+      "K": {
+        "all_relative": 0.5182450067623288,
+        "verdict_relative": 0.4826749366222787,
+        "all_cosine": 0.8565330071580066,
+        "verdict_cosine": 0.8771984877721056,
+        "margin_error": 5.924924850463867,
+        "source_final_error": 0.0,
+        "verdict_signed_share": 0.7198293053129803
+      }
+    }
+  },
+  "interpretation": "New literals in dependent templates; no learned circuit or independent replication."
+}

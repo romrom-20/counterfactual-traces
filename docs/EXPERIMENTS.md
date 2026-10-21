@@ -205,3 +205,9 @@ True receiving states without the True source do not recover the response.
 Native K/V and query-group clamps in blocks10–28. Removing both source K/V passes the frozen signed projection/margin necessity rule32/32. Source-value replacement dominates source-key replacement; direct reads matter more than relay reads, with nonlinear overlap. The original completed-data witness-count failure is retained; a frozen accounting-only correction expands the audit to all32 contexts. No prospective predictor or learned circuit.
 
 [Original protocol](experiments/250-native-source-communication.md) · [Correction](experiments/250b-witness-completion-correction.md) · [Report](analysis/250b-native-source-communication-result.md) · [Complete receipts](../results/native-source-communication-250b/README.md)
+
+## 251 / qualified251b and252 — static routing versus receiver feedback
+
+Two globally sealed new-literal forecast tests.251b: fixed receiving probabilities fail despite an exact source; frozen source probabilities also fail.252: source-driven routing with False receiver Q/K fails; live receiver queries reduce whole error53.1%→12.4%, while live receiver keys reach51.8%. Every primary and secondary still has0/32 strict successes. Raw-logit absolute checks remain failed; composed probability/output audits pass under the explicit boundary.
+
+[251 protocol](experiments/251-fixed-receiver-attention.md) · [251b boundary](experiments/251b-composed-attention-qualification.md) · [251 report](analysis/251-fixed-receiver-attention-result.md) · [252 protocol](experiments/252-source-driven-attention.md) · [252 report](analysis/252-source-driven-attention-result.md)

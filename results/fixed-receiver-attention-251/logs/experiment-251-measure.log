@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/attention251.py", line 240, in <module>
+    measure(run, args.proof.resolve())
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/attention251.py", line 182, in measure
+    proof, sealed = read(proof_path), read(run/"forecast-seal.json")
+                    ^^^^^^^^^^^^^^^^
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/attention251.py", line 34, in read
+    return json.loads(path.read_text())
+                      ^^^^^^^^^^^^^^^^
+  File "/Users/samanseshadri/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samanseshadri/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251-measurement-proof.json'

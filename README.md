@@ -8,9 +8,19 @@ The starting puzzle is small: an explicitly irrelevant Boolean in a supplied com
 
 **Status: open.** There are qualified local results and useful causal repairs. An accurate general False-only forecast of the full native response has not been demonstrated.
 
-[Latest native communication test](docs/analysis/250b-native-source-communication-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest native forecast](docs/analysis/252-source-driven-attention-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: continued source values sustain most of the native response
+## Latest: receiver query feedback matters
+
+On32 new literal pairs, fixing receiver queries/keys at their False values while computing the edited source exactly leaves **53.1% whole-displacement error**. Letting receiver queries adapt reduces that to **12.4%**; letting only receiver keys adapt reaches **51.8%**. The query-adaptive secondary still has **10.4% verdict error, .372-nat margin error and0/32 strict successes**. [All forecasts, mechanisms and limits](docs/analysis/252-source-driven-attention-result.md).
+
+A preceding test finds that simply freezing receiver attention probabilities fails at **52.0% whole error**, even with an exact source. Freezing source probabilities also fails. Values matter, but a static route is insufficient: the evolving receiver query changes how subsequent values are read. [251b and its explicit numerical boundary](docs/analysis/251-fixed-receiver-attention-result.md).
+
+Both experiments publish source-bound global forecast seals **before** native True measurements. Exact zero/native/source controls pass; composed-output audits pass. Raw-QK absolute coordinate checks at large first-block logits remain failed and are reported separately. These are new literals in dependent templates on one model, not independent replication. **Question B remains open.**
+
+![Source-driven routing and receiver query/key feedback](docs/figures/252/252-fixed-attention.png)
+
+## Earlier: continued source values sustain most of the native response
 
 A finite primitive intervention removes source keys and/or values only during later receiving attention reads, preserving the source's own computation. Removing both removes at least90% of the signed native verdict projection **and** margin response in **32/32 old contexts**. Removing keys alone leaves96.3% of the verdict projection; removing values leaves−4.4%, although a sizeable orthogonal displacement remains. Direct verdict reads matter more than intermediate reads; both contribute and their effects interact.
 
@@ -92,16 +102,18 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_communication.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_attention.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_communication.py --run --out runs/my-reproduction
+python research/boolean_coupling/reproduce_attention.py --run --offline --out runs/my-reproduction
 ```
 
-This regenerates the242b prerequisite and the qualified250b communication test, explicitly retaining the original count-only failure. Add `--input-242 runs/existing-242b` to reuse a prerequisite. The unchanged `reproduce_native.py` reproduces247–249, with matching prerequisite reuse options. The unchanged `reproduce_mixing.py` reproduces the earlier244–246b diagnostics. Repeating these already observed literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new, and unexpected failures stop with logs preserved.
+This reproduces251b and252 directly from the checkpoint and published input fixtures, using explicit local seals. Use `--experiment 251` or `--experiment 252` for one study. Repeating published literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new. Unexpected failures stop with logs preserved;251b explicitly retains its expected original raw-logit audit failure before the revised composed-output qualification.
+
+Earlier `reproduce_communication.py`, `reproduce_native.py`, `reproduce_mixing.py` and `reproduce_uniform.py` remain unchanged for their historical studies. See the [research guide](research/README.md) for prerequisites and scope.
 
 The earlier `reproduce_early.py` wrapper remains available for studies through 241. See the [research guide](research/README.md) for its prerequisite reuse options and stricter archived-array checks.
 

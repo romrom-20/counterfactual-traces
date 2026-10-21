@@ -1,0 +1,178 @@
+{
+  "status": "complete",
+  "steps": [
+    {
+      "name": "251-forecast",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.attention251",
+        "--phase",
+        "forecast",
+        "--replication",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "251-original-pre-audit",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.audit251",
+        "--phase",
+        "pre",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251"
+      ],
+      "expected_raw_failure": true
+    },
+    {
+      "name": "251-pre-audit",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.audit251b",
+        "--phase",
+        "pre",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "251-seal",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.attention251",
+        "--phase",
+        "seal",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "251-local-proof",
+      "proof_dir": "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251"
+    },
+    {
+      "name": "251-measure",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.attention251",
+        "--phase",
+        "measure",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251",
+        "--proof",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251/replication-proof.json"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "251-final-audit",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.audit251b",
+        "--phase",
+        "final",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment251"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "252-forecast",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.attention252",
+        "--phase",
+        "forecast",
+        "--replication",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "252-pre-audit",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.audit252",
+        "--phase",
+        "pre",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "252-seal",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.attention252",
+        "--phase",
+        "seal",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "252-local-proof",
+      "proof_dir": "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252"
+    },
+    {
+      "name": "252-measure",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.attention252",
+        "--phase",
+        "measure",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252",
+        "--proof",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252/replication-proof.json"
+      ],
+      "expected_raw_failure": false
+    },
+    {
+      "name": "252-final-audit",
+      "command": [
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/../../.venv/bin/python",
+        "-m",
+        "boolean_coupling.audit252",
+        "--phase",
+        "final",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/attention-wrapper-reproduction-251-252/experiment252"
+      ],
+      "expected_raw_failure": false
+    }
+  ],
+  "completed": [
+    "251-forecast",
+    "251-original-pre-audit",
+    "251-pre-audit",
+    "251-seal",
+    "251-local-proof",
+    "251-measure",
+    "251-final-audit",
+    "252-forecast",
+    "252-pre-audit",
+    "252-seal",
+    "252-local-proof",
+    "252-measure",
+    "252-final-audit"
+  ],
+  "wrapper_sha256": "10c127e6bdf40af544e5af826c95096a606bcad1850f755eef640b20be2e9a5d"
+}

@@ -239,3 +239,14 @@ python research/boolean_coupling/reproduce_communication.py --run --offline --in
 ```
 
 Omit `--input-242` to regenerate the prerequisite via the existing242b pipeline. Each output must be new. The250b producer wrapper explicitly retains the original250 complete-data witness-count failure, checks its narrow preconditions, then seals corrected accounting; any earlier/different failure stops. All32 witnesses at blocks10/19/28 are independently audited. This requires352 full forwards,608 additional suffix blocks,32 additional full heads and the documented primitive recomputations; no speedup. [Frozen correction](../docs/experiments/250b-witness-completion-correction.md) · [Result](../docs/analysis/250b-native-source-communication-result.md).
+
+## Latest False-only forecasts251b–252
+
+```sh
+python -S research/boolean_coupling/reproduce_attention.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_attention.py --run --offline --out runs/new-attention-reproduction
+```
+
+Choose `--experiment 251` or `--experiment 252` to run one. No prior activation archive or242b model regeneration is required. The wrapper uses the pinned cached checkpoint, executes forecasts, pre-audit, local seal proof, native controls and final audit; published-literal repetition is not fresh confirmation. For251 it explicitly retains the expected original raw-QK audit failure before251b's composed-output qualification. Unexpected failures stop. The raw absolute checks remain failed and are never called numerical passes.
+
+Actual original studies used public remote forecast receipts before their native measurements. Each study's completed run uses224 full forwards plus the documented extra primitive products and separate audits. The initial251 disk-guard attempt adds five aborted-case forwards; all evidence is retained. There is no speedup claim. [251 report/boundary](../docs/analysis/251-fixed-receiver-attention-result.md) · [252 report](../docs/analysis/252-source-driven-attention-result.md).
