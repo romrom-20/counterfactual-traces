@@ -27,7 +27,7 @@ This test needs no earlier activation archive or prerequisite experiment. It nee
 
 ## Latest: complete upstream vectors and transport geometry
 
-241 traces all29 native-input remainder vectors to the missing input before MLP16. Four greedy sites pass0/32; the first sufficient prefix uses16 sites. Explicitly posthoc metric checks distinguish reduced individual energy from weakened cancellation. [Report](../docs/analysis/241-before-mlp16-vectors-result.md).
+241 traces all 29 native-input remainder vectors to the missing input before MLP16. Four greedy sites pass 0/32; the first sufficient prefix uses 16 sites. Explicitly posthoc metric checks distinguish reduced individual energy from weakened cancellation. [Report](../docs/analysis/241-before-mlp16-vectors-result.md).
 
 ```sh
 python -S research/boolean_coupling/reproduce_early.py --verify-only --history --plan
@@ -35,11 +35,11 @@ python research/boolean_coupling/reproduce_early.py --run --offline \
   --input-238 runs/existing-238 --input-240 runs/existing-240 --out runs/my-early-test
 ```
 
-Omit both input options to regenerate the fixed chain. 241 itself uses CPU64 checkpoint/component arithmetic, not new ordinary model forwards; rebuilding its prerequisites needs MPS. The241 protocol requires the original input-array hashes. Replication in a different numerical environment may stop on those hashes; this release does not silently substitute different regenerated inputs. All used tangents, finite-difference endpoint witnesses, terminal vectors and original numerical bounds are retained. The three descriptive follow-ups are explicitly posthoc and add no causal interventions.
+Omit both input options to regenerate the fixed chain. 241 itself uses CPU64 checkpoint/component arithmetic, not new ordinary model forwards; rebuilding its prerequisites needs MPS. The 241 protocol requires the original input-array hashes. Replication in a different numerical environment may stop on those hashes; this release does not silently substitute different regenerated inputs. All used tangents, finite-difference endpoint witnesses, terminal vectors and original numerical bounds are retained. The three descriptive follow-ups are explicitly posthoc and add no causal interventions.
 
 ## Latest: target-blind SiLU selection and finite primitive intervention
 
-240's forecast-derived 1% activation mask recovers the whole missing MLP16 contrast in32/32 old cases. Conditional final gaps shrink, but the materiality guard admits only3/32 native-input and0/32 forecast-input cases. Full finite continuation from the forecast input still misses the native response by25.2% and1.09nats. [Report](../docs/analysis/240-target-blind-silu-result.md).
+240's forecast-derived 1% activation mask recovers the whole missing MLP16 contrast in32/32 old cases. Conditional final gaps shrink, but the materiality guard admits only 3/32 native-input and 0/32 forecast-input cases. Full finite continuation from the forecast input still misses the native response by25.2% and 1.09 nats. [Report](../docs/analysis/240-target-blind-silu-result.md).
 
 ```sh
 python -S research/boolean_coupling/reproduce_silu.py --verify-only --history --plan
@@ -47,11 +47,11 @@ python research/boolean_coupling/reproduce_silu.py --run --offline \
   --input-239 runs/existing-239 --out runs/my-silu-test
 ```
 
-Omit `--input-239` to regenerate the fixed prerequisite chain. 240 needs the MPS environment below. It seals all masks before intervention outcomes, runs384 direct activation edits with finite continuation, and independently audits all cases. Recorded work adds32 False forwards,32 source-only blocks,32 mask MLPs,384 intervention MLPs,4,608 suffix blocks and384 heads; no new ordinary True forward. The post-run prerequisite-hash recheck binds the archived original inputs; regenerated arrays are evaluated numerically rather than required to match archived compressed-file bytes.
+Omit `--input-239` to regenerate the fixed prerequisite chain. 240 needs the MPS environment below. It seals all masks before intervention outcomes, runs384 direct activation edits with finite continuation, and independently audits all cases. Recorded work adds32 False forwards,32 source-only blocks,32 mask MLPs,384 intervention MLPs,4,608 suffix blocks and 384 heads; no new ordinary True forward. The post-run prerequisite-hash recheck binds the archived original inputs; regenerated arrays are evaluated numerically rather than required to match archived compressed-file bytes.
 
 ## Latest: upstream generators and their input-dependent curvature
 
-238 traces every local remainder through the original affine prefix. The selected MLP16–19 repair improves margin5.15→1.34nats and whole error72.3%→31.6%, but has0/32 full-response passes.239's finite-normalization/quadratic-SiLU formula explains the local generator contrast at MLP17/18 and fails the complete four-site account. [238 report](../docs/analysis/238-upstream-generators-result.md) · [239 report](../docs/analysis/239-generator-curvature-result.md).
+238 traces every local remainder through the original affine prefix. The selected MLP16–19 repair improves margin5.15→1.34 nats and whole error 72.3%→31.6%, but has 0/32 full-response passes.239's finite-normalization/quadratic-SiLU formula explains the local generator contrast at MLP17/18 and fails the complete four-site account. [238 report](../docs/analysis/238-upstream-generators-result.md) · [239 report](../docs/analysis/239-generator-curvature-result.md).
 
 ```sh
 python research/boolean_coupling/reproduce_curvature.py --run --out runs/my-curvature-test
@@ -70,7 +70,7 @@ python research/boolean_coupling/reproduce_upstream.py --run --offline \
 
 237b crosses QK and softmax while keeping normalization/value products and remaining MLPs finite. Neither selective policy passes the joint final-response bound; QK restoration leaves10.8% median whole error under a native reset. Even complete late computation from the ordinary wrong incoming state leaves72.3%. [Full report](../docs/analysis/237-late-attention-result.md).
 
-Qualification is partial. Original237 fails its final bridge; original237b fails one Float64 MLP bridge. The237c numerical diagnostic preserves every bound/failure and finishes25,120 checks,25,119passing. Independent Float32 MLPs and same-backend public replays pass. These are old-context finite-computation diagnostics, not a new False-only predictor.
+Qualification is partial. Original237 fails its final bridge; original237b fails one Float64 MLP bridge. The 237c numerical diagnostic preserves every bound/failure and finishes25,120 checks,25,119passing. Independent Float32 MLPs and same-backend public replays pass. These are old-context finite-computation diagnostics, not a new False-only predictor.
 
 ```sh
 python research/boolean_coupling/reproduce_late.py --run --out runs/my-late-diagnostic
@@ -238,7 +238,7 @@ Run the finite factorial and separate audit in the pinned environment:
 python research/boolean_coupling/reproduce_communication.py --run --offline --input-242 runs/existing-242b --out runs/new-communication-reproduction
 ```
 
-Omit `--input-242` to regenerate the prerequisite via the existing242b pipeline. Each output must be new. The250b producer wrapper explicitly retains the original250 complete-data witness-count failure, checks its narrow preconditions, then seals corrected accounting; any earlier/different failure stops. All32 witnesses at blocks10/19/28 are independently audited. This requires352 full forwards,608 additional suffix blocks,32 additional full heads and the documented primitive recomputations; no speedup. [Frozen correction](../docs/experiments/250b-witness-completion-correction.md) · [Result](../docs/analysis/250b-native-source-communication-result.md).
+Omit `--input-242` to regenerate the prerequisite via the existing242b pipeline. Each output must be new. The 250b producer wrapper explicitly retains the original250 complete-data witness-count failure, checks its narrow preconditions, then seals corrected accounting; any earlier/different failure stops. All 32 witnesses at blocks 10/19/28 are independently audited. This requires352 full forwards,608 additional suffix blocks,32 additional full heads and the documented primitive recomputations; no speedup. [Frozen correction](../docs/experiments/250b-witness-completion-correction.md) · [Result](../docs/analysis/250b-native-source-communication-result.md).
 
 ## Latest False-only forecasts251b–252
 
@@ -247,6 +247,17 @@ python -S research/boolean_coupling/reproduce_attention.py --verify-only --histo
 python research/boolean_coupling/reproduce_attention.py --run --offline --out runs/new-attention-reproduction
 ```
 
-Choose `--experiment 251` or `--experiment 252` to run one. No prior activation archive or242b model regeneration is required. The wrapper uses the pinned cached checkpoint, executes forecasts, pre-audit, local seal proof, native controls and final audit; published-literal repetition is not fresh confirmation. For251 it explicitly retains the expected original raw-QK audit failure before251b's composed-output qualification. Unexpected failures stop. The raw absolute checks remain failed and are never called numerical passes.
+Choose `--experiment 251` or `--experiment 252` to run one. No prior activation archive or242b model regeneration is required. The wrapper uses the pinned cached checkpoint, executes forecasts, pre-audit, local seal proof, native controls and final audit; published-literal repetition is not fresh confirmation. For251 it explicitly retains the expected original raw-QK audit failure before 251b's composed-output qualification. Unexpected failures stop. The raw absolute checks remain failed and are never called numerical passes.
 
-Actual original studies used public remote forecast receipts before their native measurements. Each study's completed run uses224 full forwards plus the documented extra primitive products and separate audits. The initial251 disk-guard attempt adds five aborted-case forwards; all evidence is retained. There is no speedup claim. [251 report/boundary](../docs/analysis/251-fixed-receiver-attention-result.md) · [252 report](../docs/analysis/252-source-driven-attention-result.md).
+Actual original studies used public remote forecast receipts before their native measurements. Each study's completed run uses 224 full forwards plus the documented extra primitive products and separate audits. The initial251 disk-guard attempt adds five aborted-case forwards; all evidence is retained. There is no speedup claim. [251 report/boundary](../docs/analysis/251-fixed-receiver-attention-result.md) · [252 report](../docs/analysis/252-source-driven-attention-result.md).
+
+## Query generation 253 and predicted curvature 254
+
+```sh
+python -S research/boolean_coupling/reproduce_query.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_query.py --run --offline --experiment 254 --out runs/new-query-reproduction
+```
+
+Choose 253 or both to include the tangent/key factorial. Each run is direct from the pinned checkpoint/fixtures, with no earlier activation archive. The wrapper uses an explicit local proof between the global forecast seal and native measurement; repeating published literals is replication, not fresh confirmation. The original scientific studies used public remote receipts. Individual frozen CLI stages were executed and audited; this batch's new wrapper has integrity/plan/syntax checks, without a separate second full model replay. The earlier 251b/252 full local pipeline replay remains separately documented.
+
+254's primary uses one False run, a tangent seed and two corrected passes; zero/random/native replay arms are additional controls. It costs more than ordinary edited inference. Exact budgets and the retained raw-coordinate/composed-output numerical boundary are in the [protocol](../docs/experiments/254-predicted-query-curvature.md) and [report](../docs/analysis/254-predicted-query-curvature-result.md).

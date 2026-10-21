@@ -6,13 +6,23 @@ This project investigates **Question B**: why changing an input Boolean generate
 
 The starting puzzle is small: an explicitly irrelevant Boolean in a supplied completion prefix changes a later verdict's conditional preference. The preferred answer can stay the same while its score margin moves substantially. We trace that dependency, retaining failed explanations and numerical checks alongside supported results.
 
-**Status: open.** There are qualified local results and useful causal repairs. An accurate general False-only forecast of the full native response has not been demonstrated.
+**Status: open, with a bounded forecasting success.** A declared two-correction surrogate now passes full-response criteria on 32 new literal pairs. A compact learned mechanism, useful computational savings and broader generalization remain unestablished.
 
-[Latest native forecast](docs/analysis/252-source-driven-attention-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+[Latest forecast closure](docs/analysis/254-predicted-query-curvature-result.md) · [Upstream causal test](docs/analysis/238-upstream-generators-result.md) · [Reproduce](research/README.md) · [Experiments](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
-## Latest: receiver query feedback matters
+## Latest: predicted query curvature closes the declared forecast
 
-On32 new literal pairs, fixing receiver queries/keys at their False values while computing the edited source exactly leaves **53.1% whole-displacement error**. Letting receiver queries adapt reduces that to **12.4%**; letting only receiver keys adapt reaches **51.8%**. The query-adaptive secondary still has **10.4% verdict error, .372-nat margin error and0/32 strict successes**. [All forecasts, mechanisms and limits](docs/analysis/252-source-driven-attention-result.md).
+A False-state tangent predicts query updates but still misses the full native response. A new fixed rule estimates the omitted query-normalization curvature from its own approximate trajectory, then uses that frozen estimate in the next pass. After two corrections it passes the unchanged whole-vector, verdict-vector and margin criteria in **32/32 new literal pairs**.
+
+Median whole-displacement error falls **12.30% → .5988% → .03488%**; the two-correction margin error is **.0002174 nats**. One correction also passes 32/32; a row-norm-matched random correction passes 0/32. Every forecast was sealed and publicly committed before native True measurement. [Full method, controls and budget](docs/analysis/254-predicted-query-curvature-result.md).
+
+This closes a specific nonlinear query-path forecast under a rich component budget. It **costs more than an ordinary edited forward** and keeps substantial key/value/MLP/source computation finite. It is not a compact explanation of the model's learned features or a full general answer to Question B. Raw coordinate failures remain reported separately from the passing composed-output qualification.
+
+![Forecast-derived query curvature and matched control](docs/figures/254/254-query-curvature.png)
+
+## Earlier: receiver query feedback matters
+
+On32 new literal pairs, fixing receiver queries/keys at their False values while computing the edited source exactly leaves **53.1% whole-displacement error**. Letting receiver queries adapt reduces that to **12.4%**; letting only receiver keys adapt reaches **51.8%**. The query-adaptive secondary still has **10.4% verdict error, .372-nat margin error and 0/32 strict successes**. [All forecasts, mechanisms and limits](docs/analysis/252-source-driven-attention-result.md).
 
 A preceding test finds that simply freezing receiver attention probabilities fails at **52.0% whole error**, even with an exact source. Freezing source probabilities also fails. Values matter, but a static route is insufficient: the evolving receiver query changes how subsequent values are read. [251b and its explicit numerical boundary](docs/analysis/251-fixed-receiver-attention-result.md).
 
@@ -24,17 +34,17 @@ Both experiments publish source-bound global forecast seals **before** native Tr
 
 A finite primitive intervention removes source keys and/or values only during later receiving attention reads, preserving the source's own computation. Removing both removes at least90% of the signed native verdict projection **and** margin response in **32/32 old contexts**. Removing keys alone leaves96.3% of the verdict projection; removing values leaves−4.4%, although a sizeable orthogonal displacement remains. Direct verdict reads matter more than intermediate reads; both contribute and their effects interact.
 
-Native/zero-clamp replays and a separate source-boundary identity are exact. The CPU64 witness/head audit passes. The original250 witness-selection/count failure is retained; the separately frozen250b correction qualifies all32 completed cases without changing outputs or criteria. This is retrospective necessity under defined clamps, not a False-only predictor or learned circuit. **Question B remains open.** [All cases, methods, budget and limits](docs/analysis/250b-native-source-communication-result.md).
+Native/zero-clamp replays and a separate source-boundary identity are exact. The CPU64 witness/head audit passes. The original250 witness-selection/count failure is retained; the separately frozen250b correction qualifies all 32 completed cases without changing outputs or criteria. This is retrospective necessity under defined clamps, not a False-only predictor or learned circuit. **Question B remains open.** [All cases, methods, budget and limits](docs/analysis/250b-native-source-communication-result.md).
 
 ![Source communication and query-group interventions](docs/figures/250b/250-source-communication.png)
 
 ## Earlier: native context reads matter more than a carried verdict state
 
-The new tests target the **actual native Boolean response**, rather than the earlier approximation-policy interaction. Before block10, True earlier context with a False verdict state reaches **4.9% verdict-vector error**; a True verdict state with False context has **101.8% error**. The context-only arm still misses the score bound. [Native carry/read test](docs/analysis/248-native-carry-read-result.md).
+The new tests target the **actual native Boolean response**, rather than the earlier approximation-policy interaction. Before block 10, True earlier context with a False verdict state reaches **4.9% verdict-vector error**; a True verdict state with False context has **101.8% error**. The context-only arm still misses the score bound. [Native carry/read test](docs/analysis/248-native-carry-read-result.md).
 
 A source-only algorithm computes the edited Boolean's state from one False computation and the known edit, then lets the finite suffix regenerate receiving states. It reaches **7.0% verdict error**, **20.6% whole receiving error** and **.194-nat margin error**. It passes **0/32** under the unchanged joint criterion. Earlier receiving states alone, with the source kept False, do not recover the response. [Source regeneration, budget, controls and limits](docs/analysis/249-source-regeneration-result.md).
 
-This narrows the native causal question to later source/context communication and the residual dependence on earlier receiving history. The250b interventions now separate direct source reads from reads into intermediate rows; precise prospective prediction remains unresolved. There is no speedup, learned circuit or full answer to Question B. The source computation uses substantial dense model work; these are old contexts, not fresh confirmation.
+This narrows the native causal question to later source/context communication and the residual dependence on earlier receiving history. The 250b interventions now separate direct source reads from reads into intermediate rows; precise prospective prediction remains unresolved. There is no speedup, learned circuit or full answer to Question B. The source computation uses substantial dense model work; these are old contexts, not fresh confirmation.
 
 ![Native state and source controls](docs/figures/247-249/248-249-native-states.png)
 
@@ -91,9 +101,9 @@ All declared238/239 numerical checks pass. Original237/237b bridge failures rema
 ## What the earlier tests established
 
 - **The conditional preference dependency can be hidden by an unchanged answer.** Failed grounding controls prevent interpreting it as disabling a competent verifier.
-- **Local gate–up interactions matter.** The225b–227b causal sequence separates sign control, new mixing and downstream propagation; a scalar margin explanation can still fail the vector test. [Earlier results](results/README.md).
-- **One early attention update can be forecast.** The234 rule passes a whole local displacement test in 32/32 fresh pairs at 1.52% median error, under its declared exact-first-block/source-computation budget. [Fresh local test](docs/analysis/234-source-key-value-result.md).
-- **Those local accounts do not compose automatically.** The228 whole-response forecast fails all 32 fresh cases. The235–237 diagnostics identify wrong incoming states and further late attention errors. [Complete failed forecast](docs/analysis/228-false-only-alignment-result.md) · [Late primitive test and numerical caveats](docs/analysis/237-late-attention-result.md).
+- **Local gate–up interactions matter.** The 225b–227b causal sequence separates sign control, new mixing and downstream propagation; a scalar margin explanation can still fail the vector test. [Earlier results](results/README.md).
+- **One early attention update can be forecast.** The 234 rule passes a whole local displacement test in 32/32 fresh pairs at 1.52% median error, under its declared exact-first-block/source-computation budget. [Fresh local test](docs/analysis/234-source-key-value-result.md).
+- **Those local accounts do not compose automatically.** The 228 whole-response forecast fails all 32 fresh cases. The 235–237 diagnostics identify wrong incoming states and further late attention errors. [Complete failed forecast](docs/analysis/228-false-only-alignment-result.md) · [Late primitive test and numerical caveats](docs/analysis/237-late-attention-result.md).
 
 Source-token states were computed from the known edit before native True measurement. They are declared component work, not leaked future states. Unknown native receiving states remain oracle diagnostics. [Information-budget clarification](docs/analysis/238-information-budget.md).
 
@@ -102,18 +112,18 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_attention.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_query.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:
 
 ```sh
-python research/boolean_coupling/reproduce_attention.py --run --offline --out runs/my-reproduction
+python research/boolean_coupling/reproduce_query.py --run --offline --out runs/my-reproduction
 ```
 
-This reproduces251b and252 directly from the checkpoint and published input fixtures, using explicit local seals. Use `--experiment 251` or `--experiment 252` for one study. Repeating published literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new. Unexpected failures stop with logs preserved;251b explicitly retains its expected original raw-logit audit failure before the revised composed-output qualification.
+This runs253 and 254 directly from the checkpoint and published input fixtures, using explicit local seals. Use `--experiment 253` or `--experiment 254` for one study. Repeating published literals is numerical replication, not fresh confirmation. The pinned Apple Silicon/MPS environment is required. Every output directory must be new; unexpected failures stop with logs preserved.
 
-Earlier `reproduce_communication.py`, `reproduce_native.py`, `reproduce_mixing.py` and `reproduce_uniform.py` remain unchanged for their historical studies. See the [research guide](research/README.md) for prerequisites and scope.
+Earlier `reproduce_attention.py`, `reproduce_communication.py`, `reproduce_native.py`, `reproduce_mixing.py` and `reproduce_uniform.py` remain unchanged for their studies. See the [research guide](research/README.md) for prerequisites, exact budgets and numerical boundaries.
 
 The earlier `reproduce_early.py` wrapper remains available for studies through 241. See the [research guide](research/README.md) for its prerequisite reuse options and stricter archived-array checks.
 

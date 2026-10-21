@@ -33,7 +33,7 @@ Repository verification checks these files and seals. It does not rerun the omit
 - [245: first attention mixing](first-mixing-245/README.md): tiny signal, limited
   relative precision, and negligible final effect of complete local removal.
 - [246b: selected-block origin](block9-origin-246b/README.md): whole local product
-  account passes32/32, verdict account0/32; final interaction remains. Includes
+  account passes 32/32, verdict account0/32; final interaction remains. Includes
   original246's pre-intervention MPS Float64 failure and corrected run.
 - [247: native verdict/context attention](native-verdict-context-247/README.md):
   actual native False/True inputs; local context influence and finite primitive removals.
@@ -44,10 +44,14 @@ Repository verification checks these files and seals. It does not rerun the omit
 
 ## Native source communication250b
 
-[All32 cases, retained failure, corrected completion, finite primitive audits and signed effects](native-source-communication-250b/README.md). Removing continued source K/V communication passes the signed projection/margin necessity rule32/32. Value changes matter more than source-key changes under the defined late clamps; direct reads and relays interact. No learned circuit, fresh confirmation or prospective native-response forecast.
+[All 32 cases, retained failure, corrected completion, finite primitive audits and signed effects](native-source-communication-250b/README.md). Removing continued source K/V communication passes the signed projection/margin necessity rule 32/32. Value changes matter more than source-key changes under the defined late clamps; direct reads and relays interact. No learned circuit, fresh confirmation or prospective native-response forecast.
 
 ## New-literal forecasting251b–252
 
-[251b complete evidence](fixed-receiver-attention-251/README.md) and [252 complete evidence](source-driven-attention-252/README.md) retain public pre-native seals, every outcome, numerical boundaries, raw-logit failures and runtime budgets. Query adaptation substantially improves the crossed252 forecast, but every primary/secondary still has0/32 strict successes. Article drafts and activation arrays stay local.
+[251b complete evidence](fixed-receiver-attention-251/README.md) and [252 complete evidence](source-driven-attention-252/README.md) retain public pre-native seals, every outcome, numerical boundaries, raw-logit failures and runtime budgets. Query adaptation substantially improves the crossed252 forecast, but every primary/secondary still has 0/32 strict successes. Article drafts and activation arrays stay local.
 
 [Local full-pipeline repeatability](attention-pipeline-validation/README.md): both published experiments reproduced through the wrapper, every saved array identical; not independent replication.
+
+## Query generation 253 and predicted curvature 254
+
+[253 complete evidence](query-generation-253/README.md): correct smooth query tangent, 0/32 full native successes. [254 complete evidence](predicted-query-curvature-254/README.md): frozen two-step forecast-derived correction, 32/32 primary successes; one-step 32/32, matched-random 0/32. All input/output/source seals, numerical boundaries, original raw-coordinate failures and full outcomes are retained. The component budget is substantial; no general compact mechanism or independent replication is claimed.
