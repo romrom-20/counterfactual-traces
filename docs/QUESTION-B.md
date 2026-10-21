@@ -94,3 +94,9 @@ The source-value difference can be computed from the known edit and unchanged ca
 Known source values are insufficient with static receiving probabilities:251b fails despite exact source states.252 also allows the known source key to change routing while receiver Q/K stay False; this still has53.1% whole error. Live receiver queries reduce that to12.4%; live receiver keys alone reach51.8%. This supports a substantial role for query feedback in these defined computations. All variants still fail the strict whole/verdict/margin criterion.
 
 The remaining question is quantitative: what generates the necessary query displacement, and what accounts for the query-only forecast's residual error? Full native prediction under a useful smaller budget and learned-circuit identification remain open. Raw-logit coordinate disagreements are retained; only the declared composed-output boundary passes. [Evidence](analysis/252-source-driven-attention-result.md).
+
+## Bounded native forecast closure after 253–254
+
+A smooth False-state query-normalization tangent is numerically qualified yet fails full-response accuracy in253.254 predicts the missing RMSNorm remainder from each preceding forecast, then runs exactly two frozen correction iterations. P2 passes the unchanged receiving-vector/verdict-vector/margin rule 32/32; median whole error .03488%, verdict error .02921%, margin error .0002174 nats. Matched random correction fails0/32. All predictions were publicly sealed before native True measurement.
+
+This establishes predictability of the declared query correction from False and internally generated approximate states. It does not establish a useful smaller computation budget: source computation, keys, values and MLPs remain finite, and multiple passes cost more than a native edited forward. The learned upstream generator and task/checkpoint generalization remain open. [Full scope](analysis/254-predicted-query-curvature-result.md).

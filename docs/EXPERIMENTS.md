@@ -211,3 +211,9 @@ Native K/V and query-group clamps in blocks10–28. Removing both source K/V pas
 Two globally sealed new-literal forecast tests.251b: fixed receiving probabilities fail despite an exact source; frozen source probabilities also fail.252: source-driven routing with False receiver Q/K fails; live receiver queries reduce whole error53.1%→12.4%, while live receiver keys reach51.8%. Every primary and secondary still has0/32 strict successes. Raw-logit absolute checks remain failed; composed probability/output audits pass under the explicit boundary.
 
 [251 protocol](experiments/251-fixed-receiver-attention.md) · [251b boundary](experiments/251b-composed-attention-qualification.md) · [251 report](analysis/251-fixed-receiver-attention-result.md) · [252 protocol](experiments/252-source-driven-attention.md) · [252 report](analysis/252-source-driven-attention-result.md)
+
+## 253–254 — query generation and forecasted curvature
+
+253's numerically qualified query tangent still fails0/32 native-response cases. 254 predicts its omitted RMSNorm remainder from a previous approximate trajectory, with exactly two correction passes frozen before data. P2 primary and P1 secondary pass 32/32; tangent seed and matched random control pass 0/32. Whole error 12.30%→.5988%→.03488%. These are new-literal sealed forecasts under substantial finite component work, not a cheap predictor or learned circuit.
+
+[253 protocol](experiments/253-query-generation.md) · [253 report](analysis/253-query-generation-result.md) · [254 protocol](experiments/254-predicted-query-curvature.md) · [254 report](analysis/254-predicted-query-curvature-result.md)
