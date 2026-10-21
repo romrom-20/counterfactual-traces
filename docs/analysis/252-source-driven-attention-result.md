@@ -55,6 +55,8 @@ Every case is shown. The primary and secondaries share exactly the same input
 pairs within252; comparisons between them are paired interventions, not
 comparisons between251 and252 literal sets.
 
+A posthoc saved-array check verifies that all A/Q/K forecasts match the complete native True first-block tail exactly in all32 cases. Their later errors therefore arise after that exact initial propagation. A full local reproduction of both pipelines also matches every saved numeric array exactly. This is same-team repeatability, not independent replication. [All checks and hashes](../../results/attention-pipeline-validation/README.md).
+
 ## A more concrete partial explanation
 
 The receiver is not merely a fixed reader of the source's altered values.

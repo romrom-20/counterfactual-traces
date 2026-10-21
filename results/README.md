@@ -49,3 +49,5 @@ Repository verification checks these files and seals. It does not rerun the omit
 ## New-literal forecasting251b–252
 
 [251b complete evidence](fixed-receiver-attention-251/README.md) and [252 complete evidence](source-driven-attention-252/README.md) retain public pre-native seals, every outcome, numerical boundaries, raw-logit failures and runtime budgets. Query adaptation substantially improves the crossed252 forecast, but every primary/secondary still has0/32 strict successes. Article drafts and activation arrays stay local.
+
+[Local full-pipeline repeatability](attention-pipeline-validation/README.md): both published experiments reproduced through the wrapper, every saved array identical; not independent replication.

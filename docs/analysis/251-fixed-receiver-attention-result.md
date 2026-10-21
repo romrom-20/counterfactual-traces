@@ -106,3 +106,5 @@ a complete answer to Question B.
 [Original protocol](../experiments/251-fixed-receiver-attention.md)
 · [251b numerical boundary](../experiments/251b-composed-attention-qualification.md)
 · [Every case, seal and audit](../../results/fixed-receiver-attention-251/README.md)
+
+The complete reproduction wrapper was also executed locally for both251b and252; every saved numeric array matches the original run exactly. This validates local repeatability of the pipeline, not independent accuracy or a stronger raw-logit claim. [Repeatability receipts](../../results/attention-pipeline-validation/README.md).
