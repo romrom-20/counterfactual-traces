@@ -228,3 +228,12 @@ correction trajectories are unnecessary in this declared query-path budget;
 finite learned source/K/V/MLP computation remains.
 
 [255 algebra](analysis/255-local-query-curvature-result.md) · [256 protocol](experiments/256-local-query-curvature.md) · [256 report](analysis/256-local-query-curvature-result.md)
+
+## 257 — source versus receiver Taylor radii
+
+The outside-radius source hypothesis is rejected: the Boolean embedding step
+is inside radius 1.06607. Its cubic normalization update still has 31.77% local
+error; native receivers have minimum radius 2.12861 and .586% median cubic
+normalization-update error. Retrospective, zero-model-call, one unique initial
+embedding comparison. No causal account of older failed policies is established.
+[Protocol](experiments/257-source-receiver-radius.md) · [Report](analysis/257-source-receiver-radius-result.md).

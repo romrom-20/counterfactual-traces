@@ -294,3 +294,19 @@ model calls. It does not prove whole-network stability:
 ```sh
 PYTHONPATH=research python -m boolean_coupling.radius256 --run runs/YOUR-256
 ```
+
+## Source/receiver radius diagnostic 257
+
+```sh
+python -S research/boolean_coupling/reproduce_source_radius.py --verify-only --history --plan
+PYTHONPATH=research python -m boolean_coupling.source_radius257 --run runs/YOUR-256 --out runs/NEW-257
+```
+
+The diagnostic reads already measured native 256 arrays and two public embedding
+rows; no model forward occurs. The outside-radius hypothesis is rejected.
+The initial source embedding comparison is unique, not 32 independent facts.
+A combined published-literal reproduction is available with
+`reproduce_source_radius.py --run --offline --out runs/NEW`, which first invokes
+256's locally sealed pipeline, then 257. Individual original stages ran; this
+new composition has plan/integrity/syntax checks, without another full model
+replay. It preserves failures and requires a new output directory.

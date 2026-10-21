@@ -64,3 +64,8 @@ all retrospective case/layer outcomes and 14,384 checks, no model calls.
 sealed forecast, native outcome, numerical qualification and computation budget.
 Cubic 32/32, quadratic 16/32, tangent/random 0/32; substantial finite source/K/V/MLP
 work remains. The original raw coordinate failures stay failed.
+
+[257 source/receiver geometry](source-receiver-radius-257/README.md) preserves
+the explicitly rejected outside-radius hypothesis, all native local Taylor
+errors and 29,536 checks. Zero model calls; no new behavioral forecast or
+causal explanation of the earlier failed approximation policies.

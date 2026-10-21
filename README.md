@@ -32,6 +32,13 @@ shows the exact RMSNorm remainder depends on two scalar contractions of the
 incoming displacement. That is ordinary normalization geometry; the native
 learned computations that generate the displacement remain the central question.
 
+A [source/receiver diagnostic](docs/analysis/257-source-receiver-radius-result.md)
+rejects the hypothesis that the Boolean source step lies outside its Taylor
+radius. It is inside, but close to the boundary: even its cubic normalization
+update has **31.77% local error**. The receiver rule cannot simply be assumed
+accurate at the source. This is retrospective geometry, not a causal explanation
+of earlier failed forecasts.
+
 ## Earlier: predicted query curvature closes the declared forecast
 
 A False-state tangent predicts query updates but still misses the full native response. A new fixed rule estimates the omitted query-normalization curvature from its own approximate trajectory, then uses that frozen estimate in the next pass. After two corrections it passes the unchanged whole-vector, verdict-vector and margin criteria in **32/32 new literal pairs**.
@@ -134,7 +141,7 @@ Source-token states were computed from the known edit before native True measure
 Verify every release, source seal and retained historical record without a model:
 
 ```sh
-python -S research/boolean_coupling/reproduce_local_query.py --verify-only --history --plan
+python -S research/boolean_coupling/reproduce_source_radius.py --verify-only --history --plan
 ```
 
 For an actual reproduction, follow the [environment setup](research/README.md), then:

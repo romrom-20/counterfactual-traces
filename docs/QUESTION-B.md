@@ -113,3 +113,11 @@ K/V and MLP states; their particular learned displacement generation and a
 useful smaller budget remain the unresolved Question B. Further Taylor orders
 at the same primitive would refine accuracy rather than answer that question.
 [Report and numerical scope](analysis/256-local-query-curvature-result.md).
+
+257 rejects a further proposed explanation: the source Boolean step does not
+leave its smooth RMS Taylor radius. It is much closer to the boundary than
+receiver steps, and cubic approximation has 31.77% local error at the initial
+source normalization. Thus the qualified receiver cubic rule cannot simply
+be assumed accurate at the source. These native-input diagnostics do not
+forecast unknown source states or causally explain earlier failed policies.
+[Source/receiver result](analysis/257-source-receiver-radius-result.md).
