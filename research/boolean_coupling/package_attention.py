@@ -47,16 +47,19 @@ def main(run, out, phase, failed, logs):
         dest = out/"logs"/p.name
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(p, dest)
+    design = json.loads((run/"design.json").read_text())
+    num = design["experiment"]
+    report = "251-fixed-receiver-attention-result.md" if num == 251 else "252-source-driven-attention-result.md"
     extras = [ROOT/p for p in (
         "research/boolean_coupling/reproduce_attention.py", "research/boolean_coupling/describe_attention.py",
-        "research/boolean_coupling/package_attention.py", "docs/analysis/251-fixed-receiver-attention-result.md",
-        "docs/figures/251/251-fixed-attention.png", "docs/figures/251/251-fixed-attention.svg")]
+        "research/boolean_coupling/package_attention.py", "docs/analysis/"+report,
+        f"docs/figures/{num}/{num}-fixed-attention.png", f"docs/figures/{num}/{num}-fixed-attention.svg")]
     design = json.loads((run/"design.json").read_text())
     extras.extend(ROOT/p for p in design["source_hashes"])
     published = [p for p in out.rglob("*") if p.is_file()]
-    write_json(out/"manifest.json", dict(release="fixed-receiver-attention-251", fresh_literals=True, source_freeze_commit=design["source_freeze_commit"],
+    write_json(out/"manifest.json", dict(release=out.name, fresh_literals=True, source_freeze_commit=design["source_freeze_commit"],
         files={str(p.relative_to(ROOT)):sha(p) for p in sorted(set(published+extras))}))
-    print("Packaged complete251 evidence, pre-native receipts and retained first-attempt failure.")
+    print("Packaged complete attention-test evidence, public pre-native receipts and retained failures.")
 
 
 if __name__ == "__main__":

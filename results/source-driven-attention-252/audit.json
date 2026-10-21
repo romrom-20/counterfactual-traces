@@ -1,0 +1,4841 @@
+{
+  "numerical_boundary": "Composed probabilities/outputs; raw-logit absolute criterion is separately reported",
+  "raw_logit_checks_sha256": "a3b69c20d3bb06ca6584b063777549af3fac43963842fa15dcab51e29dd21131",
+  "raw_logit_checks": {
+    "total": 84,
+    "failed": 28,
+    "maximum_error": 0.005372528703446733,
+    "original_bound": 0.0001
+  },
+  "status": "passed",
+  "phase": "final",
+  "checks": [
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.410122173695072e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.410122173695072e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.6114264244370133e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.9043894258506953e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.2698333122784788e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.4319127041639845e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.3670396608128632e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.9615562341090964e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 4.0904090869986476e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 8.199946364695343e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.1066093265353913e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.1834114510556049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 9.366850491909773e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.794379517836234e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 6.787872161240216e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.4825435046272872e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.033857895573533e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.4319127041639845e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.3670396608128632e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.9615562341090964e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 4.0904090869986476e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 8.199946364695343e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.1066093265353913e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.1834114510556049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 9.366850491909773e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.794379517836234e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 6.787872161240216e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.4825435046272872e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.033857895573533e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.590735380121224e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.376316532494039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 2.0097677932984226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.8342617847984e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.983953367873831e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.9359657805195774e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.1926971577036483e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.935639788567926e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.5785318844582257e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 5.614617320404136e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.6242287215195716e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.843283443354494e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.590735380121224e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.376316532494039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 2.0097677932984226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.8342617847984e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.536090614381543e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.275634267689952e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.991287536730397e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.217541407340434e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.457697997672927e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.4287645558350732e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.1648665254604396e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.3714349658708898e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.590735380121224e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.376316532494039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 2.0097677932984226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.8342617847984e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.25700635090454e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.3294260533823774e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0930692639909978e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 9.930713651407075e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 8.834248806377509e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 5.415082974025154e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.545469398768546e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 4.067960546194627e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.590735380121224e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.376316532494039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 2.0097677932984226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.8342617847984e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.0386293475272979e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.99298632463929e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0291890795155467e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.493037035288808e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 5.007031728676559e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.6134403718079966e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.131932846400787e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.616594473536793e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.590735380121224e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.376316532494039e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 2.0097677932984226e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.8342617847984e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.0386293475272979e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.99298632463929e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0291890795155467e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.493037035288808e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 5.007031728676559e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.6134403718079966e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.131932846400787e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.616594473536793e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.8120906467042914e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.8120906467042914e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7323821097647851e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7323821097647851e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.1838828132558774e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.808718522511299e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.7024248367979453e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 4.872654010057431e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 4.872654010057431e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.7794284040160164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.7794284040160164e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.732085303909116e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.5837058192100812e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.477469592563011e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 2.0305153838495738e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.007335426146284e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.3089081685180304e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.810835697062089e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 8.516089380350422e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.545625274270492e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.2503087587489858e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.098612553152023e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.54994220641958e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 7.78444197280237e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.84252775446015e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.406446504428118e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 2.0305153838495738e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.007335426146284e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.3089081685180304e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.810835697062089e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 8.516089380350422e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.545625274270492e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.2503087587489858e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.098612553152023e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.54994220641958e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 7.78444197280237e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.84252775446015e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.406446504428118e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.3062075885159636e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.1003387427175344e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.6802569446916493e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.569392947992526e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 8.345655063690671e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.667653298067286e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.1170374876518e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.084524340999593e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.509913912406851e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 7.983955296886336e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.7179959110880105e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.8979610782187137e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.3062075885159636e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.1003387427175344e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.6802569446916493e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.569392947992526e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.420314822095044e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.551685639340384e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.255513090858145e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.8456801446076199e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 6.011620057311262e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 6.1200122893900755e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.87460918191718e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.542970025804948e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.3062075885159636e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.1003387427175344e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.6802569446916493e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.569392947992526e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.7314503816337e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.338800042023248e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.523663708182028e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.121437957113841e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.36402988532614e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 6.852526067469e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0537783501352038e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.3612544559625803e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.3062075885159636e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.1003387427175344e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.6802569446916493e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.569392947992526e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.5537497911610743e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.7168901254602815e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.376472604432195e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.0026760306480753e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.7925609092104295e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.609385910152696e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 4.956591770355345e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.4953017341289296e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.3062075885159636e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.1003387427175344e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.6802569446916493e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.569392947992526e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.5537497911610743e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.7168901254602815e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.376472604432195e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.0026760306480753e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.7925609092104295e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.609385910152696e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 4.956591770355345e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.4953017341289296e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.714323156600585e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.714323156600585e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.953622732590702e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.953622732590702e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.0367228305294702e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.4499493303787858e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.882919740125999e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.132138033379306e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.132138033379306e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7084908989772885e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7084908989772885e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.683900777038616e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.580904616105272e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 6.509297364232225e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.237356922752843e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.118563365878124e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.7500914573087556e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.047557281034898e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 6.877802440907743e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.2044084704297973e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 7.923312778101987e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 9.572094683552024e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.781462945857573e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 4.768885523365185e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.257020401800872e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.897978198745932e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.237356922752843e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.118563365878124e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.7500914573087556e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 5.047557281034898e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 6.877802440907743e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.2044084704297973e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 7.923312778101987e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 9.572094683552024e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.781462945857573e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 4.768885523365185e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.257020401800872e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.897978198745932e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.2222629595881607e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.159599865735439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.8229577480877168e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.116561762110507e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.627048447811369e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.9709710974424866e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0379603943011517e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 6.501969191941015e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.24217747874156e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.035817474739133e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.107552008582928e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.066653384564688e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.2222629595881607e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.159599865735439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.8229577480877168e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.116561762110507e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.0946085581831078e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.0574566303176454e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0745297474024085e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.61212363808994e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 5.252250585563445e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 4.4159930943088455e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 4.783583906764477e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.818877683414712e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.2222629595881607e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.159599865735439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.8229577480877168e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.116561762110507e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.8949764459324e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.1116801198761692e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.0825447616102934e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 1.1411571489983174e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.364755159524947e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.820376422325467e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 7.264303381049331e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.2374623000208658e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.2222629595881607e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.159599865735439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.8229577480877168e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.116561762110507e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.738671015169231e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.68987133345e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.325799361053043e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.785930491444049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.841811467870549e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.456235120324891e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 7.82354919737216e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.11353955773086e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.2222629595881607e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.159599865735439e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.8229577480877168e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.116561762110507e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.738671015169231e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.68987133345e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 8.325799361053043e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.785930491444049e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.841811467870549e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.456235120324891e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 7.82354919737216e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.11353955773086e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.455395886613587e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.455395886613587e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.915581511331311e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.915581511331311e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.2193306768467664e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.915960822884699e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.171344099608177e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.3965467999810244e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.3965467999810244e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.875352068722805e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.875352068722805e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.975017565631788e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7000558045765501e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.4744403148702077e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.4653468244650867e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.4653468244650867e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.8372003129106815e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.8372003129106815e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.906105644877698e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.190938339197146e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.284069691744662e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.151556695333511e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.151556695333511e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.36147546167831e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.36147546167831e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.193924882793908e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.1841433433801285e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.369583010088718e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.6015259493306075e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.6015259493306075e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 8.976469345611804e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 8.976469345611804e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.2831231234476945e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.612849065997125e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.8674641566462924e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.242682011600495e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.119095469966693e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.7144893071918688e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.888214481610589e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.1342166985617297e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.8842814343565948e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.2707900953756734e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.087782096792949e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.2757847162899765e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.868850973809401e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.161035988519245e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.839818845856712e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.242682011600495e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.119095469966693e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.7144893071918688e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.888214481610589e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.1342166985617297e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.8842814343565948e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.2707900953756734e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.087782096792949e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.2757847162899765e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.868850973809401e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.161035988519245e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.839818845856712e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.214030206497796e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.1530214961086305e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.78735559797083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.169889653686369e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.0877745142967576e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.49661719120553e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.1626503837458557e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.360731722500958e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.2956582119169084e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.8195734748391885e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 5.348337794863767e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.016926333503477e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.214030206497796e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.1530214961086305e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.78735559797083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.169889653686369e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.567228227980173e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.3148688506058335e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.5989749480027626e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.620411144326766e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 7.029777330247455e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 5.4557070887639725e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 4.088981092609245e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 4.095368344891881e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.214030206497796e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.1530214961086305e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.78735559797083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.169889653686369e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.120190413428368e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.4822833895044027e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.109793612563692e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 6.651097613774581e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 4.204837287524743e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.4359038343367843e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.9094170567466335e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 3.071958939671049e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.214030206497796e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.1530214961086305e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.78735559797083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.169889653686369e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.699343380131786e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.798523698777089e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.485475612105773e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.961354080432415e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.1273184830649114e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.33047098566297e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.0849459764503706e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.803786918192941e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 1.214030206497796e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 1.1530214961086305e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 1.78735559797083e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 8.169889653686369e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 9.699343380131786e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 2.798523698777089e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 6.485475612105773e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 7.961354080432415e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_composed_probability",
+      "error": 3.1273184830649114e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_composed_output",
+      "error": 3.33047098566297e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_softmax",
+      "error": 3.0849459764503706e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "CPU64_runtime_PV",
+      "error": 2.803786918192941e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "independent_query_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "independent_key_installation",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.1431616019640387e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.1431616019640387e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.239888309915841e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.239888309915841e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.603522226252153e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.7310623355324424e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 6.928144820506077e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.958522649976203e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.958522649976203e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.445483803294792e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.445483803294792e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.3520784086249478e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.913924293717173e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.210851623691724e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.1569224034910803e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.1569224034910803e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.1374016821719124e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.1374016821719124e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.3142524579734527e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.095450286456526e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.4279324790654755e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.5613050052820654e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.5613050052820654e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.4722849002168914e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.4722849002168914e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.4392736719391905e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.3727995091558114e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.1989100343612336e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.191716215487304e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.191716215487304e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.877100044429426e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.877100044429426e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 7.228309158335833e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.181670313130326e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.8128332161259095e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.3017194149256284e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.3017194149256284e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.667809371497242e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.667809371497242e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.954181271912603e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.763501669278412e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.6901444602222e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.2956001285147067e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.2956001285147067e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 8.580768451338372e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 8.580768451338372e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.0472724173714596e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.050732026110836e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.195243354208287e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.136786210054197e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.136786210054197e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.72497015174622e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.72497015174622e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.3188037968347999e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.9429259054959402e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.2624087609178787e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.8416792855191488e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.8416792855191488e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.744348537613405e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.744348537613405e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 7.63864538555481e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.362733539484907e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.6797144510860562e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.166731846386938e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.166731846386938e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.637200838430999e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.637200838430999e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.065923974394536e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.8746357000054559e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.0715991365373156e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 4.783506994954223e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 4.783506994954223e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.3402426521101916e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.3402426521101916e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 5.168963284063466e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.221218861426678e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.4574529312058075e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.085723624782986e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.085723624782986e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.790820483435709e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.790820483435709e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.503832405409412e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.2229154577880763e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.358257217200844e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 6.0269576778182454e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 6.0269576778182454e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7156644744886762e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7156644744886762e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.655168231058269e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.1105958697708047e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.4369888106102735e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 5.0532856334939424e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 5.0532856334939424e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.07425089829394e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.07425089829394e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.013449526496515e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.6077885121035251e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.2953287793493473e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.4697166480791566e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.4697166480791566e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.5705914506725094e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.5705914506725094e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.5385381593755483e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.108819124657657e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.3694412735485457e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.795978173570802e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.795978173570802e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.2137224152961608e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.2137224152961608e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.9983504837314285e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.1184041969490863e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.8393829535057193e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.0712511599185746e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.0712511599185746e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.8607857771589806e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.8607857771589806e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.431665208746381e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.031856960295954e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.8661118303953117e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.7466345809680206e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.7466345809680206e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.25436862880224e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.25436862880224e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.3639914939744813e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.4071418681946852e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.425770939533777e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.7644596326249484e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.7644596326249484e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.286272916762755e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.286272916762755e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.172832968800776e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.7464353874174776e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 4.632573599394618e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 4.636795019052897e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 4.636795019052897e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.7750009294891242e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.7750009294891242e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.0887275979930564e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.6144425813990892e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 7.808317050717051e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.658381181992354e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 3.658381181992354e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.1386106706368082e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 1.1386106706368082e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.649040650088864e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.4565668539366925e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 7.694272596836527e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.043326300020908e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 1.043326300020908e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 6.36375123264088e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 6.36375123264088e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 3.7450008960604464e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 2.4320583662529316e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_forecast_finite_head",
+      "error": 9.19869584947719e-07,
+      "bound": 0.005
+    },
+    {
+      "name": "False_zero_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "False_zero_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.672149690852166e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "CPU64_native_finite_head",
+      "error": 2.672149690852166e-06,
+      "bound": 0.005
+    },
+    {
+      "name": "oracle_True_probability_trajectory",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "oracle_True_probability_scores",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "known_edit_source_exact",
+      "error": 0.0,
+      "bound": 0.0
+    }
+  ],
+  "ordinary_true": 32,
+  "scorer_sha256": "f0a98ac4ba404dd6284053dc748570d6e4243dd3ed7a669b39934b7932fa19e5",
+  "design_sha256": "075a6703abf43965a5eaa724204aa22206e1f948ab38d07be05e402d84222b26",
+  "forecast_status_sha256": "e39bee8794a1e9b0a44087e3a80ea555a3ca62f4229fe145f8242c0718d057f8",
+  "witness_coverage": {
+    "contexts": 4,
+    "layers": [
+      1,
+      14,
+      28
+    ],
+    "kernels": 84,
+    "full_forward_reconstruction": false
+  },
+  "primary": {
+    "passes": 0,
+    "total": 32,
+    "strata": {
+      "generic_0": 0,
+      "generic_1": 0,
+      "descriptive_0": 0,
+      "descriptive_1": 0
+    },
+    "meets_rule": false
+  },
+  "decisions": {
+    "A": {
+      "passes": 0,
+      "total": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "meets_rule": false
+    },
+    "Q": {
+      "passes": 0,
+      "total": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "meets_rule": false
+    },
+    "K": {
+      "passes": 0,
+      "total": 32,
+      "strata": {
+        "generic_0": 0,
+        "generic_1": 0,
+        "descriptive_0": 0,
+        "descriptive_1": 0
+      },
+      "meets_rule": false
+    }
+  },
+  "seal_sha256": "73f60ca2dc13164d447cba22b8a4c24a357bfbf7aac16898f33ee5ae143695d4",
+  "forecast_seal_sha256": "2756dc89389ae921c2607ae047dc4d14fb447dd044741c7a6f569ede20325cd3",
+  "csv_hashes": {
+    "outcomes": "ae9d0e06c44f6c87e60848ff4d9016f9af1b45365706396e276900116b9da4ba",
+    "layer-errors": "8d7dc47820184a99b5c709267fff5bc6780b9212399cf4c9453d6a5eb2b92e28",
+    "interactions": "ba823e6f814abe73714b8e3c4fb771d5196796fc36e011baeb3f51f4af944247"
+  }
+}

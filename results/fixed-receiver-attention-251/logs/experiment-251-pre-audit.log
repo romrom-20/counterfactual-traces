@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/audit251.py", line 183, in <module>
+    main(args.run.resolve(), args.phase)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/audit251.py", line 115, in main
+    witness_count += witness_checks(run, case, "forecast", entry, f, checks)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/audit251.py", line 47, in witness_checks
+    checked(checks, "CPU64_QK", q@np.repeat(k, groups, axis=0).swapaxes(-1, -2)*scaling, raw, 1e-4)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-251/research/boolean_coupling/audit229.py", line 28, in checked
+    assert np.isfinite(error) and error <= bound, checks[-1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': 'CPU64_QK', 'error': 0.005667371191520942, 'bound': 0.0001}

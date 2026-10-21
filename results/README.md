@@ -45,3 +45,7 @@ Repository verification checks these files and seals. It does not rerun the omit
 ## Native source communication250b
 
 [All32 cases, retained failure, corrected completion, finite primitive audits and signed effects](native-source-communication-250b/README.md). Removing continued source K/V communication passes the signed projection/margin necessity rule32/32. Value changes matter more than source-key changes under the defined late clamps; direct reads and relays interact. No learned circuit, fresh confirmation or prospective native-response forecast.
+
+## New-literal forecasting251b–252
+
+[251b complete evidence](fixed-receiver-attention-251/README.md) and [252 complete evidence](source-driven-attention-252/README.md) retain public pre-native seals, every outcome, numerical boundaries, raw-logit failures and runtime budgets. Query adaptation substantially improves the crossed252 forecast, but every primary/secondary still has0/32 strict successes. Article drafts and activation arrays stay local.

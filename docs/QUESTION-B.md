@@ -88,3 +88,9 @@ relays, precise primitive transmission and full False-only accuracy remain open.
 In all32 old contexts, preventing source K/V changes from reaching later queries in blocks10–28 removes at least90% of the signed native verdict projection and margin response. The source's own computation stays True. Values matter much more than changed source keys under these clamps; direct verdict reads have larger effects than intermediate reads, but both contribute and interact. This is a qualified retrospective necessity result, not an accurate False-only forecast.
 
 The source-value difference can be computed from the known edit and unchanged causal prefix. What remains unexplained prospectively is the receiver-dependent weighting and transformation of those values and the relay contribution. No learned circuit is identified. The original witness-count failure and bounded250b accounting correction are retained. [Evidence and limits](analysis/250b-native-source-communication-result.md).
+
+## New forecasting constraint: receiver query feedback,251b–252
+
+Known source values are insufficient with static receiving probabilities:251b fails despite exact source states.252 also allows the known source key to change routing while receiver Q/K stay False; this still has53.1% whole error. Live receiver queries reduce that to12.4%; live receiver keys alone reach51.8%. This supports a substantial role for query feedback in these defined computations. All variants still fail the strict whole/verdict/margin criterion.
+
+The remaining question is quantitative: what generates the necessary query displacement, and what accounts for the query-only forecast's residual error? Full native prediction under a useful smaller budget and learned-circuit identification remain open. Raw-logit coordinate disagreements are retained; only the declared composed-output boundary passes. [Evidence](analysis/252-source-driven-attention-result.md).
