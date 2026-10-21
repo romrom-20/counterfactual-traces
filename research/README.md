@@ -1,8 +1,58 @@
 # Reproduce the current research
 
-The latest studies return to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
+Earlier studies returned to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
-## Latest: source versus receiver SiLU
+## Current:258/258b receiver-MLP forecasting and259 ranking diagnostic
+
+258's fixed1% finite-SiLU rule, combined with cubic receiver queries, passes32/32
+fresh full-response cases. Quadratic/random controls pass0/32.259 is a
+retrospective comparison of all saved C/S MLP witness inputs; it is not a fresh
+forecast. [258 report](../docs/analysis/258-receiver-mlp-result.md) ·
+[259 report](../docs/analysis/259-silu-score-factors-result.md).
+
+```sh
+python -S research/boolean_coupling/reproduce_receiver_mlp.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_receiver_mlp.py --run --offline --out runs/my-258-reproduction
+```
+
+The first command uses only the standard library and checks the entire published
+history plus new258/259 receipts and summaries. Integrity is not numerical model
+replication. The second requires the pinned Apple Silicon environment below.
+It runs forecast→258b qualification→pre-audit→local seal→local proof→native/control
+measurement→final audit, using a new directory. It never publishes or pushes.
+Source code and all individual scientific stages executed in the original study;
+we have not run a separate end-to-end replay of this convenience wrapper.
+
+258b is an explicit changed whole-primal qualification: full-sequence-shape
+Float32 down projections must replay exactly; original CPU64 absolute errors
+remain in separate failed-check CSVs. The published original pre-audit failure
+is preserved. A new replication directly executes258b; it does not fabricate
+another copy of the historical original failure. Every other component and
+behavioral criterion remains fixed. Raw QK and older whole-block derivative
+failures remain unresolved. No full independent real-arithmetic model audit.
+
+The selected fraction is .999504% across all receiving coordinates; the rest
+use quadratic SiLU. Full public SiLU still executes before hook replacement.
+All finite source/K/V/RMS/projection/product/softmax work and extra audit
+projections are declared in the report. This is not a speedup experiment.
+
+After generating258 arrays, reproduce the fixed-input259 diagnostic separately:
+
+```sh
+PYTHONPATH=research python -m boolean_coupling.score259 \
+  --run runs/my-258-reproduction/experiment258 --out runs/my-259-diagnostic
+```
+
+This loads pinned down-projection weights on CPU and the saved forecast witnesses,
+without running a model forward. It checks original mask/component bridges and
+reports all nine variants, both whole and verdict scopes. Inputs are published
+literals and existing forecast states, so rerunning does not make it fresh
+confirmation. Raw arrays are generated locally, never downloaded from a private
+research archive.
+
+## Earlier results and wrappers
+
+## Earlier: source versus receiver SiLU
 
 243 tests a frozen regional factorial on the existing 242b contexts. Source-only and receiver-only each fail the full contrast-recovery rule. Their interaction is substantial; native residual errors improve but every arm remains at **0/32** joint accuracy passes. [Report](../docs/analysis/243-source-receiver-silu-result.md).
 
@@ -14,7 +64,7 @@ python research/boolean_coupling/reproduce_regional.py --run --offline \
 
 Omit the input option to regenerate 242b first. The regional test adds 32 zero-edit controls and 128 modified forwards, without new native True measurements. QQ/FF replay 242b100/101 exactly; receiver edits leave source states unchanged. The corrected 243b scorer preserves the original metadata-key failure and all numerical rules. Raw arrays are inventoried locally, and exact same-environment endpoint replay is required. These are retrospective diagnostics, not new predictive confirmation.
 
-## Latest: fresh uniform primitive test
+## Earlier: fresh uniform primitive test
 
 242b applies one fixed primitive-family policy across all blocks, generating its own source and receiver states. All forecasts were pushed before native measurements. The primary passes **0/32**, at **50.3%** whole-displacement and **1.44 nats** margin error; finite SiLU reduces the former to **17.4%**, still **0/32**. [Report and numerical scope](../docs/analysis/242b-uniform-primitive-families-result.md).
 
@@ -25,7 +75,7 @@ python research/boolean_coupling/reproduce_uniform.py --run --offline --out runs
 
 This test needs no earlier activation archive or prerequisite experiment. It needs the pinned MPS environment below. The wrapper records replication mode before forecasts and creates a local seal; it does not push or alter Git. Its already observed literals are not fresh confirmation. Original 242's implementation failure is preserved separately; 242b changes the unsupported nested SiLU AD expression, without changing tolerances or hypotheses.
 
-## Latest: complete upstream vectors and transport geometry
+## Earlier: complete upstream vectors and transport geometry
 
 241 traces all 29 native-input remainder vectors to the missing input before MLP16. Four greedy sites pass 0/32; the first sufficient prefix uses 16 sites. Explicitly posthoc metric checks distinguish reduced individual energy from weakened cancellation. [Report](../docs/analysis/241-before-mlp16-vectors-result.md).
 
@@ -37,7 +87,7 @@ python research/boolean_coupling/reproduce_early.py --run --offline \
 
 Omit both input options to regenerate the fixed chain. 241 itself uses CPU64 checkpoint/component arithmetic, not new ordinary model forwards; rebuilding its prerequisites needs MPS. The 241 protocol requires the original input-array hashes. Replication in a different numerical environment may stop on those hashes; this release does not silently substitute different regenerated inputs. All used tangents, finite-difference endpoint witnesses, terminal vectors and original numerical bounds are retained. The three descriptive follow-ups are explicitly posthoc and add no causal interventions.
 
-## Latest: target-blind SiLU selection and finite primitive intervention
+## Earlier: target-blind SiLU selection and finite primitive intervention
 
 240's forecast-derived 1% activation mask recovers the whole missing MLP16 contrast in32/32 old cases. Conditional final gaps shrink, but the materiality guard admits only 3/32 native-input and 0/32 forecast-input cases. Full finite continuation from the forecast input still misses the native response by25.2% and 1.09 nats. [Report](../docs/analysis/240-target-blind-silu-result.md).
 
@@ -49,7 +99,7 @@ python research/boolean_coupling/reproduce_silu.py --run --offline \
 
 Omit `--input-239` to regenerate the fixed prerequisite chain. 240 needs the MPS environment below. It seals all masks before intervention outcomes, runs384 direct activation edits with finite continuation, and independently audits all cases. Recorded work adds32 False forwards,32 source-only blocks,32 mask MLPs,384 intervention MLPs,4,608 suffix blocks and 384 heads; no new ordinary True forward. The post-run prerequisite-hash recheck binds the archived original inputs; regenerated arrays are evaluated numerically rather than required to match archived compressed-file bytes.
 
-## Latest: upstream generators and their input-dependent curvature
+## Earlier: upstream generators and their input-dependent curvature
 
 238 traces every local remainder through the original affine prefix. The selected MLP16–19 repair improves margin5.15→1.34 nats and whole error 72.3%→31.6%, but has 0/32 full-response passes.239's finite-normalization/quadratic-SiLU formula explains the local generator contrast at MLP17/18 and fails the complete four-site account. [238 report](../docs/analysis/238-upstream-generators-result.md) · [239 report](../docs/analysis/239-generator-curvature-result.md).
 
@@ -66,7 +116,7 @@ python research/boolean_coupling/reproduce_upstream.py --run --offline \
 
 238 seals its audited selection before intervention outcomes and separately reconstructs all finite-difference endpoints.239 alone needs CPU calculations and the cached checkpoint; rebuilding earlier studies requires the MPS setup below. All outputs must be new. Old native input directions are supplied only as retrospective diagnostics. Source-only states have pre-observation computational provenance, clarified [here](../docs/analysis/238-information-budget.md).
 
-## Latest: late-attention omissions and numerical diagnosis
+## Earlier: late-attention omissions and numerical diagnosis
 
 237b crosses QK and softmax while keeping normalization/value products and remaining MLPs finite. Neither selective policy passes the joint final-response bound; QK restoration leaves10.8% median whole error under a native reset. Even complete late computation from the ordinary wrong incoming state leaves72.3%. [Full report](../docs/analysis/237-late-attention-result.md).
 
