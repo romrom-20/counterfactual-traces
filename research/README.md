@@ -261,3 +261,52 @@ python research/boolean_coupling/reproduce_query.py --run --offline --experiment
 Choose 253 or both to include the tangent/key factorial. Each run is direct from the pinned checkpoint/fixtures, with no earlier activation archive. The wrapper uses an explicit local proof between the global forecast seal and native measurement; repeating published literals is replication, not fresh confirmation. The original scientific studies used public remote receipts. Individual frozen CLI stages were executed and audited; this batch's new wrapper has integrity/plan/syntax checks, without a separate second full model replay. The earlier 251b/252 full local pipeline replay remains separately documented.
 
 254's primary uses one False run, a tangent seed and two corrected passes; zero/random/native replay arms are additional controls. It costs more than ordinary edited inference. Exact budgets and the retained raw-coordinate/composed-output numerical boundary are in the [protocol](../docs/experiments/254-predicted-query-curvature.md) and [report](../docs/analysis/254-predicted-query-curvature-result.md).
+
+## Single-pass polynomial query forecast 256
+
+```sh
+python -S research/boolean_coupling/reproduce_local_query.py --verify-only --history --plan
+python research/boolean_coupling/reproduce_local_query.py --run --offline --out runs/new-local-query-reproduction
+```
+
+This runs 256 directly from the pinned checkpoint and published fixtures, with
+an explicit local proof between the global forecast seal and native measurement.
+It needs no 254 activation archive. Original individual CLI stages and separate
+pre/final numerical audits were executed; the new wrapper has integrity/plan/
+syntax checks, without a separate second full model replay. Repeating published
+literals is replication, not fresh confirmation.
+
+The primary algorithm uses one False pass plus one forecast pass. K/V, MLPs,
+source computation and readout remain finite. No wall-clock speedup or compact
+learned generator is established. Complete budgets, original failed coordinate
+checks and passing composed-output scope are in the [report](../docs/analysis/256-local-query-curvature-result.md).
+
+255 is model-free retrospective algebra and requires retained 254 arrays:
+
+```sh
+PYTHONPATH=research python -m boolean_coupling.curvature255 --run runs/YOUR-254 --out runs/NEW-255
+```
+
+Its source verifies the 254 input-array hashes; every destination must be new.
+The optional posthoc command diagnoses local smooth Taylor radii without new
+model calls. It does not prove whole-network stability:
+
+```sh
+PYTHONPATH=research python -m boolean_coupling.radius256 --run runs/YOUR-256
+```
+
+## Source/receiver radius diagnostic 257
+
+```sh
+python -S research/boolean_coupling/reproduce_source_radius.py --verify-only --history --plan
+PYTHONPATH=research python -m boolean_coupling.source_radius257 --run runs/YOUR-256 --out runs/NEW-257
+```
+
+The diagnostic reads already measured native 256 arrays and two public embedding
+rows; no model forward occurs. The outside-radius hypothesis is rejected.
+The initial source embedding comparison is unique, not 32 independent facts.
+A combined published-literal reproduction is available with
+`reproduce_source_radius.py --run --offline --out runs/NEW`, which first invokes
+256's locally sealed pipeline, then 257. Individual original stages ran; this
+new composition has plan/integrity/syntax checks, without another full model
+replay. It preserves failures and requires a new output directory.
