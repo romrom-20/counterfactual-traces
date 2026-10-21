@@ -6,6 +6,34 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
+## Current answer after258–259
+
+The defined prospective prediction problem has a bounded positive answer:
+with cubic receiver queries and the other declared finite components, a fixed
+rule allocating finite SiLU to1% of receiving coordinates passes the joint
+native residual/verdict/margin criterion32/32 on fresh literals. Whole-error
+median is2.13%, versus40.79% for quadratic everywhere and39.53% for random1%.
+Its own evolving state generates the mask; no native receiving trajectory is
+supplied. This goes beyond a one-site conditional repair.
+
+The broader mechanistic question remains open. The rule still computes finite
+source/K/V/MLP projections, normalization, products and softmax. Actual SiLU
+executes before instrumentation replacement; no speedup or compact learned
+circuit is established. A retrospective score comparison points to the
+activation remainder/gate-displacement scale rather than output-column norm
+as the main local ranking information, but it does not freshly validate a
+simpler global predictor. Nor does it explain why these learned upstream gates
+have these particular displacements on broader inputs.
+
+The original258 whole-primal CPU64 check failed. The explicit258b qualification
+was frozen before native outcomes and retains all failed raw checks. It
+qualifies the stated Float32/component computation, not a full independent
+whole-model derivative identity. [258 result and exact budget](analysis/258-receiver-mlp-result.md) ·
+[259 local diagnostic](analysis/259-silu-score-factors-result.md).
+
+The sections below preserve how the unresolved questions evolved; historical
+failures are not overwritten by this more restricted success.
+
 ## What has narrowed the question
 
 The starting observation is a conditional preference dependency: changing an explicitly irrelevant Boolean in a supplied completion prefix changes the later verdict's true-minus-false score margin. The preferred Boolean can remain unchanged while the margin moves substantially. This alone does not establish verifier competence or a deployment failure.

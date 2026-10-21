@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/research/boolean_coupling/audit258.py", line 353, in <module>
+    main(args.run.resolve(), args.phase)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/research/boolean_coupling/audit258.py", line 262, in main
+    mlp_witnesses(run, case, "forecast", entry, f, down_weights, checks)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/research/boolean_coupling/audit258.py", line 184, in mlp_witnesses
+    checked(checks, "independent_down_projection", product@down[layer].T, write, 1e-4)
+  File "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/research/boolean_coupling/audit229.py", line 28, in checked
+    assert np.isfinite(error) and error <= bound, checks[-1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': 'independent_down_projection', 'error': 0.0002710234896028396, 'bound': 0.0001}

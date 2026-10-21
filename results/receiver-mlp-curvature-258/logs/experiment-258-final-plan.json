@@ -1,0 +1,81 @@
+{
+  "steps": [
+    {
+      "name": "forecast",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "boolean_coupling.mlp258",
+        "--phase",
+        "forecast",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258",
+        "--replication"
+      ]
+    },
+    {
+      "name": "qualification",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "boolean_coupling.qualify258b",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258"
+      ]
+    },
+    {
+      "name": "pre",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "boolean_coupling.audit258b",
+        "--phase",
+        "pre",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258"
+      ]
+    },
+    {
+      "name": "seal",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "boolean_coupling.mlp258",
+        "--phase",
+        "seal",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258"
+      ]
+    },
+    {
+      "name": "proof"
+    },
+    {
+      "name": "measure",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "boolean_coupling.mlp258",
+        "--phase",
+        "measure",
+        "--out",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258",
+        "--proof",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258/replication-proof.json"
+      ]
+    },
+    {
+      "name": "final",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "boolean_coupling.audit258b",
+        "--phase",
+        "final",
+        "--run",
+        "/Users/samanseshadri/conductor/workspaces/training-jev-v1/bucharest/.context/experiment-258/runs/receiver-mlp-reproduction/experiment258"
+      ]
+    }
+  ],
+  "scope": "Published-literal numerical replication with local pre-native proof; not new confirmation."
+}

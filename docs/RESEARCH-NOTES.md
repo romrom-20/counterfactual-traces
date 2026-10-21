@@ -2,6 +2,36 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## Latest: a conditional sparse repair finally composes under an accurate query rule
+
+240's1% SiLU result was conditional on an incoming state that the forecast could
+not predict. Repeating that same single-site demonstration would not answer B.
+256 supplied a useful constraint: query-feedback accuracy can be retained by a
+local cubic normalization rule without earlier correction trajectories.258
+therefore keeps that rule fixed and tests1% finite SiLU at **every** receiving
+MLP, starting from the False computation and known edit.
+
+The primary passes32/32 fresh literal pairs; quadratic and matched-random1%
+both pass0/32. Median whole error falls40.79%→2.13%. This is a real prospective
+composition result under the explicit rich budget, not a newly inferred learned
+circuit. The remaining99% use quadratic SiLU; full source/K/V/normalization/
+projections/products/softmax remain finite. Actual instrumentation provides no
+compute savings.
+
+259 then asks which ranking operands matter locally, using all24 existing C/S
+witness inputs. Dropping the analytical remainder bound increases remaining
+whole-gap error6.76×. Dropping down-column norm leaves similar capture24/24;
+using cubic gate-displacement magnitude in place of the interval bound is also
+close locally. Thus the full score is not uniquely necessary, and column norm
+is not the demonstrated driver here. These are retrospective fixed-input
+comparisons, not global interventions or fresh simplified-rule confirmation.
+
+The original258 whole-down CPU64 bridge fails. Before native measurements,
+258b separately freezes exact matched-full-shape Float32 replay and keeps raw
+failures unchanged. This numerical boundary must accompany the positive result;
+it does not repair the older disputed derivatives. [Full258](analysis/258-receiver-mlp-result.md) ·
+[All259 variants](analysis/259-silu-score-factors-result.md).
+
 ## The first distinction: an unchanged answer can hide a dependency
 
 The original behavioral observation is a change in the later Boolean's conditional true-versus-false score margin when an explicitly irrelevant earlier Boolean changes. The preferred answer can remain unchanged. Counting copied or unchanged answers alone misses that dependence. Earlier grounding controls failed, so this is not a demonstrated ability to disable a competent verifier.

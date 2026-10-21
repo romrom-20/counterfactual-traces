@@ -1,5 +1,15 @@
 # Results and evidence
 
+## Latest258/258b and259
+
+- [258 full forecasts and explicit258b qualification](receiver-mlp-curvature-258/README.md):
+  ranked1%32/32, quadratic/random0/32, finite reference32/32; every sealed
+  forecast, native result, signed local effect, numerical failure and budget.
+- [259 all ranking variants](silu-score-factors-259/README.md):24 existing
+  fixed forecast inputs,432 records,72 checks, no new model/native measurement.
+  This is retrospective local evidence, not a simpler-rule global validation.
+
+
 All active studies concern Question B. Each retains its protocol, source hashes, runtime, controls, failures and case-level outputs. The causal sequence is retrospective; 228 adds a prospective forecast test on new literal pairs and fails its frozen criteria. No successful general False-only forecast is established.
 
 - **[225b: baseline versus local interaction](baseline-interaction-225b/README.md)** — sign reversal is controlled by K, but the quantitative account fails overall. Includes the failed 225 preflight.

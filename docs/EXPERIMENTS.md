@@ -2,6 +2,30 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
+## Latest:258 / qualified258b — fixed1% receiving SiLU budget
+
+A globally sealed fresh test with cubic receiver queries held fixed. Ranked1%
+finite SiLU passes32/32 whole/verdict/margin cases (2.13% median whole error);
+quadratic and matched-random1% pass0/32. Finite reference32/32. Every layer uses
+its own forecast inputs, no observed native receiving states. The remaining99%
+are quadratic; substantial other finite computation stays. Original whole-down
+CPU64 audit failed; explicit pre-native258b qualifies matched-shape Float32
+replay and unchanged component checks while preserving raw failures.
+
+[Protocol](experiments/258-receiver-mlp-curvature.md) · [258b boundary](experiments/258b-matched-projection-qualification.md) · [Report](analysis/258-receiver-mlp-result.md) · [Every case and seals](../results/receiver-mlp-curvature-258/README.md)
+
+## 259 — ranking factors at existing forecast inputs
+
+Retrospective, zero model calls,24 fixed C/S witnesses. All nine fixed-budget
+score variants reported. Dropping the remainder bound leaves6.76× as much local
+whole-gap error; dropping column norm stays within.05 additional error24/24.
+Cubic gate-displacement magnitude is also close locally. No fresh simplified
+predictor, final margin intervention or learned circuit is established.
+
+[Protocol](experiments/259-silu-score-factors.md) · [Report](analysis/259-silu-score-factors-result.md) · [All records](../results/silu-score-factors-259/README.md)
+
+## Earlier studies
+
 ## 225b — What reverses the local effect's sign?
 
 Separate the gate–up interaction K from the baseline shift B at MLP23. K reverses the tested sign in 32/32 cases; B alone does so in 0/32. The strict K-only quantitative account passes 16/32, all generic, and fails overall.
