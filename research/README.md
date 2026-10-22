@@ -5,6 +5,42 @@ Earlier studies returned to the failed whole-response forecast. **235** provides
 For task definitions, a causal diagram and the shortest evidence path, begin
 with the [reader guide](../docs/READING-GUIDE.md).
 
+## MLP normalization origin and branch interventions
+
+261–264 test whether the MLP gate/up displacement needs finite input
+normalization, then directly intervene on its branches and two remainder terms.
+These are four **old** contexts. The energy-only primary fails2/4 joint cases;
+it is not a new successful fresh predictor. See the
+[report and numerical boundary](../docs/analysis/261-264-mlp-normalization-origin.md).
+
+```sh
+python -S research/boolean_coupling/reproduce_normalization.py --verify-only
+python research/boolean_coupling/reproduce_normalization.py --plan \
+  --inputs runs/my-258-reproduction/experiment258 \
+  --out runs/my-normalization-reproduction
+```
+
+The verifier needs only the standard library and published metadata. To perform
+the model/tensor experiment, first regenerate258's qualified final arrays using
+the pipeline below and install the pinned `requirements-recorded.txt` environment
+on an MPS machine. Then change `--plan` to `--execute`, using a **new, disjoint
+output parent**. The wrapper rejects existing output paths, never executes the
+preserved invalid original261 producer, and stops on unexpected failures.
+
+It executes corrected261b, the two strict numerical audits (both expected to
+fail on their recorded comparisons), full-shape261c replay, bounded261d,
+local262 factors, the44-forward263 intervention and corrected264b analysis.
+The first model stage adds28 forwards:72 total, plus audit tensor work. Several
+GB of free disk are needed for raw arrays. Logs and all failures remain in the
+new output tree. The strict failures are retained as failures; qualification
+does not change their tolerances or certify older whole-block derivatives.
+
+All original scientific CLI stages ran locally. This new wrapper's plan,
+argument safety and syntax are checked; the entire wrapper has **not** been
+rerun as a second model replication. Figures are posthoc and can be regenerated
+from the complete public CSVs with
+`python research/boolean_coupling/normalization_figures.py`.
+
 ## Local energy diagnostic and reader-figure provenance
 
 260 uses the existing258 forecast witnesses to separate individual omitted-write

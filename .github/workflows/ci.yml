@@ -18,5 +18,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/reproduce_receiver_mlp.py --verify-only --history --plan
       - name: Verify local concentration diagnostic and reader-figure provenance
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_reader_guide.py
+      - name: Verify normalization interventions and retained failed accounts
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_normalization.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

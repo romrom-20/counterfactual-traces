@@ -2,6 +2,29 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 261–264: a local account must also survive both branches and later state changes
+
+The remaining finite MLP input normalization is consequential: replacing it
+with the False tangent raises old-context whole error2.06%→32.08%, with neither
+the gate-only nor up-only restoration sufficient. Smooth normalization
+curvature has an exact existing-pattern/new-direction split. The former
+dominates the median signed projection, but its registered full-curvature
+accuracy account fails, especially at selected coordinates. An energy-only
+rescaling predicts complete whole gate changes locally, yet fails the next
+global primary2/4 because the generic verdict margins remain wrong. This is a
+useful rejection of local sufficiency, not a reason to promote a secondary term.
+
+The complete two-term intervention tracks finite normalization and passes4/4
+old contexts. The smaller term's final verdict-vector effect differs sharply
+depending on whether the larger term is present: near-orthogonal in generic
+contexts and weakly opposing in descriptive contexts. These are own-state
+policy effects, which include later state/mask/attention changes, not a
+same-input learned product account. The next discriminator is local product
+transmission versus later state feedback, not another end-to-end correction
+sweep. Every original numerical/implementation failure is preserved; the
+publicFloat32 boundary does not recertify older whole-block derivatives.
+[Result, reproduction and all failures](analysis/261-264-mlp-normalization-origin.md).
+
 ## 260: distinguish concentrated writes from a favorable sum
 
 259's ranking comparison leaves a geometric ambiguity: did the selected terms
@@ -14,7 +37,7 @@ chosen neuron coordinates, not a new prediction of the gate edits. It does not
 identify learned features, remove all cancellation, or close Question B.
 [Complete energy diagnostic](analysis/260-silu-energy-concentration-result.md).
 
-## Latest: a conditional sparse repair finally composes under an accurate query rule
+## 258: a conditional sparse repair finally composes under an accurate query rule
 
 240's1% SiLU result was conditional on an incoming state that the forecast could
 not predict. Repeating that same single-site demonstration would not answer B.

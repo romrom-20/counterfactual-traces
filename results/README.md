@@ -1,5 +1,11 @@
 # Results and evidence
 
+[261–264: MLP normalization origin and branch interventions](mlp-normalization-origin-261-264/README.md)
+retains all four old contexts, raw numerical failures, primary failed local and
+global accounts, exact reference controls and all28-block signed policy
+contrasts. Energy-only2/4, gate-only/up-only0/4; no new fresh predictor or learned
+circuit. Original invalid261 and mislabeled264 are preserved separately.
+
 [260: local concentration before cancellation](silu-energy-concentration-260/README.md)
 retains all 48 scope records and 192 checks, with zero new model calls. Reader
 figures have separate public CSV/source provenance in `docs/figures/reader/`.
