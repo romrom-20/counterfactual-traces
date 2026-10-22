@@ -26,5 +26,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_fields.py
       - name: Verify amplitude/direction test and globally sealed fresh prediction
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_amplitude.py
+      - name: Verify common-backbone interventions and controller clamps
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_backbone.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

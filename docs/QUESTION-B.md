@@ -6,7 +6,7 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 269
+## Current answer through 271
 
 269 adds a bounded fresh prediction result with a more restricted correction
 geometry. Fixed correction axes and local MLP operating points, cached from
@@ -19,6 +19,16 @@ interaction hypothesis failed 2/4 and stays failed: accuracy of this forecast
 does not establish every proposed mechanism. The origin of the particular
 learned upstream displacement and a useful smaller computation budget remain
 open. [Result, source seals and budget](analysis/268-269-amplitudes-directions-and-prediction.md).
+
+270–271 test the finite shared backbone left inside that successful rule.
+Removing its gate/cross remainders reduces native accuracy from 4/4 to 2/4 on
+four old contexts. Neither term alone explains the full missing B-J vector;
+clamping B's later amplitudes and queries together still leaves 94.02% median
+whole error and 0/4 restoration passes. Exact controller-node equality checks
+pass. Thus those two feedback paths alone do not explain this discrepancy;
+other receiving-state paths and the learned generator remain unresolved.
+These are qualified retrospective interventions, not a new small-budget rule,
+a circuit or fresh confirmation. [Result and all caveats](analysis/270-271-backbone-curvature-and-feedback.md).
 
 ## Earlier bounded prediction result:258
 

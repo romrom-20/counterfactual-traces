@@ -2,6 +2,27 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 270–271: test what the two-coefficient forecast leaves inside the backbone
+
+The two coefficients restricted normalization corrections, while a substantial
+common MLP still generated their inputs. Replacing that backbone's nonlinear
+variation about L by its primitive tangent is insufficient: 2/4 native passes,
+with both descriptive cases failing. Neither finite gate curvature nor gate–up
+cross alone recovers the full B-J vector effect. Their large signed projections
+are not a complete vector explanation.
+
+The next test directly supplies B's later amplitudes and queries to the ablated
+backbone. It passes 0/4 restoration cases and leaves 94.02% median whole error.
+The query and correction nodes match exactly, ruling out a failed clamp. Other
+receiving-state paths still differ; the surviving effect cannot be uniquely
+allocated among carry, K/V and MLP transport from this factorial. This narrows
+an explanation instead of announcing another successful correction rule.
+
+All 76 forwards finish; original-bound raw failures remain. The result is
+retrospective on four dependent contexts, with the extra L and B-controller
+work included. It neither rescinds269's fresh prediction success nor solves
+learned generation or general Question B. [Result](analysis/270-271-backbone-curvature-and-feedback.md).
+
 ## 268–269: preserve a failed mechanism test while testing the narrower prediction
 
 Amplitude-only adaptation does not completely preserve the 268 policy

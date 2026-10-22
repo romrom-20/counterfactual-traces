@@ -2,7 +2,22 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:268–269 — signed amplitudes, direction and fresh prediction
+## Latest:270–271 — common-backbone curvature and feedback clamps
+
+Four old contexts, 76 completed forwards.270 removes the shared backbone's
+finite gate/cross remainders; native passes fall from 4/4 to 2/4 and the primary
+fails. Gate-only/cross-only final-vector accounts each fail 0/4.271 supplies
+B-forecast amplitudes, queries or both; all restoration accounts fail 0/4,
+with 94.02% median whole error for both together. Exact clamp-node and finite
+readout checks pass. Raw CPU64 projection failures 169/6720 and 161/6384 remain
+failed. Rich finite/L/B-controller work, no fresh prediction or learned circuit.
+
+[270 protocol](experiments/270-backbone-curvature-feedback.md) ·
+[271 protocol](experiments/271-amplitude-query-mediation.md) ·
+[Report](analysis/270-271-backbone-curvature-and-feedback.md) ·
+[All evidence](../results/backbone-feedback-270-271/README.md)
+
+## 268–269 — signed amplitudes, direction and fresh prediction
 
 268's amplitude-only interaction hypothesis fails 2/4 old contexts, despite4/4
 native prediction passes. A separately frozen269 test then passes 32/32 new

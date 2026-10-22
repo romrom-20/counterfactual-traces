@@ -1,0 +1,37 @@
+{
+  "retrospective": true,
+  "old_contexts": 4,
+  "fresh_examples": 0,
+  "complete_forwards": 76,
+  "runtime_seconds": {
+    "270": {
+      "producer": {
+        "real": 47.19,
+        "user": 8.82,
+        "sys": 5.16
+      },
+      "audit": {
+        "real": 66.77,
+        "user": 34.74,
+        "sys": 3.03
+      }
+    },
+    "271": {
+      "producer": {
+        "real": 43.67,
+        "user": 10.3,
+        "sys": 4.33
+      },
+      "audit": {
+        "real": 64.44,
+        "user": 33.64,
+        "sys": 2.87
+      }
+    }
+  },
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "private_articles_included": false,
+  "speedup_claimed": false,
+  "distinction": "270 removes finite backbone gate/cross terms;271 clamps B-forecast coefficients/queries, with B's extra work explicitly supplied. Neither is fresh confirmation or a cheap learned generator."
+}

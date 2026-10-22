@@ -14,7 +14,7 @@ criterion on **32/32 new literal pairs**. The remaining activation coordinates
 use a quadratic approximation. Substantial source/K/V/MLP computation stays
 finite; this is not a learned circuit or a demonstrated speedup.
 
-[Start here](docs/READING-GUIDE.md) · [Latest result](docs/analysis/268-269-amplitudes-directions-and-prediction.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest mechanism test](docs/analysis/270-271-backbone-curvature-and-feedback.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
@@ -25,6 +25,18 @@ query feedback, finite versus approximate computation, and how to inspect a clai
 Follow its six-test path before the full chronological experiment index.
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
+
+## The shared backbone still matters
+
+Two new causal tests clarify the successful forecast's remaining cost. Removing
+its common MLP backbone's gate and cross remainders leaves only 2/4 old-context
+native passes. Supplying the successful forecast's correction amplitudes and
+receiving queries together leaves 94% median error in the missing vector effect;
+that explanation passes 0/4. Other receiving-state paths remain unresolved.
+These are retrospective boundaries, not new confirmation or a learned circuit.
+
+[Result and exact budget](docs/analysis/270-271-backbone-curvature-and-feedback.md) ·
+[Every case and numerical caveat](results/backbone-feedback-270-271/README.md)
 
 ## A fixed-direction correction passes a fresh prediction test
 

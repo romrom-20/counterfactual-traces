@@ -539,3 +539,54 @@ A combined published-literal reproduction is available with
 256's locally sealed pipeline, then 257. Individual original stages ran; this
 new composition has plan/integrity/syntax checks, without another full model
 replay. It preserves failures and requires a new output directory.
+
+## Backbone curvature and feedback (270/271)
+
+These are retrospective diagnostics on four OLD263 contexts. Both primary
+hypotheses fail; all76 forwards finish.270 tests the common backbone rather
+than interaction between normalization corrections.271 uses an extra successful
+B forecast as a controller to test amplitude/query feedback, not as a free
+prediction input. Read the [result and numerical scope](../docs/analysis/270-271-backbone-curvature-and-feedback.md)
+and protocols [270](../docs/experiments/270-backbone-curvature-feedback.md),
+[271](../docs/experiments/271-amplitude-query-mediation.md) before interpreting them.
+
+The code requires regenerated258,263 and268 arrays from the earlier sections,
+the pinned Qwen checkpoint, the documented Python/Torch/Transformers/MPS
+environment, and storage headroom. It never downloads a private activation
+archive or deletes old evidence. Choose a NEW output parent and ensure it
+exists. Each scientific writer refuses an existing destination. From repo root:
+
+```sh
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+INPUTS=/path/to/regenerated/runs
+OUTBASE=/path/to/new/outputs
+mkdir -p "$OUTBASE"
+python -m boolean_coupling.rollout270 --original "$INPUTS/receiver-mlp-curvature-258" --reference "$INPUTS/normalization-branches-energy-263" --previous "$INPUTS/amplitude-direction-268" --out "$OUTBASE/backbone-curvature-feedback-270"
+python -m boolean_coupling.audit270 --original "$INPUTS/receiver-mlp-curvature-258" --reference "$INPUTS/normalization-branches-energy-263" --previous "$INPUTS/amplitude-direction-268" --run "$OUTBASE/backbone-curvature-feedback-270"
+python -m boolean_coupling.rollout271 --original "$INPUTS/receiver-mlp-curvature-258" --reference "$INPUTS/normalization-branches-energy-263" --previous "$INPUTS/amplitude-direction-268" --controller "$OUTBASE/backbone-curvature-feedback-270" --out "$OUTBASE/amplitude-query-mediation-271"
+python -m boolean_coupling.audit271 --original "$INPUTS/receiver-mlp-curvature-258" --reference "$INPUTS/normalization-branches-energy-263" --previous "$INPUTS/amplitude-direction-268" --controller "$OUTBASE/backbone-curvature-feedback-270" --run "$OUTBASE/amplitude-query-mediation-271"
+python -m boolean_coupling.clamps271 --run "$OUTBASE/amplitude-query-mediation-271" --out "$OUTBASE/controller-clamp-checks-271"
+```
+
+These five scientific/posthoc CLIs actually ran. The published cases use B/J
+exact-replay controls; rerunning published literals is a numerical repetition,
+not fresh confirmation. The measured arithmetic remainder remains in every
+backbone-removal arm. Actual finite SiLU witnesses execute, and271 additionally
+supplies B-derived controllers. No speedup is demonstrated.
+
+Raw case arrays total64,187,261 bytes for270 and58,344,823 for271, plus signed
+vector arrays inventoried publicly. Preserve original raw CPU64 projection
+failures169/6720 and161/6384 at1e-4. Exact public Float32 replays and independent
+smooth primitive derivative checks qualify their declared scope, not every
+whole-model derivative or a learned circuit.
+
+For repository-only verification, requiring neither model packages nor arrays:
+
+```sh
+python -S research/boolean_coupling/verify_backbone.py
+```
+
+The posthoc `package_backbone.py` and `describe_backbone.py` preserve publication
+and plot provenance. Public logs select scientific progress/result/timing lines;
+`log-provenance.json` records original hashes and that representation change.
+Private articles, weights and activation arrays remain excluded.
