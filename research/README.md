@@ -5,6 +5,42 @@ Earlier studies returned to the failed whole-response forecast. **235** provides
 For task definitions, a causal diagram and the shortest evidence path, begin
 with the [reader guide](../docs/READING-GUIDE.md).
 
+## Local product mixing and finite activation control
+
+265 performs a same-input MLP factorial, then removes its pointwise interaction
+during complete continuation.266 checks the sparse local contrast against
+finite SiLU. All examples are old; primary sufficiency/fidelity hypotheses fail.
+[Results and numerical qualifications](../docs/analysis/265-266-local-mixing-and-state-feedback.md).
+
+The standard-library release verifier adds no model calls:
+
+```sh
+python -S research/boolean_coupling/verify_transmission.py
+```
+
+For actual tensor/model reproduction, use the pinned MPS environment below and
+first regenerate the263 arrays with the normalization pipeline. Then choose
+new output directories; preserve every input and prior failure:
+
+```sh
+export PYTHONPATH=research OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+QB_REF=runs/my-normalization-reproduction/normalization-branches-energy-263
+QB_TX=runs/my-transmission-reproduction
+python -m boolean_coupling.local265 --reference "$QB_REF" --out "$QB_TX/local-mixing-265"
+python -m boolean_coupling.rollout265 --reference "$QB_REF" --local "$QB_TX/local-mixing-265" --out "$QB_TX/local-mixing-continuation-265"
+python -m boolean_coupling.audit265 --reference "$QB_REF" --local "$QB_TX/local-mixing-265" --run "$QB_TX/local-mixing-continuation-265"
+python -m boolean_coupling.finite266 --reference "$QB_REF" --local "$QB_TX/local-mixing-265" --out "$QB_TX/finite-silu-interaction-266"
+```
+
+The first stage reconstructs224 saved input points with the pinned cached
+weights. The second performs28 complete forwards with extra corner tensor work;
+the others add primitive evaluations/audits only. Preserve all raw CPU64 failures;
+exact matched-shape Float32 checks qualify the declared component scope without
+certifying older whole-block derivatives. All four CLI stages ran directly;
+CI verifies evidence integrity and does not independently replicate the model.
+Regenerate the posthoc figure with
+`python research/boolean_coupling/describe_transmission.py`.
+
 ## MLP normalization origin and branch interventions
 
 261–264 test whether the MLP gate/up displacement needs finite input

@@ -6,7 +6,7 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through258–264
+## Current answer through258–266
 
 The defined prospective prediction problem has a bounded positive answer:
 with cubic receiver queries and the other declared finite components, a fixed
@@ -51,6 +51,17 @@ on the correction background. These are four old contexts, qualified public
 Float32 interventions and global own-state contrasts, not a learned circuit or
 a fresh simplified predictor. The failed original checks and implementation
 attempts remain documented. [Full result](analysis/261-264-mlp-normalization-origin.md).
+
+265 rejects immediate pointwise MLP mixing as a sufficient account of the
+global normalization-policy interaction: removal at all28 receiving layers
+leaves it intact, while native-response accuracy remains4/4.266 then shows the
+adaptive sparse rule misrepresents local mixed-write contrasts against finite
+SiLU (0/177 fidelity checks); a common mask gives175/177. Same-input direction
+effects remain nearly parallel. The next explanation must address generation
+and transmission through changing states, while avoiding sparse-selector
+artifacts. These remain old-context, qualified component interventions, not a
+learned circuit or a reduced prediction budget.
+[Result and finite control](analysis/265-266-local-mixing-and-state-feedback.md).
 
 ## What has narrowed the question
 

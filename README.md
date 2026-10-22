@@ -14,7 +14,7 @@ criterion on **32/32 new literal pairs**. The remaining activation coordinates
 use a quadratic approximation. Substantial source/K/V/MLP computation stays
 finite; this is not a learned circuit or a demonstrated speedup.
 
-[Start here](docs/READING-GUIDE.md) · [Latest diagnostic](docs/analysis/261-264-mlp-normalization-origin.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest diagnostic](docs/analysis/265-266-local-mixing-and-state-feedback.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
@@ -25,6 +25,20 @@ query feedback, finite versus approximate computation, and how to inspect a clai
 Follow its six-test path before the full chronological experiment index.
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
+
+## What the local removal test showed
+
+Removing the pointwise MLP interaction at every receiving layer leaves the
+final interaction intact, slightly stronger in all four old contexts. The
+forecasts still match the native response within the original criterion.
+The immediate local effect does not explain the contrast across evolving states.
+
+A finite-SiLU control catches a separate limitation: the adaptive sparse rule
+passes 0/177 eligible local interaction checks, while sharing a mask across
+corners passes 175/177. Accurate trajectories need not preserve these local
+counterfactual contrasts. This constrains interpretation of the approximation;
+it does not invalidate the earlier forecast result or identify a native circuit.
+[Direct interventions, finite control and qualifications](docs/analysis/265-266-local-mixing-and-state-feedback.md).
 
 ## What nonlinear MLP normalization adds
 
