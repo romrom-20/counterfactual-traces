@@ -6,7 +6,7 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer after258–259
+## Current answer through258–264
 
 The defined prospective prediction problem has a bounded positive answer:
 with cubic receiver queries and the other declared finite components, a fixed
@@ -40,6 +40,17 @@ whole-input witnesses; verdict capture is less uniform. The state/gate edits
 that create this concentration are still supplied by the forecast's substantial
 finite computation. This narrows the compression account, not the unresolved
 learned-generator question. [Result](analysis/260-silu-energy-concentration-result.md).
+
+261–264 then intervene on a remaining generation primitive: MLP input RMSNorm.
+Replacing it with the False tangent materially damages the old-context native
+forecast; neither restoring only the gate branch nor only the up branch is
+sufficient. Rescaling the existing activation pattern explains much of the
+missing gate change, but the primary energy-only global rule fails (2/4 joint
+passes despite all vectors passing). The smaller term's final effect depends
+on the correction background. These are four old contexts, qualified public
+Float32 interventions and global own-state contrasts, not a learned circuit or
+a fresh simplified predictor. The failed original checks and implementation
+attempts remain documented. [Full result](analysis/261-264-mlp-normalization-origin.md).
 
 ## What has narrowed the question
 

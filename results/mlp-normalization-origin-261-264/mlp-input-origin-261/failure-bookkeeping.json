@@ -1,0 +1,34 @@
+{
+  "status": "invalid_metadata_paths",
+  "error": "Producer reused path for original input before writing output metadata; four native metadata JSONs temporarily overwritten. Exact original bytes restored from immutable published release before analysis. Arrays unchanged.",
+  "restoration": [
+    {
+      "key": "2497fdd745449e7f157a968dc2c01123533c326f73b62261fa1170415d977e85",
+      "overwritten_metadata_sha256": "ad4e2456f74731787d533b681f7d94499df718afc67b34876d3d518e203c3b3a",
+      "restored_sha256": "15cf03e22dbae1e41ae9e3a490022fd4cb0199026a5170d3e3b09d3efa15566b",
+      "expected_sha256": "15cf03e22dbae1e41ae9e3a490022fd4cb0199026a5170d3e3b09d3efa15566b",
+      "array_unchanged_sha256": "4cccb442f0e37cb60c220245c225bec7515c615a15b8a7048992cc55f9910b8d"
+    },
+    {
+      "key": "38a003cc51bfba2b2be344ce122335c5bd4b0443c2b42bb7f3fd9607d156b235",
+      "overwritten_metadata_sha256": "1a581e540d7e0e9c2896a62a091dcf0c245475feb7a1d593b547cabf7cc0da88",
+      "restored_sha256": "5138bf0699ac3c6c30c51313efe389b2f1239acf7504fc8cab9e60175bf1e8e9",
+      "expected_sha256": "5138bf0699ac3c6c30c51313efe389b2f1239acf7504fc8cab9e60175bf1e8e9",
+      "array_unchanged_sha256": "69c8deaa97d89569813214b085671b075a4d7120ecf3179c0c2974e5cba854cd"
+    },
+    {
+      "key": "475d5c7e23cf9d2d75f763b1b0e97ede97c48efd5159d61b4b95729d29d2ea58",
+      "overwritten_metadata_sha256": "40f4b38293b1c60af90b461afe6ce6c54825bc4ead99a58030e888084dff8707",
+      "restored_sha256": "f1e66bbd8c725332439a675c1122e48eee85dff7c635317c76c88c359a61cec3",
+      "expected_sha256": "f1e66bbd8c725332439a675c1122e48eee85dff7c635317c76c88c359a61cec3",
+      "array_unchanged_sha256": "18afd97ccced8e7356c5e61acb612b1475353249aca38553aff3deb77e2916ae"
+    },
+    {
+      "key": "481ce7b6ae99733c3d5fb9687fe632823ebda11e49ff104665e318d308399be7",
+      "overwritten_metadata_sha256": "64421e37bca617f89c809ece4ac9ce0328f8cecf8b23253b5d0196fdd92ffbe7",
+      "restored_sha256": "07b85472affc59fd0246056b3d07f10f12c77267023a74daef9340fd397de210",
+      "expected_sha256": "07b85472affc59fd0246056b3d07f10f12c77267023a74daef9340fd397de210",
+      "array_unchanged_sha256": "90e991445279a08f896376428f2fcea220c128ebec60ff6ae86ef2cd8bc04e29"
+    }
+  ]
+}

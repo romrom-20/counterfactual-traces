@@ -2,7 +2,22 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:258 / qualified258b — fixed1% receiving SiLU budget
+## Latest diagnostic:261–264 — MLP normalization generation and branch effects
+
+Four old contexts, all28 layers. Replacing receiving MLP input RMSNorm with the
+False tangent raises median whole error2.06%→32.08%. Neither finite-gate-only
+nor finite-up-only suffices. The dominant-pattern curvature hypothesis misses
+its local criterion; the subsequent energy-only primary passes2/4 globally,
+despite all vector criteria passing. Complete factorization replays the finite
+reference within its declared rounding bounds. Global direction-term effects
+depend on their background;264b preserves the original264 layer-index failure.
+Raw numerical failures remain failed, with qualified publicFloat32 replay and
+separately checked smooth RMS derivatives. No fresh examples or learned circuit.
+
+[Report and budget](analysis/261-264-mlp-normalization-origin.md) ·
+[Every case and failure](../results/mlp-normalization-origin-261-264/README.md)
+
+## Latest fresh forecast:258 / qualified258b — fixed1% receiving SiLU budget
 
 A globally sealed fresh test with cubic receiver queries held fixed. Ranked1%
 finite SiLU passes32/32 whole/verdict/margin cases (2.13% median whole error);

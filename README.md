@@ -14,7 +14,7 @@ criterion on **32/32 new literal pairs**. The remaining activation coordinates
 use a quadratic approximation. Substantial source/K/V/MLP computation stays
 finite; this is not a learned circuit or a demonstrated speedup.
 
-[Start here](docs/READING-GUIDE.md) · [Latest result](docs/analysis/258-receiver-mlp-result.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest diagnostic](docs/analysis/261-264-mlp-normalization-origin.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
@@ -26,7 +26,20 @@ Follow its six-test path before the full chronological experiment index.
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
 
-## What the latest experiment establishes
+## What nonlinear MLP normalization adds
+
+A deeper retrospective intervention finds that replacing MLP input
+normalization by its False tangent raises whole-displacement error from 2.06%
+to 32.08% on four old contexts. Restoring normalization to only the gate branch
+or only the up branch is insufficient. A simple energy correction gets the
+vectors within tolerance but misses the verdict margin in two cases. The
+smaller normalization term has a different final vector effect on different
+backgrounds. This narrows the generation mechanism; it does not establish a
+learned circuit or solve general Question B. Original numerical failures remain
+failed, with the public Float32 scope explicitly qualified.
+[All interventions, signed effects and limitations](docs/analysis/261-264-mlp-normalization-origin.md).
+
+## What the latest fresh forecast establishes
 
 An earlier single-site SiLU repair worked locally but could not predict the
 native response from its inaccurate incoming state. After obtaining an accurate

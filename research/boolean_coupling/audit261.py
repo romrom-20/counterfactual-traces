@@ -1,0 +1,214 @@
+"""Separate smooth-derivative, gate-vector and native-outcome audit for261."""
+
+import argparse
+import hashlib
+import json
+from collections import Counter
+from pathlib import Path
+
+import numpy as np
+import torch
+from safetensors import safe_open
+
+from .audit229 import checked, sha
+from .audit242b import table
+from .checkpoint238 import locate, read_head
+from .core225b import write_json
+from .curvature255 import jet
+from .silu258 import predict
+
+ROOT = Path(__file__).resolve().parents[2]
+
+
+def read(path):
+    return json.loads(path.read_text())
+
+
+def norm(x, gamma, eps):
+    return x*gamma/np.sqrt(np.mean(x*x, axis=-1, keepdims=True)+eps)
+
+
+def expansion(base, point, anchor, gamma, eps, checks, counts):
+    d = point-base
+    s = np.sqrt(np.mean(base*base, axis=-1, keepdims=True)+eps)
+    linear = gamma*(d/s-base*np.mean(base*d, axis=-1, keepdims=True)/s**3)
+    a, b = (np.mean(value, axis=-1, keepdims=True)/s**2 for value in (base*d, d*d))
+    q = gamma/s*((1.5*a*a-.5*b)*base-a*d)
+    c = gamma/s*((1.5*a*b-2.5*a**3)*base+(1.5*a*a-.5*b)*d)
+    for expected, actual in zip(jet(base, d, gamma, eps), (linear, q, c), strict=True):
+        checked(checks, "independent_normalization_polynomial_jet", actual, expected, 1e-10)
+    base_t, direction_t, gamma_t = (torch.tensor(v, dtype=torch.float64) for v in (base, d, gamma))
+
+    def smooth(x):
+        return gamma_t*x/torch.sqrt(torch.mean(x*x, dim=-1, keepdim=True)+eps)
+
+    _, ad = torch.func.jvp(smooth, (base_t,), (direction_t,))
+    checked(checks, "smooth_RMS_derivative_AD", ad.numpy(), linear, 1e-9)
+    direction = d/max(1., float(np.max(abs(d))))
+    tangent = linear/max(1., float(np.max(abs(d))))
+    for step, tolerance in ((1e-3, 1e-3), (1e-4, 1e-5)):
+        finite_difference = (norm(base+step*direction, gamma, eps)-norm(base-step*direction, gamma, eps))/(2*step)
+        checked(checks, "smooth_RMS_derivative_FD", finite_difference, tangent, tolerance)
+    counts["normalization_AD"] += 1
+    counts["normalization_FD"] += 2
+    counts["independent_polynomial_jets"] += 1
+    return anchor+linear, q+c, linear
+
+
+def random_rows(value, key, layer):
+    rows = []
+    for row in range(len(value)):
+        digest = hashlib.sha256(f"{key}:{layer}:{row}:mlp-input-curvature-control".encode()).hexdigest()
+        vector = np.random.default_rng(int(digest[:16], 16)).normal(size=value.shape[-1])
+        rows.append(vector/np.linalg.norm(vector)*np.linalg.norm(value[row]))
+    return np.stack(rows)
+
+
+def metrics(value, target):
+    vn, tn = float(np.linalg.norm(value)), float(np.linalg.norm(target))
+    return dict(relative=float(np.linalg.norm(value-target))/max(tn, 1e-30),
+        cosine=float(np.vdot(value, target))/max(vn*tn, 1e-30), norm=tn,
+        signed_share=float(np.vdot(value, target))/max(tn*tn, 1e-30))
+
+
+def main(run):
+    assert not (run/"audit.json").exists()
+    design, status = read(run/"design.json"), read(run/"status.json")
+    assert design["experiment"] == 261 and design["retrospective"] and status["status"] == "complete"
+    assert len(design["cases"]) == len(status["cases"]) == 4
+    for name, digest in design["source_hashes"].items():
+        assert sha(ROOT/name) == sha(run/"sources"/Path(name).name) == digest
+    assert sha(run/"norm-weights.npz") == status["norm_weights_sha256"]
+    folder, checkpoint = locate(ROOT)
+    head = read_head(folder)
+    with np.load(run/"norm-weights.npz") as weights:
+        norms = {key:weights[key].astype(float) for key in weights.files}
+    cases = {}
+    checks, rows, outcomes, counts = [], [], [], Counter()
+    for case, entry in zip(design["cases"], status["cases"], strict=True):
+        key = case["key"]
+        assert key == entry["key"]
+        path = run/"cases"/(key+".npz")
+        meta = read(path.with_suffix(".json"))
+        assert sha(path) == meta["arrays_sha256"] == entry["arrays_sha256"] and sha(path.with_suffix(".json")) == entry["metadata_sha256"]
+        for record in meta["checks"]:
+            assert np.isfinite(record["error"]) and record["error"] <= record["bound"]
+        cases[key] = (case, np.load(path), meta)
+    vectors = {key:{} for key in cases}
+    eps = float(norms["eps"])
+    with safe_open(folder/"model.safetensors", framework="pt", device="cpu") as handle:
+        for layer in range(1, 29):
+            def tensor(name):
+                return handle.get_tensor(f"model.layers.{layer-1}."+name).float().numpy().astype(float)
+            gamma = tensor("post_attention_layernorm.weight")
+            qgamma = tensor("input_layernorm.weight")
+            checked(checks, "checkpoint_MLP_norm_weight", gamma, norms["mlp_norm"][layer-1], 0.)
+            checked(checks, "checkpoint_query_norm_weight", qgamma, norms["input_norm"][layer-1], 0.)
+            matrices = {name:tensor("mlp."+name+"_proj.weight") for name in ("gate", "up")}
+            for key, (case, values, meta) in cases.items():
+                prefix0 = f"F_{layer}_"
+                x0, z0 = (values[prefix0+k].astype(float) for k in ("x", "original_z"))
+                qx0, qz0 = (values[prefix0+k].astype(float) for k in ("qx", "qoriginal"))
+                for arm in ("F", "Z", "B", "L", "C", "R", "T"):
+                    prefix = f"{arm}_{layer}_"
+                    if prefix+"write" not in values:
+                        assert meta["statuses"][arm]["status"] == "guard_failed"
+                        continue
+                    x = values[prefix+"x"].astype(float)
+                    original_z, installed_z = (values[prefix+k].astype(float) for k in ("original_z", "installed_z"))
+                    checked(checks, "public_MLP_normalization_primal", norm(x, gamma, eps), original_z, 1e-4)
+                    linear, curvature, j = expansion(x0, x, z0, gamma, eps, checks, counts)
+                    expected = original_z
+                    if arm in ("Z", "L", "C", "R"):
+                        expected = linear if arm in ("Z", "L") else linear+(curvature if arm == "C" else random_rows(curvature, key, layer))
+                        expected = expected.astype(np.float32).astype(float)
+                    checked(checks, "exact_MLP_normalization_installation", installed_z, expected, 0.)
+                    qx = values[prefix+"qx"].astype(float)
+                    qo, qi = (values[prefix+k].astype(float) for k in ("qoriginal", "qinstalled"))
+                    checked(checks, "public_query_normalization_primal", norm(qx, qgamma, eps), qo, 1e-4)
+                    qlinear, qcurvature, _ = expansion(qx0, qx, qz0, qgamma, eps, checks, counts)
+                    qexpected = (qlinear+qcurvature).astype(np.float32).astype(float) if arm in ("Z", "B", "L", "C", "R") else qo
+                    checked(checks, "exact_cubic_query_installation", qi, qexpected, 0.)
+                    for branch in ("gate", "up"):
+                        checked(checks, "public_"+branch+"_projection", installed_z@matrices[branch].T, values[prefix+branch], 1e-4)
+                        counts["CPU64_gate_up_projections"] += 1
+                    if arm in ("Z", "B", "L", "C", "R"):
+                        quadratic, mask, _, bound, _, _ = predict(values[prefix0+"gate"].astype(float), values[prefix0+"phi"].astype(float),
+                            values[prefix+"gate"].astype(float), values[prefix+"up"].astype(float), norms["columns"][layer-1], key, layer)
+                        checked(checks, "original_ranked_mask", mask.astype(int), values[prefix+"mask"].astype(int), 0.)
+                        checked(checks, "original_quadratic_SiLU", quadratic, values[prefix+"quadratic"], 0.)
+                        checked(checks, "original_remainder_bound", bound, values[prefix+"bound"], 0.)
+                        used = np.where(mask, values[prefix+"phi"], quadratic.astype(np.float32)).astype(np.float32)
+                        checked(checks, "exact_sparse_SiLU", used, values[prefix+"used_phi"], 0.)
+                    checked(checks, "exact_neuron_product", values[prefix+"used_phi"]*values[prefix+"up"], values[prefix+"product"], 0.)
+                    if arm not in ("B", "T"):
+                        continue
+                    mask = predict(values[prefix0+"gate"].astype(float), values[prefix0+"phi"].astype(float),
+                        values[prefix+"gate"].astype(float), values[prefix+"up"].astype(float), norms["columns"][layer-1], key, layer)[1]
+                    smooth_delta = norm(x, gamma, eps)-norm(x0, gamma, eps)
+                    for branch, matrix in matrices.items():
+                        projected_linear, projected_curvature, target = (v@matrix.T for v in (j, smooth_delta-j, smooth_delta))
+                        public_target = values[prefix+branch].astype(float)-values[prefix0+branch].astype(float)
+                        checked(checks, "gate_up_displacement_algebra", projected_linear+projected_curvature, target, 1e-9)
+                        checked(checks, "gate_up_public_displacement_bridge", target, public_target, 1e-4)
+                        counts["CPU64_gate_up_projections"] += 3
+                        for name, vector in (("linear", projected_linear), ("curvature", projected_curvature), ("total", target), ("public", public_target)):
+                            vectors[key][f"{arm}_{layer}_{branch}_{name}"] = vector
+                        for scope, pick in (("all", slice(None)), ("verdict", -1), ("selected", mask)):
+                            m = metrics(projected_linear[pick], target[pick])
+                            cur = metrics(projected_curvature[pick], target[pick])
+                            rows.append(dict(key=key, arm=arm, layer=layer, branch=branch, scope=scope,
+                                eligible=m["norm"] >= 1e-8, linear_relative=m["relative"], linear_cosine=m["cosine"],
+                                linear_signed_share=m["signed_share"], target_norm=m["norm"], curvature_norm=float(np.linalg.norm(projected_curvature[pick])),
+                                curvature_signed_share=cur["signed_share"], passes=m["norm"] >= 1e-8 and m["relative"] <= .05))
+            print("MLP input derivative/vector audit", layer, "/28", flush=True)
+    for key, (case, values, meta) in cases.items():
+        np.savez_compressed(run/("vectors-"+key+".npz"), **vectors[key])
+        truth = values["T_trajectory"].astype(float)-values["F_trajectory"].astype(float)
+        margin_true = float(np.diff(values["T_scores"].astype(float))[0])
+        for arm in ("B", "L", "C", "R"):
+            row = dict(key=key, **case["group"], arm=arm, status=meta["statuses"][arm]["status"], passes=False)
+            if row["status"] == "complete":
+                trajectory = values[arm+"_trajectory"]
+                last = trajectory[-1, -1].astype(float)
+                z = last/np.sqrt(np.mean(last*last)+head["final_eps"])*head["final_norm"]
+                checked(checks, "finite_two_score_head", z@head["final_head"].T, values[arm+"_scores"], .005)
+                pred = trajectory.astype(float)-values["F_trajectory"].astype(float)
+                passing = []
+                for scope, pick in (("all", slice(1, None)), ("verdict", -1)):
+                    m = metrics(pred[-1, pick], truth[-1, pick])
+                    row.update({scope+"_"+name:value for name, value in m.items()})
+                    passing.append(m["norm"] >= .001 and m["relative"] <= .05 and m["cosine"] >= .99)
+                row["margin_error"] = abs(float(np.diff(values[arm+"_scores"].astype(float))[0])-margin_true)
+                row["passes"] = bool(all(passing) and row["margin_error"] <= .1)
+            outcomes.append(row)
+        values.close()
+    table(run/"gate-curvature.csv", rows)
+    table(run/"outcomes.csv", outcomes)
+    local = {}
+    for arm in ("B", "T"):
+        for scope in ("all", "selected"):
+            group = [r for r in rows if r["arm"] == arm and r["branch"] == "gate" and r["scope"] == scope and r["eligible"]]
+            local[arm+"_"+scope] = dict(eligible=len(group), passes=sum(r["passes"] for r in group),
+                median_linear_relative=float(np.median([r["linear_relative"] for r in group])),
+                meets_90=bool(group and sum(r["passes"] for r in group) >= .9*len(group)))
+    global_results = {arm:dict(total=4, passes=sum(r["passes"] for r in outcomes if r["arm"] == arm),
+        guard_failed=sum(r["status"] == "guard_failed" for r in outcomes if r["arm"] == arm)) for arm in ("B", "L", "C", "R")}
+    write_json(run/"audit.json", dict(status="passed", experiment=261, retrospective=True, source_sha256=sha(__file__),
+        design_sha256=sha(run/"design.json"), status_sha256=sha(run/"status.json"), checkpoint=checkpoint,
+        checks=checks, extra_work=dict(counts), local_gate=local, global_results=global_results,
+        csv_sha256={name:sha(run/name) for name in ("gate-curvature.csv", "outcomes.csv")},
+        vectors_sha256={p.name:sha(p) for p in run.glob("vectors-*.npz")},
+        limitation="Four old fixed contexts, own-state primitive policies, smooth derivatives only; not a learned circuit, new-template confirmation or speedup."))
+    print(json.dumps(dict(local=local, global_results=global_results), indent=2))
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--run", type=Path, required=True)
+    args = parser.parse_args()
+    try:
+        main(args.run.resolve())
+    except Exception as exc:
+        write_json(args.run/"failure-audit.json", dict(error=repr(exc)))
+        raise
