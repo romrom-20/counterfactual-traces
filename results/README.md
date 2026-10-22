@@ -1,5 +1,12 @@
 # Results and evidence
 
+[268–269: signed amplitudes and directions](amplitude-direction-268-269/README.md)
+preserves 268's failed interaction primary 2/4 and 269's separately sealed fresh
+prediction32/32. The rule caches correction axes/MLP points and adapts two signed
+amplitudes per receiving row/layer; rich finite computation and an extra L run
+remain.400 total forwards, all cases, original raw failures and the public
+pre-native receipt are retained. No general circuit or complete Question B claim.
+
 [267: finite correction-field factorial](correction-field-feedback-267/README.md)
 retains 80 full forwards on four old contexts, every crossed intervention,
 native calibration and numerical failure. Generator-only adaptation preserves

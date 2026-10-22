@@ -1,0 +1,3523 @@
+{
+  "status": "complete",
+  "experiment": "268-geometry",
+  "posthoc": true,
+  "model_calls": 0,
+  "source_sha256": "660f5e419011c461d86e49e1862b4a0ea1d7e21d03a8207146077fd2d2dc8574",
+  "helper_sha256": "d43e6023e5fd2ec23d30ac633a67d19a891f8d6b1f63058e0a8dbe86cceadf41",
+  "input_hashes": {
+    "design.json": "289a5caa2a0b11badd39991cc3892d750b9f7524a77f318f481aa4070d4b644b",
+    "status.json": "5c4c5fae9ea1923a29d9eda053d70fabeda860ab9a4d03c090a19ee3f7d60838",
+    "audit.json": "0596cc5bd607aac9256ad4ce1707250250a6dd7e99c9d789f8b71ff9e606112a"
+  },
+  "norm_weights_sha256": "931de7f1977133a1d3262fe1203c46e4497727199fe0418828fa1c86b93528f5",
+  "checks": [
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.018531076210112e-36,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.018531076210112e-36,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.018531076210112e-36,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.692061405548898e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.470329472543003e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2197274440461925e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.3881317890172014e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.8116482626443515e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.7618285302889447e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.3881317890172014e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.574980159653073e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.8189256484623115e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.809142651444724e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.995991022080595e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.724940478959219e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0164395367051604e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6398557858843255e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6940658945086007e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 9.486769009248164e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.662069341687669e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2197274440461925e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.914675859144182e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.0357660829594124e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.37257477290143e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3660947373317356e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1384122811097797e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.809142651444724e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1926223897340549e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.87890977618477e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.962109704190423e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.963111948670274e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.553649124439119e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.5178830414797062e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.456776945386935e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3660947373317356e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1709383462843448e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.8431436932253575e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2793585635328952e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.6020852139652106e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 9.107298248878237e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4094628242311558e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.204170427930421e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.014435047745458e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.3852447794681098e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "final_interaction_error_identity",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.925929944387236e-34,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.81482486096809e-35,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.925929944387236e-34,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.81482486096809e-35,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.925929944387236e-34,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.81482486096809e-35,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.0086610286472748e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.713392440762853e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1384122811097797e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.439454888092385e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.710505431213761e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.439454888092385e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.371692252312041e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.7947076036992655e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.439454888092385e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.929230630780102e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.8973538018496328e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.8634724839594607e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.846030702774449e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.5575383784680614e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.5178830414797062e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.453889935837843e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.951563910473908e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6940658945086007e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.811147140404426e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.5575383784680614e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.574980159653073e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.951563910473908e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.098637220230962e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.505213034913027e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.686287386450715e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.5294310796760726e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.5178830414797062e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.505213034913027e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.860465750519907e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.149960319306146e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 9.75781955236954e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.228388472693467e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0191500421363742e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.927345865710862e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0164395367051604e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.3418766925686896e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.883977778811442e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.4936649967166602e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.5052130349130266e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0599841277224584e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.3852447794681098e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.119968255444917e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.472333961502706e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.336808689942018e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "final_interaction_error_identity",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6851887013388314e-34,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6851887013388314e-34,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6851887013388314e-34,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.453889935837843e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.87890977618477e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.047314121155779e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.3881317890172014e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.5236570605778894e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0164395367051604e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.9905274260476058e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.3881317890172014e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.7787691892340307e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.809142651444724e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.541098841762901e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.505213034913027e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4230153513872246e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4907779871675686e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.8634724839594607e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.4365678785432934e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.371692252312041e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0028870095490916e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.782037597132586e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.445228907190568e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.74049749507499e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.095750210681871e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.0357660829594124e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0599841277224584e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.903127820947816e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.7947076036992655e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.963111948670274e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6940658945086007e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 9.75781955236954e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0570971181733668e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.1819568721270777e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.198396408832238e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.198396408832238e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.071532165918825e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.236166980751353e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.9873299934333204e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1167282376600696e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.030874584450618e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1492543028346347e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1709383462843448e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.204170427930421e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 9.75781955236954e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.7947076036992655e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.903127820947816e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.336808689942018e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "final_interaction_error_identity",
+      "error": 0.0,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.407412430484045e-35,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.407412430484045e-35,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 9.62964972193618e-35,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.407412430484045e-35,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.505213034913027e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6940658945086007e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2468324983583301e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.8973538018496328e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.7947076036992655e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6940658945086007e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2197274440461925e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.3552527156068805e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.3034284942917713e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.7618285302889447e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 6.776263578034403e-21,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.235164736271502e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0503208545953324e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.623296525288703e-21,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.371692252312041e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2197274440461925e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3417001884508117e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.371692252312041e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.303929616531697e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.3881317890172014e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.846030702774449e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.1600963245594897e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.776263578034403e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.37257477290143e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.710505431213761e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.0657581468206416e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6805133673525319e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.589415207398531e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.3010426069826053e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.0357660829594124e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.8189256484623115e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.0842021724855044e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.6263032587282567e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.589415207398531e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.2197274440461925e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.0328790734103208e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.860465750519907e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.421010862427522e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.6020852139652106e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.8431436932253575e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 9.75781955236954e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.131516293641283e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.0842021724855044e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.809142651444724e-20,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.697835424647081e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 7.806255641895632e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 6.5052130349130266e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.667137344314341e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.2526065174565133e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.7564075194265172e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.903127820947816e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 4.336808689942018e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 4.87890977618477e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 3.0357660829594124e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 2.6020852139652106e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.691355389077387e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 3.469446951953614e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 1.214306433183765e-17,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-09
+    },
+    {
+      "name": "orthogonal_input_geometry_closure",
+      "error": 1.734723475976807e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "orthogonal_plane_residual",
+      "error": 5.204170427930421e-18,
+      "bound": 1e-09
+    },
+    {
+      "name": "final_interaction_error_identity",
+      "error": 0.0,
+      "bound": 1e-10
+    }
+  ],
+  "summaries": [
+    {
+      "arm": "A11",
+      "schema": "generic",
+      "scope": "all",
+      "eligible": 270,
+      "weighted_line": 0.02361338897721802,
+      "weighted_false_plane": 0.19946781652042883,
+      "weighted_random_plane": 0.023890160265988364,
+      "median_false_plane_error": 0.9698876638055149
+    },
+    {
+      "arm": "A11",
+      "schema": "generic",
+      "scope": "verdict",
+      "eligible": 54,
+      "weighted_line": 0.01401118646576323,
+      "weighted_false_plane": 0.2884145413243555,
+      "weighted_random_plane": 0.014278287358693745,
+      "median_false_plane_error": 0.9548573844412132
+    },
+    {
+      "arm": "A11",
+      "schema": "descriptive",
+      "scope": "all",
+      "eligible": 216,
+      "weighted_line": 0.02919581107183326,
+      "weighted_false_plane": 0.22188815989012495,
+      "weighted_random_plane": 0.029518122584435407,
+      "median_false_plane_error": 0.963633511009784
+    },
+    {
+      "arm": "A11",
+      "schema": "descriptive",
+      "scope": "verdict",
+      "eligible": 54,
+      "weighted_line": 0.03378038488842196,
+      "weighted_false_plane": 0.25173232935463263,
+      "weighted_random_plane": 0.03410640885297138,
+      "median_false_plane_error": 0.9687091353117581
+    },
+    {
+      "arm": "D11",
+      "schema": "generic",
+      "scope": "all",
+      "eligible": 270,
+      "weighted_line": 0.00046085904126888684,
+      "weighted_false_plane": 0.004833994923367974,
+      "weighted_random_plane": 0.001035111069852314,
+      "median_false_plane_error": 0.9978666380402692
+    },
+    {
+      "arm": "D11",
+      "schema": "generic",
+      "scope": "verdict",
+      "eligible": 54,
+      "weighted_line": 0.00012386547476482448,
+      "weighted_false_plane": 0.007604861155070572,
+      "weighted_random_plane": 0.00039547476243066617,
+      "median_false_plane_error": 0.9980669057535957
+    },
+    {
+      "arm": "D11",
+      "schema": "descriptive",
+      "scope": "all",
+      "eligible": 216,
+      "weighted_line": 0.0008541279672182572,
+      "weighted_false_plane": 0.01257213957868229,
+      "weighted_random_plane": 0.001627588105106743,
+      "median_false_plane_error": 0.9978736477324601
+    },
+    {
+      "arm": "D11",
+      "schema": "descriptive",
+      "scope": "verdict",
+      "eligible": 54,
+      "weighted_line": 0.0008870336863022725,
+      "weighted_false_plane": 0.013326002394094955,
+      "weighted_random_plane": 0.0016778667616891576,
+      "median_false_plane_error": 0.9977050074941798
+    },
+    {
+      "arm": "P11",
+      "schema": "generic",
+      "scope": "all",
+      "eligible": 270,
+      "weighted_line": 0.01827975538161731,
+      "weighted_false_plane": 0.2025440669728566,
+      "weighted_random_plane": 0.018598862265213793,
+      "median_false_plane_error": 0.9659652720626546
+    },
+    {
+      "arm": "P11",
+      "schema": "generic",
+      "scope": "verdict",
+      "eligible": 54,
+      "weighted_line": 0.012944669376573853,
+      "weighted_false_plane": 0.2901056512791571,
+      "weighted_random_plane": 0.013186807935756618,
+      "median_false_plane_error": 0.9555078825362331
+    },
+    {
+      "arm": "P11",
+      "schema": "descriptive",
+      "scope": "all",
+      "eligible": 216,
+      "weighted_line": 0.028508154273087657,
+      "weighted_false_plane": 0.2321824789004759,
+      "weighted_random_plane": 0.028822712218752065,
+      "median_false_plane_error": 0.9616055394437804
+    },
+    {
+      "arm": "P11",
+      "schema": "descriptive",
+      "scope": "verdict",
+      "eligible": 54,
+      "weighted_line": 0.03301467570845103,
+      "weighted_false_plane": 0.26268243566272964,
+      "weighted_random_plane": 0.033327677010465614,
+      "median_false_plane_error": 0.9654786394407491
+    }
+  ],
+  "csv_sha256": {
+    "geometry.csv": "65532e9c747d31def30d59305b3252d0ab2e60581b6c5c00ccb1379aee1e7a91",
+    "final-ledger.csv": "f9cb6afca029126ff21e5d37641d06dfb588959e5dd26ce3b41018d2919af49a"
+  },
+  "limitation": "Retrospective input geometry and final-vector accounting, no causal plane intervention or learned-feature claim."
+}

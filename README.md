@@ -14,7 +14,7 @@ criterion on **32/32 new literal pairs**. The remaining activation coordinates
 use a quadratic approximation. Substantial source/K/V/MLP computation stays
 finite; this is not a learned circuit or a demonstrated speedup.
 
-[Start here](docs/READING-GUIDE.md) · [Latest diagnostic](docs/analysis/267-correction-field-feedback.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest result](docs/analysis/268-269-amplitudes-directions-and-prediction.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
@@ -25,6 +25,23 @@ query feedback, finite versus approximate computation, and how to inspect a clai
 Follow its six-test path before the full chronological experiment index.
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
+
+## A fixed-direction correction passes a fresh prediction test
+
+An alternative forecast caches its correction directions and local MLP
+operating points from an extra approximate L run, then updates only **two
+signed correction amplitudes per receiving row and layer**. It passes the
+unchanged residual/verdict/margin criterion on **32/32 new literal pairs**,
+with 2.85% median whole error and .03618-nat margin error. All predictions and
+their numerical qualification were publicly sealed before native measurements.
+Random D directions pass 0/32; fixed amplitudes with live directions pass 11/32.
+
+The stronger claim that amplitudes alone preserve the old policy interaction
+fails 2/4. Prediction and interaction explanation are separate tests. The
+common backbone and substantial finite learned computation remain; no speedup
+or learned circuit is established. [All cases, budgets and retained failures](docs/analysis/268-269-amplitudes-directions-and-prediction.md).
+
+![Interaction sufficiency and fresh prediction are different tests](docs/figures/amplitude/amplitude-prediction.png)
 
 ## Where the changing-state dependence appears
 
@@ -70,7 +87,7 @@ learned circuit or solve general Question B. Original numerical failures remain
 failed, with the public Float32 scope explicitly qualified.
 [All interventions, signed effects and limitations](docs/analysis/261-264-mlp-normalization-origin.md).
 
-## What the latest fresh forecast establishes
+## What the sparse forecast establishes
 
 An earlier single-site SiLU repair worked locally but could not predict the
 native response from its inaccurate incoming state. After obtaining an accurate
