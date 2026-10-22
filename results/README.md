@@ -1,5 +1,11 @@
 # Results and evidence
 
+[265–266: local mixing and finite-activation control](local-mlp-mixing-265-266/README.md)
+retains224 local inputs,28 full forwards, all primary failures, direct product
+interventions and their finite-head effects. Removing immediate local mixing
+does not explain the global interaction; adaptive sparse local fidelity0/177,
+common-mask control175/177. All raw numerical failures remain failed.
+
 [261–264: MLP normalization origin and branch interventions](mlp-normalization-origin-261-264/README.md)
 retains all four old contexts, raw numerical failures, primary failed local and
 global accounts, exact reference controls and all28-block signed policy

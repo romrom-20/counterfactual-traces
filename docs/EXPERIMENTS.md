@@ -2,7 +2,22 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest diagnostic:261–264 — MLP normalization generation and branch effects
+## Latest diagnostic:265–266 — local mixing versus state dependence
+
+Four old contexts,224 saved input points and28 new full forwards. A same-input
+cross-product-only account fails. Direct removal of the complete pointwise
+MLP interaction at every receiving layer passes0/4 sufficiency cases under
+adaptive and common-mask variants, while all remain4/4 native-response passes.
+The final contrast survives. Finite-SiLU controls then reject adaptive sparse
+local fidelity0/177; common-mask control175/177. All primary failures, secondary
+results and raw numerical failures retained. No fresh predictor or learned circuit.
+
+[Protocols](experiments/265-local-mixing-and-state-feedback.md) ·
+[Finite control](experiments/266-finite-silu-interaction-control.md) ·
+[Report](analysis/265-266-local-mixing-and-state-feedback.md) ·
+[Every record](../results/local-mlp-mixing-265-266/README.md)
+
+## 261–264 — MLP normalization generation and branch effects
 
 Four old contexts, all28 layers. Replacing receiving MLP input RMSNorm with the
 False tangent raises median whole error2.06%→32.08%. Neither finite-gate-only

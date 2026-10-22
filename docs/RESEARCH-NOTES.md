@@ -2,6 +2,27 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 265–266: the immediate product account fails, and mask adaptation is a confound
+
+The earlier D-L versus H-P comparison combines different evolving states. The
+same-input factorial does not support a cross-product-only account:3/88 H and
+2/89 L eligible whole inputs meet the criterion. More decisively, removing the
+complete local product interaction at every receiving MLP leaves the final
+interaction slightly stronger in all four contexts. Native-response accuracy
+still passes4/4, including matched random controls. The missing explanation
+must address changing inputs/correction fields/transport; local removal alone
+does not distinguish those dependencies or establish a native learned circuit.
+
+The sparse rule creates an additional trap. Against actual finite SiLU at the
+same clamped inputs, adaptive mixed-write fidelity passes0/177; a common H mask
+passes175/177. Its extra contrast comes from a selection operation absent from
+the native transformer. This does not retract258's recorded prediction result.
+It means that result cannot certify every mechanistic comparison performed
+inside its approximation. Finite local direction effects are nearly parallel;
+the global policy effects are not. Both the causal removal and finite control
+are needed before pursuing the remaining state dependence.
+[All data and numerical scope](analysis/265-266-local-mixing-and-state-feedback.md).
+
 ## 261–264: a local account must also survive both branches and later state changes
 
 The remaining finite MLP input normalization is consequential: replacing it
