@@ -1,5 +1,12 @@
 # Results and evidence
 
+[270–271: backbone curvature and controller clamps](backbone-feedback-270-271/README.md)
+preserves both failed primaries on four old contexts, all 76 completed forwards,
+signed local vectors, final restoration tests and exact controller equalities.
+The joint amplitude/query clamp leaves 94.02% median whole error in B-J (0/4).
+Original raw failures, explicit budgets and array/log inventories remain.
+No new fresh forecast, learned circuit or complete Question B claim.
+
 [268–269: signed amplitudes and directions](amplitude-direction-268-269/README.md)
 preserves 268's failed interaction primary 2/4 and 269's separately sealed fresh
 prediction32/32. The rule caches correction axes/MLP points and adapts two signed
