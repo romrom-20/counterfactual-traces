@@ -2,6 +2,18 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 260: distinguish concentrated writes from a favorable sum
+
+259's ranking comparison leaves a geometric ambiguity: did the selected terms
+contain the individual nonlinear contribution, or did their sum only look large
+because other vectors cancelled? The original mask contains at least 90% of
+individual omitted-write energy in 20/24 saved whole inputs, meeting the frozen
+18/24 rule. Median selected fraction is 97.73%; verdict rows are less uniform,
+16/24 and a minimum of zero. This is retrospective local concentration under the
+chosen neuron coordinates, not a new prediction of the gate edits. It does not
+identify learned features, remove all cancellation, or close Question B.
+[Complete energy diagnostic](analysis/260-silu-energy-concentration-result.md).
+
 ## Latest: a conditional sparse repair finally composes under an accurate query rule
 
 240's1% SiLU result was conditional on an incoming state that the forecast could

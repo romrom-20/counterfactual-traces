@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "experiment": 260,
+  "retrospective": true,
+  "model_calls": 0,
+  "source_sha256": "c747ddc32636e72fbba01e698d1897e40cbff226e37c93f795e16e0c01b93954",
+  "protocol_sha256": "53887e5deb71f58f4c5e23a40c9d4498cd58ccc509dcc3c34cdf21b094840bf6",
+  "input_audit_sha256": "6614d7f984a9a7e1b623ef5aea87ca58aa81a37c97391d1e670a11c422b8d0e9",
+  "checkpoint": {
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+    "checkpoint_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "csv_sha256": "e5622cbe0557d667920a65967259b69d421900af5e49ea0e6448e94a2a69ddc1",
+  "summary": {
+    "all": {
+      "total": 24,
+      "eligible": 24,
+      "above_90": 20,
+      "median_selected_fraction": 0.977339265022364,
+      "minimum_selected_fraction": 0.8969209148814294,
+      "negative_cross": 14,
+      "median_coherence": 1.0982264864382576,
+      "median_cross_relative": -3.779504293783737e-05,
+      "median_remaining_relative": 0.1434764804395017
+    },
+    "verdict": {
+      "total": 24,
+      "eligible": 24,
+      "above_90": 16,
+      "median_selected_fraction": 0.9468608274261757,
+      "minimum_selected_fraction": 0.0,
+      "negative_cross": 4,
+      "median_coherence": 1.0325658032754617,
+      "median_cross_relative": 0.015671510887411207,
+      "median_remaining_relative": 0.2360182154685496
+    }
+  },
+  "primary_concentration_account": true,
+  "limitation": "Local concentration at existing forecast inputs, not upstream displacement prediction, global causal allocation or a learned circuit."
+}

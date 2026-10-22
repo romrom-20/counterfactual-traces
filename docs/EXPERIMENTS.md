@@ -24,6 +24,16 @@ predictor, final margin intervention or learned circuit is established.
 
 [Protocol](experiments/259-silu-score-factors.md) · [Report](analysis/259-silu-score-factors-result.md) · [All records](../results/silu-score-factors-259/README.md)
 
+## 260 — concentration before cross-neuron cancellation
+
+Retrospective, zero model calls, all 24 existing C/S MLP witness inputs. The
+original ranked 1% contains at least 90% of individual omitted-write energy in
+20/24 whole inputs (median 97.73%); verdict rows meet it 16/24. All 192 component
+and energy-identity checks pass under the inherited qualification. This supports
+local concentration, not a new upstream predictor or a learned circuit.
+
+[Protocol](experiments/260-silu-energy-concentration.md) · [Report](analysis/260-silu-energy-concentration-result.md) · [All records](../results/silu-energy-concentration-260/README.md)
+
 ## Earlier studies
 
 ## 225b — What reverses the local effect's sign?

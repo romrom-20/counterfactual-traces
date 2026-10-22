@@ -2,6 +2,27 @@
 
 Earlier studies returned to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
+For task definitions, a causal diagram and the shortest evidence path, begin
+with the [reader guide](../docs/READING-GUIDE.md).
+
+## Local energy diagnostic and reader-figure provenance
+
+260 uses the existing258 forecast witnesses to separate individual omitted-write
+concentration from cross-neuron cancellation. It adds no model forwards or
+native measurements. [Result](../docs/analysis/260-silu-energy-concentration-result.md).
+
+```sh
+PYTHONPATH=research python -m boolean_coupling.energy260 \
+  --run runs/my-258-reproduction/experiment258 --out runs/my-260-diagnostic
+python -S research/boolean_coupling/verify_reader_guide.py
+```
+
+The first command needs pinned cached CPU weights and locally regenerated258
+arrays. The output must be new. The second verifies the complete public260
+records, CSV summaries, identities and reader-figure provenance with only the
+standard library. It does not redo omitted tensor products or model experiments.
+The existing full-history verifier below remains unchanged.
+
 ## Current:258/258b receiver-MLP forecasting and259 ranking diagnostic
 
 258's fixed1% finite-SiLU rule, combined with cubic receiver queries, passes32/32
