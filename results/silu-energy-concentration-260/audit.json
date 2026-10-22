@@ -1,0 +1,1025 @@
+{
+  "status": "passed",
+  "experiment": 260,
+  "retrospective": true,
+  "model_calls": 0,
+  "source_sha256": "c747ddc32636e72fbba01e698d1897e40cbff226e37c93f795e16e0c01b93954",
+  "protocol_sha256": "53887e5deb71f58f4c5e23a40c9d4498cd58ccc509dcc3c34cdf21b094840bf6",
+  "input_audit_sha256": "6614d7f984a9a7e1b623ef5aea87ca58aa81a37c97391d1e670a11c422b8d0e9",
+  "checkpoint": {
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+    "checkpoint_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "inputs": [
+    {
+      "key": "2497fdd745449e7f157a968dc2c01123533c326f73b62261fa1170415d977e85",
+      "witness_sha256": "805c20a3d8eae4e65ab865787d240828284fc1d6be9e887ee23f2d8007f7dd86",
+      "forecast_sha256": "9fa88d9346590733af0daa7f53bb6fcf0855efefa24e536a7785c58d1268709f"
+    },
+    {
+      "key": "38a003cc51bfba2b2be344ce122335c5bd4b0443c2b42bb7f3fd9607d156b235",
+      "witness_sha256": "bdf1ff30216678da4a9d67370334e171f395a4077faaf3da3023691ab98c1901",
+      "forecast_sha256": "c20bf1d7690695cf8c37bd54d7f37d64583756e04299f57f2c697167f7d2b4f0"
+    },
+    {
+      "key": "475d5c7e23cf9d2d75f763b1b0e97ede97c48efd5159d61b4b95729d29d2ea58",
+      "witness_sha256": "8eb5489826dcd7cafa120369b3940c06cff0b723a3bd449d2060968f0101ba08",
+      "forecast_sha256": "99e66d13833b86ee0ad1313600c2c7f45fc1b50bcdbfaf1cfed1e272478a6c3e"
+    },
+    {
+      "key": "481ce7b6ae99733c3d5fb9687fe632823ebda11e49ff104665e318d308399be7",
+      "witness_sha256": "35ea2e2802188305a1c17ed628400327ad5caa09412848830e589b54559578cd",
+      "forecast_sha256": "f3c48320a08e3314681286f31d2e9a68754d0222c02c9ede767307eff10b7d85"
+    }
+  ],
+  "checks": [
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.779105386844358e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 4.3744187439020976e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 5.637851296924623e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 4.5901435883483055e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.8601629792058816e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 4.0939474033052647e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.9913399059785144e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 2.2389711862302875e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 3.3306690738754696e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.779105386844358e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 4.3744187439020976e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 5.637851296924623e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 5.469055781772564e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.48304790670295e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 3.7470027081099033e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 1.3877787807814457e-17,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 1.3877787807814457e-17,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.3298742768046036e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.8387454669976933e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 3.3306690738754696e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 2.4997172336162395e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 3.6574717213189167e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 9.540979117872439e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 7.723453663843749e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 2.4403962850527705e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 3.191891195797325e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 1.6386542907420587e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 2.3171028595836418e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 2.498001805406602e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 2.4997172336162395e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 3.6574717213189167e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 9.540979117872439e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 6.037086624222088e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.5358654792407833e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 2.914335439641036e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 2.7186724182087785e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 2.1071732803079612e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 5.551115123125783e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 8.881784197001252e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 2.621929792412348e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 3.5185866720244263e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 6.5052130349130266e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 1.3570287122066649e-06,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.6604066899184033e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 3.191891195797325e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 6.661338147750939e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 1.6832201682193126e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 7.023225023772284e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 2.4424906541753444e-15,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 1.4210854715202004e-14,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 2.621929792412348e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 3.5185866720244263e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 6.5052130349130266e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 2.168404344971009e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 5.745900837116416e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.4208105358903822e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 4.3021142204224816e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 2.9288788679179834e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 8.054262989887206e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 1.1657341758564144e-15,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.407717000517745e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 3.2976980347820817e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 5.224633350970481e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.5959455423875113e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 4.3021142204224816e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 2.220446049250313e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 8.673617379884035e-19,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 1.8487186221237142e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 7.504214094566919e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 1.7763568394002505e-15,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 1.4210854715202004e-14,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.407717000517745e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 3.2976980347820817e-10,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 6.938893903907228e-18,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 7.100714605745573e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 1.514395719937056e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 4.718447854656915e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 4.440892098500626e-16,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "original_rank_mask",
+      "error": 0.0,
+      "bound": 0.0
+    },
+    {
+      "name": "qualified_complete_component",
+      "error": 3.2158216787245286e-05,
+      "bound": 0.0001
+    },
+    {
+      "name": "qualified_selected_component",
+      "error": 8.685041752443112e-08,
+      "bound": 0.0001
+    },
+    {
+      "name": "complete_vector_closure",
+      "error": 9.43689570931383e-16,
+      "bound": 1e-10
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 7.105427357601002e-15,
+      "bound": 1e-08
+    },
+    {
+      "name": "summed_vector_energy_identity",
+      "error": 0.0,
+      "bound": 1e-08
+    },
+    {
+      "name": "individual_energy_partition",
+      "error": 0.0,
+      "bound": 1e-08
+    }
+  ],
+  "csv_sha256": "e5622cbe0557d667920a65967259b69d421900af5e49ea0e6448e94a2a69ddc1",
+  "summary": {
+    "all": {
+      "total": 24,
+      "eligible": 24,
+      "above_90": 20,
+      "median_selected_fraction": 0.977339265022364,
+      "minimum_selected_fraction": 0.8969209148814294,
+      "negative_cross": 14,
+      "median_coherence": 1.0982264864382576,
+      "median_cross_relative": -3.779504293783737e-05,
+      "median_remaining_relative": 0.1434764804395017
+    },
+    "verdict": {
+      "total": 24,
+      "eligible": 24,
+      "above_90": 16,
+      "median_selected_fraction": 0.9468608274261757,
+      "minimum_selected_fraction": 0.0,
+      "negative_cross": 4,
+      "median_coherence": 1.0325658032754617,
+      "median_cross_relative": 0.015671510887411207,
+      "median_remaining_relative": 0.2360182154685496
+    }
+  },
+  "primary_concentration_account": true,
+  "limitation": "Local concentration at existing forecast inputs, not upstream displacement prediction, global causal allocation or a learned circuit."
+}

@@ -34,6 +34,13 @@ whole-model derivative identity. [258 result and exact budget](analysis/258-rece
 The sections below preserve how the unresolved questions evolved; historical
 failures are not overwritten by this more restricted success.
 
+260 supplies a further local constraint: the successful mask captures most
+individual omitted-write energy before cross-neuron cancellation in 20/24 saved
+whole-input witnesses; verdict capture is less uniform. The state/gate edits
+that create this concentration are still supplied by the forecast's substantial
+finite computation. This narrows the compression account, not the unresolved
+learned-generator question. [Result](analysis/260-silu-energy-concentration-result.md).
+
 ## What has narrowed the question
 
 The starting observation is a conditional preference dependency: changing an explicitly irrelevant Boolean in a supplied completion prefix changes the later verdict's true-minus-false score margin. The preferred Boolean can remain unchanged while the margin moves substantially. This alone does not establish verifier competence or a deployment failure.

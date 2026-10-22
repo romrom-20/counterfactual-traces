@@ -14,9 +14,17 @@ criterion on **32/32 new literal pairs**. The remaining activation coordinates
 use a quadratic approximation. Substantial source/K/V/MLP computation stays
 finite; this is not a learned circuit or a demonstrated speedup.
 
-[Latest result](docs/analysis/258-receiver-mlp-result.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest result](docs/analysis/258-receiver-mlp-result.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
+
+## New to this project?
+
+The [reading guide](docs/READING-GUIDE.md) defines the task, residual displacement,
+query feedback, finite versus approximate computation, and how to inspect a claim.
+Follow its six-test path before the full chronological experiment index.
+
+![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
 
 ## What the latest experiment establishes
 
@@ -25,12 +33,12 @@ native response from its inaccurate incoming state. After obtaining an accurate
 query-feedback rule, we apply the same target-blind activation rule at every
 receiving MLP, using only each forecast's own evolving state.
 
-The primary ranked1% rule has **2.13% median whole-displacement error**,
+The primary ranked 1% rule has **2.13% median whole-displacement error**,
 **1.96% verdict-displacement error** and **.00678-nat margin error**. It passes
 8/8 cases in every schema/order stratum. Quadratic SiLU everywhere leaves
-**40.79%** median whole error and passes0/32. A row-count-matched random1%
-restoration leaves **39.53%** and passes0/32. The finite-SiLU reference passes32/32
-at1.05% whole error. Every forecast was publicly sealed before native True
+**40.79%** median whole error and passes 0/32. A row-count-matched random 1%
+restoration leaves **39.53%** and passes 0/32. The finite-SiLU reference passes 32/32
+at 1.05% whole error. Every forecast was publicly sealed before native True
 measurement. [All cases, method and budget](docs/analysis/258-receiver-mlp-result.md).
 
 ![All32 fresh literal pairs, including controls](docs/figures/258/258-receiver-mlp.png)
@@ -38,19 +46,23 @@ measurement. [All cases, method and budget](docs/analysis/258-receiver-mlp-resul
 The mask ranks an analytical SiLU remainder bound times current up magnitude
 and down-column norm. It uses no native True gates, final readout or observed
 remainder. A separate **retrospective** comparison finds that dropping the
-bound weakens local capture; dropping column norm changes little at the24
+bound weakens local capture; dropping column norm changes little at the 24
 saved witness inputs. Cubic gate-displacement magnitude also performs similarly
 locally, so the full bound is not shown uniquely necessary. These simpler rules
 have not been validated as fresh global forecasts.
 [Score-factor diagnostic](docs/analysis/259-silu-score-factors-result.md).
+A subsequent [energy diagnostic](docs/analysis/260-silu-energy-concentration-result.md)
+finds the original mask contains at least 90% of individual omitted-write energy
+in 20/24 whole-input witnesses, before cross-neuron cancellation. Verdict-local
+capture is less uniform (16/24). This does not predict the upstream gate changes.
 
 ## The numerical boundary matters
 
-The original258 CPU64 whole-down-projection audit **failed**. Before any native
-measurement, a separately frozen258b qualification required exact public
+The original 258 CPU64 whole-down-projection audit **failed**. Before any native
+measurement, a separately frozen 258b qualification required exact public
 Float32 replay at the original full-sequence shape, while retaining every
 failed CPU64 check at its original tolerance. All other component and behavioral
-criteria stayed fixed. The qualified final audit passes20,016 checks; raw
+criteria stayed fixed. The qualified final audit passes 20,016 checks; raw
 whole-down and projection/rotary/QK coordinate failures remain published as
 failures. This is not independent whole-model real-arithmetic reconstruction,
 and it does not resolve older whole-block derivative disagreements.
@@ -86,6 +98,7 @@ Verify every release, source seal and retained historical record without a model
 
 ```sh
 python -S research/boolean_coupling/reproduce_receiver_mlp.py --verify-only --history --plan
+python -S research/boolean_coupling/verify_reader_guide.py
 ```
 
 For an actual numerical reproduction, follow the [environment setup](research/README.md), then:

@@ -1,5 +1,10 @@
 # Results and evidence
 
+[260: local concentration before cancellation](silu-energy-concentration-260/README.md)
+retains all 48 scope records and 192 checks, with zero new model calls. Reader
+figures have separate public CSV/source provenance in `docs/figures/reader/`.
+
+
 ## Latest258/258b and259
 
 - [258 full forecasts and explicit258b qualification](receiver-mlp-curvature-258/README.md):
