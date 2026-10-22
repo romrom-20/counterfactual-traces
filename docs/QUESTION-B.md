@@ -6,7 +6,21 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through258–266
+## Current answer through 269
+
+269 adds a bounded fresh prediction result with a more restricted correction
+geometry. Fixed correction axes and local MLP operating points, cached from
+an extra L forecast, plus two adaptive signed amplitudes per row/layer pass
+32/32 new literal pairs. Median whole receiving error 2.85%, verdict2.47%,
+margin.03618 nats. All predictions were publicly sealed before native True.
+The shared backbone and substantial source/KV/MLP computation remain finite.
+No speedup or learned circuit is identified. The stronger old-context 268
+interaction hypothesis failed 2/4 and stays failed: accuracy of this forecast
+does not establish every proposed mechanism. The origin of the particular
+learned upstream displacement and a useful smaller computation budget remain
+open. [Result, source seals and budget](analysis/268-269-amplitudes-directions-and-prediction.md).
+
+## Earlier bounded prediction result:258
 
 The defined prospective prediction problem has a bounded positive answer:
 with cubic receiver queries and the other declared finite components, a fixed

@@ -2,6 +2,28 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 268–269: preserve a failed mechanism test while testing the narrower prediction
+
+Amplitude-only adaptation does not completely preserve the 268 policy
+interaction:2/4 passes, below the registered3/4 requirement. Its native forecast
+nevertheless passes 4/4 old cases. Directional input geometry is not mostly a
+simple rotation toward the False pattern. Those observations do not establish
+a complete mechanism and were not relabelled as successes.
+
+269 freezes a separate predictive claim on 32 new literal pairs. All forecasts
+and numerical qualification are public before native measurements. The
+amplitude-only primary passes 32/32, with 2.85% median whole error and .03618 nats.
+It updates two signed amplitudes per receiving row/layer while caching the
+correction directions and local MLP point from an extra L forecast. Live
+directions/fixed amplitudes pass 11/32, both fixed9/32, random D axis0/32.
+
+This shows that the chosen cached direction carries useful information and
+that its continuous adaptation is unnecessary at the tested predictive
+accuracy/budget. It does not prove native direction changes harmful, validate
+the failed interaction model, or explain the learned upstream generator. The
+fully finite-MLP/cubic-query reference remains more accurate. All original raw
+CPU64 failures remain failed. [Complete evidence and limits](analysis/268-269-amplitudes-directions-and-prediction.md).
+
 ## 267: changing the generated correction is sufficient under a fixed local baseline
 
 The remaining state dependence had two concrete explanations: different inputs

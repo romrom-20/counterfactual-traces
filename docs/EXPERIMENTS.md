@@ -2,7 +2,26 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest diagnostic:267 — correction generation versus its MLP operating point
+## Latest:268–269 — signed amplitudes, direction and fresh prediction
+
+268's amplitude-only interaction hypothesis fails 2/4 old contexts, despite4/4
+native prediction passes. A separately frozen269 test then passes 32/32 new
+literal pairs with fixed correction axes/local MLP points and adaptive signed
+amplitudes, under an explicit extra-L/finite-computation budget. Median whole
+error 2.85%, verdict2.47%, margin.03618 nats. H 32/32; full generator 29/32;
+direction-only11/32; both frozen9/32; random D axis0/32; L 0/32. All predictions
+and preaudit publicly sealed before any fresh native True measurement.
+
+400 complete forwards; zero-forward posthoc geometry. Original raw CPU64
+failures396/14,784 and 1,247/45,696 remain failed. No private article, independent
+task/checkpoint replication, learned circuit or complete Question B solution.
+
+[268 protocol](experiments/268-signed-amplitudes-and-directions.md) ·
+[269 protocol](experiments/269-sealed-amplitude-forecast.md) ·
+[Report](analysis/268-269-amplitudes-directions-and-prediction.md) ·
+[Every case and public receipt](../results/amplitude-direction-268-269/README.md)
+
+## 267 — correction generation versus its MLP operating point
 
 Four old 263 contexts, 80 retained forwards, full finite SiLU. Cross correction
 generation with the local MLP operating point while retaining the adaptive
@@ -48,7 +67,7 @@ separately checked smooth RMS derivatives. No fresh examples or learned circuit.
 [Report and budget](analysis/261-264-mlp-normalization-origin.md) ·
 [Every case and failure](../results/mlp-normalization-origin-261-264/README.md)
 
-## Latest fresh forecast:258 / qualified258b — fixed1% receiving SiLU budget
+## 258 / qualified258b — fixed1% receiving SiLU budget
 
 A globally sealed fresh test with cubic receiver queries held fixed. Ranked1%
 finite SiLU passes32/32 whole/verdict/margin cases (2.13% median whole error);

@@ -5,6 +5,54 @@ Earlier studies returned to the failed whole-response forecast. **235** provides
 For task definitions, a causal diagram and the shortest evidence path, begin
 with the [reader guide](../docs/READING-GUIDE.md).
 
+<a id="signed-amplitudes-and-directions-268269"></a>
+
+## Signed amplitudes and directions 268–269
+
+269's amplitude-only rule passes 32/32 fresh literal pairs under its explicit
+L-cache/finite-computation budget.268's stronger old interaction account
+fails 2/4 and stays failed. [Report and every qualification](../docs/analysis/268-269-amplitudes-directions-and-prediction.md).
+
+```sh
+python -S research/boolean_coupling/verify_amplitude.py
+python -S research/boolean_coupling/reproduce_amplitude.py --plan --out runs/my-amplitude-replay
+python research/boolean_coupling/reproduce_amplitude.py --run --out runs/my-amplitude-replay
+```
+
+The replay needs the pinned MPS environment/cached checkpoint and the public
+fixtures; it needs **no earlier activation archive** and never pushes Git.
+It repeats published269 literals, with a local seal explicitly marked
+numerical replication. It is not another fresh confirmation and does not
+bypass or change the original fresh CLI's required public-receipt guard.
+Choose a new destination and keep several GiB free. It executes288forecast
+forwards, a primitive preaudit,32 native measurements and a separate final audit.
+All original scientific stages ran directly; this newly supplied wrapper has
+plan/import/syntax checks, without a second full batch replay.
+
+For268, first regenerate258/263/267 with the earlier pipelines, then use new
+destinations with the exact scientific CLIs:
+
+```sh
+export PYTHONPATH=research OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+QB_258=runs/my-258-reproduction/experiment258
+QB_263=runs/my-normalization-reproduction/normalization-branches-energy-263
+QB_267=runs/my-field-state-267
+QB_268=runs/my-amplitude-direction-268
+python -m boolean_coupling.amplitude268
+python -m boolean_coupling.rollout268 --original "$QB_258" --reference "$QB_263" --previous "$QB_267" --out "$QB_268"
+python -m boolean_coupling.audit268 --original "$QB_258" --reference "$QB_263" --previous "$QB_267" --run "$QB_268"
+python -m boolean_coupling.geometry268 --run "$QB_268" --reference "$QB_263" --out runs/my-directional-geometry-268
+```
+
+The last command is explicitly posthoc, zero-forward input geometry, not a
+causal plane intervention. The original 269 fresh study used frozen
+`forecast269 forecast`, `audit269 pre`, `forecast269 receipt`, a public
+commit/push/proof, then `forecast269 native` and `audit269 final`. Its receipt
+is retained unchanged. The local replay above serves numerical reproduction;
+fresh research requires new fixtures and a newly frozen/sealed protocol.
+Original raw CPU64 failures stay failed; all numerical scope limitations apply.
+CI verifies record/source integrity, not independent model replication.
+
 ## Finite correction-field factorial 267
 
 267 separates changing normalization correction vectors from their changing
