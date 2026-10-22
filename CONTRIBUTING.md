@@ -2,7 +2,7 @@
 
 The active question is whether an identified nonlinear computation can predict the native residual and verdict response to a known input edit, using one observed False-state computation. Useful contributions test a specific part of that claim: a qualified primitive intervention, a falsifying control, or a frozen forecast evaluated on fresh contexts.
 
-Start with [Question B](docs/QUESTION-B.md), the [latest diagnostic](docs/analysis/265-266-local-mixing-and-state-feedback.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
+Start with [Question B](docs/QUESTION-B.md), the [latest diagnostic](docs/analysis/267-correction-field-feedback.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
 
 ## Preserve the record
 

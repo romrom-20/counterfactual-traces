@@ -2,6 +2,27 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 267: changing the generated correction is sufficient under a fixed local baseline
+
+The remaining state dependence had two concrete explanations: different inputs
+generate different normalization corrections, or the MLP responds differently
+to the same correction as its operating point changes. A complete finite-SiLU
+factorial separates them. Keeping the generator adaptive while freezing the
+correction's MLP baseline preserves the final interaction 4/4, at 10.61% median
+whole-vector error. Reversing those clamps passes 0/4, with 93.34% error. Both frozen and
+matched random frozen writes fail. The successful A10 continuation also
+passes native accuracy 4/4; the H/A11 reference calibration passes as frozen.
+
+This narrows an intervention-specific account: the local operating point need
+not keep adapting at the declared fidelity, given an adaptive generator and
+the L forecast cache. It does not establish a fixed linear reader, a learned
+circuit, new-template generalization or a cheaper prediction method. The
+common backbone and attention still adapt. The next question is which radial
+overlap, energy and direction changes inside the generator must remain live,
+and what learned upstream computation creates them. Exact public Float32
+component/head checks pass; all 371 raw CPU64 projection failures remain failed.
+[All cases, controls and storage-aborted attempt](analysis/267-correction-field-feedback.md).
+
 ## 265–266: the immediate product account fails, and mask adaptation is a confound
 
 The earlier D-L versus H-P comparison combines different evolving states. The
@@ -9,7 +30,7 @@ same-input factorial does not support a cross-product-only account:3/88 H and
 2/89 L eligible whole inputs meet the criterion. More decisively, removing the
 complete local product interaction at every receiving MLP leaves the final
 interaction slightly stronger in all four contexts. Native-response accuracy
-still passes4/4, including matched random controls. The missing explanation
+still passes 4/4, including matched random controls. The missing explanation
 must address changing inputs/correction fields/transport; local removal alone
 does not distinguish those dependencies or establish a native learned circuit.
 
@@ -35,7 +56,7 @@ rescaling predicts complete whole gate changes locally, yet fails the next
 global primary2/4 because the generic verdict margins remain wrong. This is a
 useful rejection of local sufficiency, not a reason to promote a secondary term.
 
-The complete two-term intervention tracks finite normalization and passes4/4
+The complete two-term intervention tracks finite normalization and passes 4/4
 old contexts. The smaller term's final verdict-vector effect differs sharply
 depending on whether the larger term is present: near-orthogonal in generic
 contexts and weakly opposing in descriptive contexts. These are own-state
@@ -43,7 +64,7 @@ policy effects, which include later state/mask/attention changes, not a
 same-input learned product account. The next discriminator is local product
 transmission versus later state feedback, not another end-to-end correction
 sweep. Every original numerical/implementation failure is preserved; the
-publicFloat32 boundary does not recertify older whole-block derivatives.
+public Float32 boundary does not recertify older whole-block derivatives.
 [Result, reproduction and all failures](analysis/261-264-mlp-normalization-origin.md).
 
 ## 260: distinguish concentrated writes from a favorable sum

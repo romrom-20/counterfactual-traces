@@ -14,7 +14,7 @@ criterion on **32/32 new literal pairs**. The remaining activation coordinates
 use a quadratic approximation. Substantial source/K/V/MLP computation stays
 finite; this is not a learned circuit or a demonstrated speedup.
 
-[Start here](docs/READING-GUIDE.md) · [Latest diagnostic](docs/analysis/265-266-local-mixing-and-state-feedback.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest diagnostic](docs/analysis/267-correction-field-feedback.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
@@ -25,6 +25,23 @@ query feedback, finite versus approximate computation, and how to inspect a clai
 Follow its six-test path before the full chronological experiment index.
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
+
+## Where the changing-state dependence appears
+
+A finite MLP factorial separates two dependencies. Allowing normalization
+correction vectors to change while freezing their local MLP operating point
+preserves the signed final policy interaction in **4/4 old contexts**. Freezing
+the vectors while allowing the operating point to adapt passes **0/4**. Median
+interaction-vector errors are 10.6% and 93.3%, respectively; both frozen and
+matched random frozen writes also fail. All neurons use finite SiLU.
+
+The successful variant also passes native-response accuracy 4/4, with 3.2%
+median whole-displacement error. The common backbone and attention still adapt;
+the frozen operating point comes from an extra approximate forecast. This is
+a conditional causal constraint, not a fresh predictor or identified circuit.
+[Crossed interventions, every case and numerical limits](docs/analysis/267-correction-field-feedback.md).
+
+![Correction generation versus the local MLP operating point](docs/figures/fields/field-feedback.png)
 
 ## What the local removal test showed
 

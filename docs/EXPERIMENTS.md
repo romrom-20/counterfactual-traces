@@ -2,7 +2,23 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest diagnostic:265–266 — local mixing versus state dependence
+## Latest diagnostic:267 — correction generation versus its MLP operating point
+
+Four old 263 contexts, 80 retained forwards, full finite SiLU. Cross correction
+generation with the local MLP operating point while retaining the adaptive
+backbone/attention. Generator-only adaptation preserves the signed final
+policy interaction 4/4 (10.61% median whole error); operating-point-only
+adaptation 0/4 (93.34%), both frozen 0/4, matched random 0/4. H/A11 calibration 4/4;
+A10 native accuracy 4/4. Extra L cache/finite primitive work is explicit.
+57,552 declared checks pass; 371/13,440 original-bound raw CPU64 checks fail and
+remain failed. The original 20-forward storage-aborted attempt is preserved;
+unchanged-source retry retains 80 forwards. No fresh confirmation or circuit.
+
+[Protocol](experiments/267-correction-fields-and-operating-points.md) ·
+[Report](analysis/267-correction-field-feedback.md) ·
+[Every record](../results/correction-field-feedback-267/README.md)
+
+## 265–266 — local mixing versus state dependence
 
 Four old contexts,224 saved input points and28 new full forwards. A same-input
 cross-product-only account fails. Direct removal of the complete pointwise
@@ -22,11 +38,11 @@ results and raw numerical failures retained. No fresh predictor or learned circu
 Four old contexts, all28 layers. Replacing receiving MLP input RMSNorm with the
 False tangent raises median whole error2.06%→32.08%. Neither finite-gate-only
 nor finite-up-only suffices. The dominant-pattern curvature hypothesis misses
-its local criterion; the subsequent energy-only primary passes2/4 globally,
+its local criterion; the subsequent energy-only primary passes 2/4 globally,
 despite all vector criteria passing. Complete factorization replays the finite
 reference within its declared rounding bounds. Global direction-term effects
 depend on their background;264b preserves the original264 layer-index failure.
-Raw numerical failures remain failed, with qualified publicFloat32 replay and
+Raw numerical failures remain failed, with qualified public Float32 replay and
 separately checked smooth RMS derivatives. No fresh examples or learned circuit.
 
 [Report and budget](analysis/261-264-mlp-normalization-origin.md) ·

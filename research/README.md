@@ -5,6 +5,44 @@ Earlier studies returned to the failed whole-response forecast. **235** provides
 For task definitions, a causal diagram and the shortest evidence path, begin
 with the [reader guide](../docs/READING-GUIDE.md).
 
+## Finite correction-field factorial 267
+
+267 separates changing normalization correction vectors from their changing
+local MLP operating point, with finite SiLU everywhere. The generator-only
+crossing preserves the final interaction 4/4; the opposite crossing, both
+frozen and matched random controls each pass 0/4. These are **four old contexts**,
+not a new held-out forecast. [Report](../docs/analysis/267-correction-field-feedback.md).
+
+```sh
+python -S research/boolean_coupling/verify_fields.py
+```
+
+For actual numerical reproduction, first regenerate258 and263 with the
+published pipelines below. Use the pinned MPS environment and a new destination:
+
+```sh
+export PYTHONPATH=research OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+QB_ORIGINAL=runs/my-258-reproduction/experiment258
+QB_REF=runs/my-normalization-reproduction/normalization-branches-energy-263
+QB_FIELDS=runs/my-field-state-267
+python -m boolean_coupling.fields267
+python -m boolean_coupling.rollout267 --original "$QB_ORIGINAL" --reference "$QB_REF" --out "$QB_FIELDS"
+python -m boolean_coupling.audit267 --original "$QB_ORIGINAL" --reference "$QB_REF" --run "$QB_FIELDS"
+```
+
+The synthetic preflight reads no study inputs. Producer80 forwards include an
+extra L forecast and 4,816 full-shape public MLP evaluations; the audit adds
+primitive evaluations and smooth RMS derivative checks, not more full forwards.
+All individual CLIs ran directly. There is no compute-speedup or circuit claim.
+Keep several GiB free for model/swap headroom as well as the 260 MiB raw cap and
+512 MiB reserve. The original storage-aborted20-forward attempt remains in the
+release; its unchanged-source retry is the retained 80-forward experiment.
+Do not delete evidence or repeat a failed destination. Every original raw
+CPU64 failure stays failed; matched public Float32 checks qualify the stated
+component scope without certifying whole-block derivatives. CI verifies the
+published record, not model replication. Regenerate the posthoc figure with
+`python research/boolean_coupling/describe_fields.py`.
+
 ## Local product mixing and finite activation control
 
 265 performs a same-input MLP factorial, then removes its pointwise interaction
