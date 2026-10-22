@@ -63,6 +63,17 @@ artifacts. These remain old-context, qualified component interventions, not a
 learned circuit or a reduced prediction budget.
 [Result and finite control](analysis/265-266-local-mixing-and-state-feedback.md).
 
+267 crosses the remaining state dependencies using full finite SiLU.
+Adapting the generated normalization correction vectors while freezing their
+local MLP operating point preserves the signed final policy interaction 4/4;
+the opposite crossing, both frozen and matched random controls each pass 0/4.
+The successful continuation also retains native-response accuracy 4/4, under
+an explicit extra-L-cache and finite-computation budget. This constrains a
+defined old-context policy contrast; it does not identify a unique native
+mechanism. Which radial/energy/direction changes create the adaptive correction
+and how the learned upstream computation produces them remain unresolved.
+[Full finite factorial and qualifications](analysis/267-correction-field-feedback.md).
+
 ## What has narrowed the question
 
 The starting observation is a conditional preference dependency: changing an explicitly irrelevant Boolean in a supplied completion prefix changes the later verdict's true-minus-false score margin. The preferred Boolean can remain unchanged while the margin moves substantially. This alone does not establish verifier competence or a deployment failure.

@@ -1,5 +1,12 @@
 # Results and evidence
 
+[267: finite correction-field factorial](correction-field-feedback-267/README.md)
+retains 80 full forwards on four old contexts, every crossed intervention,
+native calibration and numerical failure. Generator-only adaptation preserves
+the signed final interaction 4/4; operating-point-only, both-frozen and random
+controls each0/4. The unchanged-source storage retry and original failure are
+both retained. No new held-out forecast, compact predictor or circuit claim.
+
 [265–266: local mixing and finite-activation control](local-mlp-mixing-265-266/README.md)
 retains224 local inputs,28 full forwards, all primary failures, direct product
 interventions and their finite-head effects. Removing immediate local mixing
