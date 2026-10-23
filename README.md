@@ -8,13 +8,13 @@ and propagating it let us forecast native residual and verdict from the **False
 computation, known edit and model weights**.
 
 **Current answer: useful bounded predictions; the learned mechanism remains open.**
-The latest native intervention tests whether a Boolean source signal can be
-reused across prompt schemas. Exchanging its value changes passes only 5/32 of
-the defined source-value-effect tests; matching magnitudes gives 4/32. Keeping
-the recipient's directions with donor magnitudes gives 32/32 on that looser test,
-but 0/32 on the strict complete native-response test. Context-specific source
-direction information matters; its learned generator remains unidentified.
-[Native source result and all qualifications](docs/analysis/273-native-source-value-portability.md).
+The latest native test asks whether the nonportable source message is just
+normalization around different backgrounds. Reanchoring a donor residual step at
+the recipient False state gives0/32 combined emission/effect passes (5/32 effect
+alone). Keeping the recipient step at the donor center gives32/32 on the looser
+criteria, but0/32 strict complete-response passes. Consequential information is
+already in the upstream residual change; its generator remains unresolved.
+[Geometry result, all controls and caveats](docs/analysis/274-source-residual-reanchoring.md).
 
 For the late Boolean edits in this setup, retaining one False prefix KV cache
 and recomputing the affected suffix passes 32/32 old native-response cases.
@@ -27,7 +27,7 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest native intervention](docs/analysis/273-native-source-value-portability.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest geometry test](docs/analysis/274-source-residual-reanchoring.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)

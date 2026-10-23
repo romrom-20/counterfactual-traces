@@ -6,7 +6,20 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 273
+## Current answer through 274
+
+274 tests whether source-value nonportability is explained by finite RMSNorm
+around different False source backgrounds. Reanchoring a paired donor residual
+step at the recipient center gives0/32 combined emitter/value-effect passes,
+5/32 effect passes and0/32 strict native passes. Keeping the recipient step at
+the donor center gives32/32 combined/effect, but0/32 strict native. The oracle
+four-corner control gives30/32 strict native, not a False-only predictor. The
+missing information is already upstream of the emission norm/V map; source
+attention/MLP generation remains open. All24,192 declared numerical checks and
+21,504 original-bound raw RMS/V checks pass; prior failures are unchanged.
+This is an old-context conditional native diagnostic, not fresh confirmation,
+a learned circuit, or a solution to general Question B.
+[Geometry result, budgets and retained failures](analysis/274-source-residual-reanchoring.md).
 
 273 returns to native source-value communication. A matched other-schema value
 change fails the portable-signal primary 5/32; norm matching gives 4/32. Preserving

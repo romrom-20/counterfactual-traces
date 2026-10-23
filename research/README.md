@@ -1,5 +1,34 @@
 # Reproduce the current research
 
+## Source residual reanchoring (274)
+
+[Protocol](../docs/experiments/274-source-residual-reanchoring.md) ·
+[Result](../docs/analysis/274-source-residual-reanchoring.md) ·
+[All32 old cases](../results/source-residual-reanchoring-274/README.md)
+
+```sh
+python -S research/boolean_coupling/verify_reanchoring.py
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research python -m boolean_coupling.run274 --reference-273 /path/to/regenerated/native-value-interchange-273 --out runs/my-source-reanchoring
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research python -m boolean_coupling.audit274 --reference-273 /path/to/regenerated/native-value-interchange-273 --run runs/my-source-reanchoring
+```
+
+The two scientific commands actually ran, after freezing all sources. They
+require regenerated273 arrays from the next section, including its old False
+and generated source trajectories; no private activation archive is downloaded.
+Use the pinned MPS environment, cached checkpoint and a new output directory.
+All32 cases are old. Donor/reference steps are calibration, and U/D/J additionally
+use own-True information as declared. Native source keys remain finite in the
+continuations. This is not a cheap complete False-only forecast or fresh test.
+
+384 full forwards,8,960 extra PV calls and10,752 source RMS/V calls each are
+recorded. The32 NPZ files total497,897,030bytes; public hashes bind the local
+raw arrays. Reserve at least1.2GiB initially,768MiB per case, plus model/process
+headroom. No old evidence is overwritten. The original1e-4 raw checks remain
+unchanged; all21,504 pass here, without recertifying older failed derivatives.
+Posthoc `package_reanchoring.py` / `describe_reanchoring.py` produce the public
+records and figure; `verify_reanchoring.py` independently recomputes CSV rules
+without model dependencies. Private writing and arrays are excluded.
+
 ## Native source-value interchange 273
 
 This old-context native primitive study rejects the portable-signal primary 5/32.

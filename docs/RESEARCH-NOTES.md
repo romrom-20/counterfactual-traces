@@ -2,6 +2,22 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 274: source-step information survives a change of normalization background
+
+The new geometry test distinguishes a nonportable normalized emission from a
+nonportable residual step. Reanchoring the donor step does not rescue it:
+0/32 combined emitter/effect,5/32 effect alone. Keeping the own step while
+exchanging its center gives32/32 at those looser endpoints. RMS geometry still
+matters for strict accuracy: that control has0/32 strict native, while oracle
+additive corners have30/32. All controls and both margin failures remain.
+
+Thus the source-emission norm/V map is insufficient to explain the missing
+context dependence. The next generator question is how source attention reads
+and finite MLP responses create the residual step. A primitive test must keep
+its emitted-vector and actual downstream targets distinct from prediction,
+then use fresh sealed inputs if a smaller stable rule emerges. Old own-True
+steps in the geometry controls are not prospective inputs. [Full record](analysis/274-source-residual-reanchoring.md).
+
 ## 273: a shared initial Boolean signal acquires consequential source directions
 
 Native value interchange rejects a strong account in which schemas mainly read

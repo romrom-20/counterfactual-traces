@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "experiment": 274,
+  "retrospective": true,
+  "design_sha256": "e1afc525303755709ffb0106b30f9e7182b6b4c1e85df2de683da1efb915b79c",
+  "status_sha256": "1881a3e087dd126ccfe5f6b8c4982a87e0f972d4ddd02e5040e2cd3997dee809",
+  "source_sha256": "c27bee8d3dbbc35579fab4e871ffa90db993276cb22b8220325d4d01482fc77a",
+  "numerical_checks": 24192,
+  "numerical_max_error": 7.385579642971152e-06,
+  "raw_checks": {
+    "total": 21504,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "native_counts": {
+    "U": 32,
+    "P": 0,
+    "C": 1,
+    "D": 0,
+    "E": 0,
+    "R": 0,
+    "J": 30,
+    "X": 0,
+    "Z": 0
+  },
+  "effect_counts": {
+    "U": 32,
+    "P": 5,
+    "C": 19,
+    "D": 32,
+    "E": 0,
+    "R": 0,
+    "J": 32,
+    "X": 5,
+    "Z": 0
+  },
+  "combined_counts": {
+    "U": 32,
+    "P": 0,
+    "C": 6,
+    "D": 32,
+    "E": 0,
+    "R": 0,
+    "J": 32,
+    "X": 0
+  },
+  "P_strata": {
+    "generic/0": 0,
+    "generic/1": 0,
+    "descriptive/0": 0,
+    "descriptive/1": 0
+  },
+  "primary_passes": false,
+  "csv_sha256": {
+    "effects.csv": "efce02fd13a72e56af785a841dbeff740de0c0fa0213dd05a038ef9164fc9330",
+    "emission.csv": "0b27af6453ea5532764fed5fcc5e91ad92714858a09ccbcc895b4dff72b05548",
+    "emission-layers.csv": "db51af62aaeff8815b53988f43ad504120bc0d253371291a9f0e0d93329f51f5",
+    "raw-primitives.csv": "5006b1356bb92018b1918233a14aac9b851b690e537b4949bfb05c73d956fe28",
+    "native.csv": "0b7a1483be2d4729b6f7d5eb3e14fd889ff370881970663f6c4f8c244593b357",
+    "heads.csv": "00016dda558db160d430ce5331050b5355012edbf8f7ca67b2a09eeaf338774f",
+    "combined.csv": "5053d6d5de89ac47727d02c6ba29bb54ca23511d405574d41a729bd217fbe40e"
+  },
+  "boundary": "Old native value-path geometry diagnostic, native source keys retained; no fresh/cheap full forecast, learned feature or general Question B solution. Original numerical failures not recertified."
+}
