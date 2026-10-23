@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "experiment": 273,
+  "retrospective": true,
+  "source_sha256": "73c9326892576f7db0f589e44e3c8efc08f4ed91a1e636d4e6817bc6afaa2e3d",
+  "design_sha256": "9c3e3d284d3199013a17c84df45ed3fc9be277aaa24eb268b9aafca3b57b08d3",
+  "status_sha256": "ec2a3c93fe2d290d36a4b8e2f146728766171e3f4831effea83cf10f3fb718fb",
+  "counts": {
+    "archived_endpoint_and_score_equalities": 128,
+    "complete_attention_witnesses": 96
+  },
+  "numerical_checks": 4544,
+  "numerical_max_error": 3.593428934722809e-05,
+  "native_counts": {
+    "U": 32,
+    "X": 0,
+    "D": 0,
+    "A": 0,
+    "Z": 0,
+    "R": 0
+  },
+  "effect_counts": {
+    "U": 32,
+    "X": 5,
+    "D": 4,
+    "A": 32,
+    "Z": 0,
+    "R": 0
+  },
+  "X_strata": {
+    "generic/0": 0,
+    "generic/1": 0,
+    "descriptive/0": 2,
+    "descriptive/1": 3
+  },
+  "primary_passes": false,
+  "raw_source_checks": {
+    "total": 1792,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "effects.csv": "c9a02d5afadbe9173e657ce11d1d9bca586bd1b75afc3a3486ed83a14481332a",
+    "source-geometry.csv": "fd31aafdf7af6854b43449847fe79e9babfc0398aa22ae7928a8c0bbbbad94f1",
+    "raw-source-projections.csv": "548d55f23cae78939a33e90d847d69c2312508e70175c3fb32e9469887b1746e",
+    "native.csv": "0f2b2958eb1e12c637b5f1835496b43721cc912e92aae24b63d7ee09597dc8bb",
+    "heads.csv": "9c48b576b8e51927949a7a791f8f8cc40ca1bec85ff30a2aca8862f4120eecaf",
+    "local-vectors.csv": "21f41e4982664e9c52dc3096b908745f6849841b1b209b222bf8026443e76ad0"
+  },
+  "boundary": "Native source-value interventions with finite source/receiver computation. Old contexts; no pure semantic-schema isolation, fresh forecast, speedup, learned circuit or general Question B solution. No disputed derivatives used or recertified."
+}

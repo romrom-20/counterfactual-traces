@@ -30,5 +30,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_backbone.py
       - name: Verify causal-cache baseline, timing and research-program review
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_cache.py
+      - name: Verify native source-value interchange and retained failed primary
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_native_values.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

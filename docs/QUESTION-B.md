@@ -6,7 +6,18 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 272
+## Current answer through 273
+
+273 returns to native source-value communication. A matched other-schema value
+change fails the portable-signal primary 5/32; norm matching gives 4/32. Preserving
+recipient directions with donor magnitudes gives 32/32 on the defined value-path
+effect test, but every non-self substitution has0/32 strict full native passes.
+The initial source value change is identical across backgrounds; contextual
+directions emerge during source computation and their exchange matters downstream.
+This is a qualified old-context primitive intervention, not a pure semantic-field
+comparison, fresh prediction, cheap rule or learned circuit. It does not yet
+identify which source attention/MLP operations generate the needed directions.
+[Native result, controls and budget](analysis/273-native-source-value-portability.md).
 
 272 supplies an explicit causal cost baseline for the late edits used here.
 One full False KV observation plus known edit/weights supports finite suffix

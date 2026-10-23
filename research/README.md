@@ -1,5 +1,34 @@
 # Reproduce the current research
 
+## Native source-value interchange 273
+
+This old-context native primitive study rejects the portable-signal primary 5/32.
+Direction and magnitude controls remain separate from the strict native target.
+[Read the result and budget](../docs/analysis/273-native-source-value-portability.md).
+
+```sh
+python -S research/boolean_coupling/verify_native_values.py
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research python -m boolean_coupling.run273 --out runs/my-native-value-interchange
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research python -m boolean_coupling.audit273 --run runs/my-native-value-interchange
+```
+
+Use the pinned environment described below and the locally cached checkpoint.
+The runner requires only public 269 inputs and model weights. It does not need
+an old activation archive. The recorded original run additionally supplied
+`--reference-272 runs/causal-prefix-budget-272` to check exact old F/T replay;
+omitting it skips that archive-only check, without changing the intervention.
+Choose a new output directory; original evidence is never overwritten.
+
+The source generator executes 896 full-shaped blocks, carrying only the edited
+source and resetting every receiver input to observed False. The receiving
+continuations remain fully finite, with 288 full forwards and the separately
+recorded diagnostic projections/PV calls. This is an expensive causal test,
+not a speedup. Reserve at least 2 GiB free disk for up to 600MiB new raw arrays
+and process overhead. One paired donor adds another False/source observation.
+No native True receiving state is supplied, but these cases were already
+observed historically: repeating them is not fresh confirmation. Publication
+packaging/verifiers certify the recorded release, not a new independent run.
+
 Earlier studies returned to the failed whole-response forecast. **235** provides a complete write-error ledger and finite input-state/local-approximation split. **236** recomputes MLP20/21 in the actual forecast and still passes **0/32** full-response cases. A native reset before MLP20 improves the result but still leaves **0/32**, isolating further failure in attention 21–24. The fully finite oracle control replays exactly. These are retrospective diagnostics; Question B remains open. Earlier 234 local attention-2 success remains valid within its restricted budget.
 
 For task definitions, a causal diagram and the shortest evidence path, begin

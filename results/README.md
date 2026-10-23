@@ -1,5 +1,13 @@
 # Results and evidence
 
+[273: native source-value interchange](native-value-interchange-273/README.md)
+retains 32 old cases, failed portable-signal primary 5/32, norm/direction controls
+and strict native 0/32 for every non-self arm. Own directions with donor norms
+pass 32/32 only on the looser native value-effect test. All 4,544 declared numerical
+checks and 1,792 original-bound raw source checks pass; old failures remain.
+Source generation and receiving computation are substantial finite work.
+This is not a fresh prediction, pure field-name comparison or learned circuit.
+
 [272: causal-prefix baseline and research review](causal-prefix-budget-272/README.md)
 retains all32 OLD269 cases, profiles, timing pairs and raw failures. Finite
 suffix prediction passes32/32 at at most3.59% of full learned dense MACs and
