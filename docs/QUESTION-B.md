@@ -6,7 +6,22 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 271
+## Current answer through 272
+
+272 supplies an explicit causal cost baseline for the late edits used here.
+One full False KV observation plus known edit/weights supports finite suffix
+recomputation: 32/32 old native passes, at most 3.59% of full learned dense MACs
+and 2.94× median measured marginal speedup. All affected nonlinear operations
+still execute. This uses the full per-layer prefix KV trace, not one terminal
+vector, and an earlier edit can remove the saving. Original changed-shape raw
+coordinate failures remain recorded. This is a useful reference computation;
+it does not identify the learned generator or meet a compact-circuit claim.
+
+The [research review and baseline](analysis/272-research-review-and-causal-baseline.md)
+also distinguishes recent surrogate-policy contrasts from the original native
+response. The latest planned batches are complete. We should require a new
+native learned-path prediction or improvement over the affected-suffix budget
+before expanding that factorial sequence further.
 
 269 adds a bounded fresh prediction result with a more restricted correction
 geometry. Fixed correction axes and local MLP operating points, cached from

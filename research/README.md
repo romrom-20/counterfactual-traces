@@ -590,3 +590,58 @@ The posthoc `package_backbone.py` and `describe_backbone.py` preserve publicatio
 and plot provenance. Public logs select scientific progress/result/timing lines;
 `log-provenance.json` records original hashes and that representation change.
 Private articles, weights and activation arrays remain excluded.
+
+## Causal-prefix budget baseline (272)
+
+[Protocol](../docs/experiments/272-causal-prefix-budget-baseline.md) ·
+[Review/result](../docs/analysis/272-research-review-and-causal-baseline.md) ·
+[All records](../results/causal-prefix-budget-272/README.md)
+
+272 is a retrospective reference on all 32 OLD269 contexts. It retains a full
+False KV observation, crops strictly before the edited token, supplies the known
+edited suffix at global positions and evaluates all affected operations finitely.
+It is not a Taylor approximation, native activation oracle or learned circuit.
+The information budget is a per-layer prefix KV trace, not one final vector.
+
+The scientific runner requires a completed269 reference directory to bind the
+old F/T endpoints and input/runtime records exactly. Use the earlier269 pipeline
+or documented local published-literal repetition to regenerate that reference;
+activation archives stay out of Git. The cache algorithm itself (`cache272.py`)
+requires only the pinned checkpoint, token IDs and one ordinary False KV run;
+no old True activation archive supplies its forecast. The reference is used
+solely for evaluation and replay binding.
+
+Use the pinned local MPS environment and an existing new output parent, from
+repo root. The two scientific CLIs below actually ran; destinations must not
+exist. They preserve all prior arrays and retain a512MiB free reserve.
+
+```sh
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+python -m boolean_coupling.run272 --reference /path/to/signed-amplitude-forecast-269 --out /path/to/NEW-causal-prefix-budget-272
+python -m boolean_coupling.audit272 --reference /path/to/signed-amplitude-forecast-269 --run /path/to/NEW-causal-prefix-budget-272
+```
+
+This executes64 profiled full and96 profiled suffix calls, then96 unprofiled
+full/suffix timing pairs:160 full plus192 suffix calls in total. Cache cloning
+is inside the suffix timer; common False observation/model loading/tokenization
+are excluded from both marginal timings. Paired order alternates deterministically.
+The separate audit reconstructs measured matrix counts from pinned config and
+checks finite public heads, prefix identities and every case decision.
+
+Original1e-4 changed-shape coordinate diagnostics fail299/2688; these stay failed.
+Every same-executed-shape finite head and every timed output replay exactly.
+Source/Qwen/cache/mask/checkpoint/runtime seals and raw prefix hashes are saved.
+Raw trajectory arrays total140,726,694 bytes, plus metadata; full KV tensors
+are not persisted and regenerate from the False run. No derivative is used or
+recertified. A local repetition is not another fresh confirmation.
+
+For repository-only stdlib verification:
+
+```sh
+python -S research/boolean_coupling/verify_cache.py
+```
+
+Posthoc scripts `review272.py`, `package_cache.py` and `describe_cache.py` bind
+the completion inventory, all public evidence and figures. The inventory covers
+published artifacts, not a new line-by-line review of every legacy runner.
+No private article or unpublished legacy history is included.

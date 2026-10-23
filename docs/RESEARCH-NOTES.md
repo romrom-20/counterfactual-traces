@@ -2,6 +2,27 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 272: return to the native target and measure the causal cache baseline
+
+The latest batches completed. The review distinguishes run completion, numerical
+qualification, scientific success and independent support. Recent tests often
+constrained an approximation-policy contrast on four reused contexts; that is
+not the same as explaining native Boolean dependence. Earlier native forecasts
+remain valid within their substantial finite budgets.
+
+The missing cost comparison is simple: these equal-length edits leave only5–6
+tokens to recompute. Retaining one False prefix KV trace and evaluating the
+whole affected suffix finitely gives32/32 old native passes, at most3.59% of full
+learned matrix MACs and2.94× median measured speedup. Original changed-shape
+coordinate failures299/2688 remain. Causal reuse is a reference, not a learned
+circuit or novelty claim. It does not work from a lone terminal residual vector.
+
+I would pause the correction-factorial sequence. A next experiment should
+predict new native conditions with an identified learned path or improve the
+affected-suffix accuracy/work tradeoff, with all observed information and
+remaining finite work declared. Another surrogate contrast needs a specific
+reason it discriminates that claim. [Full review](analysis/272-research-review-and-causal-baseline.md).
+
 ## 270–271: test what the two-coefficient forecast leaves inside the backbone
 
 The two coefficients restricted normalization corrections, while a substantial
