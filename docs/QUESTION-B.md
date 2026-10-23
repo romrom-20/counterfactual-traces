@@ -6,7 +6,25 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 274
+## Current answer through 275
+
+275 tests adaptive source probability versus its changing self-value read. Both
+channels alone fail: all W/V/B arms have0/32 combined source-emitter/effect and
+strict native passes. Retaining current self-values with False probabilities is
+less destructive, but still has34.5% emitter and47.7% value-effect error. Finite
+MLPs and receivers remain. This does not isolate a query circuit or establish
+that the explicit probability/value product interaction is the cause.
+
+A posthoc first-block comparison makes the generation question more precise.
+Fixed probabilities retain99.87% of the total source-displacement norm, but
+miss62.42% of its paired cross-background contrast. MLP writes have93.36% signed
+projection onto that native contrast, a descriptive ledger rather than an
+independent causal share. The open target is how the first source MLP transforms
+the large self-value-induced displacement and smaller reweighting change around
+its False background. All74,080 required and26,880 original-bound raw primitive
+checks pass. These are32 old contexts and expensive finite interventions, not
+fresh/compact prediction or a complete learned explanation.
+[Native source result, signed vectors and qualifications](analysis/275-source-attention-reading.md).
 
 274 tests whether source-value nonportability is explained by finite RMSNorm
 around different False source backgrounds. Reanchoring a paired donor residual
