@@ -1,5 +1,12 @@
 # Results and evidence
 
+[274: source residual reanchoring](source-residual-reanchoring-274/README.md)
+retains all32 old cases, a failed combined primary0/32 (5/32 effect alone),
+all emitter layers, controls and original strict native decisions. Own-step/
+donor-center is32/32 only on looser criteria; oracle corners30/32 strict.
+All24,192 declared checks and21,504 original-bound raw RMS/V checks pass.
+Native source keys are retained; no fresh/cheap full forecast or learned circuit.
+
 [273: native source-value interchange](native-value-interchange-273/README.md)
 retains 32 old cases, failed portable-signal primary 5/32, norm/direction controls
 and strict native 0/32 for every non-self arm. Own directions with donor norms

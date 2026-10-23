@@ -2,7 +2,21 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:273 — native source-value interchange
+## Latest:274 — source residual reanchoring
+
+All32 old273 cases. Reanchoring a paired donor residual step at the recipient
+False center fails the sufficient geometry account:0/32 combined,5/32 value-effect,
+0/32 strict native. Keeping the own step at a donor center gives32/32 combined/effect
+but0/32 strict. Oracle additive corners give30/32 strict, with two margin failures
+retained. 384 full forwards and every case complete;24,192 declared checks pass,
+all21,504 raw RMS/V checks pass original1e-4. Native source keys stay finite;
+not a cheap/full False-only forecast, pure schema-semantic result or learned circuit.
+
+[Protocol](experiments/274-source-residual-reanchoring.md) ·
+[Report](analysis/274-source-residual-reanchoring.md) ·
+[All cases](../results/source-residual-reanchoring-274/README.md)
+
+## 273 — native source-value interchange
 
 All 32 old 269 contexts, paired across schema with passage/assignment/target/order
 fixed. Donor source-value changes recover the native source-value effect in 5/32,
