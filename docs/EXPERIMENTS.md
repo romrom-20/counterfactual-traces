@@ -2,7 +2,23 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:272 — research review and causal-prefix cost baseline
+## Latest:273 — native source-value interchange
+
+All 32 old 269 contexts, paired across schema with passage/assignment/target/order
+fixed. Donor source-value changes recover the native source-value effect in 5/32,
+below 24/32 required; norm-matched donor directions 4/32, own directions with donor
+norms 32/32. Every non-self arm remains 0/32 strict full native. Initial dV is shared
+before context; later context-specific direction information matters under the
+interchange. No pure semantic-schema isolation, fresh forecast, speedup or circuit.
+288 full forwards plus 896 source blocks completed; 4,544 numerical checks pass,
+all 1,792 raw source projections pass original 1e-4; 288 finite heads replay exactly.
+Old failures remain; general Question B is open.
+
+[Protocol](experiments/273-native-source-value-interchange.md) ·
+[Report](analysis/273-native-source-value-portability.md) ·
+[All cases](../results/native-value-interchange-273/README.md)
+
+## 272 — research review and causal-prefix cost baseline
 
 All 32 OLD269 contexts. A single observed False KV cache and finite edited-suffix
 recomputation pass 32/32 original native-response cases. Maximum learned dense

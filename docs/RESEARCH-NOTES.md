@@ -2,6 +2,25 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 273: a shared initial Boolean signal acquires consequential source directions
+
+Native value interchange rejects a strong account in which schemas mainly read
+one reusable source-value signal differently: donor changes pass 5/32, and
+matching recipient norms gives 4/32. Keeping recipient directions with donor
+norms gives 32/32 on the defined native value-effect test. None of these non-self
+arms passes the stricter full native-response criterion. Large signed projections
+do not erase the vector/margin errors. The failed primary remains failed.
+
+At block 1 the source dV is exactly shared, as expected from the same embeddings
+and input norm/V map. Context-sensitive source computation generates the later
+directions, whose exchange changes the finite receiving response. This establishes
+a native causal constraint, not a semantic feature or a source attention-versus-MLP
+allocation. The whole prompt backgrounds also differ in position and length.
+The next source question needs a primitive intervention and a native target,
+then a frozen fresh prediction if a stable rule emerges. Expensive full-shaped
+source generation and finite receivers are explicit work; 272 remains the cost
+baseline. [Evidence and qualification](analysis/273-native-source-value-portability.md).
+
 ## 272: return to the native target and measure the causal cache baseline
 
 The latest batches completed. The review distinguishes run completion, numerical
