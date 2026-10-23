@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "experiment": 275,
+  "retrospective": true,
+  "design_sha256": "468a78965c34f01a86afcaa9a7e714b7361c990cb0401cc32e59d74c993826a4",
+  "status_sha256": "e451488f016fa4481c12e2812c40a72a775965ab0ec5ae6fec16bf412e1abc75",
+  "source_sha256": "f529d5146cc34befb16b82ba28f7b7fc6912793142542ab5414c468a3dc2adf6",
+  "numerical_checks": 74080,
+  "numerical_max_error": 7.473198223806321e-06,
+  "raw_checks": {
+    "total": 26880,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "native_counts": {
+    "N": 32,
+    "W": 0,
+    "V": 0,
+    "B": 0,
+    "value_U": 32,
+    "value_W": 0,
+    "value_V": 0,
+    "value_B": 0,
+    "value_Z": 0
+  },
+  "effect_counts": {
+    "U": 32,
+    "W": 0,
+    "V": 0,
+    "B": 0,
+    "Z": 0
+  },
+  "combined_counts": {
+    "N": 32,
+    "W": 0,
+    "V": 0,
+    "B": 0
+  },
+  "V_strata": {
+    "generic/0": 0,
+    "generic/1": 0,
+    "descriptive/0": 0,
+    "descriptive/1": 0
+  },
+  "primary_passes": false,
+  "csv_sha256": {
+    "effects.csv": "db0e2be97629ac2d2c6cf2d299bce746116649f9092b05acd933137a3f4fafad",
+    "source-ledger.csv": "d0bb90f4b01ac93e1ec5908d3544935a2eea1391643c16f9c8ea7e3ab1293b8c",
+    "emission.csv": "9b997b57a78cf06d841302903306b8a0ceb7326dc037586a3b9e3add8376e96e",
+    "paired-source-ledger.csv": "efa76af52e10b4ed7777b44ddbf33a3862b77d5ffb0cc7ca98a383d8bccd6a1c",
+    "emission-layers.csv": "9842f3bf6300ecb2a239a6b43938c1ad8110fd4d3a802bc4bf1dadd5cde2f356",
+    "raw-primitives.csv": "24a1e9a9c1dc6b0b5e8570f5ee871a134e20fc5cda6df10208ffbd60e5579489",
+    "native.csv": "b8d9bc41a03b9f9b0241c0f57e94520d6aaf36ef52686c1cdbe3c7829ada456a",
+    "heads.csv": "c80519f55d415f3dbb2d6777ed36fe116cf2b1f5db9e75db374e08819ae7d192",
+    "combined.csv": "3c49958280222a6f99f68f4ee227c263444e13c27ec6c39dea0ecb16920ca2b1",
+    "local-attention.csv": "2f5476cac941475f8dfe70be5f4a28e5aaeb75c216f840fb889ea242d243206a"
+  },
+  "boundary": "Old contexts, expensive full finite interventions and conditional value-only continuation. Probability is not query alone. Algebraic ledgers are retrospective; no fresh/compact predictor or learned circuit. Old numerical failures unchanged."
+}

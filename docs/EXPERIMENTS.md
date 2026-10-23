@@ -2,7 +2,22 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:274 — source residual reanchoring
+## Latest:275 — source probability/self-value factorial
+
+All32 old273 cases, source-query-only attention interventions. Primary adaptive
+probability/False self-value account fails0/32 combined; fixed probabilities and
+both frozen also0/32. Every non-self full/value-only arm has0/32 strict native.
+Signed source writes and paired ledgers are retained. Posthoc first-block fixed
+probabilities give11.24% total source-vector error but62.42% paired-contrast error.
+74,080 required and26,880 original-bound raw primitive checks pass;416 full
+forwards complete. All MLP/receiving computation finite, value-only K native.
+Not fresh, cheap, isolated-query, learned-feature/circuit or general QB success.
+
+[Protocol](experiments/275-source-attention-reading.md) ·
+[Report](analysis/275-source-attention-reading.md) ·
+[Every case](../results/source-attention-reading-275/README.md)
+
+## 274 — source residual reanchoring
 
 All32 old273 cases. Reanchoring a paired donor residual step at the recipient
 False center fails the sufficient geometry account:0/32 combined,5/32 value-effect,

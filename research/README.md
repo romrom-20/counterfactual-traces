@@ -1,5 +1,39 @@
 # Reproduce the current research
 
+## Source attention reading (275)
+
+[Protocol](../docs/experiments/275-source-attention-reading.md) ·
+[Result](../docs/analysis/275-source-attention-reading.md) ·
+[All32 old cases](../results/source-attention-reading-275/README.md)
+
+```sh
+python -S research/boolean_coupling/verify_source_reading.py
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research python -m boolean_coupling.run275 --reference-273 /path/to/regenerated/native-value-interchange-273 --out runs/my-source-reading
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research python -m boolean_coupling.audit275 --reference-273 /path/to/regenerated/native-value-interchange-273 --run runs/my-source-reading
+```
+
+Both scientific CLIs actually ran after the source freeze. Regenerate273 arrays
+using its section below; no private activation archive is required. Use the pinned
+MPS/Float32/eager environment and cached checkpoint; output must be NEW. This
+is an old-context native primitive diagnostic, not fresh confirmation. Only the
+source query row is clamped; every MLP and receiving operation remains finite.
+Full arms use False observation plus known edit and weights but execute whole
+finite forwards. Conditional value-only arms additionally retain native source K.
+
+416 full forwards, the four extra PV/output-projection categories and all
+primitive audits are recorded. The32 NPZ files total1,015,184,122bytes, below the
+1000MiB cap. Require2GiB initial and768MiB per-case free space, plus model/process
+headroom. No old evidence is deleted or overwritten. Original CPU64 raw bounds
+remain1e-4 (all26,880 pass); older failed numerical checks are not recertified.
+
+Posthoc `package_source_reading.py`, `describe_first_source.py` (saved-array first
+block analysis, zero model calls) and `describe_source_reading.py` preserve evidence,
+figure provenance and the distinction from the frozen primary. They ran for this
+release. `verify_source_reading.py` checks source/evidence integrity and independently
+recomputes every published CSV rule using only the standard library. This does
+not constitute a model replication. Private article text and all NPZ/weights stay
+excluded; public inventories bind regeneration outputs to the original run.
+
 ## Source residual reanchoring (274)
 
 [Protocol](../docs/experiments/274-source-residual-reanchoring.md) ·

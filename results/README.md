@@ -1,5 +1,12 @@
 # Results and evidence
 
+[275: source-attention reading](source-attention-reading-275/README.md)
+retains the failed reading-only primary and all W/V/B failures, every old case,
+416 full forwards, signed native source ledgers and the separately marked posthoc
+first-block contrast. All74,080 required and26,880 original-bound raw primitive
+checks pass. Full finite MLP/receiver work remains, and value-only arms retain
+native K. No fresh/compact predictor, isolated-query mechanism or circuit claim.
+
 [274: source residual reanchoring](source-residual-reanchoring-274/README.md)
 retains all32 old cases, a failed combined primary0/32 (5/32 effect alone),
 all emitter layers, controls and original strict native decisions. Own-step/

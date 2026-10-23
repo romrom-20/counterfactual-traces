@@ -2,6 +2,22 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 275: source self-value and adaptive probabilities are both consequential
+
+The proposed reading-only source account fails0/32. Removing the changed self-value
+nearly eliminates the emitted signal; retaining it with False probabilities is
+closer but still fails every emission/effect and strict native case. This proves
+neither that their explicit bilinear product is essential nor that a learned
+query circuit has been found. Full finite source MLPs/receivers remain.
+
+A descriptive first-block comparison distinguishes total signal from its context
+contrast: fixed probabilities preserve99.87% of the displacement norm while missing
+62.42% of the paired contrast. The native MLP ledger has93.36% signed projection on
+that contrast, but changing attention also changes the MLP input. Where a vector
+is written is different from what makes it be written. The next primitive target
+is the first source MLP's transformation of self-value and reweighting changes,
+not another generic end-to-end correction sweep. [Evidence, all failures and budget](analysis/275-source-attention-reading.md).
+
 ## 274: source-step information survives a change of normalization background
 
 The new geometry test distinguishes a nonportable normalized emission from a

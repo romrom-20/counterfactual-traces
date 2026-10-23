@@ -34,5 +34,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_native_values.py
       - name: Verify source reanchoring, geometry controls and retained failed primary
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_reanchoring.py
+      - name: Verify source probability/self-value factorial and signed ledgers
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_source_reading.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
