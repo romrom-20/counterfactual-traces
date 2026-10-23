@@ -2,7 +2,23 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:270–271 — common-backbone curvature and feedback clamps
+## Latest:272 — research review and causal-prefix cost baseline
+
+All 32 OLD269 contexts. A single observed False KV cache and finite edited-suffix
+recomputation pass 32/32 original native-response cases. Maximum learned dense
+MAC fraction 3.59%; measured median marginal speedup 2.94×, all 32 cases faster.
+This is standard causal reuse, not a fresh or learned-circuit result.
+160 full and 192 suffix calls completed, including all timing repetitions.
+The original coordinate check fails 299/2688 and remains failed; all 160 same-shape
+finite heads and 192 timing outputs replay exactly. The posthoc inventory covers
+57 design artifacts and confirms current 269/270/271 batches complete. Artifacts
+are not independent confirmations.
+
+[Protocol](experiments/272-causal-prefix-budget-baseline.md) ·
+[Reassessment and result](analysis/272-research-review-and-causal-baseline.md) ·
+[Every case](../results/causal-prefix-budget-272/README.md)
+
+## 270–271 — common-backbone curvature and feedback clamps
 
 Four old contexts, 76 completed forwards.270 removes the shared backbone's
 finite gate/cross remainders; native passes fall from 4/4 to 2/4 and the primary
@@ -264,7 +280,7 @@ omitted-zero scorer failure and separately frozen metadata correction244b.
 ## 245 — Is the first tiny mixed attention seed consequential?
 
 Incoming interaction at attention2 is exactly zero. The generated signal is
-below the materiality guard in all32 cases; rounding limits fine attribution.
+below the materiality guard in all 32 cases; rounding limits fine attribution.
 Removing the entire local mixed value output barely changes final interaction.
 
 [Protocol](experiments/245-first-mixing.md) ·

@@ -1,0 +1,1499 @@
+{
+  "posthoc": true,
+  "model_calls": 0,
+  "source_sha256": "6bb2329cee3a4788c919d150ea44a5991eb23dc01f8172bc0ac452eee2fe623a",
+  "inputs": {
+    "results/amplitude-direction-268-269/amplitude-direction-268/design.json": "289a5caa2a0b11badd39991cc3892d750b9f7524a77f318f481aa4070d4b644b",
+    "results/amplitude-direction-268-269/amplitude-direction-268/audit.json": "0596cc5bd607aac9256ad4ce1707250250a6dd7e99c9d789f8b71ff9e606112a",
+    "results/amplitude-direction-268-269/amplitude-direction-268/status.json": "5c4c5fae9ea1923a29d9eda053d70fabeda860ab9a4d03c090a19ee3f7d60838",
+    "results/backbone-feedback-270-271/amplitude-query-mediation-271/design.json": "58fdf16266b34a71a05969d3e18a9d659befc5ccf30cebe724fcb86f28c424c7",
+    "results/backbone-feedback-270-271/amplitude-query-mediation-271/audit.json": "d52263350058bdf950327cfcf57f6258d6ec432225d85585090fcc8f78d31250",
+    "results/backbone-feedback-270-271/amplitude-query-mediation-271/status.json": "d8cb26ed8900ac2f8e64abb8993e9a633b7672bf6f2ce5191db78ce6eeaa5892",
+    "results/backbone-feedback-270-271/backbone-curvature-feedback-270/design.json": "fe59a4e97116ee8c642c201ebb55715ce4dedb589b4543ac442f1208dae9a7c9",
+    "results/backbone-feedback-270-271/backbone-curvature-feedback-270/audit.json": "88c2137de9428ee9ef40e916f5f0ae5caecb3a818923f38bad454d8c028ff305",
+    "results/backbone-feedback-270-271/backbone-curvature-feedback-270/status.json": "b85b0369cc8e32c490791a0bb9e6c935d4431045b819c4611a5a09e2500d3751",
+    "results/baseline-interaction-225b/design.json": "e5756a06b927baabbbb8189ad8a80b0a5e21929f9900d25c12cbce24b10fad8a",
+    "results/baseline-interaction-225b/audit.json": "f81c9543b266ec4a8656dfe0c24622416c937b1323ff89fb332fa0b90e8bca17",
+    "results/baseline-interaction-225b/qualification-audit.json": "432ea4397aa751dddc7b3ce19fb49cfb4fa7666085355b847b280302dc8e635e",
+    "results/baseline-interaction-225b/qualification-status.json": "d48059c90821bb20fe39b28197410af2c15fd1f4fd3035e9c195506c157b6f9a",
+    "results/baseline-interaction-225b/status.json": "cb2e4e944230b268d91f720c1371fcd3b1bdda339cf87b6005d5a9f233e63603",
+    "results/baseline-interaction-225b/failed-225/design.json": "c8d2a06ef5f5fcb3c55aeb971568a46133283660e11e4f797b4e0827b3154a55",
+    "results/baseline-interaction-225b/failed-225/failure.json": "2752b9e66733665eea6e8239a6b27495682c4ffae48fd39a6aa948cb8ac2ad05",
+    "results/before-mlp16-vectors-241/design.json": "6183305918f31818af28fe342e6ff07b838a65b5035d6dba976ddae14a00e2d2",
+    "results/before-mlp16-vectors-241/audit.json": "434485dd7b5f00c20e6b956ed640a8146ce12009990890b113b03e62376815d9",
+    "results/before-mlp16-vectors-241/status.json": "5323fa5f418d2fdab6fe75c0ffc112fd4754069e70cd55f2818de152d80f4c9d",
+    "results/block9-origin-246b/design.json": "adfe3b8d04b0e9cfb84089604f5118b4f8f05d61690702e9cbe1d14939f0ffd4",
+    "results/block9-origin-246b/audit.json": "a7d595b4abec0b2dbf647e0a5a5a4170e1ad2fdf844a6d9cb3d8f1c85f9cc579",
+    "results/block9-origin-246b/status.json": "856a666e454698343f1f326ea244aa185fb05ae5f2da6b32f4fc1455ff68c20d",
+    "results/block9-origin-246b/preserved-failure/design.json": "e69444a92c980ed7119dd03b71fbc8016d665759b8ecc4c2af4397d55b59f9ce",
+    "results/block9-origin-246b/preserved-failure/failure.json": "6aa76e08677ac1e10ffc7f6fa2487864c9e05bfdce9a025cb23483f5a335b4e5",
+    "results/correction-field-feedback-267/field-state-267/design.json": "0ca6d2581896fefd7f926f1f6f5bc0ccd9ca9b1838c4ac449fa91c40f2d82d17",
+    "results/correction-field-feedback-267/field-state-267/failure.json": "da5268086fedd85c4d90a31a6cf0bdafbe78fe5731e7004c7deac194545ff1a4",
+    "results/correction-field-feedback-267/field-state-267-retry/design.json": "dd857acafe347e9a530e6ef2e46d98d8a2e376e8f5ed06b9c6013c3f7a477531",
+    "results/correction-field-feedback-267/field-state-267-retry/audit.json": "715d8945d1263e06aeaf96e9ba354db9e336f978baf236a1d9308e8e04b1f439",
+    "results/correction-field-feedback-267/field-state-267-retry/status.json": "e3a0c72a5ba2d5b2e35398ca40dab28368a5d2233029f807545b88addecd3d35",
+    "results/false-only-alignment-228/design.json": "893b5b8de7463b611582bedf9861d518137c460bc68e2637c97f6df2b0e9d2a8",
+    "results/false-only-alignment-228/audit.json": "fc083455d93c84177e5f55efc919ce519c1754463b059838892ca0eb2c6c2bd8",
+    "results/false-only-alignment-228/forecast-audit.json": "8d861e9882d76d2b44badb4be925fded5b92f43b34d5dd05161470a1e7ad3c8c",
+    "results/false-only-alignment-228/forecast-status.json": "317eac9e4c4a5814cd0d621c57305837520ed3ac78e183284ad8787f8d1a414b",
+    "results/false-only-alignment-228/status.json": "eb3b824fbbd6aec93853810b0726b2fa0779ed6263985cb26ddc564371729d14",
+    "results/finite-tail-interaction-226b/design.json": "0ba02ee1d2a800563ac4600eb1f304cb6c03cf34754b406a682e8b5580f03812",
+    "results/finite-tail-interaction-226b/audit.json": "022b31fe5133618b3bf4b72344e8755fda081ca3d749a46a56084ea5285c173d",
+    "results/finite-tail-interaction-226b/status.json": "c94fb77cebf6261ea280ca4b31be37c9096ed22ac365f17e66edca2bdf845b87",
+    "results/finite-tail-interaction-226b/preserved-failure/design.json": "7967ff70ad42d3cb5ed126b67c347e95483d2c5f745f0358b15966c9fae47c1c",
+    "results/finite-tail-interaction-226b/preserved-failure/failure.json": "fbbfae9bd42c922e3d94cb1e74082dcdb52bb5db57f5af28010e6f0df450d1d9",
+    "results/finite-tail-interaction-226b/preserved-failure/status.json": "96988db28bd737722bad834d4c612686c0d221a0c33d8dbd0aeed634989988f2",
+    "results/first-attention-generator-229/design.json": "423ddc2a36fad1baae0c25371f281086caec3c168d122310a77ff23a975a1504",
+    "results/first-attention-generator-229/audit.json": "41cb460fd2685e835786d4fb9e45d0c68d8513ef7236cd03a929231e2044b9c9",
+    "results/first-attention-generator-229/status.json": "083521f3a38e74ce00f8972d35c04cf175708d11c733e0e404eb7b3a4601fd33",
+    "results/first-mixing-245/design.json": "8a2c73e5393217ad999f8431a8461930a68c2004be21b4f70647e0ffc602310c",
+    "results/first-mixing-245/audit.json": "ef7b006972149af967b33ba6b626826abb961dfe112906863f9bc85877125565",
+    "results/first-mixing-245/status.json": "ed496aac691491b59836ee8ef9cac33ed5947fbc96dce916826723070812fb89",
+    "results/fixed-receiver-attention-251/design.json": "a309cd3d3c97db55a0f5e2b0011db96d49b2ffc22ba86e209874d0dc28ed73c9",
+    "results/fixed-receiver-attention-251/audit.json": "ab0127fc008b4e160766d942548b52745401949c85c0aaab3d237eb18634c859",
+    "results/fixed-receiver-attention-251/failure-audit-pre.json": "106d82344819a3995e472a6d3e5f526cb0d8cdacdfceb698a41b62dc95270a30",
+    "results/fixed-receiver-attention-251/failure-measure.json": "06beec9d11c26379be43f355d8d9d28aa513d4d9f588e2ac9fc30870b4868d87",
+    "results/fixed-receiver-attention-251/failure-seal.json": "06beec9d11c26379be43f355d8d9d28aa513d4d9f588e2ac9fc30870b4868d87",
+    "results/fixed-receiver-attention-251/forecast-status.json": "5eed1319b2d26d02ea5b123d58b18dd8479bed195e5f7ee9905eb9b46d86ecc4",
+    "results/fixed-receiver-attention-251/pre-audit.json": "2f2b8aaa44a759b19d07a1ab6423eec7c537e77dba173308f9f7ca745e52c34f",
+    "results/fixed-receiver-attention-251/status.json": "24af3b314552849332cb15abb74c9cb39483fe9ebfa09a3275bec78f450e2626",
+    "results/fixed-receiver-attention-251/pre-native/design.json": "a309cd3d3c97db55a0f5e2b0011db96d49b2ffc22ba86e209874d0dc28ed73c9",
+    "results/fixed-receiver-attention-251/pre-native/failure-audit-pre.json": "106d82344819a3995e472a6d3e5f526cb0d8cdacdfceb698a41b62dc95270a30",
+    "results/fixed-receiver-attention-251/pre-native/failure-measure.json": "06beec9d11c26379be43f355d8d9d28aa513d4d9f588e2ac9fc30870b4868d87",
+    "results/fixed-receiver-attention-251/pre-native/failure-seal.json": "06beec9d11c26379be43f355d8d9d28aa513d4d9f588e2ac9fc30870b4868d87",
+    "results/fixed-receiver-attention-251/pre-native/forecast-status.json": "5eed1319b2d26d02ea5b123d58b18dd8479bed195e5f7ee9905eb9b46d86ecc4",
+    "results/fixed-receiver-attention-251/pre-native/pre-audit.json": "2f2b8aaa44a759b19d07a1ab6423eec7c537e77dba173308f9f7ca745e52c34f",
+    "results/fixed-receiver-attention-251/preserved-disk-failure/design.json": "c6ef9d8be12dd715e7a6343a9fb6018b4fbcf7910fd3e73ab3dcc92a57f4e9b9",
+    "results/fixed-receiver-attention-251/preserved-disk-failure/failure-forecast.json": "48ec20b49b8721337d082d518721265410c5412f01931c4cfcf0e85e16a4f1bf",
+    "results/generator-curvature-239/design.json": "9835eda5c0511024c067fdfd39e9bb8d028a6e242e5a2c5d3f8d3b68605f4ac6",
+    "results/generator-curvature-239/audit.json": "01eac06896c0de60cd61973ec5ca6d6835cb925151740055e1584e4d1e954e89",
+    "results/generator-curvature-239/status.json": "53b8bd1e2cbcc52a3cae1eb92dfa7f9780a0a6e0323d08370a502bcffc122dd4",
+    "results/global-error-budget-235/design.json": "adc19b9e3b96d680700ec832f957b6a44ef1564eef6cde557f614bbea891ccdb",
+    "results/global-error-budget-235/audit.json": "06a46d4bc83260cbb3159344570e1ce3e2bb53487260f1c5df09800a2400d2d9",
+    "results/global-error-budget-235/ledger-status.json": "b664fc356e7c2f97012afb23628b31cefe02b1695dd7be8f50cb9b2ece2348b3",
+    "results/global-error-budget-235/status.json": "25caa441ac8ca52757500603cc22d05794077933ff30832a932e3570ef4e7d28",
+    "results/late-attention-237-failed/design.json": "088a077d8b24b97ae0224e67722c766a1b0fc95a37cf5a2dcc79f3d925b77b5b",
+    "results/late-attention-237-failed/failure.json": "413bc2d9ff375d0f1989e0e92c2ce225e4a04ff97dbaa1b54305677d262066d8",
+    "results/late-attention-237b/design.json": "be818ebcccfe0cce39e28a989e3cc9bbcd3a69859dbe392fa73881f2b313ef00",
+    "results/late-attention-237b/failure-audit.json": "616b10ea79d3e3666632c159235fd62893fabd997847b3501bc0c69700f8f922",
+    "results/late-attention-237b/status.json": "422680d21ecf03f38fd996736f116b2b4d52a2c4fad30a4df4126479b8766b80",
+    "results/local-mlp-mixing-265-266/finite-silu-interaction-266/design.json": "8449182c3bc98cbac3064c4274fd10d2be6a35c88e8de09a92172d67f9a5d15e",
+    "results/local-mlp-mixing-265-266/finite-silu-interaction-266/audit.json": "135de1432e1e631483eb5f693245417dd05fa27a67c2a569b40bda2cdad926e3",
+    "results/local-mlp-mixing-265-266/local-mixing-265/design.json": "875642130dbf290d21103d6fe0538afbde2437c5e40e9772a9134076baedc146",
+    "results/local-mlp-mixing-265-266/local-mixing-265/audit.json": "619b9a2db68bfa4ff95825f563edd6a7d3ef05f542781c272b12e62536096e54",
+    "results/local-mlp-mixing-265-266/local-mixing-continuation-265/design.json": "b266f50afd15bf1c94b3f5f88d8a6236a1425d9be3d58eec4639d4d96b495440",
+    "results/local-mlp-mixing-265-266/local-mixing-continuation-265/audit.json": "d64373df292e6b3b12c49ba08ac960c68897437174d59fc82b04488c04143634",
+    "results/local-mlp-mixing-265-266/local-mixing-continuation-265/status.json": "b6bf550b943d4489cdcb71f3d4db673398eeddd2ddd11dc0fa832ea1d97d5dc2",
+    "results/local-normalization-product-231/design.json": "7f68a27cd8a774d87f6c33850a335a1e1e5a557ff562291d742313f2b5ef3144",
+    "results/local-normalization-product-231/audit.json": "677a3e8b2d992b7c859b8645eec8b16cf01a1debd7b2505130c469712fc801df",
+    "results/local-normalization-product-231/forecast-audit.json": "ce0eb9fa6104d40e06fab5669341dd4150f5f4aa64d627a1dee880515f3c15e2",
+    "results/local-normalization-product-231/forecast-status.json": "fe563563ad266c512d922ab565b63d027ce7f1390a3e35c80e7901b6348631e3",
+    "results/local-normalization-product-231/status.json": "d4535b792c90f51295b2e434237e706495b96d901d8fea278a6a84b8a823bb35",
+    "results/local-query-curvature-256/design.json": "64049da76f8174a10ccc8d76a52cb72e6515dc3f2437943e8bdeccbc4d73a6e3",
+    "results/local-query-curvature-256/audit.json": "9c680393c165e84f552bba2c85e0250c8c4df2aa264e5568cb42708c51b4df2d",
+    "results/local-query-curvature-256/forecast-status.json": "9494829f2e16ecd78e5c63619814db22bb16c48a248e1cfd31f48c0b7ef9c9c3",
+    "results/local-query-curvature-256/pre-audit.json": "a8c1d3180b0e2b923956112bea28946ef30e8b25d28abb590f4f6ec1ab91a735",
+    "results/local-query-curvature-256/status.json": "ca7c0e8f4b9636b6b4c68eb4e6057151db6fe16f327015388ec619f599d3640f",
+    "results/local-query-curvature-256/pre-native/design.json": "64049da76f8174a10ccc8d76a52cb72e6515dc3f2437943e8bdeccbc4d73a6e3",
+    "results/local-query-curvature-256/pre-native/forecast-status.json": "9494829f2e16ecd78e5c63619814db22bb16c48a248e1cfd31f48c0b7ef9c9c3",
+    "results/local-query-curvature-256/pre-native/pre-audit.json": "a8c1d3180b0e2b923956112bea28946ef30e8b25d28abb590f4f6ec1ab91a735",
+    "results/mlp-normalization-origin-261-264/mlp-input-origin-261/design.json": "3cde95cb6d646b1c64dd1e1cfb55a87295ef2f09ae87e568ea9d809dbd617438",
+    "results/mlp-normalization-origin-261-264/mlp-input-origin-261/failure-bookkeeping.json": "6b504c95d96303d531d04134d0b2a23e5c99aa61f8d63175976338954a9d38aa",
+    "results/mlp-normalization-origin-261-264/mlp-input-origin-261/status.json": "b6ac78705c4bbd43a3c31cc62234ae522f53dc6d7365ad0e1901a3e6cc2929e9",
+    "results/mlp-normalization-origin-261-264/mlp-input-origin-261b/design.json": "0cd75edc1c705bad593546d7cb6a8ba20f9c9f7676963c04dc14390e2f7e0140",
+    "results/mlp-normalization-origin-261-264/mlp-input-origin-261b/failure-audit.json": "35647c5498837ee1c612966ef01ed7c8fb9702ce7061af0023309f6771f22b0c",
+    "results/mlp-normalization-origin-261-264/mlp-input-origin-261b/status.json": "dae0beef70c5c13960209434f1f75922ca2cb907e8c09f2ed040de507a045472",
+    "results/mlp-normalization-origin-261-264/normalization-branches-energy-263/design.json": "58ea670604509d414971d8fc99f0c787338619e8d1b72ff21083276107e5e43a",
+    "results/mlp-normalization-origin-261-264/normalization-branches-energy-263/audit.json": "74d0b5e6993459f72c15e759f9868b2a618bbd02dbccd0cebd21a98bcc17af4c",
+    "results/mlp-normalization-origin-261-264/normalization-branches-energy-263/status.json": "05684ee6700f4c460575194cd2aa6e8e7d90f433a01c8b88926799a006add7a7",
+    "results/mlp24-mixed-primitives-227b/design.json": "5b7cca0b56abc372e746f21e57cc1d224add3bdeadae3a41d74c80d391f7ba97",
+    "results/mlp24-mixed-primitives-227b/audit.json": "b61a6e8e7f06c38a13bcf8bef4e82d70da55d6b2dbbc9ffd34335208f6aaf798",
+    "results/mlp24-mixed-primitives-227b/status.json": "025251f579c1105ba632688f89b666585a2b40f927269306563868a0ddf609b4",
+    "results/mlp24-mixed-primitives-227b/preserved-failure/design.json": "78a3ae3ff3a70414aa8544ea8db8b7d0380c0fa3feaedecf47d3a3e5e0b279ca",
+    "results/mlp24-mixed-primitives-227b/preserved-failure/failure.json": "116a87fa11e4b96a64e9bc46700a9efd578ca7eba8aafa691ee646f774172990",
+    "results/mlp24-mixed-primitives-227b/preserved-failure/status.json": "9259af0da4a864ead9f41bec57d21b1e58516fd4ddb3be0e4eb638421f18e747",
+    "results/native-attention-244/design.json": "836260c86ea99b63210d5a29e5683919c7d3cbe0cc2df2d46f6cdeb2b473f04d",
+    "results/native-attention-244/audit.json": "b8a38f1833e0e69ff634471b33b3e5c4562199941cf3fe6d2d1e77c6b90a1f1b",
+    "results/native-attention-244/failure-audit.json": "fe34807bea8da420877fa3cf3eb88d1364e318165f3f7b1d1de31922e85d9976",
+    "results/native-attention-244/status.json": "1d6224a983fe64de0bd057799386b46afb9d431324b34656f8e10c81fffaacc5",
+    "results/native-carry-read-248/design.json": "d65f1d0f1a986a8fe500e919da6771766c877fcda3a9b599671f4d7da79ed377",
+    "results/native-carry-read-248/audit.json": "20bcc201f6473bbe800416d3ce2d57c2632dbf4d2d6b230e8a99df0e9f0e3457",
+    "results/native-carry-read-248/status.json": "eba29f20accb55c397610e2a031ca63a24af56582c90dd14c42de8178d0068d6",
+    "results/native-source-communication-250b/design.json": "48c07ecb8412f57df3ee428fd46332205e170c71a11eaf80ee12724774818bb6",
+    "results/native-source-communication-250b/audit.json": "451128218f72aaffd43628b257afe5ffe05bfb21ae57bd75986077e8ae1202b4",
+    "results/native-source-communication-250b/failure.json": "48ec20b49b8721337d082d518721265410c5412f01931c4cfcf0e85e16a4f1bf",
+    "results/native-source-communication-250b/status.json": "0eb443c00617b63bf9dc8661de4d03f2adac1098c8691bae7761f9aec57ff1e9",
+    "results/native-verdict-context-247/design.json": "be01bae313c0f67a31a94eecb4587303d384b872cabf3b29bd8280eb40e19ea5",
+    "results/native-verdict-context-247/audit.json": "ed3aa2da84ad67d218e7a1b6e09703bda0c9883a0a4c7c59bcf7a8b05ff8b17f",
+    "results/native-verdict-context-247/status.json": "654de4fb71df655e2a3badc8fe05e9d7a4d9f70d4916a92beb2350f1ba89bc38",
+    "results/predicted-query-curvature-254/design.json": "642009fc0c2f90343eecfaac8b26e2f450a1e94f989b64137f9f653c81ec1069",
+    "results/predicted-query-curvature-254/audit.json": "2eb2acee8bf69517d7b47df09cec09f982ccb20dfdef3c9378231cf65f54394c",
+    "results/predicted-query-curvature-254/forecast-status.json": "1022b5fbfc60a81ce512235e893b1d0cd7506a70be441d557d7429fc76f4acd9",
+    "results/predicted-query-curvature-254/pre-audit.json": "495330213ed493b812b671f3ac17961ff3ab347de3813ddf2fb8428f3c8ac430",
+    "results/predicted-query-curvature-254/status.json": "75b2a12cd8023085f918fe942f44719f9dc38593cbbfeff42a02785b90bb231d",
+    "results/predicted-query-curvature-254/pre-native/design.json": "642009fc0c2f90343eecfaac8b26e2f450a1e94f989b64137f9f653c81ec1069",
+    "results/predicted-query-curvature-254/pre-native/forecast-status.json": "1022b5fbfc60a81ce512235e893b1d0cd7506a70be441d557d7429fc76f4acd9",
+    "results/predicted-query-curvature-254/pre-native/pre-audit.json": "495330213ed493b812b671f3ac17961ff3ab347de3813ddf2fb8428f3c8ac430",
+    "results/query-generation-253/design.json": "706237d2c81bf8b8220503acfed1daa0b8ea308a4110b95ac1d717d1825b45a7",
+    "results/query-generation-253/audit.json": "7bb7858ad3075315d86636d00916025af5c30e1db6f39e69363ca93fc97eb13e",
+    "results/query-generation-253/forecast-status.json": "8cfbcd779c34514e58203df89592d25f9778cb4806a921391e2d5ad54f6c37a3",
+    "results/query-generation-253/pre-audit.json": "27fc0da79605dad1a64abc3ca0bb21fd2c5c055ab8756ad407b9ee05490a3682",
+    "results/query-generation-253/status.json": "c9f0808a8172d715b122ebd1cfa8317a1aa8256052b2b49c0be8a77e1c02ced5",
+    "results/query-generation-253/pre-native/design.json": "706237d2c81bf8b8220503acfed1daa0b8ea308a4110b95ac1d717d1825b45a7",
+    "results/query-generation-253/pre-native/forecast-status.json": "8cfbcd779c34514e58203df89592d25f9778cb4806a921391e2d5ad54f6c37a3",
+    "results/query-generation-253/pre-native/pre-audit.json": "27fc0da79605dad1a64abc3ca0bb21fd2c5c055ab8756ad407b9ee05490a3682",
+    "results/receiver-curvature-230/design.json": "9209a13ab012a305c25fa3a098464f7b37cd95058eb0a8c4a6ba54036a505b56",
+    "results/receiver-curvature-230/audit.json": "a46064ba0dab3760a209ba7712db1319c3d24fb76c46d4648c9b4a1210921c6b",
+    "results/receiver-curvature-230/status.json": "56fa8b14ddc9e24dbcdb5afa9c26ae3eda42254d1ead258ffd96fcc1ef81683e",
+    "results/receiver-mlp-curvature-258/design.json": "b5494627aa2297651023d014fc4d903bb0e33985b158019616e3df8429132253",
+    "results/receiver-mlp-curvature-258/audit.json": "6614d7f984a9a7e1b623ef5aea87ca58aa81a37c97391d1e670a11c422b8d0e9",
+    "results/receiver-mlp-curvature-258/failure-audit-pre.json": "27174fc1c62ea3e0e1a9e0cf2568b589da43675c775606773720868ef05b3f2c",
+    "results/receiver-mlp-curvature-258/forecast-status.json": "b452185393bd5e64183b10754c0019768623efaf4d08de7884a7dce2731ebfc4",
+    "results/receiver-mlp-curvature-258/pre-audit.json": "0445bbc553708bb5a15372df47a5a6bdfc8fb6face96dfc1e950543ebb3cfc57",
+    "results/receiver-mlp-curvature-258/status.json": "d56a3000df55967aed5e25d0ac2723207181fc624d7ef09d5d2058b16539b39f",
+    "results/receiver-mlp-curvature-258/pre-native/design.json": "b5494627aa2297651023d014fc4d903bb0e33985b158019616e3df8429132253",
+    "results/receiver-mlp-curvature-258/pre-native/failure-audit-pre.json": "27174fc1c62ea3e0e1a9e0cf2568b589da43675c775606773720868ef05b3f2c",
+    "results/receiver-mlp-curvature-258/pre-native/forecast-status.json": "b452185393bd5e64183b10754c0019768623efaf4d08de7884a7dce2731ebfc4",
+    "results/receiver-mlp-curvature-258/pre-native/pre-audit.json": "0445bbc553708bb5a15372df47a5a6bdfc8fb6face96dfc1e950543ebb3cfc57",
+    "results/regional-silu-243/design.json": "164732c81af77a4d91ca908247ddc9a7215504aa1f3f80637a7f9dae03ef1532",
+    "results/regional-silu-243/audit.json": "e8ce2dac737089d93d30124e031f38931d311d6daf756972e32bc0367754d8f9",
+    "results/regional-silu-243/failure-audit.json": "887b71ce7677e857ef3f2af49a66a4984aadbe804497c1eb0f8d7cefe93ff2c7",
+    "results/regional-silu-243/status.json": "0adff96aa35875919133ebcf7665a45635a7d2756c9d9cd8c415903e9196cb2d",
+    "results/signed-amplitude-forecast-269/pre-native/design.json": "67d99bb9695124c830896d5b71112cfcfb28f9fa3fe2a3e317317c24a51c9cb6",
+    "results/signed-amplitude-forecast-269/pre-native/forecast-audit.json": "be6dec086921ff63738b7ef3d95c236a4252588b93a067036494a2ddef8b7d0a",
+    "results/signed-amplitude-forecast-269/pre-native/forecast-status.json": "a8fe78287a342ad27d605904e548a1f47aa363dcfdde639a7da589bd09b5cdb0",
+    "results/source-conditioned-local-232/design.json": "675d3f5574c49903e5e41c63f4ac96e6e13df0dca621250c4305266c2938ca4a",
+    "results/source-conditioned-local-232/audit.json": "016c32fc2d957d14d34a798d098c5bcf49524c9aa9c0fff4ed8978d78d511b68",
+    "results/source-conditioned-local-232/forecast-audit.json": "23e22c612722d97ef9ed08a2a3db86052e83fb350ac1a5cfbc5c7dd4f4c774ff",
+    "results/source-conditioned-local-232/forecast-status.json": "de61a4c3095ea1532897660d90e570e288644acd2a351b452fee7eb0d4732e92",
+    "results/source-conditioned-local-232/status.json": "6c177537c127588d5f9bee0b0f8dd4af7a8ba44ab8ef716e8825b449b57fe372",
+    "results/source-driven-attention-252/design.json": "075a6703abf43965a5eaa724204aa22206e1f948ab38d07be05e402d84222b26",
+    "results/source-driven-attention-252/audit.json": "367a4a87f5fb08d26b3264e10b4fe8fa219e6c310e18ec1037008e1ea2af6e23",
+    "results/source-driven-attention-252/forecast-status.json": "e39bee8794a1e9b0a44087e3a80ea555a3ca62f4229fe145f8242c0718d057f8",
+    "results/source-driven-attention-252/pre-audit.json": "4236f38821040ddd49d7c4c5f417585828172a7560243726b208ec9a1223068f",
+    "results/source-driven-attention-252/status.json": "f81c8b2e064c75b0b120a57d57baf8e6280908880ed58e5e9d55ed948fbc8157",
+    "results/source-driven-attention-252/pre-native/design.json": "075a6703abf43965a5eaa724204aa22206e1f948ab38d07be05e402d84222b26",
+    "results/source-driven-attention-252/pre-native/forecast-status.json": "e39bee8794a1e9b0a44087e3a80ea555a3ca62f4229fe145f8242c0718d057f8",
+    "results/source-driven-attention-252/pre-native/pre-audit.json": "4236f38821040ddd49d7c4c5f417585828172a7560243726b208ec9a1223068f",
+    "results/source-key-value-234/design.json": "ee1e575faeff83928e7ee3c3c952136ac325e7dacc5b0be99c5219635ded552c",
+    "results/source-key-value-234/audit.json": "841137213d03803b7975d4278770ac62557b4dba15993d63ecc175fd6c3da3e9",
+    "results/source-key-value-234/forecast-audit.json": "f85c4aae45b58535ac13e6dca7b4bc8a90ce41e3febe7629ebf0a7ac7fdff80b",
+    "results/source-key-value-234/forecast-status.json": "2ca21d1fb59c8a8959662cf0bba9589cd7940dcae0a13c49d353706eac68e922",
+    "results/source-key-value-234/qualification-status.json": "e6eade671c9b65226a927f7b97bc91b5562759108441f2e0f4fdc362f02c130d",
+    "results/source-key-value-234/status.json": "0510541021029d5b663d70ef6e9c7a04c87335e8ca29ff7d8dc3132a16c77f73",
+    "results/source-regeneration-249/design.json": "d85a724bd686d04ee1c180e915083949b5481d6e6ce18ade3fc55b573868c2fe",
+    "results/source-regeneration-249/audit.json": "b537bc83c87e07291a6c0faa2ccfb113defc84c7be84b73b4a19d62526cf0f29",
+    "results/source-regeneration-249/forecast-status.json": "1e0c5247051e2a5e18195920175ba194fda6b1b9da1c5991de1846c0fec1f56a",
+    "results/source-regeneration-249/status.json": "4b2c010d359063e640f1f8dbbf6eff4235059f64a7a33a9c7ee88c9c98f37f68",
+    "results/source-transport-primitives-233/design.json": "02597779771a2886a3e16c97c8aa402b67ff5a56fd8ad941c9aa641fab837066",
+    "results/source-transport-primitives-233/audit.json": "8382f747c59491739add8be7286d1cb3063def886a6a3625079b5bdbbb25ae44",
+    "results/source-transport-primitives-233/qualification-status.json": "beb57fcc0774d27a0afbc74cfbf647ec981fa9983917ef21f62f8470ff8c8a0a",
+    "results/source-transport-primitives-233/status.json": "4494b97861473ac23d06740a1b735785cae6379eaca053d9dc16002800226cd8",
+    "results/target-blind-silu-240/design.json": "614847478caae2b5da996e3a7ccbd808387fd0032ae412f56014a02d7de90c86",
+    "results/target-blind-silu-240/audit.json": "02cb84bed9017653d9440eefbaee7dc6cd14912f8b027442c1c74d44228efb48",
+    "results/target-blind-silu-240/status.json": "cdace9f41e620af169a85de0756dde100ed89b14a1ea5e270c08db8e49d0c724",
+    "results/uniform-primitive-242-failed/design.json": "edbe3acf247fba204214f0eaeb792a4fe8734936fc01fee4ed65f7a85cceb8ae",
+    "results/uniform-primitive-242-failed/failure-forecast.json": "4bd23f96f4948953a5c08efe737d91f486d448e41bd32cc754d9547d9fff6e51",
+    "results/uniform-primitive-242b/design.json": "8f0724df41be639db001791424e16897b721dd346e750c30b6f2417e1ed75324",
+    "results/uniform-primitive-242b/audit.json": "52374e6c2da4feed613ee62f30eebb23322b708e4e484371456c63f69f61e84e",
+    "results/uniform-primitive-242b/forecast-status.json": "99098dd46e4743b6c4a55f4418d31c18926b55bec5389f1c5d37f5e7c247d7a9",
+    "results/uniform-primitive-242b/pre-measurement-audit.json": "387977ff62b06feeead87c38c379452481ad1a701924ee7b93e98eee8a7265eb",
+    "results/uniform-primitive-242b/status.json": "83bed9518d5ed530049daa6e9d65584df02e4482ca1135fb04846489b4220033",
+    "results/upstream-factorial-236/design.json": "ce50e3222d5497c6531d448ecda133224c5733f1a243402358e32bd16a21f81f",
+    "results/upstream-factorial-236/audit.json": "53dab1af35d2fb503c104001b7a67b884c0ba2cc7499d120640a4d6b2dbc5dbb",
+    "results/upstream-factorial-236/status.json": "7398d5aaf0a15b88610ebedebca5e106279098ce3ab9338a6156e6385805ac33",
+    "results/upstream-remainder-238/design.json": "e5ce060747db326efc7b641b83f44a165e3aa1a4751fe97178f526f7bc0753e0",
+    "results/upstream-remainder-238/audit.json": "759fb2a7dd913b1fbafedb0d8bf7e35704bee7eb6e3e3eb83eae4b610b91b5f2",
+    "results/upstream-remainder-238/ledger-audit.json": "c8a05a9857f323dda6ef69f449e9484a9f4f04d5dd28fd6b820e2f4a730c73e6",
+    "results/upstream-remainder-238/ledger-status.json": "6a33503dd163870fb5a06d09c47bdc75f013b3b5a2f8806f4bee8dbcaceb511c",
+    "results/upstream-remainder-238/status.json": "165527bae693cf5bc7101b9accda276e692975566ce0d48262d97b7b17e37f04",
+    "results/signed-amplitude-forecast-269/native-status.json": "ee327c4930d04433da3dbf8d22f764398eb756f34570782e81a8da5ea4f05e2e"
+  },
+  "design_artifacts": [
+    {
+      "design": "results/amplitude-direction-268-269/amplitude-direction-268/design.json",
+      "experiment": 268,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "0421b739aa0edbbb9a61bfca3ef078d3742a1c7f",
+      "observed_records": [
+        {
+          "file": "results/amplitude-direction-268-269/amplitude-direction-268/audit.json",
+          "status": "passed",
+          "primary_fields": {
+            "primary_amplitudes_sufficient": false
+          }
+        },
+        {
+          "file": "results/amplitude-direction-268-269/amplitude-direction-268/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/backbone-feedback-270-271/amplitude-query-mediation-271/design.json",
+      "experiment": 271,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "39ee9ca75817539b46c8378161a7b7ab4bebd10e",
+      "observed_records": [
+        {
+          "file": "results/backbone-feedback-270-271/amplitude-query-mediation-271/audit.json",
+          "status": "passed",
+          "primary_fields": {
+            "primary_joint_controller_sufficient": false
+          }
+        },
+        {
+          "file": "results/backbone-feedback-270-271/amplitude-query-mediation-271/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/backbone-feedback-270-271/backbone-curvature-feedback-270/design.json",
+      "experiment": 270,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "f7fe93a0cd587ef0edd7c096b58eae3ceb589d00",
+      "observed_records": [
+        {
+          "file": "results/backbone-feedback-270-271/backbone-curvature-feedback-270/audit.json",
+          "status": "passed",
+          "primary_fields": {
+            "primary_backbone_tangent_sufficient": false
+          }
+        },
+        {
+          "file": "results/backbone-feedback-270-271/backbone-curvature-feedback-270/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/baseline-interaction-225b/design.json",
+      "experiment": null,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/baseline-interaction-225b/audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/baseline-interaction-225b/qualification-audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/baseline-interaction-225b/qualification-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/baseline-interaction-225b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/baseline-interaction-225b/failed-225/design.json",
+      "experiment": null,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/baseline-interaction-225b/failed-225/failure.json",
+          "status": "preflight_failed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/before-mlp16-vectors-241/design.json",
+      "experiment": 241,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/before-mlp16-vectors-241/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/before-mlp16-vectors-241/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/block9-origin-246b/design.json",
+      "experiment": "246b",
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/block9-origin-246b/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/block9-origin-246b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/block9-origin-246b/preserved-failure/design.json",
+      "experiment": 246,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/block9-origin-246b/preserved-failure/failure.json",
+          "status": null,
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/correction-field-feedback-267/field-state-267/design.json",
+      "experiment": 267,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "d2e3e408d1ebcd682e18289c27b8f5022813d5ff",
+      "observed_records": [
+        {
+          "file": "results/correction-field-feedback-267/field-state-267/failure.json",
+          "status": null,
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/correction-field-feedback-267/field-state-267-retry/design.json",
+      "experiment": 267,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "d2e3e408d1ebcd682e18289c27b8f5022813d5ff",
+      "observed_records": [
+        {
+          "file": "results/correction-field-feedback-267/field-state-267-retry/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/correction-field-feedback-267/field-state-267-retry/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/false-only-alignment-228/design.json",
+      "experiment": 228,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/false-only-alignment-228/audit.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/false-only-alignment-228/forecast-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/false-only-alignment-228/forecast-status.json",
+          "status": "forecast_complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/false-only-alignment-228/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/finite-tail-interaction-226b/design.json",
+      "experiment": "226b",
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/finite-tail-interaction-226b/audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/finite-tail-interaction-226b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/finite-tail-interaction-226b/preserved-failure/design.json",
+      "experiment": 226,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/finite-tail-interaction-226b/preserved-failure/failure.json",
+          "status": "failed_reference_replay_before_interventions",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/finite-tail-interaction-226b/preserved-failure/status.json",
+          "status": "failed_before_interventions",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/first-attention-generator-229/design.json",
+      "experiment": 229,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/first-attention-generator-229/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/first-attention-generator-229/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/first-mixing-245/design.json",
+      "experiment": 245,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/first-mixing-245/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/first-mixing-245/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/fixed-receiver-attention-251/design.json",
+      "experiment": 251,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/fixed-receiver-attention-251/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/failure-audit-pre.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/failure-measure.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/failure-seal.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/fixed-receiver-attention-251/pre-native/design.json",
+      "experiment": 251,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/fixed-receiver-attention-251/pre-native/failure-audit-pre.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/pre-native/failure-measure.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/pre-native/failure-seal.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/fixed-receiver-attention-251/pre-native/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/fixed-receiver-attention-251/preserved-disk-failure/design.json",
+      "experiment": 251,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/fixed-receiver-attention-251/preserved-disk-failure/failure-forecast.json",
+          "status": null,
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/generator-curvature-239/design.json",
+      "experiment": 239,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/generator-curvature-239/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/generator-curvature-239/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/global-error-budget-235/design.json",
+      "experiment": 235,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/global-error-budget-235/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/global-error-budget-235/ledger-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/global-error-budget-235/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/late-attention-237-failed/design.json",
+      "experiment": 237,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/late-attention-237-failed/failure.json",
+          "status": null,
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/late-attention-237b/design.json",
+      "experiment": "237b",
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/late-attention-237b/failure-audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/late-attention-237b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/local-mlp-mixing-265-266/finite-silu-interaction-266/design.json",
+      "experiment": 266,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "4c9073c88e837c595e687a9038d4b5bd68116528",
+      "observed_records": [
+        {
+          "file": "results/local-mlp-mixing-265-266/finite-silu-interaction-266/audit.json",
+          "status": "passed",
+          "primary_fields": {
+            "primary_sparse_interaction_fidelity": false
+          }
+        }
+      ]
+    },
+    {
+      "design": "results/local-mlp-mixing-265-266/local-mixing-265/design.json",
+      "experiment": 265,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "ca3fd49f8e8bd4b6a31d2ea13ff2443c0096cbc6",
+      "observed_records": [
+        {
+          "file": "results/local-mlp-mixing-265-266/local-mixing-265/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/local-mlp-mixing-265-266/local-mixing-continuation-265/design.json",
+      "experiment": 265,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "ca3fd49f8e8bd4b6a31d2ea13ff2443c0096cbc6",
+      "observed_records": [
+        {
+          "file": "results/local-mlp-mixing-265-266/local-mixing-continuation-265/audit.json",
+          "status": "passed",
+          "primary_fields": {
+            "primary_global_sufficiency": false
+          }
+        },
+        {
+          "file": "results/local-mlp-mixing-265-266/local-mixing-continuation-265/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/local-normalization-product-231/design.json",
+      "experiment": 231,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/local-normalization-product-231/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-normalization-product-231/forecast-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-normalization-product-231/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-normalization-product-231/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/local-query-curvature-256/design.json",
+      "experiment": 256,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/local-query-curvature-256/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-query-curvature-256/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-query-curvature-256/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-query-curvature-256/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/local-query-curvature-256/pre-native/design.json",
+      "experiment": 256,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/local-query-curvature-256/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/local-query-curvature-256/pre-native/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/mlp-normalization-origin-261-264/mlp-input-origin-261/design.json",
+      "experiment": 261,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "354390678298c7b8d9ad46fffa39bf0bfc35f728",
+      "observed_records": [
+        {
+          "file": "results/mlp-normalization-origin-261-264/mlp-input-origin-261/failure-bookkeeping.json",
+          "status": "invalid_metadata_paths",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/mlp-normalization-origin-261-264/mlp-input-origin-261/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/mlp-normalization-origin-261-264/mlp-input-origin-261b/design.json",
+      "experiment": "261b",
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "b24d9b4ad287a57706f16254fd0c3de6f765ce40",
+      "observed_records": [
+        {
+          "file": "results/mlp-normalization-origin-261-264/mlp-input-origin-261b/failure-audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/mlp-normalization-origin-261-264/mlp-input-origin-261b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/mlp-normalization-origin-261-264/normalization-branches-energy-263/design.json",
+      "experiment": 263,
+      "declared_case_count": 4,
+      "retrospective": true,
+      "source_commit": "9c4a9120ddada2838c62fcf906182a69d7f7af25",
+      "observed_records": [
+        {
+          "file": "results/mlp-normalization-origin-261-264/normalization-branches-energy-263/audit.json",
+          "status": "passed",
+          "primary_fields": {
+            "primary": "E"
+          }
+        },
+        {
+          "file": "results/mlp-normalization-origin-261-264/normalization-branches-energy-263/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/mlp24-mixed-primitives-227b/design.json",
+      "experiment": "227b",
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/mlp24-mixed-primitives-227b/audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/mlp24-mixed-primitives-227b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/mlp24-mixed-primitives-227b/preserved-failure/design.json",
+      "experiment": 227,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/mlp24-mixed-primitives-227b/preserved-failure/failure.json",
+          "status": "failed_226b_bridge",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/mlp24-mixed-primitives-227b/preserved-failure/status.json",
+          "status": null,
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/native-attention-244/design.json",
+      "experiment": 244,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/native-attention-244/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/native-attention-244/failure-audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/native-attention-244/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/native-carry-read-248/design.json",
+      "experiment": 248,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/native-carry-read-248/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/native-carry-read-248/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/native-source-communication-250b/design.json",
+      "experiment": 250,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/native-source-communication-250b/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/native-source-communication-250b/failure.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/native-source-communication-250b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/native-verdict-context-247/design.json",
+      "experiment": 247,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/native-verdict-context-247/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/native-verdict-context-247/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/predicted-query-curvature-254/design.json",
+      "experiment": 254,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/predicted-query-curvature-254/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/predicted-query-curvature-254/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/predicted-query-curvature-254/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/predicted-query-curvature-254/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/predicted-query-curvature-254/pre-native/design.json",
+      "experiment": 254,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/predicted-query-curvature-254/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/predicted-query-curvature-254/pre-native/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/query-generation-253/design.json",
+      "experiment": 253,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/query-generation-253/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/query-generation-253/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/query-generation-253/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/query-generation-253/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/query-generation-253/pre-native/design.json",
+      "experiment": 253,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/query-generation-253/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/query-generation-253/pre-native/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/receiver-curvature-230/design.json",
+      "experiment": 230,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/receiver-curvature-230/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-curvature-230/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/receiver-mlp-curvature-258/design.json",
+      "experiment": 258,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/receiver-mlp-curvature-258/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-mlp-curvature-258/failure-audit-pre.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-mlp-curvature-258/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-mlp-curvature-258/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-mlp-curvature-258/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/receiver-mlp-curvature-258/pre-native/design.json",
+      "experiment": 258,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/receiver-mlp-curvature-258/pre-native/failure-audit-pre.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-mlp-curvature-258/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/receiver-mlp-curvature-258/pre-native/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/regional-silu-243/design.json",
+      "experiment": 243,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/regional-silu-243/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/regional-silu-243/failure-audit.json",
+          "status": null,
+          "primary_fields": {}
+        },
+        {
+          "file": "results/regional-silu-243/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/signed-amplitude-forecast-269/pre-native/design.json",
+      "experiment": 269,
+      "declared_case_count": 32,
+      "retrospective": false,
+      "source_commit": "09f83f9d564cc34d6fce3db34477f5bbb2f4e929",
+      "observed_records": [
+        {
+          "file": "results/signed-amplitude-forecast-269/pre-native/forecast-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/signed-amplitude-forecast-269/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/source-conditioned-local-232/design.json",
+      "experiment": 232,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/source-conditioned-local-232/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-conditioned-local-232/forecast-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-conditioned-local-232/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-conditioned-local-232/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/source-driven-attention-252/design.json",
+      "experiment": 252,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/source-driven-attention-252/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-driven-attention-252/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-driven-attention-252/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-driven-attention-252/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/source-driven-attention-252/pre-native/design.json",
+      "experiment": 252,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/source-driven-attention-252/pre-native/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-driven-attention-252/pre-native/pre-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/source-key-value-234/design.json",
+      "experiment": 234,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/source-key-value-234/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-key-value-234/forecast-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-key-value-234/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-key-value-234/qualification-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-key-value-234/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/source-regeneration-249/design.json",
+      "experiment": 249,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/source-regeneration-249/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-regeneration-249/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-regeneration-249/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/source-transport-primitives-233/design.json",
+      "experiment": 233,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/source-transport-primitives-233/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-transport-primitives-233/qualification-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/source-transport-primitives-233/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/target-blind-silu-240/design.json",
+      "experiment": 240,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/target-blind-silu-240/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/target-blind-silu-240/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/uniform-primitive-242-failed/design.json",
+      "experiment": 242,
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/uniform-primitive-242-failed/failure-forecast.json",
+          "status": null,
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/uniform-primitive-242b/design.json",
+      "experiment": "242b",
+      "declared_case_count": null,
+      "retrospective": null,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/uniform-primitive-242b/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/uniform-primitive-242b/forecast-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/uniform-primitive-242b/pre-measurement-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/uniform-primitive-242b/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/upstream-factorial-236/design.json",
+      "experiment": 236,
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/upstream-factorial-236/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/upstream-factorial-236/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    },
+    {
+      "design": "results/upstream-remainder-238/design.json",
+      "experiment": "238c",
+      "declared_case_count": null,
+      "retrospective": true,
+      "source_commit": null,
+      "observed_records": [
+        {
+          "file": "results/upstream-remainder-238/audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/upstream-remainder-238/ledger-audit.json",
+          "status": "passed",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/upstream-remainder-238/ledger-status.json",
+          "status": "complete",
+          "primary_fields": {}
+        },
+        {
+          "file": "results/upstream-remainder-238/status.json",
+          "status": "complete",
+          "primary_fields": {}
+        }
+      ]
+    }
+  ],
+  "current_batch": [
+    {
+      "file": "results/signed-amplitude-forecast-269/pre-native/forecast-status.json",
+      "status": "complete",
+      "case_records": 32
+    },
+    {
+      "file": "results/signed-amplitude-forecast-269/native-status.json",
+      "status": "complete",
+      "case_records": 32
+    },
+    {
+      "file": "results/backbone-feedback-270-271/backbone-curvature-feedback-270/status.json",
+      "status": "complete",
+      "case_records": 4
+    },
+    {
+      "file": "results/backbone-feedback-270-271/amplitude-query-mediation-271/status.json",
+      "status": "complete",
+      "case_records": 4
+    }
+  ],
+  "current_269_271_batches_complete": true,
+  "interpretation": "Artifact inventory, not a count of independent experiments or endorsement of every conclusion. An absent status/cases field reflects heterogeneous schemas; consult the sealed reports/qualifications. Preserved failures are not pending runs.",
+  "assessment": "Recent policy-contrast diagnostics constrain approximations but are not cumulative proof of the native learned generator. Keep native target, budget and circuit claims separate."
+}

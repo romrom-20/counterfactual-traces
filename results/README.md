@@ -1,5 +1,13 @@
 # Results and evidence
 
+[272: causal-prefix baseline and research review](causal-prefix-budget-272/README.md)
+retains all32 OLD269 cases, profiles, timing pairs and raw failures. Finite
+suffix prediction passes32/32 at at most3.59% of full learned dense MACs and
+2.94× median measured speedup; original coordinate failures299/2688 remain.
+The 57-artifact posthoc inventory checks current batch completion and separates
+policy-contrast progress from native prediction. This is an architectural
+reference, not fresh confirmation or a learned-circuit solution.
+
 [270–271: backbone curvature and controller clamps](backbone-feedback-270-271/README.md)
 preserves both failed primaries on four old contexts, all 76 completed forwards,
 signed local vectors, final restoration tests and exact controller equalities.

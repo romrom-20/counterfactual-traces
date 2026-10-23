@@ -2,7 +2,7 @@
 
 The active question is whether an identified nonlinear computation can predict the native residual and verdict response to a known input edit, using one observed False-state computation. Useful contributions test a specific part of that claim: a qualified primitive intervention, a falsifying control, or a frozen forecast evaluated on fresh contexts.
 
-Start with [Question B](docs/QUESTION-B.md), the [latest result](docs/analysis/270-271-backbone-curvature-and-feedback.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
+Start with [Question B](docs/QUESTION-B.md), the [latest result](docs/analysis/272-research-review-and-causal-baseline.md), the [research notes](docs/RESEARCH-NOTES.md), and the [reproduction guide](research/README.md).
 
 ## Preserve the record
 
@@ -34,6 +34,13 @@ The clean code repository is public. Older PR records remain in a separate priva
 ## Make a scientific claim reviewable
 
 State what is observed, what is supplied by an oracle, and what is predicted. Record the checkpoint revision, exact inputs, runtime, tolerances, computation counts and all failures. Keep final readouts finite when the intervention protocol requires it. Separate changes to a diagnostic from changes to the native residual or verdict.
+
+For an efficiency claim, compare the same native displacement and margin with
+an affected-suffix cache baseline when the architecture and edit allow it.
+State which False activations are observed, their storage, and every additional
+forecast/controller pass. Prefix caching can optimize approximate methods too;
+do not infer latency or optimality from operation counts alone. A surrogate-policy
+contrast needs a specific connection to the native claim it is intended to test.
 
 Fresh-context predictions must be sealed before observing the native True trajectories. Explain the computation budget: executing the full counterfactual network is a reference computation rather than the compact account sought here. A local sign regime or product identity does not identify a learned feature or circuit.
 

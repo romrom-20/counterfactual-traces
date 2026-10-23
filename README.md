@@ -7,14 +7,19 @@ particular residual-stream displacement, and whether the operations generating
 and propagating it let us forecast native residual and verdict from the **False
 computation, known edit and model weights**.
 
-**Current answer: a bounded predictive success; the broader mechanism is open.**
-A frozen rule using cubic receiver-query normalization and finite SiLU at a
-ranked **1%** of receiving activation coordinates passes the full-response
-criterion on **32/32 new literal pairs**. The remaining activation coordinates
-use a quadratic approximation. Substantial source/K/V/MLP computation stays
-finite; this is not a learned circuit or a demonstrated speedup.
+**Current answer: useful bounded predictions; the learned mechanism remains open.**
+For the late Boolean edits in this setup, retaining one False prefix KV cache
+and recomputing the affected suffix passes 32/32 old native-response cases.
+It uses at most 3.59% of full learned matrix MACs and is 2.94× faster in the
+measured marginal calls on this Mac. This is standard causal reuse, with all
+affected operations finite. It is a reference computation, not a learned circuit.
 
-[Start here](docs/READING-GUIDE.md) · [Latest mechanism test](docs/analysis/270-271-backbone-curvature-and-feedback.md) ·
+Earlier cubic-query/selective-SiLU and fixed-axis rules still have their sealed
+fresh-literal successes. The new [research review](docs/analysis/272-research-review-and-causal-baseline.md)
+separates those predictions from intervention-policy explanations and establishes
+a concrete baseline for the next computation budget.
+
+[Start here](docs/READING-GUIDE.md) · [Latest review and baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
 
