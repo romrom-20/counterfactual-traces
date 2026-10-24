@@ -1,5 +1,12 @@
 # Results and evidence
 
+[281d/e: source2 product masks](source2-products-281d/README.md) retains original
+native P/H32/32 and failed primary/sufficient accounts0/32, every random control,
+product removal and exact direct-product replay. Zero-forward geometry and SiLU
+ledgers are explicitly posthoc. Qualified6816 required and2304 raw checks pass;
+original bookkeeping/storage/binding/exact-order audit failures remain. Old
+contexts, finite26 later source/all receivers; no fresh/circuit/efficiency claim.
+
 [280/280b: source composition](source-composition-280b/README.md) preserves the
 failed all-source cubic primary0/32, first-site-only32/32, all native/source/V
 targets, exact signed new/inherited error splits, failed local restoration0/32

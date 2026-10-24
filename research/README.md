@@ -1,5 +1,66 @@
 # Reproduce the current research
 
+## Source2 products (281d)
+
+[Result and all limits](../docs/analysis/281-source2-products.md) ·
+[Original protocol](../docs/experiments/281-source2-products.md) ·
+[Qualified audit](../docs/experiments/281e-random-control-order.md) ·
+[Every case and failed attempt](../results/source2-products-281d/README.md)
+
+Repository-only verification requires neither model imports nor local arrays:
+
+```sh
+python -S research/boolean_coupling/verify_source2_products.py
+```
+
+For model repetition, first regenerate279 and280b using the following sections.
+Use the pinned Python3.12/Float32 MPS/eager environment and cached checkpoint.
+Choose a NEW destination under an existing parent. Allow at least700MiB free
+after generating the input archives, in addition to weights/process headroom.
+The lean new arrays occupy71.4MB; this does not reduce input-regeneration cost.
+No original evidence should be deleted or recompressed.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+PRODUCT_INPUTS=/path/to/regenerated/source-composition-repeat-280b
+PRODUCT_OUTPUTS=/path/to/new/outputs
+mkdir -p "$PRODUCT_OUTPUTS"
+python -m boolean_coupling.preflight281d --out "$PRODUCT_OUTPUTS/synthetic-producer-281d"
+python -m boolean_coupling.run281d --reference-280b "$PRODUCT_INPUTS" --out "$PRODUCT_OUTPUTS/source2-products-repeat-281d"
+python -m boolean_coupling.audit281 --run "$PRODUCT_OUTPUTS/source2-products-repeat-281d"
+```
+
+Require the synthetic preflight to pass before the model producer. The original
+audit is expected to reproduce its retained exact random-write operation-order
+failure. It must fail specifically at that check, with a zero bound and error
+below1e-15; any other failure needs investigation. The helper below checks those
+conditions, preserves the failure and seals the published qualification sources
+before rerunning. It cannot overwrite an existing qualification or successful
+audit. No tolerance is relaxed.
+
+```sh
+python -m boolean_coupling.qualify281e --run "$PRODUCT_OUTPUTS/source2-products-repeat-281d"
+python -m boolean_coupling.audit281e --run "$PRODUCT_OUTPUTS/source2-products-repeat-281d"
+python -m boolean_coupling.diagnose_product_geometry --run "$PRODUCT_OUTPUTS/source2-products-repeat-281d" --out "$PRODUCT_OUTPUTS/product-geometry-posthoc"
+```
+
+Omitting `--partial-281b` regenerates all32 known cases. The published execution
+instead reused30 original sealed cases and required the orphan31st array to
+regenerate exactly before case32; both cold32 and resumed30+2 paths passed the
+CPU synthetic fixture with identical NPZ hashes. A separate full cold checkpoint
+repetition has not run. The qualification helper passed a metadata-only fixture;
+that is not another model replication. Fresh support requires new protocol,
+contexts and globally sealed forecasts/qualification before native measurement.
+
+The original281 bookkeeping failure,281b storage-cap failure,281c binding failure
+and missed preflight gate remain public.281d changes only the binding/storage
+continuation;281e changes only exact RNG reconstruction order.576 completed-study
+forwards plus38 failed-attempt forwards ran, then public primitive/head audits.
+All later26 source and all receiving operations remain finite. This is not a
+whole-model speedup or learned circuit. Geometry/rectifier ledgers use saved
+measured targets with zero model forwards; their concentration rankings are not
+forecasts. Private writing, model weights and large arrays remain excluded.
+
 ## Source composition (280b)
 
 [Report and limits](../docs/analysis/280-source-composition.md) ·

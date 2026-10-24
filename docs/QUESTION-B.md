@@ -6,7 +6,24 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 280b
+## Current answer through qualified 281d/e
+
+Target-blind90-coordinate source-MLP2 masks P/H recover original native-response
+accuracy32/32 on the old contexts, versus16/32 for two-site cubic. Their sufficient
+product account fails0/32: P missing-write error39.40%, H45.70%; actual effect
+passes7/32 and0/32. All selective restoration/removal/necessity accounts remain
+failed. The baseline already meets vector bounds in every case; its failures
+are generic-schema margins. This is better bounded prediction, not a complete
+internal-response account or fresh support.
+
+Saved-array geometry shows P/H differences persist at39.23% of the smaller
+missing-effect norm while being only1.35% of the full native norm. An exact SiLU
+identity traces the rectifier selector's remaining error to its omitted smooth
+term. This explains the approximation's limitation, not the learned origin of
+the gate changes. Next work must test upstream gate generation, preserving
+original native targets and a declared budget, rather than mistake tolerance
+success for a circuit. All original execution/audit failures remain alongside
+the qualified numerical pass. [Full result](analysis/281-source2-products.md).
 
 The uniform source-composition extension fails. Applying cubic at all28 source
 MLPs passes0/32 original native, source-trajectory and joint cases on the old279
