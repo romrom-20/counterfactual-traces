@@ -1,5 +1,12 @@
 # Results and evidence
 
+[280/280b: source composition](source-composition-280b/README.md) preserves the
+failed all-source cubic primary0/32, first-site-only32/32, all native/source/V
+targets, exact signed new/inherited error splits, failed local restoration0/32
+and random controls. Original storage failure and28 unchanged array hashes remain.
+32,064 required component checks pass;260 raw write bridges remain failed at1e-4.
+Old contexts and finite receivers, no new fresh/circuit/efficiency result.
+
 [278: source MLP primitive factorial](source-mlp-primitives-278/README.md) preserves
 the failed normalization-only primary (0/32), every corner, conditional receiving
 vector effects, signed ledgers and original numerical checks.

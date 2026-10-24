@@ -2,6 +2,28 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 280/280b: the source update is locally valid at one site, not uniform
+
+The cubic rule does not compose across source layers:0/32 full native/trajectory
+passes versus32/32 for first-site-only. At source MLP2 its local error is already
+28.89% with native inputs; the new discrepancy dominates that first error jump.
+Later blocks carry inherited error and create more. At MLP8 the approximation is
+locally closer along the wrong trajectory, even in absolute write-error norm.
+Thus self-consistency along a forecast cannot validate its native explanation.
+
+Removing one largest local discrepancy is not enough: actual local removal is
+exact, yet full-response and stronger missing-effect counts remain0/32. Random
+controls sometimes improve scalar/vector metrics too. Do not tell a necessary
+one-site story from a large error or favorable median.
+
+A target-aware source-MLP2 ledger finds concentrated omitted products, including
+many contributions from a small set of gate sign crossings. Those are retrospective
+energies before cancellation, not learned features or a validated mask. A next
+primitive test should predict/select those products without native information,
+then intervene on them and retain original response targets. No new broad sweep.
+The storage-only continuation preserves the original failure and all28 old arrays;
+260 raw CPU64 write failures retain their original bound. [Full report](analysis/280-source-composition.md).
+
 ## 278–279: correcting an input requires its changed multiplicative response
 
 The normalization-only account fails. In 278, finite input RMSNorm makes the

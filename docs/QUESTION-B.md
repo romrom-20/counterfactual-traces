@@ -6,7 +6,17 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 279
+## Current answer through 280b
+
+The uniform source-composition extension fails. Applying cubic at all28 source
+MLPs passes0/32 original native, source-trajectory and joint cases on the old279
+contexts. First-site-only C1 remains32/32 on these endpoints. MLP2 already fails
+local prediction at native input (28.89% median write-change error), so inherited
+input error alone is insufficient. A single largest-local-error removal still
+has0/32 complete passes. This is a retrospective constraint, not fresh support
+or a learned circuit. All260 original-bound raw write failures remain attached
+to the successful public/component numerical qualification.
+[Composition and all qualifications](analysis/280-source-composition.md).
 
 A local part of the generator now has both causal and prospective support.
 At the first source MLP, 278 crosses finite/False-affine RMSNorm, SiLU and the
@@ -33,8 +43,9 @@ edit and learned projections without its full native True activation. The first
 attention/norm/projections/product and all 27 later blocks still execute finitely.
 It does not establish composition across the source trajectory, an efficiency
 improvement over causal-cache reuse, semantic features or a learned circuit.
-The next generation question is whether this local update composes from its own
-predicted source inputs, rather than receiving later native source states.
+The tested uniform composition fails; the next generation target is the early
+source gate/product changes whose curvature the False expansion misses, followed
+by a separate test of any resulting rule from its own predicted inputs.
 General Question B remains open; a training-history explanation is not an extra
 requirement for answering its stated computational prediction problem.
 

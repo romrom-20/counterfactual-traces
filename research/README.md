@@ -1,5 +1,58 @@
 # Reproduce the current research
 
+## Source composition (280b)
+
+[Report and limits](../docs/analysis/280-source-composition.md) ·
+[Original protocol](../docs/experiments/280-source-composition.md) ·
+[Storage qualification](../docs/experiments/280b-storage-continuation.md) ·
+[Every case and failure](../results/source-composition-280b/README.md)
+
+```sh
+python -S research/boolean_coupling/verify_source_composition.py
+```
+
+For model repetition, first regenerate279 forecasts and run its published-literal
+native helper in the next section. Use the pinned Python3.12/Float32 MPS/eager
+checkpoint/environment. No private activation archive is downloaded. Choose a NEW
+output and existing parent; allow at least2.3GiB free in addition to the regenerated
+279 inputs, cached weights and process headroom. Never delete original evidence.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+COMPOSITION_INPUTS=/path/to/regenerated/source-activation-repeat-279
+COMPOSITION_OUTPUTS=/path/to/new/outputs
+mkdir -p "$COMPOSITION_OUTPUTS"
+python -m boolean_coupling.run280b --reference-279 "$COMPOSITION_INPUTS" --out "$COMPOSITION_OUTPUTS/source-composition-repeat-280b"
+python -m boolean_coupling.audit280 --run "$COMPOSITION_OUTPUTS/source-composition-repeat-280b"
+```
+
+Omitting `--partial-280` is an explicitly supported cold repetition of the known
+32 literals; provenance fields record no reused partial arrays. It accepts279's
+`repetition-observations` format as well as original native observations. The
+original completed study instead supplied `--partial-280` to preserve28 completed
+arrays and run only the last four. That continuation actually ran, followed by
+the ORIGINAL unchanged audit280 on all32. Cold-regeneration CLI support has not
+been separately executed as another full model repetition; it is not fresh support.
+
+The original280 producer stopped at its768MiB disk reserve after28 cases. Its
+1200MiB raw cap was also too small.280b freezes a storage-only1536MiB cap and512MiB
+per-new-case reserve, reusing all28 arrays unchanged. The first280b launch rejected
+its initial guard before model/output creation; only disposable workspace bytecode
+was cleared before retry. Original failures and source seals remain public.
+
+Total352 full forwards and1792 extra local product/down maps (896 also finite
+SiLU), then explicit audits. All receiving/attention/norm/projections/products
+remain finite. The all-source cubic primary and one local removal both fail0/32;
+this is an old-context source-composition diagnostic, not a speedup or circuit.
+Raw arrays1,422,656,845bytes stay local with public hashes. A storage cap is not a
+guarantee of sufficient initial free space; allow raw output plus reserve/headroom.
+
+The posthoc packager/plotter and `diagnose_source_gates.py` use audited data only.
+The gate ledger additionally reads pinned checkpoint weights, with zero model
+forwards, and uses native targets explicitly. It is not a prospective selector
+or neuron intervention. Private writing and all weights/arrays remain excluded.
+
+
 ## Source activation forecast (279)
 
 [Result and limits](../docs/analysis/279-source-activation-forecast.md) ·
