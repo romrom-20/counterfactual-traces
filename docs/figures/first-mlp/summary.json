@@ -1,0 +1,264 @@
+{
+  "276": {
+    "audit": {
+      "status": "passed",
+      "experiment": 276,
+      "retrospective": true,
+      "design_sha256": "faa80f2f08acf807ca0de95665cadddd23dbad3bfaeb502ea6440ac298e76e23",
+      "status_sha256": "490a3cfa57040a69e7a6c48b94874a3d907293c14336700efa9c78523f128ec7",
+      "source_sha256": "6bcbf65d8ec0ee98a5816fa15986960867782c932b4bd5310fa0c34a528467f3",
+      "numerical_checks": 6112,
+      "numerical_max_error": 9.073886886312721e-06,
+      "raw_checks": {
+        "total": 768,
+        "failed": 0,
+        "original_bound": 0.0001
+      },
+      "derivative_anchors": 64,
+      "native_counts": {
+        "U": 32,
+        "C": 32,
+        "R": 0,
+        "A": 32,
+        "I": 0,
+        "L": 32,
+        "S": 32,
+        "G0": 32,
+        "G1": 30,
+        "G2": 29,
+        "Z": 0
+      },
+      "combined_counts": {
+        "U": 32,
+        "C": 0,
+        "R": 0,
+        "A": 8,
+        "I": 0,
+        "L": 0,
+        "S": 32,
+        "G0": 0,
+        "G1": 0,
+        "G2": 0,
+        "Z": 0
+      },
+      "S_strata": {
+        "generic/0": 8,
+        "generic/1": 8,
+        "descriptive/0": 8,
+        "descriptive/1": 8
+      },
+      "explanation_count": 8,
+      "explanation_strata": {
+        "generic/0": 3,
+        "generic/1": 5,
+        "descriptive/0": 0,
+        "descriptive/1": 0
+      },
+      "primary_passes": true,
+      "gain_explanation_passes": false,
+      "generative_account_passes": false,
+      "csv_sha256": {
+        "paired.csv": "b99d15b88b97c8fe21a22dbd2590ce5000b48da5af0e84826577d3cf0ecec8ac",
+        "derivatives.csv": "cec41fecbcbdff3164b63c098aeeb38caa8736cb6cf2ab6522ac53368ee54efc",
+        "local-gain.csv": "c5973cfc20c809e55d462e1b9b0632e33495635801512ad85f8b521e86b7cb76",
+        "raw-primitives.csv": "36687501207d8e270cf6b37b37c9ca34561b5ac8cff9e1ee077b5dcd5aee2fd6",
+        "native.csv": "a20b457715ec4c250da7d3169eedd151c4e48f7d54242c2fbcb1b13489f0fdfb",
+        "heads.csv": "2a577423e633957f8ee2ac7559eabc5a6c24048a7b6f65852e6fee3db3fa8b35",
+        "gain.csv": "44b1f7437e3d91ed95e974c67beaff0463b39dc76012fdce4adab6180793ba62",
+        "combined.csv": "46d12881346b72864b979a5a5c803afa940f4afa889a61d15163ae507a2577e0",
+        "explanation.csv": "e15f58d0ece9490d27685c94826c98189bee2a84e2a0dab75e8a747b51b5eb78"
+      },
+      "boundary": "Old single-site diagnostic; smooth CPU64 first-MLP tangents independently checked, not Float32/whole-block derivative certification. Other model computation finite. No fresh/compact full predictor or learned circuit."
+    },
+    "gain_components": [
+      {
+        "arm": "S",
+        "cases": 32,
+        "local_passes": 28,
+        "downstream_vectors": 16,
+        "material_margin": 10,
+        "within_margin_bound": 21,
+        "full_effect_passes": 8
+      },
+      {
+        "arm": "U",
+        "cases": 32,
+        "local_passes": 32,
+        "downstream_vectors": 32,
+        "material_margin": 10,
+        "within_margin_bound": 32,
+        "full_effect_passes": 10
+      }
+    ],
+    "medians": {
+      "C": {
+        "source_relative": 0.567037987134929,
+        "all_relative": 0.033449610883958016,
+        "margin_error": 0.05399322509765625
+      },
+      "A": {
+        "source_relative": 0.25237579298104007,
+        "all_relative": 0.020115000684877895,
+        "margin_error": 0.013675689697265625
+      },
+      "L": {
+        "source_relative": 0.2693698269684877,
+        "all_relative": 0.020311527170250115,
+        "margin_error": 0.014211654663085938
+      },
+      "S": {
+        "source_relative": 0.08276328951903061,
+        "all_relative": 0.004209556948618296,
+        "margin_error": 0.0039272308349609375
+      },
+      "G0": {
+        "source_relative": 0.6143165442437128,
+        "all_relative": 0.02701637221117981,
+        "margin_error": 0.0390777587890625
+      },
+      "G1": {
+        "source_relative": 0.609952218807248,
+        "all_relative": 0.02740010343689589,
+        "margin_error": 0.05847740173339844
+      },
+      "G2": {
+        "source_relative": 0.6109544425994085,
+        "all_relative": 0.026503488574993638,
+        "margin_error": 0.03613090515136719
+      },
+      "Z": {
+        "source_relative": 0.9704970274912347,
+        "all_relative": 0.18616706710714992,
+        "margin_error": 0.5825271606445312
+      }
+    }
+  },
+  "277": {
+    "audit": {
+      "status": "passed",
+      "experiment": 277,
+      "prospective": true,
+      "design_sha256": "81ccb2ba94df8fa7efa4d1c6068385c1880f7361c6d0851d8ac01905fd71ee85",
+      "forecast_seal_sha256": "1398d7cb0ac3a96a3a4f933aea67e8f3c20c3ae1d507904d8a01b3ac515382a7",
+      "native_status_sha256": "dc53a3d06c7e7713a0d81859207d44a79f0fa59bba655a1f144df514852ec71a",
+      "source_sha256": "df7013c591d388af8afa9e0a22434c2203525be46742a84e5fb9ac51d3b97b89",
+      "public_receipt_commit": "7a398a580bbe879ef051e76e70af9769d51008d6",
+      "native_counts": {
+        "C": 32,
+        "A": 32,
+        "L": 32,
+        "S": 32,
+        "G0": 32,
+        "G1": 32,
+        "G2": 31,
+        "Z": 0,
+        "T": 32
+      },
+      "combined_counts": {
+        "C": 0,
+        "A": 0,
+        "L": 0,
+        "S": 32,
+        "G0": 0,
+        "G1": 0,
+        "G2": 0,
+        "Z": 0,
+        "T": 32
+      },
+      "S_strata": {
+        "generic/0": 8,
+        "generic/1": 8,
+        "descriptive/0": 8,
+        "descriptive/1": 8
+      },
+      "explanation_count": 6,
+      "explanation_strata": {
+        "generic/0": 4,
+        "generic/1": 2,
+        "descriptive/0": 0,
+        "descriptive/1": 0
+      },
+      "primary_passes": true,
+      "gain_explanation_passes": false,
+      "generative_account_passes": false,
+      "native_ordinary_true": 32,
+      "exact_native_checks": 608,
+      "csv_sha256": {
+        "paired.csv": "32f711a470e3197908ad136d50df66344d403c9ed9328429fb58c6c17ee67fe2",
+        "local-gain.csv": "e4b8d25d4283a594cfd20c6cbfc85b88b66cecd1d66f72d0e65f4171d64ebc4e",
+        "forecast-raw-primitives.csv": "8c4893956a4161ccfbb25567c97376f5d18cb6cef79474cb604158de9c641ac8",
+        "forecast-derivatives.csv": "e3cb45fc6044f685c80ea11a57dc30d59c0bd0bc697368d7dc214866b65006ad",
+        "native.csv": "4bc0de035d5b3d9146307aef3d42aa84ad98e5440a9d5e863908fef356b2711e",
+        "heads.csv": "ce0cc826678707a4dad2181ccfc6a16584c2e3592a4f67204b4262f9f59ce46c",
+        "forecast-scores.csv": "a18e9519b4ead04ad44cb0d96144abb8d99210013534c891572c247fb3dad2bc",
+        "gain.csv": "23846ab6f3d9218a1c2b8e6fdf798e6e521246ac4af02887034bbef2ea7ae6e1",
+        "combined.csv": "2c8577972f0df6c0218e997ee5de90db8192ab7bfb745bfe86e094d71c64a390",
+        "explanation.csv": "2f8ccbc3f71f07f4649bf1b6a39718598be03a64e972cc68469258beb14e4f72",
+        "forecast-heads.csv": "bfa8909a4fcde83156933349385471651f38bde0f23a00ce618e218f70e23ed1"
+      },
+      "boundary": "Unchanged single-site rule, fresh literals/dependent templates, all other model computation finite. Failed276 gain explanation remains failed. No compact full predictor, learned circuit or general QB solution."
+    },
+    "gain_components": [
+      {
+        "arm": "S",
+        "cases": 32,
+        "local_passes": 20,
+        "downstream_vectors": 16,
+        "material_margin": 10,
+        "within_margin_bound": 22,
+        "full_effect_passes": 6
+      },
+      {
+        "arm": "T",
+        "cases": 32,
+        "local_passes": 32,
+        "downstream_vectors": 32,
+        "material_margin": 10,
+        "within_margin_bound": 32,
+        "full_effect_passes": 10
+      }
+    ],
+    "medians": {
+      "C": {
+        "source_relative": 0.5811455276483676,
+        "all_relative": 0.03395014898317308,
+        "margin_error": 0.053050994873046875
+      },
+      "A": {
+        "source_relative": 0.2615721808714092,
+        "all_relative": 0.018386549586462422,
+        "margin_error": 0.011335372924804688
+      },
+      "L": {
+        "source_relative": 0.2796410324388779,
+        "all_relative": 0.019188822852518137,
+        "margin_error": 0.013233184814453125
+      },
+      "S": {
+        "source_relative": 0.0869651936539336,
+        "all_relative": 0.004200299063819503,
+        "margin_error": 0.004119873046875
+      },
+      "G0": {
+        "source_relative": 0.6111340185968102,
+        "all_relative": 0.025883432737328543,
+        "margin_error": 0.035121917724609375
+      },
+      "G1": {
+        "source_relative": 0.6031449826533268,
+        "all_relative": 0.025653401654570206,
+        "margin_error": 0.029470443725585938
+      },
+      "G2": {
+        "source_relative": 0.6098932162172848,
+        "all_relative": 0.02583544316615471,
+        "margin_error": 0.03157615661621094
+      },
+      "Z": {
+        "source_relative": 0.9708178664455092,
+        "all_relative": 0.19060811440889125,
+        "margin_error": 0.6344375610351562
+      }
+    }
+  }
+}

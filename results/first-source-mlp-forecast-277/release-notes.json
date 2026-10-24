@@ -1,0 +1,45 @@
+{
+  "experiment": 277,
+  "retrospective": false,
+  "fresh_literals": true,
+  "independent_templates": false,
+  "private_articles_included": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "novelty_priority_claimed": false,
+  "efficiency_claimed": false,
+  "runtime_seconds": {
+    "producer": {
+      "real": 77.51,
+      "user": 13.17,
+      "sys": 3.96
+    },
+    "forecast-audit": {
+      "real": 15.23,
+      "user": 8.0,
+      "sys": 2.06
+    },
+    "native": {
+      "real": 13.31,
+      "user": 4.07,
+      "sys": 1.7
+    },
+    "native-audit": {
+      "real": 7.08,
+      "user": 3.24,
+      "sys": 1.66
+    }
+  },
+  "counts": {
+    "full_false": 32,
+    "full_forecasts": 288,
+    "source_first_attention": 32,
+    "corner_PV": 64,
+    "corner_output_projections": 64,
+    "finite_first_MLP_maps": 96,
+    "CPU64_MLP_tangents": 64,
+    "CPU64_tangent_dense_matvec": 320,
+    "native_True_source_MLP_primals": 0
+  },
+  "boundary": "Only source MLP1 is approximated/intervened. All other model computation finite. Predictive and gain-explanation decisions separate; failed276 explanation retained."
+}

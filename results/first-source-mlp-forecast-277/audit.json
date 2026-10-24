@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "experiment": 277,
+  "prospective": true,
+  "design_sha256": "81ccb2ba94df8fa7efa4d1c6068385c1880f7361c6d0851d8ac01905fd71ee85",
+  "forecast_seal_sha256": "1398d7cb0ac3a96a3a4f933aea67e8f3c20c3ae1d507904d8a01b3ac515382a7",
+  "native_status_sha256": "dc53a3d06c7e7713a0d81859207d44a79f0fa59bba655a1f144df514852ec71a",
+  "source_sha256": "df7013c591d388af8afa9e0a22434c2203525be46742a84e5fb9ac51d3b97b89",
+  "public_receipt_commit": "7a398a580bbe879ef051e76e70af9769d51008d6",
+  "native_counts": {
+    "C": 32,
+    "A": 32,
+    "L": 32,
+    "S": 32,
+    "G0": 32,
+    "G1": 32,
+    "G2": 31,
+    "Z": 0,
+    "T": 32
+  },
+  "combined_counts": {
+    "C": 0,
+    "A": 0,
+    "L": 0,
+    "S": 32,
+    "G0": 0,
+    "G1": 0,
+    "G2": 0,
+    "Z": 0,
+    "T": 32
+  },
+  "S_strata": {
+    "generic/0": 8,
+    "generic/1": 8,
+    "descriptive/0": 8,
+    "descriptive/1": 8
+  },
+  "explanation_count": 6,
+  "explanation_strata": {
+    "generic/0": 4,
+    "generic/1": 2,
+    "descriptive/0": 0,
+    "descriptive/1": 0
+  },
+  "primary_passes": true,
+  "gain_explanation_passes": false,
+  "generative_account_passes": false,
+  "native_ordinary_true": 32,
+  "exact_native_checks": 608,
+  "csv_sha256": {
+    "paired.csv": "32f711a470e3197908ad136d50df66344d403c9ed9328429fb58c6c17ee67fe2",
+    "local-gain.csv": "e4b8d25d4283a594cfd20c6cbfc85b88b66cecd1d66f72d0e65f4171d64ebc4e",
+    "forecast-raw-primitives.csv": "8c4893956a4161ccfbb25567c97376f5d18cb6cef79474cb604158de9c641ac8",
+    "forecast-derivatives.csv": "e3cb45fc6044f685c80ea11a57dc30d59c0bd0bc697368d7dc214866b65006ad",
+    "native.csv": "4bc0de035d5b3d9146307aef3d42aa84ad98e5440a9d5e863908fef356b2711e",
+    "heads.csv": "ce0cc826678707a4dad2181ccfc6a16584c2e3592a4f67204b4262f9f59ce46c",
+    "forecast-scores.csv": "a18e9519b4ead04ad44cb0d96144abb8d99210013534c891572c247fb3dad2bc",
+    "gain.csv": "23846ab6f3d9218a1c2b8e6fdf798e6e521246ac4af02887034bbef2ea7ae6e1",
+    "combined.csv": "2c8577972f0df6c0218e997ee5de90db8192ab7bfb745bfe86e094d71c64a390",
+    "explanation.csv": "2f8ccbc3f71f07f4649bf1b6a39718598be03a64e972cc68469258beb14e4f72",
+    "forecast-heads.csv": "bfa8909a4fcde83156933349385471651f38bde0f23a00ce618e218f70e23ed1"
+  },
+  "boundary": "Unchanged single-site rule, fresh literals/dependent templates, all other model computation finite. Failed276 gain explanation remains failed. No compact full predictor, learned circuit or general QB solution."
+}

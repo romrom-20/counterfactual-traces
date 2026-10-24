@@ -1,0 +1,30 @@
+{
+  "experiment": 276,
+  "retrospective": true,
+  "fresh_literals": false,
+  "independent_templates": false,
+  "private_articles_included": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "novelty_priority_claimed": false,
+  "efficiency_claimed": false,
+  "runtime_seconds": {
+    "producer": {
+      "real": 108.82,
+      "user": 21.54,
+      "sys": 5.16
+    },
+    "audit": {
+      "real": 18.31,
+      "user": 9.33,
+      "sys": 2.42
+    }
+  },
+  "counts": {
+    "full_forwards": 448,
+    "finite_first_MLP_maps": 128,
+    "CPU64_MLP_tangents": 64,
+    "CPU64_tangent_dense_matvec": 320
+  },
+  "boundary": "Only source MLP1 is approximated/intervened. All other model computation finite. Predictive and gain-explanation decisions separate; failed276 explanation retained."
+}

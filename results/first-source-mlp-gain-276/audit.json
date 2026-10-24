@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "experiment": 276,
+  "retrospective": true,
+  "design_sha256": "faa80f2f08acf807ca0de95665cadddd23dbad3bfaeb502ea6440ac298e76e23",
+  "status_sha256": "490a3cfa57040a69e7a6c48b94874a3d907293c14336700efa9c78523f128ec7",
+  "source_sha256": "6bcbf65d8ec0ee98a5816fa15986960867782c932b4bd5310fa0c34a528467f3",
+  "numerical_checks": 6112,
+  "numerical_max_error": 9.073886886312721e-06,
+  "raw_checks": {
+    "total": 768,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "derivative_anchors": 64,
+  "native_counts": {
+    "U": 32,
+    "C": 32,
+    "R": 0,
+    "A": 32,
+    "I": 0,
+    "L": 32,
+    "S": 32,
+    "G0": 32,
+    "G1": 30,
+    "G2": 29,
+    "Z": 0
+  },
+  "combined_counts": {
+    "U": 32,
+    "C": 0,
+    "R": 0,
+    "A": 8,
+    "I": 0,
+    "L": 0,
+    "S": 32,
+    "G0": 0,
+    "G1": 0,
+    "G2": 0,
+    "Z": 0
+  },
+  "S_strata": {
+    "generic/0": 8,
+    "generic/1": 8,
+    "descriptive/0": 8,
+    "descriptive/1": 8
+  },
+  "explanation_count": 8,
+  "explanation_strata": {
+    "generic/0": 3,
+    "generic/1": 5,
+    "descriptive/0": 0,
+    "descriptive/1": 0
+  },
+  "primary_passes": true,
+  "gain_explanation_passes": false,
+  "generative_account_passes": false,
+  "csv_sha256": {
+    "paired.csv": "b99d15b88b97c8fe21a22dbd2590ce5000b48da5af0e84826577d3cf0ecec8ac",
+    "derivatives.csv": "cec41fecbcbdff3164b63c098aeeb38caa8736cb6cf2ab6522ac53368ee54efc",
+    "local-gain.csv": "c5973cfc20c809e55d462e1b9b0632e33495635801512ad85f8b521e86b7cb76",
+    "raw-primitives.csv": "36687501207d8e270cf6b37b37c9ca34561b5ac8cff9e1ee077b5dcd5aee2fd6",
+    "native.csv": "a20b457715ec4c250da7d3169eedd151c4e48f7d54242c2fbcb1b13489f0fdfb",
+    "heads.csv": "2a577423e633957f8ee2ac7559eabc5a6c24048a7b6f65852e6fee3db3fa8b35",
+    "gain.csv": "44b1f7437e3d91ed95e974c67beaff0463b39dc76012fdce4adab6180793ba62",
+    "combined.csv": "46d12881346b72864b979a5a5c803afa940f4afa889a61d15163ae507a2577e0",
+    "explanation.csv": "e15f58d0ece9490d27685c94826c98189bee2a84e2a0dab75e8a747b51b5eb78"
+  },
+  "boundary": "Old single-site diagnostic; smooth CPU64 first-MLP tangents independently checked, not Float32/whole-block derivative certification. Other model computation finite. No fresh/compact full predictor or learned circuit."
+}
