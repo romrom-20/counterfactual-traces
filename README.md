@@ -35,6 +35,16 @@ also fails to restore the full response. The first-site success survives; the
 uniform extension does not. [Composition test, source-error split and retained
 numerical failures](docs/analysis/280-source-composition.md).
 
+A targeted source-MLP2 test then selects 90 coordinates without native-target
+information. Two fixed rules recover the original response in **32/32 old
+contexts**, versus16/32 for two-site cubic. But the primary reconstruction of
+the missing write and its actual effect **fails0/32**. Signed geometry explains
+why both can hold: the omitted effect is small relative to the complete native
+displacement, and the two masks' differences persist downstream. The rectifier
+selector misses a smooth SiLU term; this is a known-function identity, not a
+learned circuit or fresh confirmation. [Product interventions, every failed
+account and numerical qualifications](docs/analysis/281-source2-products.md).
+
 For the late Boolean edits in this setup, retaining one False prefix KV cache
 and recomputing the affected suffix passes 32/32 old native-response cases.
 It uses at most 3.59% of full learned matrix MACs and is 2.94× faster in the
@@ -46,7 +56,7 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest source test](docs/analysis/280-source-composition.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest source test](docs/analysis/281-source2-products.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)

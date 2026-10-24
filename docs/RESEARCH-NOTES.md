@@ -2,6 +2,33 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 281: a correct verdict is not a complete write explanation
+
+Both target-blind90-coordinate source2 selectors recover32/32 original native
+responses on old cases, yet the primary joint product account fails0/32. The
+two-site cubic baseline already passes every native vector bound; it fails only
+the16 generic-schema margins. All stronger restoration/removal/necessity accounts
+fail, so we cannot call a precision improvement a necessary mechanism.
+
+Different masks do not imply unrelated directions: their local writes have
+.9051 median cosine. Their39.63% local difference persists as39.23% of the missing
+continued effect, but only1.35% of the full native displacement. The latter
+denominator allows both forecasts to pass; no downstream error-erasure story is
+needed. Measuring a smaller causal contrast remains important.
+
+Known SiLU geometry also explains a selector limitation. SiLU is ReLU minus the
+smooth bounded term q(g)=abs(g)/(1+exp(abs(g))). P omits its change. Across P's
+unselected error, the rectifier proxy and smooth term have-.4265 and1.4265 median
+signed projections; explicit rounding closes the ledger. These are algebraic
+parts, not opposing learned mechanisms. The target-aware90 remains much more
+accurate, so the failed ranking is not proof of an irreducibly distributed write.
+
+This narrows the next question to how upstream source attention and normalization
+generate the consequential gate/up movements. Another larger correction grid or
+fresh test of the failed sufficient account would not answer it. The qualified
+numerical audit passes; original producer/audit failures and all older caveats
+remain. [Product test, signed geometry and exact budget](analysis/281-source2-products.md).
+
 ## 280/280b: the source update is locally valid at one site, not uniform
 
 The cubic rule does not compose across source layers:0/32 full native/trajectory

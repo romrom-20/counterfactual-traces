@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "experiment": 281,
+  "qualification": "281e-generator-order",
+  "audit_qualification_sha256": "fcea2bc67cd732a9ca66fd5cba1aea6ce311f7d2ed507811c7d8850bdf1cb538",
+  "retrospective": true,
+  "design_sha256": "c4782bf74b68211b04b292fe76d64c11374a0412235875f831cada741434b3d8",
+  "status_sha256": "2ccafef08840e4dea64e2e25a02a67c4998728d62f26d20147ae4e1e7e9cac80",
+  "source_sha256": "5693335fc5a606e4e20a257687a4ec997cd778b04230c9519276302f5053653c",
+  "native_counts": {
+    "B": 16,
+    "P": 32,
+    "H": 32,
+    "R0": 16,
+    "R1": 16,
+    "R2": 16,
+    "G0": 17,
+    "G1": 16,
+    "G2": 14,
+    "C1": 32,
+    "A": 18,
+    "A0": 32,
+    "A1": 32,
+    "A2": 32,
+    "T": 32
+  },
+  "local_counts": {
+    "B": 0,
+    "P": 0,
+    "H": 0,
+    "R0": 0,
+    "R1": 0,
+    "R2": 0,
+    "G0": 0,
+    "G1": 0,
+    "G2": 0,
+    "C1": 32,
+    "A": 0,
+    "A0": 32,
+    "A1": 31,
+    "A2": 31,
+    "T": 32
+  },
+  "effect_counts": {
+    "B": 0,
+    "P": 7,
+    "H": 0,
+    "R0": 0,
+    "R1": 0,
+    "R2": 0,
+    "G0": 0,
+    "G1": 0,
+    "G2": 0,
+    "C1": 32,
+    "A": 0,
+    "A0": 32,
+    "A1": 31,
+    "A2": 31,
+    "T": 32
+  },
+  "joint_counts": {
+    "B": 0,
+    "P": 0,
+    "H": 0,
+    "R0": 0,
+    "R1": 0,
+    "R2": 0,
+    "G0": 0,
+    "G1": 0,
+    "G2": 0,
+    "C1": 32,
+    "A": 0,
+    "A0": 32,
+    "A1": 31,
+    "A2": 31,
+    "T": 32
+  },
+  "P_strata": {
+    "generic/0": 0,
+    "generic/1": 0,
+    "descriptive/0": 0,
+    "descriptive/1": 0
+  },
+  "primary_passes": false,
+  "account_counts": {
+    "restoration_pass": 0,
+    "removal_pass": 0,
+    "baseline_damage": 16,
+    "behavioral_account_pass": 0
+  },
+  "account_strata": {
+    "restoration_pass": {
+      "generic/0": 0,
+      "generic/1": 0,
+      "descriptive/0": 0,
+      "descriptive/1": 0
+    },
+    "removal_pass": {
+      "generic/0": 0,
+      "generic/1": 0,
+      "descriptive/0": 0,
+      "descriptive/1": 0
+    },
+    "baseline_damage": {
+      "generic/0": 8,
+      "generic/1": 8,
+      "descriptive/0": 0,
+      "descriptive/1": 0
+    },
+    "behavioral_account_pass": {
+      "generic/0": 0,
+      "generic/1": 0,
+      "descriptive/0": 0,
+      "descriptive/1": 0
+    }
+  },
+  "account_passes": {
+    "restoration_pass": false,
+    "removal_pass": false,
+    "baseline_damage": false,
+    "behavioral_account_pass": false
+  },
+  "numerical_checks": 6816,
+  "numerical_max_error": 9.568455304531653e-06,
+  "False_anchors": 64,
+  "coefficient_vectors": 192,
+  "public_down_replays": 768,
+  "public_input_replays": 192,
+  "public_primal_replays": 1152,
+  "raw_checks": {
+    "total": 2304,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "coefficients.csv": "4290e00bfe92e9366ada57e5b629bfc0ae625ab4c6175cfffc765b59ea5bb05a",
+    "joint.csv": "298657915e5cc84881aa83f324e6bf6129f0429018ed85cdcfcc54c8f618a424",
+    "removal.csv": "3521f18298ca31b6b0f16fb0f9de59845a60626097a0ee652a2d065182219778",
+    "accounts.csv": "49f33f657c8087cdb559f41e22948b6ef125f2c8678489e22b78eaae61a2a08a",
+    "checks.csv": "cffbb9e1a3623a2673ce655a6a7a5a436d307702e609f9cde3a8f33394381e88",
+    "local.csv": "a7beead027cc5eed27a759896b8cb6e8abe26b3c1e13aadb9808efa84271b10c",
+    "raw.csv": "f510e19324a421a76eadc8e1b7398f24c8be490ff9834ef38179f772ee8b8533",
+    "native.csv": "cf29e9ce0f43c0ac3c2df3e89c5a46688a7e3fdaec7cf03efdb52239c4ba4d25",
+    "heads.csv": "de1d541bcd947e6a0aaf69eb44bb2f64b61bf28630f2128a48b449ee327ad70f",
+    "effect.csv": "417413a909d10c224d9f4c880fdbdd5c2df5c962683cd758256b1f4aaf5cf92a",
+    "scores.csv": "5a9d88c49fe466c328ab9a8b71ab4d6df8ab1ea139a9b4301ee264cd37fbc3c9",
+    "selection.csv": "f1513be070abe3252103f1712c1414497ad4a839aa0b9d62358b93096f3b7eae"
+  },
+  "ended": "2026-10-24T14:20:52.631446+00:00",
+  "boundary": "Old contexts/finite other operations. No learned feature/circuit, whole-model efficiency, priority, fresh confirmation or fullQB. Keep all failed accounts and older numerical failures."
+}

@@ -2,7 +2,25 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 280/280b — source composition fails
+## Latest: 281/281b–e — prediction recovery, failed product account
+
+Target-blind P/H90-coordinate source2 masks pass32/32 original native-response
+tests, B16/32. Primary P local/effect/native joint0/32; H cannot rescue it.
+Selective restoration, controlled removal and necessity accounts0/32. B passes
+all vector bounds and fails only generic-schema margins. Direct-product replay
+is exact; matched random masks do not recover those margins. Posthoc geometry
+and exact SiLU accounting explain tolerance/selector limits, not learned features.
+Old32 contexts/16pairs; substantial finite later/source/receiver work remains.
+Qualified281e6816 required checks/2304 raw comparisons pass; original bookkeeping,
+storage, binding and exact-order audit failures retained. No fresh/circuit claim.
+
+[Protocol](experiments/281-source2-products.md) ·
+[Execution qualification](experiments/281d-resume-binding.md) ·
+[Audit qualification](experiments/281e-random-control-order.md) ·
+[Report](analysis/281-source2-products.md) ·
+[All evidence](../results/source2-products-281d/README.md)
+
+## 280/280b — source composition fails
 
 All28 source cubic C passes0/32 original native, trajectory and joint criteria;
 quadratic/linear also0/32. First-site-only C1 and native T pass32/32 under these
