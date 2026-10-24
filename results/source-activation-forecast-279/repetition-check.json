@@ -1,0 +1,46 @@
+{
+  "posthoc": true,
+  "fresh_confirmation": false,
+  "forecasts_reused": true,
+  "full_forecasts_regenerated": false,
+  "native_references_recomputed": 32,
+  "helper": "research/boolean_coupling/repeat_source_activation.py",
+  "helper_audit": {
+    "status": "passed",
+    "experiment": 279,
+    "fresh_confirmation": false,
+    "ordinary_true": 32,
+    "native_counts": {
+      "L": 13,
+      "Q": 32,
+      "C": 32,
+      "S": 32,
+      "R0": 32,
+      "R1": 32,
+      "R2": 32,
+      "Z": 0
+    },
+    "combined_counts": {
+      "L": 0,
+      "Q": 29,
+      "C": 29,
+      "S": 29,
+      "R0": 29,
+      "R1": 29,
+      "R2": 29,
+      "Z": 0
+    },
+    "seal_sha256": "33cf78127fbb2e263f51f18d4a8fdfb76f37fae657022281e1d64917676b7ae6",
+    "csv_sha256": {
+      "repetition-paired.csv": "4a16e968240701bcd1d19ed981c23a637e8a0cfc544004b94fbb1833f0c34bdc",
+      "repetition-native.csv": "9060cdffd6b84c6e614f90a899867b61d3e8b9de9fa5e31a259843808e6e22db",
+      "repetition-combined.csv": "2959dd8fd248c43197a218c204ec0647f2b907b96769e92b68f7c0747957704e"
+    },
+    "boundary": "Repetition of already published literals; no public pre-native receipt, new independent support, full sparse-correction recertification or old-failure repair."
+  },
+  "all_original_native_and_joint_counts_reproduced": true,
+  "local_audit_sha256": "89d6c01bfd94b6d82953932ee738d7764188b25cda3b0e037697639bcdeaa4cd",
+  "raw_log_sha256": "0e6fb3ddab1a86c4eac2f08ff9b3b06a6f2959d2c1b00c84165dd3e015e23c2f",
+  "published_log_sha256": "0e6fb3ddab1a86c4eac2f08ff9b3b06a6f2959d2c1b00c84165dd3e015e23c2f",
+  "scope": "Repetition helper check using original sealed forecasts and new native calls; not new support or stronger correction-account revalidation."
+}

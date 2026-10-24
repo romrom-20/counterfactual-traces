@@ -7,25 +7,26 @@ particular residual-stream displacement, and whether the operations generating
 and propagating it let us forecast native residual and verdict from the **False
 computation, known edit and model weights**.
 
-**Current answer: useful bounded predictions; the learned mechanism remains open.**
-A fixed rule now predicts the first source MLP's small context-dependent contrast
-on **32 fresh literal contexts**, with predictions publicly sealed before native
-True measurements. Use MLP sensitivity at the state created by the large input
-change. Median source-contrast error falls from28.0% with False sensitivity to
-8.7%; the joint native/paired prediction passes32/32. Every later operation remains
-finite. [The result, controls and computation budget](docs/analysis/276-277-first-source-mlp.md).
+**Current answer: a tested local generator, with the broader mechanism still open.**
+At the first source MLP, a rule using activation curvature measured at the False
+state predicts the changed write and its original final response in **32/32 fresh
+literal contexts**. Its preregistered joint criterion passes **29/32**; three cases
+have effects below the materiality cutoff and remain failures. The quadratic
+control also passes. All forecasts were public before native True measurements.
+[Prediction, every failure and exact budget](docs/analysis/279-source-activation-forecast.md).
 
-The stronger causal account **fails:8/32 old and6/32 fresh**, below24/32 required.
-Several simpler controls already pass32/32 original native-response tests; their
-joint failure is at the added source contrast. This does not establish behavioral
-necessity, a compact whole-model predictor or a learned circuit. Which RMSNorm,
-SiLU and gate–up changes generate the shifted sensitivity remains unresolved.
+The preceding primitive interventions explain why correcting normalization alone
+was insufficient: it worsened receiving-vector error in all 32 old cases when the
+gate–up product stayed linear, but improved it in all 32 when multiplication could
+respond. The missing joint operand change contributes a particular residual vector.
+The normalization-only primary still **fails 0/32**.
+[Interventions and signed effects](docs/analysis/278-source-mlp-primitives.md).
 
-The preceding [source-attention test](docs/analysis/275-source-attention-reading.md)
-and [geometry test](docs/analysis/274-source-residual-reanchoring.md) rejected
-simpler accounts. Context-specific directions are generated upstream of the
-source's emission normalization; a large native MLP write is not itself a causal
-explanation. The new local rule tests one part of that generation question.
+This is one local part of generation, not an identified learned circuit or a
+compact whole-network predictor. First attention, normalization, projections,
+multiplication and all 27 later blocks remain finite. Fresh literals share
+synthetic templates; historical grounding controls failed. No reliable-verifier
+shutdown or novelty-priority claim follows.
 
 For the late Boolean edits in this setup, retaining one False prefix KV cache
 and recomputing the affected suffix passes 32/32 old native-response cases.
@@ -38,7 +39,7 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest source prediction](docs/analysis/276-277-first-source-mlp.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest source prediction](docs/analysis/279-source-activation-forecast.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)

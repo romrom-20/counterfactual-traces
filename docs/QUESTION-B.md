@@ -6,7 +6,39 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 277
+## Current answer through 279
+
+A local part of the generator now has both causal and prospective support.
+At the first source MLP, 278 crosses finite/False-affine RMSNorm, SiLU and the
+activation–up product. Correcting normalization improves both receiving-vector
+predictions only when the product can respond finitely; with an affine product
+it worsens both vectors in every old case. The normalization-only primary fails
+0/32, and every nontrivial corner fails the complete sufficient-account test.
+[Primitive interventions and signed effects](analysis/278-source-mlp-primitives.md).
+
+279 then predicts the activation change with a polynomial whose coefficients
+come only from the observed False gates. Keeping the changed gate/up product
+retains their joint displacement. The frozen cubic rule passes 32/32 fresh local
+write and original native-response tests, and 29/32 joint tests including paired
+context contrast and the material whole-MLP-path effect. All forecasts and their
+numerical qualification were publicly sealed before native True measurements.
+The quadratic control also passes; the three joint failures remain in the full
+32-case denominator. They have below-materiality path effects; quadratic also
+misses their tight margin-error bound. The stronger sparse-correction account
+fails 0/32, so better precision does not establish its necessity.
+[Fresh prediction, all failures and computation](analysis/279-source-activation-forecast.md).
+
+This predicts a particular first-source write from False information, the known
+edit and learned projections without its full native True activation. The first
+attention/norm/projections/product and all 27 later blocks still execute finitely.
+It does not establish composition across the source trajectory, an efficiency
+improvement over causal-cache reuse, semantic features or a learned circuit.
+The next generation question is whether this local update composes from its own
+predicted source inputs, rather than receiving later native source states.
+General Question B remains open; a training-history explanation is not an extra
+requirement for answering its stated computational prediction problem.
+
+## Earlier local sensitivity result: 276–277
 
 276/277 distinguish a more accurate local prediction from a necessary mechanism.
 Predict the smaller first-source attention-read change using MLP sensitivity at

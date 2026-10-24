@@ -2,6 +2,35 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 278–279: correcting an input requires its changed multiplicative response
+
+The normalization-only account fails. In 278, finite input RMSNorm makes the
+receiving and verdict vectors less accurate in all 32 old cases when gate–up
+multiplication is False-affine. With the product finite, the same normalization
+change improves both vectors in all 32. These are direct interventions on the
+same incoming state, with final readout finite, rather than signed projections
+alone. The missing smooth product term is `dphi * du`, through learned down
+projection, plus the explicitly recorded numerical rounding. This conditional
+effect is compatible with known architecture; it is not a new principle or
+learned semantic feature. All nontrivial sufficient accounts remain failed.
+
+The follow-up uses this diagnosis to predict the larger first-source write.
+A frozen False-coefficient cubic activation, multiplied by current up values,
+passes local-write and original native-response targets 32/32 on fresh literals.
+The full joint target passes 29/32; all three below-materiality effect cases
+remain failures. Quadratic also passes, and additionally misses those three tight
+margin bounds. Sparse finite activations improve precision but their stronger
+correction account fails 0/32: they were not shown necessary at these tolerances.
+
+This answers a local generative question without supplying that site's native
+True activation. It does not yet compose the rule across 28 changing source
+states: the remaining 27 blocks still run finitely. A useful next test should
+freeze one source update, let its own predicted inputs drive it, and retain the
+original native vector/verdict target and causal-cache budget comparison. Another
+unstructured global correction sweep would not test that missing composition.
+[Primitive result](analysis/278-source-mlp-primitives.md) ·
+[Fresh prediction and numerical qualifications](analysis/279-source-activation-forecast.md).
+
 ## 276–277: move the sensitivity point, preserve the failed necessity test
 
 The first source MLP now has a prospective local prediction. Use the carrier

@@ -1,5 +1,16 @@
 # Results and evidence
 
+[278: source MLP primitive factorial](source-mlp-primitives-278/README.md) preserves
+the failed normalization-only primary (0/32), every corner, conditional receiving
+vector effects, signed ledgers and original numerical checks.
+[279: sealed fresh source-activation prediction](source-activation-forecast-279/README.md)
+retains the successful cubic primary (29/32 joint; 32/32 local/original native),
+quadratic control, all three materiality failures, additional quadratic margin
+failures, public pre-native receipt and failed sparse correction account (0/32).
+Finite first-source norm/product and all 27 later blocks remain. These are a
+local generator test and its fresh prediction, not a whole-network circuit or
+efficiency result. Raw arrays and private writing remain excluded.
+
 [276: first-source MLP diagnostic](first-source-mlp-gain-276/README.md) and
 [277: sealed fresh prediction](first-source-mlp-forecast-277/README.md)
 retain32/32 joint local predictions on both sets and the FAILED stronger gain

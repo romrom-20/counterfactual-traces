@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "experiment": 279,
+  "prospective": true,
+  "design_sha256": "9269099170a04784e08a6d462a1de5c96a90fff6dc7f318cb26e49a4e7f50439",
+  "forecast_seal_sha256": "c4425e2e56214fae84fc44e7d24fec1ae20b31f1961000c340b9ad1dc67c9a60",
+  "native_status_sha256": "e14455cc43084c874faf8ae4abf1fc8a13919ddb8ace84a2463b7c1f1785246b",
+  "source_sha256": "c2ed9d4954365c7b505c025a3d3f1d97c7fedfe0858db59382629d932c10c2fe",
+  "public_receipt_commit": "519f4e857c1448662e0d914bccbedb495df4d4a1",
+  "native_counts": {
+    "L": 13,
+    "Q": 32,
+    "C": 32,
+    "S": 32,
+    "R0": 32,
+    "R1": 32,
+    "R2": 32,
+    "Z": 0,
+    "T": 32
+  },
+  "effect_counts": {
+    "L": 16,
+    "Q": 29,
+    "C": 29,
+    "S": 29,
+    "R0": 29,
+    "R1": 29,
+    "R2": 29,
+    "Z": 0,
+    "T": 29
+  },
+  "local_counts": {
+    "L": 0,
+    "Q": 32,
+    "C": 32,
+    "S": 32,
+    "R0": 32,
+    "R1": 32,
+    "R2": 32,
+    "Z": 0,
+    "T": 32
+  },
+  "paired_counts": {
+    "L": 32,
+    "Q": 32,
+    "C": 32,
+    "S": 32,
+    "R0": 32,
+    "R1": 32,
+    "R2": 32,
+    "Z": 0,
+    "T": 32
+  },
+  "combined_counts": {
+    "L": 0,
+    "Q": 29,
+    "C": 29,
+    "S": 29,
+    "R0": 29,
+    "R1": 29,
+    "R2": 29,
+    "Z": 0,
+    "T": 29
+  },
+  "restoration_counts": {
+    "L": 0,
+    "Q": 0,
+    "C": 0,
+    "S": 0,
+    "R0": 0,
+    "R1": 0,
+    "R2": 0,
+    "Z": 0,
+    "T": 0
+  },
+  "C_strata": {
+    "generic/0": 8,
+    "generic/1": 8,
+    "descriptive/0": 6,
+    "descriptive/1": 7
+  },
+  "S_strata": {
+    "generic/0": 8,
+    "generic/1": 8,
+    "descriptive/0": 6,
+    "descriptive/1": 7
+  },
+  "S_restoration_strata": {
+    "generic/0": 0,
+    "generic/1": 0,
+    "descriptive/0": 0,
+    "descriptive/1": 0
+  },
+  "primary_passes": true,
+  "sparse_prediction_passes": true,
+  "sparse_correction_account_passes": false,
+  "exact_native_operand_checks": 832,
+  "ordinary_true": 32,
+  "csv_sha256": {
+    "restoration.csv": "83b506031d2ab01786c8453191dd5217f4e3c31e80ab5a47a7e556ae3e8d97fe",
+    "paired.csv": "9a4e3908061049a8f507028ccf46ec1955ac8e26e996c05c271662b2f765b1f9",
+    "correction.csv": "e5176f676bb46536f8aa6e9527faadd939aca455d5679c59a5ef19c2bfe55040",
+    "local.csv": "e5075132cda9de50539d41b06fcb2b19938e3950d55a1f43c5925ef29bb11d34",
+    "native.csv": "656103dc6d07154b38bc4de6853489f2f6af02ac8e21c5f9dfad09cfb28ca5ed",
+    "heads.csv": "ed855249be38b6a31e6f82b115778e4d9c7d8ac0774d42455a2f95288c617139",
+    "effect.csv": "06c46368fa8bb6e5d0c0904126aafb3503f8d8d46413f7960c9f5b1419e417c8",
+    "forecast-coefficients.csv": "91bee6279ddadd9158f654853fdc4c7aec31afcda2e84c6a9bc9f2c32d83da0c",
+    "forecast-scores.csv": "446508ed149b997314107f73e3a27649fb28085708d21a4ae4cfa0639efe5aa5",
+    "combined.csv": "cd118c07fe985551ae7f5f73c09d10005441f6cdf4ace27b400dd1815a9d5850",
+    "forecast-raw.csv": "742594860ffa2291160217639c4ad34270fb250c20291c014a039e03b6f2ab1c",
+    "forecast-heads.csv": "85e3700a93e2a0a3b1f05e4f62d36dba7cb1d3d5e36ea47b78d06d1cee0b92d4"
+  },
+  "boundary": "Fresh literals/dependent templates, source-only activation rule. No priority, learned circuit, useful whole-network efficiency or general Q B solution. Failed278 normalization-only claim and277 gain account stay failed."
+}

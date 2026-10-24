@@ -1,0 +1,32 @@
+{
+  "experiment": 278,
+  "retrospective": true,
+  "old_cases": 32,
+  "fresh_confirmation": false,
+  "private_articles_included": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "novelty_priority_claimed": false,
+  "efficiency_claimed": false,
+  "counts": {
+    "full_forwards": 736,
+    "extra_full_shaped_local_MLP_maps": 768,
+    "source_norm_interventions": 672,
+    "source_SiLU_interventions": 672,
+    "source_product_interventions": 672,
+    "random_write_installs": 96
+  },
+  "runtime_seconds": {
+    "producer": {
+      "real": 180.31,
+      "user": 27.16,
+      "sys": 7.75
+    },
+    "audit": {
+      "real": 26.27,
+      "user": 9.07,
+      "sys": 2.95
+    }
+  },
+  "boundary": "One first-source MLP primitive factorial at native/carrier branch inputs. Native outer residual and all receiving/readout work finite. Signed factorial is not a unique learned-circuit attribution."
+}
