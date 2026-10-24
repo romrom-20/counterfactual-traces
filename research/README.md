@@ -1,5 +1,98 @@
 # Reproduce the current research
 
+## Source activation forecast (279)
+
+[Result and limits](../docs/analysis/279-source-activation-forecast.md) ·
+[Protocol](../docs/experiments/279-sealed-source-activation.md) ·
+[Every case and original public receipt](../results/source-activation-forecast-279/README.md)
+
+Repository-only verification uses the standard library, without weights/arrays:
+
+```sh
+python -S research/boolean_coupling/verify_source_activation.py
+```
+
+For published-literal model repetition, use the pinned Python 3.12/Torch/
+Transformers/NumPy, Float32 MPS/eager environment and cached checkpoint documented
+below. All destination parents must exist and output directories must be NEW.
+The 278 dependency here is public metadata only; no old private arrays are needed.
+
+```sh
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+ACTIVATION_OUTPUTS=/path/to/new/outputs
+mkdir -p "$ACTIVATION_OUTPUTS"
+python -m boolean_coupling.run279 forecast --reference-278 results/source-mlp-primitives-278 --run "$ACTIVATION_OUTPUTS/source-activation-repeat-279"
+python -m boolean_coupling.audit279 forecast --run "$ACTIVATION_OUTPUTS/source-activation-repeat-279"
+python -m boolean_coupling.repeat_source_activation --run "$ACTIVATION_OUTPUTS/source-activation-repeat-279"
+```
+
+The last helper creates a new local receipt, measures native True, and recomputes
+original-native/local/effect/paired joint endpoints. It uses `repetition-*` outputs,
+sets `fresh_confirmation=false`, and does not recertify the stronger sparse
+correction account. It was tested by reusing the original forecasts and recomputing
+32 native references; all native/joint counts reproduced. That helper test was
+not a full forecast regeneration or new independent confirmation.
+
+The original study ran `run279 forecast`, `audit279 forecast`, `run279 receipt`,
+committed/pushed receipt 519f4e8, then `run279 native --proof ...` and
+`audit279 native`, in that order. The immutable public pre-native directory cannot
+be overwritten. `native` verifies the pushed receipt and its source/array seals.
+For genuinely new support, freeze a separately named protocol/code/case set and
+receipt location before checkpoint execution; these literals are now known.
+
+The cubic primary passes 29/32 joint; all three below-materiality cases stay in
+32. Quadratic also misses their tight effect margin bounds. Local-write and
+original-native criteria pass 32/32 for both. Stronger sparse correction fails
+0/32. First source attention/norm/gate/up/product/down and every later block remain
+finite. Before the seal: 32 full False plus 288 forecast forwards, 32 extra first
+attention calls, 32 source norm/gate/up maps, 128 padded masked SiLU maps and 224
+source product/down maps; 32 native references follow. No whole-model speedup.
+
+Forecast arrays total 81,675,881 bytes, native arrays 16,003,156 bytes. Reserve at
+least 1280 MiB initially and 768 MiB per case, plus model/process headroom and audit
+outputs. Original evidence is never overwritten or deleted. All 96 derivative
+coefficient vectors, 672 original-bound raw comparisons and separate native
+operand checks pass here; no old derivative/raw-logit failure is recertified.
+
+Posthoc `package_source_activation.py` and `describe_source_activation.py` preserve
+the metadata and figure provenance. The figure/eligibility calculation makes zero
+model calls. NPZ, weights and unpublished article text remain excluded.
+
+## Source MLP primitives (278)
+
+[Intervention result](../docs/analysis/278-source-mlp-primitives.md) ·
+[Protocol](../docs/experiments/278-source-mlp-primitives.md) ·
+[Every corner and signed ledger](../results/source-mlp-primitives-278/README.md)
+
+```sh
+python -S research/boolean_coupling/verify_source_primitives.py
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+PRIMITIVE_INPUTS=/path/to/regenerated/runs
+PRIMITIVE_OUTPUTS=/path/to/new/outputs
+mkdir -p "$PRIMITIVE_OUTPUTS"
+python -m boolean_coupling.run278 --reference-276 "$PRIMITIVE_INPUTS/first-source-mlp-gain-276" --out "$PRIMITIVE_OUTPUTS/source-mlp-primitives-278"
+python -m boolean_coupling.audit278 --reference-276 "$PRIMITIVE_INPUTS/first-source-mlp-gain-276" --run "$PRIMITIVE_OUTPUTS/source-mlp-primitives-278"
+```
+
+Regenerate 276 using the next section and its upstream instructions. Both
+scientific commands actually ran after freezing their sources. All 32 cases were
+old; this is retrospective. The normalization-only primary and all nontrivial
+sufficient accounts fail 0/32. A posthoc edge comparison of the frozen factorial
+shows normalization helps only with finite multiplication. It is not a changed
+primary, a learned feature or a new architectural principle.
+
+736 full forwards and 768 extra full-shaped local MLP maps; all other source/
+receiving operations and final heads remain finite. The 448 primitive directional
+checks and 4,608 raw comparisons pass original bounds. Raw arrays total
+375,665,311 bytes; reserve 1536 MiB initially and 768 MiB per case, plus regenerated
+upstream arrays/model headroom. Public inventories bind all local arrays.
+
+Posthoc `package_source_primitives.py` and `describe_source_primitives.py` publish
+all-case evidence and scientific figures without new model calls. Additional
+margin/paired ledgers and conditional edge comparisons are explicitly posthoc.
+Neither this packaging nor the standard-library verifier is a model replication.
+
+
 ## First-source MLP (276/277)
 
 [Result and boundaries](../docs/analysis/276-277-first-source-mlp.md) ·

@@ -2,7 +2,31 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:276–277 — shifted first-source MLP sensitivity
+## Latest: 278–279 — source primitive interaction and fresh write prediction
+
+278 tests all eight RMSNorm/SiLU/product corners at native and carrier first-source
+inputs on 32 old contexts. Normalization-only primary fails 0/32; no nontrivial
+corner passes the sufficient-account criterion. Normalization worsens receiving
+vectors with an affine product, improves them with finite product, in every case.
+21,600 required checks, 448 derivative directions and 4,608 raw comparisons pass.
+
+279 freezes a new cubic activation rule at the observed False gates. On 32 fresh
+literals it predicts local writes and original native responses 32/32, joint
+29/32 (strata 8,8,6,7). Quadratic also passes. Three below-materiality effect cases
+remain failures; quadratic additionally fails their tight margin-error bound.
+The stronger ranked-90 correction account fails 0/32. Public pre-native receipt,
+4,928 required checks, 96 derivative coefficient vectors, 672 raw comparisons
+and 832 exact post-native operand comparisons are retained. Only first-source
+activation is approximated; no whole-network efficiency/circuit claim.
+
+[278 protocol](experiments/278-source-mlp-primitives.md) ·
+[278 report](analysis/278-source-mlp-primitives.md) ·
+[278 evidence](../results/source-mlp-primitives-278/README.md) ·
+[279 protocol](experiments/279-sealed-source-activation.md) ·
+[279 report](analysis/279-source-activation-forecast.md) ·
+[279 evidence](../results/source-activation-forecast-279/README.md)
+
+## 276–277 — shifted first-source MLP sensitivity
 
 276 retrospective old32 and277 sealed fresh32 literals. Same S rule passes32/32
 joint native + paired source/verdict targets on each. False sensitivity L0/32,

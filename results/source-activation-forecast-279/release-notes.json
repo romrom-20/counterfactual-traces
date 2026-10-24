@@ -1,0 +1,45 @@
+{
+  "experiment": 279,
+  "prospective": true,
+  "fresh_literals": true,
+  "independent_templates": false,
+  "private_articles_included": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "novelty_priority_claimed": false,
+  "efficiency_claimed": false,
+  "counts": {
+    "full_false": 32,
+    "full_forecasts": 288,
+    "first_attention_only": 32,
+    "source_norm_gate_up_maps": 32,
+    "masked_full_shaped_SiLU_maps": 128,
+    "current_source_SiLU_coordinates_per_sparse_arm": 90,
+    "current_source_SiLU_coordinates_all_masks": 11520,
+    "source_product_down_maps": 224,
+    "full_True_source_activation_primal_count": 0
+  },
+  "runtime_seconds": {
+    "producer": {
+      "real": 73.07,
+      "user": 11.57,
+      "sys": 3.42
+    },
+    "forecast-audit": {
+      "real": 12.45,
+      "user": 4.42,
+      "sys": 2.21
+    },
+    "native": {
+      "real": 14.62,
+      "user": 4.28,
+      "sys": 2.32
+    },
+    "native-audit": {
+      "real": 7.92,
+      "user": 3.24,
+      "sys": 1.93
+    }
+  },
+  "boundary": "One source activation approximated from False coefficients, native other operations finite.29/32 joint includes three materiality failures even exact reference; sparse correction necessity fails."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "experiment": 279,
+  "ordinary_true": 0,
+  "design_sha256": "9269099170a04784e08a6d462a1de5c96a90fff6dc7f318cb26e49a4e7f50439",
+  "status_sha256": "56d9ba11a7b0fdd3d5fc25be2b23e5303caa73ab5124d3d38b367e3626633229",
+  "source_sha256": "c2ed9d4954365c7b505c025a3d3f1d97c7fedfe0858db59382629d932c10c2fe",
+  "numerical_checks": 4928,
+  "numerical_max_error": 7.526796920842571e-06,
+  "False_gate_anchors": 32,
+  "coefficient_vectors_checked": 96,
+  "raw_checks": {
+    "total": 672,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "forecast-coefficients.csv": "91bee6279ddadd9158f654853fdc4c7aec31afcda2e84c6a9bc9f2c32d83da0c",
+    "forecast-scores.csv": "446508ed149b997314107f73e3a27649fb28085708d21a4ae4cfa0639efe5aa5",
+    "forecast-raw.csv": "742594860ffa2291160217639c4ad34270fb250c20291c014a039e03b6f2ab1c",
+    "forecast-heads.csv": "85e3700a93e2a0a3b1f05e4f62d36dba7cb1d3d5e36ea47b78d06d1cee0b92d4"
+  },
+  "ended": "2026-10-24T07:36:19.221712+00:00",
+  "boundary": "No complete native True source activation before seal. Defined False coefficients independently differentiated; exact public product/down/head checks. Raw CPU64 forecast differences retained, not whole-model derivative validation."
+}
