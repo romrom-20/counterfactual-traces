@@ -28,6 +28,13 @@ multiplication and all 27 later blocks remain finite. Fresh literals share
 synthetic templates; historical grounding controls failed. No reliable-verifier
 shutdown or novelty-priority claim follows.
 
+The next composition test **fails 0/32** when cubic is applied at all 28 source
+MLPs, even with receiving computation finite. The first new failure appears at
+source MLP2, including at its native input. Removing one largest local discrepancy
+also fails to restore the full response. The first-site success survives; the
+uniform extension does not. [Composition test, source-error split and retained
+numerical failures](docs/analysis/280-source-composition.md).
+
 For the late Boolean edits in this setup, retaining one False prefix KV cache
 and recomputing the affected suffix passes 32/32 old native-response cases.
 It uses at most 3.59% of full learned matrix MACs and is 2.94× faster in the
@@ -39,7 +46,7 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest source prediction](docs/analysis/279-source-activation-forecast.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest source test](docs/analysis/280-source-composition.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)

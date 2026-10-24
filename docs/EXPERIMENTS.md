@@ -2,7 +2,24 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 278–279 — source primitive interaction and fresh write prediction
+## Latest: 280/280b — source composition fails
+
+All28 source cubic C passes0/32 original native, trajectory and joint criteria;
+quadratic/linear also0/32. First-site-only C1 and native T pass32/32 under these
+endpoints. MLP2 local cubic error is28.89% at native input; later input error and
+new local errors coexist. One selected local finite activation removes its local
+discrepancy exactly but has0/32 full passes; matched random writes also fail.
+Original storage failure retained,28 arrays hardlinked unchanged plus four new
+cases under storage-only280b.32,064 required checks,2,688 coefficient vectors and
+11,648 exact public down replays pass;260/31,360 raw write checks remain FAILED.
+Retrospective old32/16pairs, finite receivers; no fresh/circuit/efficiency claim.
+
+[Original protocol](experiments/280-source-composition.md) ·
+[Storage qualification](experiments/280b-storage-continuation.md) ·
+[Report](analysis/280-source-composition.md) ·
+[All evidence](../results/source-composition-280b/README.md)
+
+## 278–279 — source primitive interaction and fresh write prediction
 
 278 tests all eight RMSNorm/SiLU/product corners at native and carrier first-source
 inputs on 32 old contexts. Normalization-only primary fails 0/32; no nontrivial
