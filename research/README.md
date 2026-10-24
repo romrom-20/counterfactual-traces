@@ -1,5 +1,74 @@
 # Reproduce the current research
 
+## First-source MLP (276/277)
+
+[Result and boundaries](../docs/analysis/276-277-first-source-mlp.md) ·
+[276 protocol](../docs/experiments/276-first-source-mlp-gain.md) ·
+[277 protocol](../docs/experiments/277-sealed-first-source-mlp.md) ·
+[Old records](../results/first-source-mlp-gain-276/README.md) ·
+[Fresh records and receipt](../results/first-source-mlp-forecast-277/README.md)
+
+Repository-only verification needs neither model packages nor activation arrays:
+
+```sh
+python -S research/boolean_coupling/verify_first_mlp.py
+```
+
+For model repetition use the pinned Python3.12/Torch/Transformers/NumPy,
+Float32 MPS/eager setup and cached checkpoint from the earlier instructions.
+Regenerate275 arrays with the next section; no private archive is downloaded.
+All output parents must exist and destinations must be NEW. From repo root:
+
+```sh
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+MLP_INPUTS=/path/to/regenerated/runs
+MLP_OUTPUTS=/path/to/new/outputs
+mkdir -p "$MLP_OUTPUTS"
+python -m boolean_coupling.run276 --reference-275 "$MLP_INPUTS/source-attention-reading-275" --out "$MLP_OUTPUTS/first-source-mlp-gain-276"
+python -m boolean_coupling.audit276 --reference-275 "$MLP_INPUTS/source-attention-reading-275" --run "$MLP_OUTPUTS/first-source-mlp-gain-276"
+python -m boolean_coupling.run277 forecast --reference-276 "$MLP_OUTPUTS/first-source-mlp-gain-276" --run "$MLP_OUTPUTS/first-source-mlp-repeat-277"
+python -m boolean_coupling.audit277 forecast --run "$MLP_OUTPUTS/first-source-mlp-repeat-277"
+python -m boolean_coupling.repeat_first_mlp --run "$MLP_OUTPUTS/first-source-mlp-repeat-277"
+```
+
+The last helper is explicitly a **published-literal numerical repetition**. It
+makes a local all-case receipt after the pre-native audit, then measures ordinary
+True and recomputes original-native/paired/joint endpoints. Its output is named
+`repetition-*.json/csv`; `fresh_confirmation` is false. It does not rerun the
+stronger causal-account audit or claim independent fresh support. This helper
+was executed with a new local receipt of the original forecasts and recomputed
+32 native references, reproducing every original/joint count. The original full
+forecasts were reused for that helper check, not generated again as new evidence. It avoids
+altering or overwriting the immutable original public pre-native receipt.
+
+The original fresh277 study actually ran `run277 forecast`, `audit277 forecast`,
+`run277 receipt`, committed/pushed that receipt, then `run277 native --proof ...`
+and `audit277 native`, in that order. `receipt` deliberately refuses to overwrite
+`results/first-source-mlp-forecast-277/pre-native`, which now exists in the release.
+The original native CLI requires proof containing `public_commit` and
+`forecast_seal_sha256`; it verifies the pushed branch before measuring True.
+For genuinely new literals, freeze a separately named protocol/code/case set and
+new receipt location before checkpoint computation; rerunning known literals is
+not new confirmation. Do not edit frozen277 scientific files to change this history.
+
+276 uses448 full forwards,128 extra first-MLP maps and64 CPU64 tangents.277 uses
+320 full False/forecast forwards,32 extra first-attention calls,64 corner PV and
+output projections,96 extra first-MLP maps and64 tangents before the seal;32 native
+references follow. Every other model operation remains finite. There is no
+speedup or compact whole-network rule here;272 supplies the causal-cache baseline.
+
+Raw276 arrays total156,745,136bytes.277 forecasts total151,012,790bytes and native
+arrays21,017,778bytes. Initial producer reserves1536MiB/1280MiB respectively;
+per-case reserve768MiB; old evidence is never deleted. Additional model/process
+headroom and upstream regenerated arrays are needed. Public inventories bind
+all omitted arrays. Both stronger gain explanations remain failed,8/32 and6/32.
+The128 local smooth derivative anchors pass separate JVP/FD/reverse checks; no
+old whole-block derivative/raw-logit failure is retroactively passed.
+
+Posthoc `package_first_mlp.py` and `describe_first_mlp.py` publish metadata and
+generate figures from all-case CSVs, with zero new model calls. Original model
+sources and article drafts are kept separate; no NPZ/checkpoint/article is committed.
+
 ## Source attention reading (275)
 
 [Protocol](../docs/experiments/275-source-attention-reading.md) ·

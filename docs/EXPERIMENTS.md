@@ -2,7 +2,25 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest:275 — source probability/self-value factorial
+## Latest:276–277 — shifted first-source MLP sensitivity
+
+276 retrospective old32 and277 sealed fresh32 literals. Same S rule passes32/32
+joint native + paired source/verdict targets on each. False sensitivity L0/32,
+carrier-only C0/32, random G0–G2 each0/32; additive A8/32 old,0/32 fresh. Original
+native controls C/A/L already32/32 each: the added source contrast is discriminating.
+Stronger material gain account fails8/32 old,6/32 fresh; no generative/circuit claim.
+6,112+5,376 required checks,128 derivative anchors and1,536 recorded original-bound
+raw primitive comparisons pass;608 additional native operand equalities exact.
+Only source MLP1 is approximated;800 total producer/native full forwards, substantial
+finite work, no efficiency claim. Public pre-native receipt retained.
+
+[276 protocol](experiments/276-first-source-mlp-gain.md) ·
+[277 protocol](experiments/277-sealed-first-source-mlp.md) ·
+[Report](analysis/276-277-first-source-mlp.md) ·
+[Old evidence](../results/first-source-mlp-gain-276/README.md) ·
+[Fresh evidence](../results/first-source-mlp-forecast-277/README.md)
+
+## 275 — source probability/self-value factorial
 
 All32 old273 cases, source-query-only attention interventions. Primary adaptive
 probability/False self-value account fails0/32 combined; fixed probabilities and

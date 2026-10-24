@@ -6,7 +6,25 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer through 275
+## Current answer through 277
+
+276/277 distinguish a more accurate local prediction from a necessary mechanism.
+Predict the smaller first-source attention-read change using MLP sensitivity at
+the state created by the large self-value change. The unchanged rule passes32/32
+fresh joint native/paired tests, with all forecasts and numerical qualification
+publicly sealed before native True. Median paired first-source error8.70%, versus
+27.96% for the False-sensitivity control; median receiving error0.420%, actual
+margin error0.00412nat. All remaining model operations still execute finitely.
+
+The stronger material gain explanation FAILS8/32 old and6/32 fresh. C/A/L and
+most matched random controls already pass32/32 original native tests. Their joint
+failure is at the added source contrast, not a universal final-verdict failure.
+This therefore predicts a local context contrast without showing its necessity
+for the original behavioral tolerance. We have not separated RMS, gate and up
+changes, identified a learned circuit or found a compact whole-network rule.
+[Source prediction, exact budget, all controls and failures](analysis/276-277-first-source-mlp.md).
+
+## Preceding native source constraints
 
 275 tests adaptive source probability versus its changing self-value read. Both
 channels alone fail: all W/V/B arms have0/32 combined source-emitter/effect and

@@ -2,6 +2,25 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 276–277: move the sensitivity point, preserve the failed necessity test
+
+The first source MLP now has a prospective local prediction. Use the carrier
+created by the embedding/self-value change, then predict the smaller read with
+sensitivity there. On fresh literals this lowers paired first-source error from
+27.96% to8.70%, with32/32 joint predictions versus0/32 for the False sensitivity.
+Every forecast and its numerical audit were public before ordinary native True.
+This does not establish that normalization or gate curvature alone is the cause;
+the derivative includes all of them, and the rest of the model remains finite.
+
+The stronger correction-effect account fails8/32 old and6/32 fresh. Original
+native C/A/L controls already pass32/32, and the weak final paired targets also
+often pass: the small source contrast drives the new joint distinction. Retaining
+that distinction is progress without exaggerating behavioral necessity. A next
+primitive test should separate RMS sensitivity from SiLU/gate–up coefficients
+at this one site and use actual write/product interventions; it has not run here.
+No new general correction sweep, compact full predictor or learned circuit.
+[Results, numerical scope and all failed controls](analysis/276-277-first-source-mlp.md).
+
 ## 275: source self-value and adaptive probabilities are both consequential
 
 The proposed reading-only source account fails0/32. Removing the changed self-value

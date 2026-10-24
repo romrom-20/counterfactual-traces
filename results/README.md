@@ -1,5 +1,14 @@
 # Results and evidence
 
+[276: first-source MLP diagnostic](first-source-mlp-gain-276/README.md) and
+[277: sealed fresh prediction](first-source-mlp-forecast-277/README.md)
+retain32/32 joint local predictions on both sets and the FAILED stronger gain
+accounts8/32 and6/32. Original native controls C/A/L already32/32; added paired
+source contrast is a distinct target. Public pre-native receipts, every control,
+128 derivative anchors,1,536 raw comparisons and exact numerical checks retained.
+Only one source MLP is approximated; other model work finite, no full Q B/circuit
+or efficiency claim. Article drafts/activation arrays/checkpoints excluded.
+
 [275: source-attention reading](source-attention-reading-275/README.md)
 retains the failed reading-only primary and all W/V/B failures, every old case,
 416 full forwards, signed native source ledgers and the separately marked posthoc

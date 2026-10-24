@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "experiment": 277,
+  "ordinary_true": 0,
+  "design_sha256": "81ccb2ba94df8fa7efa4d1c6068385c1880f7361c6d0851d8ac01905fd71ee85",
+  "status_sha256": "6228f43e37f96dee06fd0bed3423cd174a67d66d3bde24e05a237f4b3dbf892b",
+  "source_sha256": "df7013c591d388af8afa9e0a22434c2203525be46742a84e5fb9ac51d3b97b89",
+  "numerical_checks": 5376,
+  "numerical_max_error": 7.000076720942161e-06,
+  "derivative_anchors": 64,
+  "raw_checks": {
+    "total": 768,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "forecast-raw-primitives.csv": "8c4893956a4161ccfbb25567c97376f5d18cb6cef79474cb604158de9c641ac8",
+    "forecast-derivatives.csv": "e3cb45fc6044f685c80ea11a57dc30d59c0bd0bc697368d7dc214866b65006ad",
+    "forecast-scores.csv": "a18e9519b4ead04ad44cb0d96144abb8d99210013534c891572c247fb3dad2bc",
+    "forecast-heads.csv": "bfa8909a4fcde83156933349385471651f38bde0f23a00ce618e218f70e23ed1"
+  },
+  "ended": "2026-10-24T04:10:38.053862+00:00",
+  "boundary": "All forecasts and this qualification precede native True. Smooth CPU64 local MLP derivatives only; old failures not recertified; raw coordinate outcomes retained."
+}
