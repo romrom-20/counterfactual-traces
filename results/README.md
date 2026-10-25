@@ -1,5 +1,14 @@
 # Results and evidence
 
+[282b/c: source2 carry/read origin](source2-origin-282/README.md) preserves
+carry-only native/local/effect32/32 and failed paired contrast0/16/joint0/32.
+Full-calibration mixed/removal controls, signed known-function geometry and every
+random control remain explicit. Qualified7,328 checks pass under the narrower
+public Float32 scope;28/896 original up bridges remain FAILED. Unequal-token
+paired whole-state secondary is unavailable; primary accounting unchanged.
+Original23-case storage stop and all audit/fixture failures retained. Old contexts,
+rich finite budget; no fresh/circuit/efficiency/generalQB claim.
+
 [281d/e: source2 product masks](source2-products-281d/README.md) retains original
 native P/H32/32 and failed primary/sufficient accounts0/32, every random control,
 product removal and exact direct-product replay. Zero-forward geometry and SiLU

@@ -1,0 +1,13 @@
+{
+  "real_checkpoint": false,
+  "error": "AttributeError: 'numpy.ndarray' object has no attribute 'append'",
+  "cause": "Unsealed audit used local for a projection array, shadowing its local-outcomes list. Renamed cpu_local before the passing fixture and freeze; no actual qualified model audit ran before that pass.",
+  "original_source_hashes": {
+    "282b-public-up-qualification.md": "d1c398c987893b178e0a7b8a869f3ba2c7077aab85e892c91515291cf5b46dd2",
+    "audit282b.py": "1441279ed818f5a37aba54948abcb8684b772d6b4a519086fd6cad78bcfef32a",
+    "diagnose_input_bridges282.py": "f5ff4443d8b6de4ca4698547bfa6bd5e39f76222e68f2974c9fe0f4115293d27",
+    "preflight282b.py": "ce21f9424816938bd024cbebbc763ad588ef0a803e1281696809c531d28a8d77",
+    "qualify282b.py": "96bc99f35867e3880c227946f2dbe9b9be80de59c13005f07697e749403f7444"
+  },
+  "failed_log_raw_sha256": "e8e104ec440ebf2fefff88d1d15b1d92de2cae951a346aa725e6c4780e10c2c5"
+}

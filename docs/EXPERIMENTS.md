@@ -2,7 +2,25 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 281/281b–e — prediction recovery, failed product account
+## Latest: 282/qualified282b–c — carry generation and mixed context contrast
+
+Carry-only K native/local/actual-effect32/32 but paired write0/16 and joint0/32.
+Attention-only W fails; additive S has the same paired failure. Full minus
+attention-only NW passes32/32 joint but uses full calibration. Carry removal
+passes the conditional missing-path account32/32; universal damage16/32 fails.
+Posthoc signed product/write geometry, no learned feature or new forecast.
+7,328 qualified checks pass;28/896 original raw up bridges remain failed under
+the explicitly narrower Float32 scope. Original storage stop, audit failure and
+unequal-token secondary comparison failure retained. Whole-state paired secondary
+unavailable, not a pass. Old32 cases/16 dependent pairs, substantial finite budget.
+
+[Protocol](experiments/282-source2-gate-origin.md) ·
+[Numerical qualification](experiments/282b-public-up-qualification.md) ·
+[Paired qualification](experiments/282c-paired-secondary-accounting.md) ·
+[Report](analysis/282-source2-gate-origin.md) ·
+[All evidence](../results/source2-origin-282/README.md)
+
+## 281/281b–e — prediction recovery, failed product account
 
 Target-blind P/H90-coordinate source2 masks pass32/32 original native-response
 tests, B16/32. Primary P local/effect/native joint0/32; H cannot rescue it.

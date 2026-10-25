@@ -1,0 +1,22 @@
+{
+  "qualification": "282c-paired-whole-secondary-unavailable",
+  "source_commit": "cb9cfc8fbcc460976b000f52db711ed688c5433d",
+  "source_hashes": {
+    "research/boolean_coupling/audit282c.py": "089b120e44d0470d5e111e09fb7b1d967873ea8cd357056ba1314f10ad125a30",
+    "research/boolean_coupling/qualify282c.py": "2d1fd2bc2eccf878d63e915b4734c16c382603b559546582390f279b6e9a4811",
+    "research/boolean_coupling/preflight282c.py": "96634cde253fcf61157cb5f99ee928c13806667f51d3b75c54d95a7f2552bd7e",
+    "docs/experiments/282c-paired-secondary-accounting.md": "65801c3b572ae5648c03941dabc323d8c56522a8f445ab60d79a6bb38a85b99b"
+  },
+  "design_sha256": "47536dda25131c030c34ca1d37f0fd5a8accc74efa0b68608499aa6f4d12fed1",
+  "status_sha256": "481a8d3290ef4bf7aea5ce19c19f79ea514ad848754455dd2f903f9fdb9fadc3",
+  "original_failure_b_sha256": "f4c04ac163cfe708609b42a8707a11faa434866241961a61b7516b84658ae0c5",
+  "numerical_qualification_sha256": "b919ccbafb131589231e4852232e004af283e5514b3964b74da4502403a26689",
+  "unequal_length_pairs": 16,
+  "primary_criteria_changed": false,
+  "numerical_scope_changed_from_282b": false,
+  "forecasts_changed": false,
+  "original_paired_whole_secondary_unavailable": true,
+  "new_verdict_only_diagnostic": true,
+  "began": "2026-10-25T08:46:43.533997+00:00",
+  "boundary": "Do not invent a token correspondence or treat the new verdict-only diagnostic as a pass of the original whole-vector secondary. Primary paired source-write criterion unchanged."
+}

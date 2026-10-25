@@ -45,6 +45,15 @@ selector misses a smooth SiLU term; this is a known-function identity, not a
 learned circuit or fresh confirmation. [Product interventions, every failed
 account and numerical qualifications](docs/analysis/281-source2-products.md).
 
+The next causal test separates the state carried from block1 from the new
+attention2 write. The carry-derived correction recovers the native response and
+missing write/effect32/32, but misses every paired schema-write contrast: the
+primary still fails0/32. The attention-only correction is tiny; its mixed response
+around the carried state matters for that local contrast. Full-calibration
+removals support this narrower account, while normalization versus activation
+curvature remains unresolved. [Carry/read test, all failures and qualified
+numerical scope](docs/analysis/282-source2-gate-origin.md).
+
 For the late Boolean edits in this setup, retaining one False prefix KV cache
 and recomputing the affected suffix passes 32/32 old native-response cases.
 It uses at most 3.59% of full learned matrix MACs and is 2.94× faster in the
@@ -56,7 +65,7 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest source test](docs/analysis/281-source2-products.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest source test](docs/analysis/282-source2-gate-origin.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
