@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "experiment": 284,
+  "source_sha256": "c2f20ff9ce7910677f53aa0ff891e43fe77fd37423fa77024a42b45e5dcec546",
+  "design_sha256": "7e5cff3daf8093b022dc5bfa49b8e9fb6221e164d529e82b55bbdbb79f6c4938",
+  "forecast_status_sha256": "36cf8758984b8cfc9290a09120144115c1dae05d728b1011aaba176e39103841",
+  "ordinary_true": 0,
+  "full_current_source2_primal": 0,
+  "numerical_checks": 4672,
+  "False_anchors": 64,
+  "False_coefficient_vectors": 192,
+  "staged_derivative_anchors": 32,
+  "public_corner_maps": 32,
+  "public_down_maps": 512,
+  "finite_head_maps": 320,
+  "raw_checks": {
+    "total": 224,
+    "failed": 11,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "forecast_checks.csv": "caad03b47abf4b524de8d57e37a25a9ecbb3ec8446cf4201878c3eff7c1fb6fe",
+    "forecast_raw.csv": "09b626d10597c2a5f585aba5962672f40b94592fc0a0f465df323a9f25f784fe",
+    "forecast_coefficients.csv": "bbd9d00c536dd48ed8e61b4d146eb82699ba8b554062b479969cbff1e8809258",
+    "forecast_derivatives.csv": "ee33d641c217983e0c119e6d82c098580b07b111db0073dbe58406c45d28a543",
+    "forecast_heads.csv": "4cf3fdb8d4d798d3ee9cf282cf607579382a7109cc9cba1635cdd3b3cebf0d49",
+    "forecast_scores.csv": "6bfe7322d66bfcbd42c854f9aef50bee6b78714dab121a7e7ce4f3eb34b3238a"
+  },
+  "ended": "2026-10-25T10:54:29.371231+00:00",
+  "boundary": "Pre-native qualification of declared staged derivative and public Float32 scope, failed rawup diagnostics retained; not old whole-block recertification."
+}

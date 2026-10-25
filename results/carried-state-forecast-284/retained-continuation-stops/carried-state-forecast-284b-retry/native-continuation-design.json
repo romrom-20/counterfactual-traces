@@ -1,0 +1,24 @@
+{
+  "qualification": "284b-unused-MPS-cache-and-exact-partial-replay",
+  "source_commit": "8e2e4c3d5352f0490de69598a5e003dfca1ca88b",
+  "source_hashes": {
+    "research/boolean_coupling/continue284b.py": "6b7c56fb51b5f0c8125e9f1d170482ed6b489a846c3c162dbd7f87d7f3c4f665",
+    "research/boolean_coupling/audit284b.py": "c76f73a2c83aecbc228a8134def041c3ef734c597327f042bf447e39afc06532",
+    "research/boolean_coupling/preflight284b.py": "762d33ae265ffd2c814556d7786a7db25ac3894a097a6cc479f9320d93d6b790",
+    "docs/experiments/284b-native-cache-continuation.md": "a0c4b5e0eb3cce291fde481f1247b3a476de24326f67b6dceb6f13d24a68342f"
+  },
+  "design_sha256": "7e5cff3daf8093b022dc5bfa49b8e9fb6221e164d529e82b55bbdbb79f6c4938",
+  "forecast_seal_sha256": "cb74a9102547c2777c019f20b8215b9688184740bf8faf273c940ffaa2b2fed0",
+  "original_failure_sha256": "a164fd6af6d3be1784b8b81858cad3d50937576517348993d3198c3ef8ea9806",
+  "original_native_started_sha256": "fe34fe42cd3a1d7fd8bae481e75d40b6cf40f4f643b9d54e09212b58fecae5e8",
+  "original_partial_inventory_sha256": "b48e70004e923ccf1077823fd73500052f4b72996e1ce49b1d113d761eec2891",
+  "previously_measured_native_cases": 17,
+  "predictions_changed": false,
+  "scientific_thresholds_changed": false,
+  "numerical_validation_scope_changed": false,
+  "per_case_reserve_MiB": 512,
+  "combined_raw_cap_MiB": 96,
+  "replay_every_completed_case_before_new_native": true,
+  "policy": "After each completed forward and before each case, synchronize and empty only unused MPS allocator cache; model parameters/live tensors unchanged. Record memory and exact outputs.",
+  "began": "2026-10-25T11:49:08.691693+00:00"
+}

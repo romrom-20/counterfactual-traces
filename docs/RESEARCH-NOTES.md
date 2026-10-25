@@ -2,6 +2,31 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 283–284: predict the small modulation at the changed operating point
+
+The isolated attention correction around False missed its interaction with carry.
+At the carried input, the normalized product rule predicts the change in gate
+remainder times up, plus the existing remainder times the change in up. Direct
+product installations and signed continued vectors support this conditional
+account on the 32 old contexts; its joint result is 32/32. Gate-only and up-only
+increments fail the added local-increment criterion. This is ordinary nonlinear
+geometry, made into a testable prediction for this approximation's own state.
+
+The denominator matters again: carry-only and all matched random increments
+already pass the original native-response criterion. The increment's margin is
+below the frozen .02-nat materiality guard in every case, including calibration.
+The added precision is not shown necessary for the native verdict. A fresh test
+uses exactly the same rule and publicly sealed forecasts: its joint criterion
+passes 32/32 with 16/16 paired contrasts, after exact partial replay and the
+unchanged native audit. The same native-necessity limit remains. The larger task of explaining the native displacement with substantially less finite
+computation remains open. A retrospective donor-vector comparison sharpens the
+specificity limit: same-schema other-literal forecasts pass the conditional local
+tolerance 32/32 old and 30/32 fresh, even without rescaling; cross-schema donors
+pass 0/32. These are saved-vector comparisons, not causal installations or new
+sealed forecasts. The rule improves precision without demonstrating that each
+case needs its own direction. [283 result](analysis/283-carried-state-response.md) ·
+[284 status and failures](analysis/284-carried-state-response.md).
+
 ## 282: a small attention term changes the response around the carried state
 
 Carry-only K passes original native, local missing-write and actual continued
