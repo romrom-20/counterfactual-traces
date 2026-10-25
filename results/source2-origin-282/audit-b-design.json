@@ -1,0 +1,27 @@
+{
+  "qualification": "282b-public-Float32-up-with-rounding-envelope",
+  "source_commit": "9332b5caa1b07783e0a146942172c1dd85bd22fb",
+  "source_hashes": {
+    "research/boolean_coupling/audit282b.py": "1cfbb1d4ef48420bcd421dbbdd6a1194747eec999a16ad4342cd1aa355ed4eef",
+    "research/boolean_coupling/qualify282b.py": "96bc99f35867e3880c227946f2dbe9b9be80de59c13005f07697e749403f7444",
+    "research/boolean_coupling/diagnose_input_bridges282.py": "f5ff4443d8b6de4ca4698547bfa6bd5e39f76222e68f2974c9fe0f4115293d27",
+    "research/boolean_coupling/preflight282b.py": "ce21f9424816938bd024cbebbc763ad588ef0a803e1281696809c531d28a8d77",
+    "docs/experiments/282b-public-up-qualification.md": "d1c398c987893b178e0a7b8a869f3ba2c7077aab85e892c91515291cf5b46dd2"
+  },
+  "design_sha256": "47536dda25131c030c34ca1d37f0fd5a8accc74efa0b68608499aa6f4d12fed1",
+  "status_sha256": "481a8d3290ef4bf7aea5ce19c19f79ea514ad848754455dd2f903f9fdb9fadc3",
+  "original_failure_sha256": "79f5eb656d164e8dee85fc68a543134e4d1c5c160791606d593ef7a0e5598e85",
+  "original_failed_check": {
+    "key": "ec78c88410a1fa842e0298c1285766afebbb7956523b17c4cf0df0fac26fc971",
+    "name": "CPU64_U_up",
+    "error": 0.00010400542640809363,
+    "bound": 0.0001
+  },
+  "diagnostic_sha256": "a5af7a8f95b4860c44ce2d2d91778ad0da535f46abffbdd567e0c856c92887d6",
+  "began": "2026-10-25T08:41:42.876802+00:00",
+  "behavioral_predictions_or_thresholds_changed": false,
+  "original_absolute_tolerance_changed": false,
+  "numerical_validation_scope_changed": true,
+  "original_audit_passed": false,
+  "boundary": "CPU64 up map at original 1e-4 remains failed; exact public Float32 maps and explicit dimension-derived numerical envelope qualify only that execution. Other required checks unchanged."
+}

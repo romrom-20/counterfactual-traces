@@ -1,5 +1,78 @@
 # Reproduce the current research
 
+## Source2 origin (282)
+
+[Result and limitations](../docs/analysis/282-source2-gate-origin.md) ·
+[Original protocol](../docs/experiments/282-source2-gate-origin.md) ·
+[282b numerical scope](../docs/experiments/282b-public-up-qualification.md) ·
+[282c paired accounting](../docs/experiments/282c-paired-secondary-accounting.md) ·
+[All outcomes and failures](../results/source2-origin-282/README.md)
+
+Repository verification uses neither model packages nor arrays:
+
+```sh
+python -S research/boolean_coupling/verify_source_origin.py
+```
+
+First regenerate281d and its qualified281e audit using the next section. Use
+the pinned Python3.12/Float32 MPS/eager environment and cached checkpoint. Choose
+new outputs under an existing parent and allow at least1GiB free after inputs,
+plus model/process headroom. Original guards remain500MiB initial/448MiB per case;
+they are not a guarantee against system disk changes. New arrays occupy33.7MB,
+losslessly aliasing byte-identical input/local observations. Never delete or
+recompress old evidence. All three synthetic checks below must pass first.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+ORIGIN_INPUTS=/path/to/regenerated/source2-products-repeat-281d
+ORIGIN_OUTPUTS=/path/to/new/outputs
+mkdir -p "$ORIGIN_OUTPUTS"
+python -m boolean_coupling.preflight282 --out "$ORIGIN_OUTPUTS/synthetic-origin-282"
+python -m boolean_coupling.preflight282b --fixture "$ORIGIN_OUTPUTS/synthetic-origin-282" --out "$ORIGIN_OUTPUTS/synthetic-audit-282b"
+python -m boolean_coupling.preflight282c --out "$ORIGIN_OUTPUTS/synthetic-unequal-282c"
+python -m boolean_coupling.run282 --reference-281d "$ORIGIN_INPUTS" --out "$ORIGIN_OUTPUTS/source2-origin-repeat-282"
+python -m boolean_coupling.audit282 --reference-281d "$ORIGIN_INPUTS" --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282"
+```
+
+On the recorded environment the final command fails at CPU64_U_up's original
+1e-4 absolute bound. Preserve it. Do not forge a failure to activate a qualifier,
+or continue if the failure differs. The helpers bind actual failures and source
+hashes; they do not silently repair the original audit or raise its tolerance.
+After inspecting that expected failure:
+
+```sh
+python -m boolean_coupling.diagnose_input_bridges282 --reference-281d "$ORIGIN_INPUTS" --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282" --out "$ORIGIN_OUTPUTS/origin-input-bridges"
+python -m boolean_coupling.qualify282b --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282" --diagnostic "$ORIGIN_OUTPUTS/origin-input-bridges"
+python -m boolean_coupling.audit282b --reference-281d "$ORIGIN_INPUTS" --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282"
+```
+
+282b's expected failure is the unequal-length secondary receiving comparison,
+after all primitive checks. Preserve and inspect it before the separate282c
+accounting qualification. Any other failure needs investigation.282c marks the
+original whole-state secondary unavailable; it changes no primary criterion.
+
+```sh
+python -m boolean_coupling.qualify282c --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282"
+python -m boolean_coupling.audit282c --reference-281d "$ORIGIN_INPUTS" --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282"
+python -m boolean_coupling.diagnose_origin_geometry --reference-281d "$ORIGIN_INPUTS" --run "$ORIGIN_OUTPUTS/source2-origin-repeat-282" --out "$ORIGIN_OUTPUTS/origin-geometry-posthoc"
+```
+
+These CLIs actually ran. A cold retry of the frozen producer completed all32 original
+predictions without changing the original producer, runtime policy or guards;
+all23 saved arrays and metadata from the interrupted attempt reproduced exactly.
+There is no282b/c model producer.480 completed-study full forwards plus345 failed-
+attempt forwards total825. The study also uses128 finite local corner maps and
+256 extra local down maps. Audits and CPU fixtures are additional. The initial
+unsealed282b CPU name-shadowing failure and282b's shape failure remain recorded;
+the final unequal-length fixture exercises the original producer and full audit.
+
+Repeating published literals is a numerical repetition, not fresh confirmation.
+Finite26 later source/all receiving operations and additional finite corner maps
+remain. The posthoc geometry reads fixed weights/saved full calibration with no
+new model forwards. A False-derived derivative around the carried state is a
+proposed next test, **not** an executed predictor in this release. Article drafts,
+weights, arrays and local continuity remain excluded.
+
 ## Source2 products (281d)
 
 [Result and all limits](../docs/analysis/281-source2-products.md) ·

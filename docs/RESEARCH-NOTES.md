@@ -2,6 +2,29 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 282: a small attention term changes the response around the carried state
+
+Carry-only K passes original native, local missing-write and actual continued
+effect criteria32/32; its full joint account fails0/32 because paired local
+schema contrasts fail0/16. Adding the attention-only correction makes essentially
+no difference. Full minus attention-only passes32/32 joint, but uses full R(U)
+calibration. Removing carry from full reproduces the missing path effect32/32;
+baseline damage is only16/32, so this is not universal native necessity.
+
+The standalone attention error is tiny while the carry/attention mixed error is
+12.3% of the full missing write. A posthoc signed identity splits that mixed term
+into changed gate remainder and up reweighting, both appreciable. This suggests
+testing the missing-product response to attention at the carried operating point.
+The identity itself has not separately intervened on those primitives or predicted
+their mixed response. K's native success is real; its stronger failed contrast
+must not erase that success or be mistaken for full Question B closure.
+
+Original absolute CPU64 up bridges remain failed28/896. The qualified audit keeps
+exact public Float32 maps under a separately frozen narrower scope. A second
+correction marks unequal-token paired whole-state comparison unavailable;
+primary paired source-write accounting is unchanged. Old32/16 dependent contexts,
+finite26 later source/all receiving work. [Report and all retained failures](analysis/282-source2-gate-origin.md).
+
 ## 281: a correct verdict is not a complete write explanation
 
 Both target-blind90-coordinate source2 selectors recover32/32 original native
