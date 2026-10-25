@@ -2,7 +2,31 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 282/qualified282b–c — carry generation and mixed context contrast
+## Latest: 283–284 — predicting the carried-state response
+
+283's fixed normalized gate/up product response passes its joint criteria in
+32/32 old contexts and all 16 dependent schema pairs. Gate-only, up-only and
+matched random increments fail the added conditional local-increment target.
+Those controls already pass the original native criterion; no increment reaches
+.02-nat margin materiality, including full calibration. This explains a specified
+approximation discrepancy, not the complete native generator.
+
+284 confirms the unchanged rule on 32 fresh literal contexts: all five joint
+criteria pass 32/32, including every stratum, with 16/16 paired contrasts. The
+forecasts and numerical qualification were publicly sealed before native
+measurements. Simpler controls still pass native accuracy; the stronger incremental
+margin/removal accounts still fail materiality. The original 17-case storage stop
+and both zero-forward continuation failures are retained. The separate 284b
+runtime qualification replayed all 17 old arrays and metadata exactly before the
+remaining 15 cases, then passed the unchanged native audit.
+
+[283 report](analysis/283-carried-state-response.md) ·
+[284 sealed fresh test](analysis/284-carried-state-response.md) ·
+[283 protocol](experiments/283-carried-state-response.md) ·
+[284 protocol](experiments/284-sealed-carried-response.md) ·
+[284b runtime qualification](experiments/284b-native-cache-continuation.md)
+
+## 282/qualified282b–c — carry generation and mixed context contrast
 
 Carry-only K native/local/actual-effect32/32 but paired write0/16 and joint0/32.
 Attention-only W fails; additive S has the same paired failure. Full minus

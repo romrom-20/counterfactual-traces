@@ -1,0 +1,89 @@
+{
+  "experiment": 284,
+  "posthoc": true,
+  "model_forwards": 0,
+  "context_cases": 32,
+  "dependent_schema_pairs": 16,
+  "donor_comparisons": 128,
+  "own_reference_comparisons": 32,
+  "thresholds": {
+    "target_norm_min": 0.001,
+    "relative_error_max": 0.25,
+    "cosine_min": 0.95
+  },
+  "prediction": "float64(P_write) - float64(K_write)",
+  "actual_target": "float64(C1_write) - float64(K_write)",
+  "norm_match": "Donor forecast rescaled to recipient FORECAST norm; no target norm used.",
+  "literal_blocks": [
+    "diopside",
+    "rhodonite"
+  ],
+  "conditions": {
+    "same_schema_other_literal": {
+      "raw": {
+        "cases": 32,
+        "dependent_schema_pairs": 16,
+        "passes": 30,
+        "target_norm_eligible": 32,
+        "median_relative": 0.21334832304189133,
+        "median_cosine": 0.9781197412756091,
+        "worst_relative": 0.27245065737871116,
+        "minimum_cosine": 0.9638904908261523
+      },
+      "own_forecast_norm": {
+        "cases": 32,
+        "dependent_schema_pairs": 16,
+        "passes": 30,
+        "target_norm_eligible": 32,
+        "median_relative": 0.20874306784897959,
+        "median_cosine": 0.9781197412756092,
+        "worst_relative": 0.26796097662315577,
+        "minimum_cosine": 0.963890490826152
+      }
+    },
+    "cross_schema_same_literal": {
+      "raw": {
+        "cases": 32,
+        "dependent_schema_pairs": 16,
+        "passes": 0,
+        "target_norm_eligible": 32,
+        "median_relative": 1.3958477963606106,
+        "median_cosine": 0.04150508281258895,
+        "worst_relative": 1.5557344871946777,
+        "minimum_cosine": 0.00036459174354641714
+      },
+      "own_forecast_norm": {
+        "cases": 32,
+        "dependent_schema_pairs": 16,
+        "passes": 0,
+        "target_norm_eligible": 32,
+        "median_relative": 1.3738050964408715,
+        "median_cosine": 0.04150508281258896,
+        "worst_relative": 1.4106441113107948,
+        "minimum_cosine": 0.00036459174354642484
+      }
+    }
+  },
+  "own_rule_reference": {
+    "cases": 32,
+    "dependent_schema_pairs": 16,
+    "passes": 32,
+    "target_norm_eligible": 32,
+    "median_relative": 0.12004667138760526,
+    "median_cosine": 0.9929032242461457,
+    "worst_relative": 0.1362114467799911,
+    "minimum_cosine": 0.9906836224627042
+  },
+  "retained_raw_diagnostics": {
+    "forecast": {
+      "total": 224,
+      "failed": 11,
+      "original_bound": 0.0001
+    }
+  },
+  "frozen_primary": false,
+  "causal_installation": false,
+  "learned_circuit": false,
+  "general_Question_B_solved": false,
+  "boundary": "Retrospective vector comparisons on existing arrays. Each condition reuses the same 32 recipients in 16 dependent schema pairs; the 128 donor rows are not independent examples. Fresh 284 predictions were sealed before native measurements, but this transport diagnostic was designed afterward. No donor vector was installed into the model; no downstream sufficiency, learned feature, efficiency, or priority claim."
+}

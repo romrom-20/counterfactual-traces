@@ -50,5 +50,9 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_source_origin.py
       - name: Verify immutable pre-native carried-response forecasts and source seals
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_carried_forecasts.py
+      - name: Verify retrospective carried-state prediction, controls and limits
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_carried_results.py --experiment 283
+      - name: Verify sealed fresh carried-state outcomes and exact partial replay
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_carried_results.py --experiment 284
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

@@ -1,5 +1,18 @@
 # Results and evidence
 
+[283: carried-state response](carried-state-response-283/README.md) and
+[284: sealed fresh confirmation](carried-state-forecast-284/README.md) preserve
+the unchanged rule's 32/32 joint outcomes on each set, including 16/16 dependent
+schema pairs. The normalized gate/up response at the carried input predicts the
+conditional local increment; gate-only, up-only and matched random increments
+fail that increment test. Simpler controls already pass original native accuracy,
+and all strict incremental/removal margin accounts fail materiality, including
+calibration. The forecast seal was public before native measurements. Original
+raw up failures (9 old, 11 fresh), the 17-case resource stop, both zero-forward
+continuation failures and all 17 exact replays remain explicit. The fresh native
+audit passes unchanged. This is a specified approximation-correction account,
+with substantial finite computation; general Question B remains open.
+
 [282b/c: source2 carry/read origin](source2-origin-282/README.md) preserves
 carry-only native/local/effect32/32 and failed paired contrast0/16/joint0/32.
 Full-calibration mixed/removal controls, signed known-function geometry and every

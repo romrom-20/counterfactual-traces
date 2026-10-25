@@ -53,6 +53,7 @@ def logs(dest, folder, names, filename):
                 (
                     "283 ",
                     "284 ",
+                    "284b ",
                     "{'passed':",
                     "{'primary':",
                     "Traceback",
@@ -216,16 +217,67 @@ def native(run, folder):
         lambda rel: rel.parts[0] == "native" or rel.name.startswith(prefixes) or rel.name in names,
     )
     assert len(arrays) == 32
+    assert read(run / "native-continuation-audit.json")["status"] == "passed"
+    records(run, FRESH, lambda rel: rel.parts[0] == "retained-native-stop")
+    replays = records(run, FRESH, lambda rel: rel.parts[0] == "replay")
+    assert len(replays) == 17
+    save(FRESH / "replay-array-inventory.json", dict(arrays=replays, omitted=True))
+    failures = []
+    for name, logname in (
+        ("carried-state-forecast-284b", "284b-native"),
+        ("carried-state-forecast-284b-retry", "284b-retry-native"),
+    ):
+        previous = run.parent / name
+        assert not list((previous / "replay").glob("*"))
+        assert len(list((previous / "native").glob("*.npz"))) == 17
+        failure = previous / "failure-native-continuation.json"
+        assert read(failure)["error"] == "AssertionError()"
+        target = FRESH / "retained-continuation-stops" / name
+        target.mkdir(parents=True)
+        copy_file(failure, target / failure.name)
+        copy_file(
+            previous / "native-continuation-design.json", target / "native-continuation-design.json"
+        )
+        failures.append(
+            dict(
+                attempt=name,
+                failure_sha256=sha(failure),
+                replay_forwards=0,
+                new_native_forwards=0,
+                retained_native_cases=17,
+                log_stage=logname,
+            )
+        )
+    save(FRESH / "retained-continuation-stops/inventory.json", dict(attempts=failures))
     save(
         FRESH / "native-array-inventory.json",
         dict(arrays=arrays, omitted=True, aliases_reference_sealed_forecasts=True),
     )
-    logs(FRESH, folder, ("284-native", "284-native-audit"), "native-log-provenance.json")
+    logs(
+        FRESH,
+        folder,
+        (
+            "284-native",
+            "284b-native",
+            "284b-retry-native",
+            "284b-synthetic-continuation",
+            "284b-synthetic-continuation-v2",
+            "284b-retry2-native",
+            "284b-retry2-audit",
+        ),
+        "native-log-provenance.json",
+    )
     save(
         FRESH / "native-execution-notes.json",
         dict(
             forecast_full_forwards=320,
             native_control_full_forwards=128,
+            actual_native_producer_full_forwards_including_original_and_replay=196,
+            actual_native_True_producer_forwards_including_replay=49,
+            original_partial_native_cases=17,
+            resumed_cases_after_all17_exact_replays=15,
+            retained_zero_forward_continuation_stops=2,
+            native_runtime_policy_changed_under_separate_284b_qualification=True,
             independent_ordinary_True_audit_replay_forwards=32,
             forecasts_and_qualification_public_before_native=True,
             forecast_manifest_sha256=sha(FRESH / "forecast-manifest.json"),
@@ -251,10 +303,15 @@ def seal(dest, experiment):
         for n in (
             report,
             "research/boolean_coupling/package_carried.py",
-            "research/boolean_coupling/verify_carried_response.py",
+            "research/boolean_coupling/verify_carried_results.py",
             "research/boolean_coupling/describe_carried.py",
+            "research/boolean_coupling/diagnose_carried_transport.py",
         )
     ]
+    if experiment == 284:
+        q = read(dest / "native-continuation-design.json")
+        paths += [ROOT / n for n in q["source_hashes"]]
+        paths += [ROOT / "research/boolean_coupling/verify_carried_forecasts.py"]
     paths += list((ROOT / f"docs/figures/carried-response/{experiment}").iterdir())
     assert all(
         p.suffix != ".npz"

@@ -1,5 +1,154 @@
 # Reproduce the current research
 
+## Carried-state response (283/284)
+
+[283 qualified retrospective result](../docs/analysis/283-carried-state-response.md) ·
+[284 sealed fresh result](../docs/analysis/284-carried-state-response.md) ·
+[283 protocol](../docs/experiments/283-carried-state-response.md) ·
+[284 protocol](../docs/experiments/284-sealed-carried-response.md) ·
+[284b cache-only continuation](../docs/experiments/284b-native-cache-continuation.md)
+
+Experiment 283 predicts a specified missing-product response at B's own carried input. Its
+joint primary passes 32/32 old contexts; 282's carry-only primary remains failed.
+Experiment 284 applies the unchanged rule to 32 new literals with every forecast and its
+qualification public before any native True. Its unchanged primary passes 32/32,
+all strata 8/8; original native audit and 284b continuation wrapper pass. The
+original 17-case stop and both zero-forward retries remain preserved. Strict
+incremental/removal behavioral accounts remain 0/32 under the frozen .02-nat guard.
+Repository-only verification needs no model imports or arrays:
+
+```sh
+python -S research/boolean_coupling/verify_carried_forecasts.py
+python -S research/boolean_coupling/verify_carried_results.py --experiment 283
+python -S research/boolean_coupling/verify_carried_results.py --experiment 284
+```
+
+For Experiment 283, first regenerate qualified 282c/281d arrays and the unequal-token 282c CPU
+fixture in the following sections. Use pinned Python 3.12/Float32 MPS/eager and
+the cached checkpoint. Choose NEW destinations under an existing parent. Allow
+model/process headroom beyond the frozen 640 MiB initial/512 MiB per-case reserves;
+these guards do not guarantee sufficient memory or prevent host disk pressure.
+Never delete or recompress old evidence to make a run proceed.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+CARRIED_ORIGIN=/path/to/regenerated/source2-origin-repeat-282
+CARRIED_PRODUCTS=/path/to/regenerated/source2-products-repeat-281d
+CARRIED_CPU=/path/to/synthetic-unequal-282c
+CARRIED_OUTPUTS=/path/to/new/outputs
+mkdir -p "$CARRIED_OUTPUTS"
+python -m boolean_coupling.preflight283 --fixture "$CARRIED_CPU" --out "$CARRIED_OUTPUTS/synthetic-carried-283"
+python -m boolean_coupling.run283 --reference-282 "$CARRIED_ORIGIN" --reference-281d "$CARRIED_PRODUCTS" --out "$CARRIED_OUTPUTS/carried-state-repeat-283"
+python -m boolean_coupling.audit283 --reference-282 "$CARRIED_ORIGIN" --reference-281d "$CARRIED_PRODUCTS" --run "$CARRIED_OUTPUTS/carried-state-repeat-283"
+```
+
+Those original scientific stages actually ran: 448 full forwards, 32 extra finite
+corners, 64 local down maps, 32 normalizer JVPs and 64 CPU64 gate/up matrix-vector
+products; 5,408 required checks pass. Nine of 224 raw up comparisons retain their
+failed original 1e-4 bounds under the predeclared public Float32/rounding-envelope
+scope. All 26 later source and all receiving operations remain finite. New arrays
+occupy 31.1 MB plus resolved historical dependencies. No speedup over 272 or old
+whole-block-Jacobian recertification is established.
+
+Experiment 284 regenerates directly from published cases/checkpoint, without 283's activation
+archive. Run the complete unequal-token CPU fixture first. It uses a clearly
+synthetic receipt and tests premature-native and wrong-seal rejection. Published
+literals require explicit repetition mode: numerical repetition is not fresh
+confirmation and must not fabricate a public receipt.
+
+```sh
+python -m boolean_coupling.preflight284 --fixture "$CARRIED_CPU" --out "$CARRIED_OUTPUTS/synthetic-carried-284"
+python -m boolean_coupling.run284 forecast --repeat-known-literals --run "$CARRIED_OUTPUTS/carried-state-repeat-284"
+python -m boolean_coupling.audit284 forecast --run "$CARRIED_OUTPUTS/carried-state-repeat-284"
+python -m boolean_coupling.run284 native --repeat-known-literals --run "$CARRIED_OUTPUTS/carried-state-repeat-284"
+python -m boolean_coupling.audit284 native --run "$CARRIED_OUTPUTS/carried-state-repeat-284"
+```
+
+Require the forecast audit and global seal before native measurement. Original
+forecasts 320 and 4,672 required checks completed; 11/224 raw up comparisons remain
+failed at 1e-4. Their exact seal was public at
+`c2439037904cf6d6c9eb4cb91c38301f4f12f6f5` before C1/U/N/T. The commands
+above deliberately record a local repetition instead of that original public
+receipt. Original forecast arrays occupy 54.7 MB; combined new-array cap 96 MiB.
+The original native stage stopped after 68 forwards/17 cases at its 512 MiB reserve.
+A complete local native repetition needs 128 producer and 32 ordinary True audit
+forwards; no second full real-checkpoint pipeline has been executed here.
+
+### Qualified resource continuation (284b)
+
+This path applies to the **actual retained 17-case stop**, preserving its original
+seal, first-native public receipt, failure, log and arrays. Do not manufacture a
+partial run to invoke it. The unequal-token CPU continuation must pass first:
+
+```sh
+python -m boolean_coupling.preflight284b --fixture "$CARRIED_OUTPUTS/synthetic-carried-284" --checkpoint "$CARRIED_CPU/tiny-checkpoint" --out "$CARRIED_OUTPUTS/synthetic-carried-284b"
+```
+
+The original CPU fixture passed 17 replay + 15 remaining cases, all 32 NPZ and JSON
+files exactly equal, and the unchanged original native audit. This is not a test
+of real MPS cache release. The separately frozen real continuation command is:
+
+```sh
+CARRIED_PARTIAL=/path/to/original-284-with-17-sealed-native-cases
+CARRIED_STOP_LOG=/path/to/that-original-native-failure.log
+python -m boolean_coupling.continue284b --original "$CARRIED_PARTIAL" --failure-log "$CARRIED_STOP_LOG" --out "$CARRIED_OUTPUTS/carried-state-continued-284b"
+python -m boolean_coupling.audit284b --run "$CARRIED_OUTPUTS/carried-state-continued-284b"
+```
+
+The original non-synthetic path also verifies the actual published receipt and
+remote source binding; it is not a substitute for explicit local repetition.
+It releases only unused MPS allocator cache after each forward and before each
+case. All 17 old NPZ **and JSON hashes** must replay exactly before any of the 15
+new measurements. Any mismatch stops continuation. The wrapper then calls
+unchanged `audit284.native`, including 32 ordinary True replays without editing
+hooks. Predictions, endpoint code, numerical scope, 512 MiB reserve and 96 MiB cap
+are unchanged.
+
+The first two real 284b attempts stopped after model loading, before **any** replay
+or new forward; they add no measurements. A third attempt completed all 17 exact
+NPZ+JSON replays before 15 new cases in 40.80 seconds. The unchanged original native audit
+and 284b wrapper then passed in 16.92 seconds: 1,024 required checks, 128 finite head maps
+and 32 ordinary True unhooked replay forwards. Actual native producer work is
+68 original + 68 replay + 60 new = 196 calls for 32 unique cases, including 49
+ordinary True producer calls; 32 additional unhooked audit forwards are separate.
+All original failures and the first-native public receipt remain preserved.
+
+[283 every-case figure](../docs/figures/carried-response/283/carried-response.png) ·
+[284 every-case fresh figure](../docs/figures/carried-response/284/carried-response.png).
+Private articles, weights, large arrays and local context remain excluded.
+Successful correction prediction would not establish learned features, material
+margin necessity, novelty priority, efficiency or complete Question B closure.
+
+### Posthoc carried-write portability
+
+The posthoc same-schema cross-literal donor passes the local tolerance in 32/32
+old and 30/32 fresh cases without rescaling, at 17.62% and 21.33% median error.
+The own fresh rule is more precise at 12.00%. Cross-schema donors pass 0/32 in
+both studies. Donors hold assignment, order and target fixed; case-specific
+vectors are not shown necessary. These saved-vector comparisons use zero model
+forwards, make no causal installation or native-response comparison, and do not
+change the frozen primary. Each condition reuses 32 recipients/16 dependent
+pairs; the 128 donor rows are not independent examples.
+[Old transport records](../results/carried-state-response-283/transport-posthoc/summary.json) ·
+[Fresh transport records](../results/carried-state-forecast-284/transport-posthoc/summary.json).
+
+After regenerating and auditing the arrays above, run the
+[saved-array diagnostic](boolean_coupling/diagnose_carried_transport.py) into NEW
+directories. It performs both raw and recipient-forecast-norm-matched comparisons;
+no native target norm supplies the rescaling. A complete ordinary 284 repetition
+is accepted. If the run instead carries a 284b continuation, that additional
+qualification is also verified; no artificial runtime failure is required.
+
+```sh
+python -m boolean_coupling.diagnose_carried_transport --experiment 283 --run "$CARRIED_OUTPUTS/carried-state-repeat-283" --reference "$CARRIED_ORIGIN" --upstream "$CARRIED_PRODUCTS" --out "$CARRIED_OUTPUTS/carried-transport-283"
+python -m boolean_coupling.diagnose_carried_transport --experiment 284 --run "$CARRIED_OUTPUTS/carried-state-repeat-284" --out "$CARRIED_OUTPUTS/carried-transport-284"
+```
+
+Both diagnostics actually ran with new output destinations. Every summary and
+donor/own-reference CSV byte matched the initial diagnostic; provenance records
+bind the executed helper and input hashes. These are posthoc tests on existing
+arrays, not additional model replication or a new frozen primary.
+
 ## Source2 origin (282)
 
 [Result and limitations](../docs/analysis/282-source2-gate-origin.md) ·
@@ -69,8 +218,9 @@ the final unequal-length fixture exercises the original producer and full audit.
 Repeating published literals is a numerical repetition, not fresh confirmation.
 Finite26 later source/all receiving operations and additional finite corner maps
 remain. The posthoc geometry reads fixed weights/saved full calibration with no
-new model forwards. A False-derived derivative around the carried state is a
-proposed next test, **not** an executed predictor in this release. Article drafts,
+new model forwards. At the time of282, a False-derived response around the carried
+state was proposed rather than tested. The separately frozen283 result above now
+tests that rule; it does not change282's failed primary. Article drafts,
 weights, arrays and local continuity remain excluded.
 
 ## Source2 products (281d)

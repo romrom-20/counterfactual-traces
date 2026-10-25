@@ -7,8 +7,33 @@ particular residual-stream displacement, and whether the operations generating
 and propagating it let us forecast native residual and verdict from the **False
 computation, known edit and model weights**.
 
-**Current answer: a tested local generator, with the broader mechanism still open.**
-At the first source MLP, a rule using activation curvature measured at the False
+**Current answer: a tested local generator and a conditional correction account;
+the broader mechanism remains open.** The latest rule predicts how
+attention modulates the correction at the second source MLP's carried input. Its
+frozen rule passes **32/32 old joint cases**, including all 16 dependent schema
+pairs, then **32/32 fresh literal contexts** with forecasts publicly sealed before
+native measurement. Gate-only, up-only and matched random increments fail the conditional
+local-increment test, although they already pass the original native-response
+criterion. The added increment has no margin effect reaching the frozen .02-nat
+guard, even under full calibration; it is not shown necessary for the native
+verdict. [Exact target, interventions and numerical limits](docs/analysis/283-carried-state-response.md).
+
+The fresh result meets every schema/order stratum **8/8** and paired local
+contrast **16/16**. Original native accuracy alone still does not select the finer
+account, and all strict incremental/removal behavioral accounts remain 0/32
+because their margin effects are below the frozen materiality guard. A posthoc
+same-schema cross-literal donor vector also passes the local tolerance in 32/32
+old and 30/32 fresh cases without rescaling; cross-schema donors pass 0/32. The own
+rule is more precise, but case-specific vectors are not shown necessary.
+[Fresh outcomes, controls and limits](docs/analysis/284-carried-state-response.md).
+
+The original native run's storage stop and two zero-forward continuation failures
+remain preserved. A third qualified continuation reproduced all 17 completed
+arrays and metadata exactly before measuring the remaining 15. The unchanged
+native audit and separate continuation wrapper pass; forecast seals and criteria
+remain unchanged.
+
+At the first source MLP, an earlier rule using activation curvature measured at the False
 state predicts the changed write and its original final response in **32/32 fresh
 literal contexts**. Its preregistered joint criterion passes **29/32**; three cases
 have effects below the materiality cutoff and remain failures. The quadratic
@@ -49,9 +74,9 @@ The next causal test separates the state carried from block1 from the new
 attention2 write. The carry-derived correction recovers the native response and
 missing write/effect32/32, but misses every paired schema-write contrast: the
 primary still fails0/32. The attention-only correction is tiny; its mixed response
-around the carried state matters for that local contrast. Full-calibration
-removals support this narrower account, while normalization versus activation
-curvature remains unresolved. [Carry/read test, all failures and qualified
+around the carried state matters for that local contrast. The latest 283 test
+predicts that modulation at the carried operating point; it does not retroactively
+pass 282's failed carry-only primary. [Carry/read test, all failures and qualified
 numerical scope](docs/analysis/282-source2-gate-origin.md).
 
 For the late Boolean edits in this setup, retaining one False prefix KV cache
@@ -65,7 +90,8 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest source test](docs/analysis/282-source2-gate-origin.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest qualified result](docs/analysis/283-carried-state-response.md) ·
+[Fresh prediction](docs/analysis/284-carried-state-response.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
 [Experiment index](docs/EXPERIMENTS.md) · [Research notes](docs/RESEARCH-NOTES.md)
@@ -75,6 +101,14 @@ a concrete baseline for the next computation budget.
 The [reading guide](docs/READING-GUIDE.md) defines the task, residual displacement,
 query feedback, finite versus approximate computation, and how to inspect a claim.
 Follow its six-test path before the full chronological experiment index.
+
+For the current research edge, read [283](docs/analysis/283-carried-state-response.md)
+before [284's sealed fresh test](docs/analysis/284-carried-state-response.md).
+They distinguish conditional local prediction, actual native behavior and
+materiality limits. [Reproduction commands](research/README.md#carried-state-response-283284)
+include the declared finite budget and the exact-replay continuation requirement.
+
+![The carried-state correction and its controls](docs/figures/carried-response/283/carried-response.png)
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
 
