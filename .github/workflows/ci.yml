@@ -48,5 +48,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_source2_products.py
       - name: Verify source2 carry/read generation and retained numerical and paired failures
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_source_origin.py
+      - name: Verify immutable pre-native carried-response forecasts and source seals
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_carried_forecasts.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
