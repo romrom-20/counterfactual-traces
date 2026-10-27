@@ -6,7 +6,34 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current constraint: source importance depends on the edited computational state
+## Current constraint: source state is sufficient to seed the sensitivity shift
+
+The 287 factorial crosses the False and edited-forecast source row with the other
+incoming rows after block 1. Source-only recreates the gradient/finite-effect
+shift **32/32**; receiving-only **0/32**. Every later receiver still adapts.
+This identifies a sufficient initial source change for that contrast, not an
+absence of receiver feedback or an identified primitive circuit.
+
+The complete native-response test remains different: source-only+d passes **0/32**,
+whereas both changed factors+d pass 32/32. The source-only receiving-vector error
+is 8.8% at the median, above the 5% bound, even though its source gradient predicts
+all six large old scalar errors. Explaining changed importance does not predict
+the full trajectory from the same initial states.
+
+The original numerical audit **fails 1/3,072**: an intermediate source adjoint
+before block 16 exceeds the original tolerance. A separately frozen posthoc 287b
+qualification passes the actual boundary gradients at the unchanged 1e-4 bound,
+plus the full-shape projected finite differences. Both gradient implementations
+give identical scientific classifications. All 160 original raw-coordinate
+failures remain. This is qualified retrospective boundary evidence under large
+finite/reverse work, not fresh forecasting or a general Question B solution.
+
+The unresolved mechanistic distinction is changed source-local tangent
+transmission versus changed downstream receiving response to those messages.
+Neither a boundary-state factorial nor an adjoint norm plot isolates those
+primitive operations. [287 result, exact budget and qualification](analysis/287-source-receiver-readout.md).
+
+## Earlier 286: source importance depends on the edited computational state
 
 A retrospective test on the 32 structural contexts separates the source
 correction from its downstream sensitivity. The False-state gradient misses all
@@ -18,9 +45,8 @@ thirteen below materiality), while the False-gradient component does not.
 This does not rescue the failed earlier joint repair claim or predict native
 vectors under a smaller budget. F and forecast have different whole incoming
 suffix states. Full-shape adjoints pass a separate 1e-4 check, while all 192
-original cached-coordinate diagnostics remain failed. The next unresolved
-question is which changed source/receiving computation generates this sensitivity
-change. The gradient geometry itself does not identify a learned circuit.
+original cached-coordinate diagnostics remain failed. That comparison left the source/receiving initial factors unresolved; 287
+above now constrains them, while the subsequent primitive origin remains open. The gradient geometry itself does not identify a learned circuit.
 [286 result and numerical qualification](analysis/286-state-dependent-readout.md).
 
 ## Earlier: native first-source prediction transfers; the complete generator is open

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "synthetic": true,
+  "checkpoint_loaded": false,
+  "cases": 4,
+  "corners": 4,
+  "full_tape_cached_and_blockwise_all_source_coordinates": true,
+  "source_causality": true,
+  "FD_and_bound_tamper_rejected": [
+    "bounds",
+    "FD"
+  ],
+  "scientific_outcomes_not_required": true,
+  "counts": {
+    "full_F": 4,
+    "first_block": 4,
+    "suffix_forwards": 224,
+    "backwards": 16,
+    "full_shape_block_forwards": 32,
+    "block_recomputations": 32,
+    "block_VJPs": 32,
+    "head_VJPs": 16
+  }
+}

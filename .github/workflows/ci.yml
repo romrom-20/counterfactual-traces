@@ -62,5 +62,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify285.py --phase complete
       - name: Verify retrospective readout predictions and retained numerical failures
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify286.py
+      - name: Verify source-receiver factorial and retained failed numerical gate
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify287.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

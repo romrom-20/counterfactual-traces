@@ -1,0 +1,35 @@
+{
+  "experiment": 287,
+  "retrospective": true,
+  "synthetic": false,
+  "status": "failed",
+  "required_checks": 3072,
+  "failed_checks": 1,
+  "projected_derivative_checks": 1152,
+  "maximum_source_adjoint_error": 0.0001411139965057373,
+  "maximum_projected_response_error": 3.6358088581767145e-06,
+  "raw_original_coordinate_checks": {
+    "total": 160,
+    "failed": 160,
+    "bound": 0.0001
+  },
+  "design_sha256": "8f1e824224bd8caa37dbc46ec3e0ac6f231a84b0325db1666d5dcd11a4cf7610",
+  "status_sha256": "bf246cb572f2a2ff2bb495d46be5bdcb6f48d087dd31f91e9fcf080578c6d5b7",
+  "audit_source_sha256": "d3c192566bd0103eb96b413862380349b155aeeb3cace4693114e38d711f3105",
+  "counts": {
+    "full_F": 32,
+    "first_block": 32,
+    "suffix_forwards": 1792,
+    "backwards": 128,
+    "full_shape_block_forwards": 3456,
+    "block_recomputations": 3456,
+    "block_VJPs": 3456,
+    "head_VJPs": 128
+  },
+  "ended": "2026-10-27T11:41:03.210154+00:00",
+  "csv_sha256": {
+    "checks.csv": "663d81fccb8abac838f02a13df23f62dc38cce46f534eba549086e07c0a2fffb",
+    "projected_derivatives.csv": "895910fd78bee93e11fd7021d1a8fdef073b4560984c3af6ac027bc09d3084e2",
+    "raw_coordinates.csv": "36a8a630893144f166a83de89db1cbff567c1876411c52f167df3ed05025260b"
+  }
+}

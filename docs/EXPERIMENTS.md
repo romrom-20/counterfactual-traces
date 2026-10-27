@@ -2,7 +2,25 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 286 — False readout versus edited-forecast sensitivity
+## Latest: 287 / 287b — source and receiving initial states
+
+Retrospective four-corner test after block 1: source-only recreates the gradient
+and signed finite-effect shift 32/32, receiving-only 0/32. Secondary additive
+passes 30/32. All later receivers adapt. Complete native fidelity is 0/0/0/32
+for FF/MF/FM/MM+d, despite MF and MM scalar predictions both passing 32/32.
+
+Original audit FAILED 1/3,072; all 160 original raw coordinate diagnostics fail.
+The separate posthoc boundary qualification passes 128 original-bound adjoint
+checks and 1,152 projected derivatives. Original full-trace failure stays failed;
+all classifications agree across cached and full-shape gradients. No new model
+calls in the qualifier, no fresh/circuit/efficiency/general Question B claim.
+
+[Original protocol](experiments/287-source-receiver-readout.md) ·
+[Posthoc scope](experiments/287b-boundary-qualification.md) ·
+[Report](analysis/287-source-receiver-readout.md) ·
+[Evidence](../results/source-receiver-readout-287/README.md)
+
+## 286 — False readout versus edited-forecast sensitivity
 
 On all 32 old structural contexts, False-state source sensitivity misses all six
 large native donor-margin errors (scalar26/32). Forecast-state sensitivity detects

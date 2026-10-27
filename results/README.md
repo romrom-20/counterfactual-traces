@@ -1,5 +1,13 @@
 # Results and evidence
 
+[287 / 287b: source and receiving initial-state factorial](source-receiver-readout-287/README.md)
+retains source-only 32/32, receiving-only 0/32, secondary additive 30/32 and all
+complete native failures for the three incomplete corners. Original numerical
+gate FAILED 1/3,072; separate posthoc boundary qualification passes original
+bounds while retaining the intermediate and 160 raw-coordinate failures. Both
+gradient implementations agree on classifications. Old contexts, adaptive later
+receivers and substantial finite work; no learned circuit or general closure.
+
 [286: state-dependent source readout](false-readout-286/README.md) retains all32
 previously observed cases, the failed False-sensitivity account (26/32 scalar,
 0/6 large-error detections), forecast-sensitivity control (32/32,6/6), direct

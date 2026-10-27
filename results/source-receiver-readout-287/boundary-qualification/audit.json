@@ -1,0 +1,144 @@
+{
+  "experiment": "287b",
+  "status": "qualified_boundary_only",
+  "retrospective": true,
+  "original_numeric_gate_passed": false,
+  "original_failures": [
+    {
+      "key": "b2c7c95919cfccf5ffd4e1aeb97d4577a9cf212ab1188cacf7ad6aef66c5da49",
+      "name": "FM_source_adjoint",
+      "error": "0.0001411139965057373",
+      "bound": "0.0001",
+      "passes": "False"
+    }
+  ],
+  "original_audit_sha256": "65344dfaf6917f07cf3a07444bc3b909370e1febd01e0e18324b20dff94c8dff",
+  "boundary_checks": 128,
+  "full_shape_projected_checks": 1152,
+  "maximum_boundary_error": 9.04873013496399e-06,
+  "intermediate_trace_failures": 1,
+  "new_model_calls": 0,
+  "hypotheses": {
+    "cached": {
+      "S": {
+        "passes": 32,
+        "layouts": {
+          "dialogue": 8,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.026925951808337022,
+        "median_cosine": 0.9996758598004434,
+        "median_finite_error": 0.0008029937744140625
+      },
+      "R": {
+        "passes": 0,
+        "layouts": {
+          "dialogue": 0,
+          "table": 0,
+          "user_rule": 0,
+          "xml": 0
+        },
+        "population_pass": false,
+        "material_passes": 0,
+        "median_relative": 1.0017078788529936,
+        "median_cosine": -0.036331413200773315,
+        "median_finite_error": 0.025569915771484375
+      },
+      "ADD": {
+        "passes": 30,
+        "layouts": {
+          "dialogue": 6,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.038559818365881696,
+        "median_cosine": 0.9992758049775063,
+        "median_finite_error": 0.0026340484619140625
+      }
+    },
+    "full_shape": {
+      "S": {
+        "passes": 32,
+        "layouts": {
+          "dialogue": 8,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.026926162610968966,
+        "median_cosine": 0.9996758963688168,
+        "median_finite_error": 0.0008029937744140625
+      },
+      "R": {
+        "passes": 0,
+        "layouts": {
+          "dialogue": 0,
+          "table": 0,
+          "user_rule": 0,
+          "xml": 0
+        },
+        "population_pass": false,
+        "material_passes": 0,
+        "median_relative": 1.0017068218930776,
+        "median_cosine": -0.03627803509639701,
+        "median_finite_error": 0.025569915771484375
+      },
+      "ADD": {
+        "passes": 30,
+        "layouts": {
+          "dialogue": 6,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.03856246409105428,
+        "median_cosine": 0.9992757702396359,
+        "median_finite_error": 0.0026340484619140625
+      }
+    }
+  },
+  "classification_disagreements": [],
+  "material_eligible": 21,
+  "native_counts": {
+    "FF": 0,
+    "MF": 0,
+    "FM": 0,
+    "MM": 32
+  },
+  "native_scalar_counts": {
+    "cached": {
+      "FF": 26,
+      "MF": 32,
+      "FM": 26,
+      "MM": 32
+    },
+    "full_shape": {
+      "FF": 26,
+      "MF": 32,
+      "FM": 26,
+      "MM": 32
+    }
+  },
+  "boundary": "Posthoc boundary scope; original full-trace failure retained. All later receivers remain adaptive; no learned circuit, fresh forecast, efficiency or generalQB claim.",
+  "ended": "2026-10-27T11:44:55.520527+00:00",
+  "csv_sha256": {
+    "ledger.csv": "552c7166dc474321dc94536af262f940379918da332d1d5c194dc88d855e9be5",
+    "all_trace_checks.csv": "749d91709f736d9c5d44206accebf9028254e400d89b60880535c064f80b3757",
+    "hypotheses.csv": "97ac402fc256f52ebcdebdd3f52185df4f4126e6db15a187265dcaabd375afe0",
+    "readouts.csv": "bcbbb2d8ffcfbb3d4745d0a7d53b59b2f81a21b11c8a4f6175f4d3189c6a972e",
+    "native.csv": "276b3fe7fb5b4fa086556cff3d55361efb398e7ab3777360e0c84c39ed4067d9",
+    "full_shape_FD.csv": "21439ba3fb818aae8ebb5357fd1ec7bb864818f08fcd7cadf8775b621e1239ed",
+    "boundary_checks.csv": "d316f8c023ccc76029dbaa9ff5ad0aacbfe31feef9f1851384ad881e7e190b33"
+  }
+}
