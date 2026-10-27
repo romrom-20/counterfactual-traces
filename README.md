@@ -7,7 +7,18 @@ particular residual-stream displacement, and whether the operations generating
 and propagating it let us forecast native residual and verdict from the **False
 computation, known edit and model weights**.
 
-**Current answer: the first-source rule transfers across changed prompt structures;
+**Latest constraint: the edited computation changes which source corrections
+matter to the margin.** On the 32 already observed structural cases, the
+False-state gradient misses all six large donor errors. The gradient at the
+False-derived edited forecast predicts all six, with 32/32 scalar passes versus
+26/32. Direct source-component interventions support that sensitivity change.
+This is retrospective and still executes the finite suffix; it does not locate
+the responsible primitive or identify a learned circuit. A separate full-shape
+adjoint check passes; all 192 original cached-coordinate failures stay failed.
+[Explanation and limits](docs/analysis/286-state-dependent-readout.md) ·
+[Evidence](results/false-readout-286/README.md).
+
+**Earlier: the first-source rule transfers across changed prompt structures;
 the complete native generator remains open.** On 32 new table, user-rule,
 dialogue and XML cases, the unchanged False-coefficient calculation predicts the
 native first-source write and final response **32/32**, eight per layout.

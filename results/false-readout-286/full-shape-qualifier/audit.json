@@ -1,0 +1,27 @@
+{
+  "experiment": "286b",
+  "numerical_only": true,
+  "synthetic": false,
+  "status": "passed",
+  "checks": 512,
+  "failed_checks": 0,
+  "maximum_source_adjoint_coordinate_error": 6.820261478424072e-05,
+  "maximum_source_adjoint_relative_error": 3.4363610872221266e-05,
+  "maximum_projected_response_error": 3.6358088581767145e-06,
+  "design_sha256": "839c460924526d999561913b1b9d232d7594f82d9d5b31f6313ec9662dc462ad",
+  "status_sha256": "ce5cc0189c5e14909c00503b8dc91865b68fb1b548b00db0e0e1401384f11d45",
+  "csv_sha256": {
+    "checks.csv": "e51ec5f2722bffad369385faec1da66041d57e527ef668230a5e5bef70f57191",
+    "layers.csv": "bb7e56fec5e7f23c001d6ff218808a8b27eb28cfda5a998649d9e7585be5afca"
+  },
+  "counts": {
+    "full_F": 32,
+    "first_block": 32,
+    "full_shape_block_forwards": 1728,
+    "block_recomputations": 1728,
+    "block_VJPs": 1728,
+    "head_VJPs": 64
+  },
+  "ended": "2026-10-27T09:30:51.325938+00:00",
+  "boundary": "All coordinates of the source-row reverse adjoint at each later block are compared between execution shapes; this is not a full Jacobian or an independent implementation of the library derivatives. Original286 raw coordinate failures remain failed."
+}

@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "experiment": 286,
+  "retrospective": true,
+  "design_sha256": "ade0886bed77e07e5fd847462800242bedc27b9691d43d9d14923dd49dc7f304",
+  "status_sha256": "c93078c94e847f705e28df86268abaebff4e97bc438c7b92a9431d0796ccb7a9",
+  "source_sha256": "9eaba6df688e88cfb27e4325199e04ea0547b4295509562c4071e5ec96fce629",
+  "required_numeric_checks": 2592,
+  "projected_derivative_checks": 960,
+  "raw_original_coordinate_checks": {
+    "total": 192,
+    "failed": 192,
+    "bound": 0.0001
+  },
+  "margin_material_eligible": 19,
+  "baseline_M_margin_passes": 26,
+  "predictions": {
+    "F": {
+      "native_margin_passes": 26,
+      "material_passes": 6,
+      "median_absolute_error": 0.032101932609211875,
+      "maximum_absolute_error": 0.17781880860854973,
+      "confusion": {
+        "TP": 0,
+        "FN": 6,
+        "FP": 0,
+        "TN": 26
+      }
+    },
+    "M": {
+      "native_margin_passes": 32,
+      "material_passes": 19,
+      "median_absolute_error": 0.0035847782199712984,
+      "maximum_absolute_error": 0.014079762358143927,
+      "confusion": {
+        "TP": 6,
+        "FN": 0,
+        "FP": 0,
+        "TN": 26
+      }
+    }
+  },
+  "counts": {
+    "full_F": 32,
+    "first_block": 32,
+    "suffix_forwards": 1664,
+    "backwards": 64
+  },
+  "csv_sha256": {
+    "checks.csv": "fe0c8443b01a8722df3688e2106b0d740573f3da5eba9e57266508457227ad10",
+    "projected_derivatives.csv": "3c7e441a6d67ed8f91200b9d70d182d9a877852fc8f5d1705e42793371510039",
+    "raw_coordinates.csv": "3e47c1ce5cb6b98c73e87a0f9820f9f46648d81c0614a5e10c1089eeaa1583a5",
+    "heads.csv": "efe5c6afb48bc9f4348b7e82a90fbd5946d2b14788bea72d26623ec11ebe2da9",
+    "predictions.csv": "8d2cfe8808df57767fa72d7707ca708bbb677c662f565df0175cd5f799d9930b",
+    "interventions.csv": "43a47672f9a80dc8e2f67d0ce76137d825196f32b423890a588942d91468eb64",
+    "geometry.csv": "a874e82ef8197542a65d0caf8c73c6c0cf045580e3a698b8691135af59181681",
+    "source_sensitivity_trace.csv": "cd335b50216008e7bba4061bb6ca3a3dcf32afaa1666b35b006dd61e24b326d4"
+  },
+  "ended": "2026-10-27T09:16:56.295601+00:00",
+  "boundary": "Projected derivatives and old-context native margin/causal source-residual comparisons only. Not a complete Jacobian or native vector predictor, learned feature/circuit, fresh confirmation, priority or measured speedup."
+}

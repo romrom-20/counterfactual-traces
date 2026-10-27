@@ -1,5 +1,63 @@
 # Reproduce the current research
 
+## State-dependent readout (286)
+
+[Explanation](../docs/analysis/286-state-dependent-readout.md) ·
+[Frozen rule](../docs/experiments/286-false-readout.md) ·
+[Full-shape qualifier](../docs/experiments/286b-full-shape-adjoints.md) ·
+[All records](../results/false-readout-286/README.md)
+
+This is a retrospective scalar diagnostic on the existing 32 structural inputs.
+The original False source gradient misses all six large donor margin errors;
+the gradient at the False-derived M forecast predicts them. This does not reduce
+the finite network budget or solve general Question B. No native True gradient
+is computed. Old native arrays are replay references, not prospective information.
+
+Repository-only verification uses the standard library and full Git history:
+
+```sh
+python -S research/boolean_coupling/verify286.py
+```
+
+For a numerical repeat, first regenerate the qualified 285 arrays below. The
+original public pre-native receipt belongs to that original execution; a rerun
+needs its own receipt. Use pinned Python3.12, Float32 MPS/eager and the cached
+checkpoint, NEW output directories and the unchanged sources. The tiny CPU
+fixtures come from `preflight285`; 286 uses four unequal-length sentinels. The
+actual initial development run reused an already qualified fixture after its
+regeneration hit the inherited disk guard. That failure remains recorded.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+READOUT_OUTPUTS=/path/to/new/outputs
+READOUT_REFERENCE=/path/to/qualified/native-structure-285
+READOUT_CPU_REFERENCE=/path/to/synthetic-285/complete
+mkdir -p "$READOUT_OUTPUTS"
+python -m boolean_coupling.preflight286 --out "$READOUT_OUTPUTS/cpu-286" --reference-285-fixture "$READOUT_CPU_REFERENCE"
+python -m boolean_coupling.run286 --reference-285 "$READOUT_REFERENCE" --out "$READOUT_OUTPUTS/readout-286"
+python -m boolean_coupling.audit286 --run "$READOUT_OUTPUTS/readout-286" --reference-285 "$READOUT_REFERENCE"
+python -m boolean_coupling.preflight286b --out "$READOUT_OUTPUTS/cpu-286b" --reference-285-fixture "$READOUT_CPU_REFERENCE" --readout-286-fixture "$READOUT_OUTPUTS/cpu-286/complete"
+python -m boolean_coupling.qualify286b --reference-285 "$READOUT_REFERENCE" --readout-286 "$READOUT_OUTPUTS/readout-286" --out "$READOUT_OUTPUTS/full-shape-286b"
+python -m boolean_coupling.audit286b --run "$READOUT_OUTPUTS/full-shape-286b" --reference-285 "$READOUT_REFERENCE" --readout-286 "$READOUT_OUTPUTS/readout-286"
+```
+
+286 spends32 ordinary False observations,32 first blocks,1,664 suffix forwards
+and64 backwards. The separate numerical control adds32 False observations,
+32 first blocks,1,728 full-shape block forwards,1,728 reverse block recomputations/
+VJPs and64 head VJPs. Both stages require768MiB initial/512MiB per-case headroom
+and cap their own case arrays at32MiB. They do not relax older experiment guards.
+
+All192 original cached-coordinate1e-4 diagnostics remain failed; the predeclared
+.002 cached replay bound passes. The full-shape control independently passes
+its declared1e-4 source-adjoint comparison, using the same library primitives.
+It is not a complete Jacobian qualification. Public inventories bind omitted
+arrays/head weights; Git contains only scalar scores, metadata, checks and figures.
+
+The posthoc `describe286` plotter takes `--run`, `--qualifier` and a new `--out`;
+it never calls a model. `publish286` prepares a new scalar-only package and seals
+the finished records/presentation with `--seal`. A numerical repetition on these
+known inputs is not fresh scientific confirmation.
+
 ## Structural native source test (285)
 
 [Result and failed stronger account](../docs/analysis/285-native-structure.md) ·
