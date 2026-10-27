@@ -2,7 +2,25 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 287 / 287b — source and receiving initial states
+## Latest: 288 — source and receiving response maps
+
+Eight finite recentered functions cross source recurrence, receiving/transmission
+and final-head anchors while preserving the edited primal. Both source-only and
+receiving-plus-head primaries fail 0/32. Receiving blocks, head and additive
+secondary sufficient accounts also fail 0/32, including every vector criterion.
+All cases and seven signed interaction terms are retained. This diagnoses
+conditional composition; it does not identify a learned primitive mechanism.
+
+All 4,384 required checks pass. Seven narrow finite-coordinate diagnostics remain
+failed at 1e-4 under the separately frozen .002 cached replay bound. All 78 source
+files were frozen before the checkpoint run. Old287 failures remain unchanged.
+No new True measurement, fresh forecast, efficiency or general Question B claim.
+
+[Protocol](experiments/288-source-receiver-tangent-routing.md) ·
+[Report](analysis/288-source-receiver-tangent-routing.md) ·
+[Evidence](../results/tangent-routing-288/README.md)
+
+## 287 / 287b — source and receiving initial states
 
 Retrospective four-corner test after block 1: source-only recreates the gradient
 and signed finite-effect shift 32/32, receiving-only 0/32. Secondary additive

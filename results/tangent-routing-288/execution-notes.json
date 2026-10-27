@@ -1,0 +1,60 @@
+{
+  "experiment": 288,
+  "retrospective": true,
+  "scientific_source_freeze": "153c3e1b95b9540197a46d704c4ca5a2e5acc764",
+  "scientific_sources": 78,
+  "scientific_sources_unchanged": true,
+  "producer_seconds": 453.71,
+  "saved_array_audit_seconds": 6.17,
+  "complete_cases": 32,
+  "initial_and_per_case_guards_MiB": [
+    640,
+    384
+  ],
+  "case_array_cap_MiB": 128,
+  "case_array_bytes": 107164829,
+  "no_resource_stop_or_threshold_changes": true,
+  "original_287_gate_remains_failed": true,
+  "retained_288_narrow_coordinate_failures": 7,
+  "new_model_true_calls": 0,
+  "development_notes": [
+    {
+      "stage": "Unfrozen CPU v1",
+      "outcome": "Stopped on the qualifier status label before scientific case work; corrected to qualified_boundary_only."
+    },
+    {
+      "stage": "Unfrozen CPU v2",
+      "outcome": "Four tiny numerical cases passed; analysis stopped on a scalar field/group name collision. Renamed scalar field before freeze."
+    },
+    {
+      "stage": "Unfrozen CPU v3 extra precision check",
+      "outcome": "Nominal double model retained native Float32 RMSNorm/softmax casts. Extra strict all-coordinate FD failed; attempt and code retained. Subsequent CPU test uses the original Float32 steps/bounds; no frozen checkpoint tolerance changed."
+    },
+    {
+      "stage": "CPU v4/v5",
+      "outcome": "All required checks, all512 source coordinates and three coherent tamper rejections pass. Final v5 scientific source hashes match checkpoint freeze."
+    },
+    {
+      "stage": "Unsealed presentation",
+      "outcome": "Initial figure retained; zero-height bars replaced by finite-only versus joint counts. Scientific values and all-case selection unchanged."
+    },
+    {
+      "stage": "Unpublished public verifier v1",
+      "outcome": "Incorrectly looked for285 design/status at the evidence root; corrected the reference paths to immutable pre-native/native-phase records. No scientific values, source seals or bounds changed. Initial helper and delivery manifest retained."
+    },
+    {
+      "stage": "Unpublished public verifier v2",
+      "outcome": "Old CSV helper takes a directory/name pair; replaced the new verifier call with an explicit one-path CSV reader. No scientific code or values changed."
+    }
+  ],
+  "log_sha256": {
+    "288-producer.log": "858ca7428d6adf4c4cd49aefefc7402451b6db82cd3bd1590a781356b7051004",
+    "288-audit.log": "2c57e41015abdea9d81a8c91d0860c37a7841a7f9fa24de10a4a105fc52ce836",
+    "288-synthetic-v1.log": "a3fe2c9e8705ad5f7393770e836394a36cb0af48eee8110f2b1b55e61eac36a5",
+    "288-synthetic-v2.log": "a7f6d40d86c3e95bcfc7fb34def396f48ae9393061cc94bb7ecad570f99d2010",
+    "288-synthetic-v3.log": "ed8048ccdd66a4497aec5a362f3b37b4a01396d0db98e58199aec84e09d331c0",
+    "288-synthetic-v4.log": "ed673e19c28ba46735aca2d5e9b15a2748a389761174676439ca82226b51f875",
+    "288-synthetic-v5.log": "c7449c9c810af78bce8c258519fb165d7a0f270d374091ccf61f16bfb639be67"
+  },
+  "boundary": "Two same-library derivative compositions; qualified projections and source boundary only. No learned circuit, fresh prediction, speedup or generalQB solution. No private manuscript exported."
+}

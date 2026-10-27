@@ -6,7 +6,25 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current constraint: source state is sufficient to seed the sensitivity shift
+## Current constraint: initial-state sufficiency does not imply a local explanation
+
+288 holds the source-only edited baseline trajectory fixed and crosses the
+source recurrence, receiving/transmission and head response maps between False
+and edited anchors. Both primary sufficient accounts fail 0/32: source alone
+and receiving-plus-head alone. Head alone and the additive account also fail
+0/32. Every account fails the vector bound in every case; finite-score matches
+alone would conceal this failure.
+
+The 4,384-record required numerical gate passes, while seven narrow original
+1e-4 finite-coordinate diagnostics remain failed under the declared cached replay
+bounds. These are actual finite modified functions, not backward overrides.
+The receiving factor includes source K/V encoding/coupling as well as receiving
+recurrence. It does not isolate a learned query or MLP circuit. The next issue
+is which primitive operations generate this conditional composition, rather
+than whether a large gradient rotation by itself names a mechanism.
+[288 explanation, all failures and budget](analysis/288-source-receiver-tangent-routing.md).
+
+## Earlier constraint: source state is sufficient to seed the sensitivity shift
 
 The 287 factorial crosses the False and edited-forecast source row with the other
 incoming rows after block 1. Source-only recreates the gradient/finite-effect

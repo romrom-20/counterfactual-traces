@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "synthetic": true,
+  "checkpoint_loaded": false,
+  "unequal_length_cases": 4,
+  "arms": 8,
+  "all_coordinate_FD_checks": 512,
+  "tamper_rejected": [
+    "bounds",
+    "FD",
+    "required"
+  ],
+  "scientific_outcomes_not_required": true,
+  "counts": {
+    "full_F": 4,
+    "first_block": 4,
+    "anchor_suffixes": 8,
+    "anchor_blocks": 16,
+    "modified_forwards": 448,
+    "modified_blocks": 1344,
+    "modified_heads": 448,
+    "tape_backwards": 32,
+    "triangular_blocks": 96,
+    "triangular_block_VJPs": 96,
+    "triangular_head_VJPs": 32,
+    "native_suffixes": 8,
+    "native_blocks": 16
+  }
+}
