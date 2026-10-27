@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "experiment": 285,
+  "source_sha256": "253dd39cc18dd70afa2ccf726107f9e0d10a2c3c6c2cb57090f2dee4236f46ea",
+  "design_sha256": "293d84fd97a56d75ac9bc42b88a32284caa488a664e82879516cddbddeb3f00d",
+  "forecast_status_sha256": "6d0d8475af2d1340e39e6d84812b3b193550253ddc2c67ceec82902e333432f2",
+  "bank_config_sha256": "e6a4217466f75613d165aa9dad6c766a1899f7b0e95e0a21f8ef9a5cd3d05703",
+  "ordinary_true": 0,
+  "full_current_first_source_SiLU": 0,
+  "numerical_checks": 4288,
+  "False_anchors": 32,
+  "False_coefficient_vectors": 96,
+  "finite_head_maps": 224,
+  "raw_checks": {
+    "total": 320,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "forecast_checks.csv": "6c20842768bbbaacc11567aeeabcca5b5647c238c094c2bee6a6c12d5e506e9d",
+    "forecast_coefficients.csv": "bd99b5e3d325522658fd6c5421895b7c75eafe08039d48304c5300402ced31f4",
+    "forecast_raw.csv": "c6e5660f0ff6262b29649a15a2d1cb965234ef1de0bf7c108911dac7e0b6f1fc",
+    "forecast_heads.csv": "7a2edc4aae14184c354985fc50e795252200e5b79669b99aabe89d3308027a85",
+    "forecast_scores.csv": "4b963b68ed620b015ec954354d9012e15cc8dc47e075c2846944a9dbcae5d0d2"
+  },
+  "ended": "2026-10-27T08:03:06.792509+00:00",
+  "boundary": "Declared False coefficients and exact public Float32 operations; raw CPU64 projections retained diagnostically, no current source SiLU before seal or whole-block derivative claim."
+}

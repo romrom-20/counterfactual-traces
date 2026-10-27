@@ -2,6 +2,25 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 285: a shared direction can miss confidence without missing the answer candidate
+
+The first-source False-state calculation transfers to four new causal-prefix
+structures: 32/32 native/source-write passes, eight per layout. This extends beyond
+new literal names. The historical donor direction remains close enough to pass
+all local and final vector criteria; its six failures are only finite-margin
+errors. Matching the current forecast magnitude does not rescue those errors.
+The fixed rule is more precise, but most of the direction still transfers.
+
+The stronger repair hypothesis fails 15/32. C predicts all 19 material continued
+effects, but four fail its local repair bound, and13 are below materiality.
+Exact calibration itself has only19 eligible cases. Even zeroing the source write
+update preserves the restricted True/False candidate winner32/32 while failing
+native fidelity. Counting answer agreement would therefore miss these dependencies
+and does not establish necessity or competent grounding. All forecasts were sealed
+publicly before True; all 27 later source/receiving work remains finite. The result
+supports one native calculation under that budget, not a complete generator.
+[Report and exact denominator](analysis/285-native-structure.md).
+
 ## 283–284: predict the small modulation at the changed operating point
 
 The isolated attention correction around False missed its interaction with carry.

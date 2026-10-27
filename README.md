@@ -7,8 +7,25 @@ particular residual-stream displacement, and whether the operations generating
 and propagating it let us forecast native residual and verdict from the **False
 computation, known edit and model weights**.
 
-**Current answer: a tested local generator and a conditional correction account;
-the broader mechanism remains open.** The latest rule predicts how
+**Current answer: the first-source rule transfers across changed prompt structures;
+the complete native generator remains open.** On 32 new table, user-rule,
+dialogue and XML cases, the unchanged False-coefficient calculation predicts the
+native first-source write and final response **32/32**, eight per layout.
+Historical donor directions still pass all local and final vector bounds; their
+six failures are score-margin errors, giving 26/32 and dialogue 4/8. Most of the
+direction is shared. [What transferred and what did not](docs/analysis/285-native-structure.md).
+
+The stronger native-repair claim **fails, 15/32**. C predicts the continued effect
+in all 19 cases reaching the .02-nat materiality guard, but four fail its local
+repair bound; thirteen remain ineligible failures. Even the False-write control
+keeps the same restricted True/False candidate winner while failing native
+fidelity. This is residual/margin prediction under substantial finite computation,
+not verifier competence, a unique learned circuit or full Question B closure.
+All forecasts and qualification were public before native measurement.
+[Complete evidence](results/native-structure-285/README.md) ·
+[Reproduce](research/README.md#structural-native-source-test-285).
+
+**Earlier: a tested conditional correction account.** The carried-state rule predicts how
 attention modulates the correction at the second source MLP's carried input. Its
 frozen rule passes **32/32 old joint cases**, including all 16 dependent schema
 pairs, then **32/32 fresh literal contexts** with forecasts publicly sealed before
@@ -90,7 +107,7 @@ fresh-literal successes. The new [research review](docs/analysis/272-research-re
 separates those predictions from intervention-policy explanations and establishes
 a concrete baseline for the next computation budget.
 
-[Start here](docs/READING-GUIDE.md) · [Latest qualified result](docs/analysis/283-carried-state-response.md) ·
+[Start here](docs/READING-GUIDE.md) · [Latest native source test](docs/analysis/285-native-structure.md) ·
 [Fresh prediction](docs/analysis/284-carried-state-response.md) ·
 [Cost baseline](docs/analysis/272-research-review-and-causal-baseline.md) ·
 [Question B](docs/QUESTION-B.md) · [Reproduce](research/README.md) ·
@@ -108,7 +125,7 @@ They distinguish conditional local prediction, actual native behavior and
 materiality limits. [Reproduction commands](research/README.md#carried-state-response-283284)
 include the declared finite budget and the exact-replay continuation requirement.
 
-![The carried-state correction and its controls](docs/figures/carried-response/283/carried-response.png)
+![Native structural transfer and the failed stronger account](docs/figures/native-structure-285/native-structure.png)
 
 ![How the receiving computation changes across layers](docs/figures/reader/changing-reader.png)
 
