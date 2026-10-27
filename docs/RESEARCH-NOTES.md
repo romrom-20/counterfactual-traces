@@ -2,6 +2,28 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 288: the initial cause and the response-map explanation are different
+
+287's initial source change is sufficient to seed the sensitivity shift. 288
+shows that its source-local recurrence maps alone do not recover the shift,
+nor do receiving/transmission-plus-head maps alone: each 0/32. Their additive
+combination also fails 0/32; all these failures include the vector criterion.
+Final head alone fails, so a final-normalization-only sufficient account does
+not explain this test.
+
+The source and receiving maps compose multiplicatively in the gradient. Their
+mixed term can cancel directions introduced by separate swaps. This is ordinary
+derivative algebra, not a newly identified learned feature. The causal diagnostic
+shows that neglecting this coupling is quantitatively wrong in the retained
+contexts. It does not split source K/V construction from receiving queries or
+local receiving processing. All later source/receiver/head work counts.
+
+Required numerical gate 4384/4384 passes; seven original narrow finite-coordinate
+failures remain. The old 287 failed gate is untouched. A future primitive test
+must preserve this conditional composition and qualify its actual finite
+interventions, rather than label an adjoint norm peak as the mechanism.
+[Full test and numerical scope](analysis/288-source-receiver-tangent-routing.md).
+
 ## 287: source state seeds importance before full fidelity is recovered
 
 Crossing source and other incoming states resolves one ambiguity left by 286.

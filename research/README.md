@@ -1,5 +1,58 @@
 # Reproduce the current research
 
+## Source and receiving response maps (288)
+
+[Result](../docs/analysis/288-source-receiver-tangent-routing.md) ·
+[Protocol](../docs/experiments/288-source-receiver-tangent-routing.md) ·
+[Evidence](../results/tangent-routing-288/README.md)
+
+This retrospective eight-corner diagnostic distinguishes source recurrence,
+receiving/transmission and final-head response maps. Every arm is an actual
+finite recentered function with the same edited zero-displacement trajectory.
+Both primary sufficient accounts fail 0/32, as do the three secondary accounts.
+The required gate passes4,384 checks; seven narrow finite-coordinate diagnostics
+remain failed at1e-4 under the separately declared .002 cached replay bound.
+The original287 failed gate is unchanged. General Question B remains open.
+
+Dependency-free public record check, from the repository root:
+
+```sh
+python -S research/boolean_coupling/verify288.py
+```
+
+For model replication, first regenerate the qualified285 forecasts and the
+287/287b boundary-qualified references using the sections below. Retain the
+original287 audit failure; the287b status must be `qualified_boundary_only`.
+The small CPU references likewise come from the preceding preflights. New
+output directories are required. The pinned packages/checkpoint and installed
+source hashes must match. These commands run from the repository root:
+
+```sh
+ROUTING_REFERENCE=/path/to/qualified/native-structure-285
+ROUTING_PREVIOUS=/path/to/source-receiver-readout-287
+ROUTING_QUALIFICATION=/path/to/boundary-qualification-287b
+ROUTING_CPU_REFERENCE=/path/to/synthetic-285/complete
+ROUTING_CPU_PREVIOUS=/path/to/synthetic-287/complete
+ROUTING_CPU_QUALIFICATION=/path/to/synthetic-boundary-287b
+ROUTING_OUTPUTS=/path/to/new/output-parent
+python -m research.boolean_coupling.preflight288 --out "$ROUTING_OUTPUTS/cpu-288" --reference-285-fixture "$ROUTING_CPU_REFERENCE" --previous-287-fixture "$ROUTING_CPU_PREVIOUS" --qualification-287b-fixture "$ROUTING_CPU_QUALIFICATION"
+python -m research.boolean_coupling.run288 --reference-285 "$ROUTING_REFERENCE" --previous-287 "$ROUTING_PREVIOUS" --qualification-287b "$ROUTING_QUALIFICATION" --out "$ROUTING_OUTPUTS/routing-288"
+python -m research.boolean_coupling.audit288 --run "$ROUTING_OUTPUTS/routing-288" --reference-285 "$ROUTING_REFERENCE" --previous-287 "$ROUTING_PREVIOUS" --qualification-287b "$ROUTING_QUALIFICATION"
+```
+
+The source files must be committed before checkpoint execution; the producer
+checks Git bytes and checkpoint hashes. Initial/per-case reserve guards are
+640/384MiB, with a128MiB case-array cap. One False observation per case supplies
+prefix KV; no True gradient or new True call is made. All finite source and
+receiving work, backward passes and full-vocabulary heads count. See status.json
+and the report for the substantial diagnostic budget; there is no speedup claim.
+
+`publish288` exports scalar evidence and an omitted-array inventory, never
+weights, activations or private articles. `describe288 --out /new/figure-dir`
+regenerates all-case plots from those records and refuses to overwrite an
+existing directory. `publish288 --seal` binds the final report, plot provenance,
+export inventory and all78 scientific sources after presentation is complete.
+
 ## Source and receiving initial states (287)
 
 [Result](../docs/analysis/287-source-receiver-readout.md) ·

@@ -1,5 +1,11 @@
 # Results and evidence
 
+[288: source and receiving response maps](tangent-routing-288/README.md) retains
+all 32 cases and every finite corner. Both primary sufficient accounts and the
+head/additive secondary accounts fail 0/32. Required gate 4,384/4,384 passes;
+seven narrow coordinate diagnostics stay failed. Broad conditional composition
+is tested, not a learned primitive circuit or a compact native predictor.
+
 [287 / 287b: source and receiving initial-state factorial](source-receiver-readout-287/README.md)
 retains source-only 32/32, receiving-only 0/32, secondary additive 30/32 and all
 complete native failures for the three incomplete corners. Original numerical

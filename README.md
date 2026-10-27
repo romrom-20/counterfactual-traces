@@ -13,7 +13,26 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: the initial source state seeds a changed sensitivity
+## Latest: source and receiving response maps must be composed
+
+Changing the initial source can seed a changed sensitivity. But changing only
+the source's later local response maps does not reproduce it: **0/32** retained
+contexts. Changing receiving/transmission and head maps alone also gives **0/32**,
+as does adding the two separate effects. The final head alone fails too.
+
+These are finite modified computations with the same edited baseline trajectory;
+their derivatives pass **4,384 required checks**. Seven narrow coordinate
+diagnostics remain failed under the declared cached replay bounds. The mixed
+response matters here, but it does not identify a learned circuit or yield a
+compact native predictor. General Question B remains open.
+
+[What the response-map test rules out](docs/analysis/288-source-receiver-tangent-routing.md) ·
+[Evidence](results/tangent-routing-288/README.md) ·
+[Reproduce](research/README.md#source-and-receiving-response-maps-288)
+
+![Source, receiving and head response maps tested separately](docs/figures/tangent-routing-288/tangent-routing.png)
+
+## Earlier: the initial source state seeds a changed sensitivity
 
 Changing only the source row after block 1 recreates the measured sensitivity
 shift in **32/32 old contexts**. Changing only the other incoming rows passes
