@@ -1,0 +1,11 @@
+{
+  "stage": "forecast-publication-check",
+  "initial_verifier_sha256": "fca9c3f3b537810c4f6c4015727f7119eec6fd4d449b264f075f5bc2438d117c",
+  "original_error": "Pinned production checkpoint/runtime",
+  "cause": "Delivery verifier expected unindexed mps, while actual torch device string is mps:0.",
+  "correction": "Accept only mps or mps:0; all checkpoint/source/runtime/numerical checks remain unchanged.",
+  "scientific_sources_changed": false,
+  "scientific_bounds_changed": false,
+  "forecast_manifest_changed": false,
+  "initial_source_retained_locally": true
+}
