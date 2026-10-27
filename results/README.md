@@ -1,5 +1,14 @@
 # Results and evidence
 
+[285: native source transfer across prompt structures](native-structure-285/README.md)
+contains H1 C 32/32/eight per layout and the failed H2 repair claim15/32. Historical
+donors pass all vector criteria but miss six margin bounds and dialogue 4/8.
+All19 material continued effects are predicted;four of those fail local repair;
+13 ineligible cases remain failures. Native calibration19/32. Forecasts+qualification
+were public before True. 4,288+992 required checks and320 rawdiagnostics pass, with
+32 unhooked True replays. Substantial finite later-source/receiving computation
+and all numerical/grounding/novelty boundaries remain explicit.
+
 [283: carried-state response](carried-state-response-283/README.md) and
 [284: sealed fresh confirmation](carried-state-forecast-284/README.md) preserve
 the unchanged rule's 32/32 joint outcomes on each set, including 16/16 dependent

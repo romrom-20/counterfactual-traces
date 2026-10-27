@@ -1,5 +1,79 @@
 # Reproduce the current research
 
+## Structural native source test (285)
+
+[Result and failed stronger account](../docs/analysis/285-native-structure.md) ·
+[Frozen protocol](../docs/experiments/285-native-structure.md) ·
+[Evidence and original public receipt](../results/native-structure-285/README.md)
+
+The unchanged first-source rule passes 32/32 native/source-write cases across four
+new causal-prefix layouts. The stronger C-minus-matched-donor repair claim fails
+15/32; every ineligible case remains in the denominator. Donor vectors still pass
+all local/vector bounds, and six confidence errors determine their native failures.
+This does not replace the 27 later source blocks or finite receiving computation.
+
+Repository-only verification requires Python stdlib and Git history, not model
+packages or raw arrays:
+
+```sh
+python -S research/boolean_coupling/verify285.py --phase forecast
+python -S research/boolean_coupling/verify285.py --phase complete
+```
+
+Use a full-history clone for the complete verifier: it checks exact seal bytes in
+the original pre-native public commit. For actual model repetition, first regenerate
+279's qualified forecast arrays using the later source-activation instructions.
+The frozen donor bank reads only their False/C forecast writes. Use pinned Python
+3.12/Float32 MPS/eager, the cached checkpoint, and NEW output directories. Keep
+host headroom beyond the frozen 1-GiB initial/512-MiB per-case guards; large arrays
+and the pinned checkpoint are not included in Git.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+STRUCTURE_BANK=/path/to/regenerated/source-activation-forecast-279
+STRUCTURE_OUTPUTS=/path/to/new/outputs
+mkdir -p "$STRUCTURE_OUTPUTS"
+python -m boolean_coupling.preflight285 --out "$STRUCTURE_OUTPUTS/synthetic-285"
+python -m boolean_coupling.run285 forecast --run "$STRUCTURE_OUTPUTS/structural-repeat-285" --reference-279 "$STRUCTURE_BANK"
+python -m boolean_coupling.audit285 forecast --run "$STRUCTURE_OUTPUTS/structural-repeat-285" --reference-279 "$STRUCTURE_BANK"
+```
+
+These stages actually ran. The synthetic pipeline includes unequal lengths,
+variable source positions, all endpoints, unhooked True equivalence and six
+premature/corrupted-receipt rejections before any forward. Tiny scientific outcomes
+need not pass; all software/numerical checks must pass. The real producer used
+224 full forwards; forecast audit 4,288 required checks plus 320 raw diagnostics
+all passed. Historical bank production and qualification are additional work.
+
+The original production CLI deliberately enforces a public forecast receipt for
+all real runs. A repetition of published inputs is **not fresh confirmation** and
+must label itself accordingly. Its new seal has new execution times/hashes, so
+the original receipt cannot authorize it. Publish the repetition's exact seal at
+`results/native-structure-285/pre-native/forecast-seal.json` on a separate research
+branch before invoking native measurement; use a clean receipt destination rather
+than overwriting this repository's original sealed records. The publication helper
+is write-once and refuses different existing bytes. An independent worktree rooted
+at scientific freeze `813f161` can hold a repetition's own receipt, with the
+posthoc delivery helpers copied from the completed release. There is currently no
+real-checkpoint local-only bypass. Exact native commands, once that new receipt
+is public, are:
+
+```sh
+STRUCTURE_PUBLIC_COMMIT=YOUR_PUBLISHED_REPETITION_COMMIT
+STRUCTURE_PUBLIC_BRANCH=YOUR_REPETITION_BRANCH
+python -m boolean_coupling.run285 native --run "$STRUCTURE_OUTPUTS/structural-repeat-285" --reference-279 "$STRUCTURE_BANK" --public-commit "$STRUCTURE_PUBLIC_COMMIT" --public-branch "$STRUCTURE_PUBLIC_BRANCH"
+python -m boolean_coupling.audit285 native --run "$STRUCTURE_OUTPUTS/structural-repeat-285" --reference-279 "$STRUCTURE_BANK"
+```
+
+Original native production was 32 full forwards, plus 32 ordinary unhooked True
+audit replays. All 992 native numerical checks pass. The audit retains the failed
+H2 materiality and local-repair cases; successful numerical validation does not
+mean both scientific hypotheses passed. No source/Jacobian tolerance was changed.
+`describe285.py --run NEW_RUN --out NEW_FIGURE_DIR` creates the posthoc all-case
+figure from qualified records; `publish285.py` packages phase records and omitted
+array inventories. Every destination is new; private articles stay local.
+
+
 ## Carried-state response (283/284)
 
 [283 qualified retrospective result](../docs/analysis/283-carried-state-response.md) ·

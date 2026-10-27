@@ -6,7 +6,30 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer: a conditional correction predicts fresh outcomes in 284
+## Current answer: native first-source prediction transfers; the complete generator is open
+
+The unchanged False-coefficient cubic predicts native first-source writes and
+final residual/margins in 32/32 new prefix-structure cases, eight per layout.
+Affine L fails the joint criterion. Historical donor directions retain close
+local alignment and pass all vector criteria, but six margin errors leave them
+26/32 and dialogue 4/8; they fail the complete transfer requirement. This shows
+better score fidelity from the current-state calculation without establishing a
+unique case-specific direction.
+
+The stronger C-minus-matched-donor native repair claim fails 15/32. Only 19 actual
+margin effects reach .02 nat; all 19 continued effects are predicted, but four
+material cases fail the local write repair bound. Exact T calibration is eligible
+only 19/32. All cases remain in the denominator. Agreement of the restricted
+True/False winner, including for the False-write control, is not evidence of
+causal necessity or successful grounding.
+
+The bank uses only old sealed False-derived forecasts. New forecasts and their
+qualification were public before ordinary True measurements. All 27 later source
+MLPs and receiving operations remain finite. This is a transfer test of one native
+source calculation, not an efficient global predictor or complete learned circuit.
+[285 report and limits](analysis/285-native-structure.md).
+
+## Earlier: a conditional correction predicts fresh outcomes in 284
 
 We can now predict a particular missing correction's local change at the second
 source MLP, from the approximation's own carried state and attention step. The

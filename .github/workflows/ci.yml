@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: astral-sh/setup-uv@v6
         with:
           version: "0.12.17"
@@ -56,5 +58,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify_carried_results.py --experiment 284
       - name: Verify sealed structural native-source forecasts before True
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify285.py --phase forecast
+      - name: Verify structural native outcomes and failed stronger repair
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify285.py --phase complete
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

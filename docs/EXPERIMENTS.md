@@ -2,7 +2,22 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 283–284 — predicting the carried-state response
+## Latest: 285 — native source prediction across prompt structures
+
+The unchanged cubic first-source rule passes H1 32/32, eight per layout, after
+new table/user-rule/dialogue/XML prefixes. Donor D/M pass 26/32 but dialogue 4/8;
+their local/receiving/verdict vectors pass all 32 and six score margins fail.
+H2 native-repair claim fails 15/32: 19 material effects are predicted, four of those
+fail local repair;13 ineligible cases stay failures. Full T calibration19/32.
+Forecast qualification and public seal precede native True. 4,288 forecast and
+992 native checks plus320 raw1e-4 diagnostics pass;32 unhooked True replays pass.
+All27later source/allreceivers finite;no circuit/efficiency/generalQB claim.
+
+[Protocol](experiments/285-native-structure.md) ·
+[Report](analysis/285-native-structure.md) ·
+[Evidence](../results/native-structure-285/README.md)
+
+## 283–284 — predicting the carried-state response
 
 283's fixed normalized gate/up product response passes its joint criteria in
 32/32 old contexts and all 16 dependent schema pairs. Gate-only, up-only and

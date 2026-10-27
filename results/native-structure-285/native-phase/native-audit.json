@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "experiment": 285,
+  "source_sha256": "253dd39cc18dd70afa2ccf726107f9e0d10a2c3c6c2cb57090f2dee4236f46ea",
+  "design_sha256": "293d84fd97a56d75ac9bc42b88a32284caa488a664e82879516cddbddeb3f00d",
+  "native_status_sha256": "8a55a87fa3f3489eb2fb8f1530dd24518a55128d19065810f68c282a2324f86c",
+  "native_started_sha256": "a70fdfe5d388deb729d30d42a73f9f89bd32376b8af98e64604b8d04b3a87656",
+  "forecast_seal_sha256": "c4d83a50801bf72fab5c62b143d597fe9055fc160c2c08d21cd3ea52abb00abc",
+  "numerical_checks": 992,
+  "finite_head_maps": 256,
+  "ordinary_True_replay_forwards": 32,
+  "native_counts": {
+    "C": 32,
+    "L": 16,
+    "D": 26,
+    "M": 26,
+    "Z": 0,
+    "T": 32
+  },
+  "local_counts": {
+    "C": 32,
+    "L": 0,
+    "D": 32,
+    "M": 32,
+    "Z": 0,
+    "T": 32
+  },
+  "H1_counts": {
+    "C": 32,
+    "L": 0,
+    "D": 26,
+    "M": 26,
+    "Z": 0,
+    "T": 32
+  },
+  "H1_C_layouts": {
+    "dialogue": 8,
+    "table": 8,
+    "user_rule": 8,
+    "xml": 8
+  },
+  "H1_C_passes": true,
+  "effect_counts": {
+    "C": 19,
+    "L": 0,
+    "D": 0,
+    "M": 0,
+    "Z": 0,
+    "T": 19
+  },
+  "repair_counts": {
+    "C": 26,
+    "L": 0,
+    "D": 0,
+    "M": 0,
+    "Z": 0,
+    "T": 32
+  },
+  "H2_counts": {
+    "C": 15,
+    "L": 0,
+    "D": 0,
+    "M": 0,
+    "Z": 0,
+    "T": 19
+  },
+  "H2_C_layouts": {
+    "dialogue": 8,
+    "table": 1,
+    "user_rule": 2,
+    "xml": 4
+  },
+  "H2_C_passes": false,
+  "H2_margin_eligible": 19,
+  "retained_forecast_raw_checks": {
+    "total": 320,
+    "failed": 0,
+    "original_bound": 0.0001
+  },
+  "csv_sha256": {
+    "native_checks.csv": "6b04c01ab0bd2f96e90024160879e2bd742b5f0245a599d975e1218ce3ea14f5",
+    "native_heads.csv": "c939862418ad4bfbc02ad856719949da2f99f3a4e3639b7682e7f8ff658dc9b0",
+    "native.csv": "dbd4a5f3926710b4208c2e176f4451553eeca202d1ffce804c873729123a77a0",
+    "local.csv": "eae21ce4be52b943f5a7370492f2624105881bae5510b0f4f06346f52e911e93",
+    "h1.csv": "4a68bb349d598b3bbee125509e1ec12085befc4501d021c12640571c2e6f6f93",
+    "effect.csv": "33579b02b940efb7970469910a3e111c682e588716fe06ff3b13932052167321",
+    "repair.csv": "19c2d7e571bf2516a61f2f6c7ac346bce8205720d00cad9291e878dcee2d4b4e",
+    "h2.csv": "1c4579bf2fd876e711cba16648a6e6541183a1ec32ae7dbd1406f40410e53738"
+  },
+  "ended": "2026-10-27T08:07:09.585705+00:00",
+  "boundary": "Structural transfer with a historical False-forecast donor bank. Substantial finite later-source/receiver computation; no learned-circuit, efficiency, novelty-priority or general Question B closure claim."
+}
