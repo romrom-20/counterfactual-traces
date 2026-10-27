@@ -1,0 +1,128 @@
+{
+  "all_cases": 32,
+  "hypotheses": {
+    "cached": {
+      "S": {
+        "passes": 32,
+        "layouts": {
+          "dialogue": 8,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.026925951808337022,
+        "median_cosine": 0.9996758598004434,
+        "median_finite_error": 0.0008029937744140625
+      },
+      "R": {
+        "passes": 0,
+        "layouts": {
+          "dialogue": 0,
+          "table": 0,
+          "user_rule": 0,
+          "xml": 0
+        },
+        "population_pass": false,
+        "material_passes": 0,
+        "median_relative": 1.0017078788529936,
+        "median_cosine": -0.036331413200773315,
+        "median_finite_error": 0.025569915771484375
+      },
+      "ADD": {
+        "passes": 30,
+        "layouts": {
+          "dialogue": 6,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.038559818365881696,
+        "median_cosine": 0.9992758049775063,
+        "median_finite_error": 0.0026340484619140625
+      }
+    },
+    "full_shape": {
+      "S": {
+        "passes": 32,
+        "layouts": {
+          "dialogue": 8,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.026926162610968966,
+        "median_cosine": 0.9996758963688168,
+        "median_finite_error": 0.0008029937744140625
+      },
+      "R": {
+        "passes": 0,
+        "layouts": {
+          "dialogue": 0,
+          "table": 0,
+          "user_rule": 0,
+          "xml": 0
+        },
+        "population_pass": false,
+        "material_passes": 0,
+        "median_relative": 1.0017068218930776,
+        "median_cosine": -0.03627803509639701,
+        "median_finite_error": 0.025569915771484375
+      },
+      "ADD": {
+        "passes": 30,
+        "layouts": {
+          "dialogue": 6,
+          "table": 8,
+          "user_rule": 8,
+          "xml": 8
+        },
+        "population_pass": true,
+        "material_passes": 21,
+        "median_relative": 0.03856246409105428,
+        "median_cosine": 0.9992757702396359,
+        "median_finite_error": 0.0026340484619140625
+      }
+    }
+  },
+  "native_counts": {
+    "FF": 0,
+    "MF": 0,
+    "FM": 0,
+    "MM": 32
+  },
+  "native_scalar_counts": {
+    "cached": {
+      "FF": 26,
+      "MF": 32,
+      "FM": 26,
+      "MM": 32
+    },
+    "full_shape": {
+      "FF": 26,
+      "MF": 32,
+      "FM": 26,
+      "MM": 32
+    }
+  },
+  "original_numeric_gate_passed": false,
+  "material_eligible": 21,
+  "classification_disagreements": [],
+  "median_receiving_relative": {
+    "FF": 1.0019639831143303,
+    "MF": 0.08796036565098364,
+    "FM": 1.0026394029911554,
+    "MM": 0.0025896155779228007
+  },
+  "median_native_scalar_error": {
+    "FF": 0.032101932609211875,
+    "MF": 0.0042893572551173705,
+    "FM": 0.031075290240875103,
+    "MM": 0.0035847782199712984
+  }
+}

@@ -2,6 +2,29 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 287: source state seeds importance before full fidelity is recovered
+
+Crossing source and other incoming states resolves one ambiguity left by 286.
+With later computation adaptive, changing only the source reproduces the defined
+sensitivity shift 32/32; changing only the initial receivers does not, 0/32.
+The source-only finite contrast has .00080-nat median error. That is evidence
+about a sufficient initial signal, not the absence of receiving feedback.
+
+Its complete native continuation still fails 0/32, with median receiving error
+8.8%. Both incoming factors are needed for the tested full-fidelity criterion.
+The same state can therefore explain which source differences affect the margin
+without reproducing every receiving update. Neither scalar success nor the large
+source share of a defined factorial is a learned feature or whole-network account.
+
+One original intermediate adjoint check fails. The posthoc 287b scope qualifies
+only the actual intervention-boundary gradients, at the unchanged tolerance and
+with additional projected FD checks. Both gradient paths give the same outcomes.
+The original failed gate and raw-coordinate failures remain visible. A next
+mechanistic test should distinguish source-local tangent transmission from the
+changed receiver response while preserving the chosen forward trajectory, rather
+than infer a primitive from gradient rotation alone.
+[Full result and numerical boundary](analysis/287-source-receiver-readout.md).
+
 ## 286: a good source direction still needs the changed readout
 
 The six donor confidence errors suggested a fixed False-gradient test. It fails:

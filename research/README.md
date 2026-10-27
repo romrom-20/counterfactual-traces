@@ -1,5 +1,71 @@
 # Reproduce the current research
 
+## Source and receiving initial states (287)
+
+[Result](../docs/analysis/287-source-receiver-readout.md) ·
+[Original protocol](../docs/experiments/287-source-receiver-readout.md) ·
+[Posthoc boundary qualification](../docs/experiments/287b-boundary-qualification.md) ·
+[Evidence](../results/source-receiver-readout-287/README.md)
+
+This is a retrospective factorial on all 32 old 285/286 contexts, with source and
+other incoming rows independently swapped after block 1. All later source and
+receiving operations remain finite and adaptive. Source-only recreates the defined
+sensitivity shift; it does not recover complete native residual fidelity.
+
+The original audit exits nonzero and preserves one failed intermediate-adjoint
+check before writing any scientific table. The separately named 287b analysis
+qualifies ONLY the actual boundary gradients at the original tolerance, retains
+that failed gate and compares both gradient estimates. On a repeat, inspect the
+original audit before invoking the qualification: it may reject other failures.
+Do not assume a later result or use it to weaken the original check.
+
+Repository-only verification requires the standard library and full Git history:
+
+```sh
+python -S research/boolean_coupling/verify287.py
+```
+
+First regenerate the qualified 285, 286 and 286b references using the preceding
+experiment instructions below. A rerun needs its own forecast receipt when that
+stage requires one; the original receipt cannot certify new calls. Use pinned
+Python 3.12, Float32 MPS/eager, cached checkpoint and NEW output directories.
+The original 70-source freeze is ff01b72, narrower 73-source freeze 98f58d5.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+FACTOR_OUTPUTS=/path/to/new/outputs
+FACTOR_REFERENCE=/path/to/qualified/native-structure-285
+FACTOR_READOUT=/path/to/qualified/readout-286
+FACTOR_FULL=/path/to/qualified/full-shape-286b
+FACTOR_CPU_REFERENCE=/path/to/synthetic-285/complete
+FACTOR_CPU_READOUT=/path/to/synthetic-286/complete
+FACTOR_CPU_FULL=/path/to/synthetic-286b/complete
+mkdir -p "$FACTOR_OUTPUTS"
+python -m boolean_coupling.preflight287 --out "$FACTOR_OUTPUTS/cpu-287" --reference-285-fixture "$FACTOR_CPU_REFERENCE" --readout-286-fixture "$FACTOR_CPU_READOUT" --qualifier-286b-fixture "$FACTOR_CPU_FULL"
+python -m boolean_coupling.run287 --reference-285 "$FACTOR_REFERENCE" --readout-286 "$FACTOR_READOUT" --qualifier-286b "$FACTOR_FULL" --out "$FACTOR_OUTPUTS/factorial-287"
+python -m boolean_coupling.audit287 --run "$FACTOR_OUTPUTS/factorial-287" --reference-285 "$FACTOR_REFERENCE" --readout-286 "$FACTOR_READOUT" --qualifier-286b "$FACTOR_FULL"
+```
+
+After inspecting and preserving that audit, run the separate boundary check:
+
+```sh
+python -m boolean_coupling.preflight287b --fixture "$FACTOR_OUTPUTS/cpu-287/complete" --out "$FACTOR_OUTPUTS/cpu-287b"
+python -m boolean_coupling.qualify287b --run "$FACTOR_OUTPUTS/factorial-287" --reference-285 "$FACTOR_REFERENCE" --out "$FACTOR_OUTPUTS/boundary-287b"
+```
+
+287 uses 32 ordinary False captures, 32 first blocks, 1,792 cached suffix forwards,
+128 cached backwards, 3,456 full-shape block forwards, 3,456 reverse block
+recomputations/VJPs and 128 head VJPs. 287b makes no model calls. Retain the original
+768 MiB initial / 512 MiB per-case guards and 64 MiB case-array cap. This is not
+an efficiency result. The initial zero-case disk stop and unchanged retry are
+preserved alongside all numerical failures.
+
+`publish287` exports scalar records and inventories; it never exports vectors or
+article drafts. `describe287 --out /path/to/new/figures` plots the exported scalar
+package with no model calls and refuses to overwrite prior renderings. `publish287
+--seal` binds final records, original scientific sources and separate posthoc
+helpers. CI recomputes scalar/vector-statistic arithmetic, not omitted arrays.
+
 ## State-dependent readout (286)
 
 [Explanation](../docs/analysis/286-state-dependent-readout.md) ·
