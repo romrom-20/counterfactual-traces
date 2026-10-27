@@ -2,6 +2,32 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 286: a good source direction still needs the changed readout
+
+The six donor confidence errors suggested a fixed False-gradient test. It fails:
+False sensitivity identifies none of the six, whereas a gradient at the edited
+forecast identifies all six and predicts the native scalar correction32/32.
+The gradients have median source cosine .027. Their full incoming suffix states
+differ, so that rotation cannot be assigned to source versus receiving changes.
+
+Direct interventions supply the useful constraint. A component along the forecast
+gradient, median2.32% of the source correction's norm, preserves all19 material
+finite effects; its large orthogonal complement preserves none. The False split
+reverses that result. Projections are defined to preserve first-order scalar
+effects; small projected norms alone are unsurprising high-dimensional geometry,
+not evidence of a sparse learned circuit. The finite intervention outcome and the
+failure of False sensitivity are what restrict the explanation.
+
+This is retrospective and expensive, not a new fresh forecast or a rescue of285's
+failed joint repair. All192 original raw cached-coordinate diagnostics remain
+failed. A separately frozen full-sequence reverse execution passes512 original
+1e-4 checks and agrees on the relevant gradient projection within3.64e-6nat.
+That strengthens this sensitivity comparison without recertifying every primitive
+or older whole-block derivative. The unresolved next distinction is changed
+source trajectory versus receiving trajectory versus their interaction; an
+adjoint norm trace alone cannot answer it.
+[Full account](analysis/286-state-dependent-readout.md).
+
 ## 285: a shared direction can miss confidence without missing the answer candidate
 
 The first-source False-state calculation transfers to four new causal-prefix

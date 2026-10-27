@@ -1,0 +1,84 @@
+{
+  "retrospective": true,
+  "original_source_freeze": "1dc4fdcfe592d61752f7cc0d8de9ea48525ea607",
+  "numerical_qualifier_freeze": "44ba857",
+  "cpu_development": [
+    {
+      "phase": "initial inherited fixture regeneration",
+      "outcome": "storage guard stopped the old285 fixture before new286 model calls; retained, no guard changed"
+    },
+    {
+      "phase": "v2 new286 saved audit",
+      "outcome": "producer numerical checks passed; scalar target field collided with group target; renamed target_effect before freeze, original attempt retained"
+    },
+    {
+      "phase": "v3 through v7",
+      "outcome": "all complete CPU qualifications passed; later versions add numerical witnesses and raw-score FD coverage, not scientific outcome requirements"
+    },
+    {
+      "phase": "286b v1",
+      "outcome": "blockwise full-shape adjoints agree with full-model full-tape gradients on all tiny source coordinates; saved audit passed before freeze"
+    }
+  ],
+  "actual_checkpoint": {
+    "286_seconds": 127.88,
+    "286_audit_seconds": 6.48,
+    "286b_seconds": 70.93,
+    "286b_audit_seconds": 5.33,
+    "scientific_source_changes_after_freeze": false,
+    "numerical_bounds_changed_after_execution": false,
+    "runtime_continuation_or_retry": false
+  },
+  "retained_numerical_failures": {
+    "286_original_coordinate_bound": 0.0001,
+    "total": 192,
+    "failed": 192,
+    "separate_predeclared_cached_bound": 0.002,
+    "full_shape_qualifier_does_not_relabel_original_checks": true
+  },
+  "pre_freeze_rejections": {
+    "finite_difference_record_tamper": "rejected by saved-array audit",
+    "numerical_bound_tamper": "rejected by saved-array audit"
+  },
+  "logs": [
+    {
+      "name": "286-producer.log",
+      "raw_sha256": "f295904889c5dfbadf3b4c13f6430855a2931824b3e0730634b0d44bc65b9ec4"
+    },
+    {
+      "name": "286-audit.log",
+      "raw_sha256": "083478f0cd5269043834a69f91163c9f1889eea7801bf81ba0d6ab2e8ace0f9c"
+    },
+    {
+      "name": "286b-producer.log",
+      "raw_sha256": "01d3aff6b935599ef7734373198b947e1419234571da5b8f93547043234692cc"
+    },
+    {
+      "name": "286b-audit.log",
+      "raw_sha256": "fd4148d5dd33e9416afdfd7169745ff49d4e4fb3b66cb28d9d23d8a3094985c0"
+    },
+    {
+      "name": "286-synthetic-pipeline.log",
+      "raw_sha256": "dbe720260d961a463930623389c636df8ea0333e9bf651ad21455d62b74a8859"
+    },
+    {
+      "name": "286-synthetic-pipeline-v2.log",
+      "raw_sha256": "1fdf5f84022bb94696b7acc2761b0aa8187f39bfcf458f287c8d5f019de5f1ae"
+    },
+    {
+      "name": "286-synthetic-pipeline-v7.log",
+      "raw_sha256": "6ed407283c80cad0e87857d1f18b88f27f81904e17bed1b265cb938d93b5cdf8"
+    },
+    {
+      "name": "286b-synthetic-v1.log",
+      "raw_sha256": "85a47e0b6bc007544a50dd80fb3da80d73b71a6ad69590e3859a8cb944ebddac"
+    }
+  ],
+  "log_boundary": "Original logs remain local; only names and hashes are published here. No private paths or source excerpts from local continuity.",
+  "figure_review": "All32 cases plotted; an initial presentation clipped projection points above6.5 percent. Original figure retained locally; final limits0\u20138 percent include every point. No data or scientific endpoint changed.",
+  "publication_only_correction": {
+    "initial_verifier_source_sha256": "ee103b64ef51f27348bc62165a11cc476c80f431ac9a429870646dae3ee5d665",
+    "initial_verifier_failure_log_sha256": "b2d92ecb26e59bba6a7d82736546cc1ec041a96e280166abf2a6da6145b2fa25",
+    "reason": "Prior285 native.csv target_margin is T-minus-F margin displacement, not absolute T margin. The publication-only cross-reference checker now subtracts F. Original scientific arrays, source seals, numerical bounds and all outcomes unchanged."
+  }
+}

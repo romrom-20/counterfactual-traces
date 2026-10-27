@@ -1,0 +1,72 @@
+{
+  "experiment": 286,
+  "retrospective": true,
+  "all_cases": 32,
+  "predictions": {
+    "F": {
+      "native_margin_passes": 26,
+      "material_passes": 6,
+      "median_absolute_error": 0.032101932609211875,
+      "maximum_absolute_error": 0.17781880860854973,
+      "confusion": {
+        "TP": 0,
+        "FN": 6,
+        "FP": 0,
+        "TN": 26
+      }
+    },
+    "M": {
+      "native_margin_passes": 32,
+      "material_passes": 19,
+      "median_absolute_error": 0.0035847782199712984,
+      "maximum_absolute_error": 0.014079762358143927,
+      "confusion": {
+        "TP": 6,
+        "FN": 0,
+        "FP": 0,
+        "TN": 26
+      }
+    }
+  },
+  "median_gradient_cosine": 0.027357405452010052,
+  "median_parallel_norm_fraction": {
+    "F": 0.017046542392516795,
+    "M": 0.02320929147777594
+  },
+  "finite_material_counts": {
+    "parallel_F": 0,
+    "orthogonal_F": 19,
+    "parallel_M": 19,
+    "orthogonal_M": 0,
+    "random0": 0,
+    "random1": 0
+  },
+  "finite_material_eligible": 19,
+  "full_shape_qualification": {
+    "experiment": "286b",
+    "numerical_only": true,
+    "synthetic": false,
+    "status": "passed",
+    "checks": 512,
+    "failed_checks": 0,
+    "maximum_source_adjoint_coordinate_error": 6.820261478424072e-05,
+    "maximum_source_adjoint_relative_error": 3.4363610872221266e-05,
+    "maximum_projected_response_error": 3.6358088581767145e-06,
+    "design_sha256": "839c460924526d999561913b1b9d232d7594f82d9d5b31f6313ec9662dc462ad",
+    "status_sha256": "ce5cc0189c5e14909c00503b8dc91865b68fb1b548b00db0e0e1401384f11d45",
+    "csv_sha256": {
+      "checks.csv": "e51ec5f2722bffad369385faec1da66041d57e527ef668230a5e5bef70f57191",
+      "layers.csv": "bb7e56fec5e7f23c001d6ff218808a8b27eb28cfda5a998649d9e7585be5afca"
+    },
+    "counts": {
+      "full_F": 32,
+      "first_block": 32,
+      "full_shape_block_forwards": 1728,
+      "block_recomputations": 1728,
+      "block_VJPs": 1728,
+      "head_VJPs": 64
+    },
+    "ended": "2026-10-27T09:30:51.325938+00:00",
+    "boundary": "All coordinates of the source-row reverse adjoint at each later block are compared between execution shapes; this is not a full Jacobian or an independent implementation of the library derivatives. Original286 raw coordinate failures remain failed."
+  }
+}

@@ -1,5 +1,14 @@
 # Results and evidence
 
+[286: state-dependent source readout](false-readout-286/README.md) retains all32
+previously observed cases, the failed False-sensitivity account (26/32 scalar,
+0/6 large-error detections), forecast-sensitivity control (32/32,6/6), direct
+component interventions, both random controls and every denominator. Only19/32
+finite effects reach materiality. Required2,592 checks pass, but all192 original
+cached-coordinate diagnostics fail; the separate512-check full-shape qualifier
+passes unchanged1e-4 bounds. This is retrospective scalar evidence under finite
+suffix/reverse computation, not fresh native-vector prediction or a learned circuit.
+
 [285: native source transfer across prompt structures](native-structure-285/README.md)
 contains H1 C 32/32/eight per layout and the failed H2 repair claim15/32. Historical
 donors pass all vector criteria but miss six margin bounds and dialogue 4/8.

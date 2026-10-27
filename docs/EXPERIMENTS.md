@@ -2,7 +2,30 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 285 — native source prediction across prompt structures
+## Latest: 286 — False readout versus edited-forecast sensitivity
+
+On all 32 old structural contexts, False-state source sensitivity misses all six
+large native donor-margin errors (scalar26/32). Forecast-state sensitivity detects
+all six (scalar32/32). Direct parallel/orthogonal source interventions reproduce
+the material finite effect19/32 with the forecast parallel component or False
+orthogonal component, versus0/32 for their complements and the two controls.
+All cases remain; only19 finite effects reach materiality. These chosen geometric
+components do not identify learned features. Native vectors are not forecast here.
+
+The original saved-array audit passes2,592 required checks, including960 projected
+derivative records; all192 original1e-4 cached-coordinate diagnostics fail under
+the separately declared .002 cached replay boundary. A separately frozen numerical
+qualifier286b passes512 checks: full-shape source adjoints agree within1e-4 at
+every later block, projected difference at most3.64e-6nat. No original raw failure
+is erased. Both derivatives use the same library primitives. Retrospective,
+finite suffix and backward computation; no fresh/circuit/efficiency/generalQB claim.
+
+[Protocol](experiments/286-false-readout.md) ·
+[Numerical qualifier](experiments/286b-full-shape-adjoints.md) ·
+[Report](analysis/286-state-dependent-readout.md) ·
+[Evidence](../results/false-readout-286/README.md)
+
+## 285 — native source prediction across prompt structures
 
 The unchanged cubic first-source rule passes H1 32/32, eight per layout, after
 new table/user-rule/dialogue/XML prefixes. Donor D/M pass 26/32 but dialogue 4/8;

@@ -6,7 +6,24 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current answer: native first-source prediction transfers; the complete generator is open
+## Current constraint: source importance depends on the edited computational state
+
+A retrospective test on the 32 structural contexts separates the source
+correction from its downstream sensitivity. The False-state gradient misses all
+six large donor margin errors; a gradient at the False-derived edited forecast
+predicts all six and passes 32/32 scalar bounds. A small component along that
+forecast gradient reproduces every material finite correction effect (19/32;
+thirteen below materiality), while the False-gradient component does not.
+
+This does not rescue the failed earlier joint repair claim or predict native
+vectors under a smaller budget. F and forecast have different whole incoming
+suffix states. Full-shape adjoints pass a separate 1e-4 check, while all 192
+original cached-coordinate diagnostics remain failed. The next unresolved
+question is which changed source/receiving computation generates this sensitivity
+change. The gradient geometry itself does not identify a learned circuit.
+[286 result and numerical qualification](analysis/286-state-dependent-readout.md).
+
+## Earlier: native first-source prediction transfers; the complete generator is open
 
 The unchanged False-coefficient cubic predicts native first-source writes and
 final residual/margins in 32/32 new prefix-structure cases, eight per layout.
