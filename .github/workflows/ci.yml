@@ -76,5 +76,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify292.py
       - name: Verify qualified response-subspace diagnostic and preserved invalid originals
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify293.py
+      - name: Verify conditional response-change ranges and failed frozen hypotheses
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify294.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
