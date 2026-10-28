@@ -1496,6 +1496,55 @@ and plot provenance. Public logs select scientific progress/result/timing lines;
 `log-provenance.json` records original hashes and that representation change.
 Private articles, weights and activation arrays remain excluded.
 
+<a id="receiving-coefficients-291"></a>
+## Receiving MLP response coefficients (291)
+
+This retrospective experiment separates the gate response, the up multiplier
+of that response and the gate-activation coefficient on the up path. It holds
+the edited source/attention/head computation supplied and receiving norm
+responses at False. Eight finite corners and three shuffled coefficient
+controls share the same zero-offset edited trajectory. Full 111 is calibration;
+the six proper nonzero corners are the sufficient-account hypotheses.
+
+Read the [frozen protocol](../docs/experiments/291-receiving-coefficients.md)
+and [result and numerical scope](../docs/analysis/291-receiving-coefficients.md).
+This tests a small common correction around an edited forecast, not the full
+native Boolean displacement or a compact counterfactual predictor. It uses all
+32 previously observed 285 contexts. No ordinary True forward or True gradient
+is added. Every source/attention/MLP replay and derivative calculation counts.
+
+Regenerate the 285 native reference, 287 head and 289/290 saved arrays using the
+preceding sections. With the pinned MPS environment, an existing new output
+parent and the frozen sources, execute from the repository root:
+
+```sh
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONPATH=research
+python -m boolean_coupling.run291 --reference-285 /path/to/native-structure-285 --previous-290 /path/to/receiving-nonlinearity-290 --head-287 /path/to/source-receiver-readout-287 --out /path/to/NEW-receiving-coefficients-291
+python -m boolean_coupling.audit291 --reference-285 /path/to/native-structure-285 --previous-290 /path/to/receiving-nonlinearity-290 --head-287 /path/to/source-receiver-readout-287 --run /path/to/NEW-receiving-coefficients-291
+```
+
+The destination must not exist. New guards require 512 MiB initial free space,
+384 MiB before each case and at most 192 MiB of case archives. They do not alter
+any historical guard. Preserve and report a stop; do not delete old evidence.
+Checkpoint repetitions are numerical reproductions, not fresh confirmation.
+
+For a model-package-free repository check:
+
+```sh
+python -S research/boolean_coupling/verify291.py
+```
+
+For tiny CPU qualification, first regenerate the earlier CPU fixtures. Run
+`preflight291` with `--out` a fresh directory and
+`--reference-285-fixture`, `--previous-290-fixture`, `--head-287-fixture` pointing
+to their completed fixture directories. It checks four unequal-length cases,
+all source coordinates, selected-layer primitive derivatives and coherent
+bound/FD/primitive tamper rejection. It does not require random-model scientific
+hypotheses to pass. Public verification checks source seals, records, scalar
+finite differences and sufficient statistics; it cannot replicate omitted
+vectors or the checkpoint independently. `publish291.py` and `describe291.py`
+preserve the delivery and figure provenance separately from frozen science.
+
 ## Causal-prefix budget baseline (272)
 
 [Protocol](../docs/experiments/272-causal-prefix-budget-baseline.md) ·

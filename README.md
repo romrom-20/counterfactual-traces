@@ -13,7 +13,27 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: receiving gated MLP response accounts for the remaining sensitivity gap
+## Latest: a scalar fit can conceal a wrong receiving response
+
+291 separates the receiving MLP's gate response, up multiplier and gate
+coefficient on the up path. No single change or pair meets the frozen
+population criterion; the best partial condition passes 1/32, below the finite
+materiality guard. Every partial receiving-vector account passes 0/32.
+
+Yet the up-path coefficient alone passes all 32 native scalar calibrations and
+flags all six old large errors, with no false positives. Its median gradient
+and receiving-vector errors are 65% and 69%. Scalar accuracy does not establish
+a correct internal response. The full restoration is calibration, not a new
+mechanism. These are old contexts with edited source/attention/head supplied;
+Question B remains open.
+
+[Result, signed accounting and limits](docs/analysis/291-receiving-coefficients.md) ·
+[All cases](results/receiving-coefficients-291/README.md) ·
+[Reproduce](research/README.md#receiving-coefficients-291)
+
+![Scalar calibration can pass while sensitivity and receiving vectors fail](docs/figures/receiving-coefficients-291/receiving-coefficients.png)
+
+## Earlier: receiving gated MLP response accounts for the remaining sensitivity gap
 
 The edited attention interface alone fails **0/32** retained contexts. With that
 interface supplied, restoring the receiving gated MLP response recovers the
