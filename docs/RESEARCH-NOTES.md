@@ -2,6 +2,25 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 293: the tested response-range compression fails
+
+293 restricts each nonlinear MLP write to 32 directions derived from the local
+learned response, while retaining its False-linear component. Both the fixed
+False range and adaptive range pass **0/8 native and 0/4 schema-contrast tests**;
+the full control passes 8/8 and 4/4. At identical control inputs the adaptive
+range leaves about 91% median nonlinear-write error.
+
+This rejects the particular basis construction, not all small subspaces or a
+compact predictor in general. It remains a dense, retrospective diagnostic.
+**293c qualification:** a baseline/condition naming collision invalidated the
+original science tables. The corrected comparisons restore immutable False
+arrays, preserve every candidate, and add explicit namespace checks. Original
+records and the storage stop remain visible. Question B remains open.
+
+[Qualified result and next distinction](analysis/293-response-subspace.md) ·
+[Evidence and invalid original records](../results/response-subspace-293/README.md) ·
+[Reproduce](../research/README.md#response-subspace-293)
+
 ## 292: a fresh full-native forecast under an expensive budget
 
 A coherent False-value/slope anchored rational activation update, with joint

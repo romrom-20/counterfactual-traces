@@ -1,5 +1,10 @@
 # Results and evidence
 
+[293: qualified response-subspace diagnostic](response-subspace-293/README.md)
+retains the failed 32-direction account, all controls, eight old contexts/four
+schema pairs, and the explicit293c baseline correction. Original science tables
+are invalid and preserved; primitive checks and candidate arrays are unchanged.
+
 [292: fresh full-native gate forecast](joint-gate-292/README.md) retains all
 32 publicly sealed forecasts and native outcomes, 76,128 pre-native and 96
 native checks, all failed strict controls, signed vector accounting and original

@@ -1,0 +1,88 @@
+{
+  "experiment": 293,
+  "status": "passed",
+  "retrospective": true,
+  "ordinary_checkpoint_true": 0,
+  "design_sha256": "298f789c58aa513267a4b96f6de45838e5278524766435497377c08ebab8c1ed",
+  "status_sha256": "63477ac08ff7a058ca19c226d98c13b98ed7fe42db72b8146c7b20a3d45971ef",
+  "source_sha256": "26d6378030057b4cdddf0e1c723f9da8f999d42e7c08f63a77509f9fb24ec99c",
+  "required_checks": 53832,
+  "failed_checks": 0,
+  "outcomes": {
+    "P": {
+      "native": 8,
+      "total": 8,
+      "layouts": {
+        "dialogue": 2,
+        "table": 2,
+        "user_rule": 2,
+        "xml": 2
+      },
+      "pairs": 4,
+      "pair_total": 4,
+      "sufficient": true
+    },
+    "L": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    },
+    "F": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    },
+    "E": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    },
+    "R": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    }
+  },
+  "primary_pass": false,
+  "adaptation_specific": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "csv_sha256": {
+    "checks.csv": "6596acbc96e0194f6b7ccf02aa1ce8aa9b3119cc502e3cdbe1d787e63e311037",
+    "native.csv": "21b8b25dedb6b4b4c4e9055b57b3436ce15720f8b791687ee6d8e6d955cdf904",
+    "pairs.csv": "1b03dcdb8631830b8d395c18ca043d0bf4f3bf7aea6372b2612668ecfccf7a9b",
+    "local.csv": "32432100f59e73aa9251da084f9f78213236833c305e5ad8d88ea1c74cd48774"
+  }
+}
