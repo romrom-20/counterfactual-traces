@@ -1,5 +1,53 @@
 # Reproduce the current research
 
+<a id="joint-gate-292"></a>
+
+## Full-native joint-gate forecast (292)
+
+[Result and limits](../docs/analysis/292-joint-gate-forecast.md) ·
+[Frozen protocol](../docs/experiments/292-joint-gate-forecast.md) ·
+[All evidence](../results/joint-gate-292/README.md)
+
+From the repository root, verify public records without model packages:
+
+```sh
+python -S research/boolean_coupling/verify292.py
+```
+
+For actual replication, use the pinned model/runtime setup described below,
+the original 102 source files and a fresh output directory. The original
+production run used Float32 MPS eager execution. Preserve historical records.
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+python -m boolean_coupling.preflight292 --out runs/tiny-292
+python -m boolean_coupling.run292 forecast --run runs/replication-292
+python -m boolean_coupling.audit292 forecast --run runs/replication-292
+python -m boolean_coupling.run292 seal --run runs/replication-292
+```
+
+The gate intentionally stops before native True until the NEW global seal is
+public. Publish the replication's exact seal at the frozen `PUBLIC_SEAL` path
+on a dedicated replication branch/fork; do not merge it over this historical
+292 record. Commit/push the exact forecast evidence and obtain that branch's
+full commit SHA. The native gate verifies local HEAD, remote HEAD and public
+seal bytes. Then, with that exact receipt:
+
+```sh
+python -m boolean_coupling.run292 native --run runs/replication-292 \
+  --public-commit FULL_PUSHED_REPLICATION_SHA --public-branch REPLICATION_BRANCH
+python -m boolean_coupling.audit292 native --run runs/replication-292
+```
+
+The public forecast case JSON and omitted-array inventory specify shapes,
+dtypes and archive hashes; arrays/weights are local, not downloaded by CI.
+Independent replication must regenerate them. Original source parameters and
+bounds remain frozen. `resident292` is a resource-only execution path for the
+recorded disk stops; its first-case replay requires the preserved original
+archive. Normal replication with adequate headroom uses the commands above.
+The CPU preflight's `--help` lists its fresh-output arguments; its synthetic
+native phase cannot authorize checkpoint measurement.
+
 <a id="attention-and-receiving-response-289290"></a>
 
 ## Attention and receiving response (289–290)

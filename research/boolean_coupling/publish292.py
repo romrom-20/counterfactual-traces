@@ -132,7 +132,7 @@ def seal():
     files.update((ROOT / "docs/figures/joint-gate-292").glob("*"))
     files.update(
         ROOT / "research/boolean_coupling" / n
-        for n in ("publish292.py", "verify292.py", "describe292.py")
+        for n in ("publish292.py", "verify292.py", "describe292.py", "review292.py")
     )
     write(
         DEST / "release-manifest.json",

@@ -13,7 +13,29 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: a scalar fit can conceal a wrong receiving response
+## Latest: a coherent nonlinear update predicts the full native response
+
+292 forecasts all affected source and receiving activations from one False
+observation, the known Boolean edit and its own evolving states. The fixed
+rational activation update with joint gate/up products passes all 32 native
+vector/margin tests and all 32 trajectory tests on fresh literals. Maximum
+margin error is 0.0000573 nat. Cubic, clipped cubic, coarse rational and
+product-affine controls each pass 0/32 strict native tests.
+
+This is an expensive constructive forecast: attention, normalization, learned
+projections, products and head remain finite. It is partly an alternate accurate
+implementation of a known primitive, not a compact learned-circuit explanation.
+The looser product-effect test also passes inaccurate controls. All 76,128
+pre-native and 96 native numerical checks pass; old failures remain failed.
+General Question B remains open.
+
+[Result, controls and budget](docs/analysis/292-joint-gate-forecast.md) ·
+[Sealed evidence](results/joint-gate-292/README.md) ·
+[Reproduce](research/README.md#joint-gate-292)
+
+![Sealed full-native forecast and controls](docs/figures/joint-gate-292/joint-gate-forecast.png)
+
+## Earlier: a scalar fit can conceal a wrong receiving response
 
 291 separates the receiving MLP's gate response, up multiplier and gate
 coefficient on the up path. No single change or pair meets the frozen

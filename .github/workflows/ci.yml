@@ -72,5 +72,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify290.py
       - name: Verify receiving coefficient interventions, shuffled controls and numerical limits
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify291.py
+      - name: Verify sealed full-native gate forecasts, controls and resource qualifications
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify292.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
