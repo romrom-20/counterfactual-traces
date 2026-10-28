@@ -1,5 +1,12 @@
 # Results and evidence
 
+[291: receiving coefficient diagnostic](receiving-coefficients-291/README.md)
+retains six failed partial accounts (five 0/32, one 1/32 nonmaterial), scalar-only
+32/32 success despite 0/32 receiving vectors, every shuffled control, all 8,544
+required checks and both new narrow coordinate failures. Posthoc signed
+factorial/rounding accounting is separate. Old contexts and expensive edited
+anchors; no compact native/circuit/general Question B claim.
+
 [289 attention interface](attention-interface-289/README.md) retains the failed
 0/32 primary and every control. [290 receiving response](receiving-nonlinearity-290/README.md)
 retains gatedMLP-only32/32, normalizer-only0/32 and the all-E calibration.
