@@ -1,0 +1,178 @@
+{
+  "experiment": 291,
+  "status": "passed",
+  "retrospective": true,
+  "design_sha256": "67b373d12a22f25ae11aa119e54167b131a475dc22f989db72aba58f79435ad4",
+  "status_sha256": "e1d1c0bf42d1e40c196bcba89c445c9266a5b6afc94c26019f0432021d656c51",
+  "audit_source_sha256": "837f370a19d24f7ffd0f6d4e7b65754bca03d5677f2895c0895f6e03f6511989",
+  "required_checks": 1068,
+  "failed_checks": 0,
+  "original_coordinate_failures": 0,
+  "intermediate_diagnostic_failures": 0,
+  "learned_circuit_identified": false,
+  "general_question_B_solved": false,
+  "arms": {
+    "000": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "001": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "010": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "011": {
+      "passes": 1,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "100": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "101": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "110": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "111": {
+      "passes": 4,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false,
+      "material_passes": 2,
+      "material_eligible": 2
+    },
+    "R0": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "R1": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    },
+    "R2": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 2
+    }
+  },
+  "primary_pass": {
+    "GATE": false,
+    "UP_MULTIPLIER": false,
+    "UP_COEFFICIENT": false,
+    "GATE_AND_UP": false,
+    "GATE_AND_COEFFICIENT": false,
+    "UP_AND_COEFFICIENT": false
+  },
+  "csv_sha256": {
+    "checks.csv": "6291157be0612f9bbbc6dc5c8061e4f66d93b1c87f794af25f19ee4c62b35d7b",
+    "derivatives.csv": "13c23bdb8f41d621a237952d90ea72597bb9bbb5cd51cde9799d887ac1c45a2d",
+    "primitives.csv": "b6d8ab754930560d4853bc3d87499b46249849dffc882fd9d8be843d4c395be4",
+    "original_coordinates.csv": "d7cb5e4e9c8cff9115cc38c68c39db0a324cb0287fc1de4110b4e1dddc822649",
+    "intermediate_diagnostics.csv": "ba055ad202e9c2e2d158e21584bea622fd687acdafac4c21a3ea1297ceae4d84",
+    "hypotheses.csv": "63244274931fc07305391ae2daaa619ebceda42c5055fc2ce96991390db63816",
+    "receiving_vectors.csv": "48db21f355d00770e8478760f91c4913f2aaba1d1991719fefae7bdfd5ae6bbc",
+    "native_scalar.csv": "ca11ed85d62a2c03de69566886debda27ff0549ae3f7ddf0b5be4dd61d132ca3",
+    "ledger.csv": "0200c1611975d9e123777ee7af5a8606e677ad3642fc38f04a66e777e657dc0f"
+  }
+}

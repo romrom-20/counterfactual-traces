@@ -1,0 +1,178 @@
+{
+  "experiment": 291,
+  "status": "passed",
+  "retrospective": true,
+  "design_sha256": "d12a19ecb973bcb0f590d2730a5bf1151be7436b6ad8d96d743478dd0b0d44b1",
+  "status_sha256": "482c97ece67cb540f4a0a36707eda2c02b4a4e2b4aba2f4ddbb437b8f7480c14",
+  "audit_source_sha256": "837f370a19d24f7ffd0f6d4e7b65754bca03d5677f2895c0895f6e03f6511989",
+  "required_checks": 8544,
+  "failed_checks": 0,
+  "original_coordinate_failures": 2,
+  "intermediate_diagnostic_failures": 0,
+  "learned_circuit_identified": false,
+  "general_question_B_solved": false,
+  "arms": {
+    "000": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "001": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "010": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "011": {
+      "passes": 1,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 1
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "100": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "101": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "110": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "111": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true,
+      "material_passes": 16,
+      "material_eligible": 16
+    },
+    "R0": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "R1": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "R2": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    }
+  },
+  "primary_pass": {
+    "GATE": false,
+    "UP_MULTIPLIER": false,
+    "UP_COEFFICIENT": false,
+    "GATE_AND_UP": false,
+    "GATE_AND_COEFFICIENT": false,
+    "UP_AND_COEFFICIENT": false
+  },
+  "csv_sha256": {
+    "checks.csv": "d3718fffe859267c6ec524573c215a8564ca2d5be4571fd712444ab1dcc6d444",
+    "derivatives.csv": "25fe6e16ab970882f8c880230dbad39f60723afe998f2addeee103c11fdd5726",
+    "primitives.csv": "f3b22e93bf243af86a233282dbbd1b2aabd1aa0c2a4bdbae48559ae2dd5f7864",
+    "original_coordinates.csv": "29f4c99f70a1a5cff8ae3a7dd58f786047e85a0d088602e4e031c49a84a35fcc",
+    "intermediate_diagnostics.csv": "ffae548c50f57e88038338ecb4ab4cc984588f23c0670c98e5db00f223b2b043",
+    "hypotheses.csv": "b5d1747d931b89668322cb1cdd995293c0de1c6a7b64b948941b80150f322962",
+    "receiving_vectors.csv": "2b13758c2e009990d04168c469606c58ece4de5296f09170b01d160eea1eb66c",
+    "native_scalar.csv": "794a8b3e18ec41cd5bbfa8945f4cf66089d0eb5d8d18ceb19a25196ee42a6427",
+    "ledger.csv": "68a8162d763f0d9bab36d3912b7accf3b5cd6666788de93dd235eb1f7cd946f2"
+  }
+}

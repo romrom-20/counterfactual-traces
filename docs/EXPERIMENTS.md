@@ -2,6 +2,22 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
+## 291: scalar accuracy does not identify the receiving computation
+
+All six partial receiving coefficient accounts fail the population criterion:
+five 0/32 and one 1/32, with no material success. Each fails every receiving
+vector. The up-response coefficient alone nevertheless passes 32/32 native scalar
+calibrations, identifies 6/6 old large errors and has 0 false positives. This is
+retrospective, supplied source/attention/head computation, not a compact native
+predictor. Full 111 is calibration. The three isolated gradient effects add with
+167% median relative error; even all pair terms leave77% (posthoc accounting).
+All 8,544 required checks pass; two of 96 narrow coordinate diagnostics remain
+failed, as do historical failures. Only 16 finite effects are material.
+
+[Report](analysis/291-receiving-coefficients.md) ·
+[Protocol](experiments/291-receiving-coefficients.md) ·
+[Evidence](../results/receiving-coefficients-291/README.md).
+
 ## Latest: 289–290 — attention interface and receiving nonlinear response
 
 289 full attention-interface sufficiency fails0/32, as do all seven controls.

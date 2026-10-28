@@ -1,0 +1,49 @@
+{
+  "experiment": 291,
+  "scientific_sources_changed_after_freeze": false,
+  "synthetic_qualification": "v1: four unequal cases,11arms,1068required,704source-coordinateFDchecks,3tamperrejections; no required scientific result on random fixtures",
+  "checkpoint_execution": {
+    "producer_seconds": 964.35,
+    "audit_seconds": 6.62,
+    "raw_case_bytes": 69388833,
+    "guards_MiB": [
+      512,
+      384,
+      192
+    ],
+    "no_new_ordinary_True_or_True_gradient": true
+  },
+  "original_failures": {
+    "narrow_coordinate_failures": 2,
+    "narrow_coordinate_total": 96,
+    "maximum": 0.0001068115234375,
+    "declared_cache_bounds_passed": true,
+    "historical_failures_preserved": true
+  },
+  "presentation_revisions": [
+    {
+      "revision": "v1",
+      "preserved_locally": true,
+      "change": "First figure used symlog axes and a signed finite-effect scatter."
+    },
+    {
+      "revision": "v2",
+      "change": "Linear vector-error axes avoid empty scale regions; scalar calibration panel makes the passed-scalar/failed-vector distinction visible. All32cases and values retained."
+    }
+  ],
+  "posthoc_review": {
+    "revision": "v1_rounding",
+    "preserved_locally": true,
+    "revision_v2": "Adds signed gradient-factorial accounting and Gram matrices; no model calls, no change to frozen criteria or decisions."
+  },
+  "tooling_note": "One report-writing orchestration invocation had a JavaScript string parsing error before any file or scientific data mutation; corrected locally.",
+  "private_drafts_published": false,
+  "learned_circuit_identified": false,
+  "general_question_B_solved": false,
+  "posthoc_public_verifier_revision": {
+    "initial_status": "failed: signed vector projection record reconstruction assumed Float64 dot/norm instead of the frozen Float32 reduction",
+    "original_helper_manifest_review_and_log_retained_locally": true,
+    "correction": "Publish the original Float32 dot and norm scalars and reconstruct that original expression at the unchanged record tolerance; retain the separate promoted-Float64 review. No scientific source, model output, decision or numerical bound changed."
+  },
+  "delivery_seal_revision": "Resealing was first refused by the overwrite guard. The initial unsealed delivery manifest was preserved outside the package, then a new delivery manifest created. Scientific design/status/source seals and raw arrays remain original."
+}
