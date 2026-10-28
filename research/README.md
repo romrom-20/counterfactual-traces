@@ -1,5 +1,53 @@
 # Reproduce the current research
 
+<a id="response-subspace-293"></a>
+
+## Response-subspace diagnostic and explicit namespace qualification (293)
+
+[Qualified result](../docs/analysis/293-response-subspace.md) ·
+[Protocol](../docs/experiments/293-response-subspace.md) ·
+[293c correction](../docs/experiments/293c-baseline-namespace-qualification.md)
+
+```sh
+python -S research/boolean_coupling/verify293.py
+```
+
+This is retrospective. Regenerate292's qualified raw reference first, using the
+pinned environment below and fresh output directories. Original293 sources are
+preserved with their namespace bug; only293c comparisons are valid. To reproduce
+all qualification stages:
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+python -m boolean_coupling.preflight293 --out runs/tiny-293
+python -m boolean_coupling.preflight293b --original runs/tiny-293/complete --out runs/tiny-293b
+python -m boolean_coupling.preflight293c --parent runs/tiny-293b/complete --out runs/tiny-293c
+```
+
+The original producer intentionally remains frozen. It stops after case7 at its
+original256MiB archive guard; that nonzero exit is an expected preserved stop.
+Run the continuation only after recording it; no data should be overwritten.
+
+```sh
+python -m boolean_coupling.run293 --out runs/replication-293 --reference runs/replication-292
+```
+
+Then replay the seven originals under the separately qualified384MiB budget,
+complete the eighth, and correct the comparison namespace without new model calls:
+
+```sh
+python -m boolean_coupling.resource293b --original runs/replication-293 \
+  --out runs/replication-293b --reference runs/replication-292
+python -m boolean_coupling.namespace293c --parent runs/replication-293b \
+  --out runs/replication-293c --reference runs/replication-292
+```
+
+Interpret `replication-293c/native.csv` and `pairs.csv`, plus the unchanged
+same-input `replication-293b/local.csv`. Original293b native/pair comparisons
+are invalid, even if their pass counts happen to agree. The 32-direction
+restriction concerns only nonlinear writes; dense computation remains. No
+whole-model derivative, speedup, optimal-rank or learned-circuit claim follows.
+
 <a id="joint-gate-292"></a>
 
 ## Full-native joint-gate forecast (292)

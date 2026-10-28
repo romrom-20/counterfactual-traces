@@ -1,0 +1,88 @@
+{
+  "experiment": 293,
+  "status": "passed",
+  "retrospective": true,
+  "ordinary_checkpoint_true": 0,
+  "design_sha256": "35b4e1d59f6514dfff01fc8bebea9125b2f04df92ae4441e95270eb9f024a108",
+  "status_sha256": "46dda60ec68b3aeb874fd410e52f5645eec163eaed1839254b86b1f0c302805f",
+  "source_sha256": "26d6378030057b4cdddf0e1c723f9da8f999d42e7c08f63a77509f9fb24ec99c",
+  "required_checks": 7028,
+  "failed_checks": 0,
+  "outcomes": {
+    "P": {
+      "native": 8,
+      "total": 8,
+      "layouts": {
+        "synthetic-layout-0": 2,
+        "synthetic-layout-1": 2,
+        "synthetic-layout-2": 2,
+        "synthetic-layout-3": 2
+      },
+      "pairs": 4,
+      "pair_total": 4,
+      "sufficient": true
+    },
+    "L": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    },
+    "F": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    },
+    "E": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    },
+    "R": {
+      "native": 0,
+      "total": 8,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "pairs": 0,
+      "pair_total": 4,
+      "sufficient": false
+    }
+  },
+  "primary_pass": false,
+  "adaptation_specific": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "csv_sha256": {
+    "checks.csv": "689657c0209a27bc494a435536687c48bbb9fbc8dd92f9ab36042bc7ebf22e90",
+    "native.csv": "71effff6523e2f520f141bb6f114bec376880a8936547ea9290e00d215fbf413",
+    "pairs.csv": "5d12b93624a2601e6b3b65ee9cdf7a1aeae8746b5c47e0094185eb3d4587156f",
+    "local.csv": "64f2dbd9ef3e4e2820831cc4a6ed8d99e812bf9350839dcbf4e4153e58f56845"
+  }
+}
