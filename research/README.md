@@ -1734,3 +1734,42 @@ and provenance. It does not independently replicate the omitted vectors.
 all48 probes. These helpers were written after outcomes and are not frozen
 scientific predictors. The original293 invalid tables and every earlier failed
 control remain preserved. No end-to-end repair sweep is part of294.
+
+## Finite-drive 295
+
+[Result](../docs/analysis/295-finite-drive.md) ·
+[Reassessment](../docs/analysis/research-direction-review-295.md) ·
+[Protocol](../docs/experiments/295-finite-drive.md) ·
+[Records](../results/finite-drive-295/README.md).
+
+295 uses all48 saved P source/verdict probes, three blocks/eight old contexts.
+It supplies gate/up endpoints and compares a fixed directed endpoint rule with
+midpoint, Simpson, integral, shuffled-drive and oracle-line controls. No native
+forecast, causal repair or learned circuit. Both endpoint and oracle population
+claims fail. The frozen stopping rule closes this local line after295.
+
+Regenerate293b, qualified293c and294 using their instructions. With the pinned
+checkpoint cached, Python3.12 and the recorded scientific packages, run from
+repo root; output parents must exist and destinations must be NEW:
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+python -m boolean_coupling.preflight295 --out /path/to/NEW-cpu-295
+python -m boolean_coupling.run295 --parent /path/to/response-subspace-293b --previous /path/to/response-change-294 --out /path/to/NEW-finite-drive-295
+python -S research/boolean_coupling/verify295.py
+```
+
+Commit/freeze all117 scientific sources before checkpoint access. The runner
+binds them to HEAD and every old input hash to the published evidence; no model
+is instantiated or forwarded. Only three down weights are read. Calculations
+are CPUFloat64. Guards:512MiB initial free,384MiB per layer,32MiB archive cap.
+The90-check tiny fixture includes large clipping-crossing steps, zero drives,
+AD/finite differences and sign/drive corruption rejection at unequal shapes.
+Earlier unfrozen fixture failures remain documented in the result.
+
+`publish295` exports scalar records/inventories; `describe295` draws every probe.
+These delivery helpers and the stdlib verifier are posthoc. CI checks hashes,
+source ancestry, sufficient-statistic arithmetic, decisions, cost and figure
+provenance; it does not independently replicate the omitted raw vectors or
+checkpoint calculation. Integral recovery is calibration of a supplied known
+function, not a new learned mechanism. No296 is part of this reproduction.
