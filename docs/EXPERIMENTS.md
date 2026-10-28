@@ -2,6 +2,24 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
+## 294: response change improves every saved probe, but fails the frozen tests
+
+At identical supplied P inputs, a rank-32 range derived from the change in
+MLP response has lower vector error than both endpoint ranges at **48/48**
+probes. Median error is 38.4% lower than the better endpoint range. This
+weaker comparison is descriptive: the frozen twofold criterion passes only
+**8/48** and the complete-vector criterion **0/48**. Both hypotheses fail.
+
+All **1,824** numerical checks pass. These are eight old contexts, source and
+verdict rows at blocks 1/15/28, with endpoint states and target writes supplied.
+No new model forward, native prediction or causal repair ran. The result narrows
+which directions are useful; it does not identify a learned circuit or solve
+Question B. Existing failures and the293c qualification remain in view.
+
+[Result and limits](analysis/294-response-change.md) ·
+[All evidence](../results/response-change-294/README.md) ·
+[Reproduce](../research/README.md#response-change-294)
+
 ## 293: the tested response-range compression fails
 
 293 restricts each nonlinear MLP write to 32 directions derived from the local

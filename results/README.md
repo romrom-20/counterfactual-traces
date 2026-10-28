@@ -1,5 +1,10 @@
 # Results and evidence
 
+[294: conditional response-change ranges](response-change-294/README.md) retains
+all 48 probes and four bases, the failed H1 (8/48) and H2 (0/48), all 1,824
+passing numerical checks, and the separate weaker 48/48 descriptive improvement.
+Supplied P states and targets; no native forecast or causal repair.
+
 [293: qualified response-subspace diagnostic](response-subspace-293/README.md)
 retains the failed 32-direction account, all controls, eight old contexts/four
 schema pairs, and the explicit293c baseline correction. Original science tables

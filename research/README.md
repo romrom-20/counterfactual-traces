@@ -1695,3 +1695,42 @@ Posthoc scripts `review272.py`, `package_cache.py` and `describe_cache.py` bind
 the completion inventory, all public evidence and figures. The inventory covers
 published artifacts, not a new line-by-line review of every legacy runner.
 No private article or unpublished legacy history is included.
+
+## Response-change 294
+
+[Report](../docs/analysis/294-response-change.md) ·
+[Protocol](../docs/experiments/294-response-change.md) ·
+[All records](../results/response-change-294/README.md).
+
+294 compares four rank-32 ranges at identical saved P probe inputs. Both frozen
+hypotheses fail; the weaker all-point improvement is descriptive. This is a
+conditional retrospective diagnostic, not a native forecast. Read weights via
+CPU Float64 operators, without instantiating a model or running a new forward.
+Use the recorded Python3.12/NumPy/Torch/safetensors environment and pinned
+checkpoint. Regenerate293b and its293c qualification using the preceding
+instructions; the raw probes are deliberately omitted from Git.
+
+From the repository root, with existing output parents and NEW destinations:
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+python -m boolean_coupling.preflight294 --out /path/to/NEW-cpu-294
+python -m boolean_coupling.run294 --parent /path/to/response-subspace-293b --qualified /path/to/response-subspace-293c --out /path/to/NEW-response-change-294
+python -S research/boolean_coupling/verify294.py
+```
+
+Freeze/commit the scientific sources before `run294`; the runner binds all112
+source hashes to HEAD and pins the exact public293 inputs. Reproducing from
+another commit changes that recorded commit, not the original evidence.
+The guard is512MiB initial free,384MiB before each layer,192MiB raw archives.
+Do not delete scientific evidence to pass guards. The runner performs separate
+TorchDouble operator/range/vector checks before releasing scientific tables.
+The152-check tiny CPU fixture uses unequal hidden/intermediate dimensions and
+rejects sign/range corruptions; it needs no checkpoint.
+
+The stdlib verifier is model-package-free and checks records, hashes, arithmetic
+and provenance. It does not independently replicate the omitted vectors.
+`publish294.py` exports immutable records/inventories; `describe294.py` draws
+all48 probes. These helpers were written after outcomes and are not frozen
+scientific predictors. The original293 invalid tables and every earlier failed
+control remain preserved. No end-to-end repair sweep is part of294.
