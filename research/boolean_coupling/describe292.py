@@ -111,6 +111,8 @@ def main():
             dpi=175,
             metadata={"Date": None} if suffix == "svg" else {},
         )
+    svg = OUT / "joint-gate-forecast.svg"
+    svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
     plt.close(fig)
     write(
         OUT / "provenance.json",
