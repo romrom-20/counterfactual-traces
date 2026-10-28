@@ -2,6 +2,29 @@
 
 These are technical research notes accompanying the experiments, not an article draft. They distinguish a tested result from a reason to run the next test. The [index](EXPERIMENTS.md) links the complete protocols and evidence; [Question B](QUESTION-B.md) states the larger unresolved prediction problem.
 
+## 289–290: the missing receiving response is gated, conditional on the supplied interface
+
+Restoring the tested attention interface does not recover the conditional
+sensitivity gap: all eight variants0/32. That failed account motivates a
+specific distinction between receiving normalizers and gated MLP response.
+With attention/source/head edited, receiving gated MLP response alone passes
+32/32; receiving normalizer response alone0/32. The receiving correction-vector
+target also passes32/32, at the frozen25% bound.
+
+The MLP response depends on `u*SiLU'(g)` and `SiLU(g)`, with unchanged learned
+linear maps. Those coefficients change the processing of a small correction
+at the supplied edited state. This is a conditional family-level account,
+not identification of a sparse circuit or a reason to omit normalization from
+how the edited parents arose. Which coefficient changes matter, whether they
+can be predicted by False curvature and how to generalize to fresh native
+vectors remain questions for a new frozen primitive test.
+
+Only16 contrasts are material; no denominator is reduced. All-E recovery is
+a calibration by construction. Every old failure and the eight new narrow
+coordinate failures stay explicit. Substantial finite anchor work is supplied.
+[Positive result](analysis/290-receiving-nonlinearity.md) ·
+[Failed attention test](analysis/289-attention-interface.md).
+
 ## 288: the initial cause and the response-map explanation are different
 
 287's initial source change is sufficient to seed the sensitivity shift. 288

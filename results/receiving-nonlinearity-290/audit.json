@@ -1,0 +1,83 @@
+{
+  "experiment": 290,
+  "status": "passed",
+  "retrospective": true,
+  "design_sha256": "977e3ceb645343d82f9ee9ea65f0e9132fcdf43d035b27ff1745d5408bc56adc",
+  "status_sha256": "432959a3be9e1e06df353929eba4eb89f8a5c020a78109b435a8eb0a7dea9f2f",
+  "audit_source_sha256": "e462be3a0bc3e43e275641acdaad6298593d561f432a36ca6b9608b6abbfae53",
+  "required_checks": 9280,
+  "failed_checks": 0,
+  "original_coordinate_failures": 8,
+  "intermediate_diagnostic_failures": 0,
+  "learned_circuit_identified": false,
+  "general_question_B_solved": false,
+  "arms": {
+    "00": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "01": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true,
+      "material_passes": 16,
+      "material_eligible": 16
+    },
+    "10": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 16
+    },
+    "11": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true,
+      "material_passes": 16,
+      "material_eligible": 16
+    }
+  },
+  "primary_pass": {
+    "NORMALIZATION": false,
+    "GATED_MLP": true
+  },
+  "csv_sha256": {
+    "checks.csv": "e0efabcca3db94f9d5b2463cadcc23bf6b288590a6ee53873e74e75bea329c74",
+    "derivatives.csv": "a5fec837e450c90cdf0d4a57fa86655dffa2e221a87ba0e4a50233ad73e82946",
+    "primitives.csv": "e8e6cc5eb31fdb8e37e1c38088296191e074d0fc11b402c573ebee19dc1f5863",
+    "original_coordinates.csv": "5319336c3583901010ec131510fa36f223ce7e64856ee39c41b38c52d9197675",
+    "intermediate_diagnostics.csv": "2386be3d19513e9e0f4e2459d39334c44fa1206b3705225bc1f0861b833e6f81",
+    "hypotheses.csv": "3c48ac59e55c62c5220b14183ff035ec4529cb36c2a37a28cb64a4062e768ea1",
+    "receiving_vectors.csv": "ba72b6410f101206f2cfa285258f3b9e8b09a132bf0a8199aa4ae912892452ac",
+    "native_scalar.csv": "f4aa6210f5408ca2ccd4f6af3451d8124d8718a79f4cedf7bacb6e76167c4b38",
+    "ledger.csv": "b58e596e0b753fd8f28c01a7152a611c23c6896e5159091df8b6773a338fd8ea"
+  }
+}

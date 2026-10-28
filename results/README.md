@@ -1,5 +1,12 @@
 # Results and evidence
 
+[289 attention interface](attention-interface-289/README.md) retains the failed
+0/32 primary and every control. [290 receiving response](receiving-nonlinearity-290/README.md)
+retains gatedMLP-only32/32, normalizer-only0/32 and the all-E calibration.
+Sixteen remaining contrasts are material. Required gates pass21,216/9,280;
+eight narrow coordinate failures stay failed. Conditional family-level account,
+not a compact native predictor or learned circuit.
+
 [288: source and receiving response maps](tangent-routing-288/README.md) retains
 all 32 cases and every finite corner. Both primary sufficient accounts and the
 head/additive secondary accounts fail 0/32. Required gate 4,384/4,384 passes;

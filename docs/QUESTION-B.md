@@ -6,7 +6,30 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
-## Current constraint: initial-state sufficiency does not imply a local explanation
+## Current conditional account: receiving gated MLP response
+
+289 tests an attention-interface account of the remaining source/receiving
+sensitivity discrepancy. Source K/V normalization, QK/softmax and value mixing
+alone fail0/32 even when combined. 290 then holds that interface edited and
+crosses receiving normalization with gated MLP response. GatedMLP-only passes
+32/32; normalizer-only0/32. All-E32/32 is a calibration by construction.
+
+This selects a computational family for the conditional contrast. The changed
+MLP coefficients `u*SiLU'(g)` and `SiLU(g)` alter how small messages propagate
+through receiving states. SiLU curvature, up-value change, multiplicative
+interaction, particular layers and learned neurons remain unseparated.
+Normalization helped form the supplied E parents; the test does not remove it
+from their origin. The next test needs primitive coefficient interventions,
+then a frozen False-only rule and fresh native evaluation.
+
+All21,216/9,280 required records pass in289/290. Eight new narrow1e-4 finite
+coordinate failures remain under the declared .002 cached bound. Old287/288
+failures remain. Only16 of32 remaining finite effects are material. All anchors
+require substantial finite replay, so this is not a compact native predictor.
+[290 result](analysis/290-receiving-nonlinearity.md) ·
+[289 failed account](analysis/289-attention-interface.md).
+
+## Earlier constraint: initial-state sufficiency does not imply a local explanation
 
 288 holds the source-only edited baseline trajectory fixed and crosses the
 source recurrence, receiving/transmission and head response maps between False
