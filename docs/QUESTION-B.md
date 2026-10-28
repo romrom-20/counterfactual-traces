@@ -6,6 +6,23 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
+## 295: actual drive helps; this local diagnostic line is now closed
+
+The fixed endpoint-driven rule passes **40/48** local vector tests but fails
+the frozen source-group threshold (16/24). Even a target-fitted endpoint line
+fails (41/48, source17/24). Midpoint and Simpson pass48/48; shuffled drive0/48.
+All **936** numerical checks pass. These are supplied P gate/up endpoints on
+eight old contexts, not native forecasts or learned-circuit identification.
+
+The [research reassessment](analysis/research-direction-review-295.md) finds real
+native constraints alongside drift toward explaining approximation errors.
+The frozen stopping rule closes the endpoint/path diagnostic sequence here.
+General Question B remains open; no new global repair or parameter sweep follows.
+
+[Result](analysis/295-finite-drive.md) ·
+[All evidence](../results/finite-drive-295/README.md) ·
+[Reproduce](../research/README.md#finite-drive-295)
+
 ## 294: response change improves every saved probe, but fails the frozen tests
 
 At identical supplied P inputs, a rank-32 range derived from the change in

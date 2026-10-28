@@ -1,0 +1,84 @@
+{
+  "experiment": 295,
+  "status": "passed",
+  "design_sha256": "761681c5b191e5df5f97c6f28594a6da90174c3e990c4952391aec1bcfd5f591",
+  "status_sha256": "b267c353ac2ae590a60fe0035268ee14df2ca6812a8f6d68f54167b1708407ce",
+  "required_checks": 936,
+  "failed_checks": 0,
+  "scientific_outcomes_withheld": false,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "model_forwards": 0,
+  "native_true_calls": 0,
+  "populations": {
+    "ENDPOINT_DRIVE": {
+      "passes": 40,
+      "total": 48,
+      "scopes": {
+        "source": 16,
+        "verdict": 24
+      },
+      "population_pass": false
+    },
+    "MIDPOINT_DRIVE": {
+      "passes": 48,
+      "total": 48,
+      "scopes": {
+        "source": 24,
+        "verdict": 24
+      },
+      "population_pass": true
+    },
+    "SIMPSON_DRIVE": {
+      "passes": 48,
+      "total": 48,
+      "scopes": {
+        "source": 24,
+        "verdict": 24
+      },
+      "population_pass": true
+    },
+    "INTEGRAL16": {
+      "passes": 48,
+      "total": 48,
+      "scopes": {
+        "source": 24,
+        "verdict": 24
+      },
+      "population_pass": true
+    },
+    "SHUFFLED_DRIVE": {
+      "passes": 0,
+      "total": 48,
+      "scopes": {
+        "source": 0,
+        "verdict": 0
+      },
+      "population_pass": false
+    },
+    "ORACLE_DIRECTION": {
+      "passes": 41,
+      "total": 48,
+      "scopes": {
+        "source": 17,
+        "verdict": 24
+      },
+      "population_pass": false
+    },
+    "CHANGE_RANGE": {
+      "passes": 0,
+      "total": 48,
+      "scopes": {
+        "source": 0,
+        "verdict": 0
+      },
+      "population_pass": false
+    }
+  },
+  "primary_pass": false,
+  "oracle_direction_pass": false,
+  "csv_sha256": {
+    "checks.csv": "ffaf25fada5d1a8bbbfb3eecc9aac1b45d33e7f08a1f10848afd79a7d565b7b7",
+    "metrics.csv": "9c5e4bf633cdb5790e91509eb7e647ab5a0c7c5a7a7a729e557dcea4afd8a8c7"
+  }
+}

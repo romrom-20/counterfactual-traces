@@ -1,5 +1,11 @@
 # Results and evidence
 
+[295: directed endpoint/path closure](finite-drive-295/README.md) retains all48
+probes, seven candidates, failed endpoint/oracle population rules, passing936
+numerical checks and known-function integral calibration. Supplied P endpoints;
+not a native forecast. The accompanying research reassessment closes this local
+line instead of launching another automatic approximation sweep.
+
 [294: conditional response-change ranges](response-change-294/README.md) retains
 all 48 probes and four bases, the failed H1 (8/48) and H2 (0/48), all 1,824
 passing numerical checks, and the separate weaker 48/48 descriptive improvement.
