@@ -1,5 +1,68 @@
 # Reproduce the current research
 
+<a id="attention-and-receiving-response-289290"></a>
+
+## Attention and receiving response (289–290)
+
+[Failed attention account](../docs/analysis/289-attention-interface.md) ·
+[Receiving gated MLP result](../docs/analysis/290-receiving-nonlinearity.md) ·
+[289 protocol](../docs/experiments/289-attention-interface.md) ·
+[290 protocol](../docs/experiments/290-receiving-nonlinearity.md)
+
+These are retrospective conditional response tests on all 32 old contexts.
+The attention interface alone fails 0/32. With that interface supplied,
+receiving gated MLP response passes 32/32 while normalizer response alone
+passes 0/32. Only 16 remaining finite contrasts are material. Edited source,
+attention and head states are supplied by finite forecast replay; this is not
+a compact native predictor or a learned circuit.
+
+Check the public records without model packages, from the repository root:
+
+```sh
+python -S research/boolean_coupling/verify289.py
+python -S research/boolean_coupling/verify290.py
+```
+
+For actual model replication, first regenerate the qualified 285–288 references
+and their tiny CPU fixtures using the preceding studies below. The 287 head
+archive and its hash receipt are reused. Keep the original failed 287 audit
+and its separately named qualification. Use fresh output directories:
+
+```sh
+RESPONSE_REFERENCE=/path/to/qualified/native-structure-285
+RESPONSE_PREVIOUS=/path/to/qualified/tangent-routing-288
+RESPONSE_HEAD=/path/to/qualified/source-receiver-readout-287
+RESPONSE_CPU_REFERENCE=/path/to/synthetic-285/complete
+RESPONSE_CPU_PREVIOUS=/path/to/synthetic-288/complete
+RESPONSE_CPU_HEAD=/path/to/synthetic-287/complete
+RESPONSE_OUTPUTS=/path/to/new/output-parent
+python -m research.boolean_coupling.preflight289 --out "$RESPONSE_OUTPUTS/cpu-289" --reference-285-fixture "$RESPONSE_CPU_REFERENCE" --previous-288-fixture "$RESPONSE_CPU_PREVIOUS" --head-287-fixture "$RESPONSE_CPU_HEAD"
+python -m research.boolean_coupling.run289 --reference-285 "$RESPONSE_REFERENCE" --previous-288 "$RESPONSE_PREVIOUS" --head-287 "$RESPONSE_HEAD" --out "$RESPONSE_OUTPUTS/interface-289"
+python -m research.boolean_coupling.audit289 --run "$RESPONSE_OUTPUTS/interface-289" --reference-285 "$RESPONSE_REFERENCE" --previous-288 "$RESPONSE_PREVIOUS" --head-287 "$RESPONSE_HEAD"
+python -m research.boolean_coupling.preflight290 --out "$RESPONSE_OUTPUTS/cpu-290" --reference-285-fixture "$RESPONSE_CPU_REFERENCE" --previous-289-fixture "$RESPONSE_OUTPUTS/cpu-289/complete" --head-287-fixture "$RESPONSE_CPU_HEAD"
+python -m research.boolean_coupling.run290 --reference-285 "$RESPONSE_REFERENCE" --previous-289 "$RESPONSE_OUTPUTS/interface-289" --head-287 "$RESPONSE_HEAD" --out "$RESPONSE_OUTPUTS/receiving-290"
+python -m research.boolean_coupling.audit290 --run "$RESPONSE_OUTPUTS/receiving-290" --reference-285 "$RESPONSE_REFERENCE" --previous-289 "$RESPONSE_OUTPUTS/interface-289" --head-287 "$RESPONSE_HEAD"
+```
+
+All enumerated sources must be committed before checkpoint execution. Installed
+source and checkpoint hashes must match the pinned references. Both producers
+require 384MiB initial and 256MiB per-case free space, with a 96MiB archive cap.
+No ordinary True call or True gradient is made. All finite source/receiving
+work, reference passes, full-vocabulary heads, primitive and block VJPs count.
+See each status file and report for the full diagnostic budget.
+
+Required gates pass 21,216/9,280 records. Eight new narrow coordinate failures
+remain failed under the declared cached replay bounds; earlier failures remain.
+FDs qualify actual finite modified functions. Analytic norm/attention probes
+cover selected native cached-shape derivatives, not an independent full Jacobian.
+The gated MLP family is not a separate validation of every SiLU/product coordinate.
+
+Posthoc `publish289`/`publish290` export scalar records and omitted-array
+inventories, excluding weights, activation vectors and private articles.
+`describe289`/`describe290 --out /new/figure-directory` regenerate all-case plots
+and refuse existing directories. Their `publish... --seal` commands bind the
+final reports, figures, helper code and scientific sources after presentation.
+
 ## Source and receiving response maps (288)
 
 [Result](../docs/analysis/288-source-receiver-tangent-routing.md) ·

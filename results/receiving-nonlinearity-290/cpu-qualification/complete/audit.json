@@ -1,0 +1,83 @@
+{
+  "experiment": 290,
+  "status": "passed",
+  "retrospective": true,
+  "design_sha256": "22076cf7c362dda090b5a715d831df3436d3f82eb9cdff449dd2691f92a4e19d",
+  "status_sha256": "51638430c17ba68442ecae95d17ec7eb401c18abf0b93c096908957f7dcf252f",
+  "audit_source_sha256": "e462be3a0bc3e43e275641acdaad6298593d561f432a36ca6b9608b6abbfae53",
+  "required_checks": 360,
+  "failed_checks": 0,
+  "original_coordinate_failures": 0,
+  "intermediate_diagnostic_failures": 0,
+  "learned_circuit_identified": false,
+  "general_question_B_solved": false,
+  "arms": {
+    "00": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 3
+    },
+    "01": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 3
+    },
+    "10": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false,
+      "material_passes": 0,
+      "material_eligible": 3
+    },
+    "11": {
+      "passes": 4,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false,
+      "material_passes": 3,
+      "material_eligible": 3
+    }
+  },
+  "primary_pass": {
+    "NORMALIZATION": false,
+    "GATED_MLP": false
+  },
+  "csv_sha256": {
+    "checks.csv": "7083ce26a3e46cdbb587a9a667a7ad1d63b1a0c11ce5dfab124d759b7a88de6e",
+    "derivatives.csv": "9d23ab671b67b971f3589dd3b61d1a571507d07734424560cec2031a16de3f34",
+    "primitives.csv": "034f4067d029c0f37f222cbc1072af583063264325193d220577c303d6cb6ebb",
+    "original_coordinates.csv": "f97ff7ef08979c451f2231a820e4571c04868e9e3bbdc0cc72e659a67659b08e",
+    "intermediate_diagnostics.csv": "ee14d78580d287cea33f6d2da2d5bf624b2331400f7cd85e6ec5915cacb001c7",
+    "hypotheses.csv": "c2aad66ad705c389d7051385bc82c365cca2703cdfa3296a4c25efb1bc70b09e",
+    "receiving_vectors.csv": "114ee7863381df0e0008d2343bd899ffb954409cfd440d8404e75fc7e601cd93",
+    "native_scalar.csv": "b180f241418493705595943afb6edbd6f2da7b5f1f8a3cee1c7de1a63e5e2931",
+    "ledger.csv": "2f235af7e270dffb0f0a41058e1bbe91eac6adca6b3de89edcba3ce9616f23d3"
+  }
+}

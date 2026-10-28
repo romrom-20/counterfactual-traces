@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "synthetic": true,
+  "checkpoint_loaded": false,
+  "unequal_length_cases": 4,
+  "arms": 8,
+  "all_coordinate_FD_checks": 512,
+  "tamper_rejected": [
+    "bounds",
+    "FD",
+    "primitive"
+  ],
+  "scientific_outcomes_not_required": true,
+  "counts": {
+    "full_F": 4,
+    "first_block": 4,
+    "anchor_suffixes": 8,
+    "anchor_blocks": 16,
+    "modified_forwards": 4,
+    "modified_blocks": 8,
+    "modified_heads": 4,
+    "tape_backwards": 0,
+    "triangular_blocks": 0,
+    "triangular_block_VJPs": 0,
+    "triangular_head_VJPs": 0,
+    "native_suffixes": 4,
+    "native_blocks": 8,
+    "interface_forwards": 448,
+    "interface_blocks": 1792,
+    "interface_heads": 448,
+    "interface_backwards": 32,
+    "blockwise_blocks": 128,
+    "blockwise_VJPs": 64,
+    "blockwise_head_VJPs": 32,
+    "encoding_norm_calls": 480,
+    "reference_forwards": 4,
+    "reference_backwards": 4,
+    "primitive_norm_VJPs": 16,
+    "primitive_attention_VJPs": 48,
+    "anchor_qk_recomputations": 16
+  }
+}

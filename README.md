@@ -13,7 +13,27 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: source and receiving response maps must be composed
+## Latest: receiving gated MLP response accounts for the remaining sensitivity gap
+
+The edited attention interface alone fails **0/32** retained contexts. With that
+interface supplied, restoring the receiving gated MLP response recovers the
+remaining gradient and finite-effect contrast in **32/32**, eight per layout.
+Restoring receiving normalization response alone gives **0/32**.
+
+The gated-MLP account also passes the conditional receiving-correction vector
+test 32/32, at a 25% tolerance. Only 16 remaining finite contrasts are material.
+These are retrospective finite response-map interventions with edited source,
+attention and head anchors supplied. They do not identify individual neurons,
+separate SiLU from multiplication, or predict complete native vectors under a
+compact budget. **General Question B remains open.**
+
+[Positive result and scope](docs/analysis/290-receiving-nonlinearity.md) ·
+[Failed attention account](docs/analysis/289-attention-interface.md) ·
+[Reproduce both](research/README.md#attention-and-receiving-response-289290)
+
+![Gated MLP response versus normalizer response, with all-E calibration separate](docs/figures/receiving-nonlinearity-290/receiving-nonlinearity.png)
+
+## Earlier: source and receiving response maps must be composed
 
 Changing the initial source can seed a changed sensitivity. But changing only
 the source's later local response maps does not reproduce it: **0/32** retained

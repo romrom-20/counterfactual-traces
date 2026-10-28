@@ -66,5 +66,9 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify287.py
       - name: Verify finite response-map diagnostic, interactions and retained coordinate failures
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify288.py
+      - name: Verify failed attention-interface account and primitive qualifications
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify289.py
+      - name: Verify receiving gated-MLP account, normalizer control and numerical limits
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify290.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling

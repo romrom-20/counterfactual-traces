@@ -2,7 +2,26 @@
 
 The active repository focuses on Question B. The causal studies 225b–227b use the same 32 old, dependent synthetic contexts. Study 228 adds 32 new literal pairs with forecasts sealed before native True measurement; 229 diagnoses those now-observed contexts retrospectively. All use one pinned Qwen checkpoint; no successful general False-only native-response predictor is established.
 
-## Latest: 288 — source and receiving response maps
+## Latest: 289–290 — attention interface and receiving nonlinear response
+
+289 full attention-interface sufficiency fails0/32, as do all seven controls.
+290 keeps that edited interface and crosses receiving RMSNorm with gated MLP
+response. GatedMLP-only01 passes32/32 joint gradient/finite-effect criteria;
+normalizer-only10 fails0/32. The separate conditional receiving-vector account
+also passes32/32 at25% error. Only16 effects are material. All-E11 is a
+calibration, not a new discovery. All32 old dependent contexts are retained.
+
+Required gates pass21,216 and9,280 checks. 290 retains8/96 narrow1e-4 coordinate
+failures under the declared cached bounds; old failures remain failed. No fresh
+prediction, learned circuit, SiLU/product isolation or generalQB closure.
+
+[289 protocol](experiments/289-attention-interface.md) ·
+[Failed account](analysis/289-attention-interface.md) ·
+[290 protocol](experiments/290-receiving-nonlinearity.md) ·
+[Conditional positive result](analysis/290-receiving-nonlinearity.md) ·
+[Evidence](../results/receiving-nonlinearity-290/README.md)
+
+## 288 — source and receiving response maps
 
 Eight finite recentered functions cross source recurrence, receiving/transmission
 and final-head anchors while preserving the edited primal. Both source-only and

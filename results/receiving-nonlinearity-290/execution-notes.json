@@ -1,0 +1,52 @@
+{
+  "experiment": 290,
+  "retrospective": true,
+  "source_freeze": "462b0ba36266b7493bfcde01f025ee83af423b1b",
+  "scientific_sources": 89,
+  "scientific_sources_unchanged": true,
+  "producer_seconds": 331.82,
+  "audit_seconds": 6.37,
+  "case_array_bytes": 81154957,
+  "resource_guards_MiB": [
+    384,
+    256,
+    96
+  ],
+  "no_guard_or_scientific_threshold_changes": true,
+  "ordinary_True_calls": 0,
+  "True_gradients": 0,
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "old_numerical_failures_preserved": true,
+  "actual_finite_functions_not_backward_only": true,
+  "two_same_library_derivative_compositions": true,
+  "CPU_final_qualification": "290-synthetic-v3",
+  "private_article_exported": false,
+  "logs_sha256": {
+    "290-producer.log": "bffec4a2c9998112055b59f939c3f718690bd4b3f26429d2323556e3513832e3",
+    "290-audit.log": "4d572ba973e72ff144ea87bec958ccad2bded29a6c9527acaf376036496973fc",
+    "290-synthetic-v3.log": "10ef1f2ba4b8189c8f0ec25a7f09e339526343beff89f0bb8526552c562da855"
+  },
+  "retained_development": [
+    {
+      "stage": "Unfrozen CPUv1",
+      "outcome": "Four numerical cases passed; analysis helper still used a three-bit baseline field name and stopped before science tables. Corrected before freeze; full attempt/source/log retained."
+    },
+    {
+      "stage": "Unfrozen CPUv2/v3",
+      "outcome": "Both passed. Finalv3 corrected summary arm count and family description before freeze; no scientific bounds or endpoints changed."
+    },
+    {
+      "stage": "Unsealed plotv1",
+      "outcome": "Axes.set does not accept linthresh. Corrected the plotting API call, retained failed helper/log, rendered into a fresh directory. No data or scientific code changed."
+    },
+    {
+      "stage": "Unpublished public verifier v1",
+      "outcome": "A broad textual substitution produced an incorrect expected tiny coordinate count382. Corrected to actual4*4*16=256; initial helper/manifest retained. No scientific source, data, endpoint or tolerance changed."
+    },
+    {
+      "stage": "Unsealed presentation v2/v3",
+      "outcome": "Retained initial rendering; set nonnegative error-axis lower bounds to zero so symmetric-log scaling does not waste space on negative errors. All cases, values and endpoints unchanged."
+    }
+  ]
+}
