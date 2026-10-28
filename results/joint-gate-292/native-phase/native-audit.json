@@ -1,0 +1,174 @@
+{
+  "experiment": 292,
+  "status": "passed",
+  "design_sha256": "88bc2fb555ced944456681084ff2c0f4e243eed760af8e580301cafe9a40e9f3",
+  "native_status_sha256": "27393c51c0bdb07b4e73eb5271c5a014a8bc50aff8c5d03bb1062fd8f7a7d264",
+  "forecast_seal_sha256": "df6bd50e44e5fcdc52b58fec9d20aa395b7763ee0526cdbc97fe0cd4d51ad70d",
+  "required_checks": 96,
+  "failed_checks": 0,
+  "counts": {
+    "full_unhooked_true_replays": 32
+  },
+  "source_sha256": "62ff68c28432603fb0adc908419a35c425e3426ab4fcde94d675a2ee999a8e79",
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "native": {
+    "P": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true
+    },
+    "D": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false
+    },
+    "C": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false
+    },
+    "B": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false
+    },
+    "A": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false
+    },
+    "T": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true
+    }
+  },
+  "effects": {
+    "P": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true
+    },
+    "D": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true
+    },
+    "C": {
+      "passes": 12,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 4,
+        "user_rule": 4,
+        "xml": 4
+      },
+      "population_pass": false
+    },
+    "B": {
+      "passes": 30,
+      "total": 32,
+      "layouts": {
+        "dialogue": 6,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true
+    },
+    "A": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "dialogue": 0,
+        "table": 0,
+        "user_rule": 0,
+        "xml": 0
+      },
+      "population_pass": false
+    },
+    "T": {
+      "passes": 32,
+      "total": 32,
+      "layouts": {
+        "dialogue": 8,
+        "table": 8,
+        "user_rule": 8,
+        "xml": 8
+      },
+      "population_pass": true
+    }
+  },
+  "trajectory_joint": {
+    "passes": 32,
+    "total": 32,
+    "layouts": {
+      "dialogue": 8,
+      "table": 8,
+      "user_rule": 8,
+      "xml": 8
+    },
+    "population_pass": true
+  },
+  "primary_pass": {
+    "H1_native": true,
+    "H2_trajectory": true,
+    "H3_joint_product_effect": true
+  },
+  "csv_sha256": {
+    "native_checks.csv": "78cebc1914c82fe787e0ca0410b12bc4acc63b48ff41f8c7acfa02b70385c544",
+    "native.csv": "e9cfa35850763b1f37ed213155ab0feeec3e67c1aa9291925444259c376cef4b",
+    "trajectories.csv": "a6a75350f506061485227cbd13345d67b3eb062f20da61f5aea68103dacb5f4b",
+    "effects.csv": "61c6bfe1d36a92fb79b6c1cc1cf4f0d80c92d0461aa4fe81bdcb6a0c5496d900",
+    "coefficients.csv": "f04bcdfdba8a0fe57a6ec04c25af848083f574c48c5031081237ed6698ba6fb1"
+  }
+}

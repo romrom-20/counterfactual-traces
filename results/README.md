@@ -1,5 +1,11 @@
 # Results and evidence
 
+[292: fresh full-native gate forecast](joint-gate-292/README.md) retains all
+32 publicly sealed forecasts and native outcomes, 76,128 pre-native and 96
+native checks, all failed strict controls, signed vector accounting and original
+resource stops. P passes 32/32 native/trajectory/effect tests under a dense finite
+attention/norm/projection/product/head budget; no compactness or circuit claim.
+
 [291: receiving coefficient diagnostic](receiving-coefficients-291/README.md)
 retains six failed partial accounts (five 0/32, one 1/32 nonmaterial), scalar-only
 32/32 success despite 0/32 receiving vectors, every shuffled control, all 8,544

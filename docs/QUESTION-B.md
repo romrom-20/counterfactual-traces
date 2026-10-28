@@ -6,6 +6,26 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
+## 292: a fresh full-native forecast under an expensive budget
+
+A coherent False-value/slope anchored rational activation update, with joint
+gate/up products in all affected source and receiving MLPs, passes 32/32 native,
+trajectory and product-effect tests. Maximum margin error is 0.0000573 nat.
+All four strict native controls pass 0/32. Adaptive attention, normalization,
+projections, products and head remain finite; no speedup or learned-circuit claim.
+The looser effect test also passes some inaccurate controls. Forecasts were
+publicly sealed before native measurement; all 76,128 pre-native and 96 native
+checks pass. Historical failed controls and numerical caveats remain.
+
+This predicts complete native displacements without supplied edited parents,
+but the near-exact surrogate still performs a dense forward. Which learned
+operations generate the schema-specific direction under a restricted useful
+budget remains unresolved. General Question B is open.
+
+[Report](analysis/292-joint-gate-forecast.md) ·
+[Protocol](experiments/292-joint-gate-forecast.md) ·
+[Evidence](../results/joint-gate-292/README.md).
+
 ## 291: scalar accuracy does not identify the receiving computation
 
 All six partial receiving coefficient accounts fail the population criterion:

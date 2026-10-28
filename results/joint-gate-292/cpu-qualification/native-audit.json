@@ -1,0 +1,174 @@
+{
+  "experiment": 292,
+  "status": "passed",
+  "design_sha256": "c162834be9fad87a8ce9147f1d79d753a5ceacd50fd2086ae4ed3220dab0e9c9",
+  "native_status_sha256": "46d0dcbc96020fb0b965abc3773680d3b77c913d2608ac920356528a53f8527e",
+  "forecast_seal_sha256": "d0852855212ba88d03aff506b8e57af65aaf03101308f46cab5c57be6fc3fb40",
+  "required_checks": 12,
+  "failed_checks": 0,
+  "counts": {
+    "full_unhooked_true_replays": 4
+  },
+  "source_sha256": "62ff68c28432603fb0adc908419a35c425e3426ab4fcde94d675a2ee999a8e79",
+  "general_question_B_solved": false,
+  "learned_circuit_identified": false,
+  "native": {
+    "P": {
+      "passes": 4,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "D": {
+      "passes": 4,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "C": {
+      "passes": 3,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "B": {
+      "passes": 3,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "A": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false
+    },
+    "T": {
+      "passes": 4,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 1,
+        "synthetic-layout-1": 1,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    }
+  },
+  "effects": {
+    "P": {
+      "passes": 2,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "D": {
+      "passes": 2,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "C": {
+      "passes": 1,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "B": {
+      "passes": 1,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    },
+    "A": {
+      "passes": 0,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 0,
+        "synthetic-layout-3": 0
+      },
+      "population_pass": false
+    },
+    "T": {
+      "passes": 2,
+      "total": 4,
+      "layouts": {
+        "synthetic-layout-0": 0,
+        "synthetic-layout-1": 0,
+        "synthetic-layout-2": 1,
+        "synthetic-layout-3": 1
+      },
+      "population_pass": false
+    }
+  },
+  "trajectory_joint": {
+    "passes": 4,
+    "total": 4,
+    "layouts": {
+      "synthetic-layout-0": 1,
+      "synthetic-layout-1": 1,
+      "synthetic-layout-2": 1,
+      "synthetic-layout-3": 1
+    },
+    "population_pass": false
+  },
+  "primary_pass": {
+    "H1_native": false,
+    "H2_trajectory": false,
+    "H3_joint_product_effect": false
+  },
+  "csv_sha256": {
+    "native_checks.csv": "e59154bf9bf111a6e44bc36449a21827c26da3ed17f93f489085b5a18ec84d38",
+    "native.csv": "51c5ea507c4d8197feb0de8db6d83e39e8374014a074de095847a27cda6f4dfb",
+    "trajectories.csv": "d1719ee873f12c301a5da810f8ac42a9037b2e353905ba02cb7bac476272fb38",
+    "effects.csv": "9cf2f31fa834d26b434553c498fd034057ccc7ce466a87faf6716e2edb597aa8",
+    "coefficients.csv": "24a3f8df668f3031b9b11026c8d5682f8718506c83f4c7b54cca96431929d8c6"
+  }
+}

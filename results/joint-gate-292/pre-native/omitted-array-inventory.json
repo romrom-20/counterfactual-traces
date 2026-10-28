@@ -1,0 +1,9382 @@
+{
+  "arrays": [
+    {
+      "path": "cases/931cd74ea29beaa9860d9a3a84090505c5ee51879f744d312c2d858aec2e8b0c.npz",
+      "sha256": "8437f6315b864938ae8d1c3beabf44fd4c2c372ab9204cd64942ebf9563d26b7",
+      "bytes": 5703487,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/a563c18d7350975117e69ded4500933dc39df8e404b64bcc16256cf6610f937a.npz",
+      "sha256": "6da1fb352e335258dbd7370f7bd85a5470357cd9b211e0dd758d5f3b3feb5adc",
+      "bytes": 5702108,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/617e0ad51b1eecc1cd24b5988ed57540317596a56ea55355d38340ef70b1e364.npz",
+      "sha256": "7048acfa811f457137d045d2e1660fa05f252c0fa665a255fcd9cadf425d6b15",
+      "bytes": 5350419,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/3e72e82a49f529e183df931330274889df69e1f8a88828fec27ca11235a91a2e.npz",
+      "sha256": "912f701a2e141c5de5906f17308b7fefcb8854a995acc247bb56868c4234d739",
+      "bytes": 5703096,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/7e685403d14df81b4977f9b7f217f8a09963fb752cc637c4c9c8d15865b03a78.npz",
+      "sha256": "6ab2734d1aadc8fc02542f2732faa6141c3251875b85bcfe2b94314338a05767",
+      "bytes": 5350142,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/bd57addcacd3d9b7c80706e0cd0b4fd95b392378f47c9939a08850173f81c6b7.npz",
+      "sha256": "084053d227f62ab118c3faf2a361b3154f74aca4e687700ff791ae8b883709af",
+      "bytes": 5703066,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/ac0aa467225df225a6e149a5f556f53034d2761eb8ad6c43dcafc948e00bc5a0.npz",
+      "sha256": "7d08b5e790e0485cf79e09bc7bd4634a5c778f5880699734144de8f97896ff75",
+      "bytes": 5350061,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/c63f723c60f427618a6d4031640e09186c76e46c8bf46bf4cfd9017d474ec339.npz",
+      "sha256": "87278636519a902899dddfe00ee9427a4fe38f0879272e7f3face5f8c152d4e3",
+      "bytes": 5349419,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/0904fadb2c1d0e725e362c98faa7b9900fec55cd63bbbf04f27a43565e86a2d8.npz",
+      "sha256": "4734919b37a3e5876bebd9d8a4bc84774a36a5982ab7bdada4b76e53c527c443",
+      "bytes": 5702868,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/dbbd8cb542fef007b5377548540f8040ae118b773a92b02dba2618c285e6b1c2.npz",
+      "sha256": "72f1a496f558de3617f3167d05e30d3d370882f295d3e14c5df1b4803afa3664",
+      "bytes": 5703062,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/cc932126e93681bbb4c8ec4bbdc6b27d30224251cae239150a0929bb3c58e91f.npz",
+      "sha256": "92abc91207a9563c7e2c440865057be20256df285f77d95844abf9ab7f507188",
+      "bytes": 5350324,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/2db8b417021dee1bdc7aa43eadb3fac99136d3cdd522ed7fad50155b95c6bb32.npz",
+      "sha256": "9dad08e01bdf3ac73107b9a0fed4c76bbd308c48e9d06b9654c98e14c5f17079",
+      "bytes": 5703236,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/809f756764bd012c5932d91b186866672766192b5dd854c2de13443343ce24db.npz",
+      "sha256": "94c078f3e5d2ef796166a564c6bfc0e1f5ec97a8ac662b153361811147d3f63f",
+      "bytes": 5350438,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/de86040fb3e8948a8a914cdd58e93099240142c99eec620fb9b4d7f2b079c444.npz",
+      "sha256": "e6dbd8111fdfafa8d5230c544a3ad6b94419ea26d2e59c6fc8ffaf98dac18101",
+      "bytes": 5703151,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/b09852c372d2f0eb4f97a92c5c7b8655c03c905043832a45ee2c76c769f64e5e.npz",
+      "sha256": "41afb76a1a2a554c738b0ad8dc813e328b6c1f8be2fea4ecfa735a6e33d34e18",
+      "bytes": 5350538,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/2bb13fed3f2c3ac0a1a29091e2fa25da2c907e517ee14af394152fc763a86032.npz",
+      "sha256": "e4259056ae95acf224df21d806b86711e9f389ca8dc5efa75fb1058e149e748d",
+      "bytes": 5350191,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/4f40e6157a0a2501bc2d4a0cb118cbb4b65d990caa258da0a941536e2a7fecb4.npz",
+      "sha256": "f96e8bc3c90e54ded8346ca1c5f4d0467de9d98d41ed67c69d19947d04e2d4bd",
+      "bytes": 5702290,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/b93088c764ba1fe8249cb3931f41a5414fa16ce3d6160713d0cbac8bd56a1a07.npz",
+      "sha256": "d5e1c944bf4ca93b2107d4a8f5229e9786756fe41e1970aa8e8464a53383acd3",
+      "bytes": 5702635,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/e537a3c9d3dddea2f9ae31860283a7cd7ad28e0192064e20dbb779c5d46656fb.npz",
+      "sha256": "e569829c73edc55b3de1d282f32d89281f7b20ac7c498825969087da34c0b55a",
+      "bytes": 5349823,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/cc49e6a6865e28a4c8dccded369e691bdb2b92e20b7e586e7f5a24a658222a49.npz",
+      "sha256": "8753a84d1612e671113250f870be3326512d77ebc7e78feaeba219a6afed5c58",
+      "bytes": 5703004,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/c38f010640e24a8a6c1e88cc347120ad3140853aef2b46eb063e83fd20913d34.npz",
+      "sha256": "b483628970b7f0fe9eac7f503b065cc3047dc76384a7fbf7c934abb971f110ad",
+      "bytes": 5349922,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/9e8e4b9f39d35da5e153c66c779408282b400e3c829c5af50c5b02c4dfac7421.npz",
+      "sha256": "981bc835909c0bbfc8b86b8aea31d6f8d620383606af4fdcfa1960e0bd6e5a2c",
+      "bytes": 5702252,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/af9894deefbda573ff4f5f8fc00eba0c271ed119e29bc5c0dca2dbd14e0cbbe7.npz",
+      "sha256": "469afa65be9ada5863a18e1fa2e280ba134a58618764821ad3d7441c8d784c5c",
+      "bytes": 5349994,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/fe43c9abdf0f5561327f9887cc0be8a2ef50d68795257c7eed4ea51d64612df2.npz",
+      "sha256": "6e998b43f434f9ca5a76f1f9bd685efcfef34f207392a15aabafe1071f392fcd",
+      "bytes": 5349929,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/afb95658e8ee60edc1e746e82adbb6d4d4b5eb88104366f95609dd651681a065.npz",
+      "sha256": "ecb6e360a3e32de25e8897371f711d8cb91db9398c59a113af59463f4bad9076",
+      "bytes": 5703147,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/8596d37a5423e07970a8a47824b16f4997310acde683241a1913d1b4eaab9cd8.npz",
+      "sha256": "ee506e0736a132317ba11cdd1073a25bc16f81dc2a53bd853db3b3f0dd517a8e",
+      "bytes": 5702937,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/1dbbdf8fbc39c4c0f5a153ae97d86c66733897d9d67eff51c9f8ffa6e6e409c1.npz",
+      "sha256": "832b01bd7f54d61d95e582afdca47e33dcce8a26fe9cb7558195359c073aa1b9",
+      "bytes": 5349221,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/75bc76a7ca36123a325a6c9ce88a7e908691fe75e78038da4190c4d23cd060b6.npz",
+      "sha256": "d60e20fd75ef6d131e69685cf59c37486a8d74331af3982e5d425a4e820e9efe",
+      "bytes": 5703449,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/06a6387c99bcbcf879070c073a3406dd1e5ef9c7dbc0acdd1cd252fbb78c1aa7.npz",
+      "sha256": "f678dcb73c5c120c906b7d3279716df9749d62dd94e9b7eee797c7b810b97db4",
+      "bytes": 5349694,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/1302d1097b6f353d29cddc963d2d5186274a284a408eb184cd496b80f06654f0.npz",
+      "sha256": "6df11a99e5e408cf3590addf767ba80dc9c7eb315b7860957e0db62c57b44827",
+      "bytes": 5703404,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            6,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/3048b1a8658d40a2a9b33c41ac35c584995934eb6c66daf159326dc97a872ecf.npz",
+      "sha256": "7abbe658a023f63c9c7fc2762da4ed91ce043df74745c22fa4520740369a159d",
+      "bytes": 5349790,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/d71beb45b4891c05fefd3a23d8e07f15712c5033a1b526c09b8843627b82eace.npz",
+      "sha256": "e5866660ffe5f5c0d3181ca7cf237609d9a3610e29f42e4a21b5b1a2ca3c1ee5",
+      "bytes": 5349281,
+      "arrays": {
+        "F_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "F_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "F_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "P_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "P_states": {
+          "shape": [
+            28,
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_writes": {
+          "shape": [
+            28,
+            2,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_g": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_u": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_phi": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_product": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "P_witness_slope": {
+          "shape": [
+            3,
+            2,
+            8960
+          ],
+          "dtype": "float64"
+        },
+        "D_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "D_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "D_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "D_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "C_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "C_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "C_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "B_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "B_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "B_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "A_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "A_control_g": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_u": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_phi": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        },
+        "A_control_product": {
+          "shape": [
+            8960
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  ],
+  "case_bytes": 176846378,
+  "boundary": "Local arrays are omitted; hashes/shapes/dtypes bind regeneration, not independent model replication."
+}
