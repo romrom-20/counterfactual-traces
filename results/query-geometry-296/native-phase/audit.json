@@ -1,0 +1,69 @@
+{
+  "experiment": 296,
+  "status": "passed",
+  "design_sha256": "1c558e7ef791010593d2efbbb800f728a30bb3f6da522c41aadd80c6044059a8",
+  "forecast_status_sha256": "2dc4d29efaffd297d00cccfc113f4101d7bc79cca040aa14ee23cf38aed82b9f",
+  "required_checks": 39704,
+  "failed_checks": 0,
+  "raw_logit_checks": 168,
+  "raw_logit_failed": 56,
+  "witness_kernels": 168,
+  "scientific_outcomes_withheld": false,
+  "general_question_B_solved": false,
+  "populations": {
+    "A": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "ini": 0,
+        "jsonlines": 0,
+        "memo": 0,
+        "sexpr": 0
+      },
+      "sufficient": false
+    },
+    "D": {
+      "passes": 1,
+      "total": 32,
+      "layouts": {
+        "ini": 1,
+        "jsonlines": 0,
+        "memo": 0,
+        "sexpr": 0
+      },
+      "sufficient": false
+    },
+    "B": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "ini": 0,
+        "jsonlines": 0,
+        "memo": 0,
+        "sexpr": 0
+      },
+      "sufficient": false
+    },
+    "R": {
+      "passes": 0,
+      "total": 32,
+      "layouts": {
+        "ini": 0,
+        "jsonlines": 0,
+        "memo": 0,
+        "sexpr": 0
+      },
+      "sufficient": false
+    }
+  },
+  "H1_magnitude": false,
+  "H2_direction": false,
+  "native_status_sha256": "e01857fe2ab43e861a0183e8f1cc76f2bda31c0f1be08515206aa2a11d358690",
+  "csv_sha256": {
+    "raw-logits.csv": "d29a3831971cb60c4f42ad52f5273759b76c760fa996383303100bb00981fc34",
+    "pre-raw-logits.csv": "9f51252c19086c9aa142014bc60c8680bfd06136929b87cacb2926f11888d1ac",
+    "checks.csv": "7da2519e55044b2ab6f8eebc9676db8c82a376deb81c1abc5a60e60259e7c2f8",
+    "native.csv": "46a383ab4d107d423b52a74259afb4cf3eb6e6fe7bec57e6e47b8b9669b7adb3",
+    "pre-checks.csv": "6acb9cc06904137cb7ad1dc149cd3e1d22704f7da568741dd90f24e938a7ab9f"
+  }
+}

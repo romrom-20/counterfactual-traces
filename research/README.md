@@ -1773,3 +1773,60 @@ source ancestry, sufficient-statistic arithmetic, decisions, cost and figure
 provenance; it does not independently replicate the omitted raw vectors or
 checkpoint calculation. Integral recovery is calibration of a supplied known
 function, not a new learned mechanism. No296 is part of this reproduction.
+
+## Query-geometry 296
+
+[Result](../docs/analysis/296-query-geometry.md) ·
+[Protocol](../docs/experiments/296-query-geometry.md) ·
+[296b progress correction](../docs/experiments/296b-append-only-progress.md) ·
+[All records](../results/query-geometry-296/README.md).
+
+Magnitude-only and direction-only query feedback are tested on32 globally sealed
+new inputs. Both sufficient population hypotheses fail. All keys/values/MLPs and
+the final head remain finite; these are expensive native-path interventions,
+not a compact prediction method. Original numerical failures remain visible.
+
+For model-package-free public record checks:
+
+```sh
+python -S research/boolean_coupling/verify296.py --phase forecast
+python -S research/boolean_coupling/verify296.py --phase native
+```
+
+For a numerical repetition from scratch, use the pinned Python3.12 scientific
+environment and Apple Silicon MPS/eagerFloat32 backend. The posthoc repetition
+helper needs no old activation archive or write access to GitHub. It reads the
+published cases and weights, executes the unchanged frozen query interventions
+and independent audits, and writes to a NEW output directory:
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research
+python -m boolean_coupling.reproduce296 --offline --out /path/to/NEW-query-geometry-repetition
+```
+
+Omit `--offline` to permit downloading the pinned public checkpoint. This executes
+320 full forwards on already-public inputs, and separately reconstructs geometry,
+attention and finite heads. It does not intentionally repeat the historical
+bookkeeping failure or its extra16 calls. Every case's forecasts precede its
+native comparison, but the helper is explicitly a numerical repetition AFTER
+outcomes are public, not a new globally sealed scientific prediction. It uses
+the frozen `query296` and `audit296` functions; the new outer loop is posthoc.
+Its IO wiring was exercised on a small CPU model, not rerun on the checkpoint
+as an additional production confirmation. No new tolerance is introduced.
+
+The original prospective sequence remains available for reproducing the exact
+chronology:run296 forecast stops after two cases at the protected progress writer;
+run296b then replays those cases and completes all forecasts in a NEW directory.
+Its separate filesystem fixture validates append-only progress routing. Run
+`audit296 --phase forecast`, then `run296b --phase seal`, publish the exact global
+seal and record a receipt before `run296b --phase native`, followed by
+`audit296 --phase native`. See the command CLIs and protocol; never overwrite
+original run evidence. That sequence uses256 completed forecast+64 native calls,
+plus16 original stopped calls, and enforces a public receipt. Its125 scientific
+and two execution-qualification sources remain immutable. The simpler numerical
+repetition above does not claim that chronology.
+
+Forecast/native archives and witnesses remain local; public inventories list
+hashes, sizes, shapes and dtypes. `publish296`, `describe296` and `verify296`
+preserve delivery provenance and record arithmetic, not independent checkpoint
+replication. No297 is launched by this reproduction.
