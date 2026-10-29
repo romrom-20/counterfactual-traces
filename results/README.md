@@ -1,5 +1,11 @@
 # Results and evidence
 
+[296: native query magnitude versus direction](query-geometry-296/README.md)
+retains all32 globally sealed forecasts, failed magnitude/direction population
+claims,39,704 required passing checks and56/168 raw-logit failures. The original
+progress stop and exact296b replay remain preserved. Finite adaptive computation
+is substantial; no learned circuit or compute-saving claim.
+
 [295: directed endpoint/path closure](finite-drive-295/README.md) retains all48
 probes, seven candidates, failed endpoint/oracle population rules, passing936
 numerical checks and known-function integral calibration. Supplied P endpoints;

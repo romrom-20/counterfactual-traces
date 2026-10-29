@@ -365,6 +365,13 @@ def verify(root, phase):
             and not cost["wallclock_speedup_claimed"],
             "Actual work accounting",
         )
+        require(
+            cost["original_stopped_counts"]
+            == dict(full_forwards=16, extra_full_QK_softmax_PV_each=392, witness_extra_QK=15)
+            and cost["total_extra_QK_softmax_PV_each"] == 7560
+            and cost["total_witness_extra_QK"] == 183,
+            "All stopped/replayed attention work",
+        )
         prov = read(root / "docs/figures/query-geometry-296/provenance.json")
         require(
             prov["all_32_cases"]

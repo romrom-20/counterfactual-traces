@@ -6,6 +6,24 @@ More generally, can identifying the nonlinear operations that generate and propa
 
 The input edit and model weights are known. The desired explanation must specify an explicit update and computation budget, then forecast the native residual and verdict on fresh contexts before their True trajectories are measured. Replaying the whole counterfactual model is a useful reference, but is not the compact account this project seeks.
 
+## 296: query orientation recovers more, but both sufficient accounts fail
+
+On32 new inputs sealed before native measurement, magnitude-only queries pass
+**0/32**, direction-only **1/32**, frozen queries and matched random turns **0/32**
+complete native tests. Both population hypotheses fail. Direction-only nevertheless
+reduces median receiving-vector error from47.44% to6.45%, and margin error
+from2.419 to.119nats. A favorable median is not complete native accuracy.
+
+All39,704 required checks pass; **56/168 original raw-logit diagnostics remain
+failed** under the predeclared probability/output qualification. The progress-only
+296b continuation preserves the original stop and exact replay. Dense finite
+source/keys/values/MLPs/head remain, and current queries are still computed.
+No compact predictor, learned circuit or general Question B solution is claimed.
+
+[Native result and remaining question](analysis/296-query-geometry.md) ·
+[All evidence](../results/query-geometry-296/README.md) ·
+[Reproduce](../research/README.md#query-geometry-296)
+
 ## 295: actual drive helps; this local diagnostic line is now closed
 
 The fixed endpoint-driven rule passes **40/48** local vector tests but fails

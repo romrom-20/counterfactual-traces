@@ -40,7 +40,7 @@ def release(phase):
         files.update((ROOT / "docs/figures/query-geometry-296").glob("*"))
         files.update(
             ROOT / "research/boolean_coupling" / n
-            for n in ["publish296.py", "describe296.py", "verify296.py"]
+            for n in ["publish296.py", "describe296.py", "verify296.py", "reproduce296.py"]
         )
     write(
         dest / "release-manifest.json",
@@ -137,10 +137,24 @@ def publish(run, cpu, old, phase):
     if phase == "native-phase":
         fs = read(run / "forecast-status.json")
         ns = read(run / "native-status.json")
+        old_counts = {
+            k: sum(
+                read(DEST / "pre-native/cases" / (e["key"] + ".json"))["counts"].get(k, 0)
+                for e in fs["cases"][:2]
+            )
+            for k in fs["counts"]
+        }
         write(
             dest / "cost.json",
             dict(
                 original_stopped_full_forwards=16,
+                original_stopped_counts=old_counts,
+                total_extra_QK_softmax_PV_each=old_counts["extra_full_QK_softmax_PV_each"]
+                + fs["counts"]["extra_full_QK_softmax_PV_each"]
+                + ns["counts"]["extra_full_QK_softmax_PV_each"],
+                total_witness_extra_QK=old_counts["witness_extra_QK"]
+                + fs["counts"]["witness_extra_QK"]
+                + ns["counts"]["witness_extra_QK"],
                 completed_forecast_counts=fs["counts"],
                 native_counts=ns["counts"],
                 total_checkpoint_full_forwards=16
