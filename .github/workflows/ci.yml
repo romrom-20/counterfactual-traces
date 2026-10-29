@@ -80,5 +80,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify294.py
       - name: Verify directed endpoint/path diagnostic and frozen stopping rule
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify295.py
+      - name: Verify sealed query magnitude/direction forecasts before native outcomes
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify296.py --phase forecast
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
