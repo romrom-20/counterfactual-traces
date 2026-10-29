@@ -1830,3 +1830,12 @@ Forecast/native archives and witnesses remain local; public inventories list
 hashes, sizes, shapes and dtypes. `publish296`, `describe296` and `verify296`
 preserve delivery provenance and record arithmetic, not independent checkpoint
 replication. No297 is launched by this reproduction.
+
+## Shared model cache and disk space
+
+Use one Hugging Face cache outside `runs`, and retain only the raw experiment
+data needed for ongoing analysis. A historical `qwen15` output folder contains
+results, not another copy of Qwen. See [storage policy](../docs/STORAGE.md).
+For new model jobs, `python research/run_with_shared_cache.py -- <command>`
+makes the shared cache explicit and checks an 8 GiB free-space reserve without
+changing any frozen scientific runner or its own stricter guards.

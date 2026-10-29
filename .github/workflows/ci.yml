@@ -84,5 +84,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify296.py --phase forecast
       - name: Verify native query geometry outcomes, qualifications and failed primary
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify296.py --phase native
+      - name: Check shared model cache and pre-launch disk guards
+        run: uv run --no-project --python 3.12 python -m unittest discover -s tests -p test_shared_model_cache.py
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
