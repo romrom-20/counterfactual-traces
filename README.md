@@ -13,7 +13,25 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: context selection retains more, but neither query route is sufficient
+## Latest: selected message positions fit a scalar contrast, but miss the vectors
+
+At eight retained native inputs, adding/removing the message changes from the
+schema-chosen positions passes **0/8** complete conditional tests; their union
+also passes0/8. The chosen positions pass the scalar component in all four
+descriptive cases, while missing their residual vectors. Five effects are
+material; all eight cases remain denominator. This rejects the tested position
+account and does not explain the full native Boolean response.
+
+Native terminal replay is exact.1,424 required checks pass under the declared
+boundary, while **160/160 narrow coordinate diagnostics remain failed**. A
+separately frozen720-check CPU64 contrast review leaves all decisions unchanged.
+No full transformer forward, historical pipeline replay or private article push.
+
+[Result and scope](docs/analysis/298-context-messages.md) ·
+[Evidence](results/context-messages-298/README.md) ·
+[Reproduce](research/README.md#context-messages-298)
+
+## Earlier: context selection retains more, but neither query route is sufficient
 
 On32 new inputs sealed before native measurement, query adaptation restricted
 to source attention allocation or to selection among other positions each passes
