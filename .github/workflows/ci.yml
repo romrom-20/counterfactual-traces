@@ -92,5 +92,7 @@ jobs:
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify297.py --phase native
       - name: Verify retrospective message interventions and retained numerical failures
         run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify298.py
+      - name: Verify sealed query-generator operand forecasts
+        run: uv run --no-project --python 3.12 python -S research/boolean_coupling/verify299.py --phase forecast
       - name: Compile published Python sources without model imports
         run: uv run --no-project --python 3.12 python -m compileall -q research/boolean_coupling results/baseline-interaction-225b/frozen-225/research/boolean_coupling results/baseline-interaction-225b/frozen-225b/research/boolean_coupling
