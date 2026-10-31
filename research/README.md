@@ -1882,3 +1882,56 @@ never the checkpoint. It verifies archive save/reload and the actual frozen
 execution/audit functions. It supplies no new scientific outcome. The production
 experiment uses288 full checkpoint forwards plus all extra attention operations;
 see its full cost record. Historical raw arrays are not automatically regenerated.
+
+## Context messages298
+
+[Report](../docs/analysis/298-context-messages.md) and
+[protocol](../docs/experiments/298-context-messages.md) test finite addition/removal
+of selected message changes at fixed known native last-block inputs. The primary
+and union each fail0/8 full conditional tests. A scalar component passes four
+descriptive cases while vectors fail. No prospective native prediction is claimed.
+
+Check source/parent seals, arithmetic, every failed diagnostic and qualifications:
+
+```sh
+python -S research/boolean_coupling/verify298.py
+```
+
+With original local297 parents, numerically repeat the terminal interventions:
+
+```sh
+PYTHONPATH=research python research/run_with_shared_cache.py -- \
+  python -m boolean_coupling.reproduce298 --offline \
+  --parent runs/query-routes-297 --out runs/context-messages-repetition
+```
+
+A clone does not contain the original raw parents. To deliberately recreate
+parents on the original MPS/Float32/eager setup, use297's standalone numerical
+reproduction, then pass that output directory as the parent. This is an explicit
+repetition on already-public inputs, not fresh confirmation or routine cleanup:
+
+```sh
+PYTHONPATH=research python research/run_with_shared_cache.py -- \
+  python -m boolean_coupling.reproduce297 --offline --out runs/parent-repetition-297
+PYTHONPATH=research python research/run_with_shared_cache.py -- \
+  python -m boolean_coupling.reproduce298 --offline \
+  --parent runs/parent-repetition-297 --out runs/message-repetition-298
+```
+
+All output folders must be new. Model weights use the one shared offline cache,
+with8GiB reserve.298 itself needs no full transformer forward: it loads the last
+MLP/norms/output matrix/full head, retains the full matrix shapes, requires exact
+native calibration, saves every variant and original raw failure, and caps new
+raw output at64MiB. Supplied native parents are an explicit information budget.
+Its source/parent checks never turn this into a False-only forecast.
+
+The save/reload and qualification wrapper has a two-case random CPU I/O exercise:
+
+```sh
+PYTHONPATH=research python -m boolean_coupling.reproduce298 \
+  --tiny-fixture --out runs/context-messages-cpu
+```
+
+This adds18 tiny full forwards,40 terminal calls and356 checks. It does not load
+the checkpoint or supply new scientific confirmation. The original140 scientific
+sources and the separately frozen posthoc numerical review remain unchanged.

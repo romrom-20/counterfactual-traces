@@ -1,0 +1,4886 @@
+{
+  "arrays": [
+    {
+      "path": "cases/6911ddd984543c3625fcfb760e945486d0d73acdcbee59abf10f39e682e2f1df.npz",
+      "sha256": "02f6925c7ec81d2e6f754ad1248f79bc2f54987640093521fc22ec385b8e3f0f",
+      "bytes": 2200124,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/6e7bdffc9d591472450b4310637745b2a04ff37aeed5f6e435c8c1950922e746.npz",
+      "sha256": "ff913718aca87489067465bf4449be9ca246d4e10f815f95e48de54bc42068a8",
+      "bytes": 1764191,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/5fedcbca1af04f85cbea2d82ae08859d8cf7e83f2cde776bc90af3d4a8c7b559.npz",
+      "sha256": "26967c43d986534bc7e42c7af636fba07d7091d32a47f84d6d266ba9eb27ed6a",
+      "bytes": 2200793,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/b8a391c47e8dfd10b86e16bad3a7a6cb8a43283bf5def9129c4017b306880847.npz",
+      "sha256": "5834cfc1b19e68dc1b9d3c51479f7af3b6aaf923da75358da26b6c548d338067",
+      "bytes": 1764836,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/9e5081ac7e65454f841a2e1e82b2ddaf134cc459c82e4b14a23cc3b4363c4729.npz",
+      "sha256": "2f87e89212a9defa32fb234aee61954c4288016a0db102f9fe3d3a5071b5f041",
+      "bytes": 2200163,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/2dfe7bf6a128be89230c5e363df91bf1a9f3d84e45a7a6d9adbc058ed9cd41b0.npz",
+      "sha256": "05ae0cb513fef799282c1c5ef549f15e653afa2de8c46cd69e44b74d7a7aaa14",
+      "bytes": 1764746,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/9f8afe26ca5da15d084929c8880beac21fc1618ee2d26167a20e6b2e4f45f9b1.npz",
+      "sha256": "45d5b55c6c2154a42fcf95d25b0512f1873cd2a1fed6e8a1e95f8f0a8f056e8c",
+      "bytes": 2200263,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            5,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "cases/9fe728f538ae3cfd7e20b9f161fbd9bf8cae884f4c331320aa41892810499606.npz",
+      "sha256": "bd32f86eec9e68190ffdf87ba6eb678dba98d2c1c825da7ba7e4b5ee368560a4",
+      "bytes": 1764822,
+      "arrays": {
+        "native_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "delta_chosen": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_swapped": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_union": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_complement": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_neighbor": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_all": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_zero": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random1": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "delta_random2": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float64"
+        },
+        "native_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "native_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "frozen_query_reference_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "chosen_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "swapped_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "union_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "complement_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "neighbor_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random1_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "random2_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "all_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_add_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_middle": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_write": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_final": {
+          "shape": [
+            4,
+            1536
+          ],
+          "dtype": "float32"
+        },
+        "zero_remove_scores": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  ],
+  "raw_bytes": 15859938,
+  "boundary": "Local archives retained; public hashes/shapes are not independent reconstruction."
+}
