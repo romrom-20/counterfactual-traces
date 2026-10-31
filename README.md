@@ -13,7 +13,24 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: neither query-generator operand is sufficient alone
+## Latest: two joint-write pieces, neither sufficient alone
+
+At eight known native contexts, block-15 interventions separate a joint write
+into nonlinear attention integration and a transmitted query-generator
+interaction. Restoring either alone passes **0/8** complete conditional tests;
+restoring both replays the native trajectory exactly. Only five effects meet the
+frozen materiality guard, and all eight remain in every denominator.
+
+The attention piece recovers the residual better, while the transmitted query
+piece has smaller median scalar error. Neither comparison identifies a learned
+circuit or predicts from False alone. All 864 required checks and 40 raw
+coordinate diagnostics pass; older failures remain unchanged.
+
+[Conditional mechanism and limits](docs/analysis/300-query-interaction.md) ·
+[Evidence](results/query-interaction-300/README.md) ·
+[Reproduce](research/README.md#native-query-interaction-300)
+
+## Earlier: neither query-generator operand is sufficient alone
 
 On 32 new inputs, queries driven by current carried states with False MLP writes,
 or by current recent MLP writes with False carried states, each pass **0/32**

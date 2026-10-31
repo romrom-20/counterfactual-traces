@@ -1953,3 +1953,35 @@ The record verifier uses only the standard library. Repetition requires the
 pinned Qwen weights, NumPy, PyTorch, Transformers and the Mac MPS runtime used by
 this project. `--tiny-fixture` instead exercises CPU save/reload/qualification on
 a random small model. It is not checkpoint evidence or fresh experimental data.
+
+## Native query interaction (300)
+
+[Result and scope](../docs/analysis/300-query-interaction.md) · [Frozen protocol](../docs/experiments/300-query-interaction.md).
+This is a retrospective fixed-block intervention using already measured native
+parents, not a False-only forecast or new confirmation. Record verification uses
+only the standard library:
+
+```sh
+python research/boolean_coupling/verify300.py
+```
+
+To repeat the48 diagnostic forwards using an original299 run directory:
+
+```sh
+python research/run_with_shared_cache.py -- python -m research.boolean_coupling.reproduce300 --parent /path/to/query-generators-299 --out /path/to/new-output --offline
+```
+
+Without those arrays, deliberately regenerate the parents with the unchanged299
+implementation. This adds72 full model forwards, for120 total, and requires exact
+parent archive hashes; it is numerical repetition of public inputs. It does not
+fill or overwrite historical run directories. This checkpoint bootstrap mode was
+not executed for the published300 result.
+
+```sh
+python research/run_with_shared_cache.py -- python -m research.boolean_coupling.reproduce300 --bootstrap-parents --out /path/to/new-output --offline
+```
+
+Both commands require the pinned shared offline checkpoint, the project's Mac MPS
+runtime, PyTorch, Transformers and NumPy; they enforce an8GiB reserve and256MiB
+new-archive cap. `--tiny-fixture` exercises save/reload/qualification on two random
+CPU-model contexts instead; that I/O fixture was executed, without a checkpoint.
