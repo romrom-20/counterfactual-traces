@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import statistics
 import subprocess
 from pathlib import Path
 
@@ -321,6 +322,16 @@ def verify(root, phase):
                 boolean(r, "passes") == ok and boolean(r, "effect_passes") == effect_ok,
                 "Frozen decisions",
             )
+        descriptive = read(dest / "descriptive-summary.json")
+        require(descriptive["descriptive"] and descriptive["all_32_cases"], "Descriptive scope")
+        for arm in ARMS:
+            rr = [r for r in native if r["arm"] == arm]
+            for field, value in descriptive["medians"][arm].items():
+                close(
+                    value,
+                    statistics.median(number(r, field) for r in rr),
+                    "All-case descriptive median",
+                )
         pop, effect_pop = population(native, "passes"), population(native, "effect_passes")
         require(
             na["populations"] == pop

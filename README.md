@@ -13,7 +13,25 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: query orientation recovers more, but both sufficient accounts fail
+## Latest: context selection retains more, but neither query route is sufficient
+
+On32 new inputs sealed before native measurement, query adaptation restricted
+to source attention allocation or to selection among other positions each passes
+**0/32** complete native tests. Both sufficient accounts fail. Context selection
+nevertheless gives16.44% median receiving-vector error versus46.11% for source
+allocation alone, and.504nat margin error versus2.562nats.
+
+At preselected native inputs, context selection also carries most of the local
+query-induced write's signed projection. Those local measurements are not final
+verdict percentages or full-vector accuracy. All39,368 required checks and288
+raw-logit diagnostics pass for this run; previous numerical failures remain.
+No learned circuit, compact predictor or general Question B solution is claimed.
+
+[Native result and remaining question](docs/analysis/297-query-routes.md) ·
+[All evidence](results/query-routes-297/README.md) ·
+[Reproduce](research/README.md#query-routes-297)
+
+## Earlier: query orientation recovers more, but both sufficient accounts fail
 
 On32 new inputs sealed before native measurement, magnitude-only queries pass
 **0/32**, direction-only **1/32**, frozen queries and matched random turns **0/32**
