@@ -1985,3 +1985,26 @@ Both commands require the pinned shared offline checkpoint, the project's Mac MP
 runtime, PyTorch, Transformers and NumPy; they enforce an8GiB reserve and256MiB
 new-archive cap. `--tiny-fixture` exercises save/reload/qualification on two random
 CPU-model contexts instead; that I/O fixture was executed, without a checkpoint.
+
+## Equivalent alias source routes (301)
+
+Read [the result](../docs/analysis/301-equivalent-alias-source-routes.md) and [protocol](../docs/experiments/301-equivalent-alias-source-routes.md).
+The original paired forecasts were globally sealed before ordinary native True.
+Later numerical repetition explicitly uses per-pair native measurements on
+already-public inputs; it is not fresh confirmation. It uses two False
+observations per task pair and 448 full model forwards, plus the additional
+source-attention and finite-head work recorded in the result.
+
+```sh
+python research/boolean_coupling/verify301.py --phase native
+python research/run_with_shared_cache.py -- python -m research.boolean_coupling.reproduce301 --out /path/to/new-output --offline
+python -m research.boolean_coupling.emission301 --run /path/to/new-output --out /path/to/new-output/source-profile
+```
+
+The verifier is standard-library-only. Numerical repetition requires the pinned
+offline shared checkpoint, Mac MPS runtime, NumPy, PyTorch and Transformers, and
+checks an 8 GiB reserve/768 MiB new-archive cap. It neither overwrites historical
+runs nor restores pruned arrays. `--tiny-fixture` instead tests CPU save/reload
+and qualification on two small random-model pairs; it is not checkpoint evidence.
+The optional emission profile is a read-only posthoc description for the full
+32-pair checkpoint cohort. It does not rescue failed hypotheses.

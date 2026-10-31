@@ -137,7 +137,13 @@ def release(phase):
         files.update((ROOT / "docs/figures/alias-source-routes-301").glob("*"))
         files.update(
             ROOT / "research/boolean_coupling" / name
-            for name in ["publish301.py", "describe301.py", "verify301.py", "reproduce301.py"]
+            for name in [
+                "publish301.py",
+                "describe301.py",
+                "verify301.py",
+                "reproduce301.py",
+                "emission301.py",
+            ]
         )
     write(
         dest / "release-manifest.json",

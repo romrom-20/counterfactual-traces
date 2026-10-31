@@ -297,6 +297,61 @@ def verify(root, phase):
         require(len(v) == len(ix) == 512, "Complete vector coverage")
         for r in v:
             vstats(r)
+        emission = read(dest / "emission-records.json")
+        require(
+            emission["posthoc"]
+            and emission["model_forwards"] == 0
+            and not emission["numerical_repetition"]
+            and emission["first_layer_exact_pairs"] == 32
+            and emission["source_script_sha256"]
+            == sha(root / "research/boolean_coupling/emission301.py"),
+            "Posthoc descriptive emission scope",
+        )
+        fsix = {r["key"]: r for r in st["cases"]}
+        nsix = {r["key"]: r for r in ns["cases"]}
+        require(len(emission["inputs"]) == 32, "All emission inputs")
+        for e in emission["inputs"]:
+            require(
+                e["forecast_arrays_sha256"] == fsix[e["key"]]["arrays_sha256"]
+                and e["native_arrays_sha256"] == nsix[e["key"]]["arrays_sha256"],
+                "Emission raw-parent binding",
+            )
+        for field in ("statistics", "residual_statistics"):
+            rr = emission[field]
+            require(
+                len(rr) == 896 and len({(r["key"], r["layer"]) for r in rr}) == 896,
+                "All28 source layers, all32 pairs",
+            )
+            for r in rr:
+                vstats(r)
+        for r in emission["statistics"]:
+            if r["layer"] == 1:
+                require(
+                    r["first_layer_exact_equal"]
+                    and r["relative"] == 0
+                    and r["cosine"] > 0.999999999,
+                    "Initial emission identity",
+                )
+        profiles = rows(dest / "emission-profile.csv")
+        require(len(profiles) == 28, "Full emission profile")
+        for row in profiles:
+            layer = int(row["layer"])
+            ee = [r for r in emission["statistics"] if r["layer"] == layer]
+            hh = [r for r in emission["residual_statistics"] if r["layer"] == layer]
+            for field, values in [
+                ("median_cosine", [r["cosine"] for r in ee]),
+                ("median_relative", [r["relative"] for r in ee]),
+                (
+                    "median_norm_ratio",
+                    [
+                        (r["prediction_squared_norm"] / max(r["target_squared_norm"], 1e-30)) ** 0.5
+                        for r in ee
+                    ],
+                ),
+                ("residual_median_relative", [r["relative"] for r in hh]),
+                ("residual_median_cosine", [r["cosine"] for r in hh]),
+            ]:
+                close(number(row, field), statistics.median(values), "Posthoc all-case profile")
         fs = {r["key"]: r["scores"] for r in read(pre / "scores.json")["cases"]}
         ts = {r["key"]: r["scores"] for r in read(dest / "scores.json")["cases"]}
         coupling = rows(dest / "couplings.csv")
