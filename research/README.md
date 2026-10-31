@@ -1839,3 +1839,46 @@ results, not another copy of Qwen. See [storage policy](../docs/STORAGE.md).
 For new model jobs, `python research/run_with_shared_cache.py -- <command>`
 makes the shared cache explicit and checks an 8 GiB free-space reserve without
 changing any frozen scientific runner or its own stricter guards.
+
+## Query routes297
+
+[Report](../docs/analysis/297-query-routes.md) and
+[protocol](../docs/experiments/297-query-routes.md) compare source attention mass
+with conditional selection among other positions. Both native sufficient accounts
+fail0/32. The original global seal precedes all native measurements. One False
+query trace, known edit and the candidate's own full finite computation remain;
+this is not a compact prediction method or learned-circuit explanation.
+
+Run the stdlib record checks without model dependencies or activation arrays:
+
+```sh
+python -S research/boolean_coupling/verify297.py --phase forecast
+python -S research/boolean_coupling/verify297.py --phase native
+```
+
+Numerically repeat the frozen rules on the already-public inputs on the original
+MPS/Float32/eager setup, using the pinned checkpoint in the shared offline cache:
+
+```sh
+PYTHONPATH=research python research/run_with_shared_cache.py -- \
+  python -m boolean_coupling.reproduce297 --offline --out runs/query-routes-repetition
+```
+
+The new output directory must not exist. The launcher requires8GiB free and
+reuses the shared Hugging Face cache. The wrapper caps raw data at768MiB, checks
+sources against the original133-file seal, saves every outcome and qualifies
+kernels/heads. Its32 native references are measured per case after that case's
+forecasts; it explicitly reports numerical_repetition=True and
+globally_pre_native=False. This is not another prospective confirmation.
+No GitHub write access or historical raw arrays are needed. Tiny CPU I/O exercise:
+
+```sh
+PYTHONPATH=research python -m boolean_coupling.reproduce297 \
+  --tiny-fixture --out runs/query-routes-cpu
+```
+
+The tiny mode uses two unequal random CPU inputs,18 tiny forwards and1,088 checks,
+never the checkpoint. It verifies archive save/reload and the actual frozen
+execution/audit functions. It supplies no new scientific outcome. The production
+experiment uses288 full checkpoint forwards plus all extra attention operations;
+see its full cost record. Historical raw arrays are not automatically regenerated.
