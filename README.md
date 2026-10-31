@@ -13,7 +13,24 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: selected message positions fit a scalar contrast, but miss the vectors
+## Latest: neither query-generator operand is sufficient alone
+
+On 32 new inputs, queries driven by current carried states with False MLP writes,
+or by current recent MLP writes with False carried states, each pass **0/32**
+complete native-response tests. Their median receiving-vector errors are 40.07%
+and 47.27%; both frozen sufficient accounts fail. The finite network remains live.
+
+At supplied native inputs, the late local contribution can be large while the
+corresponding evolving policy cannot generate accurate incoming states. All
+55,280 required checks and 576 raw query-coordinate diagnostics pass in this run;
+older numerical failures remain unchanged. No learned circuit or compact predictor
+is claimed.
+
+[Result and scope](docs/analysis/299-query-generators.md) ·
+[Evidence](results/query-generators-299/README.md) ·
+[Reproduce](research/README.md#query-generator-operands-299)
+
+## Earlier: selected message positions fit a scalar contrast, but miss the vectors
 
 At eight retained native inputs, adding/removing the message changes from the
 schema-chosen positions passes **0/8** complete conditional tests; their union

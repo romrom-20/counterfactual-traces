@@ -140,7 +140,7 @@ def release(phase):
     files.update(ROOT / name for name in design["source_hashes"])
     if phase == "native-phase":
         files.add(DEST / "pre-native/release-manifest.json")
-        files.add(ROOT / "docs/analysis/299-query-routes.md")
+        files.add(ROOT / "docs/analysis/299-query-generators.md")
         files.update((ROOT / "docs/figures/query-generators-299").glob("*"))
         files.update(
             ROOT / "research/boolean_coupling" / name
