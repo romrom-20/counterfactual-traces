@@ -1,0 +1,31 @@
+{
+  "total_checkpoint_full_forwards": 288,
+  "completed_forecast_counts": {
+    "extra_full_RMSNorm": 5400,
+    "witness_extra_full_query_projection": 288,
+    "witness_extra_full_QK": 288,
+    "witness_extra_full_softmax": 288,
+    "witness_extra_full_PV": 288,
+    "full_forwards": 224
+  },
+  "native_counts": {
+    "extra_full_RMSNorm": 1008,
+    "witness_extra_full_query_projection": 144,
+    "witness_extra_full_QK": 144,
+    "witness_extra_full_softmax": 144,
+    "witness_extra_full_PV": 144,
+    "full_forwards": 64
+  },
+  "ordinary_native_true_calls": 32,
+  "total_extra_full_RMSNorm": 6408,
+  "total_witness_query_projection": 432,
+  "total_witness_QK": 432,
+  "total_witness_softmax": 432,
+  "total_witness_PV": 432,
+  "query_weights_bytes": 26727208,
+  "head_bytes": 9367,
+  "host_audits_are_additional": true,
+  "wallclock_speedup_claimed": false,
+  "omitted_arrays_replicated": false,
+  "general_question_B_solved": false
+}

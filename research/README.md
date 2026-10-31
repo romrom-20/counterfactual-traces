@@ -1935,3 +1935,21 @@ PYTHONPATH=research python -m boolean_coupling.reproduce298 \
 This adds18 tiny full forwards,40 terminal calls and356 checks. It does not load
 the checkpoint or supply new scientific confirmation. The original140 scientific
 sources and the separately frozen posthoc numerical review remain unchanged.
+
+## Query-generator operands (299)
+
+Read [the result](../docs/analysis/299-query-generators.md) and [protocol](../docs/experiments/299-query-generators.md).
+The original forecasts were sealed globally before native True. A later numerical
+repetition uses already-public inputs and per-case native measurements; it is
+explicitly not a new prospective confirmation. The command uses one shared cache,
+checks an8GiB reserve and caps new archives at768MiB. It never refills old runs.
+
+```sh
+python research/boolean_coupling/verify299.py --phase native
+python research/run_with_shared_cache.py -- python -m research.boolean_coupling.reproduce299 --out /path/to/new-output --offline
+```
+
+The record verifier uses only the standard library. Repetition requires the
+pinned Qwen weights, NumPy, PyTorch, Transformers and the Mac MPS runtime used by
+this project. `--tiny-fixture` instead exercises CPU save/reload/qualification on
+a random small model. It is not checkpoint evidence or fresh experimental data.
