@@ -1,0 +1,169 @@
+"""Publish immutable 301 records; activation arrays and private drafts stay local."""
+
+import argparse
+from pathlib import Path
+
+import numpy as np
+
+from .publish285 import copy, read, safe_relative, sha, write
+
+ROOT = Path(__file__).resolve().parents[2]
+DEST = ROOT / "results/alias-source-routes-301"
+
+
+def inventory(run, phase, status):
+    arrays = []
+    folder = "forecasts" if phase == "pre-native" else "observations"
+    tag = "forecast" if phase == "pre-native" else "native"
+    for entry in status["cases"]:
+        for name in [folder, "witnesses-" + tag]:
+            path = run / name / (entry["key"] + ".npz")
+            if path.exists():
+                with np.load(path) as data:
+                    spec = {
+                        n: dict(shape=list(data[n].shape), dtype=str(data[n].dtype))
+                        for n in data.files
+                    }
+                arrays.append(
+                    dict(
+                        path=name + "/" + path.name,
+                        sha256=sha(path),
+                        bytes=path.stat().st_size,
+                        arrays=spec,
+                    )
+                )
+    return arrays
+
+
+def publish(run, cpu, phase):
+    dest = DEST / phase
+    assert not dest.exists()
+    before = phase == "pre-native"
+    audit = read(run / ("pre-audit.json" if before else "audit.json"))
+    assert audit["status"] == "passed" and not audit["scientific_outcomes_withheld"]
+    if before:
+        assert not list((run / "observations").glob("*"))
+        names = [
+            "design.json",
+            "runtime.json",
+            "forecast-status.json",
+            "pre-audit.json",
+            "forecast-seal.json",
+            "pre-checks.csv",
+            "pre-raw-coordinates.csv",
+        ]
+        copy(cpu / "qualification.json", dest / "cpu-qualification.json")
+    else:
+        names = [
+            "native-status.json",
+            "measurement-proof.json",
+            "audit.json",
+            "checks.csv",
+            "raw-coordinates.csv",
+            "effects.csv",
+            "native-predictions.csv",
+            "couplings.csv",
+            "vector-records.json",
+        ]
+    for name in names:
+        copy(run / name, dest / name)
+    status = read(run / ("forecast-status.json" if before else "native-status.json"))
+    folder = "forecasts" if before else "observations"
+    scores = []
+    for entry in status["cases"]:
+        path = run / folder / (entry["key"] + ".npz")
+        copy(path.with_suffix(".json"), dest / "cases" / path.with_suffix(".json").name)
+        with np.load(path) as data:
+            scores.append(
+                dict(
+                    key=entry["key"],
+                    scores={n: data[n].tolist() for n in data.files if n.endswith("_scores")},
+                )
+            )
+    write(dest / "scores.json", dict(cases=scores))
+    write(
+        dest / "omitted-array-inventory.json",
+        dict(
+            arrays=inventory(run, phase, status),
+            raw_bytes=status["raw_bytes"],
+            boundary="Hashes/shapes/metadata only; original activation arrays remain local.",
+        ),
+    )
+    if not before:
+        forecast = read(run / "forecast-status.json")
+        write(
+            dest / "cost.json",
+            dict(
+                total_checkpoint_full_forwards=forecast["counts"]["full_forwards"]
+                + status["counts"]["full_forwards"],
+                completed_forecast_counts=forecast["counts"],
+                native_counts=status["counts"],
+                ordinary_native_true_calls=64,
+                total_extra_full_QK_softmax_PV_each=sum(
+                    s["counts"]["extra_full_QK_softmax_PV_each"] for s in [forecast, status]
+                ),
+                total_witness_full_QK=sum(
+                    s["counts"]["witness_extra_full_QK"] for s in [forecast, status]
+                ),
+                extra_final_norms=forecast["counts"]["extra_full_final_norm"],
+                extra_full_vocabulary_heads=forecast["counts"]["extra_full_vocabulary_head"],
+                output_maps_bytes=(run / "output-maps.npz").stat().st_size,
+                head_bytes=(run / "head.npz").stat().st_size,
+                host_audits_are_additional=True,
+                wallclock_speedup_claimed=False,
+                omitted_arrays_replicated=False,
+                general_question_B_solved=False,
+            ),
+        )
+    (dest / "README.md").write_text(
+        "# 301 " + phase + "\n\n"
+        "Immutable records for equivalent metadata aliases routed through the source or remaining context.\n"
+        "The pre-native release precedes ordinary True measurements. Native outcomes\n"
+        "and source-trajectory qualifications are released afterward.\n"
+        "Required output checks and original raw-coordinate diagnostics remain separate.\n"
+        "Metadata verifiers do not reconstruct omitted arrays or independently repeat\n"
+        "the checkpoint. All work and original failures remain explicit.\n"
+    )
+
+
+def release(phase):
+    dest = DEST / phase
+    design = read(DEST / "pre-native/design.json")
+    files = {p for p in dest.rglob("*") if p.is_file() and p.name != "release-manifest.json"}
+    files.update(ROOT / name for name in design["source_hashes"])
+    if phase == "native-phase":
+        files.add(DEST / "pre-native/release-manifest.json")
+        files.add(ROOT / "docs/analysis/301-equivalent-alias-source-routes.md")
+        files.update((ROOT / "docs/figures/alias-source-routes-301").glob("*"))
+        files.update(
+            ROOT / "research/boolean_coupling" / name
+            for name in [
+                "publish301.py",
+                "describe301.py",
+                "verify301.py",
+                "reproduce301.py",
+                "emission301.py",
+            ]
+        )
+    write(
+        dest / "release-manifest.json",
+        dict(
+            experiment=301,
+            phase=phase,
+            files={safe_relative(p, ROOT): sha(p) for p in sorted(files)},
+            boundary="Record integrity, source ancestry and scalar/vector arithmetic; not independent model or activation-array replication.",
+        ),
+    )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--run", type=Path)
+    parser.add_argument("--cpu", type=Path)
+    parser.add_argument("--phase", choices=["pre-native", "native-phase"], required=True)
+    parser.add_argument("--release-only", action="store_true")
+    args = parser.parse_args()
+    if not args.release_only:
+        publish(args.run.resolve(), args.cpu.resolve(), args.phase)
+    if args.phase == "pre-native" or args.release_only:
+        release(args.phase)

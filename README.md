@@ -13,7 +13,26 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: two joint-write pieces, neither sufficient alone
+## Latest: an equivalent metadata name changes the Boolean response
+
+With identical instructions, matched token positions and the same verdict field,
+choosing between two explicitly interchangeable metadata names changes Boolean
+coupling in **32/32** task pairs: median **3.438 nats**. The initial Boolean value
+change is identical; the source residual difference is already name-dependent
+after one block. The complete source trajectory can be generated exactly across
+names, but neither source-only nor remaining-context-only accounts recover the
+complete alias contrast (**0/32** each). All cases are material.
+
+All 60,352 required checks pass under the declared bounds; **96/576 narrow raw
+coordinate checks remain failed**. Forecasts were publicly sealed before ordinary
+True measurements. No learned circuit, compact predictor or general Question B
+solution is claimed; private articles remain excluded.
+
+[Controlled effect, causal routes and limits](docs/analysis/301-equivalent-alias-source-routes.md) ·
+[Evidence](results/alias-source-routes-301/README.md) ·
+[Reproduce](research/README.md#equivalent-alias-source-routes-301)
+
+## Earlier: two joint-write pieces, neither sufficient alone
 
 At eight known native contexts, block-15 interventions separate a joint write
 into nonlinear attention integration and a transmitted query-generator
