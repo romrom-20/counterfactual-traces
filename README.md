@@ -13,7 +13,23 @@ causal constraints in one small checkpoint and related synthetic tasks. Historic
 grounding controls failed; this is not a demonstration of disabling a competent
 verifier. Unpublished article drafts are excluded.
 
-## Latest: an equivalent metadata name changes the Boolean response
+## Latest: first-source geometry accounts fail their controlled tests
+
+On eight retained native contexts, keys alone, values alone and a False-query-
+invisible key component each pass **0/8** complete conditional tests. A defined
+rotary-phase reorientation leaves **83.85%** median source-contrast norm. Complete
+key/value replacement reproduces the donor first source and next emission exactly.
+
+All **8,000 required checks pass** under the predeclared output bounds;
+**384/768 raw-coordinate failures remain failed**. This closes the tested simple
+accounts. The posthoc joint ledger is reference-dependent; no learned circuit,
+compact predictor or general Question B solution is claimed.
+
+[Controlled result and limits](docs/analysis/302-first-source-geometry.md) ·
+[Evidence](results/first-source-geometry-302/README.md) ·
+[Reproduce](research/README.md#first-source-geometry-302)
+
+## Earlier: an equivalent metadata name changes the Boolean response
 
 With identical instructions, matched token positions and the same verdict field,
 choosing between two explicitly interchangeable metadata names changes Boolean

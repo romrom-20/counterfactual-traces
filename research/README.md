@@ -2008,3 +2008,24 @@ runs nor restores pruned arrays. `--tiny-fixture` instead tests CPU save/reload
 and qualification on two small random-model pairs; it is not checkpoint evidence.
 The optional emission profile is a read-only posthoc description for the full
 32-pair checkpoint cohort. It does not rescue failed hypotheses.
+
+## First source geometry (302)
+
+Read [the result](../docs/analysis/302-first-source-geometry.md) and
+[protocol](../docs/experiments/302-first-source-geometry.md). This is a retrospective
+conditional test, not a new False-only forecast.
+
+```sh
+python research/boolean_coupling/verify302.py
+python research/run_with_shared_cache.py -- python -m research.boolean_coupling.reproduce302 --out /path/to/new-output --bootstrap-parent --offline
+```
+
+`--bootstrap-parent` regenerates only the eight required known 301 parents using
+unchanged code, then runs 302: 496 full checkpoint forwards total, plus the
+parent attention/witness/head work declared in the result and repetition receipt. Use
+`--parent /path/to/original/alias-source-routes-301` instead for 384. Output paths
+must be new. One shared pinned offline checkpoint is reused. Full numeric repetition
+requires Mac MPS, NumPy, PyTorch and Transformers; record verification is stdlib-only.
+`--tiny-fixture` runs synthetic CPU qualification without the checkpoint.
+The tiny dispatcher was exercised; the full parent-bootstrap wrapper was not
+executed for this release. Repetition is not fresh confirmation.
